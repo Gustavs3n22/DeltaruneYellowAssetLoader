@@ -3,7 +3,7 @@
 
 <img width="800" height="450" alt="itspronouncedrules" src="https://github.com/user-attachments/assets/20e935d3-7760-45b6-94ef-8b3669429d57" />
 
-This is a simple mod for DrY that allows you to easily edit sprites, text and audio of the game.
+This is a simple mod for DrY that allows you to easily edit sprites, text and audio of the game. Based on [godot universal mod manager](https://github.com/KoBeWi/Godot-Universal-Mod-Manager).
 
 ## Installation and first steps
 
