@@ -1,0 +1,41 @@
+@MoAd
+name:Come to Mo's!
+text:Hey you [sir or madam]!\n\nLooking for the hottest bargains?! Then come to Mo's!\nOnly today, we are having an all out sale! Everything just ■■% off!\n\nWe will be waiting for you!
+backColor:0.5,1,1
+
+@KanakoDay2
+name:From Kanako: Cole!
+text:Hey sleepyhead!\n\nDid you manage to sleep at all tonight? My head is still spinning from yesterday.\n\nI'm sending this letter so you don't sleep too much! I'll go pick you up, so wait for me!\n[right]- Kanako
+backColor:1,0.8,0.95
+
+@VirgilDay2
+name:From Virgil: Partner...
+text:Don't forget to bring the "explosives" tonight.\n\nI'll be waiting for you at the same spot as last night. Come over once you have them.\n\nCome alone.\n[right]- Virgil
+
+@CrumpledNoteD2
+name:Crumpled Note
+text:Let's head back into the Dark Jail after class.\n\nThe Warden might know where the other Dark Worlds are.
+sound:null
+backColor:0.8,0.8,0.8
+
+@NoiseComplaint
+name:Noise Complaint
+text:Cole,\n\nWe received word that you again rang the school bell without permission and outside permitted hours.\nNow I know that you kids love doing these "pranks", but a citizen left town because of that.\nPlease refrain from doing it again or I will have to talk to Martlet about it.\n\n[right]- Mayor Starlo
+sound:null
+backColor:0.8,0.8,0.8
+
+@Bulletin1
+text:[center]- EASTWOOD CORNER -[/center]\n\nFormer member of the "Feisty Five" gang, Mooch, has been arrested for taking plates from the cafe. When inquired about as to why she had done that, her only reply was ";)", leaving everyone confused.\n\nWhile not a serious crime, and clearly her position as a former member of the Feisty Five, she was given a light sentence, and all plates will be returned to the cafe after passing through the evidence processing.
+sound:null
+
+@Bulletin1B
+text:"Hey, anyone know the lady from the electronics repairshop? Wasn't she like super hot-headed back in her younger days? I wonder if she mellowed out over the years, because MAN was she a menace!"
+sound:null
+
+@Bulletin2
+text:[center]- EASTWOOD CORNER -[/center]\n\nAn attack in the town's cafe last night has left the residents of Eastwood in a state of confusion, who would dare cause trouble in our quiet town?\n\nMayor Starlo has deployed our local police force, the members of the old "Feisty Five" group to handle the situation, so everyone can rest easy now.
+sound:null
+
+@Bulletin2B
+text:"Lately I've seen someone skulking by town late at night, I don't go out to confront them because no way I want to get involved with anything they do, but maybe that person was involved with the cafe incident? Why is the police not doing anything? Has no one submitted a tip yet? I mean I won't because I'm too scared but SOMEONE must, right?"
+sound:null

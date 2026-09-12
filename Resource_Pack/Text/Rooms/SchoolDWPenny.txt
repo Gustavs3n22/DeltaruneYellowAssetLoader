@@ -1,0 +1,864 @@
+@SaveMemoryGame
+>redirect:WeirdStart:SaveWeirdRoute
+>heal
+* You listen to the sound of leaves 
+  rustling in the wind. 
+* The calm of the forest...
+.
+* It fills you with a sense of 
+  serenity.
+>callsave
+END
+
+---
+
+@Thormas1
+>redirectmap:Thormas1:Thormas1B
+* Oh, there you guys are!
+>p:ThormasNormal
+>tc
+.
+* That guy up ahead might 
+  be the one that sold me 
+  the info!
+>p:ThormasNormal
+>tc
+.
+* You gotta convince him to 
+  let us get past! The 
+  fortress is just ahead!
+>p:ThormasNormal
+>tc
+>mapflag:Thormas1
+END
+
+--
+
+@Thormas1B
+* I tried to talk to him but
+  he only wants to do a
+  "business".
+>p:ThormasNormal
+>tc
+.
+* Maybe you two can figure a 
+  way to convince him to let 
+  us through!
+>p:ThormasNormal
+>tc
+END
+
+--
+
+@Thormas2
+* Nice! Now we can get to 
+  the fortress!
+* Good job!
+>p:ThormasNormal
+.
+* We are so close, guys!
+[shake]* SO CLOSE!
+>p:ThormasNormal
+.
+* ONWARDS!
+>p:ThormasHappy
+.
+* ...Just as soon as I grab
+  my stuff, so go on ahead.
+>p:ThormasNormal
+END
+
+--
+
+@Thormas2Anger
+* Well, that is one way to
+  get past.
+>p:ThormasShock
+.
+* Hope you save that energy 
+  for when we de-throne 
+  Bearing, though!
+>p:ThormasNormal
+.
+* ONWARDS!
+>p:ThormasHappy
+.
+* ...Just as soon as I grab
+  my stuff, so go on ahead.
+>p:ThormasNormal
+END
+
+--
+
+@ThormasGame
+* Hey, don't look at me!
+* I'm bad at these games.
+>p:ThormasShock
+>tc
+.
+* Ask Rocky, he is usually 
+  the best with those 
+  around.
+>p:ThormasNormal
+>tc
+END
+
+--
+
+@RockyFirst
+* Hello. 
+>p:Rocky
+>tc
+.
+* Ah! A talking rock!
+>p:KanakoDumb
+.
+* Yeah, I get that a lot.
+>p:Rocky
+>tc
+.
+* You passed by me a few 
+  times on the way here 
+  without even a hi.
+>p:Rocky
+>tc
+.
+* Oh, um, sorry?
+>p:KanakoNervous
+.
+* It is alright miss.
+* I am used to it.
+>p:Rocky
+>tc
+.
+* Either way, Bearing's 
+  fortress is just up ahead.
+>tc
+>p:Rocky
+.
+* We just have to get past 
+  that guy.
+>p:Rocky
+>tc
+.
+* Is it going to be a
+  difficult challenge?
+>p:KanakoPuff
+.
+* Nah. Just beat him at his 
+  game.
+* You'll see.
+>p:Rocky
+>tc
+>setflag:RockyIntroduction
+END
+
+--
+
+@Rocky1
+* That guy over there is a 
+  well known salesman of 
+  these parts.
+>p:Rocky
+>tc
+.
+* He knows the way into the
+  fortress, but I doubt he
+  will give it for free.
+>p:Rocky
+>tc
+.
+* Nothing is ever easy
+  here, is it?
+>p:KanakoNervous
+END
+
+--
+
+@RockyGame
+* This is a classic memory 
+  game.
+>p:Rocky
+>tc
+.
+* I'm terrible at these...
+>p:KanakoNervous
+.
+* If you had a way to take a 
+  snapshot before the cards
+  flipped, it would help.
+>p:Rocky
+>tc
+.
+* It is indeed cheating.
+* But if you're desperate, 
+  it is an option.
+>p:Rocky
+>tc
+.
+* ...I've tried.
+* My phone doesn't seem
+  to be working here...
+>p:KanakoNervous
+END
+
+--
+
+@Rocky2
+* The path is open, now we 
+  just have to get in.
+>p:Rocky
+>tc
+.
+* Go ahead, I'll catch up.
+>p:Rocky
+>tc
+END
+
+--
+
+@Rocky2Anger
+* Well, miss. I wasn't 
+  expecting you to just 
+  break the stand.
+>p:Rocky
+>mini:KanakoNeutral:...:240:57
+>tc
+.
+* But this leads us inside 
+  the fortress, so you 
+  won't see me complaning.
+>tc
+>p:Rocky
+END
+
+---------------------------
+---------------------------
+
+@KanakoLossNormal
+* Ugh, was never that
+  great at these games.
+>p:KanakoNervous
+.
+* Gonna try again?
+>p:KanakoPuff
+END
+
+-
+
+@KanakoLossNoPatience
+* ...Alright, we will
+  never get out of here.
+>p:KanakoOffended2
+.
+* Let's see if we can
+  convince the guy to
+  let us through.
+>p:KanakoOffended2
+END
+
+-
+
+@KanakoStartAnger1
+* Argh! This sucks.
+>p:KanakoOffended2
+.
+* We will never get
+  home at this rate...
+>p:KEEP
+END
+
+-
+
+@KanakoStartAnger2
+* ...We will never
+  get out of here
+  at this rate...
+>p:KanakoOffended2
+.
+* Can't you do a bit
+  better, Cole?
+>p:KEEP
+END
+
+-
+
+@KanakoStartAnger3
+* ......
+>p:KanakoAngry
+.
+* Let's... try to find
+  another way around.
+>p:KEEP
+END
+
+-
+
+@KanakoAngry1
+* Oh, too bad. Wanna try agai-
+>talk:PenGuy
+.
+* Enough.
+>p:KanakoAngry
+.
+* Just let us pass,
+>p:KEEP
+.
+* ...Please.
+>p:KEEP
+.
+* Look miss, I'm running a business
+  here, you should be thankful I'm
+  not even charging you for this-
+>talk:PenGuy
+.
+* Shut it.
+* I just... I just 
+  wanna go home.
+>p:KanakoAngry
+>anim:Kanako:FistNorth
+.
+* That ain't my problem, a deal
+  is a deal.
+* Beat the game, and you can go.
+>talk:PenGuy
+.
+* .........
+>p:KanakoAngry
+>prompt:Do nothing:Stop@Kanako
+>promptredirect:KanakoAngry1P1:END
+END
+
+-
+
+@KanakoAngry1P1
+* Just get out of the
+  way.
+>p:KanakoAngry
+.
+* Nah, miss. I won't be intimated
+  by you. No game, no pass.
+>talk:PenGuy
+.
+* ..........
+>p:KanakoAngry2
+END
+
+-
+
+@KanakoAngryAbort
+* Cole, what are you-
+>p:KanakoOffended2
+.
+* ...
+>p:KanakoSad2
+.
+[wave]* Sigh...
+>p:KanakoSad2
+.
+* You're right.
+* I... I shouldn't
+  lose my temper.
+>p:KanakoNeutral
+.
+* Let's... try again,
+  I suppose.
+>p:KanakoNeutral
+END
+
+---
+
+@KanakoAngry2
+* Hey, what's the idea?!
+* I'm just trying to make a 
+  livin' here!
+>talk:PenGuy
+.
+* But fine, be that way.
+* You won't be getting anything
+  else from me.
+>talk:PenGuy
+.
+* See you never.
+>talk:PenGuy
+END
+
+--
+
+@KanakoAngry3
+* ...Sorry.
+>p:KanakoSad2
+.
+* I'm at my wits end...
+* I...
+>p:KanakoSad2
+.
+* Let's...
+* Let's just go home.
+>p:KanakoNeutral
+END
+
+------
+
+@KanakoConvince1
+* Uh, this game is like,
+  totally rigged.
+>p:KanakoOffended2
+.
+* What?! How dare! I assure you
+  that no trickery is afoot!
+>talk:PenGuy
+.
+* C'mon dude, just let
+  us through, please.
+>p:KanakoOffended2
+.
+* We really just want to
+  go back home...
+>p:KanakoSad2
+.
+* Hmmm...
+* Well, you did give some genuine
+  attempts...
+>talk:PenGuy
+.
+* Fine. I will let you pass.
+* But you owe me.
+>talk:PenGuy
+.
+* I will come to collect later.
+* Don't worry, it isn't anything
+  big!
+>talk:PenGuy
+.
+* Well, off you go!
+>talk:PenGuy
+END
+
+---------------------------
+---------------------------
+
+@PenGuy1
+* Oh, finally! Some customers!
+* Been way too long!
+>talk:PenGuy
+.
+* Oh, um.... Hello?
+* What do you do here?
+>p:KanakoPuff
+.
+* Ah, I used to host a game here, 
+  but due to Lord Bearing's...
+  Bearingness...
+>talk:PenGuy
+.
+* I am now jobless.
+>talk:PenGuy
+.
+* I even tried GIVING away money
+  [color=gray](so that I could get it back 
+  later)[/color]-
+>talk:PenGuy
+.
+* But even that didn't work.
+>talk:PenGuy
+.
+* But- You two! You are from out 
+  of town, are you not?
+* Maybe you want to play.
+>talk:PenGuy
+.
+* Err... Sorry. We are 
+  kinda in a hurry...
+>p:KanakoPuff
+.
+* ...
+>talk:PenGuy
+.
+* Ah! Wait a minute!
+>talk:PenGuy
+.
+* You are lightners, are you not!?
+>talk:PenGuy
+.
+* U-um...
+>p:KanakoScared
+.
+* Wait! It's fine! I have nothing 
+  against lightners.
+* I love lightners!
+>talk:PenGuy
+.
+>talk:PenGuy
+* [color=gray](And anyone with money, really!)[/color]
+.
+* I bet you want to find a way 
+  inside Lord Bearing's fortress, 
+  don't you?
+>talk:PenGuy
+>prompt:Yes:No
+>promptredirect:PenGuyP1:PenGuyP2
+END
+
+-----
+
+@PenGuyP1
+* Ah-ha! I knew it! You two do look 
+  like the "hero" types!
+>talk:PenGuy
+.
+* I'm fine with it, honestly. 
+* Everyone here is sad all the time.
+>talk:PenGuy
+.
+* Maybe it's for the best we fade 
+  away once again.
+>talk:PenGuy
+END
+
+-----
+
+
+@PenGuyP2
+* You can't fool me! There is no 
+  other reason why lightners would 
+  suddenly come here after so long.
+>talk:PenGuy
+.
+* I'm fine with this. Everyone is 
+  way too depressed right now.
+>talk:PenGuy
+.
+* Maybe it's for the best we fade 
+  away into obscurity once more.
+>talk:PenGuy
+END
+
+-----
+
+@PenGuy2
+* ...
+>p:KanakoNeutral
+.
+* Well, how about a deal?
+>talk:PenGuy
+.
+* You beat my game, and I will tell 
+  you how to get inside the 
+  fortress.
+>talk:PenGuy
+.
+* Oh, won't you get into 
+  trouble?
+>p:KanakoPuff
+.
+* Nah, Lord Bearing needs his 
+  "retirement" anyway. 
+* This has gone on for too long.
+>talk:PenGuy
+.
+* In return, all I want is one 
+  thing:
+* For you to beat my game!
+>talk:PenGuy
+.
+* Well, alright.
+* What game is it?
+>p:KanakoNeutral
+.
+* It's a simple memory game.
+>talk:PenGuy
+.
+* I wrote the instructions on a 
+  sign nearby.
+>talk:PenGuy
+.
+* Check it out and come back to me 
+  so we can start. 
+* I'll be waiting.
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyGamePrompt
+* So? Want to try my game?
+>talk:PenGuy
+>prompt:Yes:No
+END
+
+-----
+
+@PenGuyReturn
+* Ah, you actually came back!
+>talk:PenGuy
+.
+* Well, this time I've reopened 
+  my little game and upgraded 
+  it!
+>talk:PenGuy
+.
+* Well, not quite. What I mean
+  is if you keep beating it 
+  without losing once-
+>talk:PenGuy
+.
+* I'll pay you more each time.
+* But if you lose once you 
+  have to start over.
+>talk:PenGuy
+.
+* So, do we have a deal?
+* Yes? Good!
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyReturnWon
+* Here you go, kids.
+* Keep beating the game without
+  losing, and I'll give you more.
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyRefuse
+* Well, alright. Remember our deal,
+  though!
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyMinigameStart
+* I'll assume that you already 
+  read the instructions on the 
+  sign nearby.
+>talk:PenGuy
+.
+* Well, I'm going to start it.
+* Good luck!
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyGameRunning
+* What's it?
+* Cold feet?
+>talk:PenGuy
+.
+* There is no time limit, so take
+  your time.
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyWon
+* Well! Would you look at that!
+>talk:PenGuy
+.
+* Wasn't it fun? Come here for
+  your prize!
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyLose
+* Well, too bad.
+* You tried.
+>talk:PenGuy
+.
+* Come back here if you want
+  to try again.
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyEvent3
+* Well, that was fun.
+>talk:PenGuy
+.
+* It's been a really long time 
+  since anyone played the game, 
+  much less beat it!
+>talk:PenGuy
+.
+* Now, the reward!
+>p:KanakoNormal
+.
+* Right. As promised, I will tell
+  you how to get inside Bearing's
+  fortress...
+>talk:PenGuy
+.
+* See this path behind me?
+* Just follow it.
+>talk:PenGuy
+.
+* I'll head up there and show you
+  where to enter.
+* Ta-ta!
+>talk:PenGuy
+.
+* Finally...
+* Let's get on with it.
+>p:KanakoNervous
+END
+
+-----
+
+@PenGuy3
+* What you waiting for?
+* Fortress is up ahead.
+>talk:PenGuy
+END
+
+----
+
+@YellowPaint
+* A can of yellow paint.
+.
+* ...
+.
+* There is no reason to pick it up.
+END
+
+-----
+
+@MemoryGameSign
+* Rules for the game:
+* Just find matching cards by 
+  INTERACTing with them.
+.
+* If you get it wrong 5 times, 
+  you lose.
+.
+* [color=gray](Also, I'll pay you some dollars 
+  if you win, so please play 
+  and come back!)
+.
+* [color=gray](Unless we agree on something
+  else (Preferably).)[/color]
+.
+* (The whole last part seems hastly
+  scribbled in.)
+END
+
+-----
+
+
+@Pennilton1
+* There he is!
+>p:KanakoOffended
+.
+* DOH!
+* H-How did you find me...?!
+>face:Pennilton:Left
+>anim:Pennilton:Hurt
+.
+* No matter! You are still
+  LIGHTYEARS behind ever 
+  catching me!
+>anim:Pennilton:Idle
+END
+
+---
+
+@PenniltonAngry1
+* You're not getting
+  away this time!
+>p:KanakoAngry3
+END
+
+---
+
+@PenniltonAngry2
+* Wow! Feisty today, ain't ya?
+.
+* Still too slow! Later, 
+  suckers!
+END
+
+--
+
+@PenniltonNormal1
+* Quick Cole!
+* Grab him!
+>p:KanakoOffended
+END
+
+--
+
+@PenniltonNormal2
+* Oh ho! Too slow! Can't touch
+  the NUMBER ONE!
+.
+* Later, suckers!
+END
+
+--
+
+@PenniltonEscape
+* Aargh!
+* He got away again!
+>p:KanakoOffended
+.
+* We need to figure
+  out where he is 
+  going...
+>p:KanakoSad2
+.
+* Maybe someone else
+  will know? Let's
+  ask around.
+>p:KanakoNeutral
+END
+
+-----
+
+@YellowPaintEvent1
+* Well, thanks for entertaining
+  me at the very least.
+>talk:PenGuyPaint
+.
+* As promised, here is the way
+  inside the fortress.
+>talk:PenGuyPaint
+.
+* I even [color=yellow]labeled[/color] it with [color=yellow]yellow 
+  paint[/color] so you [color=yellow]know[/color] where to [color=yellow]climb[/color].
+>talk:PenGuyPaint
+.
+* Oh, um, thanks...?
+>p:KanakoPuff
+.
+* No problem. Well, I'm off.
+* Come back sometime later if you
+  want to try my game again.
+>talk:PenGuyPaint
+.
+* Next time, I'll pay you.
+* Toodles!
+>talk:PenGuyPaint
+END
+
+-----
+
+@ClimbPrompt
+* Climb up?
+>prompt:Yes:No
+END
+
+--
+
+@PennyHint
+* Looks like some plastic coins.
+.
+* Seems fresh.
+END

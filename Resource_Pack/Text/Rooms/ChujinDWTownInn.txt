@@ -1,0 +1,254 @@
+@InnGuy1
+[wave]* Hmm Mnmm Mnmn mmm...[/wave]
+* Mmmm?
+>tc
+.
+* Hello?
+* Welcome to Robo-Inn.
+>tc
+.
+* If you want a room...
+* It will be 30 Dark Dollars for
+  all of you.
+>tc
+.
+* SEEMS LIKE A GOOD DEAL 
+  SO WE CAN RECHARGE OUR
+  BATTERIES.
+>p:AxisNormal
+.
+* Wait, we don't really
+  have time for this...
+>p:KanakoNervous
+.
+* MISS KANAKO, I ASSURE YOU
+  THIS PROCESS WILL BE 
+  QUICK AND PAINLESS.
+>p:AxisNormal
+.
+* What exactly do you
+  mean by that?!
+>p:KanakoDumb
+.
+* Mmhmhm mM m...
+* So, will you be staying?
+* 30 Dark Dollars.
+>tc
+>prompt:One room,@please.:Not this@time
+>showmoney
+END
+
+-
+
+@InnGuy2
+* Wait... Does that mean
+  we have to...
+* S-Share a room?!
+>p:KanakoBlushFlustered
+.
+* YES? THAT'S HOW THINGS
+  WORK HERE. DOING OTHER
+  WISE IS INNEFICIENT.
+>p:AxisNormal
+.
+* ..............
+>p:KanakoBlushFlustered
+.
+* MISS KANAKO, ARE YOU 
+  ALRIGHT?
+>p:AxisNormal
+.
+* L-Let's just get this
+  over with...
+>p:KanakoBlushFlustered
+END
+
+-
+
+@InnGuy3
+* .........
+>p:KanakoOffended2
+.
+* SOMETHING WRONG, MISS
+  KANAKO?
+>p:AxisNormal
+.
+* ...Where are the beds?
+>p:KanakoOffended2
+.
+* BEDS? WE DON'T USE THOSE
+  HERE IN ROBOTOPIA.
+>p:AxisNormal
+.
+* SEE THESE MACHINES? 
+>p:AxisNormal
+.
+* THEY WILL REPAIR US TO 
+  PROPER EFFICIENCY IN JUST 
+  A FEW SECONDS.
+>p:AxisNormal
+.
+* ........
+>p:KanakoOffended2
+.
+* Of course, of course...
+* Dunno what I was 
+  expecting... Haha...
+>p:KanakoNervous
+.
+* YOU HAVE BEEN ACTING 
+  WEIRD. MAYBE THE MACHINE
+  CAN HELP.
+>p:AxisNormal
+.
+* Uh, the machines won't 
+  like, kill us since we
+  aren't robots, will they?
+>p:KanakoDumb
+.
+* THE MACHINES USE SOME
+  SPECIAL SPRAY THAT SHOULD
+  BE NON-TOXIC TO ORGANICS.
+>p:AxisNormal
+.
+* IT WILL WORK ON YOU AS
+  WELL. BUT LIKELY WON'T
+  MAKE YOU LESS HUNGRY.
+>p:AxisNormal
+.
+* Well... Guess we can give
+  it a go then?
+>p:KanakoNervous
+END
+
+-
+
+@InnGuy4
+* You and your party enter the
+  machines. It is surprisingly 
+  cramped.
+.
+* Some weird substance fell down
+  from the top, coating you in a
+  strange liquid.
+.
+* Soon though, the liquid 
+  evaporates, as do all your 
+  wounds and fatigue.
+END
+
+-
+
+@InnSleep
+* You feel rested.
+* HP fully restored.
+>heal
+.
+* ...But you still feel hungry.
+>anim:player:HatAdjustDW
+END
+
+-
+
+@InnGuyReprompt
+* Mmm mm HmM mm...
+* One room is 30 Dark Dollars.
+* Will you stay?
+>prompt:One room,@please.:Not this@time
+>showmoney
+>tc
+END
+
+-
+
+@InnAccept
+* Mmm mm mhm mhm mhm...
+* Okay, your room is room 309.
+* Take the elevator.
+>tc
+.
+* Rest well...
+[wave]* Hmm mhm mmhm m mmm m...[/wave]
+>tc
+END
+
+-
+
+@InnNoMoney
+* Mmm m mm m mm m mm...
+* No cash... Mmmhmhmmm...
+>tc
+END
+
+-
+
+@InnGuyCancel
+* Mmhmh mh m...
+* Back to my nap, then.
+>tc
+END
+
+-
+
+@ShowerItem
+* Uh, what's this?
+>p:KanakoPuff
+.
+* SEEMS TO BE A BROKEN PART
+  OF THE MACHINE. MUST HAVE
+  FALLEN OFF.
+>p:AxisNormal
+.
+* WE SHOULD TAKE IT TO BE
+  REPAIRED IMMEDIATELY.
+>p:AxisAngry
+.
+* Why?
+* Isn't that the inn's 
+  responsibility?
+>p:KanakoPuff
+.
+* IT IS JUST THE CORRECT
+  THING TO BE DONE IN THIS
+  SITUATION!
+>p:AxisAngry
+.
+* WHERE IS YOUR 
+  ROBO-COMPASSION?
+>p:AxisNormal
+.
+* Alright, alright...
+* Guess it could be useful
+  for something...
+>p:KanakoNervous
+.
+* (You picked up the Broken 
+  Shower.)
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@Door
+* Cole, we can't just enter
+  without paying.
+>p:KanakoPuff
+.
+* YEAH, HELP THE LOCAL
+  COMMERCE OUT.
+>p:AxisNormal
+END
+
+-
+
+@Plants
+* These plants might look real,
+  but they are just plastic
+  replicas.
+END
+
+-
+
+@Machines
+* No need to use these right now.
+END

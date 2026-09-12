@@ -1,0 +1,589 @@
+@DinaDay1
+>redirect:DinaDay1Talk:DinaDay1-2
+>anim:Dina:Anim
+* Hey there, huns.
+* Oh, it's Kanako 'n Cole!
+>p:DinaNormal
+.
+* Heya, Dina.
+>p:KanakoNormal
+.
+* Yer both out late.
+* Up to no good again, are 
+  you?
+>p:DinaSmug
+.
+* Err, we not this
+  time, really!
+>p:KanakoNervous
+.
+* I believe ya, hun.
+* Ye should still head
+  stright home.
+>p:DinaWink
+.
+* Bet yer parents are 
+  probably worried 'bout 
+  where you two are.
+>p:DinaWink
+.
+* Y-yeah, we're on it!
+>p:KanakoNervous
+.
+* Let's go, Cole.
+>p:KanakoNormal
+>setflag:DinaDay1Talk
+END
+
+-----
+
+@DinaDay1-2
+>anim:Dina:Anim
+* Yer both should head home
+  soon, yer parents must be
+  worried.
+>p:DinaNormal
+.
+>p:KanakoNormal
+* Don't worry Dina.
+* We'll be going soon.
+END
+
+-----
+
+@DinaDay1Late
+>anim:Dina:Anim
+* I'm about to close down 
+  for the day, darling.
+>p:DinaNormal
+.
+* Bet ol' Mart is worried 
+  about you. 
+* Don't keep her waiting.
+>p:DinaSmug
+END
+
+------
+
+@PyramidGuyDay1
+>redirectmap:PyramidGuy:PyramidGuyDay1-2
+* Howdy!
+>tc
+.
+* Ain't it late for kids like
+  you to be out here now?
+>tc
+.
+* Well, I can't complain.
+* I'd stay here all day if I
+  could.
+>tc
+>setmap:PyramidGuy
+END
+
+---
+
+@PyramidGuyDay1-2
+* The food here is the best in
+  town.
+>tc
+.
+* Doesn't matter if this is the
+  only food place in town, it
+  is still the best!
+>tc
+END
+
+-----
+
+@MoCafeD1
+* Another day, not enough profits.
+>tc
+>top
+.
+* I don't get it. I'm doing
+  everything right!
+>tc
+>top
+.
+* I'm Mo! The best salesman
+  ever! I can sell ANYTHING!
+>tc
+>top
+.
+* This town might be just
+  defective.
+>tc
+>top
+.
+* Maybe I can find some
+  product that can fix
+  this...
+>tc
+>top
+END
+
+----
+
+@MelodyDay1
+>redirectmap:Melody:MelodyDay1-2
+[shake] *...C'mon, you stupid crappy-
+* WHAT?! How did you-
+>bleep:Melody
+.
+* Hm? What? You want to play?
+* Scram. It's my turn.
+>bleep:Melody
+.
+* ...
+>p:KanakoNeutral
+.
+* (Cole, let's leave.)
+>p:KanakoNeutral
+>setmap:Melody
+END
+
+--
+
+@MelodyDay1-2
+[shake]* Ah, what the-
+* I HAD THAT ONE!
+* This game is cheating!
+>bleep:Melody
+>mini:KanakoNeutral:(Let's go, Cole.):195:23
+END
+
+--
+
+@HockeyD1Check
+* Man if we had time, we
+  could play this.
+>p:KanakoTongue
+.
+* Maybe tomorrow.
+>p:KanakoHappy
+END
+
+--
+
+@MoochTalkD2
+* Why are you looking at
+  me? We are supposed to 
+  be looking for clues!
+>p:MoochNervous
+.
+* ...I won't steal anything,
+  I swear!
+>p:MoochCry
+END
+
+--
+
+@MoochEventD2_1
+* Okay... We're in.
+>p:MoochNervous
+.
+* Snuck in like a couple of
+  ninjas... Heh.
+>p:MoochSmile
+.
+* It almost felt like you 
+  had done that before.
+* Great job, Coley~
+>p:MoochSmug
+>prompt:I did@earlier@today:From all@those years@ago
+>promptredirect:MoochEventD2_1A:MoochEventD2_1B
+END
+
+--
+
+@MoochEventD2_1A
+* What?! Where?!
+>p:MoochCry
+.
+* Was there any cool loot
+  at least?
+>p:MoochSmug
+.
+* Wait, we are getting 
+  sidetracked...
+>p:MoochNervous
+END
+
+--
+
+@MoochEventD2_1B
+* Ah, yes. You, me and 
+  'Nako, sneaking in all
+  sort of places!
+>p:MoochSmug
+.
+* Kinda miss those days,
+  y'know. But I know after
+  that thing, Kanako was...
+>p:MoochNervous
+.
+* ...She really is missing
+  out on the fun.
+>p:MoochNervous
+END
+
+--
+
+@MoochEventD2_2
+* Anyway, just be quiet and
+  look around for clues.
+>p:MoochNormal
+.
+* We have to figure out
+  what happened here.
+>p:KEEP
+.
+* ...And resist the urge
+  to pocket a few things...
+>p:MoochNervous
+.
+* Guess it's better if you
+  lead the way, huh?
+* So go on ahead!
+>p:MoochSmile
+END
+
+--
+
+@MoochEventD2_3
+* Hm... This place isn't
+  as messed up as the
+  reports said earlier...
+>p:MoochNervous
+.
+* Guess Dina already
+  cleaned up the place.
+* Let's keep looking.
+>p:MoochNormal
+END
+
+-
+
+@MoochCrates
+* [wave]...Sigh...[/wave]
+* To leave all these crates
+  unlooted...
+>p:MoochNervous
+END
+
+-
+
+@BackroomChairs
+* Just spare chairs and tables. 
+  Classic cafe stuff.
+END
+
+-
+
+@MoochWindow
+* Hey, we ain't done here!
+* We need to investigate!
+>p:MoochNervous
+END
+
+-
+
+@MoochStairs
+* Cole, where the heck are 
+  you going?!
+* Don't go up there!
+>p:MoochCry
+.
+* They'll definitely
+  catch us if we go 
+  upstairs!
+>p:MoochNervous
+END
+
+-
+
+@MoochBlockade
+* Hm... Seems a lot of
+  boards fell over here.
+* Pretty sus.
+>p:MoochNormal
+.
+* We can't reach the other
+  side without making a lot
+  of noise... Damn.
+>p:MoochNervous
+.
+* That room seems like it
+  could have some leads...
+>p:KEEP
+.
+* Let's head back.
+>p:MoochNormal
+END
+
+-
+
+@MoochSouthDoor
+* That leads to the public 
+  area. 
+* We ain't going there.
+>p:MoochNormal
+END
+
+-
+
+@MoochSouthDoor2
+* That goes out to behind
+  the counter.
+* Let's NOT do that.
+>p:MoochNervous
+END
+
+-
+
+@MoochEventD2_4
+* [wave]Ow ow ow ow ow ow-
+>p:MoochCry
+.
+* Ah ha! I knew you'd
+  return, you damn rat!
+>p:MelodyAngry2
+.
+* Ow ow- I- I'm not a rat!
+* I'm a squirrel!
+* Ow...
+>p:MoochCry
+.
+* ...Cole? The heck are you
+  doing here?!
+>p:MelodyAngry
+.
+* Are you in cahoots with
+  this little thief?!
+>p:MelodyAngry2
+>prompt:Yes:Why are@you here?:No
+>promptredirect:MoochEventD2_4A:MoochEventD2_4B:MoochEventD2_4C
+END
+
+--
+
+@MoochEventD2_4A
+* And you just admit it
+  like that? Are you just
+  messing with me?!
+>p:MelodyAngry2
+END
+
+--
+
+@MoochEventD2_4B
+* Why? Why else, I live 
+  here! Did you forget
+  that?!
+>p:MelodyAngry
+END
+
+--
+
+@MoochEventD2_4C
+* Then what the hell are
+  you doing here?!
+>p:MelodyAngry
+.
+* This place is closed off
+  to the public!
+>p:KEEP
+END
+
+--
+
+@MoochEventD2_5
+[shake]* What in tarnation is goin' 
+  on here??
+>bleep:Dina
+END
+
+--
+
+@MoochEventD2_6
+* Dina, I caught these two
+  rats snooping around!
+>p:MelodyAngry
+>mini:MoochNervous:We aren't rats, geez!
+.
+* Oh my, Cole and Mooch!
+* What are you two doing
+  here this late?
+>p:DinaSad
+>prompt:Looking@for clues:We got@lost
+>promptredirect:MoochEventD2_6A:MoochEventD2_6B
+END
+
+--
+
+@MoochEventD2_6A
+* Oh, tryin' to figure out
+  what happened yesterday?
+>p:DinaSad
+.
+* ...Though you didn't need
+  to break in for that, 
+  dearies.
+>p:DinaSus
+.
+* Specially you, Mooch.
+>p:DinaAngry
+.
+* H-Hey, you wouldn't let
+  me in otherwise... 
+>p:MoochNervous
+.
+* And I didn't take 
+  anything this time!
+* I swear!
+>p:MoochCry
+.
+* And, don't you wanna 
+  figure out who did this?
+* I do!
+>p:MoochNormal
+END
+
+--
+
+@MoochEventD2_6B
+* Yeah no chance! You knew
+  exactly where you were
+  going!
+>p:MelodyAngry2
+.
+* Mel, calm down. I'm just
+  glad it's them and not...
+  Someone else.
+>p:DinaSad
+.
+* ...I suppose they are
+  both too pathetic to 
+  cause the damage we took.
+>p:MelodyNormal
+.
+* H-Hey...
+>p:MoochNervous
+.
+* We just wanted to figure
+  out something about who
+  caused all this mess!
+>p:MoochNervous
+.
+* Don't you wanna know too?
+>p:MoochNormal
+END
+
+--
+
+@MoochEventD2_7
+* ...We don't know who would
+  do such a thing.
+>p:DinaSad2
+.
+* Much less in our town,
+  which was such a peaceful
+  place- until now, I guess.
+>p:DinaSad2
+.
+* What has this world come
+  to...
+>mini:MelodyAngry2:If I see 'em, I'm beating them up!
+>p:KEEP
+.
+* Anyway, darlings, I'll let
+  this "incident" slide, 
+  but you should leave.
+>p:DinaSad
+.
+* You ARE enterin' our 
+  private spaces, after all.
+>p:DinaNormal
+.
+* [wave]...Sigh.[/wave]
+* Guess this investigation
+  went nowhere.
+>p:MoochNervous
+.
+* Sorry for causing trouble,
+  then.
+>p:MoochNormal
+.
+* Just get out before I 
+  whack you again!
+>p:MelodyAngry
+>mini:MoochCry:Waaa-!
+.
+* F-Fine, we're leaving,
+  geez!
+>p:MoochNervous
+END
+
+-
+
+@BackroomTrashD2_1
+* (You dig through the trash...)
+.
+* (...!)
+.
+* (You find some old piece of
+  candy.)
+.
+* ...You sure you want that?
+* You'd do everyone a favor 
+  by taking it, really.
+>p:MoochNervous
+END
+
+-
+
+@BackroomTrashD2_Get
+* (The [color=yellow]JUMBO CANDY[/color] was absorbed
+  into your Ball of Junk.)
+END
+
+-
+
+@BackroomTrashD2_Full
+* (...While you'd love to take it,
+  it seems your Ball of Junk is
+  already too full.)
+.
+* (Bummer.)
+END
+
+-
+
+@BackroomTrashD2_2
+* There is nothing else of
+  interest in there.
+.
+* Bummer.
+END
+
+-
+
+@MoochFridge
+* (...Must resist the urge
+  to raid the fridge...)
+>p:MoochNervous
+END
+
+-
+
+@MoochOven
+* This is where they cook
+  stuff.
+>p:MoochNormal
+.
+* Better not mess with these 
+  if you don't wanna be 
+  found out later.
+>p:MoochNervous
+END

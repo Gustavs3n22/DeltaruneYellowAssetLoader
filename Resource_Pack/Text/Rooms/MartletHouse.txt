@@ -1,0 +1,916 @@
+@MartStove
+* Some burnt feathers are stuck
+  within the stove.
+END
+
+@MartCrates
+* Martlet was never the best at
+  organization.
+END
+
+@MartSofaBig
+* This sofa brings back bad
+  memories, but not related to
+  Martlet.
+END
+
+@MartSofaSmall
+* Martlet's homemade seat.
+END
+
+@MartFridge
+* Never too full, never empty.
+END
+
+@MartTV
+* Multiple tapes are near the
+  TV.
+.
+* A few of them are western
+  movies, while the rest are
+  carpentry tutorials.
+END
+
+@MartExtinguisher
+* This fire extinguisher
+  already had to be used
+  more than once.
+END
+
+@MartRoom
+* Martlet's room.
+.
+* There is no reason to enter.
+END
+
+@MartBathroom
+* These crates make it difficult
+  to enter the bathroom.
+END
+
+@MartColeWardrobe
+>redirect:KanakoFollowing:MartColeWardrobeK
+* Multiple clothes are lined up
+  in the closet.
+.
+* Most of them are leather
+  jackets and bandanas.
+END
+
+-
+
+@MartColeWardrobeK
+>redirect:GizmoFollowing:MartColeWardrobeG
+* ...We really need to get
+  you some more variation
+  for your wardrobe someday.
+>p:KanakoPuff
+END
+
+-
+
+@MartColeWardrobeG
+* Do you really only have
+  one type of clothing??
+>p:GizmoNervous
+.
+* Look who's talking, you
+  are always are wearing 
+  the same orange sweater!
+>p:KanakoAnnoyed
+.
+* Hey, those improve my
+  gaming reflexes!
+>p:GizmoWink
+END
+
+-------
+
+
+@MartletEventDay1-7
+* At least you already
+  ate at Ceroba's place.
+>top
+>p:MartletHappy2
+.
+* ...Again, sorry.
+* Work got me caught up.
+* And...
+>p:MartletSad
+>top
+.
+* Had to deal with that
+  stuff.
+>p:MartletSad2
+>top
+.
+* But let's not think
+  about that now.
+>p:MartletHappy2
+>top
+END
+
+---
+
+@MartletEventDay1-8
+* ...I'm beat.
+>p:MartletTired
+>top
+.
+* Ah, don't worry about
+  me, Cole.
+>p:MartletHappy2
+>top
+.
+* It's just... grown up
+  stuff.
+>top
+>p:MartletSad
+.
+* ...
+>p:MartletSad2
+>top
+.
+* I'll try to hang out
+  with you more this
+  week before...
+>p:MartletSad
+>top
+.
+* ...
+>p:MartletSad2
+>top
+.
+* But today...
+* Sorry.
+>p:MartletSad
+>top
+.
+* Make sure to sleep
+  well for school
+  tomorrow, okay?
+>p:MartletHappy2
+>top
+END
+
+-----
+
+@MartletTalkDay1
+* Sorry, Cole.
+* I'm exausted...
+>p:MartletSad2
+.
+* But if there is
+  anything bothering
+  you, let me know.
+>p:MartletHappy2
+>prompt:Are you@okay?:Nothing:Letter
+>promptneed:None:None:HasLetter
+END
+
+--
+
+@MartletTalkDay1-Nothing
+* ...It's alright, Cole.
+>p:MartletHappy2
+.
+* Make sure to sleep well
+  today, alright?
+>p:MartletHappy2
+END
+
+--
+
+@MartletTalkDay1-Letter
+* ...!
+>p:MartletScared
+.
+* C-Cole... This letter...
+>p:MartletSad
+.
+* ...
+>p:MartletSad2
+.
+* Sorry... I'll read it
+  later, alright?
+>p:MartletSad
+.
+* You... You should head
+  to bed...
+>p:MartletSad
+.
+* (Martlet took the letter.)
+END
+
+--
+
+@MartletTalkDay1-PostLetter
+* ...Sorry, Cole.
+>p:MartletSad2
+.
+* We can talk more
+  tomorrow, alright?
+>p:MartletSad2
+END
+
+--
+
+@MartletTalkDay1-Okay
+* Yeah...
+* Just tired.
+>p:MartletSad
+.
+* Work and...
+* Dealing with the
+  situation...
+>p:MartletSad2
+.
+* But you shouldn't
+  worry about me.
+>p:MartletHappy2
+.
+* It will all end well,
+  I promise you.
+>p:MartletHappy2
+END
+
+-----
+
+@MartTryLeaveD1
+* ...Cole?
+>p:MartletSad
+>top
+.
+* It's late.
+* You shouldn't leave.
+>p:MartletSad2
+>top
+.
+* Don't want to miss
+  school tomorrow, do you?
+>p:MartletHappy2
+>top
+END
+
+---------
+
+@ColesGuns
+>redirect:KanakoFollowing:ColesGunsK
+* Your toy gun collection.
+END
+
+-
+
+@ColesGunsK
+>redirect:GizmoFollowing:ColesGunsG
+* So, why do you like
+  guns so much anyway?
+>p:KanakoNormal
+.
+* Guess you watched just
+  too many of those
+  western movies.
+>p:KanakoPuff
+END
+
+--
+
+@ColesGunsG
+* You still have these?
+* Not even the cool ones 
+  that shoot darts?
+>p:GizmoNervous
+.
+* Hey don't judge, alright?
+* Cole prefers these more
+  realistic replicas.
+>p:KanakoPuff
+END
+
+----
+
+@ColesTapes
+>redirect:KanakoFollowing:ColesTapesK
+* Many movie tapes are on the
+  floor.
+.
+* There are a few recommended by
+  Starlo.
+.
+* Those are your favorites.
+END
+
+-
+
+@ColesTapesK
+>redirect:GizmoFollowing:ColesTapesG
+* Hey, there are a few
+  here we haven't seen yet.
+>p:KanakoNormal
+.
+* ...Wonder if we will
+  have time to be able to.
+>p:KanakoSad
+END
+
+-
+
+@ColesTapesG
+* Man, those are OLD!
+* Many of these movies are
+  from before I was born!
+>p:GizmoNervous
+.
+* Didn't even know they
+  still made these tapes!
+* Fan of the old stuff, eh?
+>prompt:The correct@term is@"vintage":Can't afford@new ones
+>promptredirect:ColesTapesGP1:ColesTapesGP2
+>p:GizmoNormal
+END
+
+-
+
+@ColesTapesGP1
+* Of course, yeah.
+* Kinda get it since I'm the
+  same with games...
+>p:GizmoNervous2
+.
+* Sometimes, you can't beat
+  the classics.
+>p:GizmoWink
+END
+
+-
+
+@ColesTapesGP2
+* I'll see if I can find
+  some new ones when I'm
+  able, okay?
+>p:KanakoNervous
+.
+* Maybe we can even do a
+  movie night if we have
+  time before the week ends.
+>p:KanakoHappyBlush
+END
+
+----
+
+@SleepConfirm
+* Go to sleep for this day?
+>prompt:Yes:Not yet
+END
+
+--
+
+@SleepConfirm2
+* Go to sleep for this day?
+* (You should REFLECT before you
+  lay down if you haven't already)
+>prompt:Yes:Not yet
+END
+
+---
+
+@Day2StartFlashback1
+* C'mon, Cole!
+* It is just up ahead!
+>slow:3
+>bleep:KanaFB
+>hideBG
+END
+
+--
+
+@Day2StartFlashback2
+* Huh? You're scared?
+>slow:3
+>bleep:KanaFB
+>hideBG
+.
+* There is nothing to be afraid of!
+* You're with me!
+>slow:3
+>bleep:KanaFB
+>hideBG
+END
+
+--
+
+@Day2StartFlashback3
+* ...
+>slow:3
+>bleep:KanaFB
+>hideBG
+.
+* Wait, is this the righ-
+>slow:3
+>bleep:KanaFB
+>hideBG
+.
+>sound:snd_groundcrack.wav
+* [shake]-CRACK-
+>hideBG
+END
+
+--
+
+@Day2StartFlashback4
+* [shake]C-COLE!! HEEELP!!
+>slow:3
+>hideBG
+>bleep:KanaFB
+END
+
+--
+
+@ColeLampCheck
+>redirect:KanakoFollowing:ColeLampCheckK
+* There is no need to mess
+  with this right now.
+END
+
+-
+
+@ColeLampCheckK
+* Do you still sleep with
+  the night light on?
+>p:KanakoNormal
+.
+* Hey, I ain't judging.
+>p:KanakoPuff
+END
+
+--
+
+@ColeBedCheck
+>redirect:ChujinFountainSealed:ColeBedPrompt
+>redirect:KanakoFollowing:ColeBedCheckK
+>redirect:ColeBedCantSleep
+* 
+END
+
+-
+
+@ColeBedCantSleep
+* It's too early to go to bed.
+END
+
+-
+
+@ColeBedCheckK
+* So Cole, what are you
+  hiding under the bed?
+>p:KanakoSmug
+.
+* I'm just joking!
+>p:KanakoTongue
+END
+
+-
+
+@ColeBedCheckG
+* So watcha hiding under
+  there, Cole?!
+>p:GizmoSmug
+.
+* ...There is nothing but
+  dust there.
+* I've checked.
+>p:KanakoNervous
+.
+* Lame. That's so boring, 
+  man!
+>p:GizmoWink
+END
+
+-
+
+@BedCheckUnder
+* You look under your bed.
+.
+* There is nothing but old shoe 
+  boxes and dust.
+END
+
+-
+
+@BedCheckShardSingle
+* ...?
+.
+* There is something else here...
+.
+* You reach your hand and grab
+  a rusty metal shard.
+.
+* For some reason, it feels
+  somewhat important.
+.
+* You quickly put it deep into 
+  your pocket.
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@BedCheckShardMultiple
+* ...?
+.
+* There is something else here...
+.
+* You reach your hand and grab
+  some rusty metal shards.
+.
+* For some reason, they feel
+  somewhat important.
+.
+* You quickly put them deep into
+  your pocket.
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@ColeBedPrompt
+* Your bed.
+>prompt:Reflect@(SAVE):Go to@sleep:Look under:Cancel
+END
+
+-
+
+@ColeBedSave
+* You close your eyes and think
+  of all that happened so far 
+  this week...
+>callsave
+END
+
+--
+
+@MartDay2
+* Good morning, Cole!
+* Excited for school today?
+>p:MartletHappy
+.
+* ...Sorry, I have to leave
+  again today.
+>p:MartletNervous
+.
+* Don't worry, I will try
+  to return early.
+>p:MartletNeutral
+.
+* I left some breakfast
+  for you in the fridge.
+* Don't forget to eat it!
+>p:MartletNeutral
+.
+* Gotta go!
+* I'll be seeing you later,
+  okay?
+>p:MartletHappy2
+END
+
+----
+
+@ColesBook
+>redirect:KanakoFollowing:ColesBookK
+* One of your favorite stories,
+  a tale about some cowboy lizard
+  monster.
+.
+* The movie adapatation wasn't as
+  good.
+END
+
+---
+
+@ColesBookK
+* Oh hey, I remember the
+  movie about this story.
+>p:KanakoNormal
+.
+* It was kinda bad,
+  honestly.
+>p:KanakoPuff
+END
+
+---
+
+@ColesPlant
+>redirect:KanakoFollowing:ColesPlantK
+* Should have got a cactus.
+END
+
+---
+
+@ColesPlantK
+* Um... This plant is
+  kinda...
+* Dead.
+>p:KanakoPuff
+.
+* ...Uh, don't mean
+  anything by it!
+>p:KanakoNervous
+.
+* (It is in better shape
+  than mom's plants...)
+>p:KanakoDumb
+END
+
+--
+
+@MartDay2NightReturn
+* Ah, Cole!
+* Welcome back.
+>p:MartletHappy
+>top:lock
+.
+* ...Sorry for not being
+  able to come earlier to
+  stay with you... again.
+>p:MartletSad2
+.
+* I swear I'm trying my 
+  hardest, it's just...
+>p:KEEP
+.
+* ...No, that's just an
+  excuse, sorry.
+>p:MartletSad
+.
+* I just have a lot on my
+  plate right now.
+>p:MartletSad2
+.
+* ...But at least we can
+  hang out a bit before you
+  go to bed.
+>p:MartletHappy2
+END
+
+--
+
+@MartDay2NightTalk
+* Cole, do you wanna talk
+  about something?
+>prompt:School:Letter:Tape:Nothing
+>promptredirect:MartDay2NightTalkSchool:MartDay2NightTalkLetter:MartDay2NightTalkTape:MartDay2NightTalkCancel
+>promptneed:None:None:HasTape:None
+>p:MartletHappy2
+END
+
+--
+
+@MartDay2NightTalkSchool
+* Are things going well in
+  school?
+>p:MartletSus
+.
+* You aren't sleeping
+  through class again, 
+  are you?
+>p:MartletSquint
+.
+* I know that it is
+  boring, but you have to 
+  pay attention to class.
+>p:MartletNeutral
+.
+* You want to be able to
+  get a proper job in the
+  future, no?
+>p:MartletHappy2
+.
+* (...At least better than
+  mine, so you don't suffer
+  as much...)
+>p:MartletSad2
+END
+
+--
+
+@MartDay2NightTalkLetter
+* Oh, the letter?
+>p:MartletNormal
+.
+* You saw it, didn't you?
+>p:MartletSad2
+.
+* ...
+>p:MartletSad2
+.
+* Sorry, I shouldn't keep
+  things hidden from you-
+>p:MartletSad
+.
+* But you're already mature
+  enough to understand what
+  is happening...
+>p:KEEP
+.
+* ...
+>p:MartletSad2
+.
+* Look, I'll get this
+  solved, okay?
+>p:MartletHappy2
+.
+* Then we won't have to
+  worry about anything
+  anymore-
+>p:KEEP
+.
+* And just be a happy
+  family together.
+>p:MartletHappy
+.
+* ...Just... Have faith in
+  me.
+>p:MartletHappy2
+.
+* (...Even if I don't even
+  believe in myself.)
+>p:MartletSad2
+END
+
+--
+
+@MartDay2NightTalkTape
+* Oh, that tape-
+* Did Starlo give it to 
+  you?
+>p:MartletNormal
+.
+* Oh, it is from his past
+  troupe, the Feisty Five!
+>p:MartletHappy
+.
+* I haven't seen that in a
+  long time!
+>p:KEEP
+.
+* ...I suppose we could use
+  the distraction.
+* Let's watch it!
+>p:MartletNormal
+END
+
+--
+
+@MartDay2NightTalkCancel
+* ...Alright, just be sure
+  to go to bed early, okay?
+>p:MartletHappy2
+END
+
+--
+
+@MartDay2Tape1
+* "C'mon, team! We gotta 
+  stop that darned varmint
+  from robbing the bank!"
+>p:StarloHatHand
+.
+* Do you remember, Cole?
+* Years ago, Starlo and his
+  crew...
+>p:MartletNormal
+.
+* They used to be TV stars!
+>p:MartletHappy
+.
+* It was a very popular
+  show at the time. Hard to
+  believe it, huh?
+>p:MartletNormal
+.
+* ...But after that one day, 
+  he retired and became the
+  mayor...
+>p:MartletSad2
+.
+* I wish he still did his
+  shows sometimes-
+>p:KEEP
+.
+* But I understand he has a 
+  lot of responsibilities
+  now.
+>p:KEEP
+.
+* "Hey Star, can I take just
+  one coin? [wave]Pleeease?[/wave]"
+>p:MoochSmug
+.
+* "Now now, Mooch! If you
+  take that, you are no
+  better than a criminal!"
+>p:StarloHatHand
+.
+* "Tch. You're no fun, 
+  Star!"
+>p:MoochNervous
+.
+* ...Mooch was so young back
+  then-
+>p:MartletNeutral
+.
+* ...I hope she isn't still
+  being a bad influence on
+  you.
+>p:MartletSquint
+.
+* (...Though I know it 
+  wasn't her fault.)
+>p:MartletSad2
+END
+
+-
+
+@MartDay2Tape2
+* "'Ey Star, I'm in 
+  position!"
+>p:EdNormal
+.
+* "Same here, Star!"
+* "Ready whenever you are!"
+>p:MorayNormal
+.
+* Moray's parents were
+  always against the show.
+>p:MartletNormal
+.
+* They wanted Moray to take
+  over their mining 
+  business...
+>p:MartletSad2
+.
+* ...Some things never 
+  change.
+>p:MartletNeutral
+.
+* "Now, Ace! Pull the rope!"
+>p:StarloHatHand
+.
+* "Leave it to me!"
+>p:AceNormal
+.
+* [shake]- SNAP -
+>sound:SE_Whip_Hit1.wav
+.
+[shake]* "A-AAAIEEEEEE-"
+.
+* "F-Foiled again! Curse you,
+  Feisty Five!"
+.
+* "Great job, team! Once
+  more, justice has been
+  served in our town!"
+>p:StarloHatHappy
+.
+* "And remember kids:
+  crime doesn't pay! And
+  stay in school!"
+>p:StarloHatHand
+.
+* "Until next time!"
+>p:StarloHatHappy
+END
+
+-
+
+@MartDay2Tape3
+* Oh, it's already over.
+>p:MartletNeutral
+.
+* That was fun. We should
+  watch these tapes more 
+  often.
+>p:MartletHappy
+.
+* But it's late now. You
+  should sleep so you can
+  go to school.
+>p:MartletHappy2
+.
+* I'll... try again to
+  arrive early. I'll keep
+  trying-
+>p:MartletNormal
+.
+* As many times as it takes!
+>p:MartletTired
+.
+* ...Heh. Sorry. Got kinda
+  worked up there.
+>p:MartletNervous2
+.
+* Anyway, sleep well, Cole. 
+  Let's make the most of 
+  our time together, okay?
+>p:MartletHappy
+END

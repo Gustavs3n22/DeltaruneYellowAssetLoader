@@ -1,0 +1,688 @@
+@Hat
+name:Cowboy Hat
+
+@BallOfJunk
+name:Ball of Junk
+
+@KanakoPhone
+name:Kanako's Phone
+descriptionDW:A pink phone with a cute bell charm.\nUSE to make calls.
+
+@KetsukaneHeirloom
+name:Ketsukane Heirloom
+
+@RedLetter
+name:Red Letter
+
+@RevivalMint
+name:Revive Mint
+descriptionDW:Heals a fallen ally to MAX HP. A minty green crystal.
+shortDesc:Heals Downed\nAlly
+party:
+|||||
+|Bleugh, mints...||(So she doesn't like it...)||
+||HOW DOES IT WORK?|||
+|||Refreshing...||
+||||Refreshing.|
+|||||Hurts my tongue...
+
+@GoldenBell
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Golden Bell
+descriptionDW:A small golden, round bell. It jingles when shaken.
+lwEquip:Golden Bell
+shopDesc:Small\ngolden bell.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatArrowUp.tres[/img] [color=orange]HP REGEN[/color]
+party:
+|||||
+|Looks familiar...||||
+||I RECOGNIZE THIS.|||
+|||Reminds me of Kanako...||
+||||...Cute, I guess.|
+|||||Does it match my suit?
+
+@SafetyVest
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Safety Vest
+descriptionDW:A vest with bright reflective strips on it, sure to warn others of your presence.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatArrowUp.tres[/img] [color=orange]IFRAMES UP[/color]
+lwEquip:Reflective Strip
+shopDesc:Protects\nbody.
+party:
+|||||
+|I like how bright it is!||||
+||I ALREADY HAVE BRIGHT BITS.|||
+|||Doesn't match my outfit...||
+||||Do I look like a worker?!|
+|||||Do I put it over my suit?
+
+@SafetyGoggles
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Safety Goggles
+descriptionDW:Goggles sure to shield your eyes against blinding lights.
+shopDesc:Protects\neyes.
+shopName:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Sfety Goggls
+party:
+|||||
+|It's hard to see...||||
+||REDUNDANT WITH MY EYES.|||
+|||It's hard to fit...||
+||||Do I have to...?!|
+|||||How do I put this on?
+
+@FoxNecklace
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Fox Necklace
+descriptionDW:A familiar, but weirdly different necklace. Feels magical.
+lwEquip:Ketsukane Heirloom
+shortDesc:Necklace w/\nblue gemstone.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatArrowUp.tres[/img] [color=orange]MAGIC UP[/color]
+party:
+|||||
+|This necklace...||||
+||I RECOGNIZE THIS!|||
+|||...||
+||||Woah, must be worth a fortune.|
+|||||Think we can sell it? Kidding!
+
+@FoxStaff
+name:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] Fox Staff
+descriptionDW:A staff adorned with a fox head ornament at the end.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatArrowUp.tres[/img] [color=orange]MAGIC UP[/color]
+shortDesc:Fox adorned\nstaff
+party:
+|||||
+|Reminds me of mom...||||
+||I RECOGNIZE THIS!!!|||
+|||I think it fits Kanako.||
+||||Fancy, but not my thing.|
+|||||A big fancy stick!
+
+@TrueBat
+name:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] "Trusty" Bat
+descriptionDW:Kanako's bat that took over BunBun. Is now unresponsive.
+shortDesc:True metal\nbat
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatStar.tres[/img] [color=orange]WIDE SWING[/color]
+party:
+|||||
+|Hope this doesn't come alive...||||
+||I REMEMBER THIS GUY.|||
+|||(...Surprising how it didn't change.)||
+||||Nice, but not my thing.|
+|||||Not really the sporting type.
+
+@BaseballCap
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Baseball Cap
+descriptionDW:A regular baseball cap. Nothing out of ordinary, but Kanako has a fondness for it.
+shortDesc:Has Kanako's\nfavorite team.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatStar.tres[/img] [color=orange]WIDE SWING[/color]
+party:
+|||||
+|Nice!!||||
+||DOESN'T REALLY FIT MY HEAD.|||
+|||(...A regular cap?)||
+||||Fine, if I must.|
+|||||Hope it doesn't slide off my helmet!
+
+@GiantScrewdriver
+name:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] Big Screwdriver
+descriptionDW:An oversized screwdriver that can be wielded like a club. Packs a punch!
+shopDesc:To screw in\nbig screws.
+shopName:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] Big Scrwdrvr
+party:
+|||||
+|Woah, big...||||
+||IT SCARES ME.|||
+|||Um...||
+||||Hey, what the hell?|
+|||||Could use to fix big stuff?
+
+@AxisGloves
+name:[img]res://Sprites/Menus/Menu Sprites/StatGlove.tres[/img] Steam Glove
+descriptionDW:A steam powered glove, not wearable by organics. Give it to a machine.
+shortDesc:Small, worn\nglove.
+party:
+|||||
+|Eh, it doesn't fit...||||
+||THE STANDARD ONE.|||
+|||...I can't put it on...||
+||||Ew, it's all worn.|
+|||||Even my hands are too big.
+
+@RobotFist
+name:[img]res://Sprites/Menus/Menu Sprites/StatGlove.tres[/img] Robot Fist
+descriptionDW:A heavy metallic hand with rockets on the side, packs quite the punch.
+shopDesc:Big iron\nfist.
+party:
+|||||
+|Woah, heavy...||||
+||NICE UPGRADE.|||
+|||...I can't even lift it...||
+||||Seriously?|
+|||||Cool! But won't match my suit.
+
+@GuardianMitt
+name:[img]res://Sprites/Menus/Menu Sprites/StatGlove.tres[/img] Guardian Mitt
+descriptionDW:A hand from Axis' upgraded body. Made to withstand damage.
+shortDesc:Big Glove\nDF UP, AT DOWN
+party:
+|||||
+|Ah, that hand...||||
+||MISSING THE OTHER ONE.|||
+|||Looks like a cushion...||
+||||Could use as a pillow.|
+|||||Can fit my head inside this.
+
+@OvenMitt
+name:[img]res://Sprites/Menus/Menu Sprites/StatGlove.tres[/img] Cooking Gloves
+descriptionDW:Regular oven mittens that instantly make you look like a chef.
+shortDesc:For cooking.\nMAGIC UP
+party:
+|||||
+|Never was good at cooking...||||
+||FINE. I WILL USE THIS.|||
+|||Those are rather large...||
+||||No way!|
+|||||My hands are too small for these.
+
+@ShinyMedal
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Shiny Medal
+descriptionDW:A medal that shines brightly despite the surrounding darkness.
+shortDesc:Polished\nmetal medal.
+party:
+|||||
+|Looks... brittle?||||
+||A SHINY NEW PART.|||
+|||Not much, but it's something.||
+||||What is this junk?|
+|||||Can this even defend anything?
+
+@BearPin
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Bear Pin
+descriptionDW:A small pin with a face of a smiling mascot bear. Fills you with warm feelings.
+shortDesc:Pin with\nbear face.
+lwEquip:Bear Pin
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatArrowUp.tres[/img] [color=orange]HP REGEN[/color]
+party:
+|||||
+|Looks like Bearing...||||
+||THAT SHOW SUCKED.|||
+|||Isn't this from a cartoon?||
+||||I'm not a kid anymore!|
+|||||Wow, that's a rare one!
+
+@TensionBit
+name:Tension Bit
+descriptionDW:Raises TP by 32% in battle.
+shortDesc:Raises\nTP 32%
+
+@TensionGem
+name:Tension Gem
+descriptionDW:Raises TP by 50% in battle.
+shortDesc:Raises\nTP 50%
+
+@TensionMax
+name:Tension MAX
+descriptionDW:Raises TP to full in battle.
+shortDesc:Raises\nFull TP
+
+@BrickCandy
+name:Brick Candy
+shopDesc:Sweet brick-\nshaped candy.\nHP + 40
+shortDesc:HP + 40
+descriptionDW:A sugary treat in the shape of a toy brick. It is nostalgic somehow. HP + 40
+party:
+|Isn't it good, Cole?||||
+|Ah, my favorite!||(So she likes those...)||
+||SURPRISINGLY COMPATIBLE-|||
+|||Ah, thanks.||
+||||Bleh, guess it will do.|
+|||||Kinda basic NGL.
+
+@PopRock
+name:Pop Rock
+descriptionDW:A crunchy tasty rock that pops in your mouth. Sure to stimulate anyone...?
+shopDesc:Crunchy\nblack rock.\nHeals HP?
+shortDesc:Healing\nVaries
+party:
+|(Why is he so happy...?)||||
+|BLEUGH! What is this?!||||
+||...THIS IS GUNPOWDER.|||
+|||Y-you sure this is edible?||
+||||You tryin' to poison me?!|
+|||||D-Dude what the-
+
+@SpikedClub
+name:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] Wooden Kanabo
+descriptionDW:A heavy spiked club. Great for bludgeoning enemies.
+shopName:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] Wden Kanabo
+shortDesc:Simple wood\nspiked club.
+party:
+|||||
+|Hey, I can handle better!||||
+||THAT'S MISS KANAKO'S.|||
+|(It is?)||It's too heavy...||
+||||Uh, no...?!|
+|||||I can't hold it...
+partyAlt:
+|||||
+|The ol' reliable...||||
+|||||
+|||||
+|||||
+|||||
+
+@CorkPistol
+name:[img]res://Sprites/Menus/Menu Sprites/StatGun.tres[/img] Cork Pistol
+descriptionDW:A pistol that shoots corks at enemies. Shouldn't deal lasting damage.
+shortDesc:Basic pistol.
+lwEquip:Toy Gun
+party:
+|||||
+|It suits you more, Cole.||||
+||THINK I WANT THAT [scrap]?!|||
+|||I'm not into guns...||
+||||Not my style.|
+|||||Weak, gimme somethin' better!
+partyAlt:
+|||||
+|(Cole's gun...)||||
+|||||
+|||||
+|||||
+|||||
+
+@SpaceGun
+name:[img]res://Sprites/Menus/Menu Sprites/StatGun.tres[/img] Space Rifle
+descriptionDW:A laser powered rifle, looks pretty futuristic.
+shortDesc:Shoots\nlasers.
+lwEquip:Laser Pointer
+party:
+|||||
+|Pretty snazzy!|||
+||I AM IMMUNE TO THAT.|||
+|||It looks dangerous...||
+||||That's just a toy!|
+|||||Time for action!
+
+@WantedPoster
+name:Wanted Posters
+descriptionDW:Sketches of the many wanted criminals in the Dark Worlds. USE to see.
+
+@Peashooter
+name:[img]res://Sprites/Menus/Menu Sprites/StatGun.tres[/img] Peashooter
+descriptionDW:A homegrown, healthy gun. Shoots peas.
+shortDesc:100% organic\ngrown.
+lwEquip:Pea Pod
+party:
+|||||
+|...Is it a vegetable?||||
+||A [LITERAL] PEASHOOTER!?|||
+|||At least it's organic...?||
+||||Bleagh, no!|
+|||||How do you shoot this?
+
+@SoftballBat
+name:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] Softball Bat
+descriptionDW:A regular, sturdy, completely normal softball bat. Surprising to find here.
+shortDesc:Sturdy\nsports bat.
+party:
+|||||
+|Feels more at home.||||
+|..."Stick"...?|NO STICKS, THANKS.|||
+|||That's Kanako's...||
+||||Not into that.|
+|||||Never been the sportin' type.
+
+@HomemadeLunch
+name:Homemade Lunch
+
+@KingFeast
+name:King's Feast
+descriptionDW:A fancy lunch fit for an entire group. Restores the entire party's HP by 150.
+shortDesc:All Party\nHP + 150
+party:
+|Woah, fancy...|I RATE IT A 8.8/10.|Wow... Thanks...|Man, I'm stuffed!|Top tier stuff!
+|||||
+|||||
+|||||
+|||||
+|||||
+
+@FluffyBand
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] FluffyWrstbnd
+descriptionDW:A pair of fluffy ornaments that enhances its wearer’s cuddleability exponentially.
+lwEquip:FluffyWrstband
+shortDesc:Very\nfluffy.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatFluff.tres[/img] [color=orange]FLUFFY UP[/color]
+party:
+|Aw, looks cute!||||
+......|(Why is he staring like that...)||(...Cute...)||
+|(I think it looks fine.)|DOESN'T MATCH.|||
+|Yeah!||M-Me? Do I look cute?||
+|(Snicker-)|||You got a death wish!?|I think it'd look great!
+||||It looks fine.|My fur doesn't match it.
+partyAlt:
+|||||
+|(Wish Cole could see this...)||||
+|||||
+|||||
+|||||
+|||||
+
+@RBJerky
+name:RedBlk Jerky
+descriptionDW:Red and black colored jerky. It is an acquired taste. Heals HP?
+shopDesc:Sweet-ish\nmulti-color\nmeat.\nHeals ? HP
+shortDesc:Healing varies
+party:
+|||||
+|Ugh, Licorice...||||
+||TOO CHEWY.|||
+|||I can't bite it...||
+||||Well, it's edible.|
+|||||Aw man, it's stuck on my teeth!
+
+@BrokenFlashlight
+name:Broken Flashlight
+
+@MetalPipe
+name:Metal Pipe
+
+@Flashbang
+name:[img]res://Sprites/Menus/Menu Sprites/StatGun.tres[/img] Flashbang
+descriptionDW:A powerful gun that shoots a beam of pure light. Extra damage against DARK type enemies.
+shortDesc:Lightens the\nDARK.
+lwEquip:BrokenFlashlight
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatAtk.tres[/img] [color=orange]DARK DAM UP[/color]
+party:
+|||||
+|Looks dangerous...|||
+||DO NOT AIM AT THE EYES.|||
+|||...Point that away!||
+||||You can probably blind someone with this.|
+|||||Ready to BANISH the dark?
+
+@MetalKanabo
+name:[img]res://Sprites/Menus/Menu Sprites/StatKanabo.tres[/img] Metal Kanabo
+descriptionDW:A stronger Kanabo made of pure metal. It is very heavy.
+shortDesc:Heavy metal\nclub
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatGuts.tres[/img] [color=orange]GUTS UP[/color]
+party:
+|||||
+|Now we're talking...|||
+||COULD BE USED FOR FORGING STUFF.|||
+|||I can't lift it at all...||
+||||Could turn someone into paste with that...|
+|||||A bit overkill, ain't it?
+
+@KeyShardA
+name:Weird Shard
+descriptionDW:A strange shard of something. It somewhat feels like obsidian.
+
+@KeyShardB
+name:Weird Shard
+descriptionDW:A strange shard of something. It is surprisingly heavy.
+
+@KeyShardC
+name:Weird Shard
+descriptionDW:A strange shard of something. Holding it makes you feel anxious.
+
+@KeyShardD
+name:Weird Shard
+descriptionDW:A strange shard of something. You feel like you aren't supposed to have this.
+
+@KeyShardE
+name:Weird Shard
+descriptionDW:A strange shard of something. This one is ring shaped.
+
+@DarkKey
+name:Weird Key
+descriptionDW:A heavy, dark colored key. It must open something...
+
+@Motherboard
+name:Old Motherboard
+
+@UselessRock
+name:Tiny Pebble
+descriptionDW:A small useless pebble. Does absolutely nothing.
+shortDesc:Just a rock
+
+@Lasso
+name:Magic Lasso
+descriptionDW:A colorful lasso that somehow warps whatever it snares to the Dark Jail.
+
+@FoxKey
+name:Old Key
+descriptionDW:A rusty old key. A faint gold sheen can be seen under the rust.
+
+@FakeCoin
+name:Fake Coin
+descriptionDW:A plastic shiny coin replica. Looks like a real one from afar.
+
+@CornChowder
+name:Corn Chowder
+
+@DarkGun
+name:[img]res://Sprites/Menus/Menu Sprites/StatGun.tres[/img] Dark Shot
+descriptionDW:A pitch black gun that almost gets lost in the shadows. Feels omnious.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatEye.tres[/img] [color=orange]WAS IT WORTH IT?[/color]
+lwEquip:Black Gun
+shortDesc:UNKNOWN
+party:
+|(Why is he in pain?)||||
+|I can barely see it...||||
+||FEELS HEAVIER THAN IT LOOKS.|||
+|||...What is this?||
+||||Kinda cool.|
+|||||Pretty edgy.
+
+@RoboCoffee
+name:Robo-Coffee
+descriptionDW:A good ol' cup o' Joe, except it was made for robots. Small heal, TP+20% and SOUL SPEED UP.
+shortDesc:Small heal,\nTP + 20%,\nSOUL SPEED UP
+party:
+|||||
+|Bleh. Bitter...||||
+||SOMEHOW REFRESHING.|||
+|||This coffee is a bit... oily?||
+||||What kind of crap is this?!|
+|||||Somewhat soothing?
+
+@Waffer
+name:Wafers
+descriptionDW:A maple flavored wafer cookie, shaped like a waffle. Not a waffle. Restores 30 HP.
+shortDesc:Restores 30 HP
+party:
+|||||
+|This isn't a waffle...||||
+||AH, A ROBOTOWN DELICACY.|||
+|||Quite tasty.||
+||||Meh. It's okay.|
+|||||Sweet!
+
+@TradingCard1
+name:Trading Card
+descriptionDW:A card with Penilla on it. Maybe you can trade it.
+
+@TradingCard2
+name:Trading Card
+descriptionDW:A card with Frostermit on it. Maybe you can trade it.
+
+@TradingCard3
+name:Trading Card
+descriptionDW:A card with Sir Slither on it. Maybe you can trade it.
+
+@TradingCard4
+name:Trading Card
+descriptionDW:A card with Sousborg on it. Maybe you can trade it.
+
+@TradingCard5
+name:Trading Card
+descriptionDW:A card with Ceroba on it. Maybe you can trade it.
+
+@SpireCard
+name:Black Card
+descriptionDW:A black card with the saying "SPECIAL ACCESS" on it. Might open something.
+
+@RoboAlleyKey
+name:Corked Key
+shortDesc:Some key
+descriptionDW:A key that is bent, but should still work. Opens something in Robotopia.
+
+@Bomb
+name:The Bomb
+descriptionDW:A makeshift but powerful bomb. Very dangerous.
+
+@Firecracker
+name:Firecracker
+
+@VideoTape
+name:Video Tape
+
+@SadieMirror
+name:Hand Mirror
+
+@MineSoda
+name:Soda Can
+
+@BrokenShower
+name:Broken Shower
+descriptionDW:Some broken apparatus with some healing substance. Maybe someone can fix it.
+
+@ElevatorCard
+name:Key Card
+descriptionDW:A keycard to unlock a floor. Standard across many elevator types.
+
+@CloudSlipper
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Cloud Slippers
+descriptionDW:A pair of slippers that feel as soft as stepping in a cloud. Because they are one.
+lwEquip:WhiteSandal
+shortDesc:Soft, fluffy\nsandals.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatArrowUp.tres[/img] [color=orange]GRAZE RANGE UP[/color]
+party:
+|||||
+|Very soft!||||
+||HOW DO I EVEN WEAR THIS??|||
+|||Pretty comfortable.||
+||||Meh. Will do.|
+|||||Do I put it over my boots?
+
+@MirrorBadge
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Reflect Badge
+descriptionDW:A small badge that somehow protects the wearer from certain attacks.
+lwEquip:Reflective Pin
+shortDesc:A small badge.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] [color=orange]ELEC DF UP[/color]
+party:
+|||||
+|Can see myself in it nicely.||||
+||THESE REFLECTIONS ARE ABNORMAL.|||
+|||Pretty well polished.||
+||||Guess it is pretty.|
+|||||Is this a reference to Father III?
+
+@PinGun
+name:[img]res://Sprites/Menus/Menu Sprites/StatGun.tres[/img] Pin Shooter
+descriptionDW:A special gun that can shoot sharp pins. Actually, it looks more like a stapler.
+lwEquip:Sharp Pin
+shortDesc:Shoots Pins.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatGun.tres[/img] [color=orange]PIERCE SHOT[/color]
+party:
+|||||
+|Kinda fancy.||||
+||INCOMPATIBLE WITH MY BODY.|||
+|||That's a pretty interesting gun.||
+||||Eh. No.|
+|||||Cool looking but are the stats good?
+
+@PinScarf
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Pin Scarf
+descriptionDW:A familiar scarf. It is somewhat old but still stylish. Has a prominent pin holding it.
+lwEquip:Handmade Scarf
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] [color=orange]ENDURE[/color]
+shortDesc:Old Scarf.
+party:
+|||||
+|Ah! This is...||||
+||THIS THING IS VERY OLD.|||
+|||Kinda dusty...||
+||||When was this last washed?|
+|||||Fancy design.
+
+@CopperCoil
+name:Copper Coil
+descriptionDW:A strange metal spring that conducts heat. Maybe it can be used for something.
+
+@BrokenSpray
+name:Broken Sprayer
+descriptionDW:A rusty, old sprayer-like machine piece. Maybe someone can fix it.
+
+@SpireKey
+name:Spire Key Card
+descriptionDW:A card that should unlock something within The Spire.
+
+@CottonCandy
+name:Cloud Candy
+descriptionDW:A pretty big cloud sprinkled with sugar. Big enough for the entire team. 30 HP to everyone.
+shortDesc:Family sized.\nParty +30 HP
+party:
+|Ouch, my teeth...|CAN I CONVERT THIS INTO ENERGY?|That's... A lot of sugar.|Hey, stop hogging it all up!|Guys, calm down!
+|||||
+|||||
+|||||
+|||||
+|||||
+
+@JumboCandy
+name:Jumbo Candy
+descriptionDW:Big enough to be split for multiple people. Restores 50 HP to everyone.
+shortDesc:Jumbo sized.\nParty +50 HP
+party:
+|Thanks (I want more...)|THIS WILL DO.|Very sweet!|Can you give me some more?|It's alright.
+|||||
+|||||
+|||||
+|||||
+|||||
+
+@CornBuffet
+name:Corn Buffet
+descriptionDW:A fancy meal made out of corn. Restores 100 HP to the team and fills up 50% TP.
+shortDesc:Fancy corn meal.\nParty + 100 HP\nTP + 50%
+party:
+|Kinda tired of corn...|REFUELING IN PROGRESS.|This is pretty good.|Dina can make better.|Needs more salt.
+|||||
+|||||
+|||||
+|||||
+|||||
+
+@BrokenCanister
+name:Broken Canister
+shopName:Brken Canister
+descriptionDW:A beaten up metal can holding some sort of gas. Maybe it can be used for something.
+shortDesc:Metal Scrap.\nMaybe can be\nreforged.
+
+@TPNecklace
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] Tension Necklace
+shortDesc:Start battle\nw/ 35 TP
+descriptionDW:Wearing this makes you tense. Starts battle with 35% TP, and increases TP from defending.
+lwEquip:Worn Necklace
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatArrowUp.tres[/img] [color=orange]START TP UP[/color]
+party:
+|||||
+|Can feel myself getting tense...||||
+||TENSION GOING UP.|||
+|||A weird feeling...||
+||||Feels like I'm raring to go!|
+|||||Wow, pretty hyper.
+
+@HPBangle
+name:[img]res://Sprites/Menus/Menu Sprites/StatDef.tres[/img] HP Coils
+shortDesc:MAX HP + 50\nDF - 10
+descriptionDW:Really tight coils that compress your body. Increases MAX HP by 50, but lowers DF by 10.
+equipEffect:[img]res://Sprites/Menus/Menu Sprites/StatExclaim.tres[/img] [color=orange]HP UP, DF DOWN[/color]
+party:
+|||||
+|Ugh... Tight...||||
+||THIS WILL CRACK MY CHASIS.|||
+|||I hate this...||
+||||Oof. Can barely move!|
+|||||At least I'm small.

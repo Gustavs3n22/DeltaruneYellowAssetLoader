@@ -1,0 +1,134 @@
+@KTalkDoorFirst
+* What a weird door.
+>p:KanakoOffended2
+.
+* What's with the smoke
+  coming from under it?
+>p:KanakoDumb
+.
+* You don't think we have
+  to... enter it, do we?
+>p:KanakoNervous
+END
+
+--
+
+@KanakoTalkJailRight
+* ...Dead end.
+>p:KanakoNeutral
+.
+* Think this room is used
+  for anything?
+>p:KEEP
+.
+* ...There really is no
+  way to get out of here,
+  is there?
+>p:KanakoNeutral
+.
+* Also what's up with
+  that...
+* Door frame...?
+>p:KanakoOffended2
+.
+* Be careful, or you
+  might fall into that
+  deep abyss!
+>p:KanakoPuff
+END
+
+--
+
+@WrenchTalkD2
+* There aren't that many
+  things to fix here...
+>tc
+.
+* I'm about to freak out.
+>tc
+END
+
+--
+
+@DarkJailMopper1
+* This place is filthy!
+* FILTHY!
+* [shake]FILTHY!!
+.
+* Must clean...
+* CLEAN!
+* [shake]CLEAN!!
+END
+
+--
+
+@MopperTalkD2
+* I keep cleaning, and
+  cleaning...
+* [shake]But it's never enough!
+.
+* This place is never [shake]CLEAN!
+END
+
+--
+
+
+@LWD1Trapdoor2
+* ...This is...
+>p:KanakoNeutral
+.
+* This is the Dark
+  Jail, isn't it?
+>p:KanakoPuff
+.
+* ...And our clothes 
+  changed back.
+>p:KanakoPuff
+.
+>redirect:WeirdStart:LWD1Trapdoor2W
+* So the Dark World
+  thing really did 
+  happen...
+>p:KanakoNeutral
+.
+* ...Let's ask the Warden
+  how to get home while
+  we're here.
+>p:KanakoNeutral
+END
+
+-----
+
+@LWD1Trapdoor2W
+* ...
+>p:KanakoAngry
+.
+* ...Let's ask the 
+  Warden how to get
+  home.
+>p:KanakoAngry
+END
+
+-
+
+@FireThing
+* A fire distinguisher.
+.
+* It can differentiate between
+  good and bad fire and put it
+  down, too!
+END
+
+--
+
+@CaseMimic
+* ...
+.
+* ...
+.
+* ...
+.
+* A'right, you can stop
+  starin' now!
+>tc
+END

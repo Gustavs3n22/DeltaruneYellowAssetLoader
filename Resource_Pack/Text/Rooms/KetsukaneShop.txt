@@ -1,0 +1,3887 @@
+@Cupboard
+* A few loose kernels of corn
+  litter the surface.
+END
+
+--
+
+@Stove
+* Seems some strands of gold fur
+  are stuck on the stove.
+END
+
+--
+
+@WaterContainer
+* Some strange contraption to
+  filter water?
+END
+
+--
+
+@Plates
+* Ceramic plates.
+* Nothing more.
+END
+
+--
+
+@FoxStatue
+* Some ceramic statue in the
+  shape of a fox.
+END
+
+--
+
+@WorkshopPlants
+* Well cared for plants bloom
+  happily.
+END
+
+--
+
+@WorkshopTrash
+* The pile of stuff Chujin has
+  yet to fix keeps pilling up and
+  up to the ceiling.
+END
+
+--
+
+@WorkshopDesk
+* Chujin's work desk.
+.
+* Lots of machines and soldering
+  equipment lay without much 
+  thought, but certainly with care.
+END
+
+--
+
+@CashRegister
+>redirect:Day2KanakoRoomCheck:DWD2StartEventPanic
+* Hey don't touch that!
+>mini:KanakoNervous:(We don't have that much anyway.)
+>p:KanakoTongue
+END
+
+--
+
+@Bonsai
+>redirect:ColeSolo:BonsaiSolo
+>redirect:Day2KanakoRoomCheck:DWD2StartEventPanic
+* Er, let's just say
+  mom doesn't really have
+  a green thumb...
+>p:KanakoNervous
+END
+
+--
+
+@BonsaiSolo
+* Some very dried up bonsai.
+END
+
+--
+
+@Drawers
+* Would be rude to look through
+  these.
+END
+
+--
+
+@KanakoBooks
+>redirect:ChujinFountainSealed:KanakoBooks2
+>redirectmap:Books:KanakoBooksB
+* Most of these books are comics
+  or drawing tutorials.
+.
+* You spy some romance novels
+  mixed in, too.
+>setmap:Books
+END
+
+--
+
+@KanakoBooksB
+* You feel like if you try to
+  read anything, Kanako will talk
+  your ear off for hours.
+.
+* Better leave these alone.
+END
+
+--
+
+@KanakoBooks2
+* (You look over the shelf and
+  just barely see some colorful
+  figurines.)
+.
+* (So that's where they came 
+  from...)
+END
+
+---
+
+@KanakoDrawer
+* [shake]C-Cole! What are you
+  doing?!
+* Don't look in there!
+>p:KanakoBlushFlustered
+.
+>redirect:GizmoFollowing:KanakoDrawerG
+>redirect:END
+END
+
+--
+
+@KanakoDrawerG
+* Woah! Scandalous!
+>p:GizmoNervous
+>mini:KanakoOffended2:You stop looking!
+END
+
+----
+
+@KanakoAxisDollD1
+* Ah, the Axis miniature!
+>p:KanakoHappy
+.
+* Remember all those times
+  we played with it?
+* We were so young still-
+>p:KanakoNormal
+.
+* He lost an arm. Makes
+  me regret being so rough
+  with him.
+>p:KanakoNeutral
+.
+* Wish the store was more
+  popular so he'd be more
+  well known. Oh well.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoPC
+>redirect:ChujinFountainSealed:KanakoPC2
+* Hey! Don't mess with
+  my workstation!
+>p:KanakoTongue
+.
+* Man that computer is
+  so old now. Gotta 
+  save up for a new one.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoPC2
+>redirect:GizmoFollowing:KanakoPC2G
+* Kanako's desk.
+>prompt:Check@Computer:Check@Drawer:Leave it alone
+>promptredirect:KanakoPC2A:KanakoPC2B:END
+END
+
+--
+
+@KanakoPC2A
+* Cole, you can stop now if
+  you know what's best for
+  you.
+>p:KanakoOffended2
+.
+* (...Thank the Angel Cole
+  didn't see anything too
+  embarassing...)
+>p:KanakoDumb
+END
+
+--
+
+@KanakoPC2B
+* (There is a 4 digit lock
+  on the drawer.)
+.
+* (You knowingly insert the
+  same password you used in
+  the Archives...)
+.
+* (It unlocks.)
+.
+* Cole, that's enough.
+* Leave my stuff alone!
+>p:KanakoOffended2
+.
+* (I have to change that
+  combination later...)
+>p:KanakoDumb
+END
+
+--
+
+@KanakoPC2G
+* WOAH! What a museum!
+>p:GizmoNervous
+.
+* I've been meaning to 
+  upgrade it, but I just
+  haven't been able to.
+>p:KanakoNervous
+.
+* Call me if you do, I'll
+  set you up with a proper
+  gaming rig!
+>p:GizmoWink
+END
+
+----
+
+@KanakoBricks
+>redirect:ChujinFountainSealed:KanakoBricks2
+* The good ol' "inter-
+  locking plastic brick 
+  system", as dad calls it.
+>p:KanakoNormal
+.
+* Wish they weren't
+  so expensive.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoBricks2
+* Didn't expect these to
+  actually become the 
+  foundation of that world-
+>p:KanakoDumb
+.
+* Now that's something!
+>p:KEEP
+END
+
+---
+
+@KanakoSketchbook
+* I like to leave some 
+  sketchbooks near the bed.
+>p:KanakoNormal
+.
+* Never know when you
+  have a good enough
+  dream to write down!
+>p:KanakoNormal
+END
+
+---
+
+@KanakoRoomBunBunG
+* You still play with 
+  stuffed dolls?
+* That's lame.
+>p:GizmoSmug
+.
+* Hey, lay off.
+* BunBun is very important
+  to me.
+>p:KanakoOffended2
+.
+* Don't worry, your secret
+  is safe with me.
+>p:GizmoWink
+.
+* (...Can't tell her about
+  MY plushies...)
+>p:GizmoNervous
+END
+
+---
+
+@KanakoRoomBunBun
+>redirectmap:BunBun:KanakoBat
+* That's BunBun!
+>p:KanakoHappy
+.
+* I've had her since I 
+  was a kid, remember?
+>p:KanakoNormal
+.
+* You think it's still
+  childish to cling to 
+  her?
+>p:KanakoPuff
+.
+* Well, I've put away the
+  most childish stuff...
+>p:KanakoNervous
+>setmap:BunBun
+END
+
+--
+
+@KanakoBat
+* By the way, did you like
+  what I did with the bat?
+>p:KanakoNormal
+.
+* I added BunBun to it as a
+  keychain! 
+* Pretty cool, huh?
+>p:KanakoHappy
+.
+* ...Drat, I just 
+  remembered we missed 
+  today's training!
+>p:KanakoPuff
+END
+
+--
+
+@KanakoRoomBunBun2
+* ...It was surprising to
+  see BunBun "in the flesh",
+  so to speak.
+>p:KanakoNervous
+.
+* Wonder where she went
+  after she left us.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoRoomBunBun3
+* ...To think BunBun was
+  one of the criminals...
+>p:KanakoSad
+.
+* Did we do the right thing
+  not apprehending her?
+>p:KEEP
+.
+* ...I guess it was my
+  fault, wasn't it?
+* I chained her down.
+>p:KanakoNervous
+.
+* In my defense, I had no
+  idea this would happen!
+>p:KanakoDumb
+END
+
+-
+
+@KanakoRoomBunBunGetBat
+* ...I guess I can separate
+  them now at least...
+>p:KanakoNeutral
+.
+* (Kanako unhooks BunBun
+  from the bat.)
+>sound:snd_item_ch1.wav
+.
+* ...We'll be taking this,
+  then.
+>p:KanakoNeutral
+.
+* (Kanako pockets the bat.)
+END
+
+-
+
+@KanakoRoomBunBun4
+* ...Sorry, BunBun.
+>p:KanakoSad
+END
+
+-
+
+@KanakoRoomBunBunFullInv
+* ...
+>p:KanakoPuff
+.
+* I was going to take the
+  bat with us, but I don't
+  thing we can carry it.
+>p:KanakoDumb
+.
+* In the Dark World, I mean.
+>p:KEEP
+.
+* Why did you fill our
+  inventory with all that
+  junk?!
+>p:KanakoOffended2
+END
+
+--
+
+@KanakoBed
+>redirect:ChujinFountainSealed:KanakoBed2
+* What are you going
+  to do on the bed,
+  Cole?
+>p:KanakoSmug
+.
+* C'mon, stop fooling
+  around!
+>p:KanakoTongue
+END
+
+--
+
+@KanakoBed2
+>redirect:GizmoFollowing:KanakoBed2G
+* Ah! I bet my bed became
+  something cool in the Dark
+  World!
+>p:KanakoHappy
+.
+* What was it, though?
+>p:KanakoDumb
+END
+
+--
+
+@KanakoBed2G
+* 'Ey, 'Nako, anything
+  interesting you keep under
+  the bed?
+>p:GizmoWink
+.
+* Nothing for you.
+>p:KanakoOffended2
+END
+
+---
+
+@KanakoRoomHole
+>redirect:ChujinFountainSealed:KanakoRoomHole2
+* You can see dad's
+  workshop from this crack.
+>p:KanakoNormal
+.
+* But most of the time
+  he is just sitting
+  down tinkering.
+>p:KanakoPuff
+.
+* Boring!
+>p:KanakoTongue
+END
+
+--
+
+@KanakoRoomHole2
+* Guess this is why my room
+  got taken over by the 
+  Dark World...
+>p:KanakoDumb
+.
+* I gotta patch that hole 
+  up.
+>p:KanakoDumb
+END
+
+--
+
+@KanakoRoomTV
+>redirect:AfterDinnerDay1:KanakoRoomTV2
+* We can play Super
+  Smashing Fighters 
+  later.
+>p:KanakoPuff
+.
+* C'mon, let's eat.
+>p:KanakoNormal
+END
+
+--
+
+@KanakoRoomTV2
+>redirect:ChujinFountainSealed:KanakoRoomTV3
+* Seems we won't have
+  time to play today...
+>p:KanakoSad
+END
+
+--
+
+@KanakoRoomTV3
+>redirect:GizmoFollowing:KanakoRoomTV3G
+* ...That's enough games for
+  a while...
+>p:KanakoNervous
+END
+
+--
+
+@KanakoRoomTV3G
+* Oh, is that the new
+  release of Super Smashing
+  Fighters?
+>p:GizmoAwe
+.
+* Yeah, but we are kinda
+  in a hurry, so we can play
+  it some other time!
+>p:KanakoNervous
+.
+* I'll hold you on that
+  promise.
+>p:GizmoHappy
+END
+
+---
+
+@ChowderEvent
+* Oh, Cole, you still
+  hungry?
+>p:KanakoNormal
+.
+* Just take some chowder!
+* You can bring the bowl 
+  later!
+>p:KanakoHappy
+.
+* (Not like we are running
+  out of chowder anytime 
+  soon...)
+>p:KanakoNervous
+.
+* (You got the Corn Chowder.)
+>sound:snd_item_ch1.wav
+END
+
+--
+
+@KanakoChowder
+* ...Wish mom knew how to
+  cook more than just
+  chowder...
+>p:KanakoNervous
+END
+
+-----------
+
+@KanakoDiscussDay1
+* ...Okay.
+* Let's rewind a bit.
+>p:KanakoSad2
+.
+* Today was... strange.
+>p:KanakoNeutral
+.
+* We fell into a "Dark
+  World", we beat up a
+  giant bear...
+>p:KanakoPuff
+.
+* And now we are tasked
+  with "catching criminals"
+  by some weirdo in a hat.
+>p:KanakoOffended2
+.
+* You know, totally normal
+  things normal teens do!
+>p:KanakoOffended2
+.
+* I don't get how you 
+  aren't freaking out, 
+  Cole.
+>p:KanakoSad2
+>prompt:It was@fun:You were@there with me:I was scared
+>promptredirect:KanakoDiscussDay1A:KanakoDiscussDay1B:KanakoDiscussDay1C
+END
+
+---
+
+@KanakoDiscussDay1A
+>value:0:1
+* ...
+>p:KanakoSad2
+.
+* I suppose it was.
+>p:KanakoNervous
+.
+* Not the way I planned
+  on spending this day, 
+  though.
+>p:KanakoPuff
+.
+[color=black].
+>instend
+>instant
+>redirect:KanakoDiscussDay1-2
+END
+
+--
+
+@KanakoDiscussDay1B
+>value:0:2
+* ...
+>p:KanakoBlush
+.
+* Heh. Guess you couldn't 
+  have made it out of 
+  there without my help!
+>p:KanakoTongue
+.
+* ...Nor would I.
+>p:KanakoPuff
+.
+* Thanks, Cole.
+>p:KanakoNormal
+.
+* Still, that isn't
+  how I had planned
+  to spend this day...
+>p:KanakoPuff
+.
+[color=black].
+>instend
+>instant
+>redirect:KanakoDiscussDay1-2
+END
+
+--
+
+@KanakoDiscussDay1C
+>value:0:1
+* ...
+>p:KanakoSad2
+.
+* Sorry, Cole.
+* I wish I could have
+  done more for us.
+>p:KanakoSad2
+.
+* But I promise you:
+  I'll protect you
+  from now on.
+>p:KanakoOffended
+.
+* So, please rely on
+  me if you need it,
+  okay?
+>p:KanakoNormal
+.
+[color=black].
+>instend
+>instant
+>redirect:KanakoDiscussDay1-2
+END
+
+-----
+
+@KanakoDiscussDay1-2
+* ...
+>p:KanakoPuff
+.
+* Okay so, there is
+  something that's
+  been bothering me...
+>p:KanakoNeutral
+.
+* The Warden said that
+  "someone" was opening
+  the Dark Fountains-
+>p:KanakoPuff
+.
+* Does that mean there
+  are more Dark Worlds
+  in town?
+>p:KanakoNeutral
+.
+* Cole, do you know
+  what that means...?
+>p:KanakoOffended2
+.
+* It means we are the 
+  only ones that can
+  stop this.
+>p:KanakoOffended
+.
+* We are the only ones
+  that know about this.
+* We can seal the worlds!
+>p:KEEP
+.
+* The Warden said that
+  if too many fountains
+  are open-
+>p:KEEP
+.
+* The world will end.
+>p:KEEP
+.
+* We are like, chosen
+  ones or something!
+>p:KEEP
+.
+* Not what I expected,
+  it was still a weird
+  and scary experience...
+>p:KanakoSad2
+.
+* But it doesn't change
+  the fact that we [wave]ARE[/wave] 
+  the ones that can do it.
+>p:KanakoOffended
+.
+* So it's settled!
+>p:KanakoTongue
+.
+* Let's stop this
+  "someone" opening the
+  Dark Fountains-
+>p:KanakoHappy
+.
+* And save the world!
+>p:KanakoHappy
+.
+* Honestly a better 
+  way to spend this
+  week than I planned.
+>p:KanakoNormal
+.
+* And it's just the
+  two of us, too!
+>p:KanakoTongue
+.
+* But I think mom will 
+  get worried if we just 
+  disappear for hours-
+>p:KanakoPuff
+.
+* We need to come up
+  with some excuse.
+>p:KanakoNeutral
+.
+* So we can spend the
+  evening trying to
+  solve this...
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoDiscussDay1Weird
+* ...
+>p:KanakoSad2
+.
+* Today was...
+>p:KanakoSad2
+.
+* Man, what the heck just
+  happened?
+>p:KanakoAnnoyed
+.
+* That place, the Dark 
+  World...
+>p:KanakoAnnoyed
+.
+* What sort of nonsense 
+  was that?!
+>p:KEEP
+.
+* That's not how I planned
+  to spend this week...
+* Ugh.
+>p:KanakoSad2
+>prompt:You went a@bit too far:I agree
+>promptredirect:KanakoDiscussDay1WeirdA:KanakoDiscussDay1WeirdB
+END
+
+-----
+
+@KanakoDiscussDay1WeirdA
+* ...
+>p:KanakoSad2
+.
+* Did I?
+>p:KanakoNeutral
+.
+* ...
+>p:KanakoPuff
+.
+* I guess I did...
+>p:KanakoNervous
+.
+* Sorry Cole, that you
+  had to see me like 
+  that...
+>p:KanakoNervous
+.
+* I'm going to end up like
+  mom at this rate! Ugh!
+>p:KanakoDumb
+.
+* But either way...
+>p:KanakoPuff
+.
+[color=black].
+>instend
+>instant
+>redirect:KanakoDiscussDay1-2
+END
+
+--
+
+@KanakoDiscussDay1WeirdB
+* Right?!
+* The heck was all that?
+>p:KanakoOffended2
+.
+* And now we are tasked with
+  finding those criminals
+  for that weirdo?!
+>p:KEEP
+.
+* Like, what the heck?
+>p:KanakoAnnoyed
+.
+* All I wanted was just to
+  spend the week normally,
+  doing normal teen things.
+>p:KanakoSad2
+.
+* ...
+>p:KanakoPuff
+.
+* W-Well, y'know...
+>p:KanakoBlushFlustered
+.
+* ANYWAY! I'm sure dinner
+  is nearly done!
+>p:KanakoNervous
+.
+* Mom should call us at
+  any moment now...
+* Any moment...
+>p:KanakoDumb
+.
+* ...
+>p:KanakoSad2
+.
+* ...Hey, Cole...
+>p:KanakoSad2
+.
+* ...When you were hit by
+  Bearing, I...
+>p:KanakoNeutral
+.
+* I got really scared, for
+  a moment.
+>p:KanakoSad
+.
+* Promise me you'll be more
+  careful, alright?
+>p:KanakoSad
+END
+
+----
+
+@KanakoDiscussDay1-3
+* Cole? Kanako?
+* Dinner's ready.
+>p:CerobaNormal
+.
+* Ah, coming, mom!
+>p:KanakoSurprise
+.
+* C'mon, Cole.
+* We can continue this
+  conversation later.
+>p:KanakoPuff
+.
+* Let's eat.
+>p:KanakoNormal
+END
+
+----
+
+@KetsuDinnerDay1-1
+* Come, take a seat.
+>p:CerobaNormal
+.
+* (Cole, it's better if
+  you sit near mom.)
+>p:KanakoPuff
+END
+
+--
+
+@KetsuDinnerDay1-2
+* So, Kanako...
+>p:CerobaNormal
+>top
+.
+>p:CerobaNormal
+>top
+* How was school today?
+* You were out until late.
+.
+>top
+>anim:Kanako:SitLook2
+>p:KanakoNervous
+* Oh, um...
+.
+>top
+>p:KanakoPuff
+* We... We were at school
+  until late...because...
+* We were...
+.
+>p:KanakoNervous
+>top
+* Y-you know...
+* Studying...
+.
+* ...
+>top
+>p:ChujinGlasses
+.
+>top
+>p:CerobaHappy
+* That's nice, dear.
+* What did you two study
+  about?
+.
+>top
+>p:KanakoDumb
+* O-oh, we, um, er...
+>prompt:Math:Biology:Sports:History
+>promptredirect:KetsuDinnerDay1-Math:KetsuDinnerDay1-Bio:KetsuDinnerDay1-Sports:KetsuDinnerDay1-Hist
+END
+
+--
+
+@KetsuDinnerDay1-Math
+* Yeah, math!
+* You know I'm not the
+  greatest with it.
+>top
+>p:KanakoDumb
+.
+* If that was the case, 
+  you could have asked
+  me for help.
+>p:ChujinAngry
+>top
+.
+* ...I wasn't aware that...
+* [wave]He[/wave] was the math genious
+  here.
+>p:ChujinGlasses
+>top
+.
+* Err, he isn't...
+>p:KanakoPuff
+>top
+.
+* But we, help each 
+  other out, cover our 
+  weaknesses...
+>p:KanakoNervous
+>top
+.
+* Sounds great, dear!
+* Hopefully your grades
+  will improve.
+>p:CerobaHappy
+>top
+.
+* Haha, yeah...
+>p:KanakoNervous
+>top
+END
+
+--
+
+@KetsuDinnerDay1-Bio
+* Yeah, that.
+>p:KanakoNervous
+>top
+.
+* You know...body stuff.
+* The differences between 
+  monsters and humans...
+>p:KanakoNervous
+>top
+.
+* Unique properties of 
+  our bodies-
+* That sorta thing.
+>p:KanakoNervous
+>top
+.
+* ...
+>p:ChujinAngry
+>top
+.
+* Ah, that's something
+  everyone should know.
+>p:CerobaHappy
+>top
+.
+* I'd have loved to have
+  someone teach me back
+  in the day.
+>p:CerobaHappy2
+>top
+.
+* Y-yeah...
+>top
+>p:KanakoNervous
+END
+
+--
+
+@KetsuDinnerDay1-Hist
+* Yeah, about that.
+>top
+>p:KanakoNervous
+.
+* You know, the wars of 
+  the past, our society...
+>top
+>p:KanakoPuff
+.
+* Differences between 
+  humans and monsters...
+* That stuff.
+>p:KanakoNervous
+>top
+.
+* ...
+>p:ChujinAngry
+>top
+.
+* Sounds great, dear.
+* We mustn't forget what
+  made us into what we are.
+>p:CerobaHappy
+>top
+.
+* ...If only someone 
+  would listen...
+>p:ChujinGlasses
+>top
+END
+
+--
+
+@KetsuDinnerDay1-Sports
+* That! Cole was helping
+  me with my training!
+>p:KanakoNervous
+>top
+.
+* ...I thought you were
+  at school all day, not
+  in the field.
+>p:ChujinAngry
+>top
+.
+* We, uh, were studying
+  the theories!
+>p:KanakoNervous
+>top
+.
+* ...
+>p:ChujinAngry
+>top
+.
+* I don't know much about
+  sports myself, but that
+  sounds important.
+>top
+>p:CerobaNormal
+.
+* Knowing the rules is
+  essential!
+>top
+>p:CerobaHappy
+.
+* It sure is...!
+>p:KanakoNervous
+>top
+END
+
+--
+
+@KetsuDinnerDay1-3
+>anim:Kanako:SitLook2
+* ...Mom, I...
+>p:KanakoNeutral
+>top
+.
+* Me and Cole have a...
+* Group project.
+>p:KanakoPuff
+>top
+.
+* Is it alright if we
+  spend this week out
+  late at school?
+>p:KanakoNervous
+>top
+.
+* ...
+>p:ChujinAngry
+>top
+.
+* Kanako, you don't
+  need to come up with
+  excuses.
+>anim:Ceroba3:SideSit
+>p:CerobaNormal
+>top
+.
+* I know you want to spend
+  some time with Cole 
+  before the week ends.
+>p:CerobaHappy2
+>top
+.
+* It is alright with me.
+>p:CerobaHappy
+>top
+.
+* This might be the last
+  time we see him...
+>p:CerobaLook
+>mini:ChujinGlasses:...
+>top
+.
+* E-err...
+* T-thanks, mom...
+>p:KanakoNervous
+>top
+.
+* Just make sure to return
+  before dinner, alright?
+>p:CerobaHappy
+>top
+.
+* Yeah, I will, thanks!
+>p:KanakoNormal
+>top
+.
+* That's alright with you
+  too, right, dad?
+>p:KanakoPuff
+>anim:Kanako:SitLook
+>top
+.
+* ...
+>p:ChujinGlasses
+>top
+.
+* If it is what makes you
+  happy, dear.
+>p:ChujinGlasses
+>mini:CerobaSad:Chujin...
+>top
+.
+* ...Thanks, dad.
+>p:KanakoNormal
+>top
+END
+
+--
+
+@KetsuDinnerDay1-NecklacePrompt
+* (Oh, right! Cole... 
+  Should we return the 
+  necklace now?)
+>p:KanakoPuff
+>top
+>prompt:Bring up@necklace:Do not
+END
+
+--
+
+@KetsuDinnerDay1-Necklace
+* Ah, right, mom!
+>anim:Kanako:SitLook2
+>p:KanakoPuff
+>top
+.
+* Here is... the necklace!
+>p:KanakoHappy
+>top
+.
+* (Kanako hands over the necklace.)
+>anim:Ceroba3:SideSit
+>top
+>sound:snd_item_ch1.wav
+.
+* Oh, you had it this whole
+  time?
+>p:CerobaHappy
+>top
+.
+* ...The chain is broken.
+>p:CerobaLook
+>top
+.
+* Sorry, I guess I must
+  have dropped it at some
+  point...
+>p:KanakoNervous
+>top
+.
+* It's okay. The gem itself 
+  is still perfectly fine.
+>p:CerobaHappy
+>top
+.
+* The chain is the least
+  of the problems.
+>p:CerobaHappy
+>top
+.
+* Thanks, dearie.
+>p:CerobaHappy2
+>top
+.
+* (Phew...)
+>p:KanakoNervous
+>top
+END
+
+--
+
+@KetsuDinnerDay1-4
+* ...If you'll excuse me...
+* I must return to work.
+>p:ChujinGlasses
+>top
+.
+* Ceroba... Mind coming 
+  over for a bit?
+>p:ChujinGlasses
+>top
+.
+* ...
+>p:CerobaNormal
+>top
+.
+* Sure, dear.
+>p:CerobaNormal
+>top
+.
+* Kanako, Cole, excuse me.
+>p:CerobaLook
+>top
+END
+
+--
+
+@KetsuDinnerDay1-5
+* Oh, Cole.
+>p:CerobaLook
+.
+* I gave Martlet a call
+  earlier.
+>p:CerobaNormal
+.
+* She said that she was
+  already on her way home.
+* Maybe she has arrived.
+>p:CerobaLook
+.
+* Kanako...
+* It's late. You should 
+  stay home.
+>p:CerobaNormal
+.
+* ...Alright, mom.
+>p:KanakoSad
+END
+
+--
+
+@KetsuDinnerDay1-6
+* Well, seems this is
+  goodbye for today.
+>p:KanakoSad
+.
+* I'll accompany you
+  to the door.
+>p:KanakoPuff
+END
+
+-----
+
+@ChujinWorkshopTalkD1
+>redirect:ListenedToCCDay1:ChujinWorkshopTalkD1-2
+* Darling, you don't have
+  to be this way...
+>p:CerobaSad
+.
+* Ceroba, that [wave]human[/wave] is
+  getting too close to our
+  daughter.
+>p:ChujinGlasses
+.
+* He will corrupt her with
+  his twisted ideals.
+>p:ChujinAngry
+.
+* Cole is a good kid,
+  Chujin.
+* He isn't like that.
+>p:CerobaSad
+.
+* All humans are just
+  cunning, selfish
+  beings.
+>p:ChujinAngry
+.
+* He is just biding his
+  time.
+>mini:CerobaSad:...
+>p:ChujinGlasses
+.
+* ...
+>p:KanakoSad
+.
+
+* C'mon, Cole.
+* We heard enough.
+>p:KanakoSad2
+>setflag:ListenedToCCDay1
+END
+
+--
+
+@ChujinWorkshopTalkD1-2
+* ...C'mon, Cole.
+* Let's go.
+>p:KanakoSad
+END
+
+-----
+
+@CerobaPostDinnerDay1
+* Martlet is probably back
+  by now.
+* Take care, Cole.
+>p:CerobaLook
+END
+
+-----
+
+
+@CerobaRoomCheck
+>redirect:Day2KanakoRoomCheck:DWD2StartEventPanic
+* That's my parents'
+  room.
+>p:KanakoPuff
+.
+* We are not going in
+  there!
+>p:KanakoTongue
+END
+
+-----
+
+@ChujinWorkshopCheck
+* Dad's workshop.
+>p:KanakoPuff
+.
+* You know he doesn't
+  like anyone going in
+  there.
+>p:KEEP
+END
+
+----
+
+@KetsukaneFridge
+* The fridge.
+>prompt:Look@Inside:Look At@Door:Do Nothing:Look Above
+>promptredirect:FridgeLook:FridgeDoor:END:FridgeAbove
+END
+
+--
+
+@FridgeLook
+* You look inside the fridge.
+.
+* There is an exagerated amount
+  of corn chowder.
+END
+
+--
+
+@FridgeDoor
+* You look at the fridge's door.
+.
+* It is a diploma for engineering
+  belonging to Kanako's dad.
+.
+* Under it, there are some old
+  drawings. They look like they
+  were drawn by a child.
+.
+* Nothing you haven't seen 
+  before.
+END
+
+--
+
+@FridgeAbove
+* Above the fridge are some bottles
+  with some beverage that Martlet
+  would not like to see you drink.
+.
+* Maybe someday.
+END
+
+----
+
+@KetsukaneTrashPile
+* (A huge pile of trash blocks
+  the path.)
+.
+>redirect:KanakoFollowing:KetsukaneTrashPileK
+[color=black].
+>instant
+>instend
+END
+
+---
+
+@KetsukaneTrashPileK
+* Dad's stuff.
+>p:KanakoPuff
+.
+* He just tosses stuff
+  he can't get working
+  here.
+>p:KanakoPuff
+END
+
+----
+
+@IgnoredRobaCallD1
+* Kanako!
+>p:CerobaNormal
+>top
+.
+* Where were you?!
+* I tried calling all day, 
+  but you didn't answer.
+>p:CerobaLook
+>top
+.
+* S-sorry, mom...
+>p:KanakoSad
+>top
+.
+* ...
+>p:CerobaNormal
+>top
+.
+* Well, no matter.
+>top
+>p:CerobaLook
+.
+* And I see you brought
+  Cole with you.
+>top
+>p:CerobaHappy
+.
+* Yeah, Mart isn't home
+  yet.
+>top
+>p:KanakoPuff
+.
+* Is it fine if he eats
+  with us today?
+>top
+>p:KanakoNormal
+.
+* ...
+>top
+>p:CerobaNormal
+.
+* By me, yes. But I have 
+  to ask your father too.
+>mini:KanakoSad:...
+>top
+>p:CerobaLook
+.
+* Cole, make yourself
+  at home.
+>top
+>p:CerobaHappy
+.
+* Thanks, mom.
+* We'll wait upstairs.
+>top
+>p:KanakoNormal
+.
+* Alright. I'll call
+  when dinner is ready.
+>top
+>p:CerobaHappy
+END
+
+---
+
+@CerobaBeforeDinner
+* Ah, you're here.
+>p:CerobaHappy
+>top
+.
+* Hi, mom...!
+>p:KanakoNervous
+>top
+.
+* Dinner is almost ready.
+* I'll call your father
+  and prepare the table.
+>p:CerobaHappy
+>top
+.
+* So you two just wait
+  a moment.
+>p:CerobaNormal
+>top
+.
+* Make yourself at
+  home, Cole.
+>p:CerobaLook
+>top
+.
+* I'll make sure to
+  notify Chujin that 
+  you're here.
+>p:CerobaNormal
+>top
+.
+* Thanks, mom.
+* We'll wait upstairs.
+>p:KanakoNormal
+>top
+.
+* Alright. I'll call
+  you soon.
+>p:CerobaHappy
+>top
+END
+
+----
+
+@CerobaBeforeDinner2
+* ...Cole.
+>top
+>p:KanakoNeutral
+.
+* Let's go upstairs
+  and...
+* Discuss what happened.
+>top
+>p:KanakoNeutral
+.
+* It's been a long day...
+* And I'm still trying
+  to make sense of it.
+>top
+>p:KanakoSad2
+.
+* You still remember
+  where my room is, right?
+>p:KanakoNeutral
+>top
+.
+* Let's go.
+>p:KanakoPuff
+>top
+END
+
+----
+
+@CerobaBeforeDinner3
+>redirect:CerobaTalkChujinDoor:CerobaBeforeDinner4
+* Chujin? Dear?
+* Dinner is about to
+  be served.
+>p:CerobaNormal
+.
+* Ah, thanks, honey.
+* I'll be coming over.
+>bleep:Chujin
+.
+* Oh, and...
+>p:CerobaNormal
+.
+* Cole will be joining
+  us tonight.
+* Is that's alright?
+>p:CerobaLook
+.
+* ...
+>bleep:Chujin
+.
+* Certainly. Just give me a
+  moment.
+>bleep:Chujin
+.
+* ...
+>p:CerobaSad
+>setflag:CerobaTalkChujinDoor
+END
+
+-----
+
+@CerobaBeforeDinner4
+* ...
+>p:CerobaSad
+END
+
+-----
+
+@KetsuShopTryLeaveD1
+* Cole? Where are you
+  going?
+>p:KanakoPuff
+>top
+.
+* Martlet still hasn't
+  arrived, let's wait
+  here.
+>p:KanakoNormal
+>top
+END
+
+-----
+
+@ReturnFromDWD2_1
+* ...Ah!
+>p:ChujinShock
+.
+* My workshop...
+>p:ChujinShock
+.
+* So... We actually made
+  it back.
+>p:ChujinNervous
+.
+* Was... all that happened
+  actually real?
+>p:ChujinNervous
+>face:ChujinD2:South
+.
+* All that Dark World stuff?
+* It all actually happened?
+>p:ChujinNervous2
+.
+* Um, yeah...
+* It did happen...
+>p:KanakoNervous
+.
+* ...It is still hard to
+  believe...
+>p:ChujinGlasses
+.
+* But... I'm glad we were
+  able to make it back,
+  unharmed.
+>p:ChujinNervous2
+.
+* ...?
+>p:ChujinNormal
+>face:ChujinD2:Left
+.
+* Axis?
+>p:ChujinShock
+>face:ChujinD2:Right
+.
+* Where is he?
+>p:ChujinNervous
+>face:ChujinD2:Left
+.
+* Um...
+>p:KanakoPuff
+END
+
+-
+
+@ReturnFromDWD2_2
+* ...I see.
+>p:ChujinGlasses
+.
+* So that Dark World place
+  really can bring objects 
+  to life...
+>p:KEEP
+.
+* ...Axis...
+>p:ChujinGlasses
+.
+* He got damaged in that 
+  fight...
+>p:KEEP
+.
+* But nothing I can't fix.
+>p:KEEP
+END
+
+-----
+
+@ReturnFromDWD2_3
+* Leave him with me for 
+  tonight. 
+>p:ChujinGlasses
+.
+* I'll fix him up and he 
+  will be working again in
+  no time.
+>p:ChujinNervous2
+.
+* Thanks, dad!
+>p:KanakoHappy
+.
+* ...
+>p:ChujinGlasses
+.
+* So, you two have been
+  doing this Dark World
+  business since yesterday?
+>p:ChujinGlasses
+.
+* Yeah... We were caught
+  by surprise...
+* Like we said-
+>p:KanakoNervous
+.
+* It seems like there is 
+  someone in town able to
+  open them up...
+>p:KEEP
+.
+* And... if we don't stop
+  them... The world might
+  end!
+>p:KanakoDumb
+.
+* ...Dear Angel...
+>p:ChujinGlasses
+.
+* Dad, you remember anything
+  happening before you got 
+  into the Dark World?
+>p:KanakoSad
+.
+* ...Hm.
+>p:ChujinGlasses
+.
+* That girl, Sadie, she
+  left that toaster here
+  for me to fix...
+>p:ChujinAnnoyed
+.
+* Then after that... I
+  think something fell down
+  from the pile of junk.
+>p:ChujinShock
+.
+* It broke and the room
+  started filling up with
+  smoke.
+>p:ChujinNervous
+.
+* I couldn't see anything...
+  But when I came to,
+  I was in that place.
+>p:ChujinNervous
+.
+* Hm... Something fell and
+  broke?
+>p:KanakoPuff
+.
+* I wonder if that thing is
+  what created the Dark
+  World...
+>p:KanakoNeutral
+.
+* Since Sadie was the last
+  one here, we could ask her
+  if she saw anything.
+>p:KanakoPuff
+.
+* ...So, are you two just 
+  planning on investigating 
+  this on your own?
+>p:ChujinAnnoyed
+.
+* ...Yeah.
+>p:KanakoNervous
+.
+* ...
+>p:ChujinGlasses
+.
+* Sorry, as a father, I am
+  just worried...
+>p:ChujinNervous2
+.
+* But you two managed to 
+  hold well on your own.
+* You saved me, after all.
+>p:ChujinNormal
+.
+* ...I won't bring this up
+  to the authorities.
+* ...Not yet, that is.
+>p:ChujinGlasses
+.
+* Doubt they would even
+  believe us.
+>p:ChujinNervous2
+.
+* (And this town's force 
+  is... I guess even Starlo
+  has budget issues.)
+>p:ChujinAnnoyed
+.
+* So you'll help us?
+>p:KanakoPuff
+.
+* ...I suppose. In a way.
+* You can, I guess, count
+  on me.
+>p:ChujinNervous2
+.
+* ...I may not be good in
+  physical confrontation...
+>p:ChujinGlasses
+.
+* But I can upgrade Axis...
+* And he can go in my stead.
+>p:ChujinNervous2
+.
+* Thanks, dad! That means
+  a lot to us!
+>p:KanakoHappy
+END
+
+--
+
+@ReturnFromDWD2_4
+* ...Cole.
+>p:ChujinAnnoyed
+.
+* I only have one thing to
+  ask of you.
+>p:ChujinShadow
+.
+* You know how stubborn
+  Kanako can be when she has
+  something on her mind.
+>p:ChujinNervous2
+.
+* And I guess... You have
+  proven yourself as someone
+  I can trust today.
+>p:ChujinNormal
+.
+* Please. Keep Kanako safe.
+* No matter what happens.
+>p:ChujinGlasses
+.
+* Dad, you don't need to 
+  worry. If anything, I am
+  the muscle of the team!
+>p:KanakoHappy
+.
+[wave]* Sigh...[/wave] You really are
+  just like your mother...
+>p:ChujinNervous2
+.
+* This is why I worry about
+  you, dearie.
+>p:KEEP
+.
+* Just promise me that if
+  you are ever faced with
+  something too dangerous-
+>p:ChujinGlasses
+.
+* You will drop everything
+  and return home safe.
+>p:ChujinAngry
+.
+* Do not make your mother
+  worry.
+>p:ChujinNervous2
+.
+* You saw how we handled 
+  ourselves.
+* We'll be fine!
+>p:KanakoTongue
+.
+* ...Yep. Just like your
+  mother...
+* Oh dear...
+>p:ChujinNervous2
+END
+
+---
+
+@ReturnFromDWD2_5
+* ...We spent quite a while
+  in the Dark World,
+>p:ChujinNormal
+.
+* But it seems it is still
+  around late afternoon...
+>p:KEEP
+.
+* ...I wonder if Dark
+  Worlds have a different
+  scale of time.
+>p:ChujinGlasses
+.
+* ...Glad we got that over
+  with before Ceroba got
+  home then...
+>p:ChujinNervous2
+.
+* ...In any case...
+>p:ChujinNormal
+.
+* Cole, you can stay here 
+  to eat with us tonight,
+  if you wish.
+>p:KEEP
+.
+* Really, dad?
+>p:KanakoNormal
+.
+* Yes. It is the least I can
+  do to repay you for saving
+  me.
+>p:ChujinNervous2
+.
+* Ceroba should be returning 
+  soon.
+* Make yourself at home.
+>p:ChujinNormal
+.
+* Let's... Keep this Dark 
+  World business between us,
+  alright?
+>p:ChujinNervous2
+.
+* No need to worry her.
+>p:KEEP
+.
+* Yeah... That's for the
+  best...
+>p:KanakoNervous
+.
+* For now... I will try to
+  fix Axis.
+* Excuse me.
+>p:ChujinNormal
+END
+
+---
+
+@ReturnFromDWD2_6
+* Well, what now?
+>p:KanakoPuff
+.
+* Guess we can try asking
+  Sadie about what happened?
+>p:KanakoNeutral
+.
+* Or should we report back
+  to the Warden?
+>p:KanakoPuff
+.
+* ...Honestly, I'm a bit
+  exhausted after today...
+>p:KanakoSad2
+.
+* But we can't rest. We NEED
+  to get to the bottom of
+  this!
+>p:KanakoOffended2
+.
+* Anyway, your call on what
+  we do next. We still have
+  plenty of time.
+>p:KanakoNormal
+.
+* Lead the way!
+>p:KanakoHappy
+END
+
+--
+
+@KanakoRoomVisitPostDWD2
+>redirect:GizmoFollowing:KanakoRoomVisitPostDWD2G
+* Ah... Good thing my room
+  is back to normal!
+>p:KanakoHappy
+.
+* Didn't expect it to become
+  an entire cloud dimension
+  in the Dark World.
+>p:KanakoNervous
+.
+* Does that say something
+  about me? I hope not...
+>p:KanakoDumb
+END
+
+-
+
+@KanakoRoomVisitPostDWD2G
+* So... Why are we in 
+  Kanako's room?
+>p:GizmoNormal
+.
+* ...Yeah, Cole. Why are
+  we in my room??
+>p:KanakoOffended2
+END
+
+-----------
+
+@ChujinD2Diag
+>redirect:GizmoFollowing:ChujinD2DiagG
+* How's Axis doing?
+>p:KanakoSad
+.
+* It will still take a while
+  for me to fix Axis...
+>p:ChujinGlasses
+.
+* But I'll have him ready by
+  tomorrow, I promise.
+>p:ChujinNervous2
+>mini:KanakoNervous:Good...
+END
+
+--
+
+@ChujinD2DiagG
+* ...
+>p:ChujinGlasses
+.
+* It is a bit crowded here 
+  now...
+>p:KEEP
+.
+* Sorry, dad! We'll be 
+  leaving soon!
+>p:KanakoNervous
+END
+
+--
+
+@Day2MorningEvent_1
+* Kanako.
+>bleep:Chujin
+END
+
+--
+
+@Day2MorningEvent_2
+* Is something wrong, dad?
+>p:KanakoPuff
+.
+* ...Is everything okay at 
+  school?
+>p:ChujinAngry
+.
+* Your grades have not 
+  been... satisfactory, as
+  of late.
+>p:ChujinGlasses
+.
+* ...
+>p:KanakoNeutral
+.
+* ...Look, I am just looking
+  after you, dear.
+* Just worried.
+>p:ChujinAngry
+.
+* Lately you have been
+  neglecting your studies,
+  and...
+>p:ChujinGlasses
+.
+* Hanging out with that 
+  human.
+>p:ChujinAngry
+.
+* His name is Cole, dad.
+>p:KanakoNeutral
+.
+* ...I am just worried about
+  you. Humans are cunning.
+  Deceiving.
+>p:ChujinGlasses
+.
+* It won't be long until you
+  get yourself in another
+  accident like before.
+>p:KEEP
+.
+* That was years ago, dad!
+* And it was my fault! Cole
+  had nothing to do with it!
+>p:KanakoOffended2
+.
+* ...
+>p:ChujinGlasses
+.
+* I won't tell you what you
+  can and can't do,
+>p:KEEP
+.
+* I just do not want you to
+  end up hurt.
+>p:ChujinAngry
+.
+* ...Alright?
+>p:KEEP
+.
+* ...
+>p:KanakoNeutral
+.
+* Anyway, please pay more
+  attention to your classes.
+>p:ChujinGlasses
+.
+* You spend way too much
+  time drawing those silly
+  stories of yours.
+>p:KEEP
+.
+* Those will hardly bring
+  you a stable income in
+  the future.
+>p:ChujinAngry
+.
+>redirect:KanaViolentCh1:Day2MorningEvent_2B
+* ...Okay, dad. I'll be
+  going now.
+>p:KanakoNeutral
+.
+* ...Right.
+* I'll be in my workshop.
+>p:ChujinGlasses
+END
+
+--
+
+@Day2MorningEvent_2B
+* They aren't stupid, dad!
+* You never even paid 
+  attention to them!
+>p:KanakoOffended2
+.
+* Those drawings mean a lot
+  to me even if you can't
+  see it. You never cared!
+>p:KEEP
+.
+* ...
+>p:ChujinGlasses
+.
+* Sorry, dear. Anyway, look
+  at the time. You should
+  be going.
+>p:ChujinGlasses
+>mini:KanakoNeutral:......
+END
+
+--
+
+@Day2MorningEvent_3
+* A-Ah! Cole! Good morning!
+>p:KanakoNervous
+.
+* I was about to head out
+  to get you! 
+>p:KanakoNormal
+.
+* I just couldn't sleep 
+  after what happened 
+  yesterday. Who would?!
+>p:KanakoTongue
+.
+* But we still gotta go to
+  school... Man, this sucks.
+>p:KanakoNervous
+.
+* (We're already short on
+  time as is...)
+>p:KanakoSad2
+.
+* W-Well let's not waste 
+  any of it. 
+>p:KanakoNervous
+.
+* I wish we could just skip
+  class to find the other
+  Dark Worlds... But...
+>p:KanakoTongue
+.
+* ...
+>p:KanakoPuff
+.
+* W-Well...
+* Lead the way, Cole!
+>p:KanakoNervous
+END
+
+--
+
+@RobaDay2Night
+* 
+END
+
+--
+
+@DinnerDay2_1
+* Ah, you're here!
+>p:CerobaHappy
+.
+* Heya mom!
+* Did you do those errands?
+>p:KanakoHappy
+.
+* ...Yes, but that cactus
+  girl blocking the south
+  exit...
+>p:CerobaAnnoyed
+.
+* Ugh. I hope Starlo does
+  something about her soon
+  before I end up-
+>p:CerobaSad
+.
+* ...Oh, where are my 
+  manners.
+>p:CerobaFluster
+.
+* I am about to serve 
+  dinner. Cole, I'd invite
+  you over again, but...
+>p:CerobaLook
+.
+* I need to see with Chujin
+  first.
+>p:CerobaNormal
+.
+>redirect:541:DinnerDay2_1Alt
+* No need. Dad said he
+  could eat with us!
+>p:KanakoHappy
+.
+* ...What, Chujin did...?!
+>p:CerobaNervous
+END
+
+-
+
+@DinnerDay2_1Alt
+* ...No need. We kinda...
+  "helped" dad in the
+  workshop today-
+>p:KanakoNeutral
+.
+* The least he could do is
+  let Cole eat with us
+  tonight.
+>p:KanakoOffended2
+.
+* ...Oh, is that so?
+* I'm... somewhat surprised.
+>p:CerobaNervous
+END
+
+-
+
+@DinnerDay2_2
+>redirect:541:DinnerDay2_2Alt
+* ...Yes. I invited him to
+  eat with us tonight.
+>p:ChujinNormal
+.
+* Wh... What?
+* Chujin, did something
+  happen?
+>p:CerobaNervous
+.
+* ...Let's just say those
+  two helped me a lot in
+  the workshop today.
+>p:ChujinNervous2
+.
+* ...Well, color me 
+  surprised!
+>p:CerobaHappy
+.
+* I'm so proud of you all,
+  getting along while I
+  wasn't here...
+>p:CerobaHappy2
+.
+* I really wonder what has
+  gotten into all of you to
+  suddenly be so friendly!
+>p:KEEP
+.
+* I'm sure it was something
+  out of this world.
+>p:CerobaRelieved
+>mini:KanakoNervous:Haha...:95:57
+>mini:ChujinNervous2:...Oh dear...
+.
+* Well, sit down then,
+  everyone! 
+>p:CerobaHappy
+.
+* Today, I will make 
+  something extra delicious!
+>p:CerobaHappy2
+.
+* ...It is just corn again,
+  isn't it?
+>p:KanakoNervous
+END
+
+-
+
+@DinnerDay2_2Alt
+* ...Ah. You're all here.
+>p:ChujinGlasses
+.
+* Dad, Cole can eat with us
+  tonight, right?
+>p:KanakoNeutral
+.
+* ...Uh-
+>p:ChujinAngry
+.
+* Right??
+>p:KanakoOffended2
+.
+* Uh, yes. Sure. He did
+  help me with some...
+* Issues in the workshop.
+>p:ChujinNervous2
+.
+* ...It's the least we
+  could do for him.
+>p:ChujinNormal
+.
+* Oh, well. If you say so-
+>p:CerobaNervous
+.
+* I'll get everything ready
+  then. Feel free to wait
+  at the table.
+>p:CerobaNormal
+.
+* This shouldn't take long.
+>p:CerobaNormal
+END
+
+-
+
+@DinnerDay2_3
+>redirect:541:DinnerDay2_3Alt
+* Ah, it feels nice to eat
+  all together without...
+* It being awkward.
+>p:CerobaHappy
+.
+* ...Sorry. I guess our
+  entire family has a
+  streak of stubbornness.
+>p:ChujinNervous2
+>anim:ChujinD2:SideSit
+.
+* What did you all do while
+  I was out? 
+>p:CerobaHappy
+.
+* I can't even begin to 
+  imagine Chujin opening up
+  so much so quickly.
+>p:CerobaRelieved
+.
+* Oh, we... Um...
+>p:KanakoNervous
+>anim:Kanako:SitLook2
+.
+* ...They helped me deal
+  with that toaster.
+>p:ChujinNervous2
+.
+* Ah, the one Sadie left?
+* Didn't know it was a
+  complicated job.
+>p:CerobaNormal
+.
+* ...You really don't want
+  to know...
+>p:ChujinGlasses
+>mini:KanakoDumb:I will never eat toast again.
+.
+* I'm just glad everyone
+  had fun.
+>p:CerobaHappy
+.
+* Next time, I'll try to
+  join in too. Then, we
+  could have even more fun!
+>p:CerobaHappy2
+.
+* ...S-Sure dear.
+* That would be a... 
+  "swell" time. Haha...
+>p:ChujinNervous2
+.
+* (...Mom would murder all
+  those Darkners...)
+* (They stand no chance.)
+>p:KanakoDumb
+END
+
+-
+
+@DinnerDay2_3Alt
+* So, might I ask why you
+  kids decided to help at
+  the workshop today?
+>p:CerobaNormal
+.
+* We, um... We just thought
+  it would be a good change
+  of pace!
+>p:KanakoNervous
+>anim:Kanako:SitLook2
+.
+* Uh, yes. Their help was...
+* Very welcome, indeed.
+>p:ChujinNervous2
+>anim:ChujinD2:SideSit
+.
+* ...Is that so?
+>p:CerobaLook
+.
+* Kinda wish I was here to
+  see what kind of stuff
+  you lot did.
+>p:CerobaRelieved
+.
+* Um... You really don't...
+* It was boring.
+>p:KanakoDumb
+.
+* Y-Yes... Nothing unusual
+  happened... much.
+>p:ChujinNervous2
+.
+* ...If you say so.
+>p:CerobaLook
+END
+
+-
+
+@DinnerDay2_4
+* Hm? Who could it be at
+  this hour? The shop is
+  already closed.
+>p:ChujinGlasses
+.
+* ...I'll go get it.
+>p:CerobaLook
+END
+
+-
+
+@DinnerDay2_5
+* Oh, Martlet!
+* You got off work early
+  tonight?
+>p:CerobaHappy
+>top:lock
+.
+* Y-Yeah... I went home but
+  Cole wasn't there...
+>p:MartletNervous2
+.
+* Oh, he is here. Come in,
+  Come in! We are just 
+  eating dinner.
+>p:CerobaHappy2
+.
+* Oh, um, sorry. I will
+  leave you be then.
+>p:MartletSad2
+.
+* Oh no you won't. Come in.
+* There is enough for
+  everyone.
+>p:CerobaLook
+.
+* ...Alright. E-Excuse me.
+>p:MartletNervous2
+END
+
+-
+
+@DinnerDay2_6
+* Oh, hey Aunt Mart!
+>p:KanakoHappy
+.
+* Welcome, Martlet.
+* What a pleasure to have
+  you over!
+>p:ChujinNormal
+.
+* Oh, um, h-hi.
+* I... I was just going to
+  pick Cole up...
+>p:MartletNervous2
+.
+* No. You will sit down and
+  eat with us. I insist.
+>p:CerobaLook
+.
+* ...You know there is no
+  refusing Ceroba's offers.
+>p:ChujinNervous2
+.
+* Just sit down. Food is
+  still hot.
+>p:ChujinNormal
+.
+* ...A-Alright...
+* I'll sit down then...
+>p:MartletNervous2
+END
+
+-
+
+@DinnerDay2_7
+* Mmmm...!
+* This is really good!!
+>p:MartletHappy
+.
+* It is my old family 
+  recipe for chowder.
+>p:CerobaRelieved
+.
+* Can never go wrong with 
+  it.
+>p:KEEP
+.
+* (It can get grating when
+  eating it every day, 
+  though...)
+>p:KanakoNervous
+.
+* Cole, do you like this?
+* I could ask Ceroba to
+  teach me the recipe!
+>p:MartletHappy
+>prompt:I like@it:I don't@like it
+>promptredirect:DinnerDay2_7A:DinnerDay2_7B
+END
+
+-
+
+@DinnerDay2_7A
+* Of course I will share
+  the recipe, nothing wrong
+  with spreading the word.
+>p:CerobaHappy
+.
+* Though... I wonder if you
+  will be able to learn it
+  in time.
+>p:CerobaNormal
+.
+* ...Oh, don't remind me...
+>p:MartletSad
+>anim:Martlet:SitSide
+.
+* But... I will try my 
+  hardest. I'm sure we will
+  get through this.
+>p:MartletHappy2
+.
+* That's the spirit.
+* Now, eat some more.
+>p:CerobaRelieved
+>mini:MartletHappy:Thank you!
+END
+
+-
+
+@DinnerDay2_7B
+* .................
+>p:CerobaLook
+>mini:KanakoNervous2:.............:95:57
+>mini:ChujinShock:.............
+>setflag:ToldRobaHerCookingSucks
+.
+* Aw. I think it tastes
+  pretty good.
+>p:MartletSad2
+>anim:Martlet:SitSide
+.
+* No. He is right. This
+  chowder is low quality.
+>p:CerobaSad
+.
+* What am I doing wrong?
+* I can cook better than
+  this.
+>p:CerobaAnnoyed
+.
+* I will not rest until I
+  have perfected the recipe.
+>p:CerobaAngry
+.
+* And I will do it before
+  this week ends!!
+[shake]* WHATEVER IT TAKES!!
+>p:CerobaAngry2
+>camshake:15:2
+>sound:snd_damage.wav
+.
+* (Oh no, Cole. What have
+  you done?!)
+>p:KanakoNervous2
+.
+* (Cole... You have doomed
+  us all...!)
+>p:ChujinShadow
+END
+
+-
+
+@DinnerDay2_8
+* Well, that was a pretty
+  nice chow!
+>p:MartletHappy
+.
+* ...Been a while since I
+  could eat like this.
+>p:MartletHappy2
+.
+* You could always come
+  over, you know.
+>p:CerobaLook
+.
+* I... I don't want to be
+  a bother.
+>p:MartletSad2
+.
+* Nonsense. You are almost
+  like family.
+>p:CerobaHappy
+.
+* And... Are you okay with
+  Cole being here, Chujin?
+>p:MartletSad2
+>anim:Martlet:SitSide
+.
+>redirect:541:DinnerDay2_8Alt
+* ...Yes. I realized I was
+  being a stubborn old man
+  all these years...
+>p:ChujinNormal
+.
+* I just wish we could have
+  made amends sooner...
+>p:ChujinGlasses
+.
+>redirect:DinnerDay2_8B
+END
+
+-
+
+@DinnerDay2_8Alt
+* ...It is the least I can
+  do for Kanako.
+>p:ChujinAngry
+.
+* You know how close the
+  two of them have been all
+  these years...
+>p:KEEP
+.
+* ...Can't believe it could
+  end this week.
+>p:ChujinGlasses
+>mini:KanakoNeutral:......
+.
+>redirect:DinnerDay2_8B
+END
+
+-
+
+@DinnerDay2_8B
+* Ah... Right. I...wanted
+  to talk to you two about
+  that, actually...
+>p:MartletSad
+.
+* ...I see.
+>p:CerobaLook
+.
+* Cole, Kanako?
+>p:CerobaNormal
+.
+* You two should head 
+  upstairs and hang out for
+  a bit.
+>p:CerobaHappy
+.
+* We need to discuss some
+  things, if that's okay.
+>p:CerobaLook
+.
+* ...Okay mom. I get it.
+>p:KanakoNeutral
+END
+
+-
+
+@DinnerDay2_9
+* (...C'mon, let's go to my
+  room.)
+>p:KanakoPuff
+.
+* (We have a lot to discuss
+  about the Dark World
+  anyway...)
+>p:KanakoNeutral
+END
+
+-
+
+@KanakoDiscussDay2_1Alt
+* ...Do you sometimes wonder
+  why we were both shoved
+  into this madness?
+>p:KanakoOffended2
+.
+* Ever since yesterday, I
+  can't stop thinking about
+  that.
+>p:KEEP
+.
+* I just wanted a regular
+  week...
+>p:KanakoSad2
+.
+* ...And we are nowhere near
+  finding out who the heck
+  the Outlaw is.
+>p:KanakoHurt
+.
+* We don't even know what
+  they want. Nothing!
+>p:KanakoOffended2
+.
+* ...We really need to find
+  some answers soon, or I'm
+  going to lose my mind.
+>p:KEEP
+.
+* Tomorrow, we gotta double
+  our efforts:
+>p:KanakoOffended
+.
+* That clue Sadie told us:
+* The cafe-
+>p:KEEP
+.
+* I bet there is something
+  there.
+>p:KEEP
+.
+* It is too much of a 
+  coincidence for it not to
+  be.
+>p:KanakoOffended2
+.
+* Hopefully Melody won't
+  make a fuss about it.
+* I can already imagine it.
+>p:KEEP
+.
+* ...[wave]Sigh.
+>p:KanakoSad2
+.
+* ...Wonder if Mart already
+  finished talking to my
+  parents.
+>p:KanakoNeutral
+.
+* Let's check it out.
+>p:KEEP
+END
+
+-
+
+@KanakoDiscussDay2_1
+* Wew... What a day.
+>p:KanakoSad2
+.
+* Still surreal that my
+  room became a Dark 
+  World...
+>p:KanakoPuff
+.
+* ...But we are still 
+  nowhere near learning
+  anything!
+>p:KanakoHurt
+.
+* We still don't know who
+  the Outlaw is. Much less
+  a motive.
+>p:KanakoOffended2
+.
+* From what dad told us, it
+  seems they can just sneak
+  in unnoticed anywhere.
+>p:KanakoNeutral
+.
+* Ugh... I wish we had at
+  least a clue or something.
+>p:KanakoHurt
+.
+* Tomorrow, we have to
+  double down our efforts.
+>p:KanakoOffended
+.
+* You remember what Sadie 
+  and Gizmo said, right?
+>p:KanakoPuff
+.
+* About the thing that 
+  happened at the cafe 
+  yesterday?
+>p:KEEP
+.
+* I bet there could be some
+  clue there...!
+>p:KanakoOffended
+.
+* How do we get in, 
+  though...
+>p:KanakoSad2
+.
+* And... Melody lives there.
+>p:KanakoNeutral
+.
+* I mean, we could ask her,
+  but...
+* Ugh.
+>p:KanakoHurt
+.
+* I really don't want to
+  have to talk to her if we
+  can avoid it.
+>p:KanakoOffended2
+>prompt:We might@have to:Let's ask@the Warden:Ask the police
+>promptredirect:KanakoDiscussDay2_1A:KanakoDiscussDay2_1B:KanakoDiscussDay2_1C
+END
+
+-
+
+@KanakoDiscussDay2_1A
+* ...If it comes to that,
+  I'll let you do the 
+  talking.
+>p:KanakoOffended2
+.
+* No way I'm talking to her.
+* No way!!
+>p:KanakoHurt
+.
+* If only she wasn't so
+  annoying... And didn't
+  kick my face back then.
+>p:KanakoOffended2
+.
+* If it weren't for you, I
+  don't even think I'd be
+  able to hold back.
+>p:KanakoSad2
+.
+* Sometimes I just...
+* Wanna give her a taste of
+  her own medicine.
+>p:KanakoAnnoyed
+END
+
+-
+
+@KanakoDiscussDay2_1B
+* The Warden doesn't seem
+  that helpful.
+>p:KanakoNeutral
+.
+* I still think he is hiding
+  something from us.
+* Something big.
+>p:KanakoOffended
+.
+* Like... Was his Dark World
+  created by the Outlaw too?
+* Or was it something else?
+>p:KanakoOffended2
+.
+* How does one even MAKE a
+  Dark World?
+>p:KEEP
+.
+* There are still so many
+  things we don't know...
+>p:KanakoHurt
+.
+* ...
+>p:KanakoSad2
+END
+
+-
+
+@KanakoDiscussDay2_1C
+* ...Doubt they would even
+  believe us about the Dark
+  Worlds.
+>p:KanakoOffended2
+.
+* And do you really trust
+  those guys to do 
+  anything?!
+>p:KanakoDumb
+.
+* I know they were in Uncle
+  Star's troupe back when 
+  he performed-
+>p:KEEP
+.
+* But they aren't fit for
+  actual law enforcement!
+>p:KEEP
+.
+* ...Maybe Ed could punch
+  the Outlaw into next week
+  if we ever found them.
+>p:KanakoPuff
+.
+* Now that would be great!
+>p:KanakoTongue
+END
+
+-
+
+@KanakoDiscussDay2_2
+* ...Alright. Tomorrow, we
+  need to ask around to see
+  if anyone has clues.
+>p:KanakoNeutral
+.
+* We could try to press more
+  info out of the Warden,
+  and also check the cafe.
+>p:KanakoOffended
+.
+* Though didn't the Warden
+  also say there were two 
+  Dark Worlds in town?
+>p:KanakoPuff
+.
+* The jail wasn't one, and
+  Robotopia was made after
+  that...
+>p:KanakoNeutral
+.
+* Where would these two be,
+  then?
+>p:KanakoOffended2
+.
+* If someone had found a 
+  Dark World, news would
+  have spread already...
+>p:KanakoNeutral
+.
+* So they must be really
+  well hidden.
+>p:KEEP
+.
+* How the heck will we find
+  them?
+>p:KanakoOffended2
+.
+* ......
+>p:KanakoHurt
+.
+* Ugh. I'm so tired.
+* I think I'll go to bed 
+  early tonight.
+>p:KanakoSad2
+.
+* Wonder if Mart and my
+  parents are done.
+* Wanna check in on them?
+>p:KanakoPuff
+END
+
+-
+
+@Day2MartTalk1
+* ...Are you sure, Martlet?
+>bleep:Chujin
+END
+
+-
+
+@Day2MartTalk2RedLetter
+* ...Yes. That's what the
+  letter said.
+>p:MartletSad2
+.
+* ...In 3 days... That's
+  sooner than expected.
+>p:ChujinGlasses
+.
+* We will try talking to
+  Starlo and see if he can
+  do something about it.
+>p:CerobaLook
+.
+* ...N-No, Ceroba. I can
+  deal with it on my own.
+>p:MartletSad
+.
+* ...Martlet, no offense,
+  but you are barely holding
+  it together.
+>p:CerobaSad
+.
+* Let us help you out.
+>p:CerobaNormal
+END
+
+-
+
+@Day2MartTalk2NoRedLetter
+* ...I know Cole took the
+  letter. I really wanted
+  him not to worry, but...
+>p:MartletSad2
+.
+* Martlet, Cole isn't a kid
+  anymore. I'm sure he 
+  understands.
+>p:CerobaLook
+.
+* ...Yes. But I really
+  didn't want him to get
+  involved...
+>p:MartletSad
+.
+* ...He would know sooner
+  or later. Maybe it is for
+  the best?
+>p:ChujinGlasses
+.
+* He could prepare for the
+  worst case.
+>p:ChujinAngry
+.
+* ...
+>p:MartletSad2
+END
+
+-
+
+@Day2MartTalk3
+* ...In any case, this 
+  really does put us in a
+  tight spot.
+>p:ChujinGlasses
+.
+* We should have a talk 
+  with Cole. And I suppose 
+  Kanako too.
+>p:KEEP
+.
+* No, it is fine, Chujin.
+* I... I'll figure something
+  out.
+>p:MartletSad
+.
+* ...Alright. If you say so.
+>p:CerobaLook
+.
+* Just remember- You can
+  count on us, okay? You
+  aren't alone in this.
+>p:CerobaNormal
+.
+* ...Thank you, Ceroba.
+* This means a lot to me.
+>p:MartletHappy2
+.
+* ...It is quite late, now.
+>p:ChujinGlasses
+.
+* I recommend you and Cole
+  get home before it gets
+  too dark.
+>p:ChujinAnnoyed
+.
+* With those incidents
+  around town as of late...
+>p:ChujinNervous
+.
+* Things are getting 
+  dangerous.
+>p:ChujinGlasses
+.
+* Yes... We will be leaving,
+  then.
+>p:MartletSad2
+.
+* And remember, Martlet.
+* You can always come by 
+  whenever you need to.
+>p:CerobaLook
+.
+* We will help you out.
+>p:CerobaHappy
+.
+* Thank you.
+* N-Now, if you excuse me...
+>p:MartletHappy2
+END
+
+-
+
+@Day2MartTalk3B
+* (...3 days...?)
+>p:KanakoSurprise
+.
+* (...That's...not enough.)
+* (We need to hurry up...)
+>p:KanakoSad2
+.
+* (...And there was so much
+  I still wanted to do...!)
+>p:KanakoHurt
+END
+
+-
+
+@Day2MartTalk4
+* O-Oh, Cole!
+* How long have you been
+  waiting here?
+>p:MartletScared
+.
+* Oh, um, we just got down,
+  actually!
+>p:KanakoNervous
+.
+* Oh, okay!
+* Um... Cole?
+>p:MartletHappy
+.
+* It is pretty late now.
+* I think we should head 
+  home.
+>p:MartletHappy2
+.
+* Ah, yes. I'm pretty beat,
+  too.
+>p:KanakoNervous
+.
+* I guess this is it for
+  today, huh?
+* Be seeing you, kay, Cole?
+>p:KanakoHappy
+.
+* Don't be late for school!
+>p:KanakoTongue
+END
+
+-
+
+@Day2MartTalk5
+* ...She is a good girl,
+  isn't she, Cole?
+>p:MartletHappy2
+.
+* ...You'll probably miss
+  her a lot if...
+>p:MartletSad2
+.
+* W-Well, we should go now.
+* Unless... you still have
+  something to do in town?
+>p:MartletNormal
+>prompt:Still have@business in@town:Let's go@home
+>promptredirect:Day2MartTalk5A:Day2MartTalk5B
+END
+
+-
+
+@Day2MartTalk5A
+* Oh, well, okay, then!
+* I will go on ahead home
+  then.
+>p:MartletNervous2
+.
+* Just be careful, okay?
+* The town has not been so
+  safe lately.
+>p:MartletSad2
+.
+* And you still need to
+  sleep to go to school!
+>p:MartletSquint
+.
+* So don't take too long,
+  alright?
+* See you soon, okay?
+>p:MartletNeutral
+END
+
+-
+
+@Day2MartTalk5B
+* Okay! Let's go, then.
+>p:MartletHappy2
+END
+
+-----
+
+@ToasterCheck
+* Sadie's toaster.
+.
+* ...Can't believe this
+  thing gave us so much
+  trouble.
+>p:KanakoOffended2
+END
+
+-
+
+@ToasterCheck2
+* The toaster is broken 
+  beyond repair.
+END
+
+--
+
+@WaffleCheck
+* An emergency waffle maker that
+  can be deployed when your wife
+  only cooks corn every day.
+END
+
+--
+
+@CoffeeCheck
+* A coffee machine, a requirement
+  for anyone pulling all-nighters.
+END
+
+--
+
+@DWD2StartEvent1
+* ...
+>p:KanakoOffended2
+.
+* It's locked?
+>p:KanakoOffended2
+.
+* I don't remember locking
+  it... Maybe mom did...?
+>p:KanakoOffended2
+END
+
+--
+
+@DWD2StartEvent2
+* ...
+>p:KanakoOffended2
+.
+* Well, what do we do
+  now?
+>p:KanakoSad
+END
+
+--
+
+@DWD2StartEvent3
+* W-what's this...?
+* Smoke...?!
+>p:KanakoScared
+.
+* What's going on...
+* I...
+>p:KanakoScared
+.
+* Oh no!
+* DAD!
+>p:KanakoSurprise
+.
+* His workshop is just
+  below my room!
+>p:KanakoSurprise
+.
+* Something must have 
+  happened!
+* Quick, Cole!
+>p:KanakoScared
+.
+* We have to check on
+  dad!
+>p:KanakoScared
+END
+
+--
+
+@DWD2StartEventPanic
+* Cole! We don't have 
+  time for that!
+>p:KanakoScared
+.
+* We have to check up 
+  on dad!
+>p:KanakoScared
+END
+
+--
+
+@DWD2StartEvent4
+* DAD!
+* DAD ARE YOU OKAY?!
+>p:KanakoSurprise
+.
+* We are going in!
+>p:KanakoOffended
+END
+
+--
+
+@DWD2StartEvent5
+* This is...
+* Just like yesterday...!
+>p:KanakoScared
+.
+* A Dark World!
+>p:KanakoScared
+.
+* Guess it came right 
+  up to us instead of
+  us looking for it!
+>p:KanakoOffended
+END
+
+--
+
+@DWD2StartEvent5Alt
+* This is....
+* Just like yesterday-
+>p:KanakoScared
+.
+* A Dark World?!
+>p:KEEP
+.
+* Why?! Why here?!
+>p:KEEP
+END
+
+--
+
+@DWD2StartEvent6
+* ...Dad must be inside.
+>p:KanakoOffended
+.
+* Cole... We must go.
+* We have to save him!
+>p:KanakoOffended
+.
+* We are the only ones
+  that can...
+* Are you ready?
+>p:KanakoOffended
+>prompt:Let's go!:Do we@have to?
+>promptredirect:DWD2StartEvent6A:DWD2StartEvent6B
+END
+
+--
+
+@DWD2StartEvent6Alt
+* ...Dad must be inside.
+>p:KanakoOffended
+.
+* Cole... We must go.
+* We have to save him!
+>p:KanakoOffended
+.
+* We are the only ones
+  that can...
+* Are you ready?
+>p:KEEP
+.
+* ...Here we go.
+>p:KanakoOffended
+END
+
+--
+
+@DWD2StartEvent6A
+* Alright!
+* Let's do this!
+* Here we go!
+>p:KanakoTongue
+END
+
+--
+
+@DWD2StartEvent6B
+* ...
+>p:KanakoOffended2
+.
+* Cole, remember?
+* We are the only ones
+  that can do it!
+>p:KanakoOffended
+.
+* It is our duty!
+* As... uh...
+>p:KanakoOffended
+.
+* I don't think we 
+  have a team name...
+>p:KanakoPuff
+.
+* But no matter!
+* Dad is in danger!
+>p:KanakoOffended
+.
+* Let's go!
+>p:KanakoTongue
+END
+
+--
+
+@ReturnFromDWD2Alt_1
+* ...Ah!
+>p:ChujinShock
+.
+* My workshop!
+>p:KEEP
+.
+* So we managed to 
+  return...
+>p:KEEP
+.
+* Dad...
+* You'll fix Axis, won't
+  you?
+>p:KanakoCry
+.
+* ...Oh.
+>p:ChujinNervous
+.
+* So, all that Dark World
+  stuff...
+* It did happen after all.
+>p:KEEP
+.
+* ...Axis...
+>p:ChujinGlasses
+.
+* So he really was that toy
+  I made... 
+>p:KEEP
+.
+* And the Dark World can
+  actually bring objects
+  to life...
+>p:KEEP
+.
+* ...Sorry, it is a bit too
+  much to take in-
+>p:ChujinNervous2
+.
+* But yes. I will fix him 
+  up.
+>p:ChujinNormal
+.
+* He isn't as badly broken
+  as I thought. He should
+  be repaired tomorrow.
+>p:KEEP
+.
+* ...Thank the Angel...
+>p:KanakoCry
+.
+* ...Kanako.
+>p:ChujinGlasses
+.
+* I'm aware that everything
+  that happened was...
+* Traumatic.
+>p:KEEP
+.
+* But you can't let that
+  affect you.
+>p:KEEP
+.
+* Sometimes, sacrifices
+  have to be made in the
+  name of the greater good.
+>p:KEEP
+.
+* And... I did ask Axis to
+  protect you, no matter 
+  what.
+>p:KEEP
+.
+* So I take the blame on
+  this. Please, don't take
+  it out on yourself.
+>p:ChujinShadow
+.
+* ...
+>p:KanakoAngry
+.
+* ...Sorry. I'm just making
+  things worse, aren't I?
+>p:ChujinShock
+.
+* I've never really been
+  the best at giving pep
+  talks.
+>p:ChujinNervous2
+.
+* ...But thank you, you two.
+* You both saved me.
+>p:ChujinNormal
+.
+* And Axis, too.
+>p:ChujinShadow
+.
+* ...Yeah...
+>p:KanakoSad
+.
+* ...
+>p:ChujinAngry
+END
+
+-
+
+@ReturnFromDWD2Alt_2
+* ...Even though we spent
+  so long in the Dark World,
+  it is still early...
+>p:ChujinNormal
+.
+* Guess time works 
+  differently there...
+>p:ChujinNormal
+.
+* ...You two should go out
+  and get some fresh air,
+  relax a little.
+>p:ChujinAngry
+.
+* You're probably tired
+  after everything we went
+  through. I know I am.
+>p:ChujinNervous2
+.
+* ...No. We need to find
+  out who is behind this.
+* Behind the Dark Worlds.
+>p:KanakoOffended
+.
+* We don't have time to 
+  rest! We gotta find the
+  Outlaw!!
+>p:KanakoOffended2
+.
+* ...
+>p:ChujinGlasses
+.
+* Kanako...
+>p:KEEP
+.
+[wave]* Sigh...[/wave]
+* You are just like your
+  mother.
+>p:ChujinNervous2
+.
+* ...But you can't just
+  charge ahead willy-nilly.
+>p:ChujinAngry
+.
+* ...You could end up
+  seriously hurt.
+>p:KEEP
+.
+* ...Please. I don't want
+  you to suffer any more
+  than you already did.
+>p:KEEP
+.
+* ...
+>p:KanakoNeutral
+END
+
+-
+
+@ReturnFromDWD2Alt_3
+* ...I mean it.
+>p:ChujinAngry
+.
+* As your father, I'm only
+  worried-
+>p:KEEP
+.
+* What would your mother
+  think if she saw you hurt?
+>p:KEEP
+.
+* I can't even imagine what
+  she would do.
+>p:ChujinShadow
+.
+* (...Angel knows what she
+  would do... Oh dear...)
+>p:KEEP
+.
+* ...Y-Yeah.
+* You're right.
+>p:KanakoSad
+.
+* ...But still...
+>p:KanakoOffended2
+.
+* You got hit badly by that
+  toaster... And I couldn't 
+  do anything...
+>p:KanakoAngry
+.
+* ...It pisses me off.
+>p:KanakoAngry2
+.
+* ...
+>p:ChujinGlasses
+.
+* Sorry. I wish I could help
+  you more. I know you are
+  too stubborn to give up.
+>p:ChujinShadow
+.
+* You'll keep looking into
+  the Dark Worlds even if I
+  tell you not to.
+>p:ChujinAnnoyed
+.
+* ...I won't stop you.
+* You're already old enough
+  to do your own decisions.
+>p:ChujinGlasses
+.
+* But please. Don't push
+  yourself too hard, okay?
+>p:ChujinAngry
+.
+* You'll always have a home
+  to return to.
+>p:KEEP
+.
+* Remember that, okay?
+>p:KEEP
+.
+* ...
+>p:KanakoNeutral
+.
+* ...Yeah...
+* T-Thanks, dad.
+>p:KanakoCry
+END
+
+-
+
+@ReturnFromDWD2Alt_4
+* ...Oh dear, I'm not good
+  at this comforthing 
+  thing...
+>p:ChujinNervous2
+.
+* But... It's alright,
+  Kanako.
+>p:ChujinNormal
+.
+* I won't tell anyone else
+  about the Dark Worlds.
+>p:KEEP
+.
+* ...Specially your mother.
+* We really don't want to
+  worry her.
+>p:ChujinAnnoyed
+.
+* This will be our secret,
+  okay?
+>p:ChujinNormal
+.
+* ...Mh Hmm.
+>p:KanakoSad2
+END
+
+-
+
+@ReturnFromDWD2Alt_5
+* ...Just... Be careful.
+>p:ChujinGlasses
+.
+* Now if you excuse me...
+* I'll fix Axis up.
+>p:ChujinAngry
+.
+* I may not be a fighter...
+* But after what he has 
+  done today-
+>p:ChujinShadow
+.
+* That he will be an 
+  invaluable asset to you.
+>p:ChujinGlasses
+.
+* That way... I may be able
+  to help you. Through him.
+>p:ChujinNervous2
+.
+* I'm sure he will be all
+  right be tomorrow.
+>p:ChujinNormal
+.
+* ...Just, really consider
+  taking the rest of the
+  day off, you two.
+>p:KEEP
+.
+* Don't push yourselves
+  too hard.
+>p:KEEP
+.
+* And... If it ever gets
+  too tough out there-
+>p:ChujinShadow
+.
+* Don't be afraid to 
+  retreat and return home.
+>p:ChujinNervous2
+.
+* You'll always be welcome.
+>p:ChujinNormal
+.
+* ...Yeah.
+* Thanks, dad.
+>p:KanakoNervous
+.
+* It's nothing, dear.
+>p:ChujinNormal
+.
+* Just be back before
+  dinner and your mother
+  won't kill us, alright?
+>p:ChujinNervous2
+.
+* Y-Yeah. I'll be sure to
+  be here.
+>p:KanakoNervous
+.
+* ...Now, if you excuse me.
+>p:ChujinNormal
+END
+
+-
+
+@ReturnFromDWD2Alt_6
+* ...Cole.
+>p:KanakoNeutral
+.
+* We have to find out more
+  about the Outlaw.
+>p:KanakoOffended2
+.
+* Why are they making the
+  Dark Worlds? How does one
+  even do that??
+>p:KEEP
+.
+* ...But we have no clues.
+* Where do we even look?
+>p:KanakoSad2
+.
+* ...Guess we could ask the
+  Warden?
+>p:KanakoNeutral
+.
+* Or...
+>p:KanakoPuff
+.
+* Sadie was the last one
+  that came in the shop,
+  right?
+>p:KanakoNeutral
+.
+* Maybe she saw 
+  something? Any clue to
+  find the Outlaw...
+>p:KanakoNeutral
+.
+* ...We should go talk to
+  her.
+>p:KEEP
+.
+* She's probably at her
+  house now. You remember
+  where she lives, right?
+>p:KEEP
+.
+* Then let's not waste any
+  time. Let's go.
+>p:KanakoOffended
+END

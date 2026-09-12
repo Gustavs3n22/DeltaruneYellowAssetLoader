@@ -1,0 +1,198 @@
+@Intro
+* ...Oh.
+* It is you guys again.
+
+@Intro2
+* What now?
+
+@TalkMenu
+* Ugh.
+
+@TalkMenu2
+* Done?
+
+@BuyCancel
+* Like you 
+  could 
+  afford it.
+
+@BuyConfirmed
+* ...Suckers.
+
+@BuyFull
+* ...
+
+@BuyMoney
+* ...Serves
+  you right.
+
+@BuyMenu
+* You don't
+  deserve
+  anything.
+
+@BuyMenu2
+* Still
+  trying?
+
+@SellMenu
+* As if I'd ever buy something
+  from you.
+* Get out of my shop.
+
+@SellDontHave
+* ...
+
+@SellChoose
+* ...
+
+@SellConfirmed
+* ...
+
+@Exit
+* Hope you never return.
+
+-
+
+@Topic1
+Toster (NEW?)
+
+@Topic2
+Waffles? (NEW?)
+
+@Topic3
+Interlopers (NEW?)
+
+@Topic4
+Rumors? (NEW?)
+
+@Topic5
+[color=yellow]Breakfast Gang (NEW)[/color]
+
+@Topic6
+[color=yellow]Joe (NEW)[/color]
+
+-
+
+@TalkTopic1
+anim:Smug:
+* So you wanna know what is my
+  deal with Toster, then?
+BREAK
+anim:Sad:
+* Eh... Why should I tell
+  someone like you anything?
+* Specially after what you
+  did!
+BREAK
+anim:Default:
+* ...Maybe we can reach an
+  agreement.
+BREAK
+anim:Smug:
+* If you [color=yellow]buy a certain 
+  something[/color], 
+  I [wave]miiiiiight[/wave] loosen my lips.
+BREAK
+anim:Smug:
+* How's that sound?
+
+-
+
+@TalkTopic2
+anim:Sad:
+* Yeah, yeah. They aren't
+  really waffles. They are
+  wafers.
+BREAK
+anim:Default:
+* Give me some slack, they
+  are way cheaper to make.
+* And those dumb people can't
+  tell the difference!
+BREAK
+* I do tell them about it, so
+  it ain't my fault!
+* I'm not lying to them!
+BREAK
+anim:Sad:
+* ...I won't sell you any, just
+  so you know.
+
+-
+
+@TalkTopic3
+* These cloud head idiots are
+  no match for us robots. 
+* Don't even know why Toster 
+  is so scared of them.
+BREAK
+anim:Smug:
+* I mean you saw how I punched
+  that guy in the face. Hah.
+BREAK
+anim:Default:
+* But I don't mind them as long
+  as they buy my stuff. Money
+  is money, after all.
+
+-
+
+@TalkTopic4
+* ...If you want to know any
+  "rumors", go ask someone
+  else.
+BREAK
+* There is a guy in Robo Town
+  that would LOVE to tell you
+  any dumb rumors.
+
+-
+
+@TalkTopic5
+anim:Smug:
+* Curious, are you now?
+BREAK
+* Me, Toster, and that guy in
+  Robo Town... Joe Capccino.
+BREAK
+anim:Default:
+* We three are part of the
+  "Breakfast Gang". We all
+  made a deal to take over
+  Robotopia.
+BREAK
+* ...But I guess we all choose
+  different means.
+BREAK
+* If you want to deal with Joe,
+  his hideout is just there
+  in the alley.
+BREAK
+* You can get in with that key.
+* Hm? Why am I just telling you
+  this?
+BREAK
+anim:Smug:
+* Up to you if you wanna go and
+  get yourselves beaten up. 
+* Me, personally, just can't 
+  stand Joe.
+BREAK
+* So it is a win-win for me.
+* Thanks for the money, by the
+  way. No refunds.
+
+-
+
+@TalkTopic6
+anim:Smug:
+* So you dealt with him, huh?
+BREAK
+* Thanks for that. Saves me
+  having to deal with him ever
+  again.
+BREAK
+anim:Default:
+* Don't expect me to give you
+  a discount, though.

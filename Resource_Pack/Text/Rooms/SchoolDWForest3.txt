@@ -1,0 +1,88 @@
+@KanakoRest
+* ...
+* S-Sorry Cole, my legs are
+  giving out... 
+>p:KanakoSad2
+.
+* I guess I am still a bit 
+  overwhelmed by, well...
+* Everything?
+>p:KanakoNervous
+.
+* Just give me a few 
+  moments, I just need to 
+  breathe in for a bit...
+>p:KEEP
+>prompt:Rest a@bit:There is@no time
+END
+
+--
+
+@KanakoRestReject
+* ...Fine. I get it.
+* We should try to get home
+  before our families worry.
+>p:KanakoSad2
+.
+* Sorry. I will keep up.
+* Lead on.
+>p:KanakoNeutral
+END
+
+--
+
+@KanakoBenchRefuse
+* ...You said so yourself,
+  there is no time.
+* Let's keep going.
+>p:KanakoNeutral
+END
+
+--
+
+@KanakoBenchTalk
+* ...
+* Feels nice to sit down,
+  relax a bit, doesn't it?
+>p:KanakoNervous
+.
+* ...
+>p:KanakoSad2
+.
+* I'm still trying to come
+  to terms to what is 
+  happening...
+>p:KEEP
+.
+* Dark Worlds...
+* Lightners...
+* Darkners...
+>p:KEEP
+.
+* That Warden guy...
+* Bearing...
+>p:KEEP
+.
+* It's all so sudden...
+* Why would there be a 
+  weird world in our school?
+>p:KEEP
+.
+* ...I'm just glad that at
+  least... you're here with
+  me...
+>p:KanakoHappy2
+END
+
+--
+
+@KanakoBenchTalk2
+* Well, we've already rested
+  enough.
+* I feel better already.
+>p:KanakoNervous
+.
+* Let's go. We shouldn't
+  be far now.
+>p:KanakoNormal
+END

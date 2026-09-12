@@ -1,0 +1,865 @@
+@CameraMan
+>redirectmap:Camera:CameraMan2
+* [wave]SNAP![/wave]
+* Smile for the camera!
+>tc
+.
+* Welcome to RoboTown!
+* Not much is happening right now,
+  but every robot is welcome!
+>tc
+>setmap:Camera
+END
+
+--
+
+@CameraMan2
+* Say you lot looking a bit
+  too... fleshy.
+>tc
+.
+* Are you new models?
+* Fleshy chasis are pretty
+  fragile!
+>tc
+END
+
+--
+
+@RadioKid1
+* Yo, yo! Trading cards are all
+  the rage now!
+>tc
+.
+* Bet you don't have any, do you?
+* Don't know what you're missing
+  out!
+>tc
+END
+
+--
+
+@RadioKid2
+* Woah! You collecting cards too?
+* Lemme see what you have!
+>tc
+.
+* .......
+>tc
+.
+* Sorry, that card SUCKS!
+* I'm willing to trade if you
+  bring something better!
+>tc
+.
+* I think there was someone
+  willing to trade way over at
+  the Spire vista-
+>tc
+.
+* But no way I'm walking all the
+  way over there!
+>tc
+END
+
+--
+
+@RadioKid3
+* Woah, hey, is that a SIR SLITHER
+  trading card?!
+>tc
+.
+* Wanna trade it for my SOUSBORG 
+  one?! It is ultra rare!
+>tc
+>prompt:Trade:Don't
+>promptredirect:RadioKid3A:RadioKid3B
+END
+
+--
+
+@RadioKid3A
+* AW YEAH!! One step closer to
+  completing my collection!
+>tc
+.
+* (You traded your SIR SLITHER
+  card for a SOUSBORG one.)
+>sound:snd_item_ch1.wav
+END
+
+--
+
+@RadioKid3B
+* Don't be a square, dude!
+>tc
+END
+
+--
+
+@RadioKid4
+* Now all that's left is to find
+  a 'Roba card!
+>tc
+.
+* They are super rare, only 15 of
+  them exist!
+>tc
+.
+* There must be someone in this
+  town that has one...
+>tc
+.
+* ...Wonder if those interloper
+  guys collect cards, too.
+>tc
+END
+
+--
+
+@RadioKid5
+* Woah, you got a CEROBA card?!
+>tc
+.
+* Dude, those are mega rare!!
+>tc
+.
+* I... I actually don't have any
+  card to trade for it...
+>tc
+.
+* None of my collection is even
+  WORTH trading for one-
+>tc
+.
+* You're so lucky, dude!
+>tc
+END
+
+--
+
+@RadioKid6
+* What?! You gave your Ceroba card
+  away?! Dude, what's wrong with
+  you?!
+>tc
+.
+* That sucks... 
+* I wonder if I will ever find one 
+  for myself.
+>tc
+END
+
+--
+
+@GrandpaClock1
+* ...That was Master Chujin?
+>tc
+.
+* Harumph... Would it have hurt
+  for them to have got a better 
+  actor to play him?
+>tc
+.
+* That looks nothing like him!
+>tc
+>mini:KanakoNervous:...
+END
+
+--
+
+@SaveRoboTown
+>redirect:WeirdStart:SaveWeirdRoute
+* This town is a change of
+  pace compared to everything
+  so far.
+>heal
+.
+* You are filled with a sense 
+  of relief.
+>callsave
+END
+
+--
+
+@FactorySign
+[color=green]* PATH TO FACTORY AHEAD.
+>bleep:System
+END
+
+---------------------------------------------------
+
+@Ch2TVEvent_1
+* We interrupt the regularly
+  scheduled broadcast for a
+  special report!
+END
+
+--
+
+@Ch2TVEvent_2
+[wave]* HELLOOOOOOOOOOOOO
+  ROBOTOPIA!
+>p:ToastLaugh
+.
+* This here is MC Toster
+  talking to you LIVE from
+  the Spire!
+>p:ToastNormal
+.
+* I'm here today with none
+  other than OUR CREATOR,
+  the one and only...
+>p:ToastNormal
+.
+* MASTER CHUJIN!
+>p:ToastLaugh
+.
+* E-erm... H-hello...
+* Robo...Robotopia...?
+>mini:KanakoSurprise:Dad!!
+>p:ChujinDWNormal
+.
+* [shake]INDEED![/shake] Incredible, 
+  right?!
+>p:ToastLaugh
+.
+* As your assigned leader,
+  such momentous occasion
+  must be celebrated!
+>p:ToastNormal
+.
+* As such, I will have
+  Master Chujin create me
+  a brand new body!
+>p:ToastLaugh
+.
+* Eh? What...?
+>p:ChujinDWNervous3
+.
+>sound:RoomMusic2
+[shake]* WITH THIS NEW BODY...
+* I WILL BE UNSTOPPABLE...
+>p:ToastLaugh
+.
+* And our war against the
+  [color=red]interlopers[/color] will
+  finally come to an end!
+>p:ToastNormal
+.
+* That is all I wanted to
+  share with you today!
+* Keep up the good work!
+>p:ToastNormal
+.
+* THIS IS MC TOSTER, OUT-
+>p:ToastLaugh
+>mini:ChujinDWNervous:Now, wait a minute-
+.
+* Hm? What?
+* REALLY?
+>p:ToastSide
+.
+* I just received news that 
+  some other lightners were 
+  seen wandering around.
+>p:ToastNormal
+.
+[shake]* WELL GET TO IT!
+* CAPTURE THEM! ALIVE OR
+  DEAD!
+>p:ToastLaugh
+.
+[shake]* WHOEVER BRINGS THEM TO
+  ME GETS 100,000 DARK
+  DOLLARS!
+>p:ToastLaugh
+>mini:AxisDumb:WHERE IS THAT MONEY COMING FROM?
+.
+* Now for real,
+  [shake]TOSTER OUT!
+>p:ToastNormal
+END
+
+--
+
+@Ch2TVEvent_3
+* Dad's in danger!
+>p:KanakoSurprise
+.
+* That Toster guy will
+  see when I get my hands
+  on him...!
+>p:KanakoOffended
+.
+* ...Wait, isn't Toster
+  one of the criminals we
+  are looking for?
+>p:KanakoPuff
+.
+* Guess that's two birds
+  with one stone!
+>p:KanakoHappy
+.
+* So, Axis!
+>p:KanakoOffended
+.
+>redirect:DW2PlanTalk:Ch2TVEvent_3B
+* What's the fastest way
+  to get to "The Spire"?
+>p:KanakoOffended
+.
+* WE GO THROUGH THE FACTORY
+  AND GET A SERVICE TRAM
+  THERE.
+>p:AxisNormal
+.
+* THE FACTORY IS JUST UP
+  AHEAD.
+>p:AxisNormal
+.
+>redirect:Ch2TVEvent_4
+END
+
+--
+
+@Ch2TVEvent_3B
+* You said that there
+  was a tram in the
+  factory, right?
+>p:KanakoOffended
+.
+* YES. THE FACTORY SHOULD
+  BE JUST UP AHEAD.
+>p:AxisNormal
+.
+>redirect:Ch2TVEvent_4
+END
+
+--
+
+@Ch2TVEvent_4
+* Ah, good! We should be
+  able to get there in 
+  no time then!
+>p:KanakoHappy
+.
+* Let's go, guys!
+* Dad's waiting!
+>p:KanakoTongue
+END
+
+---------------------------------------------------
+
+@HeaterGuy1
+* Hey heard the latest?
+* That girl that sells food
+  at the Spire...
+>tc
+.
+* She just sold me a wafer...
+* When I wanted a waffle...
+>tc
+.
+[shake]* WHY?! HOW DO YOU EVEN GET IT
+  WRONG?! ISN'T HER WHOLE THEMING
+  DONE AFTER WAFFLES?!
+>anim:caller:Angry
+.
+* Oh sorry about it. Just 
+  venting it.
+>anim:caller:Idle
+>tc
+END
+
+-
+
+@FanGuy1
+* I'm a big fan of the new guy
+  in charge, his assistant is
+  also pretty cute.
+>tc
+.
+* Here to the next regime!
+>tc
+END
+
+-
+
+@LampGirl1
+* Hmph. That Toster guy...
+* He has no class at all!
+>tc
+.
+* And worst, that girl from the
+  Spire is head over heels for
+  him!
+>tc
+.
+* These days just keep getting
+  darker, even darker each passing
+  moment.
+>tc
+END
+
+-
+
+@WashMan1
+* Heard there is a team of
+  interlopers that is stealing MY
+  patented pose!
+>tc
+.
+* Who do they think they are?!
+* I came up with the pose first!
+>tc
+.
+* THIS POSE!!
+* HOW CAN ANYONE ELSE PULL IT OFF
+  BETTER THAN ME?!
+>shakeanim:caller:Pose
+.
+* I swear, nothing is sacred 
+  nowadays!
+>anim:caller:Idle
+>tc
+END
+
+---------------------------------------------
+
+@CoffeeGuy1
+* Hello, hello! First time I see 
+  you fine folk!
+>tc
+.
+* Come for a fine brew of my world 
+  famous Joe by Joe CapCcino 
+  himself? (That's me!)
+>tc
+.
+* Uh, what?
+>p:KanakoDumb
+.
+* Coffee, my dears. I sell the best
+  coffee in all of Robotopia here!
+>tc
+.
+* Just a single sip and you will
+  be fully oiled up, ready to 
+  tackle any tasks!
+>tc
+.
+* Rusty joints? Creaking cogs?
+  Your capacitors blowing up?
+>tc
+.
+* All of it can be fixed by my 
+  coffee! On top of an out of this 
+  world taste!
+>tc
+.
+* Even Master Chujin approves of 
+  it!
+>mini:AxisNormal:WHEN DID HE DRINK THIS?
+>tc
+.
+* Is... Is this safe for
+  non-robots...?
+>p:KanakoOffended2
+.
+* Hm? Why would you ask such a 
+  thing? Wait... you aren't with 
+  the interlopers, are you...?
+>tc
+.
+* No... No! Of course not!
+* Just curious...!
+>p:KanakoNervous
+.
+* ...Well I can assure you my 
+  coffee should be safe for any 
+  kind of creatures! (...maybe!)
+>tc
+.
+* Would you be interested in a 
+  freshly brewed cup?
+>tc
+END
+
+-
+
+@CoffeeGuy2
+* Hello, hello! May I interest you
+  in a good ol' cup o' Joe from Joe
+  CapCcino (trademark pending)?
+>tc
+END
+
+-
+
+@CoffeeGuyPrompt
+* Just 30 Dark Dollars for one!
+>tc
+>showmoney
+>prompt:Buy:Don't:Talk
+END
+
+-
+
+@CoffeeGuyCancel
+* Your loss, friends! Who knows for
+  how much longer will I have any 
+  left in stock!
+>tc
+END
+
+-
+
+@CoffeeGuyNoMoney
+* What?! You have no cash?!
+>tc
+.
+* ...Sorry, folks. Without any cash,
+  I can't give you any of the brew!
+* Hope you come back soon.
+>tc
+END
+
+-
+
+@CoffeeGuyFullInv
+* Here you g-
+* Wait, you can't carry any more!
+* Clean your inventory, won't you?
+>tc
+END
+
+-
+
+@CoffeeGuyBuy
+* Thank you, thank you!
+* Make sure to come back for more
+  soon!
+>showmoney
+>tc
+.
+* (You got a cup of Robo-Coffee)
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@CoffeeGuyTalk
+* Talk? Well, about what?
+>tc
+>prompt:Coffee:You:Robots:Nothing
+END
+
+-
+
+@CoffeeGuyTalkCoffee
+* About where my brew comes from?
+* It is sourced from high quality
+  ingredients, I assure you!
+>tc
+.
+* It is also mixed with a special
+  syrup from a business partner of
+  mine, all the way from the spire!
+>tc
+.
+* Please consider buying a cup,
+  you will not regret it!
+>tc
+END
+
+-
+
+@CoffeeGuyTalkYou
+* Me? I am just an honest business
+  bot!
+>tc
+.
+* Master Chujin always came to me
+  when he needed a good ol' cup o'
+  joe...
+>tc
+.
+* But now he lives with the big
+  wigs at the Spire.
+>tc
+.
+* And I am no longer able to
+  produce the brew that he loved...
+* So he has kinda... abandoned me.
+>tc
+.
+* But hopefully with this new 
+  blend... I'll be sure to get
+  his attention again!
+>tc
+.
+* You can help me by buying a cup!
+* You won't regret it!
+END
+
+-
+
+@CoffeeGuyTalkRobots
+* Ah, the fine citizens of 
+  Robotopia! I couldn't make my 
+  brew without them!
+>tc
+.
+* They always help me source the
+  right ingredients, and for the
+  right price, too!
+>tc
+.
+* Perfect for any ailment a robot
+  might have! A cure all, if I do
+  say so myself!
+>tc
+.
+* Please consider buying a cup!
+>tc
+END
+
+-
+
+@CoffeeGuyTalkCancel
+* Please, don't waste my time!
+* Time is money, as they say!
+>tc
+END
+
+-
+
+@CoffeeMinion1
+* Come in! Come in! The only place
+  in RoboTown to get Joe CapCcino's
+  patented Robo-Coffee(tm)!
+>tc
+.
+* (Outside our partner store at
+  the Spire, that is-)
+>tc
+.
+* Guaranteed to heal rusty joints,
+  faulty hardware and any other
+  ailments robots might have!
+>tc
+END
+
+-
+
+@CoffeeMinion2
+* Joe CapCcino's patented 
+  Robo-Coffee(tm) is sure to pep 
+  you up in battle!
+>tc
+.
+* Maybe even cure your wounds!
+>tc
+.
+* Maybe even bring you back from 
+  the brink of death itself!
+>tc
+.
+* (Note: not tested on non-robots!)
+>tc
+END
+
+-
+
+@GearzerdCoffee1
+[shake]* I. CAN'T. STOP. SPINNING!!
+* THIS COFFEE IS GREAT!!
+.
+[shake]* IT LITERALLY KEEPS ME GOING!
+* I... I CAN'T STOP DRINKING IT!!
+END
+
+-
+
+@GearzerdCoffee2
+[shake]* No more coffee??
+* How am I supposed to not rust
+  now?!
+.
+[shake]* Who can save us?!
+END
+
+-
+
+@GearzerdCoffee3
+* I'm over my coffee addiction.
+* From now on, only diet foods
+  for me.
+END
+
+-
+
+@HammerGuy1
+* Master Chujin is an artist, a 
+  true savant in the art of 
+  repairing things.
+>tc
+.
+* I really want to become like
+  him. So I came from far outside
+  Robotopia to hone in my skills.
+>tc
+.
+* I want to fix big things, but
+  where would I be able to find
+  such a big thing needing fixing?
+>tc
+.
+* I guess the factory would make
+  the most sense, but...
+* Hmm...
+>tc
+END
+
+-
+
+@AirSprayGuy1
+* Ah hahaha!
+* This coffee is [shake]GREAT!
+>tc
+.
+* Oops! Sorry, folks!
+* Been a wee trigger happy as of 
+  late!
+>tc
+.
+* Can't get enough of this stuff!
+>tc
+END
+
+-
+
+@AirSprayGuyAngry
+[shake]* Where is it?!
+* Where is the COFFEE?!
+>tc
+.
+[shake]* I NEED THE COFFEE!!
+* I NEED IT NOW!!
+* AAAAAH!!
+>tc
+END
+
+-
+
+@AirSprayGuy2
+* Eh, the coffee was overrated,
+  anyway.
+>tc
+.
+* Maybe I should just drink some
+  soda or something instead.
+>tc
+END
+
+-
+
+@DoorKnock1
+* Who's there? Whatever you have,
+  I don't want it!
+.
+* Unless it is a limited edition,
+  ultimate, rarest trading card
+  ever made...
+.
+* Did you know there are only 15 
+  of this one rarest card of them
+  all in existence?! 
+.
+* I would give away my most prized
+  possession for one!
+.
+* But if you don't have it, SCRAM!
+END
+
+-
+
+@DoorKnock2
+* Wait... You actually have the 
+  elusive CEROBA card?!
+.
+* Give it to me, please! Slide it
+  under the door! And I will give
+  you my most prized possession!
+>prompt:Trade:Don't
+>promptredirect:DoorKnock2A:DoorKnock2B
+END
+
+-
+
+@DoorKnock2A
+* Careful now, just slide it
+  under the door...
+.
+* (You try to slide the card
+  under the door,)
+.
+* (But you end up creasing the 
+  card slightly in the process.)
+.
+[shake]* YOU FOOL!! You RUINED IT!!
+.
+[shake]* THERE ARE ONLY 15 OF THOSE CARDS
+  IN EXISTENCE, DIDN'T YOU KNOW?!
+.
+* ...Oh well. I mean, I have 14
+  more of those, so it isn't THAT
+  big of a deal.
+.
+* Fine. As promised, here is my
+  most prized possession-
+.
+* (A black card slips from under
+  the door. It says "SPECIAL 
+  ACCESS" on it.)
+>sound:snd_item_ch1.wav
+.
+* That card is very special, it
+  unlocks something really cool!
+.
+* What it is? Why don't you look
+  around and find out?
+.
+* It will be a BANG, that's for 
+  sure!
+END
+
+-
+
+@DoorKnock2B
+* Are you just going to tease me,
+  mate? You better not give that
+  card away or else...!
+END
+
+-
+
+@DoorKnock3
+* (No response.)
+END
+
+-
+
+@MonitorCheck
+* Seems these monitors are 
+  displaying news of what is 
+  happening in Robotopia-
+.
+* But the headlines are obviously
+  exaggerated to make you want to
+  read it.
+.
+* Seems some things never change
+  no matter what world you are in.
+END

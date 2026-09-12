@@ -1,0 +1,174 @@
+@Sign
+* THRONE ROOM EMERGENCY UNLOCK!
+* DO NOT PRESS!!
+END
+
+--
+
+@PencilEvent1
+* Okay, bro, you ready?
+* For your COOLNESS test?
+>talk:COOLPenceller
+END
+
+-
+
+@PencilEvent2
+* Uh, yeah! I want to be cool!
+>talk:Penceller
+.
+* Cool, cool.
+* The first rule of COOL is that
+  you need a COOL pose.
+>talk:COOLPenceller
+.
+* Yeah, a pose will show off your
+  COOL aura.
+>talk:COOLPenceller2
+.
+* Oh, oh!
+* How do I do a cool pose?
+>talk:Penceller
+END
+
+-
+
+@PencilEvent3
+* Like this!
+END
+
+-
+
+@PencilEvent4
+* Or this!
+.
+* Just try it, lil' bro.
+* Then you can hang with us COOL
+  kids.
+>talk:COOLPenceller
+.
+* Okay, let me try...
+END
+
+-
+
+@PencilEvent5
+* A-Am I doing it right?!
+.
+* I-It can't be...
+.
+[shake]* That's... the COOLEST pose
+  I've ever seen...!
+END
+
+-
+
+@PencilEvent6
+* Am I cool now, guys?
+>talk:COOLPenceller3
+.
+* Cool?! You're the COOLEST!
+>anim:COOLPenceller:Idle
+>talk:COOLPenceller
+.
+* I've never seen anyone as
+  cool as you!
+>anim:COOLPenceller2:Idle
+>talk:COOLPenceller2
+.
+* Hehe... Thanks!
+>talk:COOLPenceller3
+END
+
+-
+
+@PencilEvent7Angry
+* More baddies...
+>p:KanakoOffended
+END
+
+-
+
+@PencilEvent7Normal
+* Uh, Cole?
+* What are you doing...?
+>p:KanakoOffended2
+.
+* I mean, that was cool,
+  but...
+* Why?
+>p:KanakoOffended2
+END
+
+-
+
+@PencilEvent7
+* W-what- Who are you?!
+.
+* You can't just barge in on
+  someone when they are changing 
+  forms!
+>anim:COOLPenceller3:Idle
+>talk:COOLPenceller3
+.
+* Let's get 'em, boys!
+>talk:COOLPenceller3
+END
+
+--
+
+@PencilSpare
+* Wha- They're-
+* They're so cool!
+>anim:COOLPenceller3:Idle
+>talk:COOLPenceller3
+.
+* Y-Your pose might've been cool, 
+  but mine had attitude!
+>anim:COOLPenceller2:Idle
+>talk:COOLPenceller2
+.
+* We won't forget this, WE WILL
+  RECLAIM OUR COOLNESS!
+>anim:COOLPenceller:Idle
+>talk:COOLPenceller
+END
+
+--
+
+@PencilDefeat
+* They're too strong...!
+>anim:COOLPenceller3:Idle
+>talk:COOLPenceller3
+.
+* Brothers! Don't panic!
+* Lest we will be...
+[shake]* UNCOOL!
+>anim:COOLPenceller2:Idle
+>talk:COOLPenceller2
+.
+* We have to get out of 
+  here...!
+>anim:COOLPenceller:Idle
+>talk:COOLPenceller
+END
+
+--
+
+@DoorUnlocked
+* I think that should 
+  unlock the big door in
+  the main hall.
+>p:KanakoNeutral
+.
+* Time to go home, Cole.
+>p:KanakoOffended
+END
+
+--
+
+@Bookcases
+* None of these books seem
+  useful.
+* Or readable.
+END

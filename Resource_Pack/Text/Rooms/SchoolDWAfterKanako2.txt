@@ -1,0 +1,91 @@
+@FoxCheck1
+* Huh? What is this doing
+  here?
+>p:KanakoPuff
+.
+* Weird... But then again,
+  this entire place is
+  weird.
+>p:KanakoPuff
+.
+* Wonder what it can be
+  used for.
+>p:KanakoPuff
+END
+
+-
+
+@FoxCheck2
+* A golden fox statue.
+.
+* Feels like it is missing 
+  something.
+END
+
+-
+
+@FoxPrompt
+* The fox statue seems like a
+  good fit for your Golden Bell.
+* Place it on the statue?
+>prompt:Yes:No
+END
+
+-
+
+@FoxPromptPlace
+* You put the Golden Bell on
+  the statue.
+.
+* ...
+.
+* Suddenly, the statue coughed.
+.
+* It spat out a key.
+.
+* The [color=yellow]OLD KEY[/color] was added to your
+  KEY ITEMS.
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@FoxLastCheck
+* You feel it would be rude to
+  take the bell off the statue.
+END
+
+-
+
+@FoxHint
+>redirectmap:Hint:FoxHint2
+* Man, Bearing really has us
+  spread thin!
+>tc
+.
+* All cuz some lightners have 
+  been beating everyone up!
+>tc
+.
+* Hope we find IT soon!
+* Can't wait for my break!
+>tc
+>setmap:Hint
+END
+
+-
+
+@FoxHint2
+* According to the reports,
+  it should be somewhere in
+  this "room"!
+>tc
+.
+* But I can't see it anywhere-
+* Maybe it is offscreen?
+>tc
+.
+* Wait, why am I even telling
+  you this?
+>tc
+END

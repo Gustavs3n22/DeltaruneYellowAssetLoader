@@ -1,0 +1,92 @@
+@SaveForest
+>heal
+* The dark forest looms 
+  menacingly...
+.
+* You are filled with a sense 
+  of a long journey ahead.
+>callsave
+END
+
+--
+
+@Sign
+* WARNING!
+.
+* Be careful with the Dark Roots,
+  their twisty vines and bulgy
+  eyes are always watching!
+.
+* If a path is blocked, a nearby
+  vine might be causing it, so
+  FIGHT it to get rid of it!
+END
+
+--
+
+@ThormasCall
+[shake]* AAAAAAH!
+* GET IT OFF!
+* HELP! LITTLE HELP?!
+>p:ThormasHurt
+END
+
+--
+
+@ThormasThanks
+* Phew... Thanks.
+* Thought that would be it!
+* I owe you guys one!
+>p:ThormasHappy
+>talk:Thormas
+.
+* ANYWAY! There is still a 
+  ways to go before we 
+  reach the fortress!
+>talk:Thormas
+>p:ThormasNormal
+.
+* ...At least if the info 
+  we got is true.
+* BUT I BELIEVE IT!
+>p:ThormasNormal
+>talk:Thormas
+.
+* So let's go!
+* ONWARDS!
+>p:ThormasHappy
+>talk:Thormas
+END
+
+--
+
+@ThormasThanks2
+* ...
+>p:KanakoNervous
+END
+
+--
+
+@RockyForest
+* Hey, just a warning...
+>p:Rocky
+>tc
+.
+* Up ahead are some FIERCE
+  creatures. You should be
+  careful when going ahead!
+>p:Rocky
+>tc
+.
+* Whatever you do, RUN, or
+  if they are coming fast,
+  STOP.
+>p:Rocky
+>tc
+.
+* Unless they don't stop, 
+  then just run as fast as 
+  you can!
+>p:Rocky
+>tc
+END

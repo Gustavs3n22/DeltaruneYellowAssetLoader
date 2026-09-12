@@ -1,0 +1,137 @@
+@Intro
+* Howdy y'all!
+* Welcome to Lil' 
+  Ms. Syrup's coffee 
+  and wafers!
+* What can I getcha?
+
+@Intro2
+* So are y'all gonna buy 
+  something?
+
+@TalkMenu
+* Okay!
+
+@TalkMenu2
+* What now?
+
+@BuyCancel
+* Are you not 
+  gonna buy
+  anything?!
+
+@BuyConfirmed
+* Nice! 
+  Thanky!
+
+@BuyFull
+* No space,
+  pals.
+
+@BuyMoney
+* Hey, is 
+  this a 
+  joke?
+
+@BuyMenu
+* What can
+  I get ya?
+
+@BuyMenu2
+* C'mon, buy
+  something,
+  kay?
+
+@SellMenu
+anim:Sad:
+* Sell? Hah. No.
+* Thanks for nothing.
+* Now buy something or get out.
+
+@SellDontHave
+* ...
+
+@SellChoose
+* ...
+
+@SellConfirmed
+* ...
+
+@Exit
+* Hope ya'll come back soon!
+
+-
+
+@Topic1
+Toster
+
+@Topic2
+Waffles?
+
+@Topic3
+Interlopers
+
+@Topic4
+Rumors?
+
+-
+
+@TalkTopic1
+* Lil' Tosty~
+* He is just a pretty sweet
+  guy, y'know?
+BREAK
+* All he is doing is for the
+  betterment of Robotopia and
+  beyond!
+BREAK
+* Of course not everyone agrees
+  with his methods...
+* But they just haven't seen 
+  his vision!
+BREAK
+* Here I can only offer to
+  spread the word so more
+  people help our cause?
+
+-
+
+@TalkTopic2
+* Waffles? Sorry, I only sell
+  wafers here!
+BREAK
+* I mean they both have that
+  same pattern and everything,
+  it is pretty easy to get
+  them both confused!
+BREAK
+* Do you wanna buy some?
+
+-
+
+@TalkTopic3
+* Ah those guys from above the
+  clouds? I don't worry much
+  about them.
+BREAK
+* Though these ranger guys are
+  acting a bit odd...
+BREAK
+* But I don't mind it as long
+  as they buy something!
+
+-
+
+@TalkTopic4
+* Rumors? Not really, but have
+  you talked to Joe at Robo 
+  Town?
+BREAK
+* His coffee is pretty good, 
+  and goes well with my wafers!
+BREAK
+* I actually have a deal with
+  him, and you can buy the 
+  coffee right here!
+BREAK
+* So buy it, buy it!

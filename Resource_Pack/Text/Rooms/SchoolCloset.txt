@@ -1,0 +1,247 @@
+@PencilsFloor
+* A lot of pencils are strewn
+  on the floor.
+END
+
+--
+
+@Broom
+* Feels like this broom hasn't
+  been used in ages.
+END
+
+--
+
+@Bookshelf
+* Many books fill the shelves,
+  many of them have worn out
+  labels.
+END
+
+--
+
+@Pencilcase
+* A green pencil case filled
+  with all sorts of pencils
+  and other utencils.
+END
+
+--
+
+
+@ClosetTrashCheck
+* This isn't the time to dig
+  through trash.
+.
+* Bummer.
+END
+
+-----
+
+@ClosetLakeCheck
+* Looks like there is a ceiling 
+  leak.
+END
+
+-----
+
+@ClosetFortressCheck
+* A box with a crudely drawn 
+  face on it.
+.
+* It is full of school supplies 
+  and forgotten toys.
+END
+
+-----
+
+@ClosetMountainCheck
+* A pile of dusty boxes and trash.
+* Seems they weren't used in
+  a long time.
+>top
+END
+
+--
+
+
+@ReturnToLW1-1
+* [shake]Eep! C-cole!
+* I can't see anything!
+>bleep:Kanako
+.
+* [shake]What did you do?!
+* Quick, find a switch or
+  something!
+>bleep:Kanako  
+END
+
+-----
+
+@ReturnToLW1-2
+* [shake]H-hey! Watch it!
+* Don't pull my tail!
+>bleep:Kanako  
+.
+* ...
+>bleep:Kanako  
+.
+* Wait, I think I found
+  something...
+>bleep:Kanako  
+END
+
+-----
+
+@ReturnToLW1-3
+* ...
+>p:KanakoOffended2
+.
+* ...Is this...?
+>p:KanakoOffended2
+.
+* We are back at the 
+  school...
+>p:KanakoSad
+END
+
+-----
+
+@ReturnToLW1-4
+* We actually made it
+  back...
+>p:KanakoSad2
+.
+* I was so worried...
+>p:KanakoCry
+.
+* ...
+>p:KanakoSad2
+.
+* Did... did all that 
+  happen there really
+  happen...?
+>p:KanakoSad
+.
+* Dark Worlds... 
+* Darkners...
+>p:KanakoNeutral
+.
+* Did we really go 
+  through all that?
+>p:KanakoSad2
+>prompt:We did:Must've been@a dream
+>promptredirect:ReturnToLW1-4p1:ReturnToLW1-4p2
+END
+
+-----
+
+@ReturnToLW1-4p1
+>redirect:WeirdStart:ReturnToLW1-4p1b
+* ...
+>p:KanakoSad2
+.
+* Did we really...
+>p:KanakoSad
+.
+* It was all too
+  outlandish even for
+  me to believe...
+>p:KanakoSad
+END
+
+-----
+
+@ReturnToLW1-4p1b
+* ...
+>p:KanakoAngry
+.
+* It has...
+>p:KanakoAngry
+.
+* ...
+>p:KanakoAngry
+END
+
+-----
+
+@ReturnToLW1-4p2
+* ...
+>p:KanakoSad2
+.
+* Was it, really?
+>p:KanakoSad
+.
+* And did we both
+  have the same dream?
+>p:KanakoSad
+.
+* That makes no sense...
+>p:KanakoSad2
+END
+
+-----
+
+@ReturnToLW1-Phone
+* Ah, since we are back 
+  in the "Light World"-
+>p:KanakoPuff
+.
+* Maybe the phone will
+  work...
+>p:KanakoNormal
+END
+
+-----
+
+@ReturnToLW1-5
+* It is this late 
+  already?!
+>p:KanakoSurprise
+.
+* Come, Cole!
+* Let's get out
+  of here!
+>p:KanakoOffended
+END
+
+-----
+
+@LWD1Trapdoor1
+* Was this trapdoor
+  always here?
+>p:KanakoOffended2
+.
+* What do you think
+  we should do, Cole?
+>p:KanakoNeutral
+>prompt:Jump in:Leave it@alone
+>promptredirect:LWD1Trapdoor1p1:LWD1Trapdoor1p2
+END
+
+-----
+
+@LWD1Trapdoor1p1
+* ...
+>p:KanakoOffended2
+.
+* I guess we don't 
+  have other options.
+>p:KanakoNeutral
+.
+* Maybe it leads outside.
+  Let's see what happens.
+>p:KanakoPuff
+END
+
+-----
+
+@LWD1Trapdoor1p2
+* Yeah, don't know
+  where it leads.
+>p:KanakoNeutral
+.
+* Maybe there is another 
+  exit somewhere else.
+>p:KanakoNeutral
+END

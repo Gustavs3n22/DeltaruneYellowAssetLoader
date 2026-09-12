@@ -1,0 +1,213 @@
+
+@KanakoDWSave1
+* Well well well...
+* What do WE have here?!
+END
+
+-----
+
+@KanakoDWSave2
+* Look over here, pal!
+* Do my eyes deceive me?!
+>talk:Penceller
+.
+* An actual living, breathing, 
+  shining, spitting, stinkin'...
+>talk:Penceller
+.
+* ...[color=yellow]Lightner[/color]...!
+>talk:Penceller
+.
+>talk:Eraserhead
+* Hyep. Da boss will finally 
+  recognize us.
+.
+>talk:Eraserhead
+* And we won't end up like...
+.
+*[shake] *Shudder...*[/shake]
+* Just thinkin' about it makes
+  my ears ring!
+>talk:Eraserhead
+.
+>talk:Penceller
+* Shush, blue man! Tie up that 
+  lightner and bring it to the 
+  fortress!
+.
+* ...
+>p:KanakoAngry
+END
+
+-----
+
+@KanakoDWSave3
+* Wowie! It is our lucky day!
+* TWO lightners?!
+>talk:Penceller
+.
+* Er, dude, you sure this is still,
+  like, a good idea...?
+>talk:Eraserhead
+.
+* Shut it rubber skin! If we 
+  capture them, we will be 
+  FAMOUS!
+>talk:Penceller
+.
+* ...
+>p:KanakoAngry
+.
+* ...!
+>p:KanakoSurprise
+.
+* C-Cole! You're here...!
+* Help me!
+>p:KanakoSurprise
+.
+* That isn't a good idea, lady!
+* Now, don't make this harder 
+  than it has to be!
+>talk:Penceller
+END
+
+-----
+
+@KanakoSavePostFight
+[shake]* T-they're strong...!
+>talk:Eraserhead
+.
+[shake]* L-Let's bail! We must
+  warn Honvich about this!
+>talk:Penceller
+END
+
+-
+
+@KanakoSavePostSpare
+* Um, you're just...
+* Letting us go?
+>talk:Eraserhead
+.
+* Suckers. Let's go warn Honvich
+  about this! We can't let those
+  lightners wander around!
+>talk:Penceller
+END
+
+-----
+
+@KanakoDWSave4
+* ...
+>p:KanakoAngry
+.
+* ...Thanks, Cole...
+>p:KanakoCry
+END
+
+-----
+
+@KanakoDWSave5
+* ...
+>p:KanakoAngry
+.
+* ...Cole...
+>p:KanakoAngry
+END
+
+-----
+
+@KanakoDWSave6
+* [shake]Just where the HECK 
+  are we?!
+>p:KanakoSurprise
+END
+
+-----
+
+@KanakoDWSave7
+[color=black].
+>instend
+>prompt:Are you@alright?:Come, let's@leave.
+>promptredirect:KanakoDWSaveP1:KanakoDWSaveP2
+END
+
+-----
+
+@KanakoDWSaveP1
+* ...
+>p:KanakoAngry
+.
+* ...Y-yeah... I'm fine.
+>p:KanakoAngry
+.
+* ...It's just...
+* This isn't what I expected 
+  to happen today...
+>p:KanakoAngry
+.
+* Or ever.
+>p:KanakoAngry
+END
+
+-----
+
+@KanakoDWSaveP2
+* ...
+>p:KanakoAngry
+.
+* ...Right. We should find
+  a way to return home.
+>p:KanakoAngry
+.
+* ...Sorry. I won't slow 
+  you down, I promise...
+>p:KanakoAngry
+END
+
+-----
+
+@KanakoDWSave8
+* ...
+>p:KanakoSad2
+.
+* ...Looks like we don't
+  have any other choice 
+  now but to press on.
+>p:KanakoNeutral
+.
+* Lead the way, Cole.
+>p:KanakoNeutral
+END
+
+------
+
+@TalkSign
+* If you are feeling lonely,
+  remember to TALK to your
+  party members.
+.
+* You can do it from the
+  PAUSE MENU.
+END
+
+----
+
+@PencellerReturn
+* Bearing's been ordering
+  us to search everywhere
+  for something...
+>tc
+.
+* But I can't find it 
+  anywhere! And no one else
+  is having any luck!
+>tc
+.
+* Is it really here?
+>tc
+.
+* At least I don't think it is
+  in this "room".
+>tc
+END

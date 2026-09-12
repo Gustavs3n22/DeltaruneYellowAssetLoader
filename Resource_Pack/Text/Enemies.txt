@@ -1,0 +1,195 @@
+@TestEnemy
+name:Test Enemy
+check:* It looks like a cactus, but it isn't.
+prison:* TEST
+
+@Penceller
+name:Penceller
+check:* Not the sharpest tool in the shed.;* Is looking for some friends with similar\n\tinterests, but won't just let anyone touch his\n\tprized pencil!
+prison:* Basic foot soldiers of\n  Bearing's army.;* Surprisingly lonely.
+
+@Eraserhead
+name:Eraserhead
+check:* Seems to have a thing for raising reptiles.;* He is pretty chill so he is fine with whatever you do,\n\tbut don't rub out too much.
+prison:* Chill dudes that joined Bearing\n  in order to escape from their\n  mom.;* Apparently likes raising\n  reptiles.
+
+@Warden
+name:Warden
+check:* The caretaker of the currently empty Dark Jail.;* You somewhat feel he is familiar in a way.
+
+@Pennilton
+name:Pennilton
+check:* Criminal wanted in 3 Dark Worlds for stealing,\n\tarson and styling his mustache without a permit.;* Always thought he was number one no matter what.
+prison:* A con artist that can be\n  slippery to get.;* Likes to count his cash in\n  pennies to inflate his ego.
+
+@Mopper
+name:Mopper
+check:* Cleaners of Bearing's Fortress, spends most\n\tof the time mopping in the employee rooms.;* Maybe cleaning up a bit will help it listen to you cheer it up.
+prison:* Employed by Bearing to clean\n  his fortress, obssessed with\n  cleaning anything.;* At least won't be without\n  purpose here.
+
+@Bearing
+name:Bearing
+check:* The tyrant ruler of this Dark World.\n* A little worn down.;* Crimes: Tyrany, torture, gouging prices and\n\tterrorizing wildlife.
+prison:* An old bear with lofty\n  ambitions for a darkner.\n;* All he wanted was to be\n  useful again.
+
+@BellBoss
+name:Ringo
+check:* The "executioner" working for Bearing.\n* Fan of classical tunes.;* Crimes: Being a nuisance, noise outside allowed\n\thours and noise near sensitive areas.
+prison:* Quiet but loud "excutioner"\n  of Bearing's clique.;* At least he seems to have\n  taken a break to reflect\n  upon his nature.
+
+@FoxBoss
+name:Foxlace
+check:* A familiar(?) foe.\n* The mastermind behind what happened.;* Watch out for the foxfire.
+
+@Axis
+name:Axis
+check:* The mascot of Ketsukane Electronics.\n* What is he doing here?;* His processor is old so maybe you can trick him?
+
+@Gearzerd
+name:Gearzerd
+check:* Just another cog in the machine.;* Applying some oil will unrust it and spin it faster.
+prison:* These guys won't stop spinning,\n  otherwise they will die.;* They also leave oil everywhere.
+
+@Stapler
+name:Staplete
+check:* More bite than bark.\n* Don't get pinned down!;* If you press down on its head, it will lose its staples, but get sad in the process.
+prison:* These beings are chained\n  down to prevent them from\n  clipping everything.;* Very annoying.
+
+@Toaster
+name:MC Toster
+check:* Current leader of Robotopia and a bit of a hot head.\n* Hates being called short.;* His new body was made by Chujin and has very\n\thigh defense, but it is very prone to overheating.;* Crimes: Rigging elections, fraud, jaywalking.
+prison:* Boisterous, wild and with\n  a short temper, Toster tried to\n  take over Robotopia and succeeded.;* His new body had a major flaw\n  however, which allowed him\n  to be defeated.
+
+@BunBun
+name:BunBun
+check:* Kanako's old friend. Seems she is being forced\n\tto act against her will.;* Crimes: Assault with Weapon, harassment,\n\tdeceiving locals.
+prison:* An accident caused a vicious\n  bat to fuse into her arm, forcing\n  her to act against her will.;* That does not absolve her of\n  the crimes she commited,\n  however.
+
+@Wrench
+name:Wrencher
+check:* Workers of the factory, tries to fix things but\n\talways end up screwing themselves.;* Offering it to fix an old machine might make it friendlier.
+prison:* Handymen that keep the\n  Robotopia factories running.;* Can sometimes be seen\n  slacking off.
+
+@Drill
+name:Drill-Er 3000
+check:* An all terrain tank with infinite potential,\n\tand they will drill that into your head.;* You could try refueling it to get closer but that might make it hit harder.
+prison:* Enforcers of the law in\n  Robotopia.;* Uses a huge amount of fuel.
+
+@Ruler
+name:Straight Edge
+check:* They try their hardest to keep everything in line around here,\n\teven if no one stands up to it.;* Maybe standing straight will help you both see eye to eye.
+prison:* Fascinated with order\n  and orderly things.;* Seems somewhat content with\n  the jail's archtecture.
+
+@CaseMimic
+name:Casimic
+check:* A creature hiding inside a discarded item box.;* It might enjoy if you shoot down the trash it\n\tshoots at you.
+prison:* A weird creature hiding\n  inside a discarded item\n  chest.;* Enjoys gun shows and a variety\n  of magic tricks.
+
+@Snipper
+name:Snipper
+check:* Giant bladed darkners that just want to cut\n\tstuff up.;* Maybe you can trace a path for them to follow?
+prison:* These creatures act on\n  the base instinct to cut\n  everything up.;* Seems to be tired of\n  senseless violence, however.
+
+@CoolPenceller
+name:COOL Penceller
+check:* The better cousin of the regular Penceller.\n* Red is all the rage.;* Maybe if you compliment him, he will surrender,\n\tbut it will also inflate his ego.
+prison:* High rank soldiers of Bearing's\n  army.;* They're never seen without their\n  shades or scarf.
+
+@DarkRoot
+name:Dark Root
+check:* Strange root-like entities from the deep dark.\n\tDoesn't seem to be fully sapient.;* It could use some help untangling itself.
+prison:* These masses of Dark have joined\n  in the shape vaguely resembling\n  a plant.;* Their roots can be sturdy and get\n  in the way, blocking paths.;* Defeating their core will\n  get rid of the roots.
+
+@DarkSlug
+name:Dark Slug
+check:* Strange slug-like being from the deep dark.\n\tDoesn't seem to be fully sapient.;* It constantly drips some substance...\n* Maybe you can ask it to moisturize you up?
+prison:* A Dark being in the shape of a\n  slug. They also have slug-like\n  properties.;* Most of the time won't attack\n  directly, but can get in the\n  way during heavy fights.
+
+@DarkBlob
+name:Dark Blob
+check:* A strange creature from the deep dark.\n\tDoesn't seem to be fully sapient.;* Maybe you can communicate with it in some\n\tprimal way.
+prison:* Mindless dark beings that lurk\n  in dark corners of Dark Worlds.;* Not too dangerous on their\n  own, but can be in big numbers.
+
+@Honvich1
+name:Von Honvich
+check:* The general of Bearing's army, a by-the-books type\n\tof villain.;* If left alone, he will power up and instruct his allies,\n\tso try to distract him somehow!
+prison:* The general of Bearing's army,\n  and Bearing's right hand man.;* Has knowledge on many things,\n  except what actually matters.
+
+@Honvich2
+name:Von Honvich
+check:* The general of Bearing's army, a by-the-books type\n\tof villain.;* This time, he won't give up.
+
+@PencellerRider
+name:Penceller Rider
+check:* Bearing's main cavalry, if he bothered to give them\n\treal steeds.\n* Watch out for their sharp spear heads!;* Either knock them down a peg or dodge their attacks!
+prison:* Cavalry of Bearing's army.\n* Really likes their "horses".;* Their "horse" is just a\n  repurposed pencil.
+
+@Marker
+name:Morker
+check:* Creatures that are really keen to mark their\n\tterritory.\n* Their sticky tongue is a threat.;* Maybe try petting them to get them to become docile.
+prison:* Animals that lived in the\n  woods of Bearing's Domain before\n  the army domesticated them.;* Likes being pet, if you\n  can handle the smell.
+
+@Polygon
+name:Polygonator
+check:* Weird creature made of abstract shapes.\n\t* Lives to fight.;* You'll probably have better luck FIGHTing it\n\tthan trying to end things peacefully, just don't\n\tpush too much!
+prison:* Beings that love to fight\n  over all else.;* Sometimes seem to resemble\n  characters you know of,\n  if only for a bit.
+
+@LegoDeer
+name:Brickeer
+check:* A creature capable of changing its parts to\nsuit any situation.;* Try re-arranging it into a friendlier shape?
+prison:* With modular bodies, they can\n  take over multiple shapes.;* Seem to prefer the deer-like the\n  most, however.
+
+@MsSyrup
+name:Lil Ms. Syrup
+check:* The owner of the Spire's cafeteria's shop.\n* Ditzy, but that might be an act.;* Doesn't seem she can be reasoned with.
+prison:* She had a plan alongside\n  Toster to take over Robotopia.;* Despite having a cheerful\n  image, she is actually\n  very cunning.
+
+@Pinstripe
+name:Baron Gancho
+check:* Something you have forgotten.\n* Something you must remember.;* Whatever happens, just hold true to who you are.
+
+@DarkWorm
+name:Dark Worm
+check:* Strange worm-like entity from the deep dark.;* You might be able to pull it out of\n\tthe ground with your lasso to expose its weak point.
+prison:* These Dark beings like to hide\n  underneath the ground, waiting\n  for prey.;* If pulled out, they cannot move\n  until they dig underground again.
+
+@DarkSentinel
+name:Dark Sentinel
+check:* A dark creature that has been "tamed"\n\tby the workers of the Spire.;* It is very dangerous, but maybe you can\n\tfree it from its shackles.
+prison:* The darkners of Robotopia managed\n  to create some technology to\n  "tame" these Dark beings.;* Doesn't mean it enjoys serving\n  the robots, however.
+
+@SpookyBossLW
+name:???
+check:* A dark shape is here...\n* It feels bulky and rough.;* You can't tell anything more\n\tabout it.
+
+@SpookyBossLWL
+name:???
+check:* A dark shape is here...\n* It feels long and springy.;* You can't tell anything more\n\tabout it.
+
+@SpookyBossLWR
+name:???
+check:* A dark shape is here...\n* It feels like the jaws to\n\ta deep abyss.;* You can't tell anything more\n\tabout it.
+
+@Clippy
+name:Zippy
+check:* These guys only want to be helpful, even\n\tif they are annoying.;* Maybe if you let them help you,\n\tor you help them, they will relent.
+prison:* These darkners live for\n  organization, but are\n  quite annoying.;* Without files to organize, they\n  might not last long here.
+
+@PinkPenceller
+name:Mech-Penceller
+check:* These pencellers have had their bodies\n\tupgraded to the latest firmware.;* Maybe they have similar weaknesses to robots.
+prison:* They live to protect the halls\n  of the Upstairs Archives with\n  mechanical precision.;* However now they have no\n  one to serve or anything to\n  protect.
+
+@NineTails
+name:Nine-Tails
+check:* Despite their name, they only have\n\tcomposite channels.;* If you show them their colors are still reliable,\n\tthey might relent.
+prison:* While they claim to have\n  the ability to render\n  multiple colors,;* They are known for being\n  faulty and just breaking\n  everything.;* You will still rely on\n  them, however. Mainly due\n  to the lack of options.
+
+@CoffeeGuy
+name:Joe CapCcino
+check:* Leader of the underbelly of Robotopia's\n\tcoffee trade.\n* Behind most of the local robot's addiction.;* Watch out for his brand new\n\tspecial brew attacks!;* Crimes: Possible substance abuse,\n\tdeceiving locals, mafia tactics.
+prison:* The one behind Robotopia's\n  coffee epidemic, was trying\n  to take over the place.;* He almost succeeded, had\n  he be allowed to keep\n  selling his addictive coffee.
+
+@CoffeeMinion
+name:Cap'joe
+check:* Loyal minions of Joe CapCcino that will\n\tprovide him support.;* Pretty weak on their own, but can add up\n\ttheir attacks to Joe's. Whittle them down\n\tto make things easier!

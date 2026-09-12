@@ -1,0 +1,687 @@
+@PrisonFirstEvent1
+* (There is a small crack on
+  the wall, but enough to see 
+  the other side.)
+.
+* (Just before you look through,
+  you hear a voice coming from
+  it.)
+.
+[shake]* H-hey! Stop it!
+* Stay away from me!
+>bleep:Kanako
+END
+
+--
+
+@PrisonFirstEvent2
+* Stop! 
+* What are you doing?!
+>p:KanakoDumb
+END
+
+--
+
+@PrisonFirstEvent3
+* ...! Cole?!
+* Is that you?!
+>p:KanakoSurprise
+END
+
+--
+
+@PrisonFirstEvent4
+* Cole... I...
+>p:KanakoCry
+.
+* I'm so glad you are 
+  okay...
+>p:KEEP
+END
+
+--
+
+@PrisonFirstEvent5
+* ...
+>p:KanakoCry2
+.
+* ...Seems we were 
+  captured after all.
+>p:KEEP
+.
+* ...What are they going 
+  to do with us now?
+>p:KEEP
+.
+* ...I hate it here.
+* I just want to go home.
+>p:KEEP
+END
+
+-----
+
+@PrisonFirstEvent6
+* ...Mom and Martlet must 
+  be worried sick about us.
+>p:KanakoCry2
+.
+* ...Will we ever be able
+  to get out?
+>p:KEEP
+.
+* ...Argh!
+* I just... I just wanted
+  this to be a normal day.
+>p:KanakoHurt
+.
+* Do you think we will 
+  spend the rest of our 
+  lives here?
+>p:KanakoSad2
+>prompt:We will@escape:Better get@comfortable:Dunno
+>promptredirect:PrisonFirstEvent6P1:PrisonFirstEvent6P2:PrisonFirstEvent6P3
+END
+
+-----
+
+@PrisonFirstEvent6P1
+* ...Heh.
+>p:KanakoNervous
+.
+* I've always admired 
+  how you always kept 
+  that hope going.
+>p:KEEP
+.
+* If only I was as 
+  strong as you...
+>p:KanakoSad2
+.
+* ...Sorry. I know the 
+  situation is bleak but...
+* I don't know what to do.
+>p:KEEP
+.
+* All I wanted was to 
+  spend more time with 
+  you before you...
+>p:KEEP
+.
+* But I didn't expect
+  to be trapped in some
+  weird world-
+>p:KEEP
+.
+* Being attacked by giant 
+  bears and pencils...
+>p:KEEP
+.
+* ...
+>p:KEEP
+END
+
+-----
+
+@PrisonFirstEvent6P2
+* ...C'mon this isn't the
+  time for jokes.
+>p:KanakoSad2
+.
+* We could be here 
+  forever...
+>p:KEEP
+.
+* ...
+>p:KEEP
+.
+* ...Heh.
+>p:KanakoHappy
+.
+* Thanks. I kinda needed
+  a joke to lighten the
+  mood.
+>p:KEEP
+.
+* We will find a way
+  out of this, as long
+  as we stick together.
+>p:KanakoOffended
+.
+* I'm sure of it.
+>p:KEEP
+END
+
+-----
+
+@PrisonFirstEvent6P3
+* ...
+>p:KanakoCry2
+.
+* Sorry, Cole. You're 
+  probably as desperate 
+  as me to leave...
+>p:KEEP
+.
+* I shouldn't drag you 
+  down with me.
+* You're strong.
+>p:KEEP
+.
+* I... I always admired 
+  that.
+>p:KEEP
+.
+* ...
+>p:KEEP
+END
+
+-----
+
+@PrisonFirstEvent7
+* ...I see you are awake.
+>p:WardenNormal
+END
+
+-----
+
+@PrisonFirstEvent8
+* ...Who are you? 
+* Are you with that 
+  bear guy?!
+>p:KanakoOffended
+.
+* Nah, miss.
+* In fact, I'm lookin' 
+  for him.
+>p:WardenNormal
+.
+* ...Why did you imprison
+  us then?
+* What are you planning?!
+>p:KanakoOffended
+.
+* Calm down, miss.
+* Ah' was just bein' 
+  cautious.
+>p:WardenNormal
+.
+* Ye lot are lightners.
+* Dangerous folk.
+>p:KEEP
+.
+* (...There is that word 
+  again.)
+>p:KanakoOffended
+.
+* Ah saved both of you'se 
+  when ye lot fell in the 
+  lake.
+>p:WardenNormal
+.
+* Ye may call me [color=yellow]The Warden[/color].
+>p:WardenNormal
+.
+* Ah'm not asking for
+  gratitute or anythin'...
+>p:KEEP
+.
+* But I was expecting 
+  you'd help me with 
+  somethin'.
+>p:KEEP
+.
+* If ya agree, ah'll 
+  release you.
+>p:KEEP
+.
+* ...
+>p:KanakoOffended
+>prompt:What is@it?:We won't@help you
+END
+
+-----
+
+@PrisonFirstEvent5P1
+* It isn't a big deal.
+>p:WardenNormal
+.
+* Ye just need to find 
+  some [color=yellow]criminals[/color] for me.
+>p:KEEP
+.
+* ...Criminals?
+* We barely survived out 
+  there!
+>p:KanakoOffended2
+.
+* I don't think we can
+  handle this...!
+>p:KEEP
+.
+* Calm down, miss, it will
+  all make sense.
+* But first...
+>p:WardenNormal
+.
+* Tis' here is the 
+  [color=yellow]Dark Jail[/color].
+>p:WardenNormal
+.
+* Where the [color=yellow]Dark World[/color]'s 
+  most nefarious evildoers 
+  were held.
+>p:KEEP
+.
+* ...But they all escaped.
+>p:KEEP
+.
+* [color=yellow]Someone[/color] set 'em free.
+>p:KEEP
+.
+* As a darkner meself, 
+  I can't wander too far 
+  out of this world.
+>p:KEEP
+.
+* But since yer both 
+  lightners-
+>p:KEEP
+.
+* Ye should be able to 
+  cross to the worlds 
+  and track 'em.
+>p:KEEP
+.
+* Alright, hold on.
+>p:KanakoOffended
+.
+* You can't just drop all 
+  that on us when we have 
+  no clue what's happening!
+>p:KEEP
+.
+* ...Fair enough.
+>p:WardenNormal
+.
+* I shall unlock yer cells,
+  but you won't be leaving 
+  tis' jail just yet.
+>p:KEEP
+END
+
+-----
+
+@PrisonFirstEvent5P2
+* ...Ye don't really 
+  have much of a choice.
+>p:WardenNormal
+.
+* As lightners, you can 
+  actually visit other 
+  Dark Worlds.
+>p:WardenNormal
+.
+* And track down the 
+  criminals fer me.
+>p:WardenNormal
+.
+* In return, ah can tell 
+  you how you can return
+  to the Light World.
+>p:WardenNormal
+.
+* ...
+>p:KanakoOffended
+.
+* I assume this "Light 
+  World" is where we came 
+  from then, right?
+>p:KanakoOffended
+.
+* Yer' correct.
+>p:WardenNormal
+.
+* ...
+>p:KanakoOffended
+.
+* ...Fine. We will help 
+  you.
+>p:KanakoOffended
+.
+* But you have to tell 
+  us what exactly is 
+  going on here!
+>p:KanakoOffended
+.
+* ...Fair enough.
+>p:WardenNormal
+.
+* I shall unlock yer cells,
+  but you won't be leaving 
+  tis' jail just yet.
+>p:KEEP
+END
+
+-----
+
+@PrisonFirstEvent9
+* Come. Follow me.
+>p:WardenNormal
+END
+
+--
+
+@PrisonFirstEvent10
+* ...
+>p:KanakoNeutral
+.
+* ...Let's hope he keeps 
+  his word.
+>p:KanakoNeutral
+END
+
+-----
+-----
+-----
+
+@DarkJailPenceller1
+* I was mad at being arrested at
+  first, but the Warden lets us
+  wander around.
+>tc
+.
+* Better than serving under Lord
+  Bearing, I suppose.
+>tc
+.
+* So I'm not AS mad at you for
+  arresting me.
+>tc
+END
+
+--
+
+@DarkJailPencellerD2
+* Now that I have spent a full
+  day here, I noticed there
+  isn't much to do.
+>tc
+.
+* Kinda starting to miss home.
+* When can I go back?
+>tc
+END
+
+--
+
+@PrisonBedCheck
+* A surprisingly comfortable bed 
+  for a prison cell.                   
+* But this isn't a time to sleep.
+END
+
+-----
+
+@PrisonWaterCheck
+* At least there is fresh water.
+END
+
+-----
+
+@PrisonDoorCheck
+* You rattle at the bars of 
+  your cell.
+.
+* ...
+.
+* Nothing happens.
+END
+
+-----
+
+@PrisonCrackCheck
+* There is a crack on the wall.
+* Try to break it down?
+>redirect:PrisonTriedCrack:PrisonCrackCheck2
+>prompts:Break:Do Not
+>promptredirect:PrisonCrackBreak:PrisonCrackDontBreak
+END
+
+-----
+
+@PrisonCrackBreak
+* You claw desperately at the wall,
+  trying to crack it.
+>setflag:PrisonTriedCrack
+.
+* Despite your attempts, the wall
+  refuses to budge.
+* Your fingers are bleeding.
+.
+* You lost 2 HP.
+>changeHP:-2
+END
+
+-----
+
+@PrisonCrackDontBreak
+* You decide to leave the wall 
+  alone.
+END
+
+-----
+
+@PrisonCrackCheck2
+* The wall stands defiantly in 
+  your way.
+END
+
+----
+
+@MossEvent1
+* Some moss is growing under the 
+  water fountain.
+.
+* ...
+.
+* Eat the moss?
+>prompt:Yes:No
+END
+
+----
+
+@MossEventEat
+* ...
+.
+* You filled your hands with 
+  moss and swallowed it whole.
+.
+* It doesn't taste as good as 
+  you expected-
+.
+* But it's far from the worst 
+  thing you have eaten.
+.
+* Your HP is mossed out.
+>changeHP:2
+END
+
+-----
+
+@MossEventNo
+* You decide to leave the 
+  moss alone.
+END
+
+-----
+
+@MossEventKanakoEat
+* ...
+>p:KanakoNeutral
+.
+* ...
+>p:KanakoOffended2
+.
+* ...Cole.
+>p:KanakoOffended2
+.
+* Have you eaten this 
+  moss...?!
+>p:KanakoOffended2
+.
+* Are you that hungry?! 
+* We have only been here 
+  for a few hours!
+>p:KanakoOffended2
+.
+* ...Are things okay with 
+  Martlet?
+>p:KanakoDumb
+.
+* I mean, I know her food 
+  is a bit, err, y'know...
+>p:KanakoDumb
+.
+* ...If we get out of 
+  here alive-
+>p:KanakoSad2
+.
+>p:KanakoSad2
+* I'll buy you something 
+  to eat, alright?
+>p:KanakoNervous
+END
+
+-----
+
+@MossEventKanakoNo
+* ...
+>p:KanakoNeutral
+.
+* ...Cole.
+>p:KanakoNeutral
+.
+* ...Why are you staring 
+  at that moss?
+>p:KanakoOffended2
+.
+* You aren't thinking of 
+  eating it, are you?!
+>p:KanakoOffended2
+.
+* ...
+>p:KanakoSad2
+.
+* ...No? Ah, good.
+* For a moment I was 
+  worried.
+>p:KanakoNervous
+.
+* ...The hunger must be
+  getting to us... 
+* Let's get out of here.
+>p:KanakoNervous
+END
+
+-----
+
+@MossEventKanakoPost
+* (Is Martlet not feeding 
+  you properly, Cole?!)
+>p:KanakoOffended2
+END
+
+-----
+
+@MossEnd
+* Moss.
+.
+* Kinda feels like this is
+  someone else's thing.
+END
+
+-----
+
+@Signs
+* "Cells for big time criminals."
+END
+
+---
+
+@BearingTalkPrison
+* So you came back to
+  spit at me?
+>p:BearingNormal
+.
+* Go ahead. Be glad
+  those bars prevent me
+  from punching you.
+>p:BearingNormal
+END
+
+--
+
+@BearingDay2Early
+* Once more you return.
+* To laugh at me once more?
+>p:BearingNormal
+.
+* Bet you feel some 
+  satisfaction knowing I
+  can't get to you?
+>p:BearingNormal
+.
+* ...Hmph.
+>p:BearingNormal
+END
+
+--
+
+@BearingDay2Late
+* ...So got some other fool
+  into the cells, huh?
+>p:BearingNormal
+.
+* I'm sure this will end up
+  well.
+>p:BearingNormal
+END
+
+--
+
+@PolygonJail
+* [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img]!!
+* [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img]!!
+* [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img]!!
+.
+* IN DARK PLACE.
+* IN POWERFUL PLACE...
+.
+* [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img]!!
+* [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img]!!
+* [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img]!!
+END
+
+--
+
+@Clippy
+* Nice place. Would you like some
+  help to remodel it?
+>tc
+END
+
+--
+
+@TosterPrisonD2
+* Laugh it up! Laugh it up!
+>p:ToastAngry
+.
+* You have no idea what you
+  guys are doing.
+>p:ToastAngry2
+.
+* (But maybe if I sit 
+  quietly, nothing bad will
+  happen...)
+>p:ToastSide
+END

@@ -1,0 +1,406 @@
+@ACT
+name:ACT
+menuDesc:Not magic. Does many things.
+
+@Check
+name:Check
+desc:See enemy info.\nDoes not use a\nturn.
+menuDesc:Allows to see enemy info, does not use a turn in battle.
+
+@Apprehend
+name:Apprehend
+desc:Attempts to\ncapture enemy.
+menuDesc:Attempts to capture the criminal and bring them back to the Dark Jail.
+
+@NonLethalShot
+name:Non-Lethal Shot
+desc:Damage + leaves\nalive with 1 HP.
+menuDesc:Shoots a rubber pellet that does low damage. Cannot kill, leaving the target with 1 HP.
+
+@HealBell
+name:Healing Bell
+desc:Restores some\nHP.
+menuDesc:Casts a soothing magic bell, which heals allies. Scales with MAGIC.
+
+@AxisSiren
+name:Blaring Siren
+desc:Enemies focuses\non Axis.
+menuDesc:Sounds off a really annoying alarm that makes all enemies target Axis this turn.
+
+@ExecutionerBlow
+name:Hard Swing
+desc:Cruel damage.
+menuDesc:A single, quick, high damage hit. Scales with GUTS.
+
+@ShieldBarrier
+name:Diamond Barrier
+menuDesc:Casts a diamond shaped barrier around the SOUL, preventing one hit of damage.
+desc:Negates 1\nHit.
+
+@Foxfire
+name:Foxfire
+menuDesc:Casts a flame bomb that deals fire damage to an enemy. Scales with MAGIC.
+desc:Damages enemy\nwith fire.
+
+@Homerun
+name:Wide Swing
+menuDesc:Swing your weapon in a large arc, hitting all enemies in one motion.
+desc:Hits all enemies
+
+@HealingSonata
+name:Healing Sonata
+menuDesc:A soothing magic song that heals the entire party. Scales with MAGIC.
+desc:Party wide heal.
+
+@StranglingThreads
+name:Strnglng Threads
+menuDesc:Conjures multiple etherial threads that will strangle the life out of anything.
+desc:High damage to\none enemy.
+
+@MelodyDance
+name:Dancing Feet
+menuDesc:Melody hits an enemy multiple times with a flurry of kicks.
+desc:Multiple damage\nto one enemy.
+
+@TalkTestEnemy
+name:Talk
+
+@HugTestEnemy
+name:Hug [img=13]res://Sprites/Menus/Menu Sprites/KanakoIcon.tres[/img]
+
+@KAction
+name:K-Action
+
+@AAction
+name:A-Action
+
+@JAction
+name:S-Action
+
+@GAction
+name:G-Action
+
+@HeatWave
+name:Heat Wave
+menuDesc:Axis shoots out a strong heat wave off his exaust, burning all enemies in the field.
+desc:Damages all\nenemies.
+
+@AxisAtkUP
+name:Boost Spray
+menuDesc:Shoots out a spray over the party which temporarly boosts AT.
+desc:PARTY AT UP\nfor 3 turns.
+
+@HealShower
+name:Healing Shower
+menuDesc:Shoots out a healing liquid over the party, healing a small amount of HP.
+desc:Heals party\na bit.
+
+@UnnerveGas
+name:Unnerve Gas
+menuDesc:Shoots out a grenade full of a strange gas that lowers an enemy's DF temporarly.
+desc:ENEMY DF DOWN\nfor 3 turns.
+
+@AvoidTestEnemy
+name:Avoid
+
+@Spare
+name:Spare
+
+@SharpenPenceller
+name:Sharpen
+
+@RubEraser
+name:Rub
+
+@EraserBerate
+name:Berate
+
+@EraserTalk
+name:Soothe
+
+@PencilBefriend
+name:Befriend
+
+@PencilBerate
+name:Insult
+
+@PennyBerate
+name:Taunt
+
+@EncourageKanako
+name:Encourage [img=13]res://Sprites/Menus/Menu Sprites/KanakoIcon.tres[/img]
+desc:Kanako's AT UP\nthis turn.
+
+@PennyConvince
+name:Convince
+
+@MopperCheer
+name:Cheer Up
+
+@MopperClean
+name:Clean Up
+
+@MopperDirt
+name:Mess Up
+
+@BearingBrace
+name:Brace
+desc:PARTY DEF UP\nfor 3 turns
+
+@BearingTalkDown
+name:Talk Down
+
+@BearingPlead
+name:Plead
+
+@FoxPlead
+name:Plead
+
+@FoxForgive
+name:Ask Forgiveness
+
+@BellCover
+name:Cover Ears
+
+@BellShush
+name:Shush
+
+@BellIgnore
+name:Ignore
+
+@AxisParadox
+name:Paradox
+
+@AxisRequest
+name:Request
+
+@GearOil
+name:Oil Up
+
+@GearSpin
+name:Spin Gear
+
+@SpinSelf
+name:Spin Around
+
+@StaplerPress
+name:Press Down
+
+@StaplerRefill
+name:Refill
+
+@StaplerPet
+name:Pet
+
+@Wrench
+name:Fix
+
+@Drill
+name:Refuel
+
+@RulerStraight
+name:Straighten Up
+
+@RulerBad
+name:Act Disorderly
+
+@RulerFormX
+name:FormationX
+
+@EndBattleMem
+name:[color=yellow]WAKE UP[/color]
+desc:Ends Battle
+
+@Flee
+name:Flee
+desc:Attempts to\nescape FIGHT
+
+@DefaultAct
+name:Standard
+
+@MimicShoot
+name:Shoot Targets
+
+@GenericSoothe
+name:Soothe
+
+@DarkRootUntangle
+name:Untangle
+
+@DarkRootUntangleX
+name:UntangleX
+
+@CoolPencilCompliment
+name:Compliment
+
+@CoolPencilReal
+name:Get Real
+desc:Harder bullets,\nmore TP
+
+@CoolPencilChallenge
+name:Challenge
+desc:No hit = Mercy
+
+@SlugRequest
+name:Moisturize
+
+@SlugSalt
+name:Sprinkle Salt
+
+@SlugSugar
+name:Sprinkle Sugar
+
+@BlobWiggle
+name:Wiggle
+
+@BlobWiggleX
+name:WiggleX
+
+@BlobCompliment
+name:Compliment
+
+@HonvichDistract
+name:Distract
+
+@SnipperFollow
+name:Trace Path
+
+@SnipperDodge
+name:Dodge
+
+@RiderKnockDown
+name:Knock Down
+
+@RiderGraze
+name:Challenge
+desc:Graze = Mercy
+
+@FocusSoulSpeed
+name:Focus SOUL
+
+@PencellerBefriendX
+name:BefriendX
+
+@EraserRubX
+name:RubX
+
+@MarkerFetch
+name:Fetch
+
+@PolygonEndure
+name:Endure
+desc:Take damage\nto get Mercy
+
+@LegoDeerDecorate
+name:Decorate
+
+@LegoDeerRemove
+name:Knock Off
+
+@LegoDeerCompliment
+name:Compliment
+
+@SentinelMatch
+name:Loosen Up
+
+@WormPull
+name:Pull Out
+
+@CheckLW
+name:Check
+
+@SpookyBossScream
+name:Scream
+
+@SpookyBossTalk
+name:Talk
+
+@SpookyBossPanic
+name:Panic
+
+@SpookyBossTouch
+name:Touch
+
+@SpookyBossIgnore
+name:Ignore
+
+@ClippyHelp
+name:Ask For Help
+
+@ClippySort
+name:Sort Files
+
+@ChujinAct
+name:[img=12]res://Sprites/Menus/Menu Sprites/ChujinIcon.tres[/img] [color=#42887b]Chujin's Idea[/color]
+desc:Random action?
+
+@NineTailsAdjust
+name:Tune in
+
+@PinkPencellerRecalculate
+name:Recalculate
+desc:Harder bullets,\nmore MERCY
+
+@PinkPencellerMiscalculate
+name:Miscalculate
+desc:Easier bullets,\nless MERCY
+
+@SyrupShakeOff
+name:Shake Off
+desc:Clears goop
+
+@SyrupAskHeal
+name:Ask for Dessert
+desc:Party heal...?
+
+@TosterHeatSolo
+name:Up The Heat
+desc:Increases Heat
+
+@TosterHeatTeam
+name:UpTheHeatX
+desc:Increases Heat\nby a lot
+
+@GanchoStruggle
+name:Struggle
+desc:Try to\nremember...
+
+@GanchoGrasp
+name:Grasp
+desc:Try to\nremember...
+
+@GanchoRemember
+name:Remember
+
+@GanchoToughOut
+name:Tough Out
+desc:DF UP for\na few turns.
+
+@GanchoFocus
+name:Focus
+desc:AT UP for\na few turns.
+
+@GanchoSpeedUp
+name:Believe
+desc:SOUL SPEED UP\nfor this turn.
+
+@CoffeeMinionAct
+name:Persuade
+
+@CoffeeMinionActX
+name:PersuadeX
+
+@JoeDrinkAtk
+name:Order Americano
+desc:AT and DF UP
+
+@JoeDrinkSpd
+name:Order Expresso
+desc:SOUL SPEED UP
+
+@BunBunPlead
+name:Plead
+desc:MERCY + AT DOWN
+
+@BunBunReason
+name:Reason

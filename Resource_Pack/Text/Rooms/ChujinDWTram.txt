@@ -1,0 +1,1798 @@
+@TramEvent1
+* ...Seems we are the
+  only ones here.
+>p:KanakoNeutral
+.
+* Let's sit down for
+  a while.
+>p:KanakoNormal
+END
+
+--
+
+@TramEvent2
+* ...
+>p:KanakoNeutral
+.
+* Hey, Cole...
+>p:KanakoNeutral
+.
+* How are you holding
+  up?
+>p:KanakoNeutral
+.
+* I mean... What do you
+  think of this situation?
+>p:KanakoPuff
+.
+* What do you think...
+* About the Dark Worlds?
+>p:KanakoPuff
+>prompt:They're@scary:They're@cool:...
+>promptredirect:TramEvent2A:TramEvent2B:TramEvent2C
+END
+
+--
+
+@TramEvent2A
+* Yeah, but it also makes 
+  them kinda exciting,
+  right?
+>p:KanakoNormal
+.
+* Just as long as we
+  aren't in any real 
+  danger, that is.
+>p:KanakoNervous
+.
+* ...
+>p:KanakoPuff
+.
+* Cole, promise me that
+  no matter what...
+>p:KanakoNeutral
+.
+* You won't push yourself
+  more than you can.
+>p:KanakoNeutral
+.
+* Alright?
+>p:KanakoNormal
+END
+
+--
+
+@TramEvent2B
+* I guess!
+* But they're also
+  dangerous!
+>p:KanakoTongue
+.
+* Well, it is more 
+  exciting than our
+  regular boring life.
+>p:KanakoNormal
+.
+* ...
+>p:KanakoNeutral
+.
+* Why do you think these
+  worlds are opening now?
+>p:KanakoNeutral
+.
+* And who even is able to
+  just... create them?
+>p:KanakoOffended2
+.
+* Do you think dad did it?
+>p:KanakoSad
+.
+* ...
+>p:KanakoSad2
+.
+* Honestly, if he did,
+  I'm sure it was by 
+  accident...
+>p:KanakoNervous
+END
+
+--
+
+@TramEvent2C
+* ...No words, huh.
+>p:KanakoSad
+.
+* Yeah, it is kinda hard
+  to swallow...
+>p:KanakoSad2
+.
+* But... it all feels 
+  very real...
+>p:KanakoNeutral
+.
+* What is going on,
+  really?
+>p:KanakoNeutral
+.
+* How does someone just
+  open a dark fountain
+  and make a world?
+>p:KanakoOffended2
+.
+* I still don't quite
+  get it...
+>p:KanakoSad2
+END
+
+--
+
+@TramEvent3
+* We should be arriving
+  at the Spire soon.
+>p:KanakoPuff
+.
+* Hope Axis does get
+  to catch up.
+>p:KanakoNormal
+.
+* And then we will seal
+  the fountain and save
+  dad!
+>p:KanakoHappy
+.
+* ...
+>p:KanakoPuff
+.
+* By the way, about
+  Axis...
+>p:KanakoNeutral
+.
+* You don't think he is
+  MY Axis, do you?!
+>p:KanakoOffended2
+.
+* Remember? The Axis doll
+  that dad made for me!
+>p:KEEP
+.
+* He has the same scratches 
+  and is missing the same 
+  arm as the doll!
+>p:KEEP
+.
+* But that just isn't 
+  possible, is it?
+>p:KanakoDumb
+.
+* Then again... Don't 
+  most darkners resemble
+  objects?
+>p:KanakoNeutral
+.
+* Like we've seen pencils,
+  erasers, teddy bears,
+  gears, wrenches...
+>p:KanakoPuff
+.
+* What does it mean...?!
+>p:KanakoHurt
+.
+* Ugh, my head is 
+  spinning...
+>p:KanakoSad2
+END
+
+--
+
+@TramEvent4
+>bleep:System
+[color=green]* PASSENGERS:
+* SOON ARRIVING AT:
+* THE SPIRE.
+.
+* Guess that's our stop.
+>p:KanakoNormal
+.
+* C'mon, let's get this
+  over with.
+>p:KanakoPuff
+END
+
+--
+
+@TramEvent5
+[shake]* HOLD IT RIGHT THERE!
+>bleep:Toast
+END
+
+--
+
+@TramEvent6
+* Ah-ha! Found ya!
+>p:ToastNormal
+.
+* Good to have a legion
+  of fans to spy for you,
+  eh?
+>p:ToastLaugh
+.
+* Wasn't hard to find two
+  lightners once you put
+  on a huge bounty!
+>p:ToastNormal
+.
+* Only a matter of time
+  before someone snitches!
+>p:ToastLaugh
+.
+* And if I capture you
+  myself, I won't have to
+  give away the reward!
+>p:ToastNormal
+.
+* (Not like I had it 
+  anyway!)
+>p:ToastSide
+.
+>redirect:KanakoTakenByCraneD2:TramEvent6Alt
+>redirect:TramEvent6B
+END
+
+-
+
+@TramEvent6B
+* T-this guy...
+>p:KanakoSurprise
+.
+* It's that guy from the 
+  TV!
+>p:KanakoOffended
+.
+* Hey! You! Give me back
+  my dad!
+>p:KanakoOffended
+.
+* Your dad?!
+>p:ToastSide
+.
+* Dunno what you talking
+  about, girl.
+>p:ToastNormal
+.
+* Not that it matters since
+  you're going to be gone
+  soon anyway!
+>p:ToastLaugh
+.
+* You have nowhere to run,
+  so don't struggle! Don't
+  wanna ruin the paintjob.
+>p:ToastNormal
+END
+
+--
+
+@TramEvent7
+* C-Cole...!
+* What do we do?!
+* He looks pretty tough...
+>p:KanakoScared
+.
+* We can't run like we
+  did with Bearing...
+>p:KEEP
+.
+* And it's too cramped 
+  in here...
+>p:KEEP
+.
+* Is this it...?
+>p:KEEP
+END
+
+--
+
+@TramEvent8
+[shake]* OH YEAAAAAAAH!
+>bleep:Axis
+END
+
+--
+
+@TramEvent9
+* GOD [darn] DOES IT FEEL 
+  GOOD TO HAVE 2 (TWO) 
+  HANDS AGAIN.
+>p:AxisNormal
+.
+* Axis!
+>p:KanakoSurprise
+.
+* Woah... What happened 
+  to you?
+>p:KanakoDumb
+.
+* GOT AN UPGRADE.
+>p:AxisNormal
+.
+* AND IT SEEMS I ARRIVED
+  JUST IN TIME.
+>p:AxisAngry
+.
+* What the heck is this?!
+>p:ToastSide
+.
+* No one told me there 
+  would be a guest 
+  appearance in my show!
+>p:ToastSide
+.
+* Well, since you're a robot
+  like me, I command you to
+  catch those lightners!
+>p:ToastNormal
+.
+* NEGATIVE. I PROMISED
+  MISS KANAKO I WOULD TAKE
+  HER TO MASTER CHUJIN.
+>p:AxisAngry
+.
+* HER USER PRIVILEGES
+  OVERRIDE YOURS.
+>p:AxisAngry
+.
+* HER REQUEST TAKES 
+  PRIORITY OVER ANYTHING 
+  ELSE, AND THAT'S IT.
+>p:AxisAngry
+.
+* Kanako?!
+>p:ToastSide
+.
+* So that girl is Master 
+  Chujin's spawn?!
+>p:ToastNormal
+>mini:KanakoOffended2:Again with the "spawn" thing...
+.
+* Well, she does look 
+  similar in a way...
+>p:ToastSide
+.
+* ...BUT I DON'T CARE!
+>p:ToastLaugh
+.
+* Those lightners are 
+  clearly conspiring with
+  the [color=red]interlopers[/color]!
+>p:ToastNormal
+.
+* Trying to kick me out 
+  of power just as I
+  get in it!
+>p:ToastNormal
+.
+* No way! Not gonna happen!
+>p:ToastNormal
+.
+* If you won't help me,
+  then I have no choice
+  but to trash you too!
+>p:ToastLaugh
+>anim:Toaster:Idle
+.
+* MISS KANAKO, DON'T WORRY.
+>p:AxisNormal
+.
+* MY GLORIOUS UPGRADED
+  BODY CAN TAKE HIM ON.
+>p:AxisNormal
+>anim:BigAxis:Idle
+.
+* We will support you!
+>p:KanakoOffended
+.
+* Come on! Kick his
+  metal butt!
+>mini:AxisAngry:ORDER RECEIVED!
+>p:KanakoTongue
+END
+
+--
+
+@TramEventPB1
+* AH! NO!
+>p:ToastDefeat
+.
+* MY PERFECTLY TOASTY
+  BODY!!
+>p:ToastDefeat
+.
+* I HAD JUST POLISHED 
+  IT!!
+>p:ToastDefeat
+END
+
+--
+
+@TramEventPB2
+* Y-you...
+>p:ToastAngry
+.
+* You will all pay for
+  this!
+>p:ToastAngry
+.
+* Once my new body that
+  Master Chujin is
+  building for me is done-
+>p:ToastAngry2
+.
+* I will end you!
+* I will crush you!!
+[shake]* I WILL TOAST YOU!!
+>p:ToastAngry2
+.
+* You mean that wasn't
+  the body you mentioned...?!
+>mini:AxisNormal:WON'T BE AS IMPRESSIVE AS MINE.
+>p:KanakoSurprise
+.
+* JUST YOU WAIT, LIGHTNERS!
+>p:ToastAngry
+.
+* AND YOU TOO, TRAITOR!
+>p:ToastAngry2
+.
+[shake]* LET'S SEE YOU SURVIVE
+  THIS!
+>p:ToastAngry2
+END
+
+--
+
+@TramEventPB3
+* MISS KANAKO!
+* WATCH OUT!
+>p:AxisAngry
+END
+
+--
+
+
+@TramCrashCheck
+>redirect:KanakoFollowing:TramCrashCheckK
+* The tram is totally totaled.
+END
+
+--
+
+@TramCrashCheckK
+* Wow... I'm surprised
+  we survived that.
+>p:KanakoDumb
+.
+* We need to be more 
+  careful...
+>p:KanakoNervous
+END
+
+--
+
+@AxisTrash1
+[shake]* BZZZZZZZZZ-
+>bleep:Axis
+END
+
+--
+
+@AxisTrash2
+* ...GREAT. THERE GOES
+  THE ARM.
+>p:AxisAngry
+>top
+.
+* AND MY BRAND NEW SHINY
+  BUFF WORKOUT READY BODY.
+>p:AxisSad
+>top
+END
+
+--
+
+@AxisTrash3
+* AH, YOU.
+>p:AxisNormal
+>top
+.
+* WHERE IS MISS KANAKO?
+>p:AxisNormal
+>top
+.
+* ...
+>p:AxisNormal
+>top
+.
+* DON'T TELL ME I AM NOW
+  STUCK WITH OUT UNTIL
+  WE LOCATE HER.
+>p:AxisBored
+>top
+END
+
+--
+
+@AxisTrash4
+* I SUPPOSE WE CAN ALLY
+  FOR A BIT UNTIL WE
+  REUNITE WITH HER.
+>p:AxisBored
+>top
+.
+* SO, LET'S DO IT FAST.
+* THE FASTER WE FIND HER,
+  THE LESS WE INTERACT.
+>p:AxisBored
+>top
+.
+* AS MISS KANAKO WOULD
+  SAY: "C'mon, let's go!"
+>p:AxisBored
+>top
+END
+
+--
+
+@AxisBody
+>redirect:KanakoFollowing:AxisBodyK
+* Axis' new body.
+.
+* It is completely wrecked.
+END
+
+--
+
+@AxisBodyK
+* Axis... I'm sorry...
+>p:KanakoSad
+.
+* IT WASN'T YOUR FAULT,
+  MISS KANAKO.
+>p:AxisNormal
+.
+* I AM ALREADY OVER IT.
+>p:AxisNormal
+.
+* ...
+>p:AxisNormal
+.
+* [LIE MODE DEACTIVATED]
+>p:AxisDumb
+>mini:KanakoNervous:Yeah...
+END
+
+--
+
+@TrashBoxPuzzle
+>bleep:System
+[color=green]* REMINDER!
+* PRESS [MENU] TO SET THE
+  CAPACIMITES IN PLACE.
+.
+>bleep:System
+[color=green]* INTERACTING WITH THE TERMINAL 
+  TWICE WILL RESET IT.
+END
+
+--
+
+@AxisHandItem
+* (It's the other hand from Axis'
+  big body.)
+.
+* (...)
+.
+* (Take it?)
+>prompt:Yes:No
+END
+
+--
+
+@AxisHandItem2
+* (You got the Guardian Mitt.)
+END
+
+--
+
+@DW2KanakoReunite1
+* AH! MISS KANAKO!
+>p:AxisSad
+END
+
+--
+
+@DW2KanakoReunite2
+* ..........
+>p:AxisNormal
+.
+* ...I DON'T KNOW HOW TO 
+  CHECK FOR AN ORGANIC'S 
+  VITALS.
+>p:AxisDumb
+.
+* YOU, HUMAN.
+>p:AxisNormal
+.
+* YOU MUST CHECK IF MISS
+  KANAKO IS OPERATIONAL.
+>p:AxisNormal
+.
+* IS IT TO LOOK FOR A
+  THING CALLED "PULSE"?
+>p:AxisNormal
+.
+* WELL, GET TO IT.
+>p:AxisBored
+.
+* EVERY SECOND WE WASTE
+  IS ANOTHER WHERE SHE 
+  RISKS CRITICAL FAILURE.
+>p:AxisBored
+END
+
+--
+
+@DW2KanakoReunite3
+* (...)
+.
+* (She seems to be breathing.)
+>prompt:Poke her: Mouth-to-@ Mouth:Do Nothing:Check Pulse
+>promptredirect:END:END:DW2KanakoReuniteNothing:END
+END
+
+--
+
+@DW2KanakoReuniteNothing
+* ...
+>p:AxisDumb
+.
+* YOU'RE JUST GOING TO
+  STAY THERE AND WATCH...?
+>p:AxisAngry
+.
+* GET OUT OF THE WAY,
+  HUMAN. I THINK I'VE SEEN 
+  SOME VIDEOS ON THIS.
+>p:AxisAngry
+END
+
+--
+
+@DW2KanakoReunite3Poke
+* ...IS THAT EVEN DOING
+  ANYTHING?
+>p:AxisBored
+.
+* MAYBE YOU HAVE TO PRESS
+  HARDER.
+>p:AxisNormal
+.
+* .......
+>p:KanakoAngry
+.
+* Ugh... My head...
+>p:KanakoSad2
+.
+* ...
+>p:KanakoPuff
+.
+* A-ah! Cole! What are
+  you doing?
+>p:KanakoHappy3
+.
+* S-Stop poking me!
+* I'm already awake!
+>p:KanakoTongue
+END
+
+--
+
+@DW2KanakoReunite3Poke2
+* GOOD, SHE IS OPERATIONAL
+  ONCE MORE.
+>p:AxisNormal
+.
+* ...What are you guys even
+  doing?
+* Now I'm all ticklish!
+>p:KanakoTongue
+END
+
+--
+
+@DW2KanakoReunite3Nothing2
+* ...
+>p:AxisNormal
+.
+* [shake]WAKE UP!
+>anim:Axis:SkillReady
+>p:AxisShadow
+END
+
+--
+
+@DW2KanakoReunite3Nothing3
+* ...JUST KIDDING.
+>p:AxisNormal
+.
+* I WOULDN'T HURT MISS
+  KANAKO.
+>p:AxisNormal
+.
+* NOW IF IT WAS YOU, ON
+  THE OTHER HAND...
+>p:AxisBored
+.
+* [shake]...Ugh...[/shake]
+* Keep it down, will ya?
+>p:KanakoHurt
+.
+* My head is pounding...
+>p:KanakoSad2
+END
+
+--
+
+@DW2KanakoReunite3Nothing4
+* AH, SHE AWAKENS.
+>p:AxisNormal
+.
+* Boys, what the heck are
+  you doing...?
+* It's still too early...
+>p:KanakoHurt
+.
+* ...
+>p:KanakoNeutral
+.
+* Wait, no, it isn't.
+* ...What were we
+  doing again...?
+>p:KanakoPuff
+END
+
+--
+
+@DW2KanakoReunite3Pulse
+* ...SO? IS HER PULSE 
+  RUNNING OR WHATEVER YOU
+  ORGANICS DO/HAVE?
+>p:AxisNormal
+.
+* ......
+>p:KanakoAngry
+.
+* Ugh, my head...
+>p:KanakoSad2
+.
+* ...
+>p:KanakoPuff
+.
+>sound:snd_b.wav
+>anim:Kanako:Fainted_6
+* Ah!
+>p:KanakoBlushFlustered
+.
+* C-Cole! What are you
+  doing?!
+>p:KanakoBlushFlustered
+END
+
+--
+
+@DW2KanakoReunite3Pulse2
+* GOOD. YOU ARE BACK ONLINE.
+>p:AxisNormal
+.
+* .....
+>p:KanakoBlushFlustered
+.
+* Oh, um... 
+* Y-Yeah...
+>p:KanakoBlush
+END
+
+--
+
+@DW2KanakoReunite3M2M
+* AH, I SEE.
+>p:AxisNormal
+.
+* YOU WILL CONNECT YOUR
+  ORAL CAVITIES TOGETHER
+  AND EXCHANGE OXYGEN.
+>p:AxisNormal
+.
+* THAT SHOULD KICK HER
+  BACK INTO OPERATIONAL
+  STATUS.
+>p:AxisNormal
+.
+* ...
+>p:KanakoAngry
+.
+* Ugh... My head...
+>p:KanakoSad2
+.
+* What...
+>p:KanakoSad
+.
+* .........
+>p:KanakoPuff
+.
+>sound:snd_b.wav
+[shake]* C-COLE?! WH-WHAT ARE
+  YOU DOING?!?!?!?
+>p:KanakoBlushFlustered
+END
+
+--
+
+@DW2KanakoReunite3M2M2
+* OH, WOW. IT WORKED
+  BETTER THAN I IMAGINED.
+>p:AxisNormal
+.
+* YOU DIDN'T EVEN NEED
+  TO PHYSICALLY TOUCH HER
+  MOUTH.
+>p:AxisNormal
+.
+* ................
+>p:KanakoBlushFlustered
+END
+
+--
+
+@DW2KanakoReunite4
+* Wait... Where are we...
+* What happened to the 
+  tram...?
+>p:KanakoNeutral
+.
+* OH, IT EXPLODED.
+>p:AxisNormal
+.
+* WHAT?!
+>p:KanakoSurprise
+.
+* Oh, wait.
+* Yeah, I remember now.
+>p:KanakoPuff
+.
+* ...
+>p:KanakoSad2
+.
+* Guess we won't be able
+  to reach the Spire
+  easily anymore...
+>p:KanakoNeutral
+.
+* ...
+>p:KanakoPuff
+.
+* Uh, Axis?
+* What happened to you?
+>p:KanakoOffended2
+.
+* MY GLORIOUS NEW BODY
+  COULDN'T HANDLE THE 
+  DAMAGE.
+>p:AxisSad
+.
+* IT SERVED WELL AS IT
+  PROTECTED YOU.
+>p:AxisNormal
+.
+* Ah. I see, this cushion
+  is actually your hand...
+>p:KanakoNormal
+.
+* ...Thanks, Axis.
+* I really owe you one.
+>p:KanakoHappy
+.
+* JUST DOING MY DUTY.
+>p:AxisNormal
+.
+* ...Well, what now?
+>p:KanakoPuff
+.
+* We are stuck without a
+  way to reach the Spire...
+>p:KanakoSad
+.
+* And it is pretty late 
+  now...
+* We won't make it...
+>p:KanakoSad
+.
+* WE COULD TRY REACHING THE 
+  NEAREST TRAM STATION AND
+  TRY AGAIN.
+>p:AxisNormal
+.
+* Okay. Where's that?
+>p:KanakoNormal
+.
+* ABOUT 3 HOURS WALKING.
+>p:AxisNormal
+.
+* 3 hours?! It will be 
+  nightfall by then!
+>p:KanakoOffended2
+.
+* Ugh... What to do...
+>p:KanakoSad2
+END
+
+--
+
+@DW2KanakoReunite5
+[wave]* La la la la la laaaa~!
+>bleep:BunBun
+.
+* ...You guys hear that?
+>p:KanakoPuff
+.
+* Someone must be nearby.
+* Let's see if they can 
+  help us.
+>p:KanakoNormal
+END
+
+--
+
+@BunBun1Encounter1
+[wave]* La la la la la laaaa~!
+>bleep:BunBun
+.
+* Something is coming
+  this way...
+>p:KanakoPuff
+END
+
+--
+
+@BunBun1Encounter2
+* Ah!
+>p:BunBunNormal
+.
+* This seems to be the 
+  place...
+>p:BunBunNormal
+END
+
+--
+
+@BunBun1Encounter3
+* Right on target!
+>p:BunBunHappy
+>top:lock
+.
+* ...!
+>p:KanakoSurprise
+.
+* Y-you're...
+>p:KanakoSurprise
+.
+* Ah! 
+>p:BunBunNormal
+.
+* Kanako!
+>p:BunBunNormal
+.
+* Finally... We can
+  talk face to face.
+>p:BunBunHappy
+.
+* UM... DO WE KNOW YOU?
+>p:AxisBored
+.
+* Axis, you don't 
+  remember me?
+>p:BunBunNormal
+.
+* I guess not all darkners
+  retain their old memories
+  then...
+>p:BunBunNormal
+.
+* You're... BunBun!
+>p:KanakoSurprise
+>mini:AxisNormal:WHO?
+.
+* My plush bunnie...
+>p:KanakoDumb
+.
+* How... 
+* First Axis...
+* Now you...
+>p:KEEP
+.
+* What's happening...?
+>p:KEEP
+.
+* Heh. You should see
+  the look on your face!
+>p:BunBunHappy
+.
+* I will explain everything
+  to you all.
+>p:BunBunNormal
+.
+* ...But we need to get
+  out of here first.
+>p:BunBunNormal
+.
+* Toster and his goons
+  are certainly searching
+  for you lot.
+>p:BunBunNormal
+.
+* Uh, where can we even
+  go?
+>p:KanakoPuff
+.
+* We have to reach the
+  Spire but we are stuck
+  here...
+>p:KanakoSad
+.
+* Even if you went, there
+  is no point. Toster has
+  the place in lockdown.
+>p:BunBunNormal
+.
+* But I know a way you
+  can get in.
+>p:BunBunNormal
+.
+* We just have to take
+  a trip to the [color=yellow]Upstairs[/color]!
+>p:BunBunHappy
+.
+* UPSTAIRS?!
+>p:AxisAngry
+.
+* SO YOU'RE AN [color=red]INTERLOPER[/color]!
+>p:AxisAngry
+.
+* Oh, Axis!
+>p:BunBunNormal
+.
+* You don't even realise
+  it, but you are one too!
+>p:BunBunHappy
+.
+* WHAT?!
+>p:AxisDumb
+.
+* BUT I AM A ROBOT. I WAS
+  CREATED HERE.
+>p:KEEP
+.
+* Yes, but you don't 
+  "belong" here.
+* You belong Upstairs.
+>p:BunBunNormal
+.
+* Come, I will explain
+  everything on the way.
+>p:BunBunNormal
+.
+* ...
+>p:KanakoSad
+.
+* C'mon, guys.
+* I'm dying to finally
+  know what's going on.
+>p:KanakoOffended
+END
+
+--
+
+@BunBun1Encounter4
+* Nice ride, isn't it?
+>p:BunBunHappy
+>top:lock
+.
+* This is the only way 
+  to reach the Upstairs
+  outside the Spire.
+>p:BunBunNormal
+.
+* So the Spire reaches up
+  beyond the clouds?
+>p:KanakoPuff
+.
+* Yes. This Dark World
+  has a second layer above
+  it.
+>p:BunBunNormal
+.
+* It has caused quite the 
+  rift with the robots
+  fighting against us.
+>p:BunBunContent
+.
+* ...
+>p:KanakoSad
+.
+* I still don't understand
+  what is going on.
+>p:KanakoSad2
+.
+* Right... I guess I will
+  tell you.
+>p:BunBunSad
+.
+* Just keep in mind...
+>p:BunBunNormal
+.
+* This information is
+  something most darkners
+  aren't aware of.
+>p:BunBunSad
+.
+* And some even go mad
+  over it.
+>p:BunBunSad
+.
+* I was lucky to not lose
+  my mind learning this.
+>mini:AxisNormal:...
+>p:BunBunSad
+.
+* ...Is it that serious...?
+>p:KanakoSad
+.
+* Maybe not for lightners.
+* But it is for darkners.
+>p:BunBunContent
+.
+* ...
+>p:BunBunContent
+.
+* Okay so...
+>p:BunBunNormal
+.
+* What do you know about
+  the Dark Worlds?
+>p:BunBunNormal
+.
+* Not much, really.
+* Just that they... exist?
+>p:KanakoPuff
+.
+* ...We have to enter 
+  these weird doors to 
+  get in...
+>p:KanakoNormal
+.
+* ...And darkners kinda 
+  resemble objects...?
+>p:KanakoSad
+.
+* Right. You're perceptive!
+>p:BunBunHappy
+.
+* There is a reason for the
+  last point you brought up.
+>p:BunBunNormal
+.
+* A Dark World reflects the
+  will of its fountain.
+>p:BunBunNormal
+.
+* Essentially, it's based 
+  on where the fountain
+  was opened.
+>p:BunBunNormal
+.
+* ...What exactly does 
+  that mean, really?
+>p:KanakoOffended2
+.
+* ...Wait...
+>p:KanakoDumb
+.
+* Are you telling me
+  this Dark World is
+  the way it is...
+>p:KanakoSurprise
+.
+* Because it is located
+  into dad's workshop...?
+>p:KanakoSurprise
+.
+* Bingo! That's correct!
+>p:BunBunHappy
+.
+* ...
+>p:KanakoDumb
+.
+* Um...
+* I see...
+>p:KanakoDumb
+.
+* WORKSHOP? WHAT DO YOU
+  MEAN?
+>p:AxisNormal
+.
+* ROBOTOPIA HAS EXISTED
+  FOR EONS.
+>mini:BunBunContent:Oh, Axis...
+>p:AxisNormal
+.
+* Does this mean this is
+  a fake world...?
+>p:KanakoNeutral
+.
+* No, Dark Worlds are real.
+>p:BunBunNormal
+.
+* They are just formed from
+  memories.
+>p:BunBunNormal
+.
+* The story of Robotopia 
+  is as real as it gets...
+>p:BunBunContent
+.
+* Based on the real story
+  of what happened to us
+  in the Light World.
+>p:BunBunContent
+.
+* ...
+>p:AxisDumb
+.
+* I see. So that's why
+  darkners are based on
+  objects...
+>p:KanakoPuff
+.
+* They ARE objects...
+>p:KanakoOffended
+.
+* Just brought to life
+  by... magic?
+>p:KanakoOffended2
+.
+* By the fountain.
+* The Darkness is what
+  gives us form.
+>p:BunBunNormal
+.
+* ...
+>p:KanakoOffended2
+.
+* That's still a bit too
+  much to believe in...
+>p:KanakoSad
+.
+* ...SO...
+* I AM NOT A ROBOT...?
+>p:AxisDumb
+.
+* Axis, you are a robot.
+* At least here, in the
+  Dark World.
+>p:BunBunNormal
+.
+* In the Light World you
+  are something else.
+* As am I.
+>p:BunBunNormal
+.
+* I don't remember what
+  I was in the Light 
+  World...
+>p:BunBunContent
+.
+* But I remember I was
+  close and dear to
+  Kanako...
+>p:BunBunHappy
+.
+* ...That's true.
+>p:KanakoNervous
+.
+* As were you, Axis.
+>p:BunBunNormal
+.
+* ........
+>p:AxisDumb
+.
+* I...
+>p:AxisDumb
+.
+* [PROCESSOR OVERLOAD]
+>anim:Axis:TramSit2
+>p:AxisShadow
+.
+* Yeah... Not all darkners
+  are ready to learn the 
+  truth.
+>p:BunBunSad
+.
+* ...And where did you 
+  learn about that?
+>p:KanakoOffended2
+.
+* [color=yellow]Someone[/color] told me.
+>p:BunBunNormal
+.
+* The person that created 
+  this Dark World.
+>p:BunBunNormal
+.
+* Oh? Who was it?
+>p:KanakoPuff
+.
+* I don't know.
+>p:BunBunContent
+.
+* They were cloaked in
+  shadow... I couldn't
+  make out what they were.
+>p:BunBunSad
+.
+* But I know it was not
+  your father.
+>p:BunBunNormal
+.
+* Oh, good. I don't think
+  he'd be able to do it,
+  honestly...
+>p:KanakoNervous
+.
+* Haha, yeah!
+>p:BunBunHappy
+END
+
+--
+
+@BunBun1Encounter5
+* ...
+* Wait a minute...
+>p:KanakoPuff
+>top:lock
+.
+* If this world is based
+  on dad's workshop...
+>p:KanakoSad
+.
+* Then that means Upstairs
+  is...
+>p:KanakoOffended2
+.
+* How about you see with
+  your own eyes?
+>p:BunBunHappy
+.
+* We are about to cross
+  the crack.
+>p:BunBunNormal
+END
+
+--
+
+@HammerGuy
+* Wow. Someone did a number on
+  this tram.
+>tc
+.
+* I think I can fix this. This
+  might be the opportunity I was
+  looking for.
+>tc
+.
+* Hope this actually goes well.
+* Just gotta... mentally prepare
+  for this task.
+>tc
+END
+
+--
+
+@TramEventAlt1
+* LOOKS LIKE IT IS JUST THE
+  TWO OF US. WONDERFUL.
+>p:AxisBored
+.
+* JUST SIT DOWN AND DON'T 
+  MAKE MUCH NOISE, I GUESS.
+>p:KEEP
+END
+
+-
+
+@TramEventAlt2
+* SO, MISS KANAKO WAS NOT
+  AT THE TRAM STATION.
+>p:AxisSad
+.
+* THE ONLY OTHER OPTION IS
+  THAT THE DRONES TOOK HER
+  TO THE SPIRE.
+>p:AxisNormal
+.
+* MAYBE THEY CONFUSED HER
+  ORGANIC-NESS AS A DEFECT.
+>p:AxisNormal
+.
+* IF WE DON'T HURRY, IT IS
+  LIKELY THEY WILL TRY TO
+  "DEASSEMBLE" HER.
+>p:AxisNormal
+END
+
+-
+
+@TramEventAlt3
+* CAN THIS TRAM NOT GO ANY
+  FASTER?!
+>p:AxisAngry
+.
+* I KNEW THEY WERE SLOW, 
+  BUT NOT "THIS" SLOW.
+>p:AxisBored
+.
+* MISS KANAKO IS OUT THERE
+  AND I ADMIT, I AM GETTING
+  SOMEWHAT WORRIED-
+>p:AxisSad
+.
+* BUT WORST OF ALL, I'M
+  STUCK HERE WITH YOU.
+>p:AxisAngry
+.
+* NOT LOOKING FORWARD TO
+  WHAT IS UP AHEAD.
+>p:AxisBored
+.
+* ...
+>p:AxisNormal
+.
+* I DO HOPE WE FIND HER.
+* SAFE, PREFERABLY. AND NOT
+  DEASSEMBLED.
+>p:AxisSad
+END
+
+-
+
+@TramEventAlt4
+>bleep:System
+[color=green]* PASSENGERS:
+* SOON ARRIVING AT:
+* THE SPIRE.
+.
+* FINALLY.
+>p:AxisNormal
+.
+* LET US PROCEED TO
+  DISEMBARK.
+>p:KEEP
+END
+
+-
+
+@TramEvent6Alt
+* OH NO. HE FOUND US.
+>p:AxisAngry
+.
+* INDEED! IT WAS A SIMPLE-
+* Wait a moment-
+>p:ToastLaugh
+.
+* Weren't there supposed to
+  be two lightners?!
+* I'm only seeing one!
+>p:ToastSide
+.
+* Had a break up, have you?
+>p:ToastLaugh
+.
+* Well, no matter. I'll
+  just beat you up and find
+  the other one later!
+>p:ToastNormal
+.
+[shake]* GET READY TO BE TOASTED!
+>p:ToastLaugh
+END
+
+-
+
+@TramEvent7Alt
+* HUMAN, WE ARE SEVERELY 
+  OUTMATCHED HERE.
+>p:AxisSad
+.
+* THE SMARTEST CHOICE WOULD
+  BE FOR YOU TO SACRIFICE
+  YOURSELF.
+>p:AxisNormal
+.
+* ROBOTS COME FIRST IN
+  ROBOTOPIA, AFTER ALL.
+* DON'T WORRY-
+>p:KEEP
+.
+* I WILL MAKE SURE TO
+  NOTIFY MISS KANAKO OF HOW
+  HEROICALLY YOU WENT OUT.
+>p:KEEP
+END
+
+--
+
+@TramEvent7BAlt
+* Hey anyone hear that or
+  was it just me-
+>p:ToastSide
+END
+
+--
+
+@TramEvent8Alt
+[wave]* Huff... Huff...
+* Made it...
+>p:KanakoAngry
+.
+* Those machines just...
+* Shoved me into that
+  rocket...
+>p:KanakoScared
+.
+* Blabbing something about
+  me being a "defective 
+  unit" or something-
+>p:KEEP
+.
+* And then just ejecting 
+  me!
+>p:KanakoNervous2
+.
+* I'm just glad I am alive-
+* Like, what was that?!
+>p:KEEP
+.
+* The HECK is this?! Why
+  are you destroying my
+  world's infrastructure?!
+>p:ToastDefeat
+END
+
+--
+
+@TramEvent9Alt
+* ...Ah! Cole! Axis!!
+>p:KanakoSurprise
+.
+* Guess I arrived right on
+  time, heh.
+>p:KanakoTongue
+.
+* Oh?! Yes, yes you did!
+* Now I can capture both of
+  you right here and now!
+>p:ToastLaugh
+.
+* I wanna see you try!!
+>p:KanakoAngry3
+>signalearly
+.
+* DON'T YOU DARE LAY YOUR
+  HANDS ON MISS KANAKO!!
+>p:AxisAngry
+END
+
+--
+
+@TramEvent10Alt
+* Hey! Get your filthy 
+  mitten off me! You're
+  ruining my paint job!
+>p:ToastAngry
+.
+* SHOULDN'T HAVE LET YOUR
+  GUARD DOWN. NOW IT IS MY
+  CHANCE TO KNOCK YOU OUT.
+>p:AxisAngry
+.
+* YOUR ARMOR MIGHT BE NIGH-
+  IMPENETRABLE, BUT I KNOW
+  HOW TO GET AROUND IT.
+>p:KEEP
+.
+* ACTIVATING SELF 
+  DESTRUCTION COUNTDOWN.
+>p:AxisShadow
+>mini:KanakoSurprise:!!!
+.
+* THE HECK?! Oh no! You 
+  won't be doing any of 
+  that...
+>p:ToastDefeat
+END
+
+--
+
+@TramEvent11Alt
+* CANCELLING SELF 
+  DESTRUCTION SEQUENCE...
+>p:AxisDumb
+.
+* Hah! I hate doing this,
+  but I ain't dying today!!
+>p:ToastAngry
+.
+* Doesn't matter when Master
+  Chujin is making me a new
+  body anyway!!
+>p:ToastLaugh
+.
+* But guess what? You 
+  didn't need to turn off
+  your self-destruct...
+>p:ToastAngry2
+.
+* Because...
+>p:ToastLaugh
+END
+
+--
+
+@TramEvent12Alt
+* I'LL BE DOING IT FOR 
+  YOU!!
+>p:ToastLaugh
+.
+* CRAP! COLE! AXIS!!
+* WATCH OUT!!
+>p:KanakoSurprise
+.
+* LIGHTS OUT, LIGHTNERS!!
+* SHOW'S OVER!!!
+>p:ToastAngry2
+.
+* TA-TA!!
+>p:KEEP
+END
+
+--
+
+@PostTramAlt1
+[wave]* Ow ow ow-[/wave]
+* My entire body hurts...
+>p:KanakoDumb
+END
+
+--
+
+@PostTramAlt2
+* Cole...!
+>p:KanakoSurprise
+END
+
+--
+
+@PostTramAlt3
+* ...Glad you're okay...
+>p:KanakoCry2
+.
+* We are so lucky to have
+  survived that...
+* Like, what the hell?
+>p:KanakoOffended2
+.
+* ...The heck we do now?
+* We are way off track...
+>p:KanakoSad2
+.
+* ...Oh, Axis!!
+>p:KanakoSurprise
+END
+
+--
+
+@PostTramAlt4
+* Axis! AXIS!!
+* Are you alright?!
+>p:KanakoSurprise
+.
+* ............
+>bleep:Axis
+.
+* [REBOOTING SYSTEM]
+>bleep:Axis
+END
+
+--
+
+@PostTramAlt5
+* ASSESSING DAMAGES...
+>p:AxisNormal
+.
+* ONLY THE "USUAL" MISSING
+  ARM AND EYE.
+>p:AxisBored
+.
+* AXIS 014 READY FOR DUTY.
+>p:AxisNormal
+.
+* Oh, good. So we all made
+  it somehow.
+>p:KanakoNervous
+.
+* Well, what do we do now?
+>p:KanakoPuff
+.
+* Where even are we?
+* How can we reach the
+  Spire from here?
+>p:KanakoOffended2
+.
+* WE COULD WALK.
+>p:AxisNormal
+.
+* BUT THAT IS APPROXIMATELY
+  3 HOURS AWAY.
+>p:AxisNormal
+.
+* 3 hours?! We don't have
+  that much time!
+>p:KanakoSurprise
+.
+* ...Ugh. Let's just try to
+  find another tram or
+  something. C'mon.
+>p:KanakoNeutral
+END
+
+--
+
+@KanakoAltTalk
+* C'mon, we gotta get out
+  of here ASAP.
+>p:KanakoOffended2
+END
+
+-
+
+@TVCheck1
+* A television, could use some
+  repairs.
+END
+
+-
+
+@TVCheck2
+* A broken image transmission 
+  device.
+END
+
+-
+
+@TVCheck3
+* A telly... It is broken.
+END
+
+-
+
+@GenericJunk
+* Junk.
+END

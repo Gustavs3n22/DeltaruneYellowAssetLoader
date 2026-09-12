@@ -1,0 +1,597 @@
+@PencellerWarning
+* Uh, you guys sure you wanna
+  go that way?
+* There is nothing there!
+>talk:COOLPenceller
+.
+* Well, suit yourselves.
+>talk:COOLPenceller
+END
+
+-
+
+@ChestEnd
+* You open the chest and
+  inside there is...
+* Nothing.
+.
+* But you still feel this was 
+  a fulfilling experience.
+* MAX HP + 5!
+>mini:KanakoNervous:(Did we do all that for nothing?)
+END
+
+-----
+
+@PencellerGreetingNormal
+* Hey! Don't attack!
+* I'm not here to fight.
+>talk:COOLPenceller
+.
+* Oh, what are you doing
+  here, then?
+>p:KanakoPuff
+.
+>redirect:PencellerGreeting
+END
+
+-
+
+@PencellerGreetingViolent
+* Cole! An enemy!
+* Get ready to fight!
+>p:KanakoOffended
+.
+* Woah, woah!
+* Hold there, sister!
+* I don't wanna fight!
+>talk:COOLPenceller
+.
+* ...Okay. 
+* What are you doing 
+  here, then?
+>p:KanakoNeutral
+.
+>redirect:PencellerGreeting
+END
+
+-
+
+@PencellerGreeting
+* These are our training grounds!
+* We use this spot to test out
+  pensmanship.
+>talk:COOLPenceller
+.
+* Heard some lightners were around
+  too, so that would be really
+  good for target practice!
+>talk:COOLPenceller
+>prompt:About@that...:That's us.
+>promptredirect:PencellerGreeting2:PencellerGreeting2
+END
+
+-
+
+@PencellerGreeting2
+* Huh, what?! It is you two?!
+>talk:COOLPenceller
+.
+* Wait... wait...
+* This could work out well.
+>talk:COOLPenceller
+.
+* Okay, let's make a deal.
+* If you guys let us use you for
+  our target practice...
+>talk:COOLPenceller
+.
+* We will give you some money,
+  as long as you survive, that is.
+>talk:COOLPenceller
+.
+* That sounds like a 
+  terrible deal.
+>p:KanakoOffended2
+.
+* Hey, it's free money, if 
+  you make it to the end!
+>talk:COOLPenceller
+.
+* I'll reward you based on
+  how little you get hit if
+  it helps you agree to it!
+>talk:COOLPenceller
+.
+* Just lemme know if you
+  wanna give it a go.
+>talk:COOLPenceller
+END
+
+-
+
+@PencellerPrompt
+* So? What do you say?
+* Can we start the target
+  practice?
+>talk:COOLPenceller
+.
+* Just remember: [color=red]we won't hold
+  back.
+>talk:COOLPenceller
+>prompt:Let's start:Not yet
+>promptredirect:PencellerPromptA:PencellerPromptB
+END
+
+-
+
+@PencellerPromptA
+* Alright!
+[shake]* MEN! INTO POSITION!
+>talk:COOLPenceller
+END
+
+-
+
+@PencellerPromptB
+* Another time, then?
+>talk:COOLPenceller
+END
+
+-
+
+@PencellerStart
+* Alright!
+[shake]* GET THEM!
+>talk:COOLPenceller
+>top
+END
+
+-
+
+@PencellerEnd
+* Well! That was a good workout.
+>talk:COOLPenceller
+.
+* Here is your reward, as promised!
+>talk:COOLPenceller
+.
+* (You got @v8 DARK DOLLARS.)
+>sound:snd_item_ch1.wav
+.
+* The less you get hit, the better
+  your reward!
+>talk:COOLPenceller
+.
+* Let's head back now.
+>talk:COOLPenceller
+END
+
+-----
+-----
+-----
+
+@BearingFirstEvent1
+* ...
+>p:KanakoNeutral
+.
+* What is that thing 
+  over there?
+>p:KanakoNeutral
+.
+* Seems like it's pouring
+  out everywhere...
+>p:KanakoNeutral
+.
+* Think it is related to
+  all of this?
+>p:KanakoNeutral
+END
+
+-----
+
+@BearingFirstEvent2
+* It's kinda far away,
+  though.
+>p:KanakoOffended2
+.
+* Not to mention how far
+  up we are.
+>p:KanakoOffended2
+.
+* How are we going to 
+  get down there...?
+>p:KanakoOffended2
+END
+
+-----
+
+@ChaseEvent1
+* [shake]W-What...?!
+>p:KanakoSurprise
+END
+
+-----
+
+@ChaseEvent2
+* We did it! 
+* We got them!
+>talk:Penceller
+>top
+.
+* Now boss-man will 
+  finally recognize us.
+>talk:Eraser
+>top
+.
+* Argh! What now, Cole?
+>p:KanakoOffended
+>top
+.
+* Do we fight?
+* Or do we make
+  a run for it?
+>p:KanakoOffended
+>top
+.
+* [shake]Not so fast, lightners!
+>top
+END
+
+-----
+
+@ChaseEvent3
+* So it is true. There 
+  are lightners wandering 
+  in MY realm.
+>top
+>p:BearingNormal
+END
+
+-----
+
+@ChaseEvent3a
+* Yeah boss! Those are the 
+  weirdos "befriending" 
+  everyone!
+>top
+>talk:Penceller
+.
+* Talk about creepy.
+>top
+>talk:Penceller
+END
+
+-----
+
+@ChaseEvent3b
+* Yeah boss! Those are the 
+  ones beating everyone up!
+* They need to be punished!
+>top
+>talk:Penceller
+END
+
+-----
+
+@ChaseEvent4
+* ...Lightners!
+>top
+>anim:Bearing:CrossedArms
+>p:BearingNormal
+.
+* Why have you returned
+  to our lands after
+  abandoning us?
+>top
+>p:BearingNormal
+.
+* To laugh at us once more?
+* To banish us to the dark
+  and doom us once more?!
+>top
+>p:BearingNormal
+.
+* I shall not let you!
+* Your reign of terror 
+  ends here!
+>top
+>p:BearingNormal
+.
+* What the heck are 
+  you talking about?!
+>top
+>p:KanakoOffended2
+.
+* We don't even know 
+  where we are!
+>top
+>p:KanakoOffended
+.
+* We just want to 
+  leave!
+>top
+>p:KanakoOffended2
+.
+* Silence! You have no 
+  right to speak after what 
+  you have done to us.
+>top
+>p:BearingNormal
+.
+* YOU ARE GOING ON A ONE
+  WAY TRIP TO OUR DUNGEON!
+>top
+>p:BearingNormal
+>animshake:Bearing:Roar
+.
+* Cole, this guy isn't 
+  listening.
+>p:KanakoOffended2
+>top
+.
+* What do we do?
+* He looks tough...
+>top
+>p:KanakoOffended
+>prompt:Flee:Fight
+>promptredirect:ChaseEvent4A:END
+END
+
+-----
+
+@ChaseEvent4A
+* ...Right
+>top
+>p:KanakoOffended
+.
+* We need to find a way
+  to leave first and
+  foremost.
+>top
+>p:KanakoOffended
+.
+* And this guy is too much
+  for us now.
+>top
+>p:KanakoOffended
+.
+* Let's get out of here and
+  find another way home!
+>top
+>p:KanakoOffended
+END
+
+-
+
+@ChaseEvent4A2
+* You really think we will
+  just let you escape?!
+>top
+>p:BearingLaugh
+.
+* I know just the perfect
+  person to stop you!
+>top
+>p:BearingNormal
+.
+[shake]* HONVICH!!
+>top
+>p:BearingAngry
+>animshake:Bearing:Roar
+END
+
+-----
+
+@ChaseEvent4B
+* Oh? Trying to intimidate 
+  me?
+>p:BearingNormal
+>top
+.
+* Shut up!
+* Eat this!
+>top
+>p:KanakoOffended
+END
+
+-
+
+@ChaseEvent4B2
+* You call that an attack?!
+* Laughable!
+>top
+>p:BearingLaugh
+.
+* You two should deal with
+  someone more on your
+  league, then!
+>top
+>p:BearingNormal
+.
+[shake]* HONVICH!
+>top
+>p:BearingAngry
+>animshake:Bearing:Roar
+END
+
+--
+
+@ChaseEvent5
+* You called, Sir?
+>p:HonvichNormal
+>top
+.
+* Capture these lightners
+  and bring them to the 
+  fortress!
+>p:BearingNormal
+>top
+.
+* They will be useful when
+  negotiating with "it".
+>mini:KanakoOffended:...?
+>p:BearingNormal
+>top
+.
+* On it, Sir!
+* I shall not disappoint
+  you!
+>p:HonvichNormal
+>top
+.
+* MEN!!
+>p:HonvichNormal
+>top
+.
+* LET'S CAPTURE THESE
+  LIGHTNERS!!
+>p:HonvichNormal
+>top
+.
+* T-That's our cue!
+* Let's bail!
+>p:KanakoScared
+>top
+END
+
+-----
+-----
+-----
+
+@PostChase1
+* E-End of the line...
+>top
+>p:KanakoSurprise
+END
+
+-----
+
+@PostChase2
+* How correct you are.
+>top
+>p:HonvichNormal
+END
+
+-----
+
+@PostChase3
+* My lord, what shall we
+  do with them?
+>top
+>p:HonvichNormal
+.
+* Capture them and take 
+  them to the fortress 
+  right away.
+>top
+>p:BearingNormal
+.
+* Lightners can be 
+  dangerous when cornered,
+  so watch out.
+>top
+>p:BearingNormal
+.
+* And if we capture them 
+  unharmed, we will have 
+  more bargaining power.
+>top
+>p:BearingNormal
+.
+* So surrender now, 
+  lighners. 
+>top
+>p:KEEP
+.
+* Don't make this more 
+  painful than it has to be.
+>top
+>p:KEEP
+.
+* C-Cole...
+>top
+>p:KanakoSurprise
+>prompt:Jump Off:Stand Your@Ground
+END
+
+-----
+
+@PostChase3A
+* T-that's insane, Cole...
+>top
+>p:KanakoScared
+.
+* There is no way we would
+  survive this fall!!
+>top
+>p:KEEP
+.
+* I'd listen to your friend 
+  if I were you.
+>top
+>p:BearingNormal
+.
+* Now get over here and 
+  don't struggle!
+>top
+>p:KEEP
+END
+
+-----
+
+@PostChase3A2
+* ...C-C-Cole......!!
+>p:KanakoScared
+>top
+END
+
+-----
+
+@PostChase3B
+* You still think you can
+  challenge me?
+>top
+>p:BearingNormal
+.
+* Let me show you the 
+  difference in our 
+  power!
+>top
+>p:KEEP
+END
+
+-----
+
+@PostChase3B2
+* Cole! Watch ou-
+>p:KanakoOffended
+END
+
+-----
+
+@PostChase4
+* ...Hmph.
+>p:BearingNormal
+.
+* My lord! Shall I dispatch
+  the men to search for 
+  them at once?
+>p:HonvichNormal
+.
+* ...Yes.
+* They will reach the 
+  [color=yellow]fountain[/color] sooner or later.
+>p:BearingNormal
+.
+* Make sure to be prepared 
+  for anything. And don't
+  let them escape!
+>p:BearingNormal
+.
+* Gwaha! Yes sir!
+* I shall not disappoint
+  you!
+>p:HonvichHappy
+>anim:BearingGeneral:Laugh
+END

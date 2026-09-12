@@ -1,0 +1,216 @@
+
+@TreasureRoomEvent1
+* Huh?
+* This bell...
+>p:KanakoNeutral
+.
+* It looks a lot like
+  mom's...
+* What is it doing here?
+>p:KanakoNeutral
+END
+
+-----
+
+@TreasureRoomEvent2
+* WARNING! WARNING!
+* THIEVES DETECTED!
+.
+* INITIALIZING SECURITY
+  SYSTEMS!!
+.
+* STARTING ITEM CRUSHER!
+.
+* W-what?!
+>p:KanakoSurprise
+END
+
+-----
+
+@TreasureRoomEvent3
+* C-COLE!
+>p:KanakoSurprise
+.
+* We must get that bell!
+* Hurry!
+>p:KanakoSurprise
+END
+
+-----
+
+@TreasureRoomLose
+* [shake]OH NOOO!
+>p:KanakoSurprise
+.
+>redirect:WeirdStart:TreasureRoomLoseW
+* ...If that really was
+  mom's, she's gonna
+  ground me more than ever!
+>p:KanakoSad
+END
+
+-----
+
+@TreasureRoomLoseW
+* ...
+>p:KanakoAngry
+.
+* ...Let's get out of
+  here.
+>p:KEEP
+END
+
+-----
+
+@TreasureRoomInvFull
+* ...
+>p:KanakoHappy
+.
+* ...We can't carry it.
+>p:KanakoHappy
+.
+* Hahaha!
+>p:KanakoHappy
+.
+* How funny!
+>p:KanakoHappy
+.
+* ...
+>p:KanakoDumb
+.
+* Cole, let's get rid
+  of something and come
+  back. PLEASE.
+>p:KanakoScared
+END
+
+-----
+
+@TreasureRoomWon
+* Phew! We did it!
+>p:KanakoHappy
+.
+* Don't know what I'd
+  do if this was gone.
+>p:KanakoHappy
+.
+* Now we just need to
+  find the necklace...
+>p:KanakoNormal
+END
+
+-----
+
+@GoldenBellGet
+* (You got the Golden Bell.)
+END
+
+-----
+
+@KanakoTalkBearTreasureRoom
+* Did you read the
+  sign outside?
+>p:KanakoNormal
+.
+* This is the treasure
+  room!
+* Know what that means?
+>p:KanakoSmug
+.
+* I don't think bear-man
+  will notice some
+  missing trinkets!
+>p:KanakoTongue
+.
+* ...
+>p:KanakoNormal
+.
+* Where's the
+  treasure, though?
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoTalkBearTreasureWon
+* That was close...
+>p:KanakoSad2
+.
+* But what is this bell
+  doing here? I don't
+  remember losing it too...
+>p:KanakoPuff
+.
+* This place might be
+  playing tricks on our
+  heads.
+>p:KanakoSad2
+END
+
+-----
+
+@KanakoTalkBearTreasureLost
+* The bell...
+>p:KanakoSad2
+.
+* Was it really one of
+  mom's?
+>p:KanakoSad
+.
+* ...
+>p:KanakoSad2
+END
+
+-----
+
+@KanakoTalkBearTreasureFull
+* Cole...
+>p:KanakoNervous
+.
+* Let's sell some of our
+  junk and come back to
+  grab the bell!
+>p:KanakoNervous
+END
+
+-----
+
+@KanakoWarningBeforeBearWeird
+* ...Cole.
+>p:KanakoAngry
+.
+* We could head back
+  into town and prepare
+  before we head on.
+>p:KanakoAngry
+.
+* Your call, though.
+>p:KanakoAngry
+END
+
+-----
+
+@TreasureGotAfterLost
+* We did it...
+* But the bell...
+>p:KanakoSad2
+.
+* ...
+>p:KanakoSad
+.
+* ...Wait, what's this...?
+>p:KanakoPuff
+.
+* (Kanako reaches her hand
+  inside the machine.)
+.
+* ...Wait, it did survive?
+>p:KanakoOffended2
+.
+* Not a scratch, either.
+>p:KanakoOffended2
+.
+* What was the point of this
+  security system then?
+>p:KanakoDumb
+END

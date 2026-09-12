@@ -1,0 +1,144 @@
+@SaveFortRes
+>redirect:WeirdStart:SaveWeirdRoute
+>heal
+* You feel at peace finding
+  a place to rest in hostile
+  envirioment.
+>callsave
+END
+
+-----
+
+@PencellerBreakRoom
+* I've heard some lightners
+  were seen at the outskirts
+  earlier...
+>tc
+.
+* Well, not my problem.
+* They'll never get inside our
+  fortress!
+>tc
+.
+* Say, are you new here?
+* Don't remember seeing you
+  two around before.
+>tc
+END
+
+-----
+
+@MopperBreakRoom
+* Work is never done...
+>tc
+.
+* We've only been aware for
+  a day, but this place is
+  a MESS!
+>tc
+.
+* Gotta clean before Bearing
+  yells at me again...
+>tc
+END
+
+-----
+
+@EraserBreakRoom
+* Man, I don't want to head
+  out there.
+>tc
+.
+* Heard there's lightners around.
+* Scary stuff.
+>tc
+.
+* I'm doing just fine here, still
+  have a few minutes left from
+  my break.
+>tc
+END
+
+-----
+
+@KanakoBreakRoomTalk
+* Ah, finally,
+  somewhere we can
+  relax.
+>p:KanakoHappy
+.
+* Let's take a
+  breather before
+  we keep going.
+>p:KanakoNormal
+.
+* We shouldn't be
+  too far now.
+>p:KanakoNormal
+END
+
+-----
+
+@PenGuy1
+* Hey, kids!
+>talk:PenGuy
+.
+* Oh, it's you again!
+* Thanks for letting
+  us in!
+>p:KanakoHappy
+.
+* No prob, I should be able to
+  resupply my stock soon thanks
+  to you.
+>talk:PenGuy
+.
+* Stock?
+* Also how? All we did
+  was beat a puzzle.
+>p:KanakoPuff
+.
+* That's just how things works here
+  in the Dark World, girly.
+>talk:PenGuy
+.
+* Anyway, I already have some
+  stuff ready to sell, if you're
+  interested, that is.
+>talk:PenGuy
+.
+* Lemme know if you need
+  anything, alright?
+>talk:PenGuy
+>setflag:PenGuyRestRoom
+END
+
+-
+
+@BookRead
+* "Monsters and Humans have lived
+  together since time immemorial."
+.
+* "Despite the differences between
+  their bodies, their SOULs are
+  very similar."
+.
+* "There is practically no main
+  difference between a Monster
+  and Human SOUL."
+.
+* Ugh, hate history books.
+>p:KanakoTongue
+END
+
+--
+
+@Fridge
+* (You open the fridge.)
+* (Inside there is...)
+.
+* Hey! Hands off!
+* That food is for employees 
+  only!
+>talk:Penceller
+END

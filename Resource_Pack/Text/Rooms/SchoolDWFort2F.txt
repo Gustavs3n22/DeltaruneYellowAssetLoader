@@ -1,0 +1,274 @@
+@SavePoint
+>heal
+* The fountain is just nearby.
+* Not long to go.
+.
+* You are filled with a sense of
+  finality.
+>callsave
+END
+
+-
+
+@Gate
+* A huge final boss-ish gate 
+  blocks the path.
+END
+
+-
+
+@SignRight
+* EMERGENCY UNLOCK SWITCH FOR
+  ROOFTOP AND FOUNTAIN ACCESS
+  UP AHEAD.
+END
+
+-
+
+@SignLeft
+* Special Prison and Warden's
+  office down this path.
+END
+
+-
+
+@ThormasEvent1
+[shake]* HEEEEEY!
+>top
+END
+
+-
+
+@ThormasEvent2
+* You did it! You beat that
+  old guy up!
+>p:ThormasHappy
+>tc
+>top:lock
+.
+* He always caught me when 
+  I tried to sneak into the 
+  fort before.
+>p:ThormasNormal
+>tc
+.
+* A tough nut to crack. But 
+  this shows lightners are 
+  something else!
+>p:ThormasHappy
+>tc
+.
+* Um, yeah.
+* What's next?
+>p:KanakoNervous
+.
+* Obviously we bring the 
+  fight to Bearing!
+>p:ThormasNormal
+>tc
+.
+* He should be just up 
+  ahead, just before the 
+  fountain.
+>p:ThormasNormal
+>tc
+.
+* Then we beat him up and 
+  our world is saved!
+>p:ThormasNormal
+>tc
+.
+[shake]* ONWARDS!
+>p:ThormasHappy
+>tc
+END
+
+-
+
+@ThormasEvent3
+* Well, you heard him.
+* Just a bit more now...
+>p:KanakoNeutral
+>top:lock
+.
+* C'mon, let's do it!
+>p:KanakoNormal
+END
+
+--
+
+@ThormasAngry1
+* You did it! You beat that 
+  old man up!
+>p:ThormasHappy
+>top:lock
+>tc
+.
+* Now only Bearing left!
+* And we will free this 
+  Dark World!
+>p:ThormasNormal
+>tc
+.
+* ...Ugh, finally. 
+* About time.
+>p:KanakoAnnoyed
+.
+* C'mon, sister. Just a bit 
+  more!
+* ONWARDS!
+>p:ThormasHappy
+>tc
+END
+
+-
+
+@ThormasAngry2
+* ...
+* Just a bit more...
+>p:KanakoSad2
+>top:lock
+.
+* ...
+>p:KanakoSad2
+END
+
+--
+
+@Rocky1
+>redirectmap:Rock:Rocky2
+* We are near the end now.
+>p:Rocky
+>tc
+.
+* Just some final gauntlets 
+  and Bearing will be the
+  last one we have to face.
+>p:Rocky
+>tc
+.
+* If you have any final 
+  errands, you better take 
+  care of them now.
+>p:Rocky
+>tc
+.
+* You might not be able 
+  to come back to this 
+  Dark World, after all.
+>tc
+>mapflag:Rock
+>p:Rocky
+END
+
+-
+
+@Rocky2
+* Oh, don't mind me now.
+>p:Rocky
+>tc
+.
+* It is just the fate of 
+  all darkners, after all.
+>p:Rocky
+>tc
+END
+
+-
+
+@ThormasFoxHint
+* Oh! That bell!
+>p:ThormasShock
+>tc
+.
+* Where didja find it?
+>p:ThormasNormal
+>tc
+.
+* Oh.
+* It was in the treasure
+  room below.
+>p:KanakoPuff
+.
+* Ah! Me and Rocky could 
+  never get past that weird 
+  contraption!
+>p:ThormasShock
+>tc
+.
+* Glad ya did!
+>p:ThormasNormal
+>tc
+.
+* Yeah... Sure...!
+>p:KanakoNervous
+.
+* Oh, that reminds me.
+>p:ThormasNormal
+>tc
+.
+* I think I saw a place...
+* In the cliffs.
+>p:ThormasNormal
+>tc
+.
+* There was a place I think
+  that bell might fit.
+>p:ThormasNormal
+>tc
+.
+* Didn't investigate much 
+  since I had this feeling
+  someone was watching me.
+>p:ThormasThink
+>tc
+.
+* But maybe the bell could be
+  used for something there?
+>p:ThormasNormal
+>tc
+.
+* The cliffs, huh?
+* What do you think, Cole?
+* Should we look into it?
+>p:KanakoPuff
+.
+* Well if you do, good luck!
+* But don't forget what we 
+  are really after at here!
+>p:ThormasHappy
+>tc
+.
+* BEARING! I mean!
+>p:ThormasNormal
+>tc
+>setflag:ThormasFoxHint
+END
+
+-
+
+@ThormasFoxHint2
+* I think the cliffs might 
+  have something for that 
+  bell.
+>p:ThormasNormal
+>tc
+.
+* But don't forget to come 
+  back to deal with Bearing!
+>p:ThormasNormal
+>tc
+END
+
+-
+
+@Thormas1
+* Just a bit more, just a 
+  bit more!
+>p:ThormasNormal
+>tc
+.
+* Don't stop now, lightners!
+>p:ThormasNormal
+>tc
+END

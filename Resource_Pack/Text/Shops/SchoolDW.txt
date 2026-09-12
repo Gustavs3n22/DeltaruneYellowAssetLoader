@@ -1,0 +1,195 @@
+@Intro
+* Welcome! Take a look
+  around!
+* I don't have much, but
+  I'm happy to have you!
+
+@Intro2
+* Can I help you with
+  anything else?
+
+@TalkMenu
+* Oh?
+* What
+  about?
+
+@TalkMenu2
+* Want to
+  talk about
+  something
+  else?
+
+@BuyCancel
+* Changed
+  your mind?
+
+@BuyConfirmed
+* Thanks!
+
+@BuyFull
+* Sorry,
+  you can't
+  carry more.
+
+@BuyMoney
+* You can't
+  afford
+  it...
+
+@BuyMenu
+* Here is
+  what I
+  have!
+
+@BuyMenu2
+* Anything
+  else?
+
+@SellMenu
+* What are
+  you sell-
+  ing?
+
+@SellDontHave
+* You don't
+  have any-
+  thing!
+
+@SellChoose
+* What
+  should I
+  look at?
+
+@SellConfirmed
+* Here you
+  go!
+
+@Exit
+* Hope to see you again soon!
+
+@Topic1
+Dark World
+
+@Topic2
+Yourself
+
+@Topic3
+Dark Jail
+
+@Topic4
+Necklace
+
+@Topic5
+[color=yellow]Necklace (NEW)[/color]
+
+
+
+@TalkTopic1
+* This Dark World? This is Lord
+  Bearing's domain.
+BREAK
+* Eons ago, after the lightners
+  abandoned us-
+* Lord Bearing then appeared, 
+  and said that he knew how to 
+  get back at them.
+BREAK
+* At the time, most were 
+  ecstactic, but then nothing 
+  happened for a long time...
+BREAK
+anim:Sad:
+* Eventually, Bearing became 
+  very harsh.
+* No one knows why.
+BREAK
+* He became obssessed with the
+  idea of breaking into the
+  Light World, resorting to...
+  Weird tactics.
+BREAK
+* Now we all just hide from him 
+  when we can...
+
+
+
+
+@TalkTopic2
+* Me? I'm just an old 
+  shopkeeper.
+BREAK
+* Oh, but have you seem my 
+  little ones?
+* All those Pencellers and
+  Eraserheads?
+BREAK
+anim:Happy:
+* They're some feisty rascals!
+* But they don't mean any harm
+  in the end.
+BREAK
+anim:Sad:
+* Unfortunately, most of them
+  are following Lord Bearing 
+  now.
+* Wish they would at least come
+  back and visit now and then.
+
+
+
+
+@TalkTopic3
+* ...Dark Jail?
+BREAK
+anim:Sad:
+* Sorry... I've never heard of
+  such a place.
+BREAK
+* ... "Where all the Dark World
+  criminals are sent"...?
+BREAK
+* Yeah... Not ringing any 
+  bells.
+* You sure that such a place 
+  exists?
+BREAK
+anim:Default:
+* Sounds like made up stuff,
+  and that's saying something.
+
+
+
+
+@TalkTopic4
+* You say you lost a necklace
+  and came here looking for it?
+BREAK
+* Now that you mention it...
+* I think I have seen a 
+  necklace around a while ago.
+BREAK
+anim:Sad:
+* But if I were you, I wouldn't
+  get involved...
+BREAK
+* I've heard rumors that
+  Bearing has been in dealings
+  with that necklace, and...
+BREAK
+* ...
+BREAK
+* ...Just forget it, alright?
+
+
+
+
+@TalkTopic5
+* What's that? You found the
+  necklace?
+BREAK
+* That's great! Though it
+  still freaked me out...
+BREAK
+* At least there won't be
+  any risk of the lil' ones
+  getting involved with it.

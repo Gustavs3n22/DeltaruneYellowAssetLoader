@@ -1,0 +1,4196 @@
+@SaveTopFloor
+* You finally made it into the
+  Spire. Once more, you are filled
+  with a sense of finality.
+>heal
+>callsave
+END
+
+--
+
+@SaveChujin
+>heal
+* Having finally found Chujin,
+  Kanako relaxes a little.
+.
+* You are filled with a sense
+  of reunion.
+>callsave
+END
+
+--
+
+@FirstSign
+[color=green]* SPIRE UPSTAIRS SPY
+  ENTRANCE/EXIT CORRIDOR.
+>bleep:System
+.
+[color=green]* Why did we even need a sign for
+  this?
+>bleep:System
+END
+
+--
+
+@TopDoorBlocker
+* The door here is locked.
+* No point in using it when you
+  have a giant hole in the wall.
+>top
+END
+
+--
+
+@SpireFirstEnter
+* Guess they are already on
+  it with breaking 
+  everything...
+>p:KanakoNervous
+>mini:AxisNormal:EFFICIENT. I LIKE IT.
+.
+* We have no time to waste,
+  then! Let's go find dad!
+>p:KanakoOffended2
+END
+
+--
+
+@Transmission
+[color=green]* INCOMING TRANSMISSION...
+>bleep:System
+END
+
+--
+
+@TosterFirstCall1
+* Hey you knuckle heads!!
+* What is going on up 
+  there?! Report, now!!
+>p:ToastAngry
+.
+* ...Oh, it's you three!
+>p:ToastSide
+.
+* I didn't expect you to
+  have survived the tram
+  crash!
+>p:ToastNormal
+.
+* My reports were saying
+  a colorful trio of
+  ruffians was attacking...
+>p:KEEP
+.
+* WELL NO WONDER!! It was
+  you three all along!!
+>mini:AxisNormal:WELL IT WASN'T EXACTLY US.
+>p:ToastLaugh
+.
+* Toster!
+>p:KanakoOffended2
+.
+* Where is dad?! What did
+  you do to him?!
+>p:KEEP
+.
+* HAH! As if I'd just tell
+  you!
+>p:ToastLaugh
+.
+* Master Chujin has outlived
+  his usefulness. I already
+  got myself my new bod...
+>p:ToastNormal
+.
+* He will remain locked up
+  for the rest of his life
+  if he knows what's good!
+>p:ToastAngry2
+.
+* Why you...
+>p:KanakoAngry3
+.
+* I hate to cut this short,
+  but I keep receiving 
+  reports of damages,
+>p:ToastSide
+.
+* On pretty much all floors.
+>p:KEEP
+.
+* Whatever you did, it might
+  cause a chain reaction and
+  blow up the entire Spire!
+>p:ToastAngry
+.
+* And who has to fix it??
+* Well lil' ol' me, of
+  course!
+>p:ToastAngry2
+.
+* Just sit tight and my
+  minions will arrive to
+  capture you.
+>p:ToastNormal
+.
+* Don't make this harder
+  than it has to be!!
+>p:ToastLaugh
+END
+
+-
+
+@TosterFirstCall2
+* SEEMS THOSE GUYS MANAGED
+  TO INFLICT QUITE A LOT
+  OF DAMAGE.
+>p:AxisNormal
+.
+* Wait what was that he 
+  said about the Spire 
+  exploding?!
+>p:KanakoDumb
+.
+* OH, IF WE AREN'T CAREFUL
+  THE DARKNESS FROM THE
+  FOUNTAIN WILL OVERFLOW.
+>p:AxisNormal
+.
+* DESTROYING ALL OF 
+  ROBOTOPIA. AND LIKELY
+  THE UPSTAIRS AS WELL.
+>p:AxisNormal
+.
+* ...I hope the rangers
+  do know what they are
+  doing...
+>p:KanakoNervous2
+.
+* But anyway...
+* You heard him, dad is
+  locked up somewhere...
+>p:KanakoOffended
+.
+* We must find him on our
+  way down.
+* Let's go, quickly!
+>p:KEEP
+END
+
+--
+
+@TheaterEvent1
+* ROBOTS AND SERVOS! 
+  WELCOME!
+.
+* TO THE PRESENTATION OF A 
+  LIFETIME!
+.
+* IN HONOR OF MASTER CHUJIN 
+  GRACING US WITH HIS PRESENCE!
+.
+* WE PRESENT YOU... 
+  MASTER CHUJIN'S STORY!
+.
+* AH, A CLASSIC FOR ALL 
+  AGES.
+>p:AxisNormal
+>mini:KanakoDumb:Wait, what's happening?
+END
+
+-
+
+@TheaterEvent2
+* THIS IS THE STORY OF A VERY
+  SPECIAL LIGHTNER, THE ONE WE ALL
+  KNOW AS MASTER CHUJIN. 
+.
+* A PRODIGY WITH MACHINES, FIXING 
+  AND TINKERING FROM SUCH A YOUNG 
+  AGE!
+.
+* BUT ALAS, HE WAS BULLIED BY HIS 
+  SUPPOSED COMRADES, OBVIOUSLY 
+  JEALOUS OF HIS SUPERIOR INTELLECT.
+.
+* BUT A SPECIFIC GROUP OF THE 
+  BULLIES STOOD OUT FOR THEIR 
+  CRUELTY AND CUNNING-
+.
+* THE SO CALLED "HUMANS".
+>mini:KanakoNeutral:...
+END
+
+-
+
+@TheaterEvent3
+* THE HUMANS DESPISED OUR MASTER. 
+.
+* THEY CLEARLY COULD NOT 
+  COMPREHEND HIS BRILLIANCE.
+.
+* FOR YEARS MASTER CHUJIN ENDURED 
+  HIS CRITICS... 
+.
+* UNTIL ONE DAY HE WAS ASSIGNED TO 
+  A "GROUP PROJECT" WITH A HUMAN.
+END
+
+-
+
+@TheaterEvent4
+* THIS ONE HUMAN THEN GOT CLOSE 
+  TO OUR MASTER. 
+.
+* THEY SHARED SIMILAR IDEAS, AND 
+  WITH THAT, A ONCE THOUGHT 
+  IMPOSSIBLE FRIENDSHIP BLOSSOMED...
+.
+* ...OR DID IT??
+END
+
+-
+
+@TheaterEvent5
+* WITH THE YEARS, CHUJIN AND THIS 
+  HUMAN CAME UP WITH MANY IDEAS-
+.
+* IDEAS FOR A PROJECT TO 
+  REVOLUTIONIZE THE HOMES OF 
+  MANY LIGHTNERS... 
+.
+* A UNIQUE ROBOT SPECIFIC FOR 
+  CLEANING UP THEIR MESSES-
+.
+* SO THAT THEY WOULD NO LONGER 
+  WASTE ANY MORE TIME ON THAT!
+.
+* [shake]INCREDIBLE! UNIQUE! CHARMING!
+.
+* MASTER CHUJIN AND HIS HUMAN 
+  FRIEND REJOICED, FINALLY PUTTING 
+  THEIR DIFFERENCES ASIDE... 
+.
+* ...UNTIL!!
+END
+
+-
+
+@TheaterEvent6
+* THE HUMAN BETRAYED MASTER CHUJIN! 
+  TOOK HIS INVENTION AND CLAIMED IT 
+  AS THEIR OWN!! 
+.
+* MASTER CHUJIN WAS LEFT WITH 
+  NOTHING-
+.
+* NO ONE WOULD BELIEVE THAT HE WAS 
+  INVOLVED IN THE CREATION OF THE 
+  REVOLUTIONARY ROBOT!
+.
+* Woe is me! No humans are 
+  to be trusted! 
+>p:ChujinPuppet
+.
+* I will never be tricked 
+  again! All humans are 
+  just deceiving liars!
+>p:KEEP
+.
+* AND THAT, MY FRIENDS, WAS MASTER
+  CHUJIN'S TRAGIC TALE.
+.
+* REMEMBER TO PASS BY OUR GIFT
+  SHOP SO YOU TOO CAN OWN A
+  CARDBOARD CUTOUT OF OUR MASTER!
+END
+
+--
+
+@TheaterEvent7
+* Oh no... Dad... 
+* So that's what happened...
+>p:KanakoSad
+.
+* He never liked talking 
+  about his past, or about 
+  humans in general... 
+>p:KEEP
+.
+* But I didn't know.
+>p:KEEP
+.
+* That was kinda sad... 
+>p:KanakoSad2
+.
+* But at least I think I 
+  understand dad a bit 
+  better now.
+>p:KanakoNeutral
+.
+* SOUNDS TO ME LIKE HE 
+  JUST HAD A RATIONAL 
+  CONCLUSION.
+>p:AxisBored
+.
+* Things aren't that black 
+  and white, Axis... 
+>p:KanakoNeutral
+.
+* There is nuance to 
+  everything.
+>p:KEEP
+.
+* NOPE, HUMANS ARE 
+  NOTHING BUT LIARS. 
+>p:AxisAngry
+>mini:KanakoNervous:.....
+.
+* THAT IS WHAT MASTER 
+  CHUJIN, AND ALL OF
+  ROBOTOPIA BELIEVES.
+>p:KEEP
+>prompt:I'm@trustworthy:Some people@are just@cruel
+>promptredirect:TheaterEvent7P1:TheaterEvent7P2
+END
+
+-
+
+@TheaterEvent7P1
+* Yeah, I completely trust 
+  you, Cole. 
+>p:KanakoHappy
+.
+* Whoever dad met sure was 
+  just one rotten person... 
+>p:KanakoPuff
+.
+* There are monsters that 
+  are just as cruel out 
+  there. 
+>p:KEEP
+.
+* If anything, I'm glad 
+  you are who you are, 
+  Cole.
+>p:KanakoNormal
+.
+* It really means a lot to 
+  me.
+>p:KanakoHappyBlush
+.
+* HMPH. THAT REMAINS TO BE 
+  SEEN.
+>mini:KanakoNervous:Axis...
+>p:AxisBored
+END
+
+-
+
+@TheaterEvent7P2
+* Just like there are some 
+  bad monsters out there, 
+  the same's true to humans. 
+>p:KanakoPuff
+.
+* I believe we shouldn't 
+  judge anyone before 
+  knowing them first.
+>p:KEEP
+.
+* BUT WHAT IF IT IS A TRICK?
+* WILL YOU JUST GAMBLE ON
+  THAT?
+>p:AxisAngry
+.
+* Sadly there is no way to 
+  know beforehand-
+>p:KanakoNervous
+.
+* But just dismissing anyone 
+  based on what they might 
+  be at a glance...
+>p:KanakoPuff
+.
+* It just feels wrong, 
+  y'know?
+>p:KEEP
+.
+* ...HMPH.
+>p:AxisNormal
+END
+
+-
+
+@TheaterEvent8
+* Anyway, enough of that! 
+>p:KanakoHurt
+.
+* We already wasted too 
+  much time! 
+* We have to find dad!
+>p:KanakoOffended
+END
+
+--
+
+@ChujinRoomSign
+[color=green]* HIGH SECURITY PRISONER CELL!
+* Reminder: No feeding the 
+  prisoners!
+>bleep:System
+END
+
+-----
+
+@ChujinRescue1
+* [shake]DAD!!
+>p:KanakoSurprise
+END
+
+--
+
+@ChujinRescue2
+* Ah...? K-Kanako?? 
+* What... What are you 
+  doing here?!
+>p:ChujinDWNervous
+.
+* Dad!! Are you okay?? 
+  Are you hurt??
+>p:KanakoCry
+.
+* No... I... I'm fine...
+* Just tired...
+>p:ChujinDWNervous
+.
+* That... brute just locked 
+  me in this room-
+>p:ChujinDWAngry
+.
+* And forced me to work on 
+  this new... "body" for 
+  him...
+>p:KEEP
+.
+* I honestly have no clue
+  about what is happening...
+>p:ChujinDWNervous
+.
+* But you are a sight for 
+  sore eyes...
+>p:ChujinDWNormal
+.
+* Dad...
+>p:KanakoHappyBlush
+.
+* We need to get out of 
+  here before that 
+  blockhead finds us.
+>p:ChujinDWNervous
+.
+* AGREED. LET US PROCEED 
+  TO THE NEAREST EXIT 
+  POSTHASTE.
+>p:AxisNormal
+.
+* Wait... You...
+>p:ChujinDWNervous
+.
+* A-Axis?! 
+* Is that you...?!
+>p:KEEP
+.
+* It is a long story... 
+* But yes.
+>p:KanakoNervous
+.
+* In a way, this is Axis.
+>p:KanakoNormal
+.
+* ...PLEASURE TO FINALLY 
+  MEET YOU IN PERSON, 
+  MASTER CHUJIN.
+>p:AxisNormal
+.
+* I... I can't believe it...
+>p:ChujinDWNervous
+.
+* I don't even know what 
+  to say... You were just 
+  a pipe dream...
+>p:KEEP
+.
+* A gardening robot that 
+  would help everyone in 
+  their menial tasks... 
+>p:ChujinDWNeutral
+.
+* I can't believe you are 
+  real.
+>p:KEEP
+.
+* Yeah, I couldn't believe 
+  it either...
+>p:KanakoNervous
+.
+* ...And...
+>p:ChujinDWNeutral
+END
+
+--
+
+@ChujinRescue3
+* You. You're here too.
+>p:ChujinDWNeutral
+.
+* Dad, please. Cole helped 
+  us get here, to save you.
+>p:KanakoOffended
+.
+* He protected me.
+* Alongside Axis.
+>p:KEEP
+.
+* ...
+>p:ChujinDWNeutral
+.
+* I see.
+>p:ChujinDWNeutral
+END
+
+--
+
+@ChujinRescue4
+* We've wasted too much 
+  time already. We can 
+  catch up on the way.
+>p:ChujinDWNeutral
+.
+* We have to get out of 
+  here before those goons 
+  come after us.
+>p:KEEP
+.
+* YES SIR. ORDER RECEIVED.
+>p:AxisAngry
+.
+* (Chujin is now following you.)
+>sound:charjoined.ogg
+END
+
+-----
+
+@ChujinRoomWindow
+* Seems you have made quite a 
+  way below the clouds.
+END
+
+--
+
+@ChujinRoomMess
+* A lot of random boxes and junk
+  are lying around all over the
+  room.
+.
+* Some things never change.
+END
+
+--
+
+@ChujinRoomDesk
+* A lot of robot parts and tools
+  lay atop the desk.
+END
+
+--
+
+@ChujinCellUnlock1
+* Seems this panel takes some sort
+  of card to unlock.
+.
+* You don't have it.
+END
+
+--
+
+@ChujinCellUnlock2
+* Use the Spire Key to unlock
+  the panel?
+>prompt:Yes:No
+END
+
+--
+
+@ChujinCellUnlock3
+* The machine pulls in the card
+  from your hand.
+END
+
+--
+
+@WaterRedirectorTutorial
+[color=green]* Reminder that if a gate is
+  blocking the way of a bullet,
+  you can use the redirectors!
+>bleep:System
+.
+[color=green]* They're those weird machines on 
+  the walls. They will take in any
+  projectiles and redirect them!
+>bleep:System
+.
+[color=green]* Just make sure to aim them 
+  where you want them first!
+>bleep:System
+END
+
+--
+
+@LockdownStart1
+* Gah! You're persistent!
+>p:ToastAngry
+.
+* This oughta slow you 
+  down!
+>p:ToastLaugh
+.
+[color=green]* WARNING! Engaging lockdown
+  protocols!
+>bleep:System
+.
+* What? Lockdown?
+>p:KanakoDumb
+>mini:AxisDumb:UH OH.
+END
+
+--
+
+@LockdownStart2
+* Now you have nowhere to 
+  run off to!
+>p:ToastLaugh
+.
+* Good luck surviving!
+* Hahaha!
+>p:KEEP
+END
+
+--
+
+@LockdownStart3
+* ...Guess we can't turn
+  back now.
+>p:KanakoNervous
+.
+* WHY DID HE NOT ACTIVATE
+  THAT BEFORE WE MADE IT
+  THIS FAR?
+>p:AxisNormal
+.
+* I don't know! Don't ask
+  me!
+>p:KanakoDumb
+.
+* But all we can do is move
+  forward. So let's just do
+  it!
+>p:KanakoTongue
+END
+
+--
+
+@DarkStreamWarning
+[color=green]* HEADS UP TO STAFF:
+>bleep:System
+.
+[color=green]* We ran out of space to build
+  the pipes so we had to use some
+  corridor space to to so.
+>bleep:System
+.
+[color=green]* Just run with [CANCEL] when you
+  see the smoke building up, and
+  watch your step!
+>bleep:System
+.
+[color=green]* That darkness stream REALLY 
+  hurts!
+>bleep:System
+END
+
+--
+
+@QuantumBullets
+[color=green]* WARNING!
+>bleep:System
+.
+[color=green]* Some weird quantum shenanigans
+  are afoot and I swear when I
+  take my eyes off my bullets-
+>bleep:System
+.
+[color=green]* They just disappear!
+>bleep:System
+.
+[color=green]* Make sure to keep them always
+  within your retinas!
+>bleep:System
+END
+
+--
+
+@RangerEvent1_1
+[color=blue]* Argh! The gate closed!
+>p:RangerB
+END
+
+--
+
+@RangerEvent1_2
+[color=green]* Blue!? Blue!!
+* Can you hear us??
+>p:RangerG
+.
+[color=blue]* Yes I can, seems the
+  place is entering lockdown
+  mode.
+>p:RangerB
+.
+[color=red][shake]* This won't stop us!!
+>p:RangerR
+.
+[color=red]* C'mon, Blue! 
+* Do the [color=yellow]JUSTICE TACKLE[/color]!
+>p:RangerR
+.
+[color=blue]* Jeez, alright.
+* Here I go.
+>p:RangerB
+END
+
+--
+
+@RangerEvent1_3
+* [font_size=25][shake][color=red]LET'S[color=/color] [color=green]GO,[/color] [color=blue]TEAM!!
+.
+[color=red]* Amazing! Now we can
+  proceed forwards!
+>p:RangerR
+.
+[color=red]* We have no time to waste!
+* There is [shake]JUSTICE[/shake] waiting
+  to be delivered!
+>p:RangerR
+END
+
+--
+
+@RangerEvent1_4
+[color=green]* W-Wait for us, Red!
+>p:RangerG
+END
+
+--
+
+@TheaterSign
+[color=green]* PUBLIC THEATER AHEAD
+* Please keep quiet when walking
+  on the catwalks!
+>bleep:System
+END
+
+--
+
+@WrenchGuy1
+>redirectmap:Wrench:WrenchGuy2
+* I just got transferred from the
+  factory at Robo Town earlier
+  today...
+>tc
+.
+* And things are already going
+  wrong!
+* What is going on?!
+>tc
+.
+* You aren't with those weirdos
+  that are breaking everything,
+  are you?!
+>tc
+>prompt:We are:Of course@not!
+>promptredirect:WrenchGuy1P1:WrenchGuy1P2
+>setmap:Wrench
+END
+
+--
+
+@WrenchGuy1P1
+* You are?!
+>tc
+.
+* ...Screw it, I have better
+  things to use my time on than
+  chase you guys.
+>tc
+.
+* So, I didn't see you, and you 
+  didn't see me, deal?
+>tc
+END
+
+--
+
+@WrenchGuy1P2
+* Yeah, having a trio of weirdos
+  is enough, we don't need two.
+>tc
+.
+* What are the chances we have
+  TWO trio of weirdos breaking
+  stuff up?!
+END
+
+--
+
+@WrenchGuy2
+* I'm just going to be enjoying
+  my break for a bit longer,
+>tc
+.
+* Whatever is happening sure can
+  wait until I'm off the clock.
+>tc
+END
+
+--
+
+@SecuritySign
+[color=green]* SECURITY ROOM
+>bleep:System
+END
+
+--
+
+@SaveCenter
+>heal
+* You are pretty close to the
+  fountain now, it shines despite
+  being made of darkness.
+.
+* You are filled with a sense of
+  awe and eye strain.
+>callsave
+END
+
+--
+
+@RangerEvent3_1
+[color=red]* Next path up above!
+>p:RangerR
+>top:lock
+.
+[color=red]* We will need to use our
+  [shake][color=yellow]JUSTICE LEAP[/color]!
+>p:RangerR
+.
+[color=green]* (Psst, Blue-)
+>face:RangerGreen:South
+>p:RangerG
+.
+[color=blue]* (What is it, Green?)
+>face:RangerBlue:North
+>p:RangerB
+.
+[color=green]* (You don't think Red is
+  taking this a bit too 
+  far?)
+>p:RangerG
+.
+[color=blue]* (...He's always been like
+  this. Just let him have
+  his fun.)
+>p:RangerB
+.
+[color=red]* GUYS! What are you two
+  whispering there?!
+>p:RangerR
+>face:RangerRed:Right
+>face:RangerGreen:Left
+>face:RangerBlue:Left
+.
+[color=blue]* Uh, nothing, Red.
+* Ready whenever you are.
+>p:RangerB
+.
+[color=red]* RIGHT!! Here we go!!
+>face:RangerRed:Left
+>p:RangerR
+END
+
+-
+
+@SecurityRoomEvent1_1
+* Where did they go?!
+* They were right there!!
+END
+
+-
+
+@SecurityRoomEvent1_2
+* What?! You lost them??
+* What are we paying you for then?
+>talk:Wrench
+>top:lock
+.
+* First, you aren't paying me.
+* Second, they just jumped up to
+  a different floor.
+>talk:Clippy
+.
+* Then cycle the cameras to find
+  them! How hard is that?!
+>talk:NineTails
+.
+* I'm trying but that blasted
+  toaster changed how the system
+  works!
+>talk:Clippy
+.
+* Well, try harder then!
+* You're not paid by the hour!
+>talk:Wrench
+.
+* I already told you you guys
+  aren't even paying me...
+>talk:Clippy
+END
+
+-
+
+@SecurityRoomEvent1_3
+* Oh shoot! More intruders!
+>talk:Wrench
+>top:lock
+.
+* Hey... those are the guys that
+  caused the tram to crash!
+>talk:NineTails
+.
+* Do you know how much that cost
+  us in damages? We had to dock
+  this guy's salary!
+>talk:NineTails
+.
+* You aren't payin-
+* ...Nevermind. Let's stop them!
+>talk:Clippy
+.
+* Wait, you aren't even 
+  from Robotopia. Why are
+  you helping them?
+>p:KanakoPuff
+.
+* Hey, a job is a job.
+* Though I might have to ask them
+  for a raise later.
+>talk:Clippy
+.
+* Anyway, let's stop these
+  intruders, guys!
+>talk:Clippy
+END
+
+-
+
+@SecurityRoomEvent1_4
+* Ouch! They are too strong!
+* I'm not paid enough to deal
+  with this!
+>talk:Clippy
+>top:lock
+END
+
+-
+
+@SecurityRoomEvent1_5
+* THREAT NEUTRALIZED.
+>p:AxisNormal
+>top:lock
+.
+* Okay... Now, let's try 
+  to lift the lockdown.
+>p:KanakoPuff
+.
+* And maybe see where dad
+  is being kept.
+>p:KanakoNeutral
+END
+
+-
+
+@SecurityCardCheck
+* There is some sort of card on 
+  the table. Pick it up?
+>prompt:Yes:No
+END
+
+-
+
+@SecurityCardCheckGet
+* Got the [color=yellow]Spire Key Card[/color].
+END
+
+-
+
+@SecurityPC1
+>redirectmap:PC:SecurityPC2
+* Okay, Axis, can you use
+  this to lift the lockdown?
+>p:KanakoPuff
+.
+* ...UNFORTUNATELY I CANNOT.
+* MY PROGRAMMING DOES NOT
+  COVER THIS.
+>p:AxisSad
+.
+* You can't even access the
+  cameras to see where dad
+  is?
+>p:KanakoPuff
+.
+* ...NO. I DO NOT HAVE 
+  ACCESS TO THE SYSTEMS.
+>p:AxisSad
+.
+* ...Darn. Guess we just
+  have to keep looking
+  around.
+>p:KanakoOffended2
+>mini:AxisSad:I APOLOGIZE, MISS KANAKO.
+>setmap:PC
+END
+
+--
+
+@SecurityPC2
+* There is nothing else we
+  can do here. 
+>p:KanakoNeutral
+.
+* Maybe we missed something
+  back in some other room?
+* Let's head back.
+>p:KanakoPuff
+.
+* LOOK AROUND TO SEE IF
+  THERE IS ANYTHING WE CAN
+  LOOT FIRST.
+>p:AxisNormal
+>mini:KanakoNervous:That too, I guess.
+END
+
+--
+
+@SecurityRoomSidePC
+* Lots of numbers that make no
+  sense to you flash on the
+  screens.
+.
+* ...Kinda mesmerizing.
+END
+
+--
+
+@SecurityRoomTrash
+* You look inside the trash can...
+.
+* Inside, there is nothing but a
+  lot of empty take out boxes and
+  instant noodle packets.
+.
+* Bummer.
+END
+
+--
+
+@SecurityRoomJunk
+* A lot of random stuff litters
+  the room.
+END
+
+--
+
+@SecurityRoomFan
+* This singular fan is the only
+  source of fresh air in this
+  room.
+.
+* Or would be, if it wasn't
+  broken.
+END
+
+--
+
+@ChujinFallEvent1
+* SUDDENLY A SHIFT IN THE
+  WINDS.
+>p:AxisAngry
+.
+* Gah! 
+* H-Hold on, everyone!
+>p:KanakoHurt
+.
+* ......Ah!
+>p:ChujinDWNervous
+.
+* I-I'm slipping...!
+>p:ChujinDWNervous
+END
+
+-
+
+@ChujinFallEvent2
+[shake]* DAAAAAAD!!!
+>p:KanakoScared
+>top
+END
+
+-
+
+@ChujinFallEvent3
+[shake]* NO! DAD!
+>p:KanakoScared
+.
+[shake]* I... I...
+>p:KanakoScared
+.
+* IT IS OF NO USE, MISS 
+  KANAKO.
+>p:AxisSad
+.
+* YOU WILL HAVE TO CARRY ON
+  MASTER CHUJIN'S LEGACY
+  FROM NOW ON.
+>p:KEEP
+.
+* ...
+>p:KanakoAngry
+>anim:Kanako:Kneel9
+.
+* Axis... 
+>p:KEEP
+.
+[shake]* Shut the hell up!
+>p:KanakoAngry2
+>sound:snd_hurt1.wav
+>camshake:10
+.
+* Can't you see what JUST
+  happened?!
+>p:KanakoAngry3
+.
+* I... I don't even...
+>p:KanakoScared
+.
+* .........Dad...
+>p:KEEP
+>mini:AxisSad:......
+END
+
+-
+
+@ChujinFallEvent4
+* [shake]aaaaaaaaaaaa DX
+>bleep:Anme
+END
+
+-
+
+@ChujinFallEvent5
+* wao- anme was just
+  jumping up the tower-
+  umu
+>p:AnmeTem
+.
+* and then suddenly O.O
+* something falls on anme's
+  back!
+>p:AnmeNervous
+.
+* that was VERY RUDE
+* anme doesn't like it u_u
+>p:AnmeSad
+.
+* Ah! Dad!
+>p:KanakoSurprise
+.
+* ......
+>p:ChujinDWNervous
+.
+* oh this old man is ur 
+  dad?!?! o.O
+>p:AnmeTem
+.
+* pls tell him not to fall
+  on anme again pls thank u
+  ^w^
+>p:AnmeNormal
+END
+
+-
+
+@ChujinFallEvent6
+* I... I thought that'd
+  be the end of me...
+>p:ChujinDWNervous
+.
+* Dad... Please be more
+  careful...
+>p:KanakoCry
+.
+* I... I will, dear.
+* Don't worry about me.
+>p:ChujinDWNervous
+END
+
+-
+
+@ChujinFallEvent7
+* You... You saved me.
+>p:ChujinDWNormal
+.
+* OWO anme was just jumpin
+  around, u should be more
+  careful, old man!
+>p:AnmeTem
+.
+* Oh, um, thanks?
+>p:ChujinDWNervous
+.
+* Sorry dad... I...
+* I didn't mean to make
+  her so... tactless.
+>p:KanakoNervous
+.
+* ...Oh! No wonder this...
+  thing looked so familiar.
+>mini:AnmeSad:rude =(
+>p:ChujinDWNeutral
+.
+* She is... One of your old
+  drawings, wasn't she?
+>p:KEEP
+.
+* Yes... Anme, one of my
+  Capmon OCs...
+>p:KanakoNervous
+.
+* Ah...
+>p:ChujinDWNervous
+.
+* First Axis, now this...
+* I don't know what really
+  is happening here-
+>p:ChujinDWNeutral
+.
+* But it seems this weird
+  place has brought things 
+  from ours to life?
+>p:KEEP
+.
+* Sort of... We can explain
+  more later.
+>p:KanakoNervous
+.
+* Right now we gotta figure
+  a way to reach the base
+  of the fountain.
+>p:KanakoNormal
+.
+* anme is going to keep on
+  jumping round the tower!!
+  o.o
+>p:AnmeNormal
+.
+* try not to fall on anme
+  again k? u.u
+>p:AnmeHappy
+.
+* Uh, okay?
+>p:ChujinDWNervous
+.
+* k thanks bye ^W^
+>p:AnmeHappy
+END
+
+-
+
+@ChujinFallEvent8
+* ...Well then. Let us
+  proceed.
+>p:ChujinDWNeutral
+.
+* Just more carefully, this
+  time.
+>p:ChujinDWNervous
+>mini:KanakoNervous:Just hold my hand if you start slipping...
+END
+
+-
+
+@ChujinSecurityRoom1
+* ...Wew, this room is
+  pretty stuffy...
+>p:ChujinDWNervous
+.
+* ...Hold on, that 
+  console...
+>p:ChujinDWNeutral
+.
+* I think I might be able
+  to access it.
+>p:KEEP
+.
+* Really?
+>p:KanakoNormal
+.
+* Let me take a closer
+  look.
+>p:ChujinDWNormal
+END
+
+-
+
+@ChujinSecurityRoom2
+* Now let's see here...
+>p:ChujinDWNormal
+END
+
+-
+
+@ChujinSecurityRoom3
+* Ah ha! Got it!
+>p:ChujinDWNormal
+.
+* Nice! Can you lift the
+  lockdown from here?
+>p:KanakoNormal
+.
+* I think so... 
+* Let me just...
+>p:ChujinDWNeutral
+.
+* There.
+>p:ChujinDWNormal
+.
+[color=green]* LOCKDOWN LIFTED.
+>bleep:System
+.
+* Awesome! Guess we can 
+  keep going, then!
+>p:KanakoHappy
+.
+* Let's teach that toaster
+  a lesson!
+>p:KanakoOffended
+.
+* ...Wait.
+>p:ChujinDWNeutral
+END
+
+-
+
+@ChujinSecurityRoom4Alt
+* ...So I guess this is as
+  good a time as any-
+>p:ChujinDWNeutral
+.
+* Will you explain what is
+  going on?
+>p:ChujinDWNeutral
+.
+* You both act as if you
+  already did this thing
+  before.
+>p:ChujinDWNeutral
+.
+* We... Kinda did?
+>p:KanakoNervous
+.
+* Yesterday, at school.
+>p:KanakoPuff
+.
+* ...
+>p:ChujinDWNeutral
+.
+* Please, tell me 
+  everything that you know
+  about... all this.
+>p:ChujinDWNeutral
+.
+* ...Alright...
+>p:KanakoNeutral
+END
+
+-
+
+@ChujinSecurityRoom4
+* I guess this is as good
+  a time as any...
+>p:ChujinDWNeutral
+.
+* But can you fill me in on
+  what is going on?
+>p:KEEP
+.
+* I heard that toaster man
+  babble on about "Dark 
+  Worlds" and so on-
+>p:KEEP
+.
+* But I am still completely
+  lost.
+>p:KEEP
+.
+* Where are we? Are we even
+  still back on our town?
+>p:ChujinDWNervous
+.
+* Is this a crazy dream 
+  caused by my overworked
+  mind?
+>p:KEEP
+.
+* Um... Alright.
+* I think we can explain
+  what's happening,
+>p:KanakoNervous
+.
+* Or at least some of it.
+* We are still trying to
+  figure it out ourselves.
+>p:KanakoNeutral
+.
+* ...You two seem pretty
+  aclimated to this already.
+>p:ChujinDWNeutral
+.
+* Just how long has this
+  been going on for?
+>p:KEEP
+.
+* Uh, just since yesterday,
+  at school.
+>p:KanakoNervous
+.
+* ...I guess we will tell 
+  you what we know...
+>p:KanakoNormal
+END
+
+-
+
+@ChujinSecurityRoom5
+* ...I see.
+>p:ChujinDWNeutral
+.
+* So these "Dark Worlds" 
+  just sorta exist within 
+  our town-
+>p:KEEP
+.
+* And someone in the "Light
+  World" is trying to use
+  them to end the world?
+>p:KEEP
+.
+* That's the gist of it.
+>p:KanakoPuff
+.
+* ...If I hadn't seen it
+  with my own eyes, I would
+  never believe it.
+>p:ChujinDWNeutral
+.
+* Yeah, it is pretty crazy.
+>p:KanakoNervous
+.
+* I ASSURE YOU, MR. CHUJIN, 
+  THAT THESE PLACES- WHILE 
+  BASED ON THE LIGHT WORLD-
+>p:AxisNormal
+.
+* ARE INDEED REAL IN THEIR
+  OWN WAY.
+>p:KEEP
+.
+* ...I still find it 
+  unbelievable... 
+* Especially you, Axis.
+>p:ChujinDWNeutral
+.
+* ...But I guess we have
+  more pressing matters at
+  hand.
+>p:KEEP
+.
+* The systems here keep
+  fighting me for control,
+>p:KEEP
+.
+* I assume this is that
+  toaster's doing.
+>p:KEEP
+.
+* ...Alright, here is the
+  plan.
+>p:KEEP
+.
+* I will stay here, and 
+  monitor your progress 
+  through the cameras.
+>p:KEEP
+.
+* I can open up any locked 
+  gates you find and talk
+  to you via the screens.
+>p:KEEP
+.
+* You then make your way
+  down to the fountain's
+  base and seal it.
+>p:KEEP
+.
+* Yeah, once we seal the
+  fountain we should be
+  able to return home.
+>p:KanakoNormal
+.
+* ...I will have to rely on
+  you three to get the job
+  done, then.
+>p:ChujinDWNeutral
+.
+* Axis?
+>p:ChujinDWNeutral
+.
+* YES, MASTER CHUJIN?
+>p:AxisNormal
+.
+* Please protect Kanako.
+* I can put my trust into
+  you, can't I?
+>p:ChujinDWNeutral
+.
+* OF COURSE, MASTER. YOU
+  ARE MY CREATOR.
+>p:AxisAngry
+.
+* YOUR WISH IS MY ABSOLUTE
+  COMMAND.
+>p:KEEP
+.
+* ...Good.
+>p:ChujinDWNeutral
+.
+* ...And...
+>p:ChujinDWNeutral
+END
+
+-
+
+@ChujinSecurityRoom6Alt
+* ...Cole.
+>p:ChujinDWNeutral
+.
+* ...I guess I might as
+  well ask you-
+* Please keep Kanako safe.
+>p:ChujinDWNeutral
+.
+* ...Can I trust you with
+  this task?
+>p:ChujinDWNeutral
+.
+* Dad, don't worry.
+* I know how to handle
+  myself.
+>p:KanakoNeutral
+.
+* ...I'm just worried, dear.
+* Please don't just go in
+  charging ahead-
+>p:ChujinDWNeutral
+.
+* Without thinking first.
+>p:ChujinDWNeutral
+.
+* We don't want a repeat of
+  that... thing.
+>p:ChujinDWNervous2
+.
+* ...
+>p:KanakoNeutral
+END
+
+-
+
+@ChujinSecurityRoom6
+* ...I know we haven't seen
+  each other eye-to-eye in
+  a long time...
+>p:ChujinDWNervous
+.
+* But I will ask you the 
+  same.
+>p:KEEP
+.
+* Please protect Kanako,
+  Cole.
+>p:ChujinDWNeutral
+.
+* Can I count on you?
+>p:KEEP
+>prompt:Leave it@to me:No promises
+>promptredirect:ChujinSecurityRoom6P1:ChujinSecurityRoom6P2
+END
+
+-
+
+@ChujinSecurityRoom6P1
+* ...Thank you.
+>p:ChujinDWNormal
+.
+* (Maybe not all humans are
+  as bad as I thought.)
+>p:KEEP
+END
+
+-
+
+@ChujinSecurityRoom6P2
+* ...What is that supposed
+  to mean?
+>p:ChujinDWNervous
+.
+* Uh, that's just something
+  he likes to say 
+  sometimes...
+>p:KanakoNervous
+.
+* ...
+>p:ChujinDWNeutral
+END
+
+-
+
+@ChujinSecurityRoom7
+* Well, off you go.
+>p:ChujinDWNeutral
+.
+* The sooner we get this
+  over with, the sooner we
+  can return home.
+>p:KEEP
+.
+* YES SIR. LEAVE IT TO US.
+>p:AxisAngry
+.
+* Good luck, you three.
+>p:ChujinDWNormal
+END
+
+-
+
+@ChujinSecurityTalk1
+>redirectmap:Jin:ChujinSecurityTalk2
+* ...Ceroba must be
+  worried sick about us.
+>p:ChujinDWNeutral
+.
+* We should get back home 
+  before she gets mad...
+>p:ChujinDWNervous
+.
+* ...Yes. We really have
+  to...
+>p:KanakoNervous
+>setmap:Jin
+END
+
+-
+
+@ChujinSecurityTalk2
+* ...Please don't take too
+  long, this room is slowly
+  cooking me alive.
+>p:ChujinDWNervous
+END
+
+--
+
+@CafeteriaSign
+[color=green]* CAFETERIA UP AHEAD
+>bleep:System
+END
+
+--
+
+@WrenchAtEntrance
+>redirectmap:Wrench:WrenchAtEntrance2
+* So you're wondering "Why would
+  they build a system that repairs
+  broken bridges?"
+>tc
+.
+* It's cuz we have those paths
+  break pretty much daily.
+>tc
+.
+* So instead of putting in actual,
+  sturdy bridges, we just made
+  this highly ineficcient system.
+>tc
+.
+* And those new bridges will ALSO
+  break in a few days' time!
+>tc
+.
+* Pretty neat, huh?
+>tc
+>setmap:Wrench
+END
+
+--
+
+@WrenchAtEntrance2
+* You weren't actually wondering
+  that?
+>tc
+.
+* Well, way to kill off the mood
+  then! Sometimes I like to brag
+  about random things.
+>tc
+END
+
+--
+
+@FirstGuy
+* Crud, the bridge broke!
+* ...Again.
+>tc
+.
+* Why did they put the repair
+  switches on only one side?!
+* I can't reach it!
+>tc
+END
+
+-
+
+@FirstGuyEvent
+* Hey, thanks for fixing the 
+  bridge.
+>tc
+.
+* But you are outsiders right?
+* Guess I will have to earn that
+  paycheck.
+>tc
+.
+* Nothing personal, kay?
+>tc
+END
+
+--
+
+@ChujinCafeTV1_1
+* Kzz- Kzzt...
+>bleep:Chujin
+.
+* ...can...
+* ...Can you hear me...?
+>bleep:Chujin
+END
+
+--
+
+@ChujinCafeTV1_2
+* Ah, I've made it through.
+>p:ChujinDWNervous
+.
+* Oh, dad!
+>p:KanakoNormal
+.
+* I've managed to hijack
+  into the camera and TV
+  systems of this place.
+>p:ChujinDWNormal
+.
+* According to the data I
+  can see from here... 
+>p:ChujinDWNeutral
+.
+* The area up ahead is full
+  of people.
+>p:KEEP
+.
+* Be careful, you three.
+>p:KEEP
+.
+* DO NOT WORRY, MASTER 
+  CHUJIN. WE SHALL MAKE IT
+  THROUGH.
+>p:AxisAngry
+.
+* Good luck. I'll contact
+  you again soon.
+>p:ChujinDWNormal
+END
+
+-
+
+@ChujinCafeTV2_1
+* Kzzz-...
+* Kzzz......!
+>bleep:Chujin
+END
+
+-
+
+@ChujinCafeTV2_2
+* Ah, finally you responded.
+>p:ChujinDWNervous
+.
+* Did something happen?
+* You took a long while to
+  get through that room.
+>p:KEEP
+.
+* ...Nothing important.
+>p:KanakoNervous
+.
+* ...Glad you're all safe.
+>p:ChujinDWNeutral
+.
+* Anyway, I think from the
+  next floor you should be
+  able to find a way...
+>p:KEEP
+.
+* Let me see...
+* Ah ha! An elevator!
+* Perfect.
+>p:ChujinDWNormal
+.
+* Next floor has an 
+  elevator to the fountain.
+>p:KEEP
+.
+* Stay vigilant, you three.
+>p:ChujinDWNeutral
+END
+
+-
+
+@CafePods
+* Recharge station for the
+  robots after a full meal.
+.
+* You quickly wonder why would
+  robots need to eat anyway.
+END
+
+-
+
+@CafeWrench1
+* ...I'm standing watch.
+>tc
+.
+* That water cooler is REALLY
+  suspicious. I was just standing
+  here, AND THEN-
+>tc
+.
+* It bubbled at me weirdly!
+>tc
+.
+* So I'm now just warning everyone
+  to be careful around this thing.
+>tc
+END
+
+-
+
+@CafeWrench2
+[shake]* WHAT ARE YOU DOING MAN?!
+* DON'T TOUCH THAT THING!!!
+>talk:Wrench
+.
+* That water cooler is EVIL!
+* I'm telling you!!
+>talk:Wrench
+END
+
+-
+
+@CafeNineTails1
+* You think I have a chance with
+  the waitress?
+>tc
+.
+* She is just so cute...
+* I wonder...
+>tc
+END
+
+-
+
+@CafeNineTails2
+* Aw man, something happened
+  that made the waitress upset.
+>tc
+.
+* How am I going to get my
+  wafers now?
+>tc
+END
+
+-
+
+@CafeNineTails3
+* Hey, where did the waitress go?
+* I was just about to ask her out!
+>tc
+.
+* That's sad, man.
+>tc
+END
+
+-
+
+@RangersCafe1
+>redirectmap:Ranger:RangersCafe2
+[color=red]* What are you two DOING?!
+* We are deep in enemy
+  territory!!
+>p:RangerR
+.
+[color=blue]* Just taking a breather.
+* Breaking up all this 
+  stuff builds an appetite.
+>p:RangerB
+.
+[color=red]* THAT'S ENEMY FOOD!
+* It is filled with EVIL!
+>p:RangerR
+.
+[color=green]* It seems fine to me.
+>p:RangerG
+.
+[color=red]* You BUFFOONS, the enemy
+  has enthralled you!
+>p:RangerR
+.
+[color=red]* Stop eating that stuff!
+>p:RangerR
+.
+[color=blue]* We should have brought 
+  snacks, then.
+>p:RangerB
+>mini:RangerR:[color=red]Why did you not bring any then?!
+>setmap:Ranger
+END
+
+-
+
+@RangersCafe2
+[color=green]* (Blue, don't you think 
+  Red is taking this a bit 
+  TOO far?)
+>p:RangerG
+.
+[color=blue]* (Yeah, these robots 
+  are barely aware we 
+  are attacking them.)
+>p:RangerB
+.
+[color=blue]* (Are they truly as evil
+  as Red says? And this 
+  food is pretty good.)
+>p:RangerB
+.
+[color=red]* What are you two 
+  whispering about?! I hope
+  it isn't any EVIL stuff!
+>p:RangerR
+.
+[color=green]* Eh, it's nothin', Red.
+* Don't worry about it.
+>p:RangerG
+>mini:RangerB:[color=blue]Munch munch...
+END
+
+-
+
+@CafeGear
+* Woah, these waffles go well with
+  the coffee, can already feel my
+  gears derusting!
+.
+* ...What do you mean those are
+  wafers, not waffles? What's the
+  difference?
+END
+
+-
+
+@CafeGear2
+* Where will I get my wafers
+  from now?!
+* Thanks for nothing.
+END
+
+-
+
+@CafeDrill
+* I'm here just to fill up my
+  tank with more coffee, it 
+  sure is better than oil!
+END
+
+-
+
+@CafeDrill2
+* Wait, does this mean no more
+  coffee?!
+.
+* Back to oil it is...
+END
+
+-
+
+@SaveCafe
+>heal
+* The smell of freshly baked
+  pastries is very welcome
+  after all the oil and grime.
+.
+* You are filled with a sense of
+  hunger.
+>callsave
+END
+
+-
+
+@TramGuy1
+* Well, I've done it.
+>tc
+.
+* I've fixed the tram, and even
+  improved its speed.
+>tc
+.
+* It can now make from here to the
+  Robo Town factory in less than a
+  minute.
+>tc
+.
+* Yet... I don't feel fulfilled.
+>tc
+.
+* Where did I go wrong? There must
+  be something I missed... 
+>tc
+.
+* Was achieving my life's purpose
+  a trap? Is there really no 
+  meaning left for me...?
+>tc
+.
+* ...Oh, don't mind me. If you 
+  want to board the tram, just 
+  ask. I'll set it up for you.
+>tc
+END
+
+-
+
+@TramGuy2
+* Heading up to Robo Town's
+  factory?
+>tc
+>prompt:Yes:No
+>promptredirect:TramGuy2P1:TramGuy2P2
+END
+
+-
+
+@TramGuy2P1
+* Okay, I'll call the tram for
+  you.
+>tc
+END
+
+-
+
+@TramGuy2P2
+* Alright. If you change your
+  mind, just say the word.
+>tc
+END
+
+-
+
+@FountainElevSign
+[color=green]* ELEVATOR TO FOUNTAIN BASE AHEAD.
+>bleep:System
+END
+
+-
+
+@UnlockGate
+[color=green]* UNLOCKING SHORTCUT GATE...
+>bleep:System
+END
+
+-
+
+@ChujinTV3_1
+* Kzz- Kzzt-
+>bleep:Chujin
+END
+
+-
+
+@ChujinTV3_2
+* The elevator to the
+  fountain's base should
+  be up ahead.
+>p:ChujinDWNormal
+>top:lock
+.
+* Soon we will return 
+  home... But don't let
+  your guard down.
+>p:ChujinDWNeutral
+.
+* Who knows what traps that
+  toaster set in your way.
+>p:KEEP
+.
+* [wave]OH HO HO![/wave] You know me too
+  well!!
+>bleep:Toast
+END
+
+-
+
+@ChujinTV3_3
+* Ah! You!
+>p:ChujinDWNervous
+>top:lock
+.
+* So you hacked into my 
+  systems, have you?
+>p:ToastNormal
+.
+* Shouldn't have expected
+  any less from you, 
+  Chujin!
+>p:ToastLaugh
+.
+* But I cannot let you make
+  it to the fountain. 
+>p:ToastNormal
+.
+* Not now, when I finally
+  have all I want!
+>p:KEEP
+.
+* This oughta slow you down!
+>p:ToastLaugh
+END
+
+-
+
+@ChujinTV3_4
+* Gah! I can't override
+  these locks...
+>p:ChujinDWNervous
+>top:lock
+.
+* No one can! You might 
+  as well give up!
+>p:ToastLaugh
+.
+* Ta-ta!
+>p:KEEP
+END
+
+-
+
+@ChujinTV3_5
+* ...I guess we will have 
+  to find another way...
+>p:ChujinDWNervous
+>top:lock
+.
+* THESE LOCKS LOOK LIKE THE
+  ONES THAT WERE IN YOUR
+  CELL, MASTER CHUJIN.
+>p:AxisNormal
+.
+* MAYBE THEY CAN BE
+  UNLOCKED IN A SIMILAR
+  WAY.
+>p:KEEP
+.
+* Right! We should try to
+  find some key cards, then.
+>p:KanakoNormal
+.
+* ...Alright. I will leave
+  it to you, then.
+>p:ChujinDWNeutral
+.
+* Be careful, we are very
+  close to the end now,
+>p:KEEP
+.
+* But you never know what
+  that freak has up his
+  sleeves.
+>p:KEEP
+.
+* Don't worry, dad. We will
+  get it done!
+>p:KanakoTongue
+.
+* I've managed to open a
+  gate south of the 
+  entrance in this room.
+>p:ChujinDWNormal
+.
+* You should be able to 
+  proceed through there.
+>p:ChujinDWNormal
+.
+* C'mon guys, let's move!
+>p:KanakoNormal
+END
+
+------
+
+@SyrupEvent1
+[shake]* Oh no no no no!
+>bleep:Syrup
+.
+* Where do you think YOU are
+  going?!
+>bleep:Syrup
+END
+
+-
+
+@SyrupEvent2A
+* You come pass by MY 
+  cafeteria and don't even
+  stop to check the goods?!
+>p:SyrupNormal
+.
+* What bad, bad customers
+  you lot are!
+>p:SyrupAnnoyed
+.
+* Sorry, we are kinda in a
+  hurry. Can you get out of
+  the way?
+>p:KanakoPuff
+.
+* Ouch. Can't even feign
+  at least SOME interest,
+  girl?
+>p:SyrupPuff
+END
+
+-
+
+@SyrupEvent2B
+* It was nice of youse to
+  pass by my shop, but how
+  DARE you not buy anything!
+>p:SyrupPuff
+.
+* Ya know how hard it is
+  to smile like this all
+  the time?
+>p:SyrupNormal
+.
+* That thing ain't cheap,
+  y'know!!
+>p:SyrupAngry
+.
+* You're wearing it just
+  fine.
+>p:KanakoOffended2
+.
+* Cheeky, aren't ya...
+>p:SyrupPuff
+END
+
+-
+
+@SyrupEvent2C
+* Thank you a lot for
+  trying some of my goods!
+* Really good call on that.
+>p:SyrupNormal
+.
+* But alas... 
+>p:SyrupClosed
+.
+* Even though you are good 
+  customers, there is 
+  something I gotta do...
+>p:SyrupSmug
+END
+
+-
+
+@SyrupEvent3
+* Been hearing that you 
+  three are meddling in
+  Tosty's business!
+>p:SyrupNormal
+.
+* And his business is my
+  business! 
+>p:KEEP
+.
+* We were meant to take 
+  over Robotopia together!
+>p:SyrupClosed
+.
+* (And with someone else
+  but we can ignore that.)
+>p:SyrupAnnoyed
+.
+* Uh, okay?
+>p:KanakoOffended2
+.
+* Sheesh, can't even fake
+  being interested?
+>p:SyrupPuff
+.
+* Well, you won't make it
+  past this point. Because
+  I shall not let you.
+>p:SyrupNormal
+.
+* Any enemy of Tosty is an
+  enemy of mine! An enemy
+  of the Breakfast Gang!
+>p:SyrupClosed
+.
+* This entire world will
+  belong to us!!
+* So get lost!!
+>p:SyrupAngry
+END
+
+-
+
+@SyrupEvent4
+[color=red][shake]* WAIT, is that talk about
+  evil plans that I hear?!
+>p:RangerR
+END
+
+-
+
+@SyrupEvent5
+* Oh great. More freaks.
+>p:SyrupAnnoyed
+.
+[color=red]* That shall not stand in
+  the name of our [color=yellow]Justice[/color]!!
+>p:RangerR
+.
+[color=red]* C'mon team, let's teach
+  this evildoer a lesson!
+>p:RangerR
+.
+[color=red][shake]* [color=yellow]JUSTICE KICK[/color]!!
+>p:RangerR
+>anim:RangerRed:KickReady
+END
+
+-
+
+@SyrupEvent6
+[shake]* ROCKET MITTENS!
+>p:SyrupManic
+END
+
+-
+
+@SyrupEvent7
+[color=green][shake]* Oh no! Red!!
+>p:RangerG
+.
+[color=blue][shake]* Time out! Time out!
+>p:RangerB
+END
+
+-
+
+@SyrupEvent8
+* ...So much for justice...
+>p:KanakoNervous
+.
+* Now that those clowns are
+  out of the way, let's get
+  back in business!
+>p:SyrupSmug
+>face:party:Left
+.
+* Let's make it quick.
+* I have hungry customers
+  to feed and places to be!
+>p:SyrupClosed
+END
+
+----
+
+@SyrupPostBattleA1
+* Ouch! You meanies!
+* What did I even do to
+  you?!
+>p:SyrupPuff
+.
+* ...Are you really going
+  to say that now??
+>p:KanakoOffended2
+.
+* Ugh. This isn't going 
+  according to how I 
+  planned.
+>p:SyrupAnnoyed
+.
+* But fine. Fine. You won.
+* You can go on ahead.
+>p:SyrupAngry
+.
+* But Tosty is going to
+  completely destroy you!
+>p:SyrupManic
+.
+* Don't say I didn't warn
+  you!
+>p:SyrupNormal
+>mini:KanakoOffended2:Sure... Sure...
+.
+* Now excuse me. I have 
+  customers to attend to.
+>p:SyrupAnnoyed
+END
+
+----
+
+@SyrupPostBattleB1
+* Ugh... That's no fair,
+  man!
+>p:SyrupAnnoyed
+.
+* YOU ARE IN A DIRE NEED OF
+  A TIME OUT.
+>p:AxisAngry
+.
+* Hmph. CapCcino will kick
+  your butts once he finds
+  out!
+>p:SyrupSmug
+.
+* Who?
+>p:KanakoPuff
+.
+* Hehe. Too bad, suckers.
+* I won't be telling
+  no more!
+>p:SyrupSmug
+.
+* I might have fallen here,
+  but Tosty and him will
+  keep going in my place!
+>p:SyrupAngry
+.
+* This Dark World will be 
+  OURS!
+>p:SyrupManic
+.
+[wave]* Ciao!!
+>p:SyrupNormal
+END
+
+-
+
+@SyrupPostBattleB2
+* Huh. What did she mean
+  by that?
+>p:KanakoPuff
+.
+* MAYBE WE CAN INTERROGATE
+  HER FURTHER LATER?
+>p:AxisNormal
+.
+* Will try to keep that
+  in mind.
+>p:KanakoNeutral
+END
+
+--
+
+@SyrupPostBattle2_1
+[color=red]* Good job, [color=yellow]Justice 
+  Buddies[/color]!
+>p:RangerR
+END
+
+-
+
+@SyrupPostBattle2_2
+[color=red]* I am sure that evildoer 
+  will now reevaluate their
+  life-
+>p:RangerR
+.
+[color=red]* And maybe even change
+  their ways from now on!
+>p:RangerR
+.
+* Um, sure.
+>p:KanakoNervous
+.
+[color=red]* And now we keep going
+  forward, beating up any
+  other evildoers on the w-
+>p:RangerR
+END
+
+-
+
+@SyrupPostBattle2_3
+[color=red][shake]* Ouch! OUCH!
+>p:RangerR
+.
+[color=blue]* Red, you are in no 
+  condition to continue.
+>p:RangerB
+.
+[color=green]* Yeah. This mission was
+  pretty stupid from the
+  start, anyway.
+>p:RangerG
+.
+[color=red]* What?! Has evil overcome
+  your minds?! We can't
+  stop!!
+>p:RangerR
+.
+[color=blue]* You need some rest, 
+  friend.
+>p:RangerB
+.
+[shake][color=red]* EVIL DOESN'T REST.
+* We can't rest either!!
+>p:RangerR
+.
+[color=green]* Yeah, yeah. We'll take
+  you back to the base.
+>p:RangerG
+.
+[color=red][shake]* TRAITORS!! You have been
+  brainwashed!!
+>p:RangerR
+END
+
+-
+
+@SyrupPostBattle2_4
+[color=blue]* There, there. Once you 
+  sleep a bit, you'll be 
+  back to your senses.
+>p:RangerB
+.
+[color=red][shake]* Unhand me, you fool!
+* PUT ME DOWN!!
+>p:RangerR
+END
+
+-
+
+@SyrupPostBattle2_5
+[color=red][shake]* AAAAAUGH!!!!
+>p:RangerR
+.
+[color=red][shake]* J-Justice buddies!
+* You must defeat the evil
+  ones in my stead!!
+>p:RangerR
+.
+[color=red][wave]* AVENGE MEEEEE!!!
+>bleep:RangerR
+END
+
+-
+
+@SyrupPostBattle3
+* ...I'm glad THAT'S over.
+>mini:AxisBored:ABOUT [darn] TIME.
+>p:KanakoDumb
+END
+
+-----
+
+@CoffeeMinion1
+* Hey what's this where did the
+  Miss go?
+>tc
+.
+* I've come to grab our usual
+  supply, but she is never missing
+  from her post! This is a first!
+>tc
+.
+* Hey you, have you seen some
+  ditzy girl that used to be here?
+>prompt:We captured@her:Dunno
+>promptredirect:CoffeeMinion1P1:CoffeeMinion1P2
+>tc
+END
+
+-
+
+@CoffeeMinion1P1
+* What, you pulling me leg or-
+>tc
+.
+* ...Oh no, have we been found 
+  out?!
+>tc
+>anim:caller:Shock
+.
+* I gotta warn the boss...!
+>tc
+END
+
+-
+
+@CoffeeMinion1P2
+[wave]* HMMM...[/wave]
+* Wonder where she went then.
+>tc
+END
+
+-
+
+@CoffeeMinion2
+* Not suspicious at all...
+>p:KanakoOffended2
+.
+* LOOK, HE DROPPED 
+  SOMETHING.
+>p:AxisNormal
+.
+* (You got a [color=yellow]Corked Key[/color].)
+>sound:snd_item_ch1.wav
+.
+* Wonder what that 
+  unlocks...
+>p:KanakoPuff
+.
+* Let's ask around Robo 
+  Town?
+>p:KEEP
+END
+
+-
+
+@FountainSeal1
+* You ready to seal the
+  fountain, Cole?
+>p:KanakoPuff
+>prompt:Yes:Not yet
+END
+
+-
+
+@FountainSealAlt
+* ...Ready to get this over
+  with?
+>p:KanakoNeutral
+>prompt:Yes:Not yet
+END
+
+-
+
+@FountainSeal2
+* MISS KANAKO...
+>p:AxisSad
+.
+* Axis... When we return to
+  the Light World...
+>p:KanakoSad
+.
+* You're going to go back
+  to being just a toy, 
+  won't you?
+>p:KanakoSad
+.
+* YES. BUT FRET NOT.
+>p:AxisNormal
+.
+* AS LONG AS YOU BRING ME 
+  TO ANOTHER DARK WORLD,
+>p:KEEP
+.
+* I SHOULD BE ABLE TO 
+  ASSIST YOU FURTHER
+  THEN.
+>p:KEEP
+.
+* ...I guess that makes
+  sense.
+>p:KanakoNervous
+.
+* Well... Be seeing you, 
+  then?
+>p:KanakoPuff
+.
+* YES. WE SHOULDN'T LEAVE
+  MASTER CHUJIN WAITING 
+  MUCH LONGER.
+>p:AxisNormal
+.
+* Yeah... See you on the
+  other side, then.
+>p:KanakoHappy
+.
+* C'mon Cole, let's finish
+  this.
+>p:KanakoNormal
+END
+
+-
+
+@ChujinPreBoss
+* ...Are you ready?
+>p:ChujinDWNeutral
+.
+* You can still take the 
+  elevator back if you need
+  to prepare.
+>p:ChujinDWNeutral
+.
+* Please be careful.
+>p:ChujinDWNeutral
+.
+* Leave it to us, dad.
+>p:KanakoOffended
+END
+
+-
+
+@ElevatorPrompt
+* Take the elevator?
+>prompt:Yes:Not yet
+END
+
+-
+
+@ElevatorEvent1
+[shake]* W-Wait!
+>bleep:Chujin
+END
+
+-
+
+@ElevatorEvent2
+* Dad? Why are you here?
+* Is something wrong?
+>p:KanakoPuff
+.
+[wave]* Huff...[/wave] I... This is
+  partially my fault...
+>p:ChujinDWNervous
+.
+* I can't leave it all up
+  to you. As a parent, it
+  is my duty to solve this.
+>p:ChujinDWNeutral
+.
+* Dad, c'mon. We made it
+  all the way here. We can
+  handle this.
+>p:KanakoNormal
+.
+* And you're not really 
+  the... fighting type.
+>p:KanakoNervous
+.
+* ...You're just as 
+  headstrong as your mother.
+>p:ChujinDWNeutral
+.
+* ...But you are right.
+* Just be careful, okay?
+>p:KEEP
+.
+* That toaster is likely to
+  try to block our escape
+  attempt.
+>p:KEEP
+.
+* That new body I made for
+  him... It has a major 
+  weakness.
+>p:KEEP
+.
+* I didn't have time to
+  properly iron out all the
+  kinks, so...
+>p:ChujinDWNervous
+.
+* It is very prone to
+  overheating.
+>p:ChujinDWNormal
+.
+* VERY USEFUL INFO.
+* THANK YOU, MASTER CHUJIN.
+>p:AxisNormal
+.
+* I wish I could provide
+  more help...
+>p:ChujinDWNeutral
+.
+* I will try to assist you
+  as much as I can. You can
+  count on this old man.
+>p:ChujinDWNormal
+.
+* Aw dad...
+>p:KanakoHappyBlush
+END
+
+-
+
+@ElevatorEvent3
+* Hate to cut the reunion
+  short, but you really are
+  getting on my nerves!
+>bleep:Toast
+END
+
+-
+
+@ElevatorEvent4
+* (Oh no, he hasn't heard
+  me mention his weakness,
+  has he?!)
+>p:ChujinDWNervous
+.
+* I wish you would just
+  give up and stay out of
+  this,
+>p:ToastNormal
+.
+* But seems we will have to
+  do things the hard way!
+* Mano a Mano!
+>p:ToastLaugh
+.
+* This elevator will stop
+  JUST before the 
+  fountain's base-
+>p:ToastNormal
+.
+* Where we will then FIGHT.
+>p:ToastAngry2
+.
+* And I hope you don't
+  chicken out!
+>p:ToastLaugh
+.
+* Get ready to get TOASTED,
+  as payback for 
+  humiliating me earlier!
+>p:ToastAngry2
+.
+* See you soon, losers!
+>p:ToastLaugh
+END
+
+-
+
+@ElevatorEvent5
+* ...This is it.
+>p:ChujinDWNeutral
+.
+* Let's get this over with
+  and get home.
+>p:KEEP
+END
+
+---
+
+@ChujinPostBoss1
+* ...Cole.
+* A moment, please?
+>p:ChujinDWNeutral
+END
+
+-
+
+@ChujinPostBoss2
+* This entire..."adventure"
+  really made me think
+  many things...
+>p:ChujinDWNeutral
+.
+* And... I think I might
+  have been too harsh on
+  you these past few years.
+>p:ChujinDWNervous
+.
+* ...Kanako always seems 
+  happy when she is hanging
+  out around you.
+>p:ChujinDWNeutral
+.
+* Ever since the incident,
+  she has always been...
+* Off.
+>p:KEEP
+.
+* But when you two are 
+  together, she is like the
+  old Kanako from back then.
+>p:ChujinDWNormal
+.
+* ...I know it wasn't 
+  ENTIRELY your fault.
+>p:ChujinDWNeutral
+.
+* And for that, I ask you
+  to forgive me.
+>p:ChujinDWNervous
+.
+* For how I treated you all
+  these years.
+* I... I am sorry.
+>p:KEEP
+>prompt:I forgive@you:...
+>promptredirect:ChujinPostBoss2P1:ChujinPostBoss2P2
+END
+
+-
+
+@ChujinPostBoss2P1
+* ...Thank you.
+>p:ChujinDWNormal
+.
+* ...I'm sorry that we 
+  might not have enough time
+  to make up for the past-
+>p:ChujinDWNeutral
+.
+* Seeing what Martlet is
+  going through with your
+  case...
+>p:KEEP
+.
+* But, it will be good for
+  both of us to at least
+  try to start over.
+>p:ChujinDWNormal
+END
+
+-
+
+@ChujinPostBoss2P2
+* ...Yes. I understand.
+>p:ChujinDWNeutral
+.
+* I wouldn't even be sure
+  if I'd forgive myself 
+  with how I acted.
+>p:KEEP
+.
+* ...But I hope we can make
+  some ammends, at least 
+  for Kanako's sake.
+>p:KEEP
+.
+* ...
+>p:KEEP
+END
+
+-
+
+@ChujinPostBoss3
+* Dad? Cole?
+* What are you two talking
+  about?
+>p:KanakoPuff
+.
+* Oh, nothing...
+>p:ChujinDWNervous
+.
+* Don't let us keep you
+  waiting. Let's go back
+  home.
+>p:ChujinDWNormal
+END
+
+-
+
+@SaveBoss
+* The fountain's base is just up
+  ahead.
+>heal
+.
+* Once more, you are filled with
+  a sense of finality.
+>callsave
+END
+
+-
+
+@ChujinPostBossDiag
+* ...I believe we are ready
+  to leave now.
+>p:ChujinDWNormal
+.
+* Unless... you still have
+  something to do here?
+>p:ChujinDWNervous
+.
+* If so, don't take long.
+* Don't know how Ceroba is
+  holding up back home...
+>p:ChujinDWNervous
+END
+
+-
+
+@BossEvent1_1
+* SO you have come after all!!
+>bleep:Toast
+.
+* I commend you for not just
+  running away!
+>bleep:Toast
+END
+
+-
+
+@BossEvent1_2
+* But this means we have to
+  do things the hard way
+  then!
+>p:ToastLaugh
+>top:lock
+.
+* I'm not going to let you
+  just stop me when I 
+  finally have all I want!
+>p:ToastAngry2
+END
+
+-
+
+@BossEvent1_3
+* So is that your new body?
+>p:KanakoOffended
+.
+* It looks the same as your
+  old one. Guess it will be
+  just as easy to trash!
+>p:KanakoTongue
+.
+* Pff. The upgrades are all
+  INTERNAL, baby!
+>p:ToastLaugh
+.
+* More fire power! 
+* More defense!
+* More EVERYTHING!
+>p:ToastAngry2
+.
+* (...And yet I did not 
+  have any time to install
+  cooling fans...)
+>p:ChujinDWNervous2
+>face:Chujin:South
+.
+* This time you don't have
+  your giant robot to help
+  you.
+>p:ToastLaugh
+>face:Chujin:Right
+.
+* Which means I can easily
+  squish your soft, non
+  robotic bodies!
+>p:ToastAngry2
+.
+* I SHALL NOT ALLOW THAT TO
+  HAPPEN. I WILL PROTECT 
+  MISS KANAKO WITH MY LIFE.
+>p:AxisAngry
+.
+* Hahaha! We'll see about
+  that!!
+>p:ToastLaugh
+.
+* I hope you don't die too 
+  fast!
+>p:ToastAngry2
+.
+* I want to enjoy this!
+>p:ToastAngry2
+.
+* Kanako! Be careful!
+>p:ChujinDWNervous
+.
+* Leave this to us, dad!
+>p:KanakoTongue
+.
+* C'mon Cole, let's teach
+  this dumb toaster a 
+  lesson once and for all!
+>p:KanakoOffended
+END
+
+-
+
+@BossEvent2A_1
+[shake]* AAH! NO!!!
+* NOT AGAIN!!!
+>p:ToastDefeat
+.
+[shake]* MY PERFECTLY TOASTY
+  NEW BODY!!!
+>p:KEEP
+.
+* Serves you right for
+  being such a block head!
+>p:KanakoTongue
+.
+[shake]* O-OH?! IS THAT WHAT
+  YOU THINK?!!
+>p:ToastAngry2
+END
+
+-
+
+@BossEvent2A_2
+[shake]* AAARGH!
+>p:KanakoHurt
+.
+* K-KANAKO!!
+>p:ChujinDWNervous
+.
+* Unhand her, you oversized
+  pile of junk!
+>p:ChujinDWAngry
+>shakeanim:Chujin:Angry
+.
+[shake]* IF I AM GOING DOWN, I AM
+  TAKING YOU WITH ME!!
+>p:ToastAngry
+.
+[shake]* HOPE YOU LOSERS ENJOY 
+  YOUR FOX WELL DONE!
+>p:ToastAngry2
+.
+* C-Cole! What are you
+  doing!? Shoot him!!
+>p:ChujinDWAngry
+.
+* THAT IS NOT WISE, MASTER
+  CHUJIN.
+>p:AxisSad
+.
+* HE COULD ACCIDENTALLY 
+  HIT MISS KANAKO!!
+>p:AxisSad
+>mini:ChujinDWNervous:N-No...!
+.
+[shake]* HAHAHAHAHA!
+* FINALLY, VICTORY IS MI-
+>p:ToastAngry2
+END
+
+-
+
+@BossEvent2A_3
+[shake]* aaaaaaaaaaaaaaaa >A<
+>bleep:Anme
+END
+
+-
+
+@BossEvent2A_4
+* Aw, shucks-
+>p:ToastDefeat
+END
+
+-
+
+@BossEvent2A_5
+* wow that was pretty 
+  scawwy u_u
+>p:AnmeNervous
+.
+* y is everything in this
+  place trying to get to
+  anme??? o_O
+>p:AnmeSad
+.
+* ...It is that thing 
+  again!
+>p:ChujinDWNervous
+>mini:AxisNormal:THAT THING HAS A NAME.
+.
+* wow old man is still as
+  rude as ever to anme!!
+  >m<
+>p:AnmeNervous
+.
+* anme just tryin to 
+  explore dis weird tower
+  u_u
+>p:AnmeSad
+.
+* but every1 very rude to
+  anme..........
+  u____u
+>p:AnmeSad
+.
+* ........Ugh.
+>p:KanakoHurt
+.
+* ...
+>p:KanakoPuff
+.
+* C-Cole?! 
+>p:KanakoBlushFlustered
+>anim:Clover:KCarry
+.
+* E-Eh... Thanks for the 
+  save, but... You can let
+  me go now...
+>p:KanakoNervous
+END
+
+-
+
+@BossEvent2A_6
+* Oh, it's Anme!
+>p:KanakoPuff
+.
+* Yeah... She saved us.
+* ...Again.
+>p:ChujinDWNervous
+.
+* I admit... At first I
+  didn't see the appeal-
+>p:ChujinDWNeutral
+.
+* ...But I guess it is 
+  KINDA cute.
+>p:ChujinDWNormal
+>mini:AnmeSad:anme is not cute >o<
+.
+* ...Wait, what happened to
+  Toster?
+>p:KanakoPuff
+END
+
+-
+
+@BossEvent2A_7
+[shake]* AAAUGH!! MY HEAD GOT
+  STUCK ON THIS LOW QUALITY
+  COTTON FIBER!!
+>p:ToastDefeat
+.
+* wow more rude ppl >H<
+>p:AnmeSad
+.
+* anme has had enough
+* anme is leaving
+* :(
+>p:AnmeSad
+.
+[shake]* WAIT PUT ME DOWN YOU
+  OVERSIZED WEIRD THING!
+>p:ToastAngry
+END
+
+-
+
+@BossEvent2A_8
+[shake]* AAAAAAAAAHH!!!
+>p:ToastDefeat
+>top
+END
+
+-
+
+@BossEvent2A_9
+* That was certainly...
+* Something.
+>p:ChujinDWNeutral
+>mini:KanakoNervous:Tell me about it...
+.
+* But now there is nothing
+  between us and sealing
+  the fountain.
+>p:ChujinDWNormal
+.
+* Guess this is the end, 
+  then.
+>p:KanakoNormal
+.
+* MISS KANAKO...
+>p:AxisSad
+>look:Axis:Left
+.
+* C'mon Axis, we'll walk
+  there all togehter.
+>p:KanakoHappy
+>look:Kanako:Right
+.
+* ...YES.
+* LET ME ACCOMPANY YOU ONE
+  LAST TIME.
+>p:AxisNormal
+END
+
+--
+
+@BossEvent3_1
+* ...I'll head up ahead.
+>p:ChujinDWNeutral
+.
+* Come when you're ready
+  to put an end to this.
+>p:ChujinDWNormal
+.
+* Kay, dad. We'll be there
+  soon.
+>p:KanakoNormal
+.
+* Don't take too long now.
+>p:ChujinDWNormal
+.
+* (Who knows how Ceroba is
+  holding up... Oh dear.)
+>p:ChujinDWNervous
+END
+
+-
+
+@BossEvent3_2
+* Guess this is it.
+>p:KanakoPuff
+.
+* Let's finish any business
+  we have left before we
+  seal the fountain?
+>p:KanakoNervous
+.
+* Your call, Cole.
+>p:KanakoNormal
+END
+
+-
+
+@BossEvent2B_1
+[shake]* The heck?![/shake]
+* What is this rope made 
+  of?!
+>p:ToastDefeat
+.
+* Ugh... I can't shake it 
+  off...
+>p:ToastAngry
+.
+* Serves you right!
+* Now go serve your time in
+  Dark Jail!
+>p:KanakoOffended2
+.
+[shake]* Why?! What did I even
+  do?!
+>p:ToastDefeat
+.
+* Uh, try to take over this
+  world?
+>p:KanakoOffended2
+.
+* I was just fulfilling my
+  role!
+>p:ToastAngry
+.
+* That's what the Outlaw 
+  told me to do! It said 
+  that if I did my part-
+>p:KEEP
+.
+* I'd be free!
+>p:KEEP
+.
+* This wasn't our deal!
+* I demand a refund.
+>p:KEEP
+END
+
+-
+
+@BossEvent2B_2
+* (...The Outlaw...)
+>p:KanakoNeutral
+.
+* (What is it planning,
+  really?!)
+>p:KanakoOffended2
+.
+* (...We still don't know
+  anything about it.)
+>p:KanakoSad2
+.
+* ...
+>p:KEEP
+END
+
+--
+
+@BossEvent2B_3
+* ...So that's that, then?
+* He won't be in our way
+  anymore?
+>p:ChujinDWNeutral
+.
+* Yeah... We sent him to
+  the Dark Jail.
+* It should be fine now.
+>p:KanakoPuff
+.
+* I see...
+* Guess we can return home
+  now, then?
+>p:ChujinDWNeutral
+END
+
+--
+
+@FinalPuzzleHelp
+[color=green]* GENERAL LIFE ADVICE:
+>bleep:System
+.
+[color=green]* Make sure to survey the areas
+  ahead of you before commiting 
+  to an action!
+>bleep:System
+.
+[color=green]* Who knows when it can save you?
+>bleep:System
+.
+[color=green]* And remember to always keep an
+  eye on where your bullets go!
+>bleep:System
+END
+
+------
+
+@BeforeTosterAlt
+* This time, you won't 
+  escape!
+>p:ToastLaugh
+.
+* This new body Master
+  Chujin built me is ready
+  to take on ANYTHING!!
+>p:ToastLaugh
+.
+* (...And yet I did not 
+  have any time to install
+  cooling fans...)
+>p:ChujinDWNervous2
+>face:Chujin:South
+.
+* So what?! We'll just
+  trash it up and then go
+  home!
+>p:KanakoOffended2
+>face:Chujin:Right
+.
+* Haha! I wanna see you try!
+>p:ToastLaugh
+.
+* Come, Lightners!
+* Let me show you the true
+  meaning of PAIN!
+>p:ToastAngry2
+END
+
+--
+
+@PostTosterAlt1
+[shake]* AH!! You... YOU...!!
+>p:ToastDefeat
+.
+* How DARE you ruin my
+  brand new body?! 
+>p:ToastAngry
+.
+* Do you know how much went
+  into making it?!
+>p:ToastAngry
+END
+
+-
+
+@PostTosterAlt2
+* I am well aware. And if
+  only I knew how much of
+  a pain you would be-
+>p:ChujinDWNeutral
+.
+* I would never have made
+  it for you. So serves you
+  right.
+>p:ChujinDWNeutral
+.
+* Oh ho? Is that so?!
+* You might be a celebrity
+  here, Chujin-
+>p:ToastAngry2
+>anim:Toaster:Idle
+.
+* But you forgot- I'm not
+  from this Dark World!!
+* So I don't CARE!!
+>p:ToastAngry
+END
+
+-
+
+@PostTosterAlt3
+* MASTER CHUJIN!!
+>p:AxisSad
+.
+* DAD!!!!
+>p:KanakoSurprise
+.
+* RELEASE HIM NOW, YOU
+  PIECE OF-
+>p:KanakoAngry3
+.
+* Woah now! I'm only
+  repaying him for his
+  service!!
+>p:ToastLaugh
+.
+* If I am going down, it
+  only makes sense to bring
+  my "creator" alongside me!
+>p:ToastAngry2
+.
+[shake]* G-Gack... K-Kanako...
+* R-Run...
+>slow:2
+>p:ChujinDWNervous
+.
+* NO! I'm NOT leaving you!!
+>p:KanakoAngry3
+.
+[shake]* I'll SAVE you!!
+>p:KEEP
+END
+
+-
+
+@PostTosterAlt4
+[shake]* OUCH!! YOU-
+>p:ToastDefeat
+END
+
+-
+
+@PostTosterAlt5
+* MASTER CHUJIN!!
+* MISS KANAKO!!
+>p:AxisSad
+.
+* I've had it with you
+  Lightners!!
+>p:ToastAngry
+.
+* I'm going to end this
+  here and now! No more
+  "Mr. Nice Toaster!!"
+>p:ToastAngry2
+END
+
+-
+
+@PostTosterAlt6
+* You call that a shot?!
+* PATHETIC!!
+>p:ToastLaugh
+END
+
+-
+
+@PostTosterAlt7
+[shake]* COLE!!!
+>p:KanakoScared
+.
+* .........
+>p:AxisAngry
+.
+* Are you going to stand
+  against me too, traitor?
+>p:ToastAngry
+.
+* Or are you finally going
+  to wake up and see the
+  truth?!
+>p:ToastAngry2
+.
+* The Lightners don't care
+  about us!
+>p:ToastAngry2
+.
+* Once we served our 
+  purpose, we are discarded!
+>p:ToastAngry2
+.
+* I was tossed aside as
+  "defective" even before
+  coming to this Dark World-
+>p:ToastAngry2
+.
+* No WAY I'm letting you
+  take this away from me!!
+>p:ToastAngry2
+.
+* I don't CARE about what
+  that wannabe cowboy said-
+>p:ToastAngry2
+.
+* This is MY WORLD.
+* MY DOMAIN!!
+>p:ToastAngry2
+.
+* And I won't let you take
+  it from me!!
+>p:ToastAngry2
+.
+* CAN YOU JUST SHUT THE 
+  [heck] UP??
+>p:AxisAngry
+.
+* MY DIRECTIVE IS TO 
+  PROTECT MISS KANAKO-
+>p:KEEP
+.
+* AND YOU HAVE [ticked] ME
+  OFF A LOT ALREADY-
+>p:KEEP
+.
+* IT IS TIME TO END THIS-
+>p:KEEP
+.
+* And what are you gonna
+  do?! Hit me with your
+  pathetic glove? HAH!
+>p:ToastAngry2
+END
+
+-
+
+@PostTosterAlt8
+* STARTING SELF DESTRUCTION
+  SEQUENCE-
+>p:AxisShadow
+.
+* This again?! Have you not
+  learned your lesson?!
+>p:ToastLaugh
+.
+* Watch me leave just like
+  last time!!
+>p:ToastAngry2
+END
+
+-
+
+@PostTosterAlt9
+* W-What?! Curses- That
+  girl crushed my frame!!
+>p:ToastDefeat
+.
+[shake]* I CAN'T EJECT-
+>p:ToastDefeat
+.
+* IT IS LIGHT OUTS FOR
+  YOU.
+>p:AxisAngry
+.
+* AXIS!! NO!!! STOP!!
+>p:KanakoSurprise
+.
+* SORRY, MISS KANAKO.
+* BUT I AM JUST FULFILLING
+  MY PURPOSE.
+>p:AxisSad
+.
+* HUMAN- NO, COLE.
+>p:AxisSad
+.
+* KEEP MISS KANAKO SAFE
+  FOR ME.
+>p:AxisNormal
+.
+[shake]* AXISSSSSSSS!!!
+>p:KanakoSurprise
+.
+[shake]* YOU LITTLE-
+>p:ToastDefeat
+END
+
+-
+
+@PostTosterAlt10
+[shake]* GYAAAAAAAAA-
+>p:ToastDefeat
+END
+
+-
+
+@PostTosterAlt11
+[shake]* AXIS!! AXIS!!!!!
+>p:KanakoSurprise
+.
+[shake]* No... He...
+>p:KanakoScared
+.
+[shake]* ...Axis...
+>p:KEEP
+END
+
+--
+
+@PostTosterAlt11B
+[shake]* Dad... You... You can
+  fix him, right?!
+>p:KanakoNervous2
+.
+[shake]* You made him for me-
+* Surely you can just-
+* Rebuild him...?!
+>p:KEEP
+.
+* ...I... I don't know,
+  dear.
+>p:ChujinDWNervous
+.
+* I can try but...
+>p:KEEP
+.
+* Axis... I barely got to
+  "know" him.
+>p:ChujinDWNeutral
+.
+* But... His sacrifice
+  won't be forgotten.
+>p:KEEP
+.
+[shake]* DON'T SAY THAT!![/shake]
+* He will be fine!!
+* He'll be fine...
+>p:KanakoNervous2
+>anim:Kanako:Kneel10
+>sound:snd_hurt1.wav
+>camshake:5:1
+.
+* I... Dear...
+* Sometimes in life...
+>p:ChujinDWNervous
+.
+* You have to just accept
+  when you have been dealt
+  a bad hand.
+>p:ChujinDWNeutral
+.
+* I will try to fix him,
+  but...
+>p:ChujinDWNeutral
+.
+* I won't promise any 
+  miracles-
+>p:ChujinDWNeutral
+.
+* But you'll just have to
+  make peace with it if
+  I can't bring him back.
+>p:ChujinDWNeutral
+.
+[shake]* ...No...
+* NO!!
+>p:KanakoScared
+.
+* I... I won't accept it-
+>p:KanakoAngry
+.
+[shake]* If only I was stronger-
+* If only I-
+>p:KanakoAngry2
+.
+* Dear, calm down!
+>p:ChujinDWNervous
+.
+* I know you're distressed,
+  but...
+>p:KEEP
+.
+* But if you are not 
+  careful- This anger will
+  consume you.
+>p:KEEP
+.
+* So please... Calm down.
+>p:KEEP
+.
+* Axis chose to protect you
+  as part of his directive.
+>p:KEEP
+.
+* If you have anyone to 
+  blame, blame me.
+>p:KEEP
+.
+* But I don't want you to
+  suffer like this anymore.
+>p:KEEP
+.
+* ......
+>p:KanakoAngry
+.
+* ...
+>p:ChujinDWNeutral
+.
+* Let's... Just get out of
+  here.
+>p:KEEP
+.
+* If we seal the fountain,
+  we can go home, right?
+>p:KEEP
+.
+* Then let's go. The last
+  elevator must be up ahead.
+>p:KEEP
+.
+* .........Yeah.
+>p:KanakoAngry
+.
+* Let's get back home.
+>p:KEEP
+.
+* ...I'll go ahead and make
+  sure there aren't any
+  more surprises for us.
+>p:ChujinDWNeutral
+.
+* I'll take Axis' remains
+  with me, and then once we
+  return to my workshop-
+>p:KEEP
+.
+* I'll try to fix him, 
+  alright?
+>p:ChujinDWNormal
+.
+* ...
+>p:KanakoAngry
+.
+* ...
+>p:ChujinDWNervous
+.
+* I... I will leave you
+  be for a bit to collect
+  yourself.
+>p:KEEP
+.
+* ...I'm sorry.
+* But we have to keep going.
+>p:KEEP
+.
+* Don't let Axis' sacrifice
+  be for nothing.
+>p:ChujinDWNeutral
+END
+
+-
+
+@PostTosterAlt12
+* ...
+>p:KanakoAngry
+>prompt:We won't@forget him:Let's go@home:...
+>promptredirect:PostTosterAlt12A:PostTosterAlt12B:PostTosterAlt12C
+END
+
+-
+
+@PostTosterAlt12A
+* ...We barely got to know
+  him-
+>p:KanakoAngry
+.
+* This is just like with
+  BunBun-
+>p:KanakoAngry
+.
+* I hate this, Cole.
+>p:KanakoAngry2
+.
+* I hate feeling this...
+* Weak.
+>p:KanakoAngry2
+.
+* ...I hate this so
+  damn much.
+>p:KanakoAngry2
+.
+* ...
+>p:KanakoAngry
+.
+* ...Let's go.
+>p:KanakoAngry
+.
+* I'll be right behind you.
+* As always.
+>p:KanakoAngry
+.
+* Lead the way.
+>p:KanakoAngry
+END
+
+--
+
+@PostTosterAlt12B
+* ...I...
+>p:KanakoAngry
+.
+* ...
+>p:KanakoAngry
+.
+* Yeah.
+>p:KanakoAngry
+.
+* Let's get out of here.
+>p:KanakoAngry
+END
+
+--
+
+@PostTosterAlt12C
+* ...Sorry.
+>p:KanakoAngry
+.
+* I know we have to keep
+  going.
+* It's just.
+>p:KanakoAngry
+.
+* This really sucks.
+>p:KanakoAngry2
+.
+* I couldn't do anything-
+>p:KanakoAngry2
+.
+* I'm not strong enough-
+* I'm not-
+>p:KanakoAngry2
+.
+* ...
+>p:KanakoAngry
+.
+* ...Let's seal the 
+  fountain.
+>p:KanakoAngry
+.
+* I'll be... right behind 
+  you.
+>p:KanakoAngry
+END
+
+-
+
+@FountainBlocker
+* Cole. That's the wrong
+  way.
+>p:KanakoAngry
+.
+* Let's just go home.
+>p:KanakoAngry
+END
+
+-
+
+@TalkAlt
+* .........
+>p:KanakoAngry
+END
+
+-
+
+@AltAbort
+* ...Cole, I was thinking...
+>p:KanakoSad2
+.
+* Ever since yesterday, I...
+* I've been feeling pretty
+  irritable.
+>p:KanakoSad
+.
+* I think these Dark Worlds
+  are messing with my head-
+>p:KanakoSad2
+.
+* ...But I think I'll try
+  to "think" a bit before
+  I jump into trouble-
+>p:KanakoNervous
+.
+* Maybe... I'll actually
+  get to enjoy these Dark
+  Worlds after all?
+>p:KEEP
+.
+>redirect:545:AltAbortB
+* I mean- I do feel like
+  you are enjoying them,
+  even if by a bit.
+>p:KanakoNormal
+.
+* So I wanna try too.
+* I'll enjoy them alongside
+  you.
+>p:KanakoHappy
+.
+* But now- Let's just seal
+  the fountain and go home.
+* C'mon!
+>p:KanakoNormal
+END
+
+--
+
+@AltAbortB
+* ...Sure the thing with
+  BunBun sucked, but...
+>p:KanakoAngry
+.
+* I... I don't want to feel
+  like this all the time...
+* I hate this feeling.
+>p:KanakoSad2
+.
+* But as long as I am with
+  you... I think I can look
+  past it.
+>p:KanakoNervous
+.
+* Well, lead on.
+* I'll follow you wherever
+  you go.
+>p:KanakoNormal
+END
+
+--
+
+@ToastDead
+* ...I don't want to look
+  at this anymore.
+>p:KanakoAngry
+END
+
+--
+
+@ChujinPostBossAlt2
+* ...I hate to admit this,
+  but you are the only one
+  I can confide in now-
+>p:ChujinDWNeutral
+.
+* Kanako... Something has
+  been troubling her.
+>p:ChujinDWNervous
+.
+* ...I don't want to blame
+  this on you, but... It is 
+  the logical conclusion.
+>p:ChujinDWNeutral
+.
+* ...She is acting like she
+  was back during the 
+  incident.
+>p:ChujinDWNeutral
+.
+* All those years, when she
+  was finally recovering,
+  and now-
+>p:ChujinDWNervous
+.
+* ...
+>p:ChujinDWNeutral
+.
+* Kanako is very close to
+  you, no matter how much I
+  hate to admit it.
+>p:ChujinDWNeutral
+.
+* ...Please, do not break
+  her heart.
+>p:ChujinDWNeutral
+.
+* Again, that is.
+>p:ChujinDWNeutral
+END
+
+--
+
+@ChujinPostBossAlt3
+* ...What are you guys
+  talking about?
+>p:KanakoOffended2
+.
+* Oh, nothing, dear!
+* We were just about to
+  go.
+>p:ChujinDWNervous
+.
+* ...Come on, Cole.
+* Let's seal that fountain.
+>p:ChujinDWNeutral
+END

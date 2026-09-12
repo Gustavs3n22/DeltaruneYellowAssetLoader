@@ -1,0 +1,261 @@
+@Intro
+* Welc0me, w3lcome!
+* Y0u won't  f1nd better
+  ware5 anywh3re ELSE!
+
+@Intro2
+* Lo0k1ng for anything
+  ELSE, d3ar customer?
+
+@TalkMenu
+* Sur3!
+* Wh4t
+  about?
+
+@TalkMenu2
+* Someth1n'
+  ELSE?
+
+@BuyCancel
+* Pl3ase buy
+  someth1ng!
+
+@BuyConfirmed
+* Th4nk y0u!
+
+@BuyFull
+* Not en0ugh
+  spa4ce!!
+
+@BuyMoney
+* Not enough
+  c4$h...
+
+@BuyMenu
+* Wh4t do
+  y0u f4ncy?
+
+@BuyMenu2
+* L0ok around,
+  l00k 4round!
+
+@SellMenu
+* Wh4t d0
+  you off3r?
+
+@SellDontHave
+* It's 3mpty!
+
+@SellChoose
+* Wh4tev3r
+  do y0u w4nt
+  to UNLOAD?
+
+@SellConfirmed
+* I'll try
+  t0 f1nd a
+  new buyer!
+
+@Exit
+* C0m3 b4ck anyt1me!
+* I'll be w41ting!!
+
+-
+
+@Topic1
+Robotopia
+
+@Topic2
+Chujin
+
+@Topic3
+The Spire
+
+@Topic4
+Rumors?
+
+@Topic5
+[color=yellow]Chujin (NEW)[/color]
+
+@Topic6
+[color=yellow]Elevator (NEW)[/color]
+
+@Topic7
+[color=yellow]Toster (NEW)[/color]
+
+-
+
+@TalkTopic1
+* Ah, y3s! Glori0us Robot0pia!
+* A b3auty, isn't 1t?
+BREAK
+* IF 0nly not for th0se 
+  INTERLOPERS!
+* They k3ep com1ng down her3 
+  and tra5h1ng the pl4ce!
+BREAK
+* Wh4t do th0se pl4st1c and 
+  plu5h fr34ks th1nk th3y ar3?!
+* Peopl3 4re try1ng to LIVE 
+  d0wn her3!
+BREAK
+* Must be 4ll that h0t air w4y
+  ab0ve the cl0ud5! Hmph!
+
+-
+
+@TalkTopic2
+* M4ster Chuj1n? He cre4t3d 
+  all of Robot0pia!
+* Gre4t guy!
+BREAK
+* Alt0ugh he n3ver vis1ted this
+  5ettlem3nt, I he4rd he st1ll
+  pers0n4lly help3d m4ny of the
+  g0od peopl3 h3re!
+BREAK
+* Fix1ng broken l1mbs, 
+  rep4ir1ng th0se that w3re 
+  once th0ught long g0ne...
+* A tru3 gentl3m4n!
+BREAK
+* Some f0lks even com3 from 
+  far aw4y lands t0 be f1xed 
+  up by h1m!
+BREAK
+* S4y, your p1nk friend kind4
+  lo0ks a bit with h1m!
+* She must b3 a b1g fan!
+
+-
+
+@TalkTopic3
+* Th3 bu1lding at th3 c3nter 
+  0f Rob0top1a?
+* If y0u'r3 lo0k1ng to v1sit 1t, 
+  y0u c4n get th3re by us1ng 
+  th3 fact0ry's tr4m.
+BREAK
+* Th3 ELITE l1ves ther3. H4te 
+  th0se folk.
+* Alw4ys look1ng down 0n us 
+  p3ople from th3 edg3s.
+BREAK
+* Als0 the Sp1re ext3nds 4ll 
+  the w4y bey0nd th3 cl0uds!
+* So 1nterl0pers ke3p att4ck1ng 
+  us th1nking th4t it bel0ngs 
+  to th3m!
+BREAK
+* We rob0ts c4n't catch a 
+  br3ak, I swe4r...
+
+-
+
+@TalkTopic4
+* H4ve y0u se3n that d4mn
+  sal3sman 0uts1de?!
+* Th3 0ne sell1ng "coff3e"??
+BREAK
+* I hav3 no 1de4 wh4t his
+  d3al 1s, but this t0wn 1s
+  not b1g en0ugh f0r th3 two
+  0f us!
+BREAK
+* 1 heard h3 is ass0c14ted 
+  w1th th3 new guy in ch4rge of 
+  th3 Spir3 and th4t ditzy g1rl
+  th4t dwell5 ther3.
+BREAK
+* I bet th3 three 0f them 4re
+  pl4nning 5ometh1ng t0 t4k3
+  ov3r the c0mmerce 0f 
+  R0bot0p1a!
+BREAK
+* Th3 nerv3...!
+
+-
+
+@TalkTopic5
+* M0r3 inf0 on M4ster Chuj1n?
+BREAK
+* W3ll I h3ard h3 h4d a b4d
+  enc0unt3r 0nce, m4ny, many 
+  y34rs ag0.
+BREAK
+* W1th som3 cr34tur3s call3d
+  "hoo-mans" 0r s0mething?
+* Se3ms th3y st0le s0meth1ng
+  aw4y from h1m 4fter betr4ying
+  h1m ov3r s0me 3vent.
+BREAK
+* Ev3r s1nce th4t day, Mast3r 
+  Chujin has b3en d1strustful 
+  of th3se hoo-m3ns, or so I 
+  he4rd.
+BREAK
+anim:Sad:
+* Wh4tever they are, th3y 
+  better n0t st3p a f0ot 1n my 
+  st0re!
+* [shake]NO HOO-M4NS ALL0W3D!
+
+-
+
+@TalkTopic6
+* Eh? El3vat0r?
+* Ar3 y0u say1ng th3re 1s 4 
+  br0ken elev4tor 5omewh3re?
+BREAK
+* Huh?!?!
+* Up ab0ve th3 cl0uds?!
+* Th4t's 1nterl0per t3rr1tory!
+* No w4y! No h0w! I 4in't 
+  f1xing 1t!
+BREAK
+* ...How3ver, 1've he4rd s0me 
+  rum0rs of a [color=yellow]s3cret c0de[/color] th4t 
+  c0uld f1x el3vat0rs...
+BREAK
+anim:Sad:
+* Bet you wanna know what it 
+  is, don't you?!
+BREAK
+anim:Default:
+* H4h! W3ll, all 1 know is s0me
+  peopl3 in the [color=yellow]f4ct0ry[/color] kn3w 1t.
+* Th4t's 4ll y0u're g3tt1ng 
+  fr0m m3.
+
+-
+
+@TalkTopic7
+* 0h? Th4t n3w guy that took
+  over?
+* 1 hat3 him!!
+BREAK
+* H3 just shows up 4nd n0w
+  everyth1ng sh1fts to f1t
+  him?
+* Outr4ge0us!
+BREAK
+* We'r3 lucky th4t we ar3 a
+  sm4ll town 4t the 3dge of
+  Rob0top1a, or we m1ght have
+  g0ne under l1ke The Spir3
+  d1d!
+BREAK
+* I sw34r... If 1t wasn't f0r
+  th4t body of h1s, he w0uldn't
+  4ct all m1ghty!
+* But m4n...
+BREAK
+* That b0dy re4lly is som3thing,
+  isn't it? I b3t that th1ng
+  c4n take a punch 0r 2!
+BREAK
+* You'd ne3d som3thing re4lly
+  str0ng to br3ak thr0ugh 1t.
+* M4ybe he h4s a weakn3s5 0r
+  someth1ng. Would m4ke for a
+  go0d rum0r!

@@ -1,0 +1,33 @@
+MartletHouse;Martlet's House
+WildEastMain;Town of Eastwood
+SchoolDWFortPrison;Bearing's Fortress - Prison
+DarkPrisonMain;Dark Jail
+SchoolDWFortFirstPuzzle;Bearing's Fortress - Pink Gate
+SchoolDWCenter;Bearing's Domain - Town
+SchoolDWFirstPuzzle;?????? - Puzzle Room
+SchoolDWKanako;?????? - Ambush Place
+SchoolDWChase;?????? - Summit
+SchoolDWPenny;Bearing's Domain - Forest Clearing
+SchoolDWFortRest;Bearing's Fortress - Break Room
+ChujinDWEntrance;??????
+ChujinDWAxisRoom;?????? - Bottom
+ChujinDWTown;Robotopia - Robo Town
+ChujinDWOverview;Robotopia - Vista
+ChujinDWFactoryMain;Robotopia - Factory
+ChujinDWInsideTrain;Robotopia - Tram
+ChujinDWUpstairsView;Upstairs - Vista
+ChujinDWUpstairsBalloons;Upstairs - Docks
+ChujinDWPostTram3;Robotopia - Slums
+ChujinDWPostTram1;Robotopia - Slums
+SchoolDWForest2;Bearing's Domain - Forest Depths
+SchoolDWFort2F;Bearing's Fortress - 2F
+SchoolDWEntrance;??????
+SchoolDWForest1;Bearing's Domain - Forest Entrance
+SchoolDWBeforeKanako2;?????? - Dark Area
+ChujinDWArchiveLobby;Upstairs - Archives Lobby
+ChujinDWArchiveSecret;Upstairs - Archives Floor ??
+ChujinDWSpireEntrance;The Spire - High Floors
+ChujinDWSpireCafe;The Spire - Cafeteria
+ChujinDWSpireBoss;The Spire - Bottom Floors
+ChujinDWSpireChujinRoom;The Spire - Chujin's Cell
+ChujinDWSpireCenter;The Spire - Central Room

@@ -1,0 +1,201 @@
+* You open the chest.@BREAK@* Inside you find: @@.
+* Inside the trash can, you find: @@.
+* It was added to your@BREAK@  @@ pocket.
+(Nothing)
+(No ability.)
+Apprehended: 
+Guts:   
+Confidence: 
+Fluffyness: 
+Attack:   
+Defense:  
+Magic:    
+DARK DOLLARS
+ITEM
+EQUIP
+POWER
+TALK
+CONFIG
+USE
+INFO
+DROP
+ITEM
+STAT
+LETTERS
+--
+USE
+TOSS
+KEY
+Cole
+Kanako
+Axis
+Sadie
+Melody
+* But your inventory was full.
+KEY ITEM
+ON
+OFF
+BUY
+SELL
+TALK
+EXIT
+ITEM
+WEAPON
+ARMOR
+Space: @
+Back
+SOLD OUT
+Sell ITEMS
+Sell WEAPONS
+Sell ARMOR
+Sell STORAGE
+Throw away the @?\	[INTERACT] Yes		[CANCEL] No
+RETRY
+GIVE UP
+Press [MENU] to give up.
+REFILLED
+Sassyness: 
+ON
+OFF
+Music Volume
+SFX Volume
+Always Run
+Auto Fire
+Fullscreen
+Input Bindings
+Save Settings and Return
+Return to Main Menu
+Exit Game
+UP
+DOWN
+LEFT
+RIGHT
+CONFIRM / INTERACT
+CANCEL / RUN
+MENU / SWAP
+Press a key for @
+(ESC to skip)
+Select a file to start
+Settings
+Start
+Copy
+Delete
+Select a file to copy to
+It cannot be undone.
+Stop
+Do It
+It is done.
+File @ Selected.
+FAILED
+NEW FILE
+FAST FORWARD
+LV
+DLV
+Exiting...
+(Current: #)
+[color=yellow]Press F12 to reset@keys to default@at anytime.[/color]
+File Saved
+Save Failed
+Save
+Do Not
+Spare
+Flee
+SPARED
+ENDURED
+CAUGHT!
+DEF DOWN
+ANNOYED
+Toy Gun
+Leather Jacket
+COLE
+HP
+EXP:
+AT
+DF
+NEXT:
+WEAPON:
+ARMOR:
+MONEY:
+Storage
+On Hand
+[INTERACT] Move Items		[CANCEL] Exit
+[INTERACT] Punch@[CANCEL] Defend@[MENU] Kanako's Healing Bell ([VALUE]% TP)
+MISS
+FISH ON!
+FISH GET!
+Up
+Max
+DOWN
+* YOU WON!@* Got [EXP] EXP and [MONEY] D$
+* Justice has been served.@* You became stronger.
+A Normal Day
+Factory Woes
+Gamin' Night
+Perilous Heights
+Showdown
+Day @
+Return
+Battle Memory
+[INTERACT] Start Battle
+[CANCEL] Exit
+Party:
+Defeated:
+Least Turns:
+Axis' Big Showdown!
+TP UP!
+Gizmo
+(...Wish Cole could see this...)
+$ @
+D$ @
+Align.: 
+LAWFUL
+CHAOTIC
+SHOP
+60 FPS
+30 FPS
+FULLSCREEN (RATIO)
+WINDOWED
+KEYBINDS RESET
+Framerate
+FULLSCREEN (INTEGER)
+RATIO
+FULL
+PENNY SHOP
+EASY D$!!
+FIGHT
+ACT
+MAGIC
+ITEM
+SPARE
+MERCY
+DEFEND
+ORDER
+DISCIPLINE
+HOMEWORK
+STUDENTS
+CLASSROOM
+SCHOOL
+CHAR
+EQUIPPED
+ARMORS
+WEAPONS
+STATS
+SPELLS
+[INTERACT] Read Info
+VSYNC
+INN
+PENILLA
+FROSTERMIT
+SIR SLITHER
+SOUSBORG
+CEROBA
+SPEED UP!
+PLAYING
+RECORDING...
+REWIND
+AT UP!
+DF UP!
+(No stat changes)
+AT: @VAR@ (@TURNS@ Turns)
+DF: @VAR@ (@TURNS@ Turns)
+[INTERACT] PLAY / STOP

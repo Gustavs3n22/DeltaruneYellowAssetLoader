@@ -1,0 +1,251 @@
+
+@THRecepD1-1
+* We already closed all 
+  operations for the day.
+>tc
+.
+* Come back tomorrow.
+>tc
+END
+
+------
+
+@THRecepD1-2
+* Sorry, Mayor Starlo already
+  left.
+>tc
+.
+* Come back tomorrow.
+>tc
+END
+
+------
+
+@Day1StarloEvent
+* Ah! Cole! Kanako!
+>p:StarloHappy
+.
+* Uncle Star!
+>p:KanakoNormal
+.
+* How are you two doing,
+  kids?
+>p:StarloHappy
+.
+* We are just fine.
+* Gonna head home soon.
+>p:KanakoNormal
+.
+* That's good. I don't
+  want any of you 
+  wandering out too late.
+>p:StarloHappy2
+.
+* Ah, to be young again...
+* ...But alas...
+>p:KEEP
+.
+* It's good to see both 
+  of you enjoying your
+  youth.
+>p:StarloNormal
+.
+* As for me...
+* I must return to my 
+  duties.
+>p:StarloNormal
+.
+* Alright. We will be
+  leaving.
+>p:KanakoPuff
+.
+* Give my regards to
+  your mother, Kanako.
+>p:StarloHappy
+.
+* Oh, and Cole, come 
+  by some time to grab
+  some new movies.
+>p:StarloHappy
+.
+* I found some that 
+  might interest you.
+>p:StarloHappy2
+.
+* Have a good evening, 
+  you two!
+>p:StarloHappy
+END
+
+--
+
+@Day1StarloTalk
+* Ah, kids.
+>p:StarloHappy
+.
+* Sorry, I'm busy right
+  now. Too much paperwork.
+>p:StarloNormal
+.
+* We can talk tomorrow,
+  though.
+>p:StarloHappy2
+END
+
+--
+
+@ReceptionistD2
+* If you're looking to bother the
+  mayor, he is in the office right
+  now.
+>tc
+END
+
+--
+
+@StarloD2Event
+* Ah, kids.
+* Good day to you.
+>p:StarloHappy
+.
+* Hello, Uncle Star!
+>p:KanakoHappy
+.
+* Is there anything I
+  can help you two with
+  today?
+>p:StarloHappy
+.
+* Uh, not really...?
+>p:KanakoPuff
+.
+* Alright. Now if you
+  excuse me, I must
+  return to my duti-
+>p:StarloNormal
+.
+* Ah, wait.
+* Cole.
+>p:StarloSad
+.
+* Has Martlet talked
+  to you about some...
+  Letter she got?
+>p:StarloSad
+>prompt:Yes:No
+>promptredirect:StarloD2E1:StarloD2E2
+END
+
+--
+
+@StarloD2E1
+* I see.
+>mini:KanakoSad:...
+>p:StarloSad
+.
+* Well, I assure you that
+  we are both working on
+  that together.
+>p:StarloNormal
+.
+[color=black].
+>instend
+>redirect:StarloD2Event-2
+END
+
+--
+
+@StarloD2E2
+* I understand.
+>mini:KanakoSad:...
+>p:StarloSad
+.
+* But if she keeps
+  shielding you from it,
+  it will only hurt more.
+>p:StarloSad
+.
+* When the time comes
+  to...
+>p:StarloSad
+.
+* ...
+>p:StarloSad
+.
+[color=black].
+>instend
+>redirect:StarloD2Event-2
+END
+
+--
+
+@StarloD2Event-2
+* Whatever may happen,
+  I'll try my hardest to
+  keep it from happening.
+>p:StarloSad
+.
+* So don't you worry,
+  okay?
+>p:StarloNormal
+.
+* Oh, if you have time,
+  pass by later today.
+>p:StarloHappy
+.
+* I will give you a new
+  tape I found.
+* It is a good one.
+>p:StarloHappy
+.
+* You'll spoil him even
+  more, Uncle Star!
+>p:KanakoTongue
+.
+* Heh.
+* You are also doing the
+  same to him in a way.
+>p:StarloHappy2
+.
+* Anyway, kids, it was
+  fun, but duty calls.
+>p:StarloHappy
+.
+* Alright. See you,
+  Uncle Star.
+>p:KanakoNormal
+>flag:StarloEventD2
+END
+
+--
+
+@StarloD2After
+* Have fun, kids.
+* I still have a lot
+  of work to do.
+>p:StarloHappy
+END
+
+--
+
+@StarloProps
+* A collection of handmade toys
+  by Mayor Starlo himself.
+* They are pretty cool.
+END
+
+--
+
+@Shelves
+* Many books on law and other
+  complicated subjects fill
+  this shelf.
+END
+
+--
+
+@Trees
+* This isn't really a pine tree,
+  but actually a look-alike bred
+  to survive dry climates.
+END

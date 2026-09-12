@@ -1,0 +1,691 @@
+@StarloBrotherD1
+>redirectmap:StarBrother:StarloBrotherD1_2
+* Hey, what are you two doing 
+  out this late?
+>tc
+.
+* Umm... Nothing...?
+>p:KanakoNervous
+.
+* ...Right. Head on along, kids.
+* Your parents must be worried
+  about you.
+>tc
+>mapflag:StarBrother
+END
+
+--
+
+@StarloBrotherD1_2
+* Me? Gotta finish collecting
+  corn for today.
+>tc
+.
+* Should be done soon.
+>tc
+END
+
+--
+
+@KnockStarloHouseD1
+>redirect:KanakoFollowing:KnockStarloHouseD1K
+* Mayor Starlo's house.
+.
+* It's late, you can ask for
+  movies tomorrow.
+END
+
+--
+
+@KnockStarloHouseD1K
+* Hey, Cole, what are
+  you doing?
+>p:KanakoDumb
+.
+* We shouldn't disturb
+  Uncle Star's family
+  this late!
+>p:KanakoTongue
+END
+
+--
+
+@NearHouseD1
+>redirect:KanakoFollowing:NearHouseD1K
+* You have lived near this house
+  for a while, but you don't know
+  who lives here.
+.
+* Maybe you never will.
+END
+
+--
+
+@NearHouseD1K
+* Hm... Y'know, I have
+  no idea who lives here.
+>p:KanakoNeutral
+.
+* It really never crossed
+  my mind, do you know
+  who, Cole?
+>p:KanakoPuff
+END
+
+--
+
+@CactusGirlDay1
+* (She's asleep.)
+.
+>redirect:KanakoFollowing:CactusGirlDay1-2
+[color=black].
+>instend
+>instant
+END
+
+--
+
+@CactusGirlDay1-2
+* Guess no one is leaving
+  through here anytime
+  soon.
+>p:KanakoPuff
+END
+
+--
+
+
+@CactusGirlDay2
+* Huh? What?
+>tc
+.
+* You'd like me to move?
+>tc
+.
+* No way. Can't you see I'm
+  sunbathing here?
+>tc
+.
+* Try again next week, bud.
+>tc
+END
+
+----
+
+@MailWhaleIntro
+* [shake]Heeeeeeeeeeeeeeeeeeeeey!
+END
+
+----
+
+@MailWhaleDelivery
+* Be it hail or harsh sun, mail
+  will be delivery with a hum!
+.
+* Good morning!
+* I have some mail for...
+* Cole?
+.
+* Here, just sign here and the
+  delivery will be done!
+.
+>sound:snd_won.wav
+* (You got mail.)
+.
+* Another letter duly delivered!
+* ...But a postman's job is never
+  done!
+.
+
+* Until then-
+* Have a happy rest of your day!
+END
+
+--
+
+@MinerGFD2
+* Well, nothing beats a short
+  breather before a harrowing
+  day at the mines!
+>tc
+END
+
+--
+
+@MinerElevGuyD2
+* Heh. This is fine by me.
+* At least it isn't my fault this
+  time that I got to work late.
+>tc
+END
+
+--
+
+@SmokerMinerD2
+* [wave]Daaaaamn[/wave] dude.
+* I'm not taking the blame for this
+  total blunder this time.
+>tc
+END
+
+--
+
+@HatMinerD2
+* Uh, the mines are closed.
+* Seems there was a cave in
+  last night.
+>tc
+.
+* It will take a bit until
+  we fix it.
+* Sorry for that.
+>tc
+END
+
+--
+
+@HappyMinerD2
+* Well, look on the bright side!
+* We can all do some group
+  activities before our shift!
+>tc
+.
+* Anyone with me?
+* ...No one?
+>tc
+END
+
+--
+
+@WellCheck
+* There is no need to draw any
+  water right now.
+END
+
+--
+
+@StarloDadD2Early
+* Howdy, Cole! You're up early
+  today!
+>tc
+.
+* As they always say, the early
+  worm gets the bird! Oh ho ho!
+>tc
+END
+
+--
+
+@StarloDadD2
+>redirect:ColeSolo:StarloDadD2Early
+* Hey-hey, kids!
+* How are you two on this fine
+  day?
+>tc
+.
+* Oh, we are fine, Mister.
+>p:KanakoPuff
+.
+* Hope my son ain't giving you
+  lots trouble! I know how he
+  gets with you, Cole.
+>tc
+.
+* You are like a son to him,
+  y'hear?
+* Don't keep him down!
+>tc
+.
+* Um, yeah, okay.
+* Look, we gotta go now,
+  got some stuff to do.
+>p:KanakoNervous
+.
+* Oh ho! Don't let me keep you,
+  then.
+* Be sure to come back sometime!
+>flag:StarloDadDay2
+>tc
+END
+
+--
+
+@StarloDadD2-2
+* Cole, pass by later.
+* Starlo might leave some tapes
+  that you might like!
+>tc
+END
+
+--
+
+@StarloDadD2Late1
+* Hey, hey, Cole!
+* I was just about to go
+  inside!
+>tc
+.
+* Did you have a good day 
+  today? Starlo's beat!
+* Woowie!
+>tc
+END
+
+--
+
+@StarloDadD2Late2B
+* Sorry, he didn't leave any
+  tapes with me today.
+>tc
+.
+* Maybe tomorrow, eh?
+>tc
+END
+
+--
+
+@StarloDadD2Late2
+* Oh, speaking of him, he
+  left a tape for me to give
+  to you!
+>tc
+.
+* It is one from his old
+  days in the Feisty Five
+  troupe! Haha!
+>tc
+.
+* Those were the days, I
+  tell ya. Starlo was so
+  happy then!
+>tc
+.
+* Welp. Here ya go.
+* Have fun, but don't stay
+  up too late watching it!
+>tc
+.
+* (You got the old tape.)
+>sound:snd_item_ch1.wav
+END
+
+--
+
+@StarloBrotherD2
+* Another day, another corn
+  harvest.
+>tc
+.
+* I should ask my brother to start
+  investing in some more diversity
+  in the crops.
+>tc
+.
+>redirect:ColeSolo:END
+* (Tell me about it...
+  Getting tired of corn
+  chowder...)
+>p:KanakoNervous
+END
+
+--
+
+@KnockStarloHouseD2
+* You shouldn't enter other
+  people's houses uninvited.
+END
+
+--
+
+@KanakoD2MinesBlock
+>redirect:ChujinFountainSealed:KanakoD2MinesBlock2
+* Hey Cole, wait!
+>p:KanakoDumb
+.
+* Why are you going to
+  the mines now?
+>p:KanakoNervous
+.
+* ...We need to go
+  solve the Dark World
+  thing first!
+>p:KanakoNervous
+END
+
+--
+
+@KanakoD2MinesBlock2
+>redirect:GizmoFollowing:KanakoD2MinesBlock3
+* Cole, wait!
+>p:KanakoDumb
+.
+* We should really
+  investigate the Dark World
+  stuff.
+>p:KanakoNervous
+.
+* And... I don't really want
+  to go back to that place.
+>p:KanakoSad2
+.
+* (...At least not yet.)
+>p:KanakoSad3
+END
+
+--
+
+@KanakoD2MinesBlock3
+* Guys, where you going?!
+>p:GizmoNervous
+.
+* Sadie's house is all the
+  way on the other side of
+  town!
+>p:KEEP
+END
+
+--
+
+@CarpentryTable
+* Martlet usually likes to do her
+  carpentry on the outside.
+.
+* Not like there is space left on
+  the inside.
+END
+
+--
+
+@KanakoMartRoof
+* W-Woah, watch it!
+* I don't wanna fall...
+>p:KanakoDumb
+.
+* (This spot would be
+  nice if it had more
+  guardrails...)
+>p:KanakoNervous
+END
+
+--
+
+@MinesSign
+* EAST MINES
+* Because "West Mines" was already
+  taken.
+END
+
+---
+
+@EdD1
+* Hey, kids.
+>p:EdNormal
+.
+* Hey Ed. Watcha' doin'?
+>p:KanakoNormal
+.
+* Keeping watch.
+>p:EdNormal
+.
+* ...Okay.
+>p:KanakoPuff
+.
+* ...
+>p:EdNormal
+.
+* Well, see ya!
+>p:KanakoNervous
+END
+
+---
+
+@EdD1-2
+* ...
+>p:EdNormal
+.
+* Sorry, kid.
+* Mines' closed.
+>p:EdNormal
+.
+* You can enter in the
+  mornin'.
+>p:EdNormal
+END
+
+--
+
+
+@MartHouseCheckD1-1
+* Hm...
+>p:KanakoNeutral
+.
+* Seems Mart isn't home
+  yet.
+* Must be late shift.
+>p:KanakoSad
+.
+* What do we do now 
+  then?
+>p:KanakoNeutral
+END
+
+-----
+
+@MartHouseCheckD1-2
+* Ah! It's mom!
+>p:KanakoSurprise
+.
+* W-what do we do,
+  Cole?!
+>p:KanakoSurprise
+>prompt:Answer:Don't@Answer
+END
+
+-----
+
+@MartHouseCheckD1-2A
+* H-hello, mom...!
+>p:KanakoNervous
+.
+* Kanako?! Dearie!
+* Where are you?
+* Are you alright?!
+>bleep:Ceroba
+.
+* I was trying to call you
+  all day but you never
+  picked up!
+>bleep:Ceroba
+.
+* I- Err, I was...
+>p:KanakoNervous
+>prompt:Make an@Excuse:Tell the@truth
+>promptredirect:MartHouseCheckD1-2AA:MartHouseCheckD1-2AB
+END
+
+-----
+
+@MartHouseCheckD1-2AA
+* I-Err, I was with
+  Cole!
+>p:KanakoDumb
+.
+* We were studying at 
+  the library, and
+  lost track of time!
+>p:KanakoDumb
+.
+* M-my phone's battery
+  had ran out, but I
+  just recharged it!
+>p:KanakoNervous
+.
+* Hmmm...
+* Is that so?
+>bleep:Ceroba
+.
+* I'm just glad you are
+  alright, dear.
+>bleep:Ceroba
+.
+* Now come home for dinner,
+  your father is waiting
+  just for you.
+>bleep:Ceroba
+.
+* Oh, um, can I bring
+  Cole over for dinner
+  too?
+>p:KanakoPuff
+.
+* Sure, dear.
+>bleep:Ceroba
+.
+* I'll make sure to let 
+  your father know.
+* You know how he gets.
+>bleep:Ceroba
+.
+* Yeah, yeah!
+* I'll be over soon,
+  love you!
+>p:KanakoHappy
+.
+* (Beep)
+.
+>anim:Kanako:SouthIdle
+>p:KanakoNervous
+* ...That wasn't as
+  bad as I thought 
+  it would go.
+.
+* Anyway, it's settled.
+* Let's head over to
+  my place and eat.
+>p:KanakoNormal
+.
+* Mart will probably
+  call when she arrives,
+  so we can wait there.
+>p:KanakoNormal
+.
+* Let's go.
+>p:KanakoNormal
+END
+
+---
+
+@MartHouseCheckD1-2AB
+* We, um, got lost in
+  a different world.
+>p:KanakoPuff
+.
+* We were attacked by
+  bears and pencils.
+>p:KanakoPuff
+.
+* Dearie, you're too old to
+  come up with such outlandish
+  tales!
+>bleep:Ceroba
+.
+* I understand that you're at
+  that age where you want to
+  be independent-
+>bleep:Ceroba
+.
+* But you know your father 
+  wouldn't like for you to
+  do that.
+>bleep:Ceroba
+.
+* You're still his little
+  princess for him.
+>bleep:Ceroba
+.
+* Come on, mom. You're
+  embarassing me.
+>p:KanakoSad2
+.
+* Haha, you'll always be my
+  little girl too!
+>bleep:Ceroba
+.
+* But now you should come
+  back home. I'm about to
+  serve dinner.
+>bleep:Ceroba
+.
+* Oh, um, can Cole come
+  too? Mart doesn't seem
+  to be at home yet.
+>p:KanakoPuff
+.
+* Alright, I'll make sure to
+  set up a place for him.
+>bleep:Ceroba
+.
+* And... warn your father.
+>bleep:Ceroba
+.
+* Y-yeah...
+* Thanks, mom. I'll
+  be heading over now.
+>p:KanakoNervous
+.
+* (Beep)
+.
+>anim:Kanako:SouthIdle
+* She didn't believe
+  us at all.
+* But I wouldn't either.
+>p:KanakoPuff
+.
+* Anyway, let's head
+  to my place.
+>p:KanakoNormal
+.
+* At least until Mart
+  returns. C'mon, before
+  the food gets cold!
+>p:KanakoHappy
+END
+
+-----
+
+@MartHouseCheckD1-2B
+* She's gonna be so
+  mad...
+>p:KanakoSad2
+.
+* ...
+>p:KanakoPuff
+.
+* Well, there is no
+  use waiting here
+  until Mart arrives.
+>p:KanakoNeutral
+.
+* We should head to my
+  house and wait there.
+>p:KanakoNeutral
+.
+* A-at least if you're
+  with me mom might 
+  not be as harsh...
+>p:KanakoNervous
+.
+* C'mon, let's go.
+>p:KanakoPuff
+END
+
+-----
+
+@MartHouseCheckD1-3
+* C'mon, let's head
+  over to my place.
+>p:KanakoPuff
+END
+
+---
+

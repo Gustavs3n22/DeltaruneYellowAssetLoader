@@ -1,0 +1,241 @@
+* Penceller and Eraserhead block the way!
+* Smells like burnt rubber.
+* Penceller is trying to sharpen its pencil.
+* Eraserhead attempts to adjust its glasses,\n\tbut can't quite reach them.
+* Eraserhead is losing steam.
+* Penceller has split edges.
+* A pair of pencils stand tall in your path.
+* Smells like wood.
+* The duo is sharpening their pencils loudly.
+* A lone pencil appears.
+* Three sharp lads block the way!
+* The trio argues who has the better pencil.
+* Two blockheads blocking the path.
+* Build up your TP by DEFENDING.
+* Once you have enough TP, select the APPREHEND ACT.
+* Damage the criminal enough to make it easier\n\tto APPREHEND.
+* Use Cole's NON-LETHAL SHOT ACT to lower\n\tthe criminal's HP without making them flee.
+* Kanako seems confused by this whole ordeal.
+* Mopper and its cohort cleans the way!
+* Smells like cleaning supplies.
+* Mopper notices some stains near you.
+* Mopper is mopping quietly.
+* The cleaning squad arrives.
+* A pair of mops mops the path.
+* The moppers are competing to see\n\twho mops the best.
+* A lone mopping mopper mops the way.
+* The Fort Defenders stand in your path!
+* Criminal spotted: Pennilton!
+* Pennilton screams something about him being\n\tnumber one.
+* Pennilton almost drops his bag of coins.
+* Pennilton adjusts his hat.
+* Smells like coins.
+* Pennilton lets out a deep sigh.
+* . . .
+* Kanako has learned a new SPELL.
+* Shoot down [color=yellow]yellow[/color] bullets by pressing [INTERACT].
+* Cole's SOUL shines with JUSTICE.
+* Criminal spotted: Ringo!
+* Ringo is whipping up a storm.
+* Ringo can't stop ringing his bell.
+* Ringo is losing steam.
+* Smells like school recess.
+* Ringo keeps making up noise.
+* Kanako tries to cover her ears, but it's useless.
+* Criminal spotted: Lord Bearing!
+* Bearing is pulling out his stuffing.
+* Smells like old cloth.
+* Bearing is trying to keep his stiches from opening.
+* Bearing goes on a monologue about how he hates lightners.
+* Bearing is worried about new stiches opening up.
+* Bearing tries to roar, but a squeak sound\n\tcomes out instead.
+* The fountain roars in the background.
+* A familiar face approaches...
+* The air is filled with familiarity.
+* Smells like rusted, forgotten metal.
+* Kanako seems apprehensive.
+* Foxlace stares at Kanako's SOUL.
+* Sadness fills Foxlace's eyes.\n* Then anger.
+* Foxlace begs to not be forgotten again.
+* Foxlace stares at Kanako.
+* Kanako sees her reflection against Foxlace's visage.
+* ...Something terrible is coming!
+* Stay still to avoid [color=cyan]blue[/color] attacks.
+* Foxlace seems ready to move on.
+* Axis Unit 014, ready to terminate.
+* Smells like a steam engine.
+* Axis' body makes many clicks and clacks.
+* Axis seems to be running low on steam.
+* Axis tries to keep his body from falling apart.
+* Kanako tries to reason with Axis.\n* He doesn't listen.
+* Steam is filling the room.
+* A gear grinds into your path.
+* Smells like a well-oiled machine.
+* The gears keep on grinding.
+* The gears are coming to a halt.
+* Gearzerd spins around without a care in the world.
+* A pair of gears keep the machine running.
+* The gears are trying to decide which direction to spin.
+* A full gear box assembles itself.
+* You hear incessant clicking...
+* Smells like plastic.
+* Staplete clicks incessantly.
+* Staplete whines as it runs out of clips.
+* Staplete is out of clips.
+* Clicking from two different sources.
+* Drill-Er 3000 is ready to engage!
+* Drill-Er is revving up its drill.
+* Drill-Er is running out of fuel.
+* Smells like gasoline.
+* Drill-Er is scanning the area for hostiles.\n* It has found you.
+* An ensemble of machinery attacks!
+* An entire clicking orchestra.
+* There is some measuring contest going on.
+* An entire team of school supplies blocks\n\tthe path!
+* The edges seem pretty sharp.
+* Some sharp lads and their cohorts take point!
+* Smells like a copycat.
+* Casimic is scratching the floor with its teeth!
+* Casimic tries to not spit out a ball of trash before its turn.
+* Casimic wants to see some cool gun tricks.
+* Casimic's hinge is falling apart.
+* The enemies are arguing over an accidentally erased drawing.
+* A lone blue rubbery boy blocks the path!
+* Everyone is cleaning in unison.
+* Enemies jump at you!
+* An enemy stands in your path.
+* A pencil and a case do battle.
+* Penceller is nervous around Casimic.
+* That chest was a mimic!
+* Casimic seems satisfied with what it saw.
+* Penceller is feeling betrayed.
+* Smells like COOL wood.
+* A COOL aura emanates from the Penceller!
+* The COOL Penceller tries to maintain a COOL pose at all costs.
+* COOL Penceller is adjusting his scarf.
+* An entire pencil box appears!
+* A regular and a COOL pencil appear.
+* You suddenly feel suffocated by a COOL aura.
+* You are seeing red.
+* The Pencellers are arguing about who is the COOLest.
+* A dark like, plant like thing blocks the path!
+* A dark plant and some darkners block the way!
+* Doesn't really smell like anything.
+* The plant-like thing pulses eerily.
+* The vine stares into your SOUL.
+* The vine is starting to collapse.
+* Honvich and his cohorts block the way!
+* Honvich attempts to read a passage from a book.
+* Honvich seems distracted by something.
+* Honvich's pages are starting to tear off.
+* Honvich tries to keep his cape from creasing.
+* Smells like parchment.
+* Honvich is somewhat proud that you got the question\n\tright.\n* Honvich's DF DOWN for this turn!
+* A couple of drawing buddies draw near!
+* A bunch of riders on their steeds block the way!
+* The rider's horse ain't lookin' too good.
+* A lone rider rides in!
+* The rider is trying to keep its "horse" reigned in.
+* The rider hovers in place while making horse noises.
+* A full pencil-case formation!
+* The battle rages on...
+* Smells like a battle.
+* The homework team blocks the path!
+* Smells like concentrated alcohol.
+* A drooling beast eyes you ominously.
+* Morker is flicking its tongue at you.
+* Morker looks like it wants to play fetch.
+* You're sure Morker would be wagging its tail\n\tif it had one.
+* Your nose is assaulted by high alcohol content.
+* Morker lets out some weird noise that might\n\tbe a whine.
+* Honvich makes a last stand!
+* A so called "helper" approaches...
+* Two very annoying helpers block the path.
+* This will be annoying to get through.
+* The clips are bickering about multiple different\n\thelp topics.
+* The clip tries to organize its files.
+* The clip is repeating multiple error messages.
+* Smells like old files.
+* The clip looks around for more people that\n\tmight need "help".
+* The Archives' defenders stand firm.
+* You ask Brickeer if it wants a new look.\n* Seems it wants you to help it choose something.
+* Smells like plastic bricks.
+* A deer-like brick blocks the way!
+* Brickeer ponders about changing its looks.
+* Brickeer seems heavy.
+* Brickeer's body is full of scratches and smudges.
+* Brickeer twists its long neck in an unnatural way.
+* Brickeer is looking around for instructions.
+* Some cloud cuckoo-landers block the way!
+* A weird polygon... thing approaches.
+* The polygon being dances in a strange way.
+* The polygon being taunts the party.
+* The polygon being speaks in strange runes...
+* The polygon being's parts wobble trying to keep\n\ttheir shape.
+* The sentinel seems to be in pain.
+* The sentinel seems somewhat relieved.
+* The sentinel tries to loosen its shackles\n\tto no avail.
+* A dark creature in shackles.
+* The sentinel stares at you with its many lenses.
+* Sentinels watch your step.
+* A protector of the Spire steps in!
+* The enemy seems confused about its own name.
+* The enemy moves its tails hypnotically.
+* Smells like AV connection.
+* Nine-Tails ponders how to get a better signal.
+* Nine-Tails' cables are all bent in places.
+* The Spire security team steps in!
+* Multiple drills are drillin' up.
+* The prison guards block the path.
+* A new, better, smarter type of Penceller approaches.
+* The Mech-Penceller fiddles with its arm cannon.
+* The Mech-Penceller is trying to calculate\n\tthe best bullet trajectory.
+* The Mech-Penceller tries to figure out the\n\tright distance between the lightners.
+* The Mech-Penceller is screaming about numbers\n\tincomprehensibly.
+* Ms. Syrup is angry at you!
+* Ms. Syrup prepares a heated move.
+* Smells like waffles... or is it wafers?
+* Ms. Syrup is on her ropes.
+* You're covered in syrup! Try to [color=yellow]shake it off[/color]!
+* Ms. Syrup tosses the entire kitchen,\n\tsink included, at you.
+* Criminal spotted: MC Toster!
+* Toster's body is heating up.
+* Toster's defense is staggering.
+* Toster is trying to keep his cool.
+* Toster's body is showing signs of wear.
+* Toster's tries to fiddle with his knobs,\n\tbut his arms are too bulky to reach them.
+* Toster has overheated! Defense reduced to 0!
+* Toster is almost at heat capacity.
+* Toster is trying to strike a cool pose,\n\tbut it just looks goofy.
+* Chujin asks Kanako to be careful.
+* Toster has cooled down (Defense is back up).
+* You feel something at the back of your mind...
+* Move through [color=orange]orange attacks[/color] to avoid them!
+* Gancho dances gracefully.
+* Gancho's cape flutters despite there being no wind.
+* Cole tries to remember... Remember what?
+* Cole feels something deep within his SOUL.
+* Axis tries to analyse Gancho's movements,\n\tbut can't keep up.
+* Gancho's cape is becoming tattered.
+* Gancho's steps are faltering.
+* It was spectacular...
+* Criminal spotted: Joe CapCcino!
+* Joe argues with his minions to aim better.
+* Joe complains about his minions being incompetent.
+* Joe's chair is faltering.
+* Joe yells something about coffee that you\n\tdon't quite get.
+* Joe laughs as he twirls his non-existent\n\tmustache.
+* Joe reloads his gun with coffee beans.
+* Joe looks around and sees he is alone.
+* Criminal spotted...? BunBun.
+* Press [INTERACT] to [color=yellow]dash[/color] (can parry [color=#f06982]pink bullets[/color]).
+* The bat shouts orders at BunBun.\n* She sighs with a sad smile.
+* BunBun looks distressed.
+* BunBun stares at Kanako and forces a smile.
+* The bat keeps trying to drag BunBun's arm.
+* BunBun is trying to smile despite the pain.
+* BunBun looks around as if searching for something.
+* Smells like plush and metal.
+* Smells like freshly brewed coffee.
+* Smells like old patchwork.
+* Watch out for spiked balls!\n* [color=yellow]You cannot dash through them![/color]

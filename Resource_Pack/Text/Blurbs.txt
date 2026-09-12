@@ -1,0 +1,319 @@
+@TestEnemy
+This is a dialogue.
+Hello!
+[wave]*Cactus Noise*
+I'm feeling weak...
+
+@Penceller
+Imma gonna sharpen you up!
+[wave]*Sharpening Noises*
+I'm losing my point...
+I'm all shapened up!
+Hey, hands off!
+Friends, huh? Well sounds fun.
+Well, YOU suck!
+I thought we were friends...!
+You're a horrible friend!
+
+@Eraserhead
+Time to erase you up for good!
+What a chore...
+Losing my fiber here.
+What a chore...
+Yeah I can see that.
+That's what I'm talking about.
+That's enough.
+
+@Warden
+Build up yer TP to use APPREHENSION.
+Lower yer opponent's HP to make it easier to catch 'em.
+C'mon, I'm waitin'.
+
+@Pennilton
+Pennilton is number one, baby!
+Here's the power of the number one!
+Amazed at my number one-ness?
+Ouch, you're leaving a mark!
+You'll pay for denting me!
+[shake]Please...
+.
+.
+.
+
+@Mopper
+Clean clean@clean...
+Not clean enough...
+There is a dirt spot there...
+[wave]*Mopping*[/wave]
+[shake]Why did you@do that?!
+I don't trust you.
+T-thanks...
+
+@BellBoss
+[wave]*Ring ring*
+[wave]*Ringing noises*
+[wave]*Rings harder*
+[wave]*Ring-a-ding*
+[wave]*Ring... Ring...*
+
+@FoxBoss
+[shake]Ka...Kana...
+[shake]Why...@Kanako...
+[shake]Don't...@Don't leave...
+[shake]Don't...@A-Abandon...
+[shake]Too... Long...
+[shake]Left behind...@Too long...
+[shake]Left... In the dark...
+[shake]It's dark... So dark...
+[shake]Ah, Kanako...
+[shake]Don't leave me again...
+[shake]Don't leave me in the dark...
+[shake]...
+[shake]Kanako...
+[shake]Don't leave me...
+[shake]Not... Kanako...
+[shake]K-KKKIYAAAA-!!!
+
+@Bearing
+So it has come to this...
+Lightners...@Do you want to know so badly what will happen?
+...What will happen if you extinguish the fountain?
+We will all return to darkness.
+The dark, cold, unforgiving darkness.
+This world...@That has only become aware today...
+Is this what you want to happen?
+You abandoned us in this dark place...@For a long, long time...
+And as soon as we become aware, you want to put us back down?!
+NO! I say! I will not allow it!
+Lightners!@I will fight you until the bitter end!
+I will not return to the darkness!
+We will thrive!
+We will survive!
+And you will have no say on it!
+Ha-ya!
+Not bad, lightners...
+Tch... I'm just getting started...
+...Why aren't you giving up...?!
+Give up already!
+
+@Axis
+STAY STILL SO I CAN SHOOT YOU.
+...WAIT, NO. MOVE SO I CAN SHOOT YOU.
+...YOU'RE STARTING TO [tick] ME OFF...
+IF ONLY I HAD MY OTHER HAND, YOU'D BE [toast].
+HOLD STILL.
+SURRENDER, AND I WON'T HURT YOU [much].
+THREAT LEVEL CONTINUES TO ESCALATE.
+...BZZZZZT.
+PLEASE CO-OPERATE SO YOUR TERMINATION CAN BE SWIFT.
+
+@Gearzerd
+Tick tock-@Tick tock-
+Gotta spin around...
+Now I can spin better!
+[shake]SPIIIIN!
+Nice spin!
+All ready to spin now.
+Sorry, too rusty...
+
+@Stapler
+[shake]ARF ARF ARF ARF[/shake] [wave]*CLICK CLICK*
+[wave]Arf Arf Arf...
+[wave]*Click click click*
+[wave]Wan wan!
+[wave]*Whine* *Click click*
+
+@Wrench
+You in need for a fixin'?
+Tighten up those bolts!
+[shake]I'm coming off loose...
+[shake]Ouch... My bolts...
+An easy job for me!
+
+@Drill
+Drillin' up for battle!
+This is not a drill!
+Commencing enemy drillage!
+Heavy damage sustained!
+Requesting repairs!
+
+@Ruler
+Line up!
+You're obtuse!
+Acute pain...
+[wave]I see... squiggles...
+Flawless!
+Stay still!
+You've already messed it up!
+
+@CaseMimic
+[center][img]res://Sprites/Menus/SpecialSpeak/MimicSpeak.tres[/img]
+
+@CoolPenceller
+Red is the coolest color.
+It hurts to be as cool as me.
+Shades are cool even indoors.
+E-Even like this... I'm still cool...
+You get me. I like that.
+Prove how cool you are by not getting hit!
+Not impressed?@Well, check THIS out!
+
+@Snipper
+[wave]*SNIP SNIP*
+[wave]*Snipping Noises*
+[wave]*Snip... Snip...*
+
+@Honvich2
+This time you won't escape!
+It's about time you LEARNED something!
+Hng... Just a small crease...
+Have you been keeping up on your studies? Because it is time for a quick QUIZ!
+What are you doing?
+Hope you kids have some JUSTICE in your SOULs-
+Because it is time to put it to the TEST!
+You didn't forget your homework, didn't you?!
+Time to cut up a notch!
+You better read between the lines!
+
+@PencellerRider
+Woah! Calm down, Horsey!
+C'mon T-Bone! Run like the wind!
+Keep your hats on, kids!
+This place ain’t big enough for two of us!
+J-Just a scratch!
+Watch it, pal!
+
+@Marker
+[img]res://Sprites/Menus/SpecialSpeak/MarkerSpeak.tres[/img]
+[img]res://Sprites/Menus/SpecialSpeak/MarkerSpeakWeak.tres[/img]
+
+@Polygon
+[img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonDown.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonB.tres[/img]
+[img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonDown.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonDown.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonA.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonB.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonY.tres[/img]
+[img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonLeft.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonUp.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonDown.tres[/img] [img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonRight.tres[/img]
+[img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonA.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonB.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonA.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonB.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonX.tres[/img][img]res://Sprites/Menus/Menu Sprites/Buttons/ButtonY.tres[/img]
+
+@LegoDeer
+Please check the enclosed instruction booklet.
+Infinite play combinations!
+Real fire not included.
+[wave]*Deer noises*
+Losing structure...
+Starting to get scratched...
+Everything is awesome!
+I look dashing!
+Uh, starting to get heavy...
+[shake]Help...
+Why would you do that...??
+Phew... Thanks...
+You already tricked me once...
+Today, I'm feeling a bit... artsy.
+Feeling quite dapper today, if I do say myself.
+I wanna relive my young days.
+I don't think I need new hats, really.
+Uh, thanks?
+...Are you making fun of me...?
+That's not really what I wanted.
+Please stop.
+
+@Clippy
+Looks like you are in a battle. Would you like help?
+It is now safe to shut down your life.
+Unexpected Error. Press any key to die.
+Looks like something went wrong :(
+Something went wrong. Something went wrong. Something went wrong.
+Allow me to assist!
+Generating answer!
+Select the correct file out of these: Image
+Select the correct file out of these: Audio
+Select the correct file out of these: Text
+Select the correct file out of these: Dog
+
+@PinkPenceller
+Target located...
+Tracing nearby works...
+Swapping tips...
+Augh! Took some damage!
+Broken tips! Broken tips!
+Getting accurate information...
+...Are these the right coordinates?
+
+@Pinstripe
+Do you possess strength? Or is this just recklessness?
+Well no matter - As long as it is sincere, even [color=orange]bravado[/color] can turn into [color=orange]courage[/color].
+Dash on ahead knowing that you will be fine as long as you never hold back.
+[shake]I AM BARON GANCHO DI PINSTRIPE.
+BY THE HONOR OF MY NOBILITY- I WILL MAKE YOU REMEMBER YOUR VOW!
+Is it gone? The sparks of your promise...
+No... that’s not quite right-
+Something keeps moving you forward... But what is it?
+Hm... Pehaps not all is lost.
+Is it a way to start anew...?
+Yes, from the ashes a new passion shall ignite.
+I shall make you remember once more.
+En garde!
+Cole! Remember your promise!
+Hmph. Tis but a scratch...!
+Come, Cole. Dance with me! Dance with the shadows!
+May it light the flames of recognition in your heart!
+You were bold once, be bold once more!
+
+@DarkSentinel
+01101000 01100101 01101100 01110000
+01110100 01101001 01100111 01101000 01110100
+01101000 01110101 01110010 01110100 01110011
+
+@NineTails
+A beating in full HD!
+Stop! Intruders!!
+More tails means more smarts.
+Getting some static...
+Don't jiggle the cables!
+Help me tune in!
+
+@MsSyrup
+This is what you get for messing with Tosty!
+How about THIS for a snack?!
+Wonder how good you'd taste in sauce~
+Ready for seconds? Say no more!
+Ouch! You're denting my pans!
+[wave]Huff... I... Need a boost...
+[shake]ROCKET MITTENS!!
+You really wanna see what I can cook up, well, here you go!!
+Smiles are free, though I might have to charge ya for this one!
+
+@BunBun
+Kanako... I-I'm sorry...
+HIT THEM! LET ME SWING AT THEM!!
+I don't want to do this... Forgive me.
+HEY BUNNY! STOP MOPING! IT'S HITTIN' TIME!!
+Hope this doesn't hurt much...
+I HOPE THIS HURTS A LOT!!
+It's okay, Kanako. I don't blame you.
+I BLAME YOU. I BLAME YOU A LOT!
+HEY! Eyes on the prize here!! We are losing!!
+...I-It's okay, Kanako... Just keep going...
+
+@CoffeeGuy
+Take a shot at [shake]THIS[/shake]!
+Watch out, it's pipin' hot!
+Wanna try out my new flavor? Here is a free sample!
+Careful with this chair! It costs more than you!
+[shake]No... My sleepless empire...!
+
+@Toaster
+Let me show you what this new body can do!
+Get ready to be TOASTED!!
+Let's see you dodge THIS!!
+You're ruining my paintjob, this won't stand!
+...Is it getting hot in here or is it just me?
+[shake]Why you...!!
+[shake]WOAH! WOAAH! HOT! HOT!!
+
+@CoffeeMinion
+Keep your hands off the boss!
+Attack! Attack!
+You can't stop the boss!
+Oof... I gotta keep it up... For the boss!!
+...I guess this is a bit pointless.
+...Hmph. I guess you have a point.

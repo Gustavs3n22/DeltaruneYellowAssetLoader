@@ -1,0 +1,1634 @@
+@END
+[color=black].
+>instend
+>instant
+END
+
+--
+
+@InstEnd
+[color=black].
+>instant
+>instend
+END
+
+----
+
+@KeybindReminder
+REMINDER: You can press [color=yellow]F12[/color] at any 
+time to reset the keybinds back
+to default!
+END
+
+-----
+
+@EquipHat
+>sound:snd_equip_ch1.wav
+* You put on the hat.
+END
+
+-----
+
+@RemoveHat
+* You removed the hat.
+END
+
+-----
+
+@HAT_DESC
+* A burly hat that has seen its 
+  fair share of adventures.
+.
+* Adorned with a feather from 
+  your favorite caretaker.
+END
+
+-----
+
+@NothingToSee
+* There is nothing else to see in there.
+END
+
+-----
+
+@SaveFirst
+* Through the darkness, you see it.   
+* The light only you can see.
+>heal
+.
+* You stretch your hand, and...
+>callsave
+END
+
+-----
+
+@SaveDW1Kanako
+* Luckily, you were able to
+  reunite with your childhood
+  friend, Kanako.
+>heal
+.
+* You are filled with a sense
+  of companionship.
+>callsave
+END
+
+------
+
+@SaveSecond
+* As you touch the light, you feel
+  the weariness leave your body.
+>heal
+.
+* HP Fully Restored.
+>callsave
+END
+
+-----
+
+@SaveWeird
+>heal
+* Justice has yet to be served.
+>callsave
+END
+
+-----
+
+@SaveQuick
+[color=black].
+>callsave
+>heal
+>instant
+>instend
+END
+
+-----
+
+@PrisonFountainCheck
+* A stream of darkness is pouring 
+  out from a room below.
+END
+
+-----
+
+@BALLJUNKDESC
+* A small ball of accumulated 
+  things in your pocket.
+.
+* Has some sentimental value.
+END
+
+-----
+
+@BallJunkUse
+* You stare at the ball of junk
+  in awe.
+.
+* A sense of nostalgia washes
+  over you.
+END
+
+-----
+
+@CratesGeneric
+* Crates.
+END
+
+-----
+
+@MagicDoorInactive
+* A lone doorframe sits in place.
+.
+* You can't see through it.
+END
+
+-----
+
+@MagicDoorPrompt
+* Where would you like to go?
+END
+
+--
+
+@MagicDoorAlready
+* Surprisingly, you are already
+  there.
+END
+
+--
+
+@MagicDoorWarp
+* The door opens, and...
+END
+
+--
+
+@MagicDoorCant
+* ...?
+.
+* For some reason, the door
+  refused to open.
+* Maybe try somewhere else?
+END
+
+-----
+
+@LockedDoor
+* (It's locked.)
+END
+
+-----
+
+@NoResponse
+* (No response.)
+END
+
+-----
+
+@EmptyChest
+* (It's Empty.)
+END
+
+-----
+
+@KanakoPhoneEvent1
+* Ah, good idea!
+* Maybe we can call home!
+>p:KanakoNormal
+END
+
+-
+
+@KanakoPhoneEvent1Alt
+* Hm... I wonder...
+>p:KanakoPuff
+END
+
+-----
+
+@PhoneTry1
+* You tried calling on the phone...
+>soundend:snd_smile_ch1.wav:wait
+END
+
+-----
+
+@PhoneTry2
+* It is only garbage noise.
+END
+
+-----
+
+@KanakoPhoneEvent2
+* ...
+>p:KanakoScared
+.
+* Err... 
+* L-Let's just pretend
+  that didn't happen...
+>p:KanakoDumb
+END
+
+-
+
+@KanakoPhoneEvent2Alt
+* ...
+>p:KanakoScared
+.
+* Err... 
+* I-I'll just pretend
+  that didn't happen...
+>p:KanakoDumb
+END
+
+-----
+
+@SaveWeirdRoute
+* Justice.
+>heal
+.
+* @v10 left.
+>callsave
+END
+
+--
+
+@MoneyReward
+* You got @m8 Dark Dollar(s).
+END
+
+-----
+
+@KanakoGateNoKanako
+* The gate stands defiantly in 
+  your path.
+.
+* No matter how hard you try, 
+  it's like trying to push a 
+  wall.
+END
+
+-----
+
+@CantLeave
+* You can't leave now.
+END
+
+------
+
+@CantLeaveKanako
+>redirectmap:TryLeaveKanako:CantLeaveKanako2
+>redirect:WeirdStart:CantLeaveKanakoWeird
+* C-Cole...?
+* Where are you going...?
+>p:KanakoDumb
+.
+* Don't just leave me here!
+>p:KanakoTongue
+>mapflag:TryLeaveKanako
+END
+
+@CantLeaveKanako2
+* ...Don't you dare go
+  away without me...
+>p:KanakoDumb
+END
+
+@CantLeaveKanakoWeird
+* ...Cole?
+* Get back here.
+>p:KanakoAngry
+END
+
+-----
+
+@BearingFortMainGateCheck
+* Seems this leads out back
+  into town.
+* Would be a nice shortcut.
+>p:KanakoNeutral
+.
+* Let's try to find a way
+  to unlock it.
+>p:KanakoNeutral
+END
+
+-----
+
+@BearFortMainPoster
+* "NOTE TO STAFF: "
+.
+* "We received reports of
+  escalated violence recently
+  between staff members."
+.
+* "STOP THAT!
+* "Don't just FIGHT! 
+  Have some MERCY!"
+.
+* "Earning more money from 
+  FIGHTing is just a rumor!"
+* "BE NICE!!"
+.
+* (The rest of the note is just
+  incoherent rambling.)
+END
+
+-----
+
+@FortDuoMGNote
+* "NOTE TO STAFF: "
+.
+* "Due worries of a potential
+  lightner attack, we have
+  increased the security."
+.
+* "All staff is now required to
+  pass the 'score test' in order
+  to cross. NO EXCEPTIONS!"
+.
+* "As long as you hit 10 targets
+  before the limit ends, the path
+  will open. Else, too bad!"
+.
+* "PS: If no one is at the post,
+  don't scream for someone to come,
+  some of us want some quiet time!"
+END
+
+-----
+
+@KanakoWarningBeforeBear
+>redirect:WeirdStart:KanakoWarningBeforeBearWeird
+* Hey Cole, I noticed
+  the door south leads
+  back into town.
+>p:KanakoPuff
+.
+* I think we could visit
+  one last time before
+  we proceed.
+>p:KanakoNormal
+.
+* Y'know, get better gear
+  and stuff.
+* Bearing is dangerous.
+>p:KanakoNeutral
+.
+* Your call, though.
+* If you want to, let's
+  just head in.
+>p:KanakoNormal
+END
+
+-----
+
+@SchoolLocked
+* Drat. It's locked.
+>p:KanakoOffended
+>top
+.
+* Are we going to have
+  to wait until morning?!
+>p:KanakoOffended2
+>top
+.
+* ...Let's try to find
+  another way out.
+>p:KanakoNeutral
+>top
+END
+
+-----
+
+@SchoolLocked2
+* (Locked.)
+>sound:snd_locked_door.wav
+.
+* It's no use.
+* Let's find another way.
+>p:KanakoNeutral
+END
+
+----
+
+@LightswitchCheck
+* The lights are already on.
+END
+
+-----
+
+@CheckJailPortalDay1
+>redirect:KanakoFollowing:CheckJailPortalDay1Kanako
+* There is no reason to return
+  right now.
+END
+
+-----
+
+@CheckJailPortalDay1Kanako
+* Cole? We just left
+  the Dark World...
+>p:KanakoNeutral
+.
+* Let's give it a rest
+  for today, alright?
+>p:KanakoSad2
+END
+
+-----
+
+@SignOutsideSupplyCave
+* WARNING!
+* Risk of cave in!
+* DON'T ENTER!
+END
+
+-----
+
+@ReturnToLWDay1
+* ...
+>p:KanakoNeutral
+.
+* Are we finally 
+  back...?
+>p:KanakoNeutral
+.
+* ...
+>p:KanakoNeutral
+.
+* What do we do now?
+>p:KanakoPuff
+.
+* ...It's pretty late.
+* Martlet must be home
+  by now.
+>p:KanakoNeutral
+.
+* Ok, here's what we'll do.
+>p:KanakoNormal
+.
+* I'll walk you home.
+* Alright?
+>p:KanakoNormal
+.
+* I'll deal with mom's
+  fury when I get home.
+* Don't worry about it.
+>p:KanakoPuff
+.
+* So, let's go!
+* To Mart's place!
+>p:KanakoHappy
+.
+* (At least then we can
+  spend some time together, 
+  but like, in a normal way)
+>p:KEEP
+END
+
+------
+
+@Closed
+* Closed.
+END
+
+------
+
+@BackDoorCafe
+>redirect:KanakoFollowing:BackDoorCafeK
+>sound:snd_locked_door.wav
+* It's locked.
+END
+
+----
+
+@BackDoorCafeK
+* Cole, what are you
+  doing?
+>p:KanakoPuff
+.
+* That's the employee
+  backroom. We can't 
+  just go in!
+>p:KanakoTongue
+END
+
+---
+
+@CafeBoard
+* Many drawings and notices
+  are on the board.
+.
+* You spot a few made by
+  Kanako amongst them.
+.
+>redirect:KanakoFollowing:CafeBoardK
+[color=black].
+>instant
+>instend
+END
+
+---
+
+@CafeBoardK
+* H-hey! Stop staring!
+* I can show you some of 
+  my drawings later, ok?
+>p:KanakoTongue
+END
+
+-----
+
+@KETSU_NECKLACE
+* A necklace with a golden
+  trim and a large blue gem.
+* The chain is broken.
+.
+* A faint image of a fox face can
+  be seen within its gem.
+END
+
+-----
+
+@KetsuNecklaceUse
+>redirect:KanakoFollowing:KetsuNecklaceUseKanako
+* You take out the necklace 
+  and stare at the gem.
+* You see your reflection.
+.
+* Nothing happens.
+END
+
+-----
+
+@KetsuNecklaceUseKanako
+* That definitively is
+  the necklace.
+>p:KanakoPuff
+.
+* Let's return it to mom
+  when we have the chance.
+>p:KanakoNormal
+END
+
+-----
+
+@BallJunkTossDiag
+* You feel like [color=red]something really
+  bad[/color] will happen if you toss
+  this out.
+.
+* Toss anyway?
+>prompt:Yes:No
+>promptredirect:BallJunkTossed:BallJunkKeep
+END
+
+---
+
+@BallJunkTossed
+* You toss the ball on the ground.
+* It breaks up and its contents
+  spill out everywhere.
+.
+* There is no coming back from this.
+END
+
+---
+
+@BallJunkKeep
+* You carefully put the ball
+  back into your pocket.
+END
+
+------
+
+@MartletEventDay1-1
+* A red letter is on the ground.
+.
+* ...
+.
+* Pick it up?
+>prompt:Yes:No
+END
+
+---
+
+@MartletEventDay1-2
+* You picked up the letter.
+END
+
+---
+
+@MartletEventDay1-3
+* [shake]Aaaaaaaaaaah![/shake] 
+* I'm late! I'm late!
+>bleep:Martlet
+END
+
+---
+
+@MartletEventDay1-4
+* Phew... Finally made it...
+>p:MartletNervous
+.
+* ...?
+>p:MartletNeutral
+.
+* Ah! Cole!
+>p:MartletHappy
+END
+
+---
+
+@MartletEventDay1-5
+* Sorry for making you wait...
+>top
+>p:MartletSad
+.
+* Ceroba called me 
+  earlier...
+* Glad you are okay...
+>top
+>p:KEEP
+END
+
+---
+
+@MartletEventDay1-6
+* ...
+>top
+>p:MartletSad
+.
+* I'm sorry for not being
+  able to stay with you
+  today...
+>p:MartletSad
+>top
+.
+* With everything going 
+  on...
+* I just...
+>p:MartletSad
+>top
+.
+* ...
+>p:MartletSad
+>top
+.
+* But what matters is that
+  you are okay.
+>p:MartletHappy2
+>top
+.
+* It's been a long day...
+* Let's go inside.
+>top
+>p:MartletHappy2
+END
+
+-----
+
+@REDLETTERDESC
+* A red envelop containing a 
+  letter.
+* It's adressed to Martlet.
+.
+* You already knows its contents.
+END
+
+---
+
+@RedLetterUse
+* There is no point reading it.
+END
+
+---
+
+@TossItem
+* Permanently get rid of
+  [ITEM]?
+>prompt:Yes:No
+END
+
+--
+
+@TossItem2
+* You tossed [ITEM]
+  away like the trash it was.
+END
+
+--
+
+@KanakoArcadeD1
+* Hey, remember that time
+  we got the high score
+  at this game?
+>p:KanakoNormal
+.
+* Sadie couldn't believe it,
+  she had tried many times!
+>p:KanakoHappy
+.
+* Though you holding the
+  pedals while I drove
+  sure was cheating!
+>p:KanakoTongue
+END
+
+---
+
+@JusticeServed
+>sound:snd_dtrans_lw.ogg
+* Justice has been served.
+* You became stronger.
+END
+
+--
+
+@KanakoFirstBattle
+* ...W-what is going on?!
+>p:KanakoSurprise
+.
+* ...W-well, Cole, whatever
+  is happening...
+>p:KanakoNeutral
+.
+* I trust your judgement.
+>p:KanakoNeutral
+.
+* Just tell me what to do.
+>p:KanakoNeutral
+END
+
+--
+
+@RedLetterDay2
+* It's the letter from yesterday.
+.
+* ...
+.
+* Pick it up?
+>prompt:Yes:No
+END
+
+--
+
+@EnterDarkJailDay2-1
+* ...Here we are.
+>p:KanakoNeutral
+.
+* ...
+>p:KanakoNeutral
+.
+* What if the Dark World
+  isn't there anymore?
+>p:KanakoSad
+.
+* What would we do then?
+>p:KanakoSad
+.
+* This week's plans are
+  already way off course...
+>p:KanakoSad2
+END
+
+--
+
+@EnterDarkJailDay2-2
+* Well no use pondering
+  about it.
+>p:KanakoNeutral
+.
+* Let's just jump in.
+>p:KanakoOffended
+.
+* Come on, on 3...
+>p:KEEP
+.
+* 1...
+>p:KEEP
+.
+* 2...
+>p:KEEP
+.
+* 3...!
+>p:KEEP
+END
+
+--
+
+@PrisonTrashCheck
+* Seems it was emptied out recently.
+.
+* Bummer.
+END
+
+--
+
+@EnterDarkJailDay2-3
+* Well, here we are.
+>p:KanakoPuff
+.
+* ...I'm kinda nervous
+  now that the Dark Worlds
+  are still real...
+>p:KanakoNervous
+.
+* But we don't have time
+  to waste. Let's go!
+>p:KanakoTongue
+END
+
+--
+
+@PostWardenDWDay2
+* So there are two
+  Dark Worlds in town...
+>p:KanakoNeutral
+.
+* Where would they be?
+>p:KanakoPuff
+.
+* Any ideas, Cole?
+>p:KanakoPuff
+.
+* ...
+>p:KanakoSad2
+.
+* Hm... Well, this 
+  isn't a good place
+  to think about this.
+>p:KanakoNeutral
+.
+* Let's head back to my 
+  place, we can think 
+  better there.
+>p:KanakoNormal
+.
+* And I'm starting to
+  get hungry. Gonna get
+  a snack while there!
+>p:KanakoNormal
+.
+* Let's go.
+>p:KanakoHappy
+END
+
+--
+
+@InvFull
+* (You can't carry any more.)
+END
+
+--
+
+@LunchDesc
+* A box filled with food
+  made by Martlet.
+.
+* She tried her best.
+END
+
+--
+
+@FridgeDay2
+* Martlet left a box with
+  food in the fridge.
+.
+* Take it?
+>prompt:Yes:No
+END
+
+--
+
+@FridgeDay2Get
+* (You got the Homemade Lunch.)
+END
+
+--
+
+@EatLunch
+* You open the box and stare
+  at the food.
+.
+* Martlet tried to make it
+  look like her face, giving
+  out a wink-
+.
+* However the meat is burnt
+  and it looks like her face
+  is melting instead.
+.
+>sound:snd_swallow_ch1.wav
+* You eat it anyway.
+* It wasn't THAT bad.
+* Your HP is maxed out.
+END
+
+--
+
+@AxisParadoxCole
+* PLEASE. MY PROCESSOR IS
+  TOO WEAK TO UNDERSTAND
+  WHAT YOU JUST SAID.
+>p:AxisBored
+END
+
+--
+
+@AxisParadoxKanako
+* Um... This sentence
+  is false...?
+>p:KanakoNervous
+.
+* AH. A CLASSIC.
+>p:AxisNormal
+.
+* BUT MY PROCESSOR CAN'T
+  COMPUTE IT. NICE TRY,
+  THOUGH.
+>p:AxisNormal
+>mini:KanakoOffended2:(I was sure it would work...)
+END
+
+--
+
+@WaterFill
+* An open faucet.
+* Fill your gun with water?
+>prompt:Yes:No
+END
+
+--
+
+@GunFilledWater
+* Cole's gun is filled with water!
+* Press [INTERACT] to shoot.
+END
+
+--
+
+@SukobanDone
+* (You already activated this
+  terminal.)
+END
+
+--
+
+@HealFountain
+>heal
+* Somehow, drinking from this
+  fountain has healed the party.
+* HP fully restored.
+END
+
+--
+
+@EndOfGame
+This is the end of the game as
+of now.
+Thanks for playing!
+END
+
+--
+
+@BattleMemStart
+* (You thought about previous
+  battles...)
+.
+* (You can almost see them clearly
+  in your mind...)
+END
+
+--
+
+@BattleMemEnd
+* (You start to wake up from
+  your memory...)
+END
+
+--
+
+@SaveLW
+>redirect:SaveLW:SaveQuick
+>heal
+* It's faint, but for just a
+  moment...
+.
+* It flicked weakly.
+* The light only you can see.
+.
+* You instinctively reach your
+  hand, and...
+>setflag:SaveLW
+>callsave
+END
+
+--
+
+@KanaHugFirst
+* C-Cole?!
+* W-What are you doing...?!
+>p:KanakoBlushFlustered
+END
+
+--
+
+@KanaHug0
+* F-Fine...
+* I guess more wouldn't
+  hurt...
+>p:KanakoNervous
+END
+
+--
+
+@KanaHug1
+* ...
+>p:KanakoNervous
+END
+
+--
+
+@KanaHug2
+* ...Cole?
+* The battle...?
+>p:KanakoPuff
+END
+
+--
+
+@KanaHug3
+* ...Okay that's enough.
+>p:KanakoOffended2
+END
+
+--
+
+@KanaHug4
+* I said enough!
+>p:KanakoHurt
+END
+
+--
+
+@VineBlock
+* Some strange vine is blocking
+  the path. Maybe you can get
+  rid of it somehow.
+END
+
+--
+
+@FlashlightDesc
+* BROKEN FLASHLIGHT:
+* No matter how much you shake it,
+  it makes a rattling noise.
+END
+
+--
+
+@FlashlightUse
+* You tried pressing the button
+  on the flashlight, but nothing
+  happened.
+END
+
+--
+
+@MetalPipeUse
+* You can't see any use for this
+  right now.
+>redirect:KanakoFollowing:MetalPipeUseK
+END
+
+--
+
+@MetalPipeUseK
+* You hand the METAL PIPE to
+  Kanako.
+.
+* Uh, why are you giving
+  this to me?
+>p:KanakoOffended2
+.
+* ...I mean, it is heavy but
+  I've used heavier stuff
+  during softball practice!
+>p:KanakoTongue
+.
+* Wonder what it would
+  become in the Dark
+  World...
+>p:KanakoPuff
+.
+* Kanako gives you the METAL PIPE
+  back.
+END
+
+--
+
+@MetalPipeDesc
+* METAL PIPE:
+* Pretty heavy, long enough to
+  be used as a baseball bat.
+END
+
+--
+
+@MotherboardDesc
+* OLD MOTHERBOARD:
+* It seems busted somehow, but
+  maybe it can be salvaged.
+END
+
+--
+
+@MotherboardUse
+* You hold the motherboard and
+  stare at it.
+.
+* Sadly, you aren't that great
+  with machines.
+.
+* Maybe someone else will know
+  what to do with it.
+END
+
+--
+
+@FallHolePrompt
+* You can kinda see the floor
+  below from this hole.
+.
+* Jump in?
+>prompt:Yes:No
+END
+
+--
+
+@Bookshelf
+* Many books are lined in the
+  shelf, but one catches your
+  eye. Read it?
+>prompt:Yes:No
+>promptredirect:BookRead:END
+END
+
+--
+
+@PebbleUse
+* You stare at the pebble.
+.
+* ...
+.
+* Nothing happened.
+END
+
+--
+
+@PebbleDesc
+* A regular, plain rock.
+* There is nothing special
+  about it.
+END
+
+--
+
+@ChowderEat
+* You eat the corn chowder.
+* You chew the pieces of corn
+  thoroughly.
+>sound:snd_swallow_ch1.wav
+.
+* It wasn't the worst thing you
+  have eaten but could use some
+  more salt.
+.
+* Your HP was maxed out.
+END
+
+--
+
+@ChowderCheck
+* Ceroba's "famous" corn 
+  chowder.
+* It is a bit on the plain side.
+.
+* At least it's edible.
+END
+
+--
+
+@ElevatorSameFloor
+* You are already on that floor.
+END
+
+--
+
+@ElevatorKeyCard
+* You insert the key card into
+  the slot...
+* A new floor has been unlocked!
+END
+
+--
+
+@HandMirrorDesc
+* An ornate hand mirror with a 
+  handle, however the mirror 
+  itself is missing.
+.
+* Useless in its current state.
+* Return it to Sadie!
+END
+
+--
+
+@HandMirrorUse
+>redirect:KanakoFollowing:HandMirrorUseK
+* You hold the hand mirror,
+  but since it is actually missing
+  the mirror, it does nothing.
+END
+
+--
+
+@HandMirrorUseK
+* That's Sadie's.
+* Let's return it to her
+  next time we see her!
+>p:KanakoNormal
+END
+
+--
+
+@SodaDesc
+* A can of ICE-E'S COLD AS ICE
+  P'E'ZZA FLAVORED SODA.
+.
+* You can see Ice-E's face
+  winking at you on the side
+  of the can.
+.
+* It should restore 10 HP.
+END
+
+--
+
+@DrinkSodaEvent
+* You open the soda can and drink
+  it. It is fizzy.
+* You restore 10 HP.
+.
+* ...
+>p:KanakoOffended2
+.
+>redirect:Day2End:END
+* Cole, why did you drink
+  that?! That was our bribe!
+>p:KEEP
+.
+* ...Let's go back to the
+  machine and get another,
+  right now!
+>p:KEEP
+END
+
+--
+
+@CopperCoilDesc
+* An old and busted up coil
+  used in heating 
+  electornics.
+.
+* Maybe someone will know
+  what to do with it.
+END
+
+--
+
+@CopperCoilUse
+* You wrap the coil on your
+  wrist.
+* It is kinda tight.
+.
+* It is also rusty and 
+  hurting your arm. 
+.
+* You promptly remove it
+  and stuff it back into
+  your pocket.
+END
+
+--
+
+@KanakoLockMercy
+* ...Cole what are you 
+  doing!?
+>p:KanakoOffended2
+.
+* These guys don't deserve
+  our mercy. 
+>p:KEEP
+.
+* Let's just beat them all 
+  up!
+>p:KEEP
+.
+* (Kanako is no longer letting you
+  SPARE nor APPREHEND.)
+END
+
+--
+
+@FirecrackerDesc
+* A regular New Year's Eve 
+  firecracker. A pink cylinder
+  with a wick on top.
+.
+* A bit old, but should still 
+  work.
+END
+
+--
+
+@FirecrackerUse
+* ...Even if you had a way to
+  light it, it wouldn't be wise
+  to use it now.
+END
+
+--
+
+@TapeDesc
+* An old video tape with a worn
+  out sticker saying "The Feisty
+  Five" on it.
+.
+* Seems to be about Starlo's crew
+  in the good old days.
+END
+
+--
+
+@TapeUse
+* You can't watch that without
+  a TV and a player!
+.
+* Get back home and watch it
+  then.
+END
+
+--
+
+@BunBunReason1
+* BunBun! Please!
+* You need to fight it!
+>p:KanakoSurprise
+.
+* I-I can't, Kanako...
+* He is too strong...
+>p:BunBunSad
+.
+[shake]* DAMN RIGHT![/shake] Do you have
+  ANY idea how much you've
+  wronged us?!
+>p:Bat
+.
+* HOW MUCH WE HAVE FELT
+  LIKE NOTHING?!
+* HUH?!
+>p:Bat
+.
+* BET YOU DON'T KNOW 
+  ANYTHING!!
+>p:Bat
+>prompt:I know:Why should@I care?
+>promptredirect:BunBunReason1_A:BunBunReason1_B
+>soultype:1
+END
+
+-
+
+@BunBunReason1_A
+* IS THAT SO?! THEN HOW CAN
+  YOU NOT SEE IT?!
+>p:Bat
+.
+* CAN'T YOU SEE THE PAIN
+  YOU'VE CAUSED ME?!
+* CAUSED US?!
+>p:Bat
+.
+* THIS WORLD - THIS MESS,
+  IT IS ALL YOUR FAULT!
+>p:Bat
+.
+[shake]* SO DON'T COME TO ME WITH
+  THIS TRASH YOU'RE TRYING
+  TO PEDDLE HERE-
+>p:Bat
+.
+* Hey, shut it!
+>p:KanakoOffended2
+.
+* Maybe if you were less
+  annoying, I'd take you
+  slightly more seriously!
+>p:KEEP
+.
+* Kanako, it is no use.
+* You should run, you'll
+  get hurt!
+>p:BunBunSad
+.
+* I won't leave you!!
+>p:KanakoOffended
+.
+* (BunBun seems uneasy...)
+END
+
+-
+
+@BunBunReason1_B
+* WHY?! BECAUSE DARKNERS
+  NEED A USE!!
+>p:Bat
+.
+* A DARKNER WITHOUT A USE
+  IS NOTHING! WE NEED A
+  PURPOSE!!
+>p:Bat
+.
+[shake]* AND SHE JUST TOSSES ME
+  ASIDE LIKE I'M NOTHING?!
+>p:Bat
+.
+* ABANDONING US AS YOU SEE 
+  FIT...
+* DENYING US OF A PURPOSE-
+>p:Bat
+.
+* TOSSING US LIKE THE 
+  GARBAGE WITHOUT A 
+  SECOND THOUGHT...!
+>p:Bat
+.
+* LIGHTNERS ARE SO SELFISH!
+* I WON'T BE HAVING ANY 
+  MORE OF THIS!
+>p:Bat
+END
+
+-
+
+@BunBunReason2
+* BunBun! You have to 
+  fight it!
+>p:KanakoOffended
+.
+* K-Kanako... I...
+>p:BunBunSad
+.
+* Nice try, girl! But you
+  will NEVER take away
+  my control from her!!
+>p:Bat
+.
+[shake]* SO GIVE UP!!
+>p:KEEP
+>prompt:We won't@back down!:BunBun,@listen to me:...You're right.
+>promptredirect:BunBunReason2A:BunBunReason2B:BunBunReason2C
+>soultype:1
+END
+
+-
+
+@BunBunReason2A
+* OH YEAH?! LET'S SEE WHICH
+  OF US WILL MAKE IT TO THE
+  END, THEN!!
+>p:Bat
+.
+* C'MON, YOU STUPID BUNNY!
+* LET'S SHOW TEACH HER A
+  LESSON!!
+>p:Bat
+>mini:BunBunSad2:......
+END
+
+-
+
+@BunBunReason2B
+* Please, Bunbun... 
+* I know you are stronger 
+  than this-
+>p:KanakoSad
+.
+* You were always there 
+  when I could not do 
+  things on my own-
+>p:KEEP
+.
+* You were always my friend
+  when I would cry alone in
+  my room...
+>p:KEEP
+.
+* You were always the one I
+  could confide in...
+>p:KEEP
+.
+* I... I can't fight you...
+>p:KanakoSad2
+END
+
+-
+
+@BunBunReason2B2
+* THE [heck] ARE YOU TWO
+  DOING?! WE ARE STILL IN
+  A FIGHT!!
+>p:AxisAngry
+.
+* ...! IT IS OUR CHANCE. 
+* SHE IS VULNERABLE!!
+* GET HER!!
+>p:Bat
+.
+* ...Kanny...
+>p:BunBunSad
+.
+* HEY, YOU LISTENING?!
+* SHE LOWERED HER WEAPON!!
+>p:Bat
+.
+* ...I can't.
+>p:BunBunContent
+.
+* I treasure Kanako a lot.
+* We have been friends for
+  a long time.
+>p:BunBunSad
+.
+* I just can't fight her.
+>p:BunBunContent
+.
+[shake]* YOU TRAITOR, TRAITOR!!!!
+>p:Bat
+.
+* DIDN'T SHE ABANDON YOU
+  TOO? GREW "TOO OLD" FOR
+  OLD DOLLS?!
+>p:Bat
+.
+[shake]* SO WHY ARE YOU STILL
+  SIDING WITH HER?! ARE
+  YOU STUPID?!
+>p:Bat
+.
+* ...My mind is made up.
+>p:BunBunContent
+.
+* ...Sorry for taking so
+  long to see the light,
+  Kanako.
+>p:BunBunSad
+.
+* Let's end this together.
+* Like old times.
+>p:BunBunHappy
+.
+* Y-Yes... Let's...!
+>p:KanakoHappyBlush
+>mini:Bat:AAAAAUGGH!!
+END
+
+-
+
+@BunBunReason2C
+* HAH!! Trying to run away
+  now?!
+>p:Bat
+.
+* JUST KNOW THAT NO MATTER
+  WHAT HAPPENS- NO MATTER
+  WHERE YOU GO-
+>p:Bat
+.
+* NOW THAT WE HAVE ENGAGED
+  IN COMBAT, I WILL NEVER
+  LEAVE YOU ALONE!!
+>p:Bat
+.
+* NOW SHUT UP AND FIGHT!!
+>p:Bat
+END
+
+-
+
+@BunBunReasonFail
+* This has gone nowhere.
+END

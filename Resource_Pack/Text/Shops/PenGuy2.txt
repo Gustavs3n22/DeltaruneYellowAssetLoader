@@ -1,0 +1,186 @@
+@Intro
+* Hey, hey! Check
+  out what I got!
+
+@Intro2
+* Anything else,
+  my chums?
+
+@TalkMenu
+* What's up?
+
+@TalkMenu2
+* What else
+  interests
+  you?
+
+@BuyCancel
+* Changed
+  your mind?
+
+@BuyConfirmed
+* Thanks a
+  bunch!
+
+@BuyFull
+* You can't
+  carry  it,
+  bud.
+
+@BuyMoney
+* You can't
+  afford
+  it, bud.
+
+@BuyMenu
+* Gander
+  at my
+  wares!
+
+@BuyMenu2
+* Anything
+  else?
+
+@SellMenu
+* What are
+  you sell-
+  ing?
+
+@SellDontHave
+* You don't
+  have any-
+  thing!
+
+@SellChoose
+* What is
+  it?
+
+@SellConfirmed
+* Thanks a
+  bunch!
+
+@Exit
+* I'm thinkin' of moving shop
+  soon. They say there is a
+  weird door by the lake, so
+  I'll check it out.
+* Thanks for the patronage!
+
+@Topic1
+Bearing
+
+@Topic2
+Yourself
+
+@Topic3
+The Fortress
+
+@Topic4
+Criminals
+
+
+-----
+
+@TalkTopic1
+* Hey, think you can keep quiet
+  while talking about the big 
+  man inside his own 
+  fortress...?
+BREAK
+* Nah, I jest.
+* Really, I don't care about 
+  what he says anymore.
+BREAK
+* Personally, I think he is just 
+  upset because he thinks the 
+  lightners have abandoned us 
+  here.
+* I mean, I don't blame him.
+BREAK
+* I think maybe he just has 
+  some trauma or something, 
+  have you seen his scars?
+* Err, stitches?
+BREAK
+* Wouldn't surprise me if some
+  lightner out there did that,
+  and then tossed him in here.
+* Maybe I'd be very upset too.
+* Maybe.
+
+@TalkTopic2
+* Me? There isn't much to be 
+  known.
+* I'm just some guy tryin' to 
+  make a livin'
+BREAK
+* I've done it all, some party 
+  tricks, did some commissions, 
+  even tried some painting, but 
+  I was never really 
+  successful.
+BREAK
+* When I got in this Dark 
+  World, all I could really do
+  is try to earn an honest 
+  living, but even that has 
+  been hard lately.
+BREAK
+* Thanks, by the way.
+* I'm glad you had fun with my 
+  little game earlier.
+
+@TalkTopic3
+* The fortress has existed 
+  before Bearing took over it.
+* No one knows where it came 
+  from, but many think it was 
+  the lightners that built it.
+BREAK
+* Now why, no one knows 
+  either.
+* Even more when there are so 
+  many traps and stuff all 
+  around.
+BREAK
+* By the way, there is a 
+  treasure room somewhere, but 
+  I think it requires two 
+  people to make through it.
+BREAK
+* If you two want to give it a 
+  try, go on ahead. 
+* Might even be a little
+  fun for you!
+
+@TalkTopic4
+* Criminals, eh?
+BREAK
+* Honestly, everyone knows some
+  darkners are up to some shady
+  business.
+* Not me, I swear!
+BREAK
+* Hm? Pennilton? I know the 
+  guy!
+* Wait, not in that way, I 
+  swear!
+* I never commited any crimes!
+BREAK
+* He just supplied me with some
+  goods, I didn't ask where he 
+  got those.
+BREAK
+* In my line of business, you 
+  learn quickly not to ask many
+  questions.
+BREAK
+* Whatever is you want with 
+  those so called criminals 
+  ain't my business, so I 
+  won't pry.
+BREAK
+* But seems the rest of the 
+  ones you are looking for are 
+  right here in the fortress, 
+  good coincidence, right?

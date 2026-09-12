@@ -1,0 +1,200 @@
+@MoDay1
+* HEY KIDS!
+* Come in to check some BARGAINS?!
+.
+* Unfortunately, Mo is about to
+  close shop!
+.
+* But I can give you one last
+  chance to grab something!
+.
+* Just tell me what you want and
+  let's make a deal!
+END
+
+-----
+
+@TallGirlDay1
+* I came in here looking for
+  coffee, but I don't see any
+  around.
+>tc
+.
+* Guess I gotta go to the cafe
+  before it closes down.
+>tc
+END
+
+-----
+
+@TallGirlDay2
+* I came in here once more to
+  look for coffee...
+>tc
+.
+* But seems someone else came
+  by and bought all of it before
+  anyone else could...
+>tc
+.
+* My search continues...
+>tc
+END
+
+-----
+
+@IceCreamGuyDay1
+* HEYO!
+* Come in for some ICE CREAM?!
+>tc
+.
+* Well too bad! I just bought
+  [shake]THE ENTIRE STOCK!
+>tc
+.
+* Tough luck!
+* I don't even LIKE ice cream!
+>tc
+END
+
+-----
+
+@WaterCooler
+* For just a moment, you thought
+  you felt a threatening aura
+  emanating from the Water Cooler.
+.
+* ...Maybe you're just tired.
+END
+
+-----
+
+@MoWaterSign
+* HEY! That sign isn't for sale!
+.
+* You can put it down now!
+END
+
+------
+
+@ColdStuffD1
+* You look inside the frozen
+  section...
+.
+* It seems they ran out of ice
+  cream.
+END
+
+------
+
+@ColdStuffD2
+* Seems the ice cream is
+  restocked.
+* ...For now.
+END
+
+-----
+
+@MoBrokenFlashlight
+* Want that ol-
+* I mean, that ANTIQUE, VINTAGE
+  LIGHTING DEVICE??
+.
+* It can clear through DARKNESS
+  and even exorcise GHOSTS!
+* [font_size=7]No offence to ghost monsters!
+.
+* It can be YOURS for just $ 10!
+>prompt:I'll take it:Poor ghosts
+>showmoney
+END
+
+-----
+
+@MoCancel
+* Well, your loss, kid!
+* At least looking is free if
+  you don't take too long!
+END
+
+-----
+
+@MoMetalPipe
+* That thing? That's an impressive
+  METAL WALKING STICK!
+.
+* What? "A pipe?"
+* Nonsense! Look at it!
+.
+* Well, you want it?
+* It will be $ 9!
+>showmoney
+>prompt:Could be@useful:I'm not@old yet
+END
+
+-----
+
+@MoMotherboard
+* Ah, my friend!
+* That is a one of a kind
+  ALIEN COMPUTER!
+.
+* I swear I found it on the
+  mines a while ago, and it was
+  indeed dropped by aliens!
+.
+* Due to its rarity, I'm willing
+  to part with it...
+* For $ 8!
+>showmoney
+>prompt:Aliens?@Cool.:I don't@believe@in that.
+END
+
+-----
+
+@MoNoCash
+* Hey kid, come back when you're
+  a lil' richer!
+* I ain't runnin' a charity here!
+END
+
+-----
+
+@MoThanks
+* THANK YOU!
+* Here, I'll even wrap it for
+  ya!
+>showmoney
+END
+
+----
+
+@BrokenFlashlightGet
+* (The Broken Flashlight was shoved
+  into your pocket.)
+END
+
+---
+
+@MetalPipeGet
+* (You somehow put the Metal Pipe
+  into your jacket's pocket.)
+END
+
+--
+
+@MotherboardGet
+* (You carefully pocket the
+  Old Motherboard.)
+END
+
+---
+
+@Posters
+* Posters for ICE-E's P"E"ZZA
+  and ICE-E's IC"E" CREAM.
+.
+* They don't seem to be too
+  popular in this part of the
+  country.
+END

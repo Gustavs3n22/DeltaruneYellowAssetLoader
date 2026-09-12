@@ -1,0 +1,1095 @@
+@ThornasEvent_1
+* ...Ah, shucks.
+* Not getting any closer to
+  solving it...
+>talk:Thormas
+>bleep:Thormas
+END
+
+-
+
+@ThornasEvent_2
+* Eh?
+>talk:Thormas
+>p:ThormasShock
+.
+* Um, hello?
+>p:KanakoNervous
+.
+* We... We kinda need
+  to...
+* See Bearing?
+>p:KanakoNervous
+.
+* Can you tell us where
+  he is?
+>p:KanakoNervous
+END
+
+-
+
+@ThornasEvent_3
+* Woah, WHAT?!
+* Who the HECK are you?!
+>p:ThormasShock
+>talk:Thormas
+.
+* Where didja come from?
+* Were you two why Bearing
+  was so mad earlier?
+>p:ThormasShock
+>anim:Thormas:SouthIdle
+>talk:Thormas
+.
+* (Uh, Cole?)
+>p:KanakoDumb
+.
+* (I... I'm not sure we
+  should trust this guy...)
+>p:KEEP
+.
+* (...What do we do?)
+* (What do we say?)
+>p:KEEP
+>prompt:We are@lightners:Must've been@someone else
+END
+
+-
+
+@ThornasEvent_3A
+* Haha funny joke guys!
+>p:ThormasHappy
+>anim:Thormas:Happy
+.
+* Lightners haven't visited
+  us in a long time!
+* Why would they appear now?!
+>p:KEEP
+.
+* [wave]Hahahahaha!
+>p:KEEP
+END
+
+-
+
+@ThornasEvent_3A2
+* ...Wait...
+* You're serious...?!
+>p:ThormasShock
+>anim:Thormas:HappyStop
+END
+
+-
+
+@ThornasEvent_3B
+* Is that so...?
+>p:ThormasNormal
+>talk:Thormas
+.
+[wave]* HMMM...[/wave]
+* Now that I take a closer 
+  look at you two...
+>p:ThormasThink
+>talk:Thormas
+.
+* Ah ha! I see! I see!
+>p:ThormasHappy
+>talk:Thormas
+.
+* You two can't fool me.
+* You are lightners! Are
+  you not?!
+>p:ThormasHappy
+>talk:Thormas
+.
+* Uh...
+>p:KanakoDumb
+.
+* Haha! I knew it!
+* You can't fool a trained 
+  eye like mine!
+>p:ThormasHappy
+>anim:Thormas:Happy
+.
+* (And Rocky kinda told me
+  what to look for...!)
+>p:KEEP
+END
+
+-
+
+@ThornasEvent_4
+* Well...
+[wave]* WELL WELL WELL...[/wave]
+>anim:Thormas:Thinking
+>talk:Thormas
+>p:ThormasThink
+.
+* That could be useful to 
+  our cause...
+>talk:Thormas
+>p:KEEP
+.
+* Cause?
+>p:KanakoNeutral
+.
+[shake]* BEFORE THAT![/shake]
+* I must know what you two 
+  came here to do.
+>anim:Thormas:SouthIdle
+>p:ThormasNormal
+>talk:Thormas
+.
+* Lightners...
+* Haven't been seen in a 
+  while.
+>p:ThormasNormal
+>anim:Thormas:SouthIdle
+>talk:Thormas
+.
+* Why are you here?
+>p:ThormasNormal
+>anim:Thormas:SouthIdle
+>talk:Thormas
+.
+* (...Should we tell him?)
+>p:KanakoSad
+>prompt:Capture@criminals:We just want@to go home:Sight-seeing
+>promptredirect:ThornasEvent_4A:ThornasEvent_4B:ThornasEvent_4C
+END
+
+-
+
+@ThornasEvent_4A
+* Criminals?
+* What do you mean?
+>talk:Thormas
+>p:ThormasThink
+.
+* Um, here, look at
+  these.
+>p:KanakoNeutral
+END
+
+@ThornasEvent_4A_B
+* Kanako lends the WANTED
+  POSTERS.
+END
+
+@ThornasEvent_4A_C
+* Ah! I see.
+* Didn't know those folks 
+  were here...
+>p:ThormasNormal
+.
+* Wait, I know these guys!
+* Well, Bearing is kinda 
+  obvious.
+>p:ThormasNormal
+.
+* But Pennilton and Ringo...
+* Yeah, they are here!
+>p:ThormasNormal
+.
+* Specially Pennilton! 
+* That guy swindled me out 
+  of some money a while ago!
+>p:ThormasShock
+>anim:Thormas:SouthIdle
+>talk:Thormas
+.
+* I should've known ordering 
+  new shoes here would be a 
+  nightmare.
+>p:ThormasShock
+>talk:Thormas
+END
+
+-
+
+@ThornasEvent_4B
+* Home, huh?
+* You mean the Light World?
+>talk:Thormas
+>p:ThormasThink
+.
+* I think the only way...
+* Is through the fountain.
+>talk:Thormas
+>p:ThormasNormal
+.
+* Which means you have to 
+  get through Bearing's 
+  Fortress.
+>talk:Thormas
+>p:ThormasThink
+.
+[shake]* WHICH MEANS...
+>p:ThormasNormal
+>talk:Thormas
+.
+* Our goals should align!
+>talk:Thormas
+>p:ThormasHappy
+END
+
+-
+
+@ThornasEvent_4C
+* Huh?! What is there even 
+  to be seen here?!
+>p:ThormasShock
+>talk:Thormas
+.
+* This ain't no place to 
+  see! We are under a 
+  tyranical ruler here!
+>p:ThormasShock
+>talk:Thormas
+.
+* ...Well, I can't blame 
+  you for not knowing any 
+  better.
+>p:ThormasNormal
+>talk:Thormas
+.
+* This world has just kinda 
+  just...
+>p:ThormasNormal
+>talk:Thormas
+.
+* Popped up.
+* So I guess you are new 
+  to this. BUT...
+>p:ThormasNormal
+>talk:Thormas
+END
+
+-
+
+@ThornasEvent_5
+* It seems we all have the 
+  same destination...
+* That is... Bearing.
+>p:ThormasNormal
+>talk:Thormas
+.
+* So, what do you say? Why
+  not join me and my group
+  into overthrowing him?!
+>p:ThormasNormal
+>talk:Thormas
+.
+* Dude, we don't even know
+  your name...
+>p:KanakoOffended2
+.
+* Oh! Right. Right. Sorry!
+* Got too excited for a bit 
+  there.
+>p:ThormasShock
+>talk:Thormas
+.
+* Name's Thormas.
+* But you can call me Thor.
+* Or Tom (for close friends)
+>p:ThormasNormal
+>talk:Thormas
+.
+* I would ask your names...
+* But we have been out in
+  the open too much already.
+>p:ThormasNormal
+>talk:Thormas
+.
+* Come! Follow me! To our 
+  group's hideout! We can 
+  discuss what to do then!
+>p:ThormasNormal
+>talk:Thormas
+.
+[shake]* ONWARD!
+>p:ThormasHappy
+>talk:Thormas
+END
+
+-
+
+@ThornasEvent_6
+* ...Cole, you think we
+  should play along with
+  that guy?
+>p:KanakoOffended2
+.
+* He might know a way
+  into Bearing's place...
+* We could use the help.
+>p:KanakoNeutral
+.
+* ...But we could also
+  look around ourselves.
+* Your call.
+>p:KanakoPuff
+END
+
+-
+
+@KanakoThormasSkip
+* So are we just going to 
+  ignore that guy?
+>p:KanakoPuff
+.
+* Pff. As if we needed his 
+  help.
+>p:KanakoTongue
+.
+* We can find out the way
+  in ourselves!
+* Let's go!
+>p:KanakoHappy
+END
+
+--
+
+
+@SaveBearingTown
+>redirect:WeirdStart:SaveWeirdRoute
+* The quaint calm town fills you 
+  with a sense of tranquility.
+>heal
+.
+[color=black].
+>callsave
+>instend
+END
+
+-----
+
+
+@KeychainDiag
+* Ka-ching! New folks? 
+* Well check out our humble 
+  town's store!
+>tc
+.
+* Bet you'll find lots of super
+  useful stuff there!
+>tc
+.
+* Oh but, stay away from that
+  shady store behind the tree.
+* Nasty stuff there.
+>tc
+END
+
+-----
+
+@EraserTownDiag
+>redirect:RubbermanTalk:EraserTownDiag2
+* Hey, hey! What's with the weird 
+  looks?
+>tc
+.
+* Chill, man. I ain't gonna hurt ya.
+>talk:caller
+>setflag:RubbermanTalk
+END
+
+-----
+
+@JacketManDiag
+* Hey man, you from out of town?
+>talk:caller
+.
+* Be careful, Lord Bearing hates 
+  outsiders.
+>tc
+.
+* Luckily he spends most of the day 
+  in his fortress, doing who knows 
+  what.
+>talk:caller
+.
+* I'd leave soon if I were you.
+>talk:caller
+END
+
+---
+
+@JacketManDiag2
+* Heard lightners are around.
+>tc
+.
+* Maybe they're the ones that 
+  opened the gate.
+* I better stay out of the way.
+>tc
+END
+
+-----
+
+@JacketManDiag3
+* I just saw Bearing's right hand 
+  man run at mach speed into the 
+  wilderness.
+>tc
+.
+* Doesn't he know that there is
+  nothing out there?!
+* He'll get lost in the darkness!
+>tc
+END
+
+-----
+
+@BackpackTalk
+>redirect:BackpackFirstTalk:BackpackTalk2
+* Hello there, welcome to our town.
+>talk:caller
+.
+* We don't have much to offer,
+  Lord Bearing took much from us.
+>talk:caller
+.
+* But we try to make by.
+>talk:caller
+>setflag:BackpackFirstTalk
+END
+
+-----
+
+@BackpackTalk2
+* Where Lord Bearing is?
+>talk:caller
+.
+* His fortress is just north of 
+  here. Can't miss it.
+* But it's locked.
+>talk:caller
+.
+* You'd need to find a key or 
+  another way inside.
+* But good luck with that.
+>talk:caller
+END
+
+---
+
+@BackpackTalk3
+* Ah, the gate is open.
+>tc
+.
+* Me, go inside? Are you crazy?!
+* I value my life.
+>tc
+END
+
+-----
+
+@EraserTownDiag2
+* My mates were attackin' ya?
+>talk:caller
+.
+* Well just tell them to lay off 
+  then.
+>tc
+.
+* Rub 'em or somethin', 
+  I don't know.
+>talk:caller
+END
+
+-----
+
+@PennySign
+* CHECK OUT PENNILTON'S ONE 
+  STOP SHOP FOR ALL YOUR NEEDS!
+* Just behind this tree!
+END
+
+------
+
+@BearingGateCheck
+* A large imposing gate.
+* There is no way to get
+  past it.
+END
+
+------
+
+@PenniltonIntro
+* Hey hey HEY!
+* Now these are some faces I
+  haven't seen before!
+>talk:Pennilton
+.
+* Welcome! Welcome! To 
+  the number 1 emporium
+  in this entire Dark World!
+>talk:Pennilton
+.
+* Name's Pennilton, and boy am
+  I glad you came by!
+>talk:Pennilton
+.
+* I have JUST the thing for
+  you two young ones!
+* Yes, JUST the thing!
+>talk:Pennilton
+.
+* Are you interested??
+>talk:Pennilton
+.
+* (Um, Cole? Should we 
+  trust this guy?)
+* (This seems shady...)
+>p:KanakoOffended2
+.
+* (Also he looks 
+  familiar... where have
+  we seen him before?)
+>p:KanakoPuff
+>prompt:Tell us@more:Not really
+>promptredirect:PenniltonListen:PenniltonNotListen
+END
+
+--
+
+@PenniltonListen
+* Alright friends...
+* Listen to me- You look like
+  the lot that likes fighting-
+>talk:Pennilton
+.
+* So I have this EXCLUVISE,
+  PERFECT, RATED #1 ITEM just
+  for the lots of you!
+>talk:Pennilton
+.
+* It will surely boost your
+  battle effectiveness by
+  1 times 1 million times!
+>talk:Pennilton
+.
+* All that, for just a small
+  fee of...
+>talk:Pennilton
+.
+* 10,000 pennies!
+>mini:KanakoPuff:Uh, 100 dollars?
+>talk:Pennilton
+.
+>redirect:PenniltonOffer
+END
+
+--
+
+@PenniltonNotListen
+* Pah! Fine! Be that way!
+* Enjoy being NUMBER TWO 
+  losers!
+>talk:Pennilton
+.
+* Just know that your battles
+  will be much harder without
+  my help!
+>talk:Pennilton
+END
+
+--
+
+@PenniltonCancel
+* WHAT?! You sure?!
+* This is on discount, you 
+  know!
+>talk:Pennilton
+END
+
+--
+
+@PenniltonOffer
+* So, what do you say?
+* Only 10,000 pennies for this
+  NUMBER ONE battle rated item!
+>showmoney
+>prompt:Buy:Don't buy
+>talk:Pennilton
+>promptredirect:END:PenniltonCancel
+END
+
+--
+
+@PenniltonBuy
+* Hehehe...
+* Yes, that will do nicely.
+>showmoney
+>talk:Pennilton
+.
+* WELL HERE YA GO!
+* I'll just... Leave it on the
+  counter...
+>talk:Pennilton
+.
+* Would you look at the time!
+* Gotta go do some errands!
+* See ya!
+>talk:Pennilton
+>sound:snd_item_ch1.wav
+END
+
+--
+
+@PenniltonBuy2
+* (On the counter was just a 
+  regular pebble.)
+.
+* WHAT?! How is that
+  supposed to help in
+  battle?!
+>p:KanakoSurprise
+.
+[shake]* Aaargh![/shake]
+* We've been had!
+>p:KanakoHurt
+.
+* Wait... Wasn't that guy
+  in the Wanted Poster the
+  Warden gave us...?
+>p:KanakoOffended2
+.
+* Crap... We fell right
+  into his trap!
+>p:KanakoOffended
+.
+* C'mon Cole, we have
+  to chase him down!
+>p:KEEP
+END
+
+--
+
+@PenniltonNoMoney
+* ...Kid, that ain't even close
+  to enough!
+>talk:Pennilton
+.
+* If you ain't got the cash then
+  get out! I have other customers 
+  to attend to!
+>talk:Pennilton
+END
+
+--
+
+@PenniltonFullInv
+* YES THANK-
+* What, hey!
+* You can't carry anything else!
+>talk:Pennilton
+.
+* Go offload some of that junk
+  then come back!
+>talk:Pennilton
+END
+
+--
+
+@PenniltonPoster
+* ...Wait a second...
+>p:KanakoPuff
+.
+* (Kanako looks at the Wanted 
+  Poster)
+.
+* ...IT'S YOU!
+* You're the wanted man!
+>p:KanakoSurprise
+.
+* WHA- WHA- WHA-
+* WHO THE HECK ARE YOU TWO
+  PEOPLE?!
+>anim:Pennilton:Hurt
+.
+* WANTED?! ME?! MUST BE A 
+  JOKE!!
+.
+* You're not getting away!
+* Cole! Let's get him!
+>p:KanakoOffended
+.
+* Ooops! Looks like I forgot
+  my oven on!
+* Catch ya later! See ya! Bye!
+>anim:Pennilton:Idle
+>talk:Pennilton
+END
+
+--
+
+@PenniltonPoster2
+* Argh! He got away!
+* C'mon! Let's chase him!
+>p:KanakoOffended
+END
+
+--
+
+@PenniltonPrompt
+* Place down the fake coin?
+>prompt:Yes:Not yet
+END
+
+-
+
+@PenniltonCatch1
+* Guess we wait now?
+>p:KanakoPuff
+END
+
+-
+
+@PenniltonCatch2
+* Oh! Here he comes!
+>p:KanakoSurprise
+.
+* Quick! Hide!
+>p:KanakoSurprise
+END
+
+-
+
+@PenniltonCatch3
+[wave]* La la la la~
+>top
+END
+
+-
+
+@PenniltonCatch4
+* Woo-Wee!
+* What's that beauty doin' here
+  all alone?!
+>top
+>talk:Pennilton2
+END
+
+-
+
+@PenniltonCatch5
+* Well, don't mind if I do!
+>talk:Pennilton2
+>top
+END
+
+-
+
+@PenniltonCatch6
+* Halt! We got you now!
+>p:KanakoOffended
+>top:lock
+.
+* DOH! How did you two fools 
+  trick me?!
+.
+* You were even in the wrong
+  side of the bush!
+.
+* No matter! Even though I am
+  pinched by you two...
+>talk:Pennilton2
+>anim:Pennilton2:Idle
+.
+* PENNILTON NEVER LOSES, 
+  BECAUSE PENNILTON IS NUMBER
+  ONE!!
+>talk:Pennilton2
+.
+* Don't let him escape
+  again, Cole!
+>p:KanakoOffended
+END
+
+--
+
+@PostPenniltonCaught
+* Darn! And I would have gotten
+  away with it if it wasn't for
+  your meddling kids!
+.
+* Quit the yapping!
+* You had us chase you all
+  over the place!
+>p:KanakoOffended2
+.
+* This isn't over, y'hear?!
+* [color=yellow]The Outlaw[/color] will free me again!
+.
+* ...The Outlaw...?
+>p:KanakoNeutral
+.
+* OH! Uh-
+* Ya ain't getting any more
+  info from me.
+>shakeanim:Pennilton2:Caught_2
+.
+* See ya losers later!
+END
+
+-
+
+@PostPenniltonCaught2
+* ...The Outlaw...
+>p:KanakoNeutral
+.
+* I wonder what's their
+  goal...
+* Freeing those criminals...
+>p:KEEP
+.
+* Well, at least we managed
+  to get one of them!
+>p:KanakoHappy
+.
+* Let's check on the posters
+  which ones are left and
+  move on!
+>p:KanakoNormal
+END
+
+-
+
+@PostPenniltonBeat
+* Ouch! You kids fight pretty
+  rough!
+.
+* Shut it! You're coming
+  with us!
+>p:KanakoOffended2
+.
+* With YOU?! HAH!
+>shakeanim:Pennilton2:Idle
+>talk:Pennilton2
+.
+* Should have like tied me up
+  with a magical lasso or 
+  something!
+>talk:Pennilton2
+.
+* You'll never catch me again!
+>talk:Pennilton2
+END
+
+-
+
+@PostPenniltonBeat2
+* Oh no! He's gone!
+>p:KanakoSurprise
+.
+* [wave]...Sigh...
+>p:KanakoSad2
+.
+* We can just...
+* Come up with some excuse
+  for the Warden...
+>p:KanakoNervous
+.
+* Let's just...
+* Go.
+>p:KanakoNervous
+END
+
+-
+
+@PostPenniltonAngry
+* I yield! I yield!
+* Mercy, please!
+.
+* ...
+>p:KanakoAngry
+END
+
+-
+
+@PostPenniltonAngry2
+* Cole?
+* What are you doing?!
+>p:KanakoSurprise
+.
+* He is going to get awa-
+>p:KanakoOffended
+END
+
+-
+
+@PostPenniltonAngry3
+* ...Away...
+>p:KanakoOffended2
+.
+* [wave]Sigh...
+>p:KanakoSad2
+.
+* Why did you stop me,
+  Cole?
+* He deserved it!
+>face:Kanako:Right
+>p:KanakoOffended2
+>prompt:You went a@bit too far:You were@wrong
+>promptredirect:PostPenniltonAngry3_P1:PostPenniltonAngry3_P2
+END
+
+-
+
+@PostPenniltonAngry3_P1
+* Too far?!
+* But he-
+>p:KanakoOffended2
+.
+* ...
+>p:KanakoSad2
+.
+* No, I...
+* Sorry...
+>p:KanakoNeutral
+.
+* I lost my temper again...
+>p:KanakoSad2
+.
+* But he was so annoying!
+* And he tried to scam us,
+  and-
+>p:KanakoOffended2
+.
+* ...
+>p:KanakoSad2
+.
+* Ugh, let's just...
+* Go.
+>p:KanakoHurt
+END
+
+-
+
+@PostPenniltonAngry3_P2
+* I...
+>p:KanakoAngry
+.
+* ...
+>p:KanakoSad2
+.
+* Sorry.
+>p:KanakoSad
+.
+* You're right... I...
+* I don't know what came
+  over me.
+>p:KanakoSad2
+.
+* I'll... try to watch
+  out in the future...
+* Try not to get as mad.
+>p:KanakoSad
+.
+* Sorry you had to see that,
+  Cole.
+* ...Let's just go.
+>p:KanakoSad2
+END
+
+-
+
+@MP3Darkner1
+* Hey again.
+* Fancy meeting you here.
+>tc
+.
+* Decided to come back to
+  town, things got [wave]slightly[/wave]
+  livier since I last been here.
+>tc
+.
+* Still...
+* I am thinking of leaving.
+* This Dark World.
+>tc
+.
+* I'll try to find some other
+  place I can settle, where
+  things are more lively.
+>tc
+.
+* Though leaving might be
+  tricky since we darkners
+  can't just do that.
+>tc
+.
+[wave]* Hmmm...
+>tc
+>setflag:MP3DarknerTalk2
+END
+
+-
+
+@MP3Darkner2
+* There is some buzz about that
+  weird door by the lake lately.
+>tc
+.
+* Maybe that's my ticket out of
+  here.
+>tc
+END
+
+-
+
+@Fountain
+* The water is stagnant, much
+  like the surrounding town.
+.
+* Drink it?
+>prompt:Yes:No
+>promptredirect:FountainDrink:END
+END
+
+-
+
+@FountainDrink
+* Wait, I think I just saw 
+  something moving on the 
+  bottom of the fountain...
+>p:KanakoOffended2
+.
+* (On second thought, you decided 
+  not to drink from this fountain 
+  anymore.)
+END
+
+--
+
+@SchoolDWScaredGuy
+>redirectmap:Scared:SchoolDWScaredGuy2
+* W-who's there?!
+.
+* I'm not opening the door!
+* I- I don't want to go to jail!
+.
+* I know Lord Bearing is after
+  me! I will never surrender!
+.
+* The lightners will come back.
+* I'm telling you!
+>setmap:Scared
+END
+
+--
+
+@SchoolDWScaredGuy2
+* ...You're telling me you're
+  lightners...?
+.
+* No! It is a trick! 
+* Bearing will never catch me!
+.
+* I won't be tortured like the 
+  others! I will never leave this
+  house!
+END

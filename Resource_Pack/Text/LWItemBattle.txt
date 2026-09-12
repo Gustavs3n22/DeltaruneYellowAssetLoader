@@ -1,0 +1,55 @@
+@None
+* You think about using\n\t@ITEM@,
+* But you can't figure out\n\thow it would help in\n\tthis situation.
+
+@BallOfJunk
+* You take out the Ball of Junk\n\toff your pocket and admire it...
+* ...
+* This was a complete waste of\n\ttime.
+
+@Hat
+* You put on the Cowboy Hat.
+* You remove the Cowboy Hat.
+
+@KetsukaneHeirloom
+* You take out the Ketsukane\n\tHeirloom out off your pocket.
+* The blue gem reflects back at\n\tyou.
+* For a moment, you thought you\n\tsaw a fox face stare back at\n\tyou.
+* Nothing else happens.
+
+@RedLetter
+* You quickly grab the Red\n\tLetter, and just as quickly put\n\tit back in your pocket.
+* This is no time to read this.
+
+@HomemadeLunch
+* You share your Homemade Lunch\n\twith your team.
+* It isn't that great, but it's\n\tthe thought that counts.
+* Everyone recovers 20 HP.
+
+@UselessRock
+* You try tossing the rock at\n\tyour opponent,\n\thowever they just ignore it.
+* You pick it back up when they\n\taren't looking.
+
+@Firecracker
+* You think about using the\n\tfirecracker, but without a\n\tligther it is useless.
+
+@BrokenFlashlight
+* You take off the broken\n\tflashlight.
+* You press the button,\n\tyet nothing happens.
+* What were you expecting?
+
+@MetalPipe
+* You try to lift the metal\n\tpipe but it is a bit too\n\theavy for you.
+
+@Motherboard
+* You hold the broken motherboard\n\tin your hands.
+* You can feelthe capacitor fluids\n\tand the metal prongs poking\n\tat your fingers.
+* This was a waste of time.
+
+@CornChowder
+* You eat the corn chowder.\n* It sure is corn. Too much corn.
+* You recover 20 HP.
+
+@SadieMirror
+* You try to lift the hand mirror, but\n\twithout an actual mirror in it it is just\n\ta piece of plastic.
+* You put it back in your pocket.

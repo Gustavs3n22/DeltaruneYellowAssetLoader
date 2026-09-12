@@ -1,0 +1,239 @@
+@Intro
+[color=#ac0070]* Oh, a customer?
+[color=#496edf]* Customer!!
+[color=#cc3939]* Welcome!!
+
+@Intro2
+[color=#ac0070]* What now?
+[color=#496edf]* Need something?!
+[color=#cc3939]* Buy! Buy!
+
+@TalkMenu
+[color=#ac0070]* ...Sure.
+[color=#496edf]* Talk!
+[color=#cc3939]* Talk?
+
+@TalkMenu2
+[color=#ac0070]* ...More?
+[color=#496edf]* Much talk!!
+[color=#cc3939]* Buy stuff
+  instead!
+
+@BuyCancel
+[color=#ac0070]* ...
+[color=#496edf]* Make up-
+[color=#cc3939]* Your mind!
+
+@BuyConfirmed
+[color=#ac0070]* ...Thanks.
+[color=#496edf]* Thank you!!
+[color=#cc3939]* Money! 
+  Money!
+
+@BuyFull
+[color=#ac0070]* ...You can't
+  carry it.
+[color=#496edf]* No space!!
+[color=#cc3939]* Too full!
+
+@BuyMoney
+[color=#ac0070]* ...No cash.
+[color=#496edf]* No money!
+[color=#cc3939]* Too poor!
+
+@BuyMenu
+[color=#ac0070]* ...What do
+  you need?
+[color=#496edf]* Yes! Buy!
+[color=#cc3939]* Here! Here!
+
+@BuyMenu2
+[color=#ac0070]* ...No cash.
+[color=#496edf]* No money!
+[color=#cc3939]* Too poor!
+
+@SellMenu
+[color=#ac0070]* ...Sure.
+[color=#496edf]* What do-
+[color=#cc3939]* you offer?
+
+@SellDontHave
+[color=#ac0070]* ...You have
+  nothing.
+[color=#496edf]* Nothing!!
+[color=#cc3939]* Nothing!! 
+
+@SellChoose
+[color=#ac0070]* What is it?
+[color=#496edf]* Choose!
+[color=#cc3939]* Show us!
+
+@SellConfirmed
+[color=#ac0070]* ...Fine.
+[color=#496edf]* Here is-
+[color=#cc3939]* your cash! 
+
+@Exit
+[color=#ac0070]* ...Come back soon.
+[color=#496edf]* Please come back!!
+[color=#cc3939]* Please spend more next time!
+
+-
+
+@Topic1
+Yourselves
+
+@Topic2
+The Spire
+
+@Topic3
+This place
+
+@Topic4
+Any rumors?
+
+-
+
+@TalkTopic1
+[color=#ac0070]* Us? There isn't much to know 
+  about.
+[color=#496edf]* Not much! Not much!
+[color=#cc3939]* Yeah, there is nothing!!
+BREAK
+[color=#ac0070]* We've just tended to these 
+  lands for many years, many 
+  generations.
+[color=#496edf]* A really long time!
+[color=#cc3939]* We've been around forever!
+BREAK
+[color=#ac0070]* Just watching over these 
+  lands silently, bringing good 
+  fortune.
+[color=#496edf]* Very lucky!
+[color=#cc3939]* No one sees us!
+BREAK
+[color=#ac0070]* ...Hm? My mask?
+[color=#496edf]* What about it??
+[color=#cc3939]* It is not for sale!
+BREAK
+[color=#ac0070]* It was carved once by a great pink
+  beast as a gift for her 
+  mother.
+[color=#496edf]* A gift! A gift!
+[color=#cc3939]* Very precious!
+BREAK
+[color=#ac0070]* The heartfelt feelings the 
+  beast had are rumored to 
+  still live within it.
+[color=#496edf]* You can feel it!
+[color=#cc3939]* Can't you?
+BREAK
+anim:Sad:
+[color=#ac0070]* What? You're saying YOU'RE 
+  the pink beast that made 
+  this mask?
+* And that you had lost it?
+BREAK
+[color=#ac0070]* ...Please cease such comments.
+  That beast is a thing of 
+  legends. Show some respect.
+[color=#496edf]* Yeah, respect!
+[color=#cc3939]* That wasn't cool!
+
+-
+
+@TalkTopic2
+[color=#ac0070]* ...There is a trio of strange
+  individuals trying to breach
+  into The Spire.
+[color=#496edf]* Freaks!
+[color=#cc3939]* Why the suits?!
+BREAK
+[color=#ac0070]* They keep babbling something
+  about "justice" and "bringing
+  the fight to the machines".
+[color=#496edf]* Crazy talk!
+[color=#cc3939]* Stupid!
+BREAK
+[color=#ac0070]* I try not to pry much into 
+  the affairs of what goes 
+  below the clouds, but that is
+  not the approach I would do.
+BREAK
+[color=#ac0070]* Their plan sounded very 
+  violent as well. I believe 
+  someone down there might know
+  a different way into The 
+  Spire-
+BREAK
+[color=#ac0070]* A less... Destructive way.
+[color=#496edf]* Boom!
+[color=#cc3939]* Krakow!
+BREAK
+[color=#ac0070]* Might have to trade with the
+  locals for that info, however.
+[color=#496edf]* Info isn't cheap!
+[color=#cc3939]* Maybe do a favor for someone?
+
+-
+
+@TalkTopic3
+[color=#ac0070]* Despite what it may look like,
+  these lands above the clouds 
+  aren't too vast.
+[color=#496edf]* Yeah, very small!
+[color=#cc3939]* Deceitfully big!
+BREAK
+[color=#ac0070]* You likely already saw most 
+  of what this place has to 
+  offer.
+[color=#496edf]* Not much to see.
+[color=#cc3939]* Bad for tourism.
+BREAK
+[color=#ac0070]* If you head over to The 
+  Archives, though, keep an eye
+  out for a secret.
+[color=#496edf]* Secret!
+[color=#cc3939]* Yeah!
+BREAK
+[color=#ac0070]* Rumor has it some weird being
+  has taken residence on one of
+  the deeper floors.
+[color=#496edf]* Spooky!
+[color=#cc3939]* Mysterious!
+BREAK
+[color=#ac0070]* That being has been around 
+  for many years... 
+* It is likely very powerful.
+[color=#496edf]* With age, comes power!
+[color=#cc3939]* Or is it wisdom?
+BREAK
+[color=#ac0070]* I doubt reaching it will be
+  that straight forward.
+* You may have to ask your
+  companions for help when the
+  time comes.
+
+-
+
+@TalkTopic4
+[color=#ac0070]* ...Been hearing that one of
+  the denizens from up here
+  has been going downstairs a
+  lot lately.
+BREAK
+[color=#ac0070]* Also been hearing that they
+  sometimes terrorize the 
+  robots that live down there.
+[color=#496edf]* Scary!
+[color=#cc3939]* Wouldn't mess with!
+BREAK
+[color=#ac0070]* If you want to try to find
+  this person, you might have
+  to delve deep into the back
+  alleys of the world below.
+BREAK
+[color=#ac0070]* I'm sure one of the robots 
+  would speak up about it...
+[color=#496edf]* Who would, though?
+[color=#cc3939]* A crazy one, that's who!

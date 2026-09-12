@@ -1,0 +1,55 @@
+@BearFortMopperBreak
+* Phew, finally break time.
+* The corridor is finally [wave]clean[/wave]!
+END
+
+--
+
+@NicePencil1
+>redirect:FightMore:NicePencilNo
+* Hey, you!
+* I know what you are.
+>tc
+.
+* You're lightners, aren't ya?
+* It's ok. I can tell you're nice
+  people.
+>tc
+.
+* Here, a token of friendship.
+>tc
+.
+>redirect:FullDInv:NicePencilFull
+* (You got a Pop Rock.)
+>item:Normal:PopRock
+>setflag:NicePenceller
+END
+
+--
+
+@NicePencilFull
+* ...Or I would give it to you,
+  if you could carry it.
+>tc
+END
+
+--
+
+@NicePencilNo
+* ...I don't talk to meanies.
+>tc
+END
+
+--
+
+@NicePencil2
+* It's nice to be nice.
+>tc
+END
+
+--
+
+@FortSignTreasure
+* Treasure Room ahead.
+* TRESPASSERS NOT WELCOME!
+END

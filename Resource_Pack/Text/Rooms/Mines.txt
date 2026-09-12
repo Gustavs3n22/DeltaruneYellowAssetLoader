@@ -1,0 +1,1105 @@
+@Day2EnterEvent
+* ...Been a while since we
+  last came here, huh?
+>p:KanakoNervous
+>top:lock
+.
+* Anyway... The thing I
+  want to show you...
+* I guess you remember it.
+>p:KanakoPuff
+.
+* We will likely have to
+  sneak our way in but...
+>p:KanakoNeutral
+.
+* I really want to see it 
+  again. 
+* ...With you.
+>p:KanakoNervous
+.
+* So, let's go. You
+  remember where it is,
+  right?
+>p:KanakoNormal
+END
+
+-
+
+@Day2EventBlocker
+* Hey, where do you think you
+  are going?
+>tc
+>top
+END
+
+-
+
+@Day2EventBlocker2
+* That area is off-limits!
+* Don't think you can sneak by
+  when I'm not looking!
+>tc
+.
+* Sorry! We just really,
+  really need to get
+  through!
+>p:KanakoNervous
+.
+* Ah, ah! I see. I see what's going
+  on.
+* Alright. I will let you...
+>tc
+.
+* IF! You bring me something to
+  drink!
+>tc
+.
+* My shift still will go on for a
+  while and I am parched!
+>tc
+.
+* Just grab a soda in the break
+  room and I guess I'll be 
+  distracted juuust enough-
+>tc
+.
+* So you two can sneak by.
+* [wave]* wink *[/wave]
+>tc
+.
+* ...Alright, we'll get it.
+* C'mon Cole, break room
+  should be at the back.
+>p:KanakoNervous
+END
+
+-
+
+@Day2MinerBlocker3
+* C'mon, guys. I'm willing to
+  put my job on the line for
+  you here...
+>tc
+>top
+END
+
+-
+
+@Day2MinerBlocker4
+* Here you go.
+>p:KanakoPuff
+.
+* Oh, thanks!
+* [wave]GLUG GLUG GLUG[/wave]
+* AAaah... P'E'zza flavor...
+>tc
+.
+* Kinda sick of it, but it is
+  what we got...
+* Well, a deal is a deal.
+>tc
+.
+* I'll turn a blind eye for now,
+  just go in quick...
+>tc
+.
+* And watch out, there is a big
+  hole there, but it's easy to
+  cross it!
+>tc
+.
+* ...Yeah, we know...
+>p:KanakoNervous
+.
+* C'mon Cole, we are 
+  almost there.
+* It will be worth it.
+>p:KanakoNormal
+END
+
+-
+
+@MinerPreSoda
+* ...I'm parched...
+* But my shift doesn't end until
+  at least one more hour...
+>tc
+.
+* I really want a drink...
+>tc
+END
+
+-
+
+@MinerAskSoda
+* Bring me a soda from the break
+  room and I'll let you in.
+>tc
+.
+* Just be quick about it, if you're
+  caught, I might get in trouble!
+>tc
+END
+
+-
+
+@MinerPostSoda
+* Enjoy your time up there, but
+  don't enjoy it TOO much.
+>tc
+.
+* Also be careful with the hole,
+  there was an accident there a
+  few years ago.
+>tc
+.
+* But should be an easy gap to
+  jump across.
+>mini:KanakoNeutral:...
+>tc
+END
+
+-
+
+@KanakoBlocker
+* Hey, Cole. That's the
+  wrong way!
+>p:KanakoNervous
+>top:lock
+.
+* ...I know, we might not
+  have had... a good time
+  here in the past...
+>p:KanakoSad
+.
+* But I really want to see
+  it again before the week
+  ends.
+>p:KanakoSad2
+.
+* So, please...
+>p:KanakoNeutral
+END
+
+-
+
+@NiceMiner1
+* Hello! Hello!
+* Oh! Are you two friends with
+  that pink bug girl?
+>tc
+.
+* Sadie? Yeah, we know her.
+>p:KanakoPuff
+.
+* Good! Good!
+* She came by earlier, messed
+  around...
+>tc
+.
+* Seems she is getting rocks for
+  a school project? I didn't pry!
+>tc
+.
+* But she forgot something here!
+* I don't know when she will come
+  back, can you return it for me?
+>tc
+.
+* Oh, sure! Leave it to us!
+>p:KanakoHappy
+.
+* Good! Here you go!
+>tc
+.
+* (You got the Hand Mirror.)
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@NiceMiner2
+* Say hi to the bug girl for me!
+>tc
+END
+
+-
+
+@Day2MorayMom
+>redirect:MorayMomD2:Day2MorayMom_2
+* Oh look who it is! Lil' Cole
+  and Kanako! Been a while
+  since you both last been here!
+>tc
+.
+* Um, yeah! Sorry, it's 
+  just...
+>p:KanakoNervous
+.
+* I get it. After that nasty
+  incident, I understand why you
+  wouldn't want to come back.
+>tc
+.
+* But what do we owe the pleasure
+  of having you here today?
+>tc
+.
+* Oh, nothing really! Just
+  looking around...
+>p:KanakoNervous
+.
+* Maybe looking for rocks for a
+  school project? 
+>tc
+.
+* That bug girl friend of yours 
+  comes here all the time looking
+  for them.
+>tc
+.
+* Sadie?
+>p:KanakoPuff
+.
+* (Maybe it's related to
+  the thing she is working
+  on?)
+>p:KanakoNeutral
+.
+* Well, you're free to hang out.
+* Just don't go into the deeper
+  mines.
+>tc
+.
+* Ever since then, the mayor has
+  locked the place down. Even we
+  can't go.
+>tc
+.
+* And you probably wouldn't want
+  to go back there again after
+  what happened.
+>tc
+.
+* Yeah... Don't worry. We
+  won't!
+>p:KanakoNervous
+.
+* (...But we will have to
+  go through there 
+  anyway...)
+>p:KanakoSad2
+>setflag:MorayMomD2
+END
+
+-
+
+@Day2MorayMom_2
+* Enjoy your visit, kids!
+* Just don't go to the deeper
+  area!
+>tc
+.
+* (Sorry, we really need
+  to get there...)
+>p:KanakoNervous
+END
+
+-
+
+@FridgeCheck
+* You open the fridge...
+* Inside, there are a lot of
+  sandwiches.
+.
+* You are tempted to take one,
+  but you know that food is
+  for the miners.
+END
+
+-
+
+@TrashCheck
+* You look inside the trash can...
+* It is filled with only rocks 
+  and broken tools.
+.
+* Bummer.
+END
+
+-
+
+@MinecartCheck
+* Just regular minecarts, used
+  to transport ore and tools.
+END
+
+-
+
+@CrateCheck
+* Crates filled with either mining
+  equipment or ores ready for 
+  shipping.
+END
+
+-
+
+@CubicleCheck
+* It wouldn't be wise to steal
+  equipment from the miners.
+END
+
+-
+
+@IceECheck
+* Seems Ice-E somewhat sponsors
+  the mining operations here.
+END
+
+-
+
+@PlantCheck
+* These plants do a lot of heavy
+  lifting to brigthen the mood
+  here.
+END
+
+-
+
+@WarningSignMiddle
+* To Mine Depths-
+.
+* BY ORDER OF MAYOR STARLO, THE
+  LOWER LEVELS ARE CLOSED UNTIL
+  FURTHER NOTICE.
+END
+
+-
+
+@SealedDoorCheck
+* It is sealed shut.
+>mini:KanakoSad:...
+END
+
+--
+
+@BlackCrystal
+* A black crystal.
+* It is nearly opaque.
+.
+* You feel weird looking at it.
+END
+
+--
+
+@MinerGF
+* Ugh. Another day of not finding
+  any useful ores...
+>tc
+.
+* Wish we could still go to the
+  deeper levels... But the mayor
+  cut us off.
+>tc
+.
+* Not gonna be getting that jewel
+  necklace anytime soon...
+>tc
+END
+
+--
+
+@SmokerMiner
+* [wave]Duuuude[/wave], we can't find anything
+  anymore!
+>tc
+.
+* Where did all the ores go?
+* If only the mayor didn't lock us
+  out of the lower floor!
+>tc
+END
+
+--
+
+@HatMinerGuy
+* Today was relatively... Okay.
+>tc
+.
+* Maybe we need to expand the mines
+  more towards the west...
+>tc
+END
+
+--
+
+@VendingMachine
+[color=pink]* WELCOME TO VENDY-O-MART!
+  (Sponsored by ICE-E Inc.)
+* WHAT CAN I GET YOU TODAY?
+.
+* Um, nothing, thanks!
+>p:KanakoNervous
+END
+
+--
+
+@VendingMachine2
+[color=pink]* WELCOME TO VENDY-O-MART!
+  (Sponsored by ICE-E Inc.)
+* WHAT CAN I GET YOU TODAY?
+.
+* Some soda, I guess?
+>p:KanakoNormal
+.
+[color=pink]* BZZT! THAT WILL BE 5 DOLLARS!
+.
+* Ouch, when did sodas get 
+  so expensive?
+>p:KanakoDumb
+.
+* ...Guess we have no 
+  choice...
+>p:KanakoNervous
+.
+* (Kanako inserts a 5 dollar bill 
+  into the machine...)
+* (A soda can pops out.)
+.
+* (You got the soda can.)
+>sound:snd_item_ch1.wav
+.
+[color=pink]* THANK YOU FOR USING VENDY!
+* HAVE A NIC-E DAY!
+END
+
+--
+
+@VendingMachineK
+[color=pink]* WELCOME TO VENDY-O-MART!
+  (Sponsored by ICE-E Inc.)
+* WHAT CAN I GET YOU TODAY?
+.
+* ...Soda.
+>p:KanakoNeutral
+.
+[color=pink]* BZZT! THAT WILL BE 5 DOLLARS!
+.
+* (Kanako inserts a 5 dollar bill 
+  into the machine...)
+* (A soda can pops out.)
+.
+* ...I'll be carrying this.
+>p:KanakoOffended2
+.
+* You owe me 5 bucks.
+>p:KanakoOffended2
+.
+* (Kanako takes the Soda Can.)
+END
+
+--
+
+@VendingMachine3
+[color=pink]* VENDY-O-MART (Sponsored by 
+  ICE-E Inc.) WISHES YOU A 
+  COLA-TASTIC DAY!
+END
+
+--
+
+@GapEvent_1
+* ...
+>p:KanakoSad
+.
+* Feels like a lifetime
+  ago, huh?
+>p:KanakoNervous
+.
+* ...We aren't kids 
+  anymore. This shouldn't
+  be too hard...
+>p:KanakoSad2
+.
+* I'll... I'll go first...
+>p:KanakoOffended
+.
+* ..........
+>p:KEEP
+END
+
+--
+
+@GapEvent_2
+* ..........
+>p:KanakoSad2
+.
+* I can do it...
+* ...I can do it...
+>p:KanakoSad2
+END
+
+--
+
+@GapEvent_3
+* [wave]Huff... Huff...[/wave]
+* M-Made it...
+>p:KanakoNervous2
+.
+* Okay... You next!
+* I'll catch you if you
+  fall!
+>p:KanakoNervous
+END
+
+--
+
+@GapEvent_4
+* Got you!
+>p:KanakoHappyBlush
+END
+
+--
+
+@GapEvent_5
+* Okay... 
+* It's just up ahead.
+>p:KanakoNervous
+.
+* Just a bit more!
+>p:KEEP
+END
+
+--
+
+@GapCheck
+* No reason to go back now.
+END
+
+--
+
+@GapNoKanako
+* ...No point going over there
+  without Kanako.
+END
+
+--
+
+@SignTop
+* CAUTION!
+* Risk of falling!
+END
+
+--
+
+@MinesDateD2_1
+* Well... Here we are!
+>p:KanakoHappy
+.
+* This place really hasn't
+  changed a bit, huh?
+>p:KanakoNervous
+.
+* Let's sit down.
+>p:KanakoHappy
+END
+
+-
+
+@MinesDateD2_2
+* I... I wanted to see it
+  again with you... 
+* Just one more time.
+>p:KanakoBlush
+.
+* In case this really is...
+  The last we see of each
+  other...
+>p:KanakoNervous
+.
+* ...
+>p:KanakoSad2
+END
+
+-
+
+@MinesDateD2_2Alt
+* ...I just wanted to see
+  it one more time...
+>p:KanakoSad
+.
+* In case this really is
+  your last week here.
+>p:KEEP
+.
+* ...[wave]Sigh.
+>p:KanakoSad2
+END
+
+-
+
+@MinesDateD2_3Alt
+* I'll be honest, this week
+  has just been a roller-
+  coaster of emotions-
+>p:KanakoSad2
+.
+* I just wanted us to have
+  a regular normal week...
+>p:KanakoOffended2
+.
+* Doing normal, regular
+  things, you know?!
+>p:KEEP
+.
+* ...
+>p:KanakoSad2
+.
+* I guess, I can't complain 
+  much since we are spending
+  time together at all.
+>p:KanakoNeutral
+.
+* ...Still...
+>p:KanakoSad2
+.
+* With all that happened
+  these days, I...
+>p:KanakoAngry
+.
+* ...
+>p:KEEP
+END
+
+-
+
+@MinesDateD2_3
+* ...It's been a crazy
+  week so far, hasn't it?
+>p:KanakoNervous
+.
+* Never expected stuff like
+  entire magic worlds to
+  just exist...
+>p:KanakoDumb
+.
+* Really caught me 
+  off-guard...
+* But...
+>p:KEEP
+.
+* ...It's been a fun week 
+  too, hasn't it?
+>p:KanakoHappy
+.
+* At least... Nothing TOO
+  bad has happened yet.
+>p:KanakoNervous
+.
+* If things go as they are 
+  we might even solve this 
+  Dark World thing in time!
+>p:KanakoTongue
+>prompt:Yeah:They're@nonsense:Glad you're ok:...
+>promptredirect:MinesDateD2_3_P1:MinesDateD2_3_P2:MinesDateD2_3_P3:MinesDateD2_3_P4
+END
+
+-
+
+@MinesDateD2_3_P1
+* As long as we stick 
+  together, we should be
+  able to take on anything!
+>p:KanakoTongue
+.
+* So... I'll have your back
+  if you have mine...
+* Just watch the tail!
+>p:KEEP
+END
+
+-
+
+@MinesDateD2_3_P2
+* ...Kinda, but you gotta
+  admit the Darkners are a
+  bit funny...
+>p:KanakoNervous
+.
+* When they aren't trying
+  to kill us, that is.
+>p:KanakoDumb
+END
+
+-
+
+@MinesDateD2_3_P3
+* ...Yeah, same...
+* Dunno what I'd do if you
+  got hurt too badly...
+>p:KanakoHappyBlush
+.
+* Don't you go dying on
+  me, y'hear?
+>p:KanakoTongue
+.
+* I... Still have a lot
+  I want to see, alongside
+  you.
+>p:KanakoHappyBlush
+.
+* So let's stay alive,
+  okay?
+>p:KanakoHappy
+END
+
+-
+
+@MinesDateD2_3_P4
+* You don't need to say
+  anything, I can already
+  tell what's on your mind.
+>p:KanakoTongue
+.
+* We will get to the bottom
+  of this. Stop the Outlaw.
+>p:KanakoTongue
+.
+* And I will be by your
+  side every step of this
+  journey.
+>p:KanakoOffended
+.
+* Until the very end.
+>p:KanakoOffended
+.
+* So, don't worry, alright?
+>p:KanakoHappy
+END
+
+-
+
+@MinesDateD2_4Alt
+* ...I can't stop thinking 
+  about BunBun and Axis.
+>p:KanakoSad2
+.
+* I know they were just
+  toys in the end, but...
+>p:KanakoSad
+.
+* The Dark Worlds... 
+* It made them real.
+>p:KEEP
+.
+* They were actual, real
+  people we could talk and
+  had their own goals-
+>p:KanakoSurprise
+.
+* Their own dreams-
+>p:KanakoNeutral
+.
+* Are all objects like that?
+* How does this even work?
+>p:KanakoOffended2
+.
+* To think just an entire
+  world just existed behind
+  ours...
+>p:KanakoSad2
+.
+* It is a lot to just...
+* Take in.
+>p:KEEP
+.
+* ...
+>p:KEEP
+END
+
+-
+
+@MinesDateD2_4
+* ...
+* ...Hey.
+>p:KanakoSad2
+.
+* If... If you do end up
+  going away by the end of
+  this week...
+>p:KanakoSad
+.
+* ...Don't forget about
+  me, alright?
+>p:KanakoNervous
+.
+* ...
+>p:KanakoSad2
+>prompt:Of course@not:...:No promises:I won't go
+>promptredirect:MinesDateD2_4P1:MinesDateD2_4P2:MinesDateD2_4P3:MinesDateD2_4P4
+END
+
+-
+
+@MinesDateD2_4P1
+* ...Thanks.
+* That means a lot to me.
+>p:KanakoBlush
+.
+* Let's just make this week
+  one to remember, alright?
+>p:KanakoHappyBlush
+END
+
+-
+
+@MinesDateD2_4P2
+* ...
+>p:KanakoDumb
+.
+* I... I hope you don't...
+* I really do.
+>p:KanakoNervous
+.
+* Please...??
+>p:KanakoDumb
+END
+
+-
+
+@MinesDateD2_4P3
+* That's such a "you" 
+  response!
+>p:KanakoTongue
+.
+* But heh... I guess we
+  don't know what the future
+  holds.
+>p:KanakoHappyBlush
+.
+* Let's just... Hope for
+  the best.
+>p:KanakoNormal
+END
+
+-
+
+@MinesDateD2_4P4
+* ...I wish you wouldn't...
+* But things aren't looking
+  good for Mart...
+>p:KanakoSad
+.
+* If only we knew some way
+  to help her...
+>p:KanakoSad2
+.
+* I wish I could do
+  something! I really do!
+>p:KanakoHurt
+.
+* But... I don't know...
+>p:KanakoSad2
+.
+* I...
+* I'm sorry...
+>p:KanakoSad
+>prompt:Don't@apologize:We'll figure@something@out
+>promptredirect:MinesDateD2_4P4P1:MinesDateD2_4P4P2
+END
+
+-
+
+@MinesDateD2_4P4P1
+* ...Right. It isn't my
+  fault.
+>p:KanakoSad2
+.
+* I just... Feel so 
+  worthless.
+>p:KanakoHurt
+.
+* I want to do more...
+* To help you and Mart so
+  you both stay here...
+>p:KEEP
+.
+* ...But I don't know how.
+* ...I hate this feeling.
+>p:KanakoSad2
+.
+* ...Ugh. Sorry.
+* I completely ruined the
+  mood.
+>p:KanakoNeutral
+.
+* ...Just...
+* Ignore me.
+>p:KanakoSad2
+END
+
+-
+
+@MinesDateD2_4P4P2
+* You really think so?
+>p:KanakoPuff
+.
+* I wonder... Will we find
+  a way out of this?
+>p:KanakoSad
+.
+* ...Maybe we can talk with
+  someone that understands
+  that kind of stuff.
+>p:KanakoPuff
+.
+* ...Uncle Star might know
+  something, but he has been
+  so busy lately...
+>p:KanakoNeutral
+.
+* Guess we can try reaching
+  out to him sometime?
+>p:KanakoPuff
+.
+* Let's try to catch him
+  when he isn't busy.
+>p:KanakoNormal
+END
+
+-
+
+@MinesDateD2_5Alt
+* Sorry... I'm making this
+  only about myself, aren't
+  I?
+>p:KanakoNeutral
+.
+* ...There's just been so
+  much on my head lately.
+>p:KanakoHurt
+.
+* ...Ugh. I wish we had 
+  more TIME.
+>p:KanakoHurt
+.
+* ...
+>p:KanakoSad2
+.
+* ...Speaking of time, it's
+  getting pretty late.
+>p:KanakoNeutral
+.
+* We should leave before mom
+  gets worried.
+>p:KEEP
+.
+* ...I'm sorry, okay?
+>p:KanakoSad
+.
+* I'm sorry for just making
+  everything about myself.
+>p:KanakoSad2
+.
+* ...But I really feel I'm
+  reaching my breaking 
+  point here.
+>p:KanakoHurt
+.
+* [wave]...Sigh...
+>p:KanakoSad2
+END
+
+-
+
+@MinesDateD2_5
+* ...Well, it's kinda late
+  now...
+>p:KanakoNervous
+.
+* Let's go back to town
+  before mom gets mad at us.
+>p:KanakoTongue
+.
+* ...Thanks.
+* For indulging me.
+>p:KanakoBlush
+END
+
+-
+
+@MinesDateD2_6Alt
+* ...Cole.
+>p:KanakoNeutral
+.
+* ...I...
+>p:KanakoSad
+.
+* ...
+>p:KanakoSad2
+.
+* N-Nevermind.
+>p:KanakoNervous
+.
+* Let's just go.
+>p:KanakoNervous
+END
+
+-
+
+@MinesDateD2_6
+* Oh, wait!
+>p:KanakoNormal
+.
+* Let's take a selfie so
+  we can remember this
+  moment!
+>p:KanakoHappy
+.
+* Get over here!
+>p:KanakoTongue
+END
+
+-
+
+@MinesDateD2_7
+* Say cheese!
+>p:KanakoTongue
+END
+
+-
+
+@MinesDateD2_8
+* Heh... That looks great!
+>p:KanakoTongue
+.
+* Wish you had a phone so
+  I could send this to 
+  you...
+>p:KanakoNervous
+.
+* I'll just print it when I
+  get home and send it on 
+  the mail ASAP!
+>p:KanakoNormal
+.
+* Alright, let's go now.
+>p:KanakoHappy
+END
+
+-
+
+@MinesDateD2_End
+* You and Kanako make your way
+  back through the mines.
+END
+
+-
+
+@MinesEntranceGate
+* This leads deeper into the
+  "safe" area of the mines.
+.
+* You aren't going there.
+END

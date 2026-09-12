@@ -1,0 +1,339 @@
+@FoxEventNew1
+[shake]* Ah...
+* The o-one arrives at 
+  l-last...
+>bleep:Necklace
+>slow:4
+.
+* Um, what are you talking
+  about?
+* Who are you?
+>p:KanakoNervous
+END
+
+-
+
+@FoxEventNew2
+[shake]* I-I have been waiting for
+  y-y-you...
+>bleep:Necklace
+>slow:4
+.
+[shake]* W-Wai-waiting...
+* And wait-waiting...
+>bleep:Necklace
+>slow:4
+.
+[shake]* I've waited...
+* And waited... For so long...
+>bleep:Necklace
+>slow:4
+.
+* The heck are you talking
+  about?!
+* S-Stop looking at me!
+>p:KanakoScared
+.
+[shake]* Ah...
+* Ah...
+* Ah...
+>bleep:Necklace
+>slow:4
+.
+[shake]* Yes...
+* I-I apologize...
+>bleep:Necklace
+>slow:4
+.
+[shake]* Y-Y-You wouldn't recognize
+  me...
+>bleep:Necklace
+>slow:4
+.
+[shake]* But I reco-recognize you...
+* Ka... Ka... Kana... ko...
+>bleep:Necklace
+>slow:4
+.
+* !!
+>p:KanakoScared
+.
+* How... How do you know
+  my name...?
+>p:KanakoScared
+END
+
+-
+
+@FoxEventNew3
+[shake]* Kana...ko... Kanako...
+>bleep:Necklace
+>slow:4
+.
+[shake]* You left me behind...
+* Y-You abandoned me...
+>bleep:Necklace
+>slow:4
+.
+[shake]* No longer...
+>bleep:Necklace
+>slow:4
+.
+[shake]* I-I was hoping...
+* The b-bear...
+* He fail-failed.
+>bleep:Necklace
+>slow:4
+.
+[shake]* I s-sent him...
+* To find you...
+* S-So we c-c-could reunite.
+>bleep:Necklace
+>slow:4
+.
+[shake]* But he failed...
+* Failed...
+>bleep:Necklace
+>slow:4
+.
+* Wait, so you were the one
+  that sent Bearing on us?
+* Are you "it"?!
+>p:KanakoOffended
+.
+[shake]* Ah...
+* Kana...ko...
+>bleep:Necklace
+>slow:4
+.
+* [shake]K-ka-na-ko...
+* Kanako...
+>bleep:Necklace
+>slow:4
+.
+* ...This is getting too
+  creepy for me.
+>p:KanakoNervous2
+.
+* Cole, let's bail.
+>p:KanakoNervous2
+.
+* [shake]D-do-don't...
+>bleep:Necklace
+>slow:4
+.
+* [shake]...eeeeAAAAAARGH!!
+>bleep:Necklace
+>slow:4
+.
+* C-Cole... What is 
+  happening...?!
+>p:KanakoScared
+END
+
+--
+
+@FoxTalkPreFight
+* W-what's going on?!
+>p:KanakoScared
+.
+* [shake]K-Kanako...!!
+>bleep:Necklace
+>slow:4
+>face:party:North
+.
+* [shake]Don't... don't leave me again!!
+>bleep:Necklace
+>slow:4
+.
+* Cole! Watch out!
+* Here it comes!
+>p:KanakoScared
+END
+
+-----
+
+@FoxTalkPostSpared
+* [shake]Ah... Kanako...
+>bleep:Necklace
+>slow:4
+.
+* [shake]You're... forgiving me...?
+>bleep:Necklace
+>slow:4
+.
+* [shake]...
+>bleep:Necklace
+>slow:4
+END
+
+-----
+
+@FoxTalkPostDefeated
+* [shake]Ah...! Kanako...!
+>bleep:Necklace
+>slow:4
+.
+* [shake]Y-you... you hate me...
+>bleep:Necklace
+>slow:4
+.
+* [shake]...
+>bleep:Necklace
+>slow:4
+.
+* [shake]I...
+* I see...
+>bleep:Necklace
+>slow:4
+END
+
+-----
+
+@FoxPostFinalDefeated
+* [shake]Ah... Kanako...
+>bleep:Necklace
+>slow:4
+.
+* [shake]I... I'm sorry...
+>bleep:Necklace
+>slow:4
+.
+* [shake]I... I didn't want to...
+* Be a burden...
+>bleep:Necklace
+>slow:4
+.
+* [shake]Forgive me...
+>bleep:Necklace
+>slow:4
+.
+[shake]* The one...
+* The dark one...
+>bleep:Necklace
+>slow:4
+.
+[shake]* ...[color=yellow]The Outlaw[/color]...
+>bleep:Necklace
+>slow:4
+.
+[shake]* It was the one... That told
+  me...
+* To wait for you...
+>bleep:Necklace
+>slow:4
+.
+[shake]* That you would come...
+* That you would find me...
+>bleep:Necklace
+>slow:4
+.
+* [shake]Let me... Let me become
+  useful to you... 
+* For once...
+>bleep:Necklace
+>slow:4
+.
+* [shake]Take me, and may your foes 
+  tremble before our might...
+>bleep:Necklace
+>slow:4
+.
+* [shake]...Kanako...
+* ...Thank you.
+>bleep:Necklace
+>slow:4
+END
+
+-----
+
+@FoxPostFinalSpared
+* [shake]...Kanako...
+>bleep:Necklace
+>slow:4
+.
+* [shake]Despite everything...
+* You forgave me...
+>bleep:Necklace
+>slow:4
+.
+* [shake]...Thank you.
+>bleep:Necklace
+>slow:4
+.
+* [shake]I know it wasn't your fault.
+>bleep:Necklace
+>slow:4
+.
+* [shake]For me to be left behind...
+>bleep:Necklace
+>slow:4
+.
+[shake]* I knew... We would reunite...
+>bleep:Necklace
+>slow:4
+.
+[shake]* The dark one...
+* The dark one told me...
+>bleep:Necklace
+>slow:4
+.
+[shake]* ...[color=yellow]The Outlaw[/color]...
+>bleep:Necklace
+>slow:4
+.
+[shake]* It told me...
+* That you would come...
+>bleep:Necklace
+>slow:4
+.
+[shake]* That you would find me...
+>bleep:Necklace
+>slow:4
+.
+[shake]* ...I'm sorry...
+>bleep:Necklace
+>slow:4
+.
+* [shake]...Let me make up to you...
+>bleep:Necklace
+>slow:4
+.
+* [shake]Let us rejoin together...
+* ...And return home.
+>bleep:Necklace
+>slow:4
+END
+
+-----
+
+@FoxGetItemDefeated
+* (You got the Fox Staff.)
+END
+
+-----
+
+@FoxGetItemSpared
+* (You got the Fox Necklace.)
+END
+
+-----
+
+@FoxFullInv
+* (...But your inventory was 
+  full.)
+.
+* ...
+>p:KanakoOffended
+.
+* Cole...
+>p:KanakoOffended2
+.
+* This is kinda anti-
+  climatic.
+>p:KanakoOffended2
+.
+* Let's free some space
+  and grab this item ASAP.
+>p:KanakoOffended2
+END

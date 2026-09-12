@@ -1,0 +1,1260 @@
+@SaveUpstairsView
+* The view from up here is
+  fascinating, but you are also
+  afraid of falling off.
+>heal
+>top:lock
+.  
+* You are filled with a sense 
+  of acrophobia.
+>callsave
+END
+
+--
+
+@SaveUpstairsPort
+* This settlement in the clouds
+  seems like a good spot to 
+  take a breather.
+>heal
+.  
+* You are filled with a sense 
+  of relaxation.
+>callsave
+END
+
+----
+
+@BalloonPrompt
+* Take the balloon?
+>prompt:To Archives:To The Spire:To Port:To The Crack
+END
+
+--
+
+@BunBun1Encounter6
+* This is...
+>p:KanakoSad
+.
+* Let's go up ahead.
+>p:BunBunNormal
+.
+* There are some people
+  there that can help
+  you reach the Spire.
+>p:BunBunNormal
+.
+* And you can get a 
+  better view of our 
+  world!
+>p:BunBunHappy
+.
+* ...
+>p:KanakoDumb
+.
+* I'm so nervous...
+>p:KanakoNervous
+END
+
+--
+
+@UpstairsOverview
+* Oh, wow.
+* The Spire does stretch
+  all the way up here...
+>p:KanakoPuff
+>top:lock
+.
+* Yeah! Both sides here
+  are connected to the
+  same fountain.
+>p:BunBunHappy
+.
+* ...So...
+* This really is my room,
+  right...?
+>p:KanakoSad
+.
+* It is based on it, but
+  it isn't actually it.
+>p:BunBunNormal
+.
+* ...
+>p:KanakoSad
+.
+* So, how do we get there?
+>p:KanakoPuff
+.
+* There is a group of
+  darkners trying to
+  breach the Spire.
+>p:BunBunContent
+.
+* We will meet with them
+  and assist.
+>p:BunBunNormal
+.
+* I see...
+>p:KanakoPuff
+.
+* Well, let's not waste
+  any more time then!
+>p:KanakoTongue
+END
+
+--
+
+@BunBunEvent2
+* ...Up ahead is the group
+  of darkners trying to
+  breach into the Spire.
+>p:BunBunNormal
+.
+* I'm sure they'll help
+  you get there in time!
+>p:BunBunHappy
+.
+* Oh, thanks BunBun!
+>p:KanakoHappy
+.
+* Now... I must be off
+  to do some errands 
+  before...
+>p:BunBunContent
+.
+* Well, it doesn't matter.
+* I hope we can see each
+  other again, Kanako.
+>p:BunBunHappy
+.
+* ...Same. Thanks again,
+  BunBun.
+>p:KanakoHappy
+.
+* See ya!
+>p:BunBunHappy
+END
+
+--
+
+@BunBunEvent2-2
+* Well, that was 
+  something...
+>p:KanakoPuff
+.
+* Guess we gotta figure
+  out how to breach in
+  next.
+>p:KanakoNormal
+.
+* ...
+>p:AxisDumb
+.
+* Axis? You've been 
+  quiet...
+* You okay?
+>p:KanakoSad
+.
+* SORRY, MISS KANAKO.
+* JUST... THINKING.
+>p:AxisDumb
+.
+* AS MUCH AS MY PROCESSOR
+  ALLOWS ME TO (NOT MUCH).
+>p:AxisNormal
+.
+* Yeah... We learned
+  quite a lot just now...
+>p:KanakoSad
+.
+* But we can't stop now.
+* We are close to the 
+  end.
+>p:KanakoOffended
+.
+* C'mon, let's find 
+  those darkners and 
+  finally save dad!
+>p:KanakoTongue
+END
+
+--
+
+@LegoPink
+* Ummm...
+* This door... kinda just 
+  showed up...?
+>tc
+.
+* I tried opening it, but it 
+  led me all the way down to 
+  Robotopia?!
+>tc
+.
+* I'm scared...
+* I don't want the robots to
+  attack us!
+>tc
+END
+
+--
+
+@LegoBlue
+* Those folks over there are
+  the "freedom fighters" that
+  are trying to enter the Spire.
+>tc
+.
+* But to me they just look
+  like a bunch of softies.
+>tc
+.
+* Can the spire even be breached?
+* Doubt it.
+* We should just surrender.
+>tc
+END
+
+--
+
+@LegoBlue2
+* Heard a big explosion coming
+  over from the Spire...
+>tc
+.
+* So have those guys done it?
+* Has it been breached?!
+>tc
+.
+* ...Oh, well. That is not my
+  problem. I can't even really
+  move, much less fight.
+>tc
+.
+* Leave it to them, I guess.
+>tc
+END
+
+--
+
+@LegoBlue2B
+* So have you guys made it in yet?
+>tc
+.
+* Hope the robots don't just flood
+  over and attack us here...
+* I can't even move from this spot!
+>tc
+END
+
+--
+
+@LegoBlue3
+* The guys suddenly came back and
+  the red one was hurt?!
+>tc
+.
+* Guess the robots were too much
+  for them... What will become of
+  us?!
+>tc
+END
+
+--
+
+@RangerEvent1
+* Oh no.
+>p:KanakoDumb
+.
+* Oh nononononono...
+>mini:AxisNormal:MISS KANAKO? WHAT'S WRONG?
+>p:KanakoDumb
+END
+
+--
+
+@RangerEventAlt1
+* Oh no. Don't tell me...
+>mini:AxisNormal:MISS KANAKO? WHAT'S WRONG?
+>p:KanakoScared
+END
+
+--
+
+@RangerEvent2
+[color=red][shake]* BLUE! GREEN!
+* STATUS REPORT!!
+>p:RangerR
+.
+[color=blue]* Everythin' the same
+  as usual, Red.
+>p:RangerB
+.
+[color=green]* Yeah just finished our
+  patrols.
+>p:RangerG
+.
+[color=green]* The Spire is still 
+  unbreacheable.
+>p:RangerG
+.
+[color=red][shake]* DRAT! HOW CAN THIS BE?!
+>p:RangerR
+.
+[color=red]* There must be some way 
+  inside! We must search 
+  [shake]AGAIN!
+>p:RangerR
+END
+
+--
+
+@RangerEvent3
+[color=red]* [shake]HALT!
+>p:RangerR
+.
+[color=red]* IS THAT A [shake]ROBOT[/shake]?!
+>p:RangerR
+.
+[color=red]* TEAM, BATTLE FORMATIONS!
+>p:RangerR
+.
+[color=red]* RED!
+>p:RangerR
+>anim:RangerRed:Pose
+>sound:snd_bell_ch1.wav
+.
+[color=blue]* BLUE!
+>p:RangerB
+>anim:RangerBlue:Pose
+>sound:snd_bell_ch1.wav
+.
+[color=green]* GREEN!
+>p:RangerG
+>anim:RangerGreen:Pose
+>sound:snd_bell_ch1.wav
+.
+* Wait, WAIT!
+>p:KanakoSurprise
+.
+* He's with us!
+* Don't attack!
+* Please!
+>p:KanakoSurprise
+.
+* .........
+>anim:RangerRed:force
+>anim:RangerBlue:force
+>anim:RangerGreen:force
+.
+[color=red]* If you have the situation
+  under control, then we 
+  shall leave it be!
+>p:RangerR
+.
+[color=red]* Either way, what are you
+  all doing here?
+* Don't remember you around.
+>p:RangerR
+.
+* Oh, um...
+* We just wanted to...
+>p:KanakoNervous
+.
+* WE MUST REACH THE SPIRE.
+>mini:KanakoDumb:Axis...
+>p:AxisNormal
+.
+[color=red]* THE SPIRE?!
+>p:RangerR
+.
+[color=red]* Well, we have mutual
+  goals then!
+>p:RangerR
+.
+[color=red]* Tell me, are you warriors
+  of [color=yellow]Justice[/color]?
+>p:RangerR
+>mini:KanakoPuff:[color=yellow]Justice[/color]?
+>prompt:We're all@for justice.:Not really
+>promptredirect:RangerEvent3B:END
+END
+
+--
+
+@RangerEvent3B
+>p:RangerR
+[color=red]* Thought so! Your clothes
+  scream [color=yellow]Justice[/color]!
+>mini:AxisNormal:THEY DO?
+END
+
+--
+
+@RangerEvent3C
+[color=red]* ..........
+>p:RangerR
+END
+
+--
+
+@RangerEvent3C2
+[color=red]* [shake]S-SURELY YOU JEST!![/shake]
+* Just look at your clothes!
+* Clearly [color=yellow]Justice[/color] apparel!
+>p:RangerR
+END
+
+--
+
+@RangerEvent4
+[color=red]* Oh, where are our manners?
+* Let us introduce 
+  ourselves!
+>mini:KanakoDumb:Oh no...
+>p:RangerR
+.
+[color=red]* RED!
+>p:RangerR
+>anim:RangerRed:Pose
+>sound:snd_bell_ch1.wav
+.
+[color=blue]* BLUE!
+>p:RangerB
+>anim:RangerBlue:Pose
+>sound:snd_bell_ch1.wav
+.
+[color=green]* GREEN!
+>p:RangerG
+>anim:RangerGreen:Pose
+>sound:snd_bell_ch1.wav
+.
+[shake]* AND TOGETHER WE ARE...
+END
+
+--
+
+@RangerEventAlt4
+[color=red]* Oh, where are our manners?
+* Let us introduce 
+  ourselves!
+>p:RangerR
+.
+[color=red]* RE-
+>p:RangerR
+.
+* No. Stop. I already know.
+>p:KanakoOffended2
+>signalearly
+.
+* You're Team RGB.
+* A kid series that I still
+  have toys for.
+>p:KEEP
+.
+* Just please stop.
+* (I just can't take this
+  for much longer...)
+>p:KanakoAnnoyed
+.
+* ............
+.
+[color=red]* ...Fine. If you already
+  know, let's cut to the
+  chase.
+>p:RangerR
+END
+
+--
+
+@RangerEvent5
+* [color=red]THE [color=green]RESCUE [color=blue]RANGERS [color=red]R[color=green]G[color=blue]B!
+END
+
+--
+
+@RangerEvent6
+>p:RangerR
+[color=red]* Well, how about you 
+  help us?
+.
+>p:RangerR
+[color=red]* We do have a plan to
+  breach into the Spire...
+.
+>p:RangerR
+[color=red]* But the means to do so
+  are locked away in the
+  [color=yellow]Archives[/color].
+.
+>p:RangerR
+[color=red]* No known darkners has 
+  ever got through...
+.
+>p:RangerG
+[color=green]* It's password locked.
+>mini:KanakoDumb:.....
+.
+>p:RangerR
+[color=red]* BUT you, pink lass!
+* You look familiar...
+* KNOWLEDGEABLE, even!
+.
+>p:RangerR
+[color=red]* Like you know how to 
+  enter it!
+>mini:KanakoDumb:..........
+.
+* Um........
+>p:KanakoDumb
+.
+>p:RangerR
+[color=red]* SO IT'S SETTLED!
+* LET US DEPART AT ONCE!
+.
+>p:RangerR
+[color=red]* Talk to Blue at the docks
+  ahead and we will depart
+  right away!
+.
+>p:RangerR
+[color=red][shake]* TEAM! MOVE OUT!
+>anim:RangerRed:Pose
+>anim:RangerBlue:Pose
+>anim:RangerGreen:Pose
+>sound:snd_bell_ch1.wav
+END
+
+--
+
+@RangerEvent7
+* ..........
+>p:KanakoDumb
+.
+* I hope the Archives 
+  aren't what I think it 
+  is...
+>p:KanakoDumb
+END
+
+--
+
+@RangerBlueBalloon
+>p:RangerB
+[color=blue]* Hey, this balloon here
+  will take us to the
+  [color=yellow]Archives[/color].
+.
+>p:RangerB
+[color=blue]* Wanna hop in?
+>prompt:Yes:Not yet
+END
+
+--
+
+@RangerBlueBalloonReturn
+>redirect:C2GotBomb:RangerBlueBalloonReturn2
+>p:RangerB
+[color=blue]* Forgot something?
+* We can return to the 
+  docks if you need to.
+>prompt:Return:Not yet
+END
+
+--
+
+@RangerBlueBalloonReturn2
+[color=blue]* You got it! Now we should
+  be ready!
+>p:RangerB
+.
+[color=blue]* Ready to get out of here?
+>p:KEEP
+>prompt:Return:Not yet
+END
+
+--
+
+@RangerGreenBalloonPre
+>p:RangerG
+[color=green]* This here balloon will
+  take us to the [color=yellow]Spire[/color].
+.
+>p:RangerG
+[color=green]* But you aren't ready yet.
+* Go to the Archives first!
+END
+
+--
+
+@RangerGreenBalloon
+[color=green]* Blue told me you got 
+  the thing.
+>p:RangerG
+.
+[color=green]* Once you're ready, board
+  the balloon and go to the
+  Spire!
+>p:KEEP
+END
+
+--
+
+@RangerBlueArchive
+>p:RangerB
+[color=blue]* Here we are.
+.
+>p:RangerB
+[color=blue]* That building up ahead 
+  is the Archives.
+.
+>p:RangerB
+[color=blue]* In there you'll find
+  the Thing we require
+  to breach the Spire.
+.
+* ......
+>p:KanakoDumb
+.
+* (What could it be...)
+>p:KanakoDumb
+>p:RangerB
+[color=blue]* I'll stay here in case
+  you need to return to 
+  town.
+.
+>p:RangerB
+[color=blue]* Just gimme a holler.
+.
+* Um... What are we 
+  looking for again?
+>p:KanakoNervous
+.
+>p:RangerB
+[color=blue]* Just tell the guy 
+  inside you are here 
+  for [color=yellow]The Thing[/color].
+.
+>p:RangerB
+[color=blue]* He'll know what it is.
+.
+* .......Okay...
+>p:KanakoDumb
+END
+
+--
+
+@2BlockTutorial
+* The floating target is magically
+  linked to the blocks of the same
+  color!
+.
+* If you [color=yellow]interact with it[/color], or [color=yellow]hit
+  it with a projectile[/color], you can
+  flip the block states.
+.
+* Try it out and see what happens!
+END
+
+--
+
+@LegoBull
+* Hey! Watch it!
+>tc
+.
+* Some wild worms took
+  over these islands!
+>tc
+.
+* They bite hard! Don't let
+  them block you in!
+>tc
+.
+* Oh, the deer too. Watch out
+  for them!
+END
+
+--
+
+@BridgeUnlockDiag
+* I think that bridge back
+  at the green clouds has
+  unlocked!
+>p:BunBunNormal
+.
+* Alright, let's head back
+  then.
+>p:KanakoPuff
+END
+
+--
+
+@GreenRangerSpire
+[color=green]* The others are just ahead,
+  go meet them!
+>p:RangerG
+END
+
+--
+
+@RangerBombEvent1
+* AH! Our Justice Friends
+  have arrived!
+.
+* I trust you brought The
+  Thing?!
+END
+
+-
+
+@RangerBombEvent2
+* Is it this?
+.
+* Yes. This thing will allow
+  us to breach this wall and
+  get inside!
+.
+* And then, our assault to
+  stop this conflict will
+  begin!
+.
+* ...I supposed it is a
+  solid plan...?
+.
+* Just wish there was a
+  less... explosive way
+  of doing it.
+.
+* If you have better ideas,
+  feel free to try. But this
+  is likely the best way!
+.
+* We will go in once you're
+  set. Use the balloon if
+  you want to go back.
+.
+* Just don't keep us waiting
+  for long!
+END
+
+--
+
+@RangerRBeforeSpire
+>redirectmap:Red:RangerRBeforeSpire2
+* So, will anyone else be
+  joining us on this?
+>p:KanakoPuff
+.
+[color=red]* No. Everyone else are
+  COWARDS!
+>p:RangerR
+.
+[color=red]* But just the 6 of us
+  should be more than 
+  enough.
+>p:KEEP
+.
+[color=red]* More than enough to take 
+  down their entire army!
+>p:KEEP
+.
+* THERE ARE LIKELY HUNDREDS
+  OF ROBOTS INSIDE.
+>p:AxisBored
+.
+* HOW DO YOU EXPECT TO MAKE
+  IT EVEN HALFWAY THROUGH?
+>p:KEEP
+.
+[color=red]* Details! Just believe in
+  JUSTICE and we will make
+  it through!
+>mini:KanakoNervous:...
+>p:RangerR
+>setmap:Red
+END
+
+--
+
+@RangerRBeforeSpire2
+[color=red]* What's the holdup?!
+* Just place the thing
+  already and let's go!!
+>p:RangerR
+END
+
+--
+
+@RangerGBeforeSpire
+[color=green]* Gonna be honest, I don't
+  think this will be easy.
+>p:RangerG
+.
+[color=green]* Those robots are vicious!
+* They will shred us if we
+  are not careful!
+>p:KEEP
+.
+[color=green]* I'd prepare before going
+  inside if I were you.
+>p:KEEP
+END
+
+--
+
+@RangerBBeforeSpire
+[color=blue]* Are you ready? Just put
+  the bomb by the cracked
+  wall once you are!
+>p:RangerB
+END
+
+--
+
+@SpireBombPrompt
+* Place down the bomb?
+>prompt:Yes:No
+END
+
+--
+
+@SpireBombEvent1
+[color=red]* Good work, Justice Pals!
+* Now we can enter and
+  deliver JUSTICE!
+>p:RangerR
+.
+[color=green]* Red, wait. Let's go over
+  the plan one more time.
+>p:RangerG
+.
+[color=red]* Right, right! Of course.
+>p:RangerR
+.
+[color=red]* So here is the idea,
+  listen well you three!
+>p:KEEP
+.
+[color=red]* We will go on ahead and 
+  cause as much damage as 
+  possible.
+>p:KEEP
+.
+[color=red]* MEANWHILE, you three make
+  your way to the bottom...
+* And beat that toaster guy!
+>p:KEEP
+.
+[color=red]* He is very likely 
+  to be there, at
+  the fountain's base.
+>p:KEEP
+.
+* (The fountain? I guess 
+  we had to go there 
+  anyway...)
+>p:KanakoPuff
+.
+* (But... I wonder where 
+  dad is being held...)
+>p:KanakoNeutral
+.
+* (Hope we can free him on 
+  the way.)
+>p:KanakoNeutral
+.
+* THERE WILL BE A LOT OF
+  ROBOTS IN OUR PATH.
+>p:AxisBored
+.
+* CAN YOU EVEN MAKE IT
+  PAST ONE FLOOR?
+>p:AxisBored
+.
+[color=blue]* Do not worry. We have been
+  training our entire lives
+  for this moment.
+>p:RangerB
+.
+[color=green]* We have?
+>p:RangerG
+.
+[color=red]* YES! And we have wasted 
+  too much time already!
+>p:RangerR
+.
+[color=red]* Please, set up the thing
+  and let's get going!
+>p:RangerR
+END
+
+--
+
+@SpireBombEvent2
+[color=red][shake]* A HAHA HAHAHA!
+* The path is open!
+>p:RangerR
+.
+[color=red]* Now we can teach those 
+  blasted robots a lesson!
+>p:KEEP
+.
+[color=red][shake]* LET'S GO, TEAM!!
+>p:KEEP
+END
+
+--
+
+@SpireBombEvent3
+[color=green]* Wait, Red!
+* Wait for us!!
+>p:RangerG
+END
+
+--
+
+@SpireBombEvent4
+* Alright... This should
+  be it...
+>p:KanakoOffended
+.
+* Let's go find dad and
+  seal the fountain!
+>p:KEEP
+END
+
+--
+
+@SpireBombEvent5
+[shake]* waaaaaaaait >o<
+>bleep:Anme
+END
+
+--
+
+@SpireBombEvent6
+* wat was that scawy 
+  noise?? o.o
+>p:AnmeSad
+.
+* o lookie! a new path!!
+  ^W^
+>p:AnmeTem
+.
+* anme excited to explore
+  this new place!!!
+  XD
+>p:AnmeHappy
+END
+
+--
+
+@SpireBombEvent7
+* ...Let's just keep going.
+>p:KanakoNervous
+>mini:AxisBored:WHY DOES THIS KEEP HAPPENING?
+END
+
+--
+
+@SpireDoorNoCard
+* The door is locked shut.
+.
+* Seems there is a slot to insert 
+  some sort of card besides it.
+.
+* But you don't have anything
+  that could work here.
+END
+
+--
+
+@SpireDoor
+* The door is locked shut.
+.
+* Use the SPECIAL ACCESS KEY CARD?
+>prompt:Yes:No
+END
+
+--
+
+@SpireDoor2
+* The door is now unlocked.
+END
+
+--
+
+@SpireDoor3
+>top:lock
+[color=blue]* Wait, you managed to open
+  that?!
+>p:RangerB
+.
+[color=red]* But... What about the 
+  thing?! We had a whole
+  plan planned!
+>p:RangerR
+.
+[color=green]* Hey if we can get inside,
+  that's good enough for 
+  me.
+>p:RangerG
+.
+[color=red]* [wave]Grumble...[/wave]
+* But...
+>p:RangerR
+.
+[color=blue]* Red, c'mon. At least we
+  can go in.
+>p:RangerB
+.
+[color=red]* FINE. That wasn't as 
+  flashy as I wanted, but
+  you did do the job.
+>p:RangerR
+.
+[color=red]* C'mon, Team! Let's beat
+  up those robots!
+>p:RangerR
+END
+
+--
+
+@SpireDoor4
+>top:lock
+* amne sees a new way has
+  been opened! OwO
+>p:AnmeTem
+.
+* amne is ready to explore!
+* please make way for amne!
+* ^w^
+>p:AnmeHappy
+END
+
+--
+
+@FirstDoorKnock
+* Hey what do you think you're
+  doing you darn kids!
+>talk:Sock
+.
+* Don't just go entering other
+  people's homes without 
+  permission!
+>talk:Sock
+.
+* Hmph... The audacity of today's
+  generation...
+>talk:Sock
+END
+
+--
+
+@SpireDoorTooLate
+* There is no point using this
+  passage anymore.
+END
+
+--
+
+@OldMan
+* [wave]Aaah![/wave] You darn whippersnappers,
+  with your flying thingmajigs and
+  weird, flesh-like appearances!
+>tc
+.
+* ...Wait a darn minute... 
+* Are ya lot Lightners?
+>tc
+.
+* It has been a spell since I last
+  saw a Lightner!
+>tc
+.
+* Ah... This is bringing me back...
+* Back when we weren't just
+  tossed aside and forgotten!
+>tc
+.
+* ...Wait, what were we talking
+  about again?
+>tc
+END
+
+--
+
+@SockNearShop
+* Hey this shop sells a super
+  special equipment that makes
+  you graze better!
+>tc
+.
+* I would definitively get one,
+  if I had feet to wear it, 
+  that is.
+>tc
+END
+
+--
+
+@RangerDoor1
+* ...Doesn't seem like anyone is
+  home.
+END
+
+--
+
+@RangerDoor2
+[color=red][shake]* J-Justice pals?! Is that you?!
+>bleep:RangerR
+.
+[color=red][shake]* You must break me out of this
+  prison!! My companions have gone
+  insane!!
+>bleep:RangerR
+.
+[color=green]* Yeah, says the crazy one.
+>p:RangerG
+.
+[color=blue]* I would be all for 
+  breaking more robots,
+>p:RangerB
+.
+[color=blue]* But they have been pretty
+  chill so far.
+>p:RangerB
+.
+[color=red][shake]* Things only traitors would say!!
+* They are killing machines!
+>bleep:RangerR
+.
+[color=green]* ...Those wafers were
+  pretty good.
+>p:RangerG
+.
+[color=red][shake]* I knew those things were
+  poisoned! I can't believe I am
+  the last sane one!
+>bleep:RangerR
+.
+* ...Cole, let's just leave
+  them be.
+>p:KanakoNervous
+>mini:AxisBored:AGREED. LET'S GET THE [fun] OUT OF HERE.
+END
+
+--
+
+@RangerDoor3
+* That's enough, Cole.
+>p:KanakoOffended2
+>mini:AxisBored:WHY ARE WE STILL HERE??
+END
+
+--
+
+@RangerBlueLast
+[color=blue]* The robots weren't all
+  that bad. The food was
+  surprisingly good.
+>p:RangerB
+END
+
+--
+
+@RangerGreenLast
+[color=green]* Sorry about that. 
+>p:RangerG
+.
+[color=green]* I think years of inaction 
+  made Red too "trigger 
+  happy".
+>p:RangerG
+.
+[color=green]* Some time off should
+  make him more reasonable.
+* I hope.
+>p:RangerG
+END
+
+-
+
+@TradingGuy1
+* So some junk from downstairs
+  sometimes floats up here-
+>tc
+.
+* And one of them had this picture
+  of a lady on it.
+>tc
+.
+* It must be something like those
+  "trading cards" I've heard some
+  guys talking about!
+>tc
+.
+* ...Though I wanted to learn more
+  about the robots...
+>tc
+.
+* Oh I know, if you find a robot
+  card, I will trade the lady one
+  for that one, sounds good?
+>tc
+END
+
+-
+
+@TradingGuy2
+* Oh, you have a robot card?
+* So, do you wanna do the trade?
+>tc
+>prompt:Trade:Don't
+>promptredirect:TradingGuy2A:TradingGuy2B
+END
+
+-
+
+@TradingGuy2A
+* Wow, what an interesting robot!
+* Anyway, here is your card!
+>tc
+.
+* (You traded your SOUSBORG card
+  for a CEROBA one.)
+>sound:snd_item_ch1.wav
+.
+* (...Why is there a card 
+  of mom...?!)
+>p:KanakoDumb
+END
+
+-
+
+@TradingGuy2B
+* Oh, okay. Tell me if you change
+  your mind, okay?
+>tc
+END
+
+-
+
+@TradingGuy3
+* Robots are truly strange beings,
+  aren't they?
+>tc
+END
+
+--
+
+@LegoOrange
+* Apparently we are at war with
+  the robots downstairs?
+>tc
+.
+* No one seems to really care
+  that much, really. Can't we
+  just all be friends?
+>tc
+END

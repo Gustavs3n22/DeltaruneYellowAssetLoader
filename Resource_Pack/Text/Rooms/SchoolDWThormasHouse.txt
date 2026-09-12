@@ -1,0 +1,321 @@
+@TrashCheck
+* As you stare at the trash can,
+  you can feel Kanako staring
+  back at you.
+.
+* Bummer.
+END
+
+--
+
+@BoardCheck
+* Some sort of corkboard with 
+  a lot of nearly unrelated
+  things all connected.
+.
+* Whatever it is, it seems to
+  always link back to Bearing
+  even if it makes no sense.
+END
+
+--
+
+@VentCheck
+* You could probably reach that
+  vent if this trash wasn't in
+  the way.
+END
+
+--
+
+@TrashDig
+* You dig through the trash and
+  find...
+.
+* Absolutely nothing.
+END
+
+--
+
+@SofaCheck
+* Sitting on this seems like
+  a health hazard.
+END
+
+--
+
+@ThormasEvent1
+* Welcome! To the base of
+  operations!
+>p:ThormasHappy
+>talk:Thormas
+>top:lock
+.
+* It, uh, is certainly
+  a base!
+>p:KanakoNervous
+.
+* So where is the rest of
+  your group?
+>p:KanakoPuff
+.
+* OH! WELL...
+>p:ThormasShock
+>talk:Thormas
+.
+* It is just me and good ol'
+  Rocky over there.
+>p:ThormasNormal
+>talk:Thormas
+END
+
+--
+
+@ThormasEvent2
+* ...Dude.
+* That's just a rock.
+>top:lock
+>p:KanakoOffended2
+.
+* Oh. Wow. Rude.
+>talk:Rocky
+>p:Rocky
+.
+* Oh, um, I-
+* S-Sorry, I didn't...
+>p:KanakoDumb
+.
+* Hey, it's fine.
+* I get that more often than
+  I like to admit.
+>p:Rocky
+>talk:Rocky
+.
+* So... What is your plan
+  to stop Bearing?
+>p:KanakoPuff
+>face:party:North
+.
+* Glad you asked, pink 
+  fluffy girl! 
+* It is quite simple, really!
+>p:ThormasHappy
+>talk:Thormas
+.
+* We just go through the 
+  dark, dangerous forest, 
+  and sneak in his fortress!
+>p:ThormasNormal
+>talk:Thormas
+.
+* Then once inside, we trash
+  the place until we beat 
+  him!
+>p:ThormasNormal
+>talk:Thormas
+.
+* ...That...sure is a plan.
+>p:KanakoOffended2
+.
+* Hey, if you have any 
+  better ideas, tell me!
+>p:ThormasShock
+>talk:Thormas
+.
+* But after spying on 
+  Bearing for AGES, this is 
+  the best plan we have!
+>p:ThormasHappy
+>talk:Thormas
+.
+* Rocky is our specialist 
+  and agrees this is a 
+  sound plan!
+>talk:Thormas
+>p:ThormasNormal
+.
+* It is the only plan I can 
+  see have any chances of 
+  success.
+>face:party:Right
+>talk:Rocky
+>p:Rocky
+.
+* All the other ideas 
+  were...
+>talk:Rocky
+>p:Rocky
+.
+* Let's just say, at least 
+  this plan has less chances 
+  of sudden death.
+>talk:Rocky
+>p:Rocky
+.
+* YEAH! So what are we 
+  waiting for?!
+>p:ThormasHappy
+>face:party:north
+>talk:Thormas
+.
+* Let's free our people 
+  from that bear's tynanny!
+>p:KEEP
+>talk:Thormas
+.
+[shake]* ONWARDS!
+>talk:Thormas
+>p:KEEP
+END
+
+--
+
+@ThormasEvent3
+* ...Is he always like 
+  this?
+>p:KanakoNervous
+>top:lock
+.
+* Oh, yes.
+* Very.
+>p:Rocky
+>talk:Rocky
+.
+* But he is a good lad.
+* Even if this plan still 
+  has a high failure rate.
+>talk:Rocky
+>p:Rocky
+.
+* Anyway, go to the forest 
+  east of the town.
+* It will be dangerous-
+>p:Rocky
+>talk:Rocky
+.
+* Bearing's troops and 
+  monsters will block our 
+  way...
+>p:Rocky
+>talk:Rocky
+.
+* But if we make it to the 
+  end, we can sneak in the 
+  fortress.
+>p:Rocky
+>talk:Rocky
+.
+* ...Well it is the only
+  way home I guess.
+>p:KanakoNervous
+.
+* C'mon Cole, let's just
+  get this over with.
+>p:KanakoNormal
+END
+
+--
+
+@RockyDiag
+* I'll catch up.
+* Don't worry, I have my 
+  ways.
+>talk:Rocky
+>p:Rocky
+>top
+END
+
+------
+
+@ThormasEnd
+>top:lock
+* Uh, is this your idea
+  of a party?
+>p:KanakoOffended2
+.
+* Yep! Nothing beats just 
+  lounging around in a 
+  couch doing nothing!
+>p:ThormasHappy
+>tc
+.
+* You should try it
+  sometime, sister!
+>p:KEEP
+>mini:KanakoNervous:No thank you!
+END
+
+-----
+
+@ThormasFoxHint
+>top:lock
+* Wow! Nice bell!
+>tc
+>p:ThormasHappy
+.
+* It kinda reminds me of a 
+  thing I found at the 
+  cliffs once.
+>p:ThormasNormal
+>tc
+.
+* Dunno what it was, but it 
+  was kinda creepy.
+>p:ThormasShock
+>tc
+.
+* Felt like I was being 
+  watched...
+>p:KEEP
+>tc
+.
+* Be careful if you go looking
+  for it!
+>p:ThormasNormal
+>p:KEEP
+>tc
+END
+
+-----
+
+@RockyEnd
+>top:lock
+>redirectmap:Rocky:RockyEnd2
+* And so our adventure comes 
+  to an end.
+>p:Rocky
+>tc
+.
+* When you seal the 
+  fountain, this world, and 
+  its people-
+>tc
+>p:Rocky
+.
+* We will all return to the 
+  darkness.
+>tc
+>p:Rocky
+.
+* I hope we at least kept 
+  you entertained.
+>tc
+>p:Rocky
+>setmap:Rocky
+END
+
+-
+
+@RockyEnd2
+* It's getting late, isn't 
+  it?
+>tc
+>top
+>p:Rocky
+.
+* You should head back 
+  home.
+>tc
+>top
+>p:Rocky
+END

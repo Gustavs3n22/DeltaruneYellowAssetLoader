@@ -1,0 +1,3077 @@
+@TrashKetsukane
+* Only electronics parts,
+  nothing edible.
+.
+* Bummer.
+END
+
+--
+
+@TrashBathHouse
+* Most of the trash here is
+  all soggy.
+.
+* Bummer.
+END
+
+--
+
+@TrashSchool
+* Most of it is moldy and what
+  isn't is already half eaten by
+  bugs.
+.
+* Bummer.
+END
+
+--
+
+
+@BathhouseCheckDay1Kanako
+* Hey Cole!
+>p:KanakoNormal
+.
+* This isn't time for
+  a bath!
+* C'mon!
+>p:KanakoTongue
+.
+* (Though I sure could
+  use one after everything
+  today...)
+>p:KanakoSad
+END
+
+---
+
+@BathhouseCheckDay1
+>redirect:KanakoFollowing:BathhouseCheckDay1Kanako
+* This isn't time for a bath.
+END
+
+--
+
+@BathhouseCheckDay2
+>redirect:GizmoFollowing:BathhouseCheckDay2Gizmo
+>redirect:KanakoFollowing:BathhouseCheckDay2Kanako
+>redirect:BathhouseCheckDay1
+END
+
+--
+
+@BathhouseCheckDay2Gizmo
+* Do you actually bathe 
+  here?!
+>p:GizmoNervous
+.
+* Last I heard, this place
+  was abandoned ages ago.
+>p:GizmoAnnoyed
+.
+* I wonder why. This spot
+  kinda just... exists.
+>p:KanakoPuff
+.
+* Beats me, but I 
+  defitely DON'T need
+  a bath right now!
+>p:GizmoNervous
+.
+* Let's get out of here.
+>p:GizmoHurt
+END
+
+--
+
+@BathhouseCheckDay2Kanako
+* Y'know, I have never seen
+  anyone really use this
+  place.
+>p:KanakoPuff
+.
+* ...Do we even know who
+  owns this?
+>p:KanakoOffended2
+END
+
+-----
+
+@JuneHouseDay1
+>redirect:KanakoFollowing:JuneHouseDay1Kanako
+* Sadie's house.
+.
+* You shouldn't disturb her
+  right now.
+END
+
+---
+
+@JuneHouseDay1Kanako
+>redirectmap:JuneHouseK:JuneHouseDay1Kanako2
+* That's Sadie's place.
+>p:KanakoNormal
+.
+* Wonder if she would
+  believe us if we told
+  her what we did today.
+>p:KanakoPuff
+>setmap:JuneHouseK
+.
+>redirect:WeirdStart:JuneHouseDay1KanakoW
+* Or should we keep it
+  a secret between us?
+>p:KanakoTongue
+END
+
+---
+
+@JuneHouseDay1Kanako2
+* We can talk to Sadie
+  tomorrow during class.
+* Let's go elsewhere.
+>p:KanakoNormal
+END
+
+---
+
+@JuneHouseDay1KanakoW
+* ...Probably not.
+>p:KanakoNeutral
+END
+
+--
+
+@JuneHouseDay2
+>redirect:GizmoFollowing:SadieFrontDoorGizmo
+>redirect:CerobaEventDay2:JuneHouseDay2-2
+* Worried about Sadie?
+>p:KanakoNeutral
+.
+* She kinda disappeared
+  after class, that's
+  unlike her.
+>p:KanakoSad
+.
+* But I'm sure she will turn
+  up again later.
+>p:KanakoNormal
+END
+
+--
+
+@JuneHouseDay2-2
+>redirectmap:Sadie:JuneHouseDay2-3
+>redirect:SadieEventDay2_2:JuneHouseDay2-4
+* Sadie said she was going
+  to study today.
+>p:KanakoNeutral
+.
+* I kinda wish she'd join us
+  in the Dark World...
+>p:KanakoSad
+.
+* But would she even believe
+  it in the first place?
+>p:KanakoSad
+.
+* (Besides I kinda want this
+  to be just our thing...)
+>p:KanakoNervous
+>mapflag:Sadie
+END
+
+--
+
+@JuneHouseDay2-3
+* C'mon, Cole.
+* Let's not bother her.
+>p:KanakoPuff
+END
+
+-
+
+@JuneHouseDay2-4
+>redirect:ColeSolo:JuneHouseDay1
+>redirectmap:Sadie:JuneHouseDay2-3
+* (I wonder what's the thing
+  Sadie said she is working
+  on...)
+>p:KanakoPuff
+.
+* (Guess we'll see it 
+  soon...)
+>p:KanakoNervous
+>mapflag:Sadie
+END
+
+--
+
+@GizmoD2
+* Aw man. The hell is going
+  on.
+>p:GizmoAngry
+.
+* I can't protect my scores
+  like this.
+>p:GizmoAngry2
+.
+* Is gaming really all you
+  can think about?
+>p:KanakoOffended2
+.
+* You don't get it Kanako.
+* It is a matter of HONOR.
+>p:GizmoAngry
+.
+* Yeah yeah. Whatever.
+* Just go play something
+  at home then.
+>p:KanakoOffended2
+.
+* Modern games have 
+  abandoned the good old
+  score system.
+>p:GizmoAngry2
+.
+* They are worthless, it 
+  is what I am saying.
+>p:GizmoAngry
+.
+* (As if anyone cared about
+  scores in the first place)
+>p:KanakoNervous
+>setflag:GizmoD2Talk
+END
+
+--
+
+@GizmoD2-2
+* Maybe I can sneak in
+  through the back door...
+>p:GizmoAngry2
+>mini:KanakoOffended2:Are you really going to commit a crime for a game?!
+END
+
+--
+
+@RichWomanD2
+* Oh hoho!
+* Hello! Enjoying your day?
+>tc
+.
+* This town is very simple and
+  rustic, but you can feel the
+  warmth of its citizens!
+>tc
+.
+* It makes the trip worth it,
+  I say! Oh hoho!
+>tc
+END
+
+--
+
+@RichGuyD2
+* I tried to file a complaint
+  with the mayor earlier-
+>tc
+.
+* But the receptionist told me
+  to schedule an appointment?!
+>tc
+.
+* EXCUSE ME?! Does no one in this
+  town know who I am...?!
+>tc
+.
+* I have enough money to buy this
+  entire town 50 times over!
+>tc
+END
+
+--
+
+@RichGuyD2-2
+* What do you MEAN this 
+  establishment was ransacked?!
+>tc
+.
+* Is this really all this town
+  has to offer?! What kind of
+  mad joke is this?!
+>tc
+.
+* Expect a complaint from my
+  lawyers!
+>tc
+END
+
+--
+
+@RichWomanD2-2
+* Now now, dear!
+* No need to get upset!
+>tc
+.
+* Once we buy this place and 
+  everywhere else in town, we
+  can hire better security!
+>tc
+.
+[wave]* Oh ho ho ho ho!
+>tc
+END
+
+--
+
+@TeaBullD2
+* Heard that MO's might close
+  down soon!
+* Sales aren't too good lately.
+>tc
+.
+* Where will I buy my soup now?
+* Crisis!
+>tc
+END
+
+--
+
+@SadieBackdoor
+* !
+.
+* There is a door here.
+.
+* It is locked, however.
+END
+
+--
+
+@MartD2Sign
+* "Mo Mart regrets to inform our
+  valued customers that it will be
+  closed today-"
+.
+* "Due to unforeseen events, which
+  may of may not be related to low
+  sales targets."
+.
+* "But we promise to be back
+  tomorrow with even more low
+  price bargains for you!"
+END
+
+--
+
+@VioletaD2
+* Ah, you two!
+* Thanks for earlier.
+>tc
+.
+* It was nothing,
+  don't fret over it.
+>p:KanakoNeutral
+.
+* I swear Melody is getting more
+  "pushy" lately. I don't know
+  what problems she has at home-
+>tc
+.
+* But I hope she doesn't keep
+  bringing them over and unleashing
+  them on others.
+>tc
+.
+* The principal might actually
+  have to step in if things keep
+  going at this rate.
+>tc
+.
+* (...Wouldn't mind if
+  she was finally gone.)
+>p:KanakoNeutral
+.
+* Ah, caught myself rambling
+  again. Sorry.
+* Take care, you two!
+>tc
+>flag:ViolettaD2
+END
+
+--
+
+@VioletaD2-2
+* Be careful around, you two!
+>tc
+END
+
+--
+
+@RosaD2
+* I really don't like that human.
+* Why must she go to our school?
+>tc
+.
+* Oh, sorry, Cole. Wasn't talking
+  about you.
+>tc
+END
+
+--
+
+@BlackjackD2
+* Well if it isn't young Cole.
+* How can I help ya today?
+>tc
+.
+* Sorry... He kinda just
+  gravitates here on his
+  own...
+>p:KanakoNervous
+.
+* Haha! Well, I do have the finest
+  gun's in town, if I do say so
+  myself.
+>tc
+.
+* Have to thank the mayor for
+  letting my business remain open,
+  even if sales are slow.
+>tc
+.
+* Anyway, come on in, kids.
+* Got a new selection just a few
+  moments ago.
+>tc
+>prompt:Woah,@really?:Let me see!:Amazing!:Can't wait!
+>promptredirect:BlackjackD2_B:BlackjackD2_B:BlackjackD2_B:BlackjackD2_B
+>flag:BlackjackD2
+END
+
+--
+
+@BlackjackD2_B
+* Uh, no?!
+* We don't have time!
+>p:KanakoOffended2
+.
+* (Did you forget we
+  have to see the Dark
+  World stuff?!)
+>p:KanakoOffended2
+.
+* Ah, too bad. Maybe some other
+  day then, Cole.
+* Can't let the missus angry.
+>tc
+.
+* Eh- y-yeah, okay.
+* C'mon Cole, let's get
+  out of here.
+>p:KanakoNervous
+END
+
+--
+
+@BlackjackD2-2
+* Sorry Cole, looks like the missus
+  won't let you check out the gun's
+  today.
+>tc
+>mini:KanakoOffended2:Can you stop calling me that?
+END
+
+--
+
+@BellEvent1
+* ...
+.
+* Ring the bell?
+>prompt:Yes:No!
+END
+
+---
+
+@BellEvent2
+* ...Noisy.
+.
+* I came into this town...
+* Because of silence...
+.
+* But you...
+* You make too much noise...
+.
+* I'm leaving...
+END
+
+---
+
+@BellEvent3
+* (You feel bad.)
+END
+
+--
+
+@CerobaDay2VeryEarly
+>redirectmap:Roba:CerobaDay2VeryEarly2
+* Oh, Cole! You're up early
+  today!
+>p:CerobaHappy
+.
+* Normally it is Kanako 
+  who goes over to pick you
+  up for class.
+>p:CerobaLook
+.
+* Did something happen?
+>p:KEEP
+>prompt:Bad@Dream:Trying to@be more@responsible:Nothing
+>promptredirect:CerobaDay2VeryEarlyP1:CerobaDay2VeryEarlyP2:CerobaDay2VeryEarlyP3
+>setmap:Roba
+END
+
+--
+
+@CerobaDay2VeryEarlyP1
+* Oh, you had a nightmare?
+>p:CerobaNervous
+.
+* ...Kanako has been saying
+  you have been having a lot
+  of these lately.
+>p:CerobaSad
+.
+* ...I get it. This might be
+  your last week here in 
+  town...
+>p:CerobaNormal
+.
+* But you shouldn't let it
+  get to your head.
+>p:CerobaHappy
+.
+* I trust that everything
+  will work out in the end.
+>p:KEEP
+.
+* And you can still call us
+  whenever you are feeling
+  homesick. Or even visit.
+>p:KEEP
+.
+* So don't fret, alright?
+>p:CerobaHappy2
+.
+* Anyway I assume you're
+  here for Kanako.
+>p:CerobaLook
+.
+* She's inside. Feel free 
+  to go in.
+>p:CerobaHappy
+END
+
+--
+
+@CerobaDay2VeryEarlyP2
+* Oh, I guess that's an
+  admirable goal...?
+>p:CerobaNervous
+.
+* I mean, I'm glad you are
+  trying that, but...
+>p:CerobaRelieved
+.
+* (Is it because of this 
+  week? For Martlet?)
+>p:CerobaSad
+.
+* Oh, sorry. Just thinking
+  about something here...
+>p:CerobaNervous
+.
+* Anyway I assume you're
+  here for Kanako.
+>p:CerobaLook
+.
+* She's inside. Feel free 
+  to go in.
+>p:CerobaHappy
+END
+
+--
+
+@CerobaDay2VeryEarlyP3
+* Alright. If you're looking
+  for Kanako, she is inside
+  the shop.
+>p:CerobaNormal
+.
+* Go right in, you're 
+  welcome here!
+>p:CerobaHappy2
+END
+
+--
+
+@CerobaDay2VeryEarly2
+* Kanako should be inside
+  the shop.
+>p:CerobaLook
+.
+* I'm sure she will be 
+  happy that you are here 
+  for her.
+>p:CerobaHappy
+END
+
+--
+
+@CerobaDay2Early
+* Oh, hello you two.
+* Off exploring, I see.
+>p:CerobaHappy
+.
+* Oh, hey, mom.
+* Yeah, we are just
+  wanderin' about.
+>p:KanakoNormal
+.
+* It's nice to see you
+  two getting along.
+>p:CerobaHappy
+.
+* Just be careful not
+  to spend all your
+  energy all at once.
+>p:CerobaLook
+.
+* And don't forget to
+  come home early
+  tonight, Kanako.
+>p:CerobaNormal
+.
+* ...Alright, mom...
+>p:KanakoSad
+>flag:RobaDay2Early
+END
+
+--
+
+@CerobaDay2Early2
+* Hm? Hello, Cole.
+* Do you need something?
+>p:CerobaNormal
+>prompt:What are@you doing?:Nothing:Necklace
+>promptredirect:CerobaDay2Early2P1:CerobaDay2Early2P2:CerobaDay2Necklace
+>promptneed:None:None:HasNecklace
+END
+
+--
+
+@CerobaDay2Early2P1
+* I'm getting the store
+  ready for opening.
+>p:CerobaNormal
+.
+* The drawbacks of living
+  in a sandy place.
+>p:CerobaLook
+.
+* I tried to convince
+  Chujin to move somewhere
+  greener but...
+>p:CerobaSad
+.
+* He really doesn't get
+  along with humans...
+>p:CerobaSad
+.
+* Oh, sorry, Cole.
+* I don't mean anything
+  by it.
+>p:CerobaFluster
+.
+* We know mom.
+* We'll be leaving now,
+  okay?
+>p:KanakoNervous
+END
+
+--
+
+@CerobaDay2Early2P2
+* Don't tire yourselves
+  out, kids.
+>p:CerobaHappy
+>mini:KanakoHappy:Don't worry, mom.
+END
+
+--
+
+@CerobaDay2Necklace
+* Oh, right! Mom!
+* Here!
+>p:KanakoNormal
+.
+* (Kanako hands over the
+  Ketsukane Heirloom)
+>sound:snd_item_ch1.wav
+.
+* Ah! That...
+>p:CerobaFluster
+.
+* Thanks, dearie.
+* I was worried I'd
+  never find it again.
+>p:CerobaHappy2
+.
+* I'll be sure to
+  put it in a proper
+  place this time.
+>p:CerobaHappy
+.
+* Thanks.
+>p:CerobaHappy2
+>mini:KanakoHappy:Yay!
+>flag:ReturnedNecklace
+>item:5:KetsukaneHeirloom:-1
+END
+
+--
+
+@GizmoEventD1
+* Aw man! She's still there!
+>p:GizmoSad2
+.
+* C'mon, Gizmo.
+* You've been watching that 
+  window all day.
+>p:JuneSad
+.
+* Sadie, please!
+* I know she will steal my
+  high score!
+>p:GizmoAngry
+>mini:JuneNervous2:...And?:220:57
+END
+
+--
+
+@GizmoEventD1_2
+* Oh! Kanako! Cole!
+>p:JuneNormal
+.
+* Heya, guys!
+* What are you doing?
+>p:KanakoNormal
+.
+* Gizmo really wants to keep
+  [color=blue]Melody[/color] from stealing his
+  high score...
+>p:JuneNervous2
+.
+* You don't get it, Sadie.
+* My HONOR is on the line.
+* As this town's best gamer!
+>p:GizmoAngry
+.
+* Um... Sure!
+>p:JuneNervous2
+.
+* So... What have you both
+  been up to?
+* You've been gone all day.
+>p:JuneNormal
+.
+* Oh, um, we...
+* We just were...
+>p:KanakoNervous
+>prompt:Studying:Hanging out@alone in@the closet
+>promptredirect:GizmoEventD1_P1:GizmoEventD1_P2
+END
+
+-
+
+@GizmoEventD1_P1
+* Y-yeah we were just at
+  school late because we
+  were studying!
+>p:KanakoNervous
+.
+* Yeah, totally.
+* Like you two ever study!
+>p:GizmoSmug
+.
+* Hey, I'm not judging.
+>p:JuneNeutral
+.
+* As long as you two 
+  enjoyed your time 
+  together, then I'm happy!
+>p:JuneHappy
+.
+* (Why did she have to 
+  phrase it like that...?)
+>p:KanakoNervous
+END
+
+-
+
+@GizmoEventD1_P2
+* C-Cole! 
+* Y-you can't just say 
+  THAT!!
+>p:KanakoBlushFlustered
+>shakeanim:Kanako:ShyBlush
+.
+* Woah, Cole!
+* Trying to speedrun it
+  now, aren't ya?
+>p:GizmoSmug
+.
+[shake]* GIZMO!!
+>p:KanakoBlushFlustered
+.
+* I... I see...
+>p:JuneNeutral
+.
+* Well... I'm glad you two
+  had fun! Whatever you two
+  did.
+>p:JuneHappy
+.
+* It... It wasn't like that!
+>p:KanakoBlushFlustered
+.
+* Yeah... I get what you 
+  mean...
+>p:JuneNervous2
+.
+* That was a mean joke, 
+  Cole.
+>mini:KanakoNervous:Y-Yeah, just a joke...:95:57
+>mini:GizmoSmug:Sure, sure...
+>p:JuneNormal
+END
+
+-
+
+@GizmoEventD1_3
+* Well it's no use.
+* She just won't leave.
+>p:GizmoAngry
+.
+* ...Not like she has any 
+  reason to, seeing as 
+  she...
+>p:JuneNervous2
+.
+* Argh! Fine!
+* I'll just go home.
+>p:GizmoAngry
+.
+* Man, this sucks.
+>p:GizmoSad
+END
+
+-
+
+@GizmoEventD1_4
+* I should be on my way
+  as well.
+>p:JuneNormal
+.
+* Alright, see ya, Sadie!
+>p:KanakoHappy
+.
+* Yeah, see you two 
+  tomorrow!
+>p:JuneHappy
+.
+* I'm sure tomorrow will be
+  another exciting day!
+>p:KEEP
+END
+
+-
+
+@GizmoEventD1_5
+* Think any of them would
+  believe if we told them
+  what happened?
+>p:KanakoNormal
+.
+* ...I'd rather keep this
+  only between us, honestly.
+>p:KanakoNervous
+.
+* Well, enough chitchat.
+* Let's head to Mart's
+  place.
+>p:KanakoHappy
+END
+
+--
+
+@AceD2
+* Ugh, sorry, kids.
+* I have my hands full at
+  the moment.
+>p:AceNormal
+.
+* We can talk later.
+>p:AceNormal
+END
+
+--
+
+@MorayD2
+* Well, at least something
+  is happening instead of
+  nothing at all.
+>p:MorayNormal
+.
+* Hope we find the culprit
+  soon.
+>p:MoraySad
+END
+
+--
+
+@EdD2
+* Who would just invade the
+  diner and break
+  everything?
+>p:EdNormal
+.
+* If Mooch wasn't with us
+  last night, she would
+  have been our suspect.
+>p:EdNormal
+END
+
+--
+
+@EdD2-2
+* Sorry, kids. Until the
+  investigation is done, no
+  one is allowed inside.
+>p:EdNormal
+.
+>redirect:GizmoFollowing:EdD2-2b
+>redirect:END
+END
+
+--
+
+@EdD2-2b
+* Aw man...
+>p:GizmoAngry
+END
+
+--
+
+@DinaD2
+* Wow, Dina, what happened?
+>p:KanakoSad
+.
+* Ah, hello kids.
+* Sorry for the state of 
+  affairs.
+>p:DinaSad
+.
+* Seems sum' ruffian snuck 
+  in the diner last night 
+  and ramsacked the place.
+>p:DinaSad
+.
+* That's awful...
+>p:KanakoSad
+.
+* Tell me about it, 
+  darling...
+>p:DinaSad
+.
+* Hope the investigation 
+  finds the culprit soon.
+>p:DinaSad
+.
+* Sorry, but I won't be 
+  able to serve you today.
+>p:DinaSad
+>mini:KanakoNervous:We get it...
+END
+
+--
+
+@MoochD2
+>redirectmap:MoochD2:MoochD2-2
+* ...Mooch. 
+* Did you do this?
+>p:KanakoOffended2
+.
+* Tch, get real, 'nako.
+* I wouldn't just break in
+  and destroy everything...
+>p:MoochNervous
+.
+* ...At least not without
+  leaving any valuables
+  behind.
+>p:MoochSmug
+>setmap:MoochD2
+END
+
+-
+
+@MoochD2-2
+* ...By the way, can you
+  two, like...
+* Meet me here at night?
+>p:MoochNormal
+.
+* There is this one thing
+  I kinda need help with...
+>p:MoochNervous
+.
+* ...We aren't helping you
+  steal stuff.
+>p:KanakoOffended2
+>mini:MoochCry:It's not that I swear!
+END
+
+-
+
+@GizmoAtSadieD2-1
+>redirectmap:Gizmo:GizmoAtSadieD2-2
+* Heya, Gizmo!
+* What are you doing?
+>p:KanakoNormal
+.
+* Looking for Sadie.
+* She kinda just... Went
+  into her house and...
+>p:GizmoAngry
+.
+* Just didn't leave.
+* Said something about a
+  surprise or something.
+>p:GizmoSad
+.
+* Huh, wonder what she 
+  means.
+>p:KanakoPuff
+.
+* Beats me... But I need 
+  her to help me improve
+  my high scores!
+>p:GizmoAngry2
+.
+* (Is that really all you 
+  think about...?)
+>p:KanakoNervous
+>mapflag:Gizmo
+END
+
+-
+
+@GizmoAtSadieD2-2
+* Kinda unlike her to just
+  lock herself in her room 
+  like that...
+>p:GizmoSad
+.
+* I wonder if she is 
+  feeling alright.
+>p:KanakoPuff
+.
+* We should make some
+  "get well soon" cards for 
+  her later.
+>p:KanakoNormal
+.
+* Oh, I can get some "Super
+  Smashing Fighters" themed
+  ones! Sweet!
+>p:GizmoHappy
+END
+
+--
+
+
+@CerobaEventDay2
+* Ah, kids!
+>p:CerobaNormal
+.
+* How was school today?
+>p:CerobaHappy
+.
+* Er, it was okay, mom.
+>p:KanakoNervous
+.
+* Oh, hi, Sadie!
+* What's up?
+>p:KanakoHappy
+.
+* ...Nothing much, really.
+>p:JuneNeutral
+.
+* She came by to leave an
+  appliance at the store.
+>p:CerobaNormal
+.
+* A toaster, if I recall
+  correctly.
+>p:CerobaLook
+.
+* Yes. It's been acting
+  up for a while now.
+>p:JuneNeutral
+.
+* But now I'm just about 
+  to head home.
+>p:JuneNormal
+.
+* Good! Good!
+>p:KanakoHappy
+.
+* I'm about to head out
+  as well.
+>p:CerobaNormal
+.
+* Your dad asked me to
+  cook something special
+  for him tonight.
+>p:CerobaLook
+.
+* So I'm heading into
+  downtown to do some
+  groceries.
+>p:CerobaHappy
+.
+* Why don't you just
+  buy it at the mart
+  next door?
+>p:KanakoPuff
+.
+* ...You know your 
+  father doesn't like
+  that place.
+>p:CerobaNormal
+.
+* It shouldn't take long.
+* Just be back before
+  dinner, Kanako.
+>p:CerobaHappy
+.
+* Okay mom.
+>p:KanakoNormal
+.
+* I'll be going now.
+* Stay safe, kids.
+>p:CerobaHappy
+END
+
+--
+
+@CerobaEventDay2-2
+* ...I will be off
+  as well. Got a lot to
+  do.
+>p:JuneNormal
+.
+* Alright, Sadie.
+* See you tomorrow?
+>p:KanakoHappy
+.
+* Yeah!
+* See you.
+>p:JuneHappy
+.
+* (Psst, I will get the
+  thing ready, soon, just
+  wait!)
+>p:JuneNormal
+.
+* (Um, okay?)
+>mini:KanakoNervous:(I wonder what it is...)
+>p:KanakoNervous
+END
+
+--
+
+@CerobaEventDay2-3
+* Well, at least we should
+  have some time to talk
+  without interruptions.
+>p:KanakoPuff
+.
+* Dad barely leaves his
+  workshop, so the house
+  is all ours!
+>p:KanakoNormal
+.
+* Don't get funny ideas,
+  though!
+>p:KanakoSmug
+.
+* Let's just head to my
+  room and formulate a 
+  plan.
+>p:KanakoNormal
+END
+
+----
+
+@PostKetsuDinnerD1
+* ...
+>p:KanakoPuff
+.
+* That wasn't as bad 
+  as I expected.
+>p:KanakoPuff
+.
+* Anyway, Cole...
+>p:KanakoNeutral
+.
+* See you tomorrow!
+>p:KanakoHappy
+.
+* You better not skip
+  class!
+>p:KanakoTongue
+.
+* Let's try to gather
+  as much info on the
+  Dark Worlds as we can.
+>p:KanakoNormal
+END
+
+--
+
+@PostKetsuDinnerD1Weird
+* Well, that's that.
+>p:KanakoPuff
+.
+* Guess tomorrow we will
+  just look for the other
+  Dark Worlds, huh?
+>p:KanakoDumb
+.
+* Ugh. Guess it falls upon
+  us to save the world I
+  guess!
+>p:KanakoNervous
+.
+* Well, see you tomorrow.
+* Don't stay up late!
+>p:KanakoTongue
+END
+
+--
+
+
+@DecibatCheck
+>redirect:KanakoFollowing:DecibatCheckKanako
+* He is sleeping peacefully.
+END
+
+---
+
+@DecibatCheckKanako
+* ([wave]Shhhhh-[/wave])
+* (He's sleeping...)
+>p:KanakoPuff
+.
+* (Let's try not to wake
+  him up...)
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoBell
+>redirectmap:KanakoBell:KanakoBell2
+* ...
+>p:KanakoPuff
+.
+* ...Cole.
+* No.
+>p:KanakoOffended2
+.
+* I know what you're
+  thinking!
+* Don't ring the bell!
+>p:KanakoTongue
+.
+* You remember what 
+  happened last time,
+  don't you?!
+>p:KEEP
+.
+* I don't want to be
+  grounded again!
+>p:KEEP
+>setmap:KanakoBell
+END
+
+---
+
+@KanakoBell2
+* ...Don't ring it, Cole!
+>p:KanakoOffended2
+END
+
+---
+
+@BlackjackDay1
+>redirect:KanakoFollowing:BlackjackDay1Kanako
+* Blackjack's shop.
+.
+* It's closed now, but if you were
+  to enter it you might not leave 
+  today.
+END
+
+---
+
+@Wagon
+* A wooden wagon.
+.
+* Martlet would have a field day
+  analysing the craftsmanship.
+END
+
+---
+
+@BlackjackDay1Kanako
+* Want to check out on
+  ol' Blackjack?
+>p:KanakoNormal
+.
+* I'm going to have to
+  veto that idea! 
+>p:KanakoTongue
+.
+* Last time we spent 
+  the entire day there!
+>p:KanakoTongue
+END
+
+---
+
+@PyramidBugDay1
+* Hey!
+* This is my time to play!
+* Get out!
+>tc
+.
+* Gotta use the sand domain box
+  while the kids are asleep!
+>tc
+END
+
+---
+
+@VirgilDay1
+>redirect:VirgilDay1:VirgilDay1-2
+* -And then we-
+>talk:VirgilD1
+>top
+.
+* Oh, umm...
+>talk:VirgilD1
+>top
+.
+* And then what, boss?
+>talk:KangarooD1
+>top
+.
+* Shut yer trap, can't you
+  see we have... "company"?
+>talk:VirgilD1
+>top
+.
+* Ah, these kids?
+* Hello! How are you?
+>talk:KangarooD1
+>top
+.
+* Oh, we, er, we
+  were just about
+  to leave!
+>p:KanakoNervous
+>top
+.
+* (Cole, just, [wave]slowly[/wave]
+  walk away...)
+>p:KanakoPuff
+>setflag:VirgilDay1
+>top
+END
+
+----
+
+@VirgilDay1-2
+* ...
+>talk:VirgilD1
+>top
+.
+* What do you want?
+>talk:KangarooD1
+>top
+>mini:KanakoHurt:([wave]Coooole!!![/wave])
+END
+
+----
+
+
+@VirgilDay1Weird
+>redirect:VirgilDay1Rejected:VirgilDay1WeirdB
+>redirect:VirgilDay1Weird:VirgilDay1Weird2
+* ...
+>tc
+.
+* Hey, kid.
+>tc
+.
+* Yeah you. You alone?
+>tc
+.
+* Want to help me with somethin'?
+>tc
+>prompt:Yeah:No way
+>promptredirect:VirgilDay1WeirdA:VirgilDay1WeirdB
+END
+
+--
+
+@VirgilDay1WeirdA
+* Heh. Great. Listen up.
+>tc
+.
+* I need you to find me some...
+  "explosives".
+>tc
+.
+* I assure you, it aint't for 
+  anything nefarious...
+>tc
+.
+* So, scratch my back, and I'll
+  scratch yours.
+>tc
+.
+* I'll make sure it will be 
+  worthwhile.
+>tc
+.
+>redirect:VirgilDay1Weird2
+END
+
+--
+
+@VirgilDay1WeirdB
+* Psh. Fine.
+>tc
+.
+* Forget I asked anything.
+>tc
+>setflag:VirgilDay1Rejected
+END
+
+--
+
+@VirgilDay1Weird2
+* Come back tomorrow with the
+  explosives, and we'll discuss
+  the rewards.
+>tc
+.
+* Good luck...
+* Partner.
+>setflag:VirgilDay1Weird
+>tc
+END
+
+------------------------------
+
+@GizmoBlockerDay2
+* (Cole, wait!)
+* (We shouldn't show Gizmo
+  the Dark World!)
+>p:KanakoDumb
+.
+* (That's our thing!)
+>p:KanakoNervous
+.
+* ...What are you guys
+  whispering about...?
+>p:GizmoAnnoyed
+>mini:KanakoNervous:N-Nothing!!
+END
+
+--
+
+@GizmoEventDay2_1
+* Ah! Guys!
+>p:GizmoHurt
+.
+* Hey, G. Something wrong?
+>p:KanakoNormal
+.
+* Sadie has been locked
+  up in her house all day!
+>p:GizmoSad
+.
+* Something is clearly 
+  wrong... Maybe she is 
+  depressed over the cafe.
+>p:GizmoAngry2
+.
+* Didn't know she was such a
+  hardcore gamer...
+>p:GizmoNervous
+.
+* I... Don't think that is
+  the issue...
+>p:KanakoNervous
+.
+* Oh? What is it then, if
+  you think you know her
+  better than me?
+>p:GizmoAnnoyed
+.
+* Then tell me why she is
+  just cooped up at home!
+>p:KEEP
+>prompt:She's just@busy:She hates@games:Dark World
+>promptredirect:GizmoEventDay2_1P1:GizmoEventDay2_1P2:GizmoEventDay2_1P3
+END
+
+-
+
+@GizmoEventDay2_1P1
+* Yes, but with WHAT.
+* What could be more 
+  important than our streak?
+>p:GizmoHurt
+.
+* How do you even plan on
+  keeping that streak if the
+  cafe is closed?
+>p:KanakoOffended2
+.
+* Not sure, but I hope she
+  is at least practicing at 
+  home!
+>p:GizmoAngry2
+END
+
+-
+
+@GizmoEventDay2_1P2
+* No way! She is always my
+  partner when we get the
+  high-scores!
+>p:GizmoNervous
+.
+* Did you even consider she
+  does it to be polite 
+  rather than enjoying it?
+>p:KanakoPuff
+.
+* ...I really hope that is
+  NOT the case...
+>p:GizmoNervous2
+END
+
+-
+
+@GizmoEventDay2_1P3
+* What? "Dark World"? 
+* Never heard of that.
+>p:GizmoAnnoyed
+.
+* Um, it's... It's a new
+  game that released 
+  recently!
+>p:KanakoNervous
+.
+* We want to see if Sadie
+  can help us with it...
+>p:KEEP
+.
+* Must be some obscure thing
+  because I never heard of
+  it.
+>p:GizmoAngry2
+END
+
+-
+
+@GizmoEventDay2_2
+* Either way, we really need
+  to talk to Sadie.
+* Any ideas, G?
+>p:KanakoNervous
+.
+* Hm...
+>p:GizmoAngry2
+.
+* Well, there is one way...
+>p:GizmoNormal
+.
+* It doesn't include 
+  throwing rocks at her
+  windows, I hope!
+>p:KanakoOffended2
+.
+* No, not this time. But...
+* We could sneak into her
+  house!
+>p:GizmoNervous
+.
+* ...That's HELLA illegal...
+>p:KanakoOffended2
+.
+* Look, we all are worried
+  about her. And she has
+  been acting "off" lately.
+>p:GizmoSad
+.
+* It is just a wellness
+  check. That should be
+  fine, right?
+>p:GizmoNervous
+>prompt:I suppose@that's fine:Still@illegal
+>promptredirect:GizmoEventDay2_2P1:GizmoEventDay2_2P2
+END
+
+-
+
+@GizmoEventDay2_2P1
+* See, Cole agrees!
+>p:GizmoHappy
+.
+* ...Alright, fine.
+* This is kinda important,
+  so...
+>p:KanakoSad2
+.
+* But if things go south,
+  we are blaming you.
+>p:KanakoOffended2
+.
+* It will be fine! 
+  I promise!
+>p:GizmoHappy
+END
+
+-
+
+@GizmoEventDay2_2P2
+* Aw, c'mon, Cole. Don't be
+  all uppity about it now!
+>p:GizmoAngry
+.
+* ...While I don't fully
+  agree with this idea,
+>p:KanakoNeutral
+.
+* We kinda do need to talk 
+  to Sadie about something
+  now... So...
+>p:KanakoNervous
+.
+* I guess we have no other 
+  choice.
+>p:KEEP
+.
+* Awesome! We are like,
+  spies or something!
+>p:GizmoHappy
+END
+
+-
+
+@GizmoEventDay2_3
+* I'll show you the spot I
+  go to when I want to get 
+  in her place.
+>p:GizmoWink
+.
+* ...You mean you do that on
+  the regular...?
+>mini:GizmoNervous2:Er, maybe?
+>p:KanakoOffended2
+.
+* (Gizmo is now following you.)
+END
+
+--
+
+@SadieFrontDoorGizmo
+* It's no use knocking.
+* She just won't answer.
+>p:GizmoAnnoyed
+.
+* What do we do then?
+>p:KanakoPuff
+.
+* Head to the back, I know
+  a way in.
+>p:GizmoWink
+.
+* (...I have a bad feeling
+  about this...)
+>p:KanakoNervous
+END
+
+--
+
+@SadieEnterBasement
+* Um, Gizmo? Door's locked
+  here too.
+>p:KanakoOffended2
+.
+* Yes, but look over here,
+>p:GizmoNormal
+.
+* See this tiny window? 
+* They usually don't lock 
+  it, so we use it!
+>p:GizmoWink
+.
+* ...Are you REALLY sure 
+  that this isn't HELLA 
+  illegal?
+>p:KanakoOffended2
+.
+* Nah, I've done it a few
+  times before!
+>mini:KanakoDumb:When?!
+>p:GizmoHappy
+.
+* So, you going in?
+* Or you too much of a 
+  chicken?
+>p:GizmoSmug
+>prompt:Enter:Do not
+>promptredirect:SadieEnterBasementP1:SadieEnterBasementP2
+END
+
+-
+
+@SadieEnterBasementP1
+* ...Alright, if you say 
+  so... Let's just... do
+  it quick, then.
+>p:KanakoNervous
+.
+* There is nothing to worry
+  about.
+* Now, let's go.
+>p:GizmoHappy
+END
+
+-
+
+@SadieEnterBasementP2
+* ...You're no fun.
+>p:GizmoAnnoyed
+END
+
+-
+
+@PostSadieDay2_1
+* Well, that was something.
+>p:KanakoPuff
+.
+* What do you make of that,
+  Cole? Think the one behind
+  the Dark Worlds,
+>p:KanakoNeutral
+.
+* They also did the thing 
+  at the cafe?
+>p:KanakoNeutral
+.
+* We should investigate when
+  we can... But we should
+  rush home now.
+>p:KanakoNormal
+.
+>redirect:541:PostSadieDay2_1Alt
+* Mom should be back, and
+  dad did invite you today.
+>p:KanakoNervous
+.
+* (Never thought I'd see it
+  really, but I guess we
+  did save his bacon there.)
+>p:KanakoPuff
+END
+
+-
+
+@PostSadieDay2_1Alt
+* I know dad didn't really
+  say anything about it-
+>p:KanakoPuff
+.
+* But the least he can do
+  is let you eat at our
+  place tonight.
+>p:KanakoOffended2
+.
+* We saved his bacon back
+  in the Dark World!
+>p:KEEP
+END
+
+-
+
+@PostSadieDay2_DateFail
+* (...)
+>p:KanakoSad2
+.
+* (Ugh... Today I had 
+  planned for us to...)
+>p:KanakoHurt
+.
+* (...I guess I can try it
+  again another day...)
+>p:KanakoSad2
+.
+* Oh, uh, nothing...
+* Just thinking out
+  aloud...
+>p:KanakoDumb
+.
+* Well, let's go home,
+  then!
+>p:KanakoNervous
+END
+
+-
+
+@Day2MinesDate_1
+* ...Well, actually...
+* We still have a
+  little bit of time...
+>p:KanakoNervous
+.
+* If we rush...
+* I think we can still...
+>p:KanakoPuff
+.
+* ...
+>p:KEEP
+.
+* Okay, Cole.
+* Quick question:
+>p:KanakoNormal
+.
+* Do you remember that
+  place... The one we used
+  to go to as kids?
+>p:KanakoNervous
+.
+* ...I... I was thinking...
+>p:KEEP
+.
+* We should... Go check it
+  out again.
+* J-Just in case!
+>p:KEEP
+.
+* We can still see it
+  before it gets dark if we
+  go right away!
+>p:KanakoHappyBlush
+>prompt:Where?:...Are@you sure?:No
+>promptredirect:Day2MinesDate_1P1:Day2MinesDate_1P2:Day2MinesDate_1P3
+END
+
+-
+
+@Day2MinesDate_1P1
+* Uh, do you really not
+  remember?
+>p:KanakoOffended2
+.
+* Well I guess we were all
+  over the place, but...
+>p:KanakoPuff
+.
+* It's the mines. At the
+  edge of town?
+>p:KanakoNervous
+.
+* I know, I know, after what
+  happened there...
+>p:KanakoSad2
+.
+* But I want to see it again
+  while we have time.
+>p:KanakoSad
+.
+* Can we...?
+>p:KEEP
+.
+* ...Alright? Just go down
+  the road past Mart's place
+  and we'll get there.
+>p:KanakoNervous
+.
+* I'm right behind you.
+>p:KanakoNormal
+END
+
+-
+
+@Day2MinesDate_1P2
+* ...Yes, yes, I know.
+* It still haunts me.
+>p:KanakoSad2
+.
+* ...But I really want to
+  see it. Before anything
+  else happens...
+>p:KanakoNeutral
+.
+* So, please...?
+>p:KanakoSad
+.
+* ...You will? Thank you!
+>p:KanakoHappyBlush
+.
+* You know where it's at,
+  just follow the road past
+  Mart's place!
+>p:KanakoHappy
+.
+* I'm right behind you!
+>p:KanakoNormal
+END
+
+-
+
+@Day2MinesDate_1P3
+>redirect:541:END
+* ......
+>p:KanakoSad
+.
+* Y-Yeah, you're right!
+* We should head home...
+>p:KanakoNervous
+.
+* Just go ahead then, I'm
+  right behind you!
+>p:KanakoNervous
+.
+* (...)
+>p:KanakoSad2
+.
+[wave]* (Sigh...)
+>p:KEEP
+END
+
+-
+
+@Day2MinesDate_1P3_2
+* (The sun set down while you two
+  were talking.)
+* (Kanako seems disappointed.)
+END
+
+------
+
+@Day2MelodyEvent_1
+* I'm sorry, Miss Dina.
+* We couldn't find any hints
+  of a potential culprit.
+>p:AceNormal
+.
+* Ah, that is fine, Mr. Ace.
+* You did all you could.
+>p:DinaSad
+.
+* I recommend you not open
+  the diner tomorrow, seeing
+  the state it is in.
+>p:AceNormal
+.
+* I wish I could do more for
+  you... Forgive me.
+>p:AceShadow
+.
+* ...It's alright, Ace.
+* I understand.
+>p:DinaSad
+.
+* ...Well, have a good
+  evening.
+>p:AceHat
+END
+
+-
+
+@Day2MelodyEvent_2
+* So that's it?! They didn't
+  find who did it?!
+>p:MelodyAngry
+.
+* Mel, dear, they tried
+  their best.
+>p:DinaSad
+.
+* So what?! The culprit is
+  still out there!
+>p:MelodyAngry2
+.
+* What is the point of
+  having them around if they
+  won't do anything?!
+>p:KEEP
+.
+[wave]* ...Sigh. 
+>p:DinaSad2
+.
+* Maybe you just need some 
+  rest. Let's head inside
+  and sleep, alright?
+>p:DinaNormal
+.
+* ...Tch.
+>p:MelodyAngry
+END
+
+-
+
+@Day2MelodyEvent_3
+* (...So it really wasn't
+  her? Who could it be 
+  then...?)
+>p:KanakoNeutral
+.
+* (...Is the Outlaw really
+  around town...?)
+>p:KEEP
+.
+* (...)
+>p:KanakoSad2
+END
+
+-
+
+@Day2MoochPreNight1
+* Mooch, what are you doing?
+>p:KanakoPuff
+.
+* Oh, 'Nako! Nothin'! 
+  Really!
+>p:MoochNormal
+.
+* ...You didn't do the thing
+  at the diner, did you?
+>p:KanakoOffended2
+.
+* Tch, no, obviously!
+* [font_size=8]Well, I did the day before, but...
+>p:MoochNervous
+.
+* What was that?
+>p:KanakoOffended2
+.
+* Nothing! Really! It wasn't
+  me!
+* [font_size=8]This time...!
+>p:MoochCry
+.
+* But... It's weird. I 
+  haven't noticed anyone
+  weird in town lately...
+>p:MoochNervous
+.
+* So it might have been
+  someone that lives here.
+>p:KEEP
+.
+* I'm still investigating,
+  so... Come back here
+  later tonight, alright?
+>p:MoochNormal
+.
+* We'll... Think about it.
+>p:KanakoNervous
+>setflag:MoochTalkD2PreNight
+END
+
+-
+
+@Day2MoochPreNight2
+* I'm still not done
+  investigating. Meet me
+  here later tonight, k?
+>p:MoochNormal
+.
+* ...Well okay.
+>p:KanakoPuff
+END
+
+----
+
+@Day2ReturnMirrorEvent_1
+* ...Guess we might return
+  the mirror while we're
+  here.
+>p:KanakoPuff
+END
+
+-
+
+@Day2ReturnMirrorEvent_2
+* Oh, you guys. It's already
+  past sundown. Do you need
+  anything?
+>p:JuneNeutral
+.
+* Yeah... We went to the
+  mines a while ago,
+>p:KanakoNervous
+.
+* And someone there asked
+  us to return this to you.
+>p:KanakoNervous
+.
+* (Kanako hands over the
+  Hand Mirror.)
+.
+* ...! Ah! I was looking
+  for this!
+>p:JuneNervous
+.
+* So it was in the mines,
+  huh? ...Thank you.
+>p:JuneNormal
+.
+* So, what are you doing
+  at the mines lately? They
+  said you go there often.
+>p:KanakoPuff
+.
+* Oh, it's, just, y'know...
+* Grabbing some rocks for
+  my projects!
+>p:JuneNervous2
+.
+* Yeah, I thought as much.
+* Not much any other reason
+  to go there.
+>p:KanakoNervous
+.
+* ...Why did YOU go there,
+  anyway? I thought you'd
+  never after the thing.
+>p:JuneNeutral
+.
+* O-Oh, just... Nothing!
+* Cole just wanted to hang
+  out!
+>p:KanakoNervous
+.
+* ...Ah, well, alright.
+* I won't pry too much.
+>p:JuneNervous2
+.
+* Anyway, thanks for 
+  returning this. Hope you
+  guys have a good day!
+>p:JuneNormal
+.
+* See you tomorrow at 
+  school.
+>p:JuneHappy
+.
+* See ya, Sadie!
+>p:KanakoHappy
+END
+
+--
+
+@ColeSoloDWBlocker
+* (...No point going there 
+  without Kanako.)
+END
+
+--
+
+@DinerNightDay2
+* You look through the window.
+* Things seem relatively normal.
+.
+* Looks like the incident 
+  happened towards the back 
+  rooms.
+END
+
+--
+
+@Day2EarlyBlocker
+* (You should get Kanako before
+  heading to school.)
+END
+
+--
+
+@BlackjackDay2Early
+* The store is still closed.
+* You can come back later.
+END
+
+--
+
+@CatNPCDay2Early
+>redirectmap:Cat:CatNPCDay2Early2
+* Nyahaha! 
+* What a good day!
+>tc
+.
+* Nothing bad will ever happen
+  in a day like this!
+>tc
+>setmap:Cat
+END
+
+--
+
+@CatNPCDay2Early2
+* Nya? What you looking at?
+* Get away from me! I'm not
+  suspicious, ya hear!!
+>tc
+END
+
+--
+
+@RichGuyD3-1
+* Hmph. So the rumors were true.
+>tc
+.
+* To think a renowed name like the
+  Ketsukanes would have fallen
+  this low...
+>tc
+.
+* Good thing I already concluded
+  my business with them years ago!
+>tc
+END
+
+-
+
+@RichWomanD3-1
+* Oh dear. The Ketsukanes used
+  to be a really well off family.
+>tc
+.
+* Now they are reduced to this...
+* One must wonder what must have
+  happened to their heir-
+>tc
+.
+* To fall so far from grace.
+* To move to this dingy town in
+  the middle of nowhere.
+>tc
+.
+* Well, that's just business,
+  I supposed.
+* [wave]Oh ho ho ho ho!
+>tc
+END
+
+--
+
+@AxisCutout
+* Axis, the Ketsukane's shop's
+  mascot.
+.
+* There is a hole on the side
+  of his head.
+* He has seen better days.
+.
+>redirect:KanakoFollowing:AxisCutoutKanako
+[color=black].
+>instant
+>instend
+END
+
+-----
+
+@AxisCutoutKanako
+>redirect:ChujinFountainSealed:AxisCutoutKanako2
+* Ah, Axis.
+>p:KanakoNormal
+.
+* Kinda sad that some
+  kids punched a hole
+  in him.
+>p:KanakoNeutral
+.
+* Dad was furious.
+* Even madder than when you
+  tossed that baseball once.
+>p:KanakoPuff
+END
+
+-----
+
+@AxisCutoutKanako2
+* I hope Axis will be fine
+  after dad fixes him...
+>p:KanakoSad
+.
+* Also, should we change the
+  design of this cutout?
+>p:KanakoNervous
+END
+
+-----
+
+@KetsuShopDay1
+>redirectmap:KetsuCheck1:KetsuShopDay1-2
+* Err, Cole?
+>p:KanakoDumb
+.
+* I... I don't think
+  this is the right
+  place...
+>p:KanakoNervous
+.
+* (C'mon, let's get
+  out of here before
+  mom sees us.)
+>p:KanakoPuff
+>setmap:KetsuCheck1
+END
+
+----
+
+@KetsuShopDay1-2
+* Cole, please, let's
+  go ANYWHERE but here
+  right now!
+>p:KanakoNervous
+END
+
+-----
+
+@KetsuShopDay1Post
+* It's late.
+* You shouldn't bother them.
+END
+
+--
+
+@BoardBack
+* There is a note attached to the
+  back of the board.
+END
+
+--
+
+@BeroD2_1
+>setflag:BeroDay2
+* Hello! Are you one of the
+  locals?
+>p:BeroNormal
+.
+* Oh, you're a human,
+  aren't you?!
+>p:BeroNormal
+.
+* I hadn't seen any other 
+  humans in this town ever
+  since I arrived-
+>p:BeroHappy
+.
+* Thought this was a monster
+  only place for a while
+  there!
+>p:BeroNervous
+.
+* Oh, sorry. I didn't mean
+  anything by it!
+>p:BeroNervous2
+>prompt:No Problem:Why are@you here?
+>promptredirect:BeroD2_1A:BeroD2_1B
+END
+
+--
+
+@BeroD2_1A
+* Sorry, so sorry!
+* I don't want to come off
+  as mean or anything-
+>p:BeroNervous2
+.
+* ...I'm just making things
+  more awkward, aren't I?
+>p:BeroNervous
+.
+* It happens every time I
+  open my big mouth... 
+>p:BeroNervous2
+.
+* Hope it doesn't ruin the 
+  meeting...
+>p:KEEP
+.
+* Oh, right. I am from out
+  of town, I'm meeting up
+  with a friend!
+>p:BeroNormal
+.
+[color=black]*
+>instend
+>instant
+>redirect:BeroD2_1C
+END
+
+--
+
+@BeroD2_1B
+* Oh, I'm just visiting!
+>p:BeroNervous
+.
+* I have a friend here, so
+  I've come to see 'em.
+>p:BeroNormal
+.
+[color=black]*
+>instend
+>instant
+>redirect:BeroD2_1C
+END
+
+--
+
+@BeroD2_1C
+* We... Never really met
+  before. We only exchanged
+  letters.
+>p:BeroNervous
+.
+* So I am kinda nervous...
+>p:KEEP
+.
+* What if they aren't like
+  how they are in the 
+  letters?
+>p:BeroNervous2
+.
+* Will this trip be for
+  nothing?!
+>p:KEEP
+.
+* ...I guess I shouldn't 
+  think so negatively
+>p:BeroNormal
+.
+* I'm sure it will all be
+  fine after all. I just
+  have to think positively!
+>p:BeroHappy
+.
+* ...I hope.
+>p:BeroNervous
+END
+
+--
+
+@BeroD2_2
+* Phew... This town sure
+  is... warm.
+>p:BeroNervous
+.
+* I come from a cold place
+  to the north, so I'm not
+  really used to this...
+>p:BeroHappy
+.
+* (Maybe I shouldn't have
+  brought nothing but coats
+  then...)
+>p:BeroNervous2
+END
+
+--
+
+@SchoolAfterRecessD2-4
+* ...Well, that's finally
+  over.
+>p:KanakoNeutral
+.
+* We will have much less
+  time than I thought
+  like that...
+>p:KanakoPuff
+.
+* Besides, where would
+  another Dark World even
+  be? Town's huge!
+>p:KanakoOffended2
+.
+* Do we need to search the
+  entire place?!
+>p:KanakoOffended2
+.
+* ...Where do we even 
+  start?
+>p:KanakoSad
+>prompt:Let's ask@the Warden:Any ideas?
+>promptredirect:SchoolAfterRecessD2-4A:SchoolAfterRecessD2-4B
+END
+
+--
+
+@SchoolAfterRecessD2-4A
+* I guess we could try that.
+>p:KanakoNeutral
+.
+>redirect:SchoolAfterRecessD2-5
+[color=black]*
+>instant
+>instend
+END
+
+--
+
+@SchoolAfterRecessD2-4B
+* Hm... If it were up to
+  me... Maybe ask the 
+  Warden?
+>p:KanakoPuff
+.
+>redirect:SchoolAfterRecessD2-5
+[color=black]*
+>instant
+>instend
+END
+
+--
+
+@SchoolAfterRecessD2-5
+* He seems to know a lot
+  more than he is letting
+  on...
+>p:KanakoNeutral
+.
+* But will the Dark World
+  still be there?
+>p:KEEP
+.
+* What if it isn't?
+* What if it indeed was a
+  dream?
+>p:KanakoSad
+.
+* ...
+>p:KanakoNeutral
+.
+* ...I guess it doesn't
+  hurt to try.
+>p:KanakoPuff
+.
+* Let's head back to that
+  cave.
+>p:KanakoNormal
+END
+
+-----------
+
+@VirgilEventDay2Repeat
+* Did you bring the goods?
+>talk:VirgilD2
+>prompt:Yes:No
+END
+
+--
+
+@VirgilEventDay2
+* Oy, mate. You came.
+>talk:VirgilD2
+.
+* Nya? Who's this?
+>talk:CatD2Late
+.
+* This is our "partner" that I
+  mentioned.
+>talk:VirgilD2
+.
+* Nyo ho ho! So, did you bring
+  the goods, kid?
+>talk:CatD2Late
+>prompt:Yes:No:Who are you?
+>promptredirect:END:VirgilEventDay2B:VirgilEventDay2C
+END
+
+--
+
+@VirgilEventDay2GotItem
+* (You hand over the firecracker.)
+>sound:snd_item_ch1.wav
+.
+* ...That's it?! A singular
+  firecracker?! Nya! What the
+  hell??
+>talk:CatD2Late
+.
+* ...It will do. Good job, kid.
+>talk:VirgilD2
+.
+* Our partnership is far from
+  over, however.
+>talk:VirgilD2
+.
+* I'll send you instructions for
+  our next step tomorrow. Be on
+  the lookout.
+>talk:VirgilD2
+.
+* Yeah, nya! Hope you don't mess
+  it up!
+>talk:CatD2Late
+.
+* Take this for now, as I promised
+  yesterday.
+>talk:VirgilD2
+.
+* (You got 2 dollars.)
+>sound:snd_item_ch1.wav
+.
+* If you help us again tomorrow,
+  you'll get more.
+>talk:VirgilD2
+.
+* Now begone. We must avoid
+  suspicion.
+>talk:VirgilD2
+.
+* Nya! Better not bail on us, kid!
+>talk:CatD2Late
+END
+
+--
+
+@VirgilEventDay2NoItem
+* ...Mate, you did not bring
+  what I asked! I asked you for
+  explosives!
+>talk:VirgilD2
+.
+* [shake]Shhhh![/shake] Not so loud, nya!
+>talk:CatD2Late
+.
+* ...Hmph. Sorry, kid. You failed
+  us. Failed me.
+>talk:VirgilD2
+.
+* Just forget you saw us,
+  alright?
+>talk:VirgilD2
+.
+* Yeah, nya! If you know what's
+  better for you!
+>talk:CatD2Late
+END
+
+--
+
+@VirgilDay2Failed
+* ...We have no more business
+  with ya, nya!
+>talk:CatD2Late
+END
+
+--
+
+@VirgilEventDay2B
+* Getting cold feet now, mate?
+>talk:VirgilD2
+.
+* Nya! If you don't have the
+  thing, then don't talk to us!
+>talk:CatD2Late
+END
+
+--
+
+@VirgilEventDay2C
+* Sorry I didn't mention, this
+  one is one of my "associates".
+>talk:VirgilD2
+.
+* More like partners-in-crime,
+  nya!
+>talk:CatD2Late
+.
+* She will be a valuable asset in
+  our "mission", "partner".
+>talk:VirgilD2
+.
+* Now, did you bring it?
+>talk:VirgilD2
+>prompt:Yes:No
+>promptredirect:END:VirgilEventDay2B
+END
+
+--
+
+@VirgilDay2Complete
+* Good job. I will send you
+  new instructions tomorrow.
+* Be on the lookout.
+>talk:VirgilD2
+.
+* Better not vanish on us,
+  "partner", nya ha ha!
+>talk:CatD2Late
+END
+
+--
+
+@MoochQuestD2_1
+>redirectmap:MNo:MoochQuestD2_1Reprompt
+* Yo, Cole.
+>p:MoochNormal
+.
+* Tch. So 'Nako couldn't
+  make it, huh?
+>p:MoochNervous
+.
+* ...That's fine. The less
+  people there are, the
+  easier it will be.
+>p:MoochSmug
+.
+* So, are you ready to help
+  me investigate?
+>p:MoochNormal
+>prompt:Yes:What are@we doing?:No
+>promptredirect:MoochQuestD2_1A:MoochQuestD2_1B:MoochQuestD2_1C
+END
+
+--
+
+@MoochQuestD2_1Reprompt
+* So, did you give it some
+  more thought?
+>p:MoochNormal
+>prompt:Yes:What are@we doing?:No
+>promptredirect:MoochQuestD2_1A:MoochQuestD2_1B:MoochQuestD2_1C
+END
+
+--
+
+@MoochQuestD2_1A
+>redirectmap:Mooch:MoochQuestD21A2
+* What, not even going to
+  ask me what this is
+  about?
+>p:MoochNervous
+.
+* ...I like your style.
+>p:MoochSmug
+.
+* But we kinda need to be
+  careful. 
+>p:MoochNervous
+.
+* The police might have
+  already dropped the case,
+  but that girl is still...
+>p:MoochNormal
+.
+* If she catches us...
+[shake]* Yeouch!
+>p:MoochCry
+END
+
+--
+
+@MoochQuestD21A2
+* Yes! It will be just like
+  old times!
+>p:MoochSmile
+.
+* Well, not really without
+  'Nako there-
+>p:MoochNervous
+.
+* Guess she is too "prim and 
+  proper" nowadays to hang 
+  out with the likes of us.
+>p:KEEP
+END
+
+--
+
+@MoochQuestD2_1B
+>setmap:Mooch
+* ...Just a routine 
+  inspection into the Cafe.
+>p:MoochNormal
+.
+* ...I swear I won't steal
+  more stuff, really!
+>p:MoochNervous
+.
+* Just... Something weird
+  is going on in town, and
+  I can't just let it slide.
+>p:KEEP
+.
+* It is exciting, isn't it?
+>p:MoochSmile
+.
+* Anyway... I think we can
+  get inside through the
+  back entrance.
+>p:MoochNormal
+.
+* ...I've done it before,
+  so you can count on me!
+>p:MoochSmug
+.
+* Tell me when you're ready.
+* This might be tricky.
+>p:MoochNormal
+>setmap:MNo
+END
+
+--
+
+@MoochQuestD2_1C
+* What, you're too scared?
+* I mean, what's the worst
+  that can happen?
+>p:MoochSmug
+.
+* ...Besides being caught
+  and possibly beaten up?
+>p:MoochNervous
+.
+* Well if you change your
+  mind, just give me a
+  holler.
+>p:MoochNormal
+>setmap:MNo
+END
+
+--
+
+@MoochQuestD2_2
+* The plan is to just sneak
+  in the Cafe, just look
+  around a bit,
+>p:MoochNormal
+.
+* And figure out what
+  happened last night, or
+  maybe even who did it!
+>p:MoochNervous
+.
+* It will be fun, you'll
+  see!
+>p:MoochSmile
+.
+* Maybe we will even end 
+  up finding some shiny 
+  trinket~
+>p:MoochSmug
+.
+* Kidding! Don't get mad at
+  me!
+>p:MoochCry
+.
+* Anyway we are wasting
+  time, the coast is clear
+  so let's swoop in.
+>p:MoochSmile
+END
+
+--
+
+@PostMoochEventD2
+* ...We couldn't find out
+  anything in the end.
+>p:MoochNervous
+.
+* Still... Why would someone
+  (other than me) break into
+  the cafe and trash it up?
+>p:KEEP
+.
+* I KNOW there is something
+  more going on...
+>p:KEEP
+.
+* Guess I'll have to look
+  deeper into it...
+>p:KEEP
+.
+* Oh, sorry for keeping you,
+  Cole. I think that's all
+  for tonight.
+>p:MoochSmile
+.
+* It was kinda fun, in a
+  way. Like those old days
+  before Kanako's thing.
+>p:KEEP
+.
+* When you see her, tell 
+  her I send my regards!
+>p:MoochSmug
+.
+* Anyway, I'm out of here.
+* You should get home before
+  Mart gets too worried.
+>p:MoochNormal
+.
+* ...And don't tell her you
+  were hanging out with me.
+>p:MoochNervous
+.
+* Later!
+>p:MoochSmile
+END
+
+--
+
+@BritzNMochaD2_1
+* Hey Cole! Hey Kanako!
+* You're in just in time!
+>talk:MochaD2
+.
+* We just finished a new routine
+  and we want to see what you
+  two think of it!
+>talk:BritzD2
+.
+* Oh no, Cole. Here it 
+  comes...
+>p:KanakoDumb
+END
+
+-
+
+@BritzNMochaD2_2
+* [wave]Yo, yo!
+* We're the jokey lads, coming
+  at you like lards!
+>talk:BritzD2
+.
+* [wave]We're both like peas in a pond,
+  as thick as thieves (twigs?)!
+>talk:MochaD2
+.
+* [shake]And we will rock your socks
+  off!
+>talk:BritzD2
+END
+
+-
+
+@BritzNMochaD2_3
+* So what did you think?
+>talk:MochaD2
+.
+* Think we can finally hit it big?
+>talk:BritzD2
+.
+* I think we need to go.
+* C'mon, Cole. Let's get 
+  the heck out of here.
+>p:KanakoDumb
+END
+
+-
+
+@BritzNMochaD2_4
+* You're right. We still aren't
+  there yet for our grand debut.
+>talk:MochaD2
+.
+* Maybe if we rhymed more, it 
+  would work forevermore?
+>talk:BritzD2
+.
+* (Cole let's get out of
+  here please.)
+>p:KanakoDumb
+END
+
+-
+
+@KanaD2DateRejectAlt
+* ...Oh, sorry.
+>p:KanakoDumb
+.
+* I didn't quite catch that.
+>p:KanakoDumb
+.
+* What did you actually say
+  again?
+>p:KanakoNervous2
+>prompt:I said@no:I said@yes
+>kprompt:1
+>promptredirect:END:KanaD2DateRejectAltB
+END
+
+-
+
+@KanaD2DateRejectAltA
+* ......Oh.
+>p:KanakoAngry
+.
+* ...It's... It's fine.
+* Really.
+>p:KanakoNervous
+.
+* Sorry for being so pushy.
+* Hehe...
+>p:KanakoNervous
+.
+* [wave](...Sigh...)
+>p:KanakoSad2
+END
+
+-
+
+@KanaD2DateRejectAltB
+* ...That's what I thought
+  you said.
+>p:KanakoHappy
+.
+* [font_size=8]I... really needed 
+  something to actually go
+  my way today...
+>p:KanakoSad2
+.
+* Oh, sorry. Just rambling.
+>p:KanakoNervous
+.
+* Let's go. You remember 
+  where the place was, 
+  right?
+>p:KanakoNormal
+.
+* Lead the way.
+>p:KEEP
+END

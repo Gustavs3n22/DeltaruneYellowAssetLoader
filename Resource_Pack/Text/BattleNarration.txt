@@ -1,0 +1,186 @@
+* [NAME] spared [TARGET]!
+* [NAME] tried to spare [TARGET], but it wasn't [color=yellow]willing[/color].
+* [NAME] casts Foxfire!
+* [NAME] shot a rubber bullet at [TARGET]!
+* You tell Eraserhead his style is lame.\n* He actually agrees with you.
+* You tell Eraserhead to take life easy.\n* He agrees with you.
+* [NAME] rubbed some dirt off Eraserhead's head.\n* He seem pleased.
+* [NAME] tried again to rub Eraserhead's head,\n\tbut it seems he don't want any more.
+* [NAME] attempted to sharpen Penceller's pencil.\n* He's insulted that you even dare suggest that.
+* [NAME] attempted to sharpen Penceller's pencil.\n* He seems delighted (Penceller's AT UP!)
+* [NAME] attempted to sharpen Penceller's pencil,\n\tbut he wasn't having none of it.
+* You talk to Penceller about being his friend.\n* He seems to like that idea.
+* You tell Penceller his drawings suck.\n* He is deeply hurt by this.
+* [NAME] used [ITEM]!
+* You part encouraging words upon Kanako...\n* Her AT went up for this turn!
+* You tell Kanako to keep going.
+* Press the [INTERACT] button to\n\tattempt to catch the criminal!
+* Seems [TARGET] cannot be apprehended.
+* [TARGET] resisted arrest!\n* Try lowering their HP more.
+* [TARGET] was caught!
+* Apprehension failed!
+* Kanako hits the enemy without mercy.
+* [NAME] casts a healing bell!
+* [NAME] cast a shield over your SOUL!
+* You tried taunting Pennilton, but he didn't respond.
+* You taunt [TARGET] with childish insults.\n* [TARGET]'s AT went UP!\n* [TARGET]'s DF went DOWN!
+* [NAME] tried talking to Pennilton, but he ignores you.
+* [NAME] tries to convince Pennilton to come in quietly.\n* Pennilton's AT went down!
+* You try to tell Mopper it is doing a good job.
+* It does not believe you.
+* It is too busy to notice you.
+* Mopper is happy its hard work is being appreciated.
+* You throw some trash on the floor.
+* Mopper is upset.
+* [NAME] tries to help Mopper clean some of the mess,\n\tbut it won't let you.
+* [NAME] helps Mopper clean some of the mess.\n* It seems pleased.
+* Everyone begged Foxlace for forgiveness.\n* It looks upon the party sadly.
+* Everyone begged Foxlace for forgiveness.\n* Tears fills its eyes.
+* Everyone braced for impact.\n* DF increased for a few turns!
+* [NAME] tried to talk down Bearing.
+* He isn't having any of it.
+* Everyone tried to plead with Bearing.\n* But it was of no use.
+* [NAME] tried to ask Foxlace forgiveness\n\tfor whatever they did.
+* It refuses to listen to you specifically.
+* It is starting to listen to reason.
+* Listening to Kanako, it relents.\n* Foxlace's AT and DF went down for a few turns!
+* [NAME] asked Axis to go easy on the party.
+* He thinks about it.\n* AT DOWN for a few turns!
+* He thinks about it.\n* DF DOWN for a few turns!
+* [NAME] tried to trick Axis with a logical paradox.
+* Doesn't seem to have had too much effect.
+* [NAME] tried to cover their ears.\n* It only makes things marginally better. DF UP.
+* You tried asking Ringo to tone it down.\n* He rings harder, but is distracted. DF DOWN.
+* You tried ignoring the noise.\n* Ringo's feelings are somewhat hurt. AT DOWN.
+* [NAME] pressed down on [TARGET]'s head,\n\tbut it doesn't have any staples left.
+* [NAME] pressed down on [TARGET]'s head.\n* It spits out some staples.
+* [NAME] pressed down on [TARGET]'s head.\n* It seems to have ran out of staples!
+* [NAME] tried to pet [TARGET], but it's too depressed to react.
+* [NAME] petted [TARGET]. It bounces happily.
+* [NAME] attempted to spin [TARGET] around,\n\tbut there was little success.
+* [NAME] spun [TARGET] around.\n* It enjoys that a lot.
+* [NAME] applies some oil to [TARGET].\n* [TARGET] can now spin better.
+* [NAME] attempted to oil up [TARGET],\n\tbut [TARGET] is already oiled up.
+* [NAME] began to spin in place.\n* [TARGET] seems amused.
+* [NAME] sprays the party with a stimulant substance!\n* Everyone's AT went up for a few turns!
+* [NAME] sprays the party with a stimulant substance!
+* [NAME] spins wildly!
+* [NAME] tosses a strange canister at [TARGET]!
+* [NAME] starts blaring loudly!\n* All enemies focus their attention on him!
+* [NAME] offers [TARGET] to fix up Axis\n* It eagerly agrees!
+* [NAME] tries to refuel [TARGET].\n* It is now raring to go! (AT UP)
+* [NAME] spreads their arms so [TARGET] can\n\ttake measurements.\n* It seems happy.
+* [NAME] starts talking about how circles are\n\tbetter than lines.\n* [TARGET] is displeased at this.
+* [NAME] spreads their arms so [TARGET] can\n\ttake measurements, but it is still upset at\n\thow you acted earlier.
+* [NAME] attempts to soothe [TARGET].\n* It seems slightly calmer.
+* Aim and press [INTERACT] to shoot the targets!
+* [NAME] tried to befriend [TARGET],\nbut he isn't buying it.
+* [NAME] complimented how cool [TARGET] was.\n* He takes it in stride.
+* [NAME] told [TARGET] his scarf looks awesome.\n* He takes it in stride.
+* [NAME] told [TARGET] his attacks were WEAK.\n* Now he is really getting into it! (TP gain increased)
+* KANAKO challenged [TARGET] to see if it\n\tcan hit her at all!
+* Hey dummy, doubt you can hit us!
+* Dodge to show you got it!
+* You hug Kanako...
+* Doesn't seem like Kanako wants any more hugs for a while.
+* [NAME] tried to untangle [TARGET] up.\n* It seems a bit relieved.
+* Everyone tried to untangle [TARGET].\n* It seems greatly relieved.
+* You ask [TARGET] to moisturize you up.\n* Somehow it understands this request.\n* (Grab [color=green]GREEN[/color] bullets to gain MERCY!)
+* [NAME] sprinkles some sugar over [TARGET].\n* It seems mildly pleased.
+* [NAME] sprinkles some salt over [TARGET].\n* It seems in pain (bullet speed increased!)
+* [NAME] wiggled their body around.\n* [TARGET] seems to like it.
+* Everyone wiggled around.\n* [TARGET] really likes it.
+* [NAME] compliments [TARGET].\n* It doesn't quite understands what you mean,\n\tbut it wiggles back (AT lowered for this turn)
+* The party tries to gracefully evade [TARGET]'s\n\tattacks!\n* (Dodge to earn MERCY!)
+* [NAME] traces a path for [TARGET].\n* It gleefully follows.
+* [NAME] tried to understand [TARGET] better.\n* It somewhat feels like it worked.
+* [NAME] tried to distract [TARGET]!
+* [NAME] tried to ACT, but isn't really sure what to do.
+* [TARGET] won't attack for a while!
+* Honvich ordered his troops to be on\n\tthe offensive!\n* Enemies' AT UP for this turn!
+* [NAME] taunts [TARGET] to attack them!\n* (GRAZE bullets to earn MERCY!)
+* Press [INTERACT] to shoot!
+* The entire party poses dramatically!\n* Everyone is in awe!
+* Press [INTERACT] to shoot [color=yellow]yellow bullets[/color] when your SOUL\n\tfaces the enemy!
+* Hah! You won't fool me this\n\ttime, lightner!\n* I'm FULLY focused!
+* [NAME] focused their energy on the SOUL!\n* The SOUL moves faster for this turn!
+* The party extended a friendship offer to everyone!
+* The party tried to rub out all the smudges out of the erasers.
+* There have been mixed results.
+* [NAME] tells [TARGET] that they can take it!\n* [color=yellow]Take damage[/color] to show you have guts!
+* Press the shown buttons to try to pull out [TARGET]!
+* Failed!
+* Gotcha! [TARGET] was pulled out!
+* [TARGET] is already pulled out!
+* There is something in the\n  dark...
+* ...The figures watch, standing\n  completely still.
+* C-Cole...??\n* ...W-What do we do...?
+* W-What is all this ruckus?!
+* This battle seems to be going\n  nowhere.
+* Kanako tries to hide...\n* But she can't see where\n\tshe is going.
+* Kanako nervously hides behind\n\tCole.
+* Kanako tries to strike a\n\tmenacing pose.\n* ...No reaction.
+* Cole tries to ignore the\n\tfigures.
+* They ignore right back.
+* Cole screams for help.
+* ...But nobody came.
+* Cole starts to flail his arms\n\trandomly in a panic.
+* ...Nothing happens.
+* Cole tries talking to the\n\tfigures.
+* ...No reply.
+* Cole tries to touch one of\n\tthe figures.
+* They do not react.
+* [NAME] tried to spare [TARGET],\n\tbut it wasn't [color=yellow]willing[/color].
+* Press [INTERACT] to throw the stick!
+* [TARGET] brought the stick back!
+* Looks like [TARGET] brought along a friend?!
+* [NAME] gets ready for a Home Run hit!
+[shake]* WRONG!!
+* Well done!
+* Press [INTERACT] to select the right item!
+* You ask [TARGET] if you can help it with\n\tanything.
+* [NAME] asks [TARGET] for help with an issue.\n* They are happy to oblige! (Watch out for fast attacks!)
+* [NAME] tries to mess with [TARGET].\n* It does not like that.
+* [NAME] knocks down the hats off [TARGET].
+* [NAME] tries to compliment [TARGET]...
+* It does not understand why [NAME] did that.
+* It takes it in stride!
+* It is fond of it but thinks you are making\n\tfun of it.
+* It does not enjoy you making fun of it.
+* [NAME] asks [TARGET] if they would like a new look.
+* [TARGET] is begging you to stop.
+* [TARGET] likes the new hat!
+* Why did you do that?
+* That wasn't the right hat...
+* Try to match up the lights with [INTERACT]!\n* (Try to align them at the center!)
+* The restraints loosed up somewhat!
+* Use [LEFT] and [RIGHT] to try to tune\n\tin the channel!\n* (Hold [CANCEL] to go faster.)
+* You couldn't get it right...
+* You did it! Static during attacks reduced!
+* You helped [TARGET] with its calculations...\n* Attacks are now harder!
+* You messed up with [TARGET]'s calculations...\n* Attacks are now easier!
+* [NAME] tries to shake off... something?
+* Nothing happens.
+* [NAME] tries to shake off the syrup...\n* And succeed! SOUL speed restored!
+* The party asks [TARGET] for some desserts...\n* She reluctatly agrees.\n* (Grab [color=green]GREEN BULLETS[/green] to recover HP!)
+* [NAME] twists some knobs and dials on [TARGET]'s\n\tbody...\n* The heat builds up...!
+* The entire team tries to increase the heat...\n* [TARGET]'s body is rapidly heating up!
+* Chujin does something...?!
+* [NAME] struggles to remember...
+* Something at the back of his mind seems to\n\tresonate within his SOUL...
+* The STRUGGLE act has become "Remember"!
+* [NAME] tries to remember...
+* A faint memory comes to surface.
+* [TARGET] seems pleased.
+* [NAME] tries to grasp at his recollection...
+* A feeling deep down his SOUL wakes up...
+* The GRASP act has become "Believe!"
+* [NAME] braces with all their might...\n* DF UP for a few turns!
+* [NAME] tries putting their all into their next\n\tmove...\n* AT UP for a few turns!
+* [NAME] takes a deep breath...\n* SOUL speed has gone up for this turn!
+* [NAME] tries to convince [TARGET] to stop\n\tfighting...\n* It seems it is somewhat convinced.
+* The party tries to convince everyone to\n\tstop fighting...\n* Some of them listen.
+* The party asks Joe for a cup o' Expresso...\n* He reluctantly obliges!\n* SOUL speed up for this turn!
+* The party asks Joe for a cup o' Americano...\n* He reluctantly obliges!\n* Party's AT and DF up for a few turns!
+* Kanako tries to plead with BunBun...\n* She listens, her AT has gone down for a bit!
+* The party tries to reason with BunBun...

@@ -1,0 +1,561 @@
+@FortPrisonNote
+* Main hall unlock pad.
+* DON'T PRESS IF LORD Bearing
+  HASN'T AUTHORIZED!
+END
+
+------
+
+@PrisonPencLeft
+* What?
+>tc
+.
+* Speak up, I can't hear you.
+>tc
+.
+* [wave]WHAAAAAAAAAAAAT?![/wave]
+>tc
+END
+
+--
+
+@PrisonPencLeft2
+* I think I've lost my hearing
+  from standing too close to
+  Ringo.
+>tc
+.
+* ...Hm? Did you say something?
+* [wave]SPEAK UP!
+>tc
+END
+
+@PrisonPencLeftWeird
+* Did something happen?
+* I think I've gone deaf.
+>tc
+END
+
+---
+
+@PrisonPencRight
+* Ugh. Dunno why we gotta keep
+  torturing these guys.
+>tc
+.
+* They didn't even do much
+  besides ask Bearing to stop
+  being so cruel.
+>tc
+.
+* And the worst part is that 
+  I am the one being tortured
+  having to listen to this!
+>tc
+END
+
+---
+
+@PrisonPencRight2
+* Well, how are we going to
+  torture the prisoners now?
+>tc
+.
+* Guess we need a new 
+  noisemaker.
+>tc
+END
+
+---
+
+@PrisonEraser
+* It pays off being made out
+  of rubber.
+>tc
+.
+* The sound waves just bounce
+  off me.
+>tc
+END
+
+---
+
+@PrisonEraser2
+* Seems I'm back to just being
+  a boring old loser now that
+  my unique trait is worthless.
+>tc
+.
+* That sucks, dude.
+>tc
+END
+
+---
+
+@PrisonCar
+[shake]* Someone, please!
+* End this suffering!
+>tc
+.
+* I can't even listen to my
+  own [shake]THOUGHTS!!
+>tc
+END
+
+---
+
+@PrisonCar2
+* Ah, finally!
+>tc
+.
+* [shake]VROOOOOOOOOOOM!![/shake]
+* Can finally hear my engine again!
+>tc
+END
+
+---
+
+@PrisonCoin
+* I've grown numb to the noise.
+* It no longer affects me.
+>tc
+.
+* Now the only torture is 
+  boredom.
+>tc
+END
+
+---
+
+@PrisonCoin2
+>redirectmap:Coin:PrisonCoin
+* ...I miss the noise.
+>tc
+.
+* It was just a part of my 
+  life, and now it's just gone.
+>tc
+.
+* I feel so valueless.
+>tc
+>setmap:Coin
+END
+
+---
+
+@PrisonCoinPennilton
+* Hey, this guy kinda looks
+  like the other coin guy!
+>p:KanakoPuff
+.
+* Hey, first off, that's rude,
+  second, you're probably
+  talking about my cousin-
+>tc
+.
+* Pennilton.
+>tc
+.
+* Yeah that's him! We're 
+  after that guy!
+>p:KanakoOffended
+.
+* Oh, you aren't the first.
+>tc
+.
+* He's sneaky, if you want to
+  get him, you'll need bait.
+>tc
+.
+* Here, take this.
+>tc
+.
+* (You got a [color=yellow]FAKE COIN[/color].)
+>sound:snd_item_ch1.wav
+.
+* He loves coins, just put that
+  where he usually puts his shop
+  and wait. He should show up.
+>tc
+.
+* Oh, thanks!
+* C'mon Cole, let's get 
+  that guy!
+>p:KanakoHappy
+END
+
+--
+
+@CoinPennilton2
+* Any luck catching him?
+>tc
+.
+* Remember to place the coin
+  where he usually keeps his 
+  shop, he loves that spot.
+>tc
+END
+
+--
+
+@CoinPennilton3
+* So, put an end to him?
+* About time, really.
+>tc
+.
+* He was a bit of a jerk.
+* And ruined the reputation of
+  all coin darkners.
+>tc
+.
+* So thanks, I guess.
+>tc
+END
+
+---
+
+@PrisonThumbtack
+* How I wish I had LEGS so I
+  could just walk out!
+>tc
+.
+* The cell is wide open, for
+  crying out loud!
+>tc
+END
+
+---
+
+@PrisonThumbtack2
+* Thank GOD it's over.
+>tc
+.
+* Been pinned down here the 
+  longest. Was almost going
+  to just grow legs and flee.
+>tc
+END
+
+---
+
+@PrisonThumbtackWeird
+* H-have mercy! I don't even
+  have legs!!
+>tc
+END
+
+-----
+
+@BellBossIntro
+* Hey! [shake]HEY![/shake]
+>p:KanakoHurt
+.
+* Stop this noise!
+>p:KanakoHurt
+>prompt:Stop him:Ignore
+>promptredirect:FightBell:IgnoreBell
+END
+
+---
+
+@FightBell
+* C'mon, Cole!
+* Let's stop this mess!
+>p:KanakoOffended
+END
+
+--
+
+@IgnoreBell
+* Ugh, Cole, why?
+>p:KanakoHurt
+END
+
+--
+
+@BellCaught
+* Phew. It's over...
+>p:KanakoSad2
+.
+* And that's a criminal
+  down, too!
+>p:KanakoTongue
+.
+* We should be near the
+  end. Let's go.
+>p:KanakoHappy
+END
+
+--
+
+@BellFled
+* Stop. With. The. Noise.
+>p:KanakoAngry2
+END
+
+-
+
+@BellFled2
+* Ah, finally!
+>p:KanakoHappy
+.
+* Some peace and quiet!
+>p:KanakoHappy
+.
+* Wait, wasn't that guy
+  a criminal?
+>p:KanakoPuff
+.
+* ...Oops.
+>p:KanakoDumb
+END
+
+--
+
+@BellBossIntroWeird
+* ...This noisemaker is
+  a criminal, Cole.
+>p:KanakoAnnoyed
+.
+* Let's stop this 
+  infernal noise once 
+  and for all.
+>p:KanakoAnnoyed
+END
+
+-----
+
+@BearPrisonPressedButton
+* Did you feel that?
+>p:KanakoNormal
+.
+* Maybe the big door at
+  the main hall unlocked.
+* Let's head back.
+>p:KEEP
+END
+
+-----
+
+@BearPrisonPressedButtonWeird
+* ...
+* I think the main hall
+  doors are unlocked now.
+>p:KanakoAngry
+.
+* Let's head back.
+>p:KanakoAngry
+END
+
+--
+
+@GateCheckBelow
+* You don't have a key to open
+  this door.
+END
+
+--
+
+@GateCheckAbove
+* You tried to gently push the
+  door forward...
+END
+
+-
+
+@BookRead
+* "In a regular match of 
+  softball, there are normally
+  9 player on each team."
+.
+* "A bat is the normal instru-
+  ment used for play, made of
+  many materials-"
+.
+* "Most commonly wood or alloys 
+  like aluminium or other 
+  composite materials,"
+.
+* "Which are durable and light 
+  to yield."
+.
+* You know you could just 
+  have asked me all that,
+  right?
+>p:KanakoPuff
+END
+
+--
+
+@Ruler1
+* What is this?!
+* Someone made a gaping hole 
+  in the wall!
+>tc
+.
+* Why does no one notice it but 
+  me?!
+>tc
+.
+* What if the prisoners escape?! 
+* Does no one THINK?!
+>tc
+.
+* Ugh. It hurts to be perfect, 
+  like me.
+>tc
+END
+
+--
+
+@Ruler2
+* Hey, why did you go and do 
+  that?!
+>tc
+.
+* Do you know how much it costs 
+  to find a new torturer these
+  days?! HUH?!
+>tc
+END
+
+--
+
+@ThormasBro1
+[shake]* AAAAAAH-
+* THE NOISE-
+.
+[shake]* MAKE IT STOP...!!!
+END
+
+--
+
+@ThormasBroEvent1
+* Wait... The noise...
+* It's gone...??
+END
+
+-
+
+@ThormasBroEvent2
+>top:lock
+* Yeah, we got rid of it.
+* You can leave now.
+>p:KanakoNormal
+.
+* Oh. Leave. Yeah.
+* I guess.
+>talk:ThormasOld
+.
+* You see, I came here to
+  find someone. But no matter 
+  where I look...
+>talk:ThormasOld
+>anim:ThormasOld:Thinking
+.
+* I can't find him!
+* And then that dusty old bear 
+  locked me in here!
+>talk:ThormasOld
+.
+* Oh, that... That sucks, 
+  I guess...?
+>p:KanakoNervous
+.
+* Listen I won't bother you with
+  my problems, just, thanks for
+  freeing me I guess.
+>talk:ThormasOld
+>anim:ThormasOld:Idle
+END
+
+-
+
+@ThormasBroEvent3
+>top:lock
+[shake]* HEEEEEEEY!
+.
+* W-Wait! That voice...!
+>shakeanim:ThormasOld:Surprise
+END
+
+-
+
+@ThormasBroEvent4
+>top:lock
+* Guys! What are you doing
+  here?! 
+>p:ThormasNormal
+.
+* Bearing is on the other 
+  side of the fortress!
+>p:ThormasNormal
+.
+* It's... IT'S YOU!
+* BROTHER!
+.
+* W-Wait, what?! Brother?!
+* What are you talking
+  about?!
+>p:ThormasShock
+.
+* Y-You don't remember me...?
+* I had to walk across countless
+  lands to get here!
+>anim:ThormasOld:Idle
+>talk:ThormasOld
+.
+* To find you again!
+>talk:ThormasOld
+.
+* Nope, not ringing any
+  bells! 
+>p:ThormasThink
+.
+* If I had a brother, I'd
+  probably remember it!
+>p:ThormasNormal
+END
+
+-
+
+@ThormasBroEvent5
+>top:lock
+* A-Ah...
+* I see.
+* Forget it then.
+>talk:ThormasOld
+.
+* Sorry to bother ya.
+>talk:ThormasOld
+.
+* WELL! GUYS! C'mon!
+* We are almost there!
+>p:ThormasHappy
+>face:party:South
+.
+[shake]* ONWARDS!
+>p:KEEP
+END
+
+-
+
+@ThormasBroEvent6
+>top:lock
+* (Cole let's just...)
+* (Walk away slowly...)
+>p:KanakoNervous
+END
+
+-
+
+@ThormasBro2
+* Of course he wouldn't remember
+  me. I am a nobody!
+.
+* I don't even have a talking
+  portrait! I am a [shake]REJECTED
+  DESIGN![/shake]
+.
+* Just let me just sulk in peace.
+END

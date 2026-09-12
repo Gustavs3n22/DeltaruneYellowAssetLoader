@@ -1,0 +1,731 @@
+@BasementWindow1
+* ...While I'd like to just
+  get out of here, we really
+  need to talk to Sadie.
+>p:KanakoDumb
+.
+* Guess there is only one
+  way forward then...
+* Haha...
+>p:KanakoNervous
+END
+
+-
+
+@BasementWindow2
+* ...That was certainly an
+  experience!
+>p:KanakoDumb
+.
+* Maybe the Dark World trips
+  are messing with our 
+  heads...
+>p:KanakoNervous
+.
+* (...Might sleep with my 
+  lights on from now on...)
+>p:KanakoNervous
+END
+
+-
+
+@WashingMachine
+* Sadie's parents usually
+  are out on business trips,
+>p:KanakoPuff
+.
+* Guess she just tosses all
+  their clothes here until
+  they return.
+>p:KanakoNervous
+.
+* ...Unless she has a secret
+  sibling army somewhere!
+* That's a lot!
+>p:KanakoDumb
+END
+
+-
+
+@DollL
+* A paper-mache doll of a monster
+  from a giant monster fighting 
+  series.
+.
+* Definitely better than the 
+  giant human movies.
+END
+
+-
+
+@DollM
+* A paper-mache doll of the main
+  character of some kid's cartoon.
+.
+* You remember watching a few 
+  episodes but it never really 
+  interested you too much.
+.
+* Always found this guy 
+  creepy...
+>p:KanakoNervous
+END
+
+-
+
+@DollR
+* A paper-mache doll of a monster
+  actor from the hit film "Bites".
+.
+* You always thought the monster
+  actors in that film were better
+  than the human ones.
+END
+
+-
+
+@LightSwitch
+* ...Don't turn off the 
+  lights!
+>p:KanakoDumb
+END
+
+-
+
+@Crates
+* A lot of crates filled with a
+  lot of family stuff. Like photo
+  albums and memorabilia.
+.
+* ...You can't imagine how it is
+  to have these.
+END
+
+---------
+
+@EnterEventD2_1
+* See? Easy.
+>p:GizmoSmug
+.
+* ...Isn't this place a bit
+  too... Dark?
+>p:KanakoNervous2
+.
+* Yeah they don't turn on 
+  the lights too often here.
+>p:GizmoNormal
+.
+* But the staircase to the
+  living room is just ahead.
+* Follow me!
+>p:GizmoHappy
+END
+
+-
+
+@EnterEventD2_2
+* ...This is a bad idea...
+>p:KanakoDumb
+.
+* But I guess we have no
+  other choice.
+* Just...
+>p:KanakoNervous
+.
+* S-Stay near me, alright?
+* Don't go ahead by 
+  yourself!
+>p:KanakoNervous2
+END
+
+-
+
+@EnterEventD2_3
+* ...
+>p:KanakoDumb
+.
+* How long does this room 
+  go for? 
+>p:KEEP
+.
+* We should've have hit a 
+  wall or something 
+  already...
+>p:KEEP
+END
+
+-
+
+@EnterEventD2_4
+* ...Uh.
+>p:KanakoOffended2
+.
+* This is getting 
+  ridiculous...
+>p:KanakoDumb
+.
+* We MUST be near the end
+  now, right?
+>p:KEEP
+.
+* ...And where did Gizmo
+  go...?
+>p:KanakoNervous2
+END
+
+-
+
+@EnterEventD2_5
+* ...Alright.
+* That's it.
+>p:KanakoOffended2
+.
+* This is stupid.
+>p:KEEP
+.
+* Let's head back.
+>p:KEEP
+END
+
+-
+
+@EnterEventD2_6
+* ........
+>p:KanakoScared2
+.
+* W-What's this...?
+* S-Something's here...!!
+>p:KanakoNervous2
+END
+
+-
+
+@EnterEventD2_7
+[shake]* E-EEP! WHAT ARE THESE?!
+* C-C-COLE!! 
+>p:KanakoScared3
+END
+
+-
+
+@EnterEventD2_8
+[shake]* W-We're surrounded!!
+* W-What do we do...!?
+>p:KanakoScared
+.
+[shake]* AAAAAAAH!!!
+>p:KanakoScared3
+END
+
+-
+
+@EnterEventD2_9
+* What are you two doing
+  here...??
+>p:JuneNervous
+.
+* ...Ah!
+>p:KanakoDumb
+.
+* T-They're just...
+>p:KEEP
+>face:Kanako:Right
+.
+* ...Oh, these are just a
+  hobby of mine...
+* I only started recently.
+>p:JuneNervous2
+>anim:June:SideIdle
+.
+* I like to make these paper
+  mache dolls of some
+  characters that I like.
+>p:JuneNeutral
+.
+* ...So they were just 
+  dolls...
+>p:KanakoNervous
+.
+* (I swear it almost felt
+  like we were in another
+  Dark World for a bit...)
+>p:KanakoDumb
+.
+* ...Did Gizmo get you to
+  sneak into my basement?
+>p:JuneNormal
+.
+* ...Yeah... How did you 
+  know?
+>p:KanakoNervous
+.
+* Oh, he does that almost
+  every day.
+* Where is he, by the way?
+>p:JuneNormal
+.
+* [wave]Hmmmmmmmph-!!
+>bleep:Gizmo
+END
+
+-
+
+@EnterEventD2_10
+* Ah! Sorry! It was too
+  dark, so I fell into the
+  laundry basket!
+>p:GizmoNervous
+END
+
+-
+
+@EnterEventD2_11
+* ...
+>p:JuneNormal
+.
+* ...So what are you guys
+  doing at my house?
+>p:JuneNeutral
+>prompt:Checking@on you:Nothing:Dark World
+>promptredirect:EnterEventD2_11P1:EnterEventD2_11P2:EnterEventD2_11P3
+END
+
+-
+
+@EnterEventD2_11P1
+* You weren't answering the
+  door! I was worried!
+>p:GizmoSad
+.
+* Aw, that's sweet of you,
+  G! But I had my reasons...
+>p:JuneNervous2
+.
+* When I get in the deep of
+  it, I just lose track
+  of time...
+>p:JuneNormal
+.
+* And everything else, 
+  really.
+>p:JuneNervous2
+.
+* And what were you doing?
+>p:KanakoPuff
+.
+* Oh, just working on a
+  thing for a friend!
+>p:JuneNervous2
+>mini:JuneNeutral:(Don't worry Kanako, I won't reveal our secret!)
+.
+* ...And you ignore your
+  other friends while doing
+  so?
+>p:GizmoSad
+.
+* No, no! Sorry, I was just
+  too focused...
+>p:JuneNervous2
+.
+* But we can hang out now,
+  if you want...
+>p:JuneNormal
+END
+
+-
+
+@EnterEventD2_11P2
+* ...So you crashed into
+  my basement for no reason?
+>p:JuneNervous
+.
+* Um, well, actually, we 
+  are here to ask you 
+  something...
+>p:KanakoNervous
+.
+* So you crashed into my
+  basement just to ask me
+  a question?
+>p:JuneNeutral
+.
+* If you had answered the
+  door, we wouldn't have had
+  to do that!
+>p:GizmoAngry
+.
+* Sorry, sorry! Guess it is
+  my fault after all...
+>p:JuneNervous2
+.
+* Anyway...
+>p:JuneNormal
+END
+
+-
+
+@EnterEventD2_11P3
+* ...W-What...?
+>p:JuneNervous
+.
+* Um, it is like...
+* A-A game! A game we've
+  been playing lately!
+>p:KanakoNervous
+.
+* Never heard of it.
+* Might be some obscure game
+  from another country.
+>p:GizmoAngry2
+.
+* (Cole, let's not just be
+  THAT forward,)
+>p:KanakoDumb
+.
+* (We need to ask her what 
+  happened at dad's, but not
+  cue her in on our thing!)
+>p:KanakoTongue
+.
+* ...Ah, I see. I never
+  heard of that game either,
+  but...
+>p:JuneNervous2
+END
+
+-
+
+@EnterEventD2_12
+* We should get out of the
+  basement and head 
+  upstairs.
+>p:JuneNeutral
+.
+* Talking here is kinda 
+  awkward.
+>p:JuneNervous2
+.
+* Agreed. Let's go upstairs
+  then.
+>p:KanakoNervous
+>mini:GizmoHappy:Game time!
+END
+
+-----------
+
+@FanCheck
+* Ah, what a nice breeze!
+>p:KanakoHappy
+.
+* Though I'm afraid staying
+  this close to the fan will
+  mess my fur...
+>p:KanakoDumb
+END
+
+-
+
+@DeskPlantCheck
+* Seems Sadie is trying to
+  grow something here...
+>p:KanakoPuff
+.
+* Wonder if she is taking
+  lessons from Rosa or
+  something.
+>p:KanakoNormal
+END
+
+-
+
+@CactusCheck
+* A healthy and prickly cactus.
+* You resist the urge to touch it.
+.
+* The cactus seems a bit sad at
+  your hesitation.
+END
+
+-
+
+@TVCheck
+* Cole! Get off the front
+  of the TV!
+>p:GizmoHurt
+>mini:KanakoNervous:Better not get in the way of his game session...
+END
+
+-
+
+@ConsoleCheck
+* A retro console by today's
+  standards.
+.
+* Seems there is a cartdrige for
+  a console port of "Mew Mew 
+  Love Blaster" right now.
+END
+
+-
+
+@GizmoD2Talk
+* Don't interrupt me. I'm
+  in my training zone.
+>p:GizmoAngry
+.
+* Unless you want to 1v1 me
+  right here, right now.
+>p:GizmoAngry2
+.
+* (...Let's just leave him 
+  be.)
+>p:KanakoNervous
+END
+
+-
+
+@KitchenDoor
+* That's the kitchen, Cole!
+* You hungry or something?
+>p:KanakoPuff
+.
+* We can eat back at my
+  place once we're done
+  here.
+>p:KanakoNormal
+END
+
+-
+
+@BathroomDoor
+* Do you need to go to the
+  bathroom?
+>p:KanakoPuff
+.
+* Can't it wait until we're
+  done here?
+>p:KanakoNervous
+END
+
+-
+
+@StairsBlocker
+* ...Hey, what are you two
+  doing there?
+* You can't just go up!
+>p:JuneNervous
+>top:lock
+.
+* O-Oh, sorry!
+>p:KanakoNervous
+>mini:KanakoDumb:(Cole, you can't just sneak up uninvited!)
+END
+
+-
+
+@ExitBlocker
+* Oh, leaving already?
+>p:JuneNormal
+.
+* (Cole, we aren't done 
+  here!)
+>p:KanakoOffended2
+.
+* (We gotta ask Sadie if she
+  saw anything at dad's!)
+>p:KEEP
+END
+
+-
+
+@DrawerCheck
+* Sadie's parents use these
+  to organize data.
+>p:KanakoPuff
+.
+* Data on what?
+>p:KanakoNormal
+.
+* I honestly have no idea...
+* What even is their job,
+  really?
+>p:KanakoDumb
+.
+* They are rarely in town,
+  though.
+>p:KanakoPuff
+END
+
+------
+
+@SadieEventD2_1
+* So, what can I get for
+  you two? Make yourselves
+  at home!
+>p:JuneNormal
+.
+* (Cole, we should sit down
+  and ask her if she saw
+  anything...)
+>p:KanakoNeutral
+>prompt:Not yet:Ask her
+END
+
+-
+
+@SadieEventD2_2
+* So, Sadie...
+* You were at dad's shop
+  earlier today, right?
+>p:KanakoNeutral
+>top:lock
+.
+* Yes, we saw each other,
+  remember? I went there to
+  ask to fix a toaster.
+>p:JuneNeutral
+.
+* ...Um, yeah, I remember,
+  but...
+>p:KanakoNervous
+.
+* Before you left, did you
+  see anything weird happen
+  in the workshop?
+>p:KanakoNeutral
+.
+* Like, did someone else 
+  sneak in or something 
+  weird happened?
+>p:KanakoPuff
+.
+* Hm... Not that I recall,
+  sorry.
+>p:JuneSad
+.
+* Hey, maybe it is like that 
+  thing that happened in the
+  cafe?
+>p:GizmoNervous
+>anim:Gizmo:SpecialLookSide
+.
+* Someone snuck in at night
+  and broke everything 
+  down...
+>p:GizmoAngry2
+.
+* I bet it was just Melody
+  having a tantrum.
+>p:KanakoAnnoyed
+.
+* Nah, she lives there, 
+  remember? Why would she
+  trash her own place?
+>p:JuneSad
+.
+* Dunno, some rebellion or
+  something. Sounds like
+  something she'd do.
+>p:KanakoAnnoyed
+.
+* You saw how she was at 
+  school today, right?
+* It had to be her.
+>p:KEEP
+.
+* The police already ruled
+  her out, so I don't think
+  that's it...
+>p:JuneNervous2
+.
+* ...Whatever it is, 'cuz 
+  of that I can't keep my 
+  scores safe!
+>p:GizmoHurt
+>anim:Gizmo:Special
+.
+* Melody is gonna snatch all
+  of them away!
+>p:KEEP
+>mini:KanakoNervous:Uh, that's not really a BIG problem...
+.
+* But yeah, seems some sort 
+  of criminal is out in 
+  town.
+>p:GizmoAngry
+.
+* Bet that's the guy that
+  snuck into your dad's
+  place!
+>p:GizmoNervous
+.
+* No idea what they are up
+  to though. But I hope they
+  didn't mess with my games!
+>p:GizmoAngry2
+.
+* (...You don't think that's
+  the Outlaw, do you, Cole?)
+>p:KanakoPuff
+>prompt:Could be:Not likely:Who knows
+>promptredirect:SadieEventD2_3:SadieEventD2_3:SadieEventD2_3
+END
+
+-
+
+@SadieEventD2_3
+* In any case, I don't know
+  what happened to your 
+  dad...
+>p:JuneNervous2
+>top:lock
+.
+* By the way, when will the
+  toaster be fixed? Did he
+  give an estimate?
+>p:JuneNormal
+.
+* Ah! Um...
+* It'll... It'll still take
+  a  little while!
+>p:KanakoDumb
+.
+* It's... a complicated 
+  job!
+>p:KanakoNervous
+.
+* I see! Well, hope it gets
+  fixed soon then.
+>mini:KanakoDumb:Ha ha...
+>p:JuneHappy
+.
+* W-Well look at the time!
+* We gotta go, mom'll be mad
+  if we miss dinner!
+>p:KanakoNervous
+.
+* Aw, it's a bit early isn't
+  it? But alright. See you
+  guys tomorrow, okay?
+>p:JuneNeutral
+.
+* Bye guys. I'll still be 
+  here practicing for a bit.
+>p:GizmoSmug
+>anim:Gizmo:SpecialLookSide
+.
+* Hopefully tomorrow the
+  cafe will be working again
+  and I can keep my scores.
+>p:GizmoSmug2
+.
+* Yeah... See you guys
+  tomorrow!
+>p:KanakoNervous
+.
+* C'mon Cole, let's head 
+  out.
+>p:KanakoPuff
+>mini:JuneHappy:Bye!
+>mini:GizmoHappy:Later!:95:57
+END

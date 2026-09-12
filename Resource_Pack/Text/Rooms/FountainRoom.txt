@@ -1,0 +1,211 @@
+@SchoolFountainDiag
+* ...So this is the fountain...
+>hideBG
+>top
+>slow
+>bleep:Kanako
+.
+* ...It's beautiful...
+>hideBG
+>top
+>slow
+>bleep:Kanako
+.
+* ...
+>hideBG
+>top
+>slow
+>bleep:Kanako
+.
+* But we must seal it to return
+  home...
+>hideBG
+>top
+>slow
+>bleep:Kanako
+.
+* Cole, any idea how to do it?
+>hideBG
+>top
+>slow
+>bleep:Kanako 
+END
+
+-----
+
+@FountainSoul
+* (As you stood in front
+   of the fountain,)
+>hideBG
+>top
+>slow
+.
+* (You felt something strange.)
+>hideBG
+>top
+>slow
+.
+* (It was as if,)
+>hideBG
+>top
+>slow
+.
+* (Your very SOUL was glowing...)
+>hideBG
+>top
+>slow
+END
+
+-----
+
+@FountainSoulHardMode
+* (...As you hold Kanako's hand,)
+>top:lock
+>hideBG
+>slow
+.
+* (...For all but just a moment,)
+>hideBG
+>slow
+.
+* (You felt her SOUL shine within
+  yours...)
+>hideBG
+>slow
+.
+* (Your SOULs both pulse in 
+  harmony...)
+>hideBG
+>slow
+.
+* (You are filled with a familiar
+  feeling... one long thought 
+  lost.)
+>hideBG
+>slow
+.
+* (You both take a deep breath, 
+  and...)
+>hideBG
+>slow
+END
+
+-----
+
+@SchoolDWHardMode1
+* (...)
+>top:lock
+>hideBG
+>slow
+.
+* (Or not.)
+>hideBG
+.
+* (The LIGHT inside your SOUL...)
+* (It is gone.)
+>hideBG
+.
+* (You cannot seal the fountain,
+  no matter how hard you try.)
+>hideBG
+.
+* (...)
+>hideBG
+.
+* ...?
+>hideBG
+>bleep:Kanako
+.
+* Cole? Is something wrong?
+>hideBG
+>bleep:Kanako
+.
+* You... can't seal the fountain?
+>hideBG
+>bleep:Kanako
+.
+* ...Are you sure?
+>hideBG
+>bleep:Kanako
+END
+
+-----
+
+@SchoolDWHardMode2
+* ...Here.
+>top:lock
+>hideBG
+>bleep:Kanako
+.
+* We can probably do it.
+* Together.
+>hideBG
+>bleep:Kanako
+.
+* Believe in me...
+>hideBG
+>bleep:Kanako
+END
+
+-----
+
+@ChujinDWFountain
+* Well... Here we are again...
+>hideBG
+>bleep:Kanako
+>slow
+>top:lock
+.
+* That's the second one...
+* I wonder how many more are 
+  there...
+>hideBG
+>slow
+>bleep:Kanako
+.
+* And... What does the Outlaw
+  actually want with these 
+  fountains?
+>hideBG
+>slow
+>bleep:Kanako
+.
+* ...
+* Guess we will find out 
+  eventually.
+>hideBG
+>slow
+>bleep:Kanako
+.
+* Let's just seal this one and 
+  go home.
+>hideBG
+>slow
+>bleep:Kanako
+END
+
+-
+
+@ChujinDWFountainAlt
+* ...
+>top:lock
+>hideBG
+>slow
+>bleep:Kanako
+.
+* We are finally here...
+>hideBG
+>slow
+>bleep:Kanako
+.
+* ...
+>hideBG
+>slow
+>bleep:Kanako
+.
+* Well... Let's get this over
+  with.
+>hideBG
+>slow
+>bleep:Kanako
+END

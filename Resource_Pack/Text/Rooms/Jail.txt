@@ -1,0 +1,416 @@
+@AceD1
+* ...Hello. Welcome
+  to the jail.
+>p:AceNormal
+.
+* What can I help you
+  with?
+>p:AceNormal
+.
+>redirectmap:Mooch:AceD1-2
+* Er, nothing right now...
+>p:KanakoPuff
+.
+* Alright. Don't stay
+  out late, kids.
+>p:AceNormal
+END
+
+---
+
+@AceD1-2
+* Er, can we know what
+  Mooch is in for?
+>p:KanakoPuff
+.
+* Ah. The rascal was
+  caught stealing plates
+  from the diner.
+>p:AceNormal
+.
+* ...For the fifteenth time
+  this week.
+>p:AceAnnoyed
+.
+* I... I see...
+>p:KanakoOffended2
+>setmap:Ace
+END
+
+---
+
+@AceLateD1
+>redirect:KanakoFollowing:AceLateD12
+* ...It's late.
+* You should head home.
+>p:AceNormal
+.
+* ...Unless you have
+  something to report.
+>p:AceAnnoyed
+>prompt:Dark@World:Suspicious@Individuals:Nothing
+>promptredirect:AceD1DW:AceD1Sus:AceD1Cancel
+END
+
+--
+
+@AceLateD12
+* Hello. What can I help
+  you with? Do you have
+  anything to report?
+>p:AceNormal
+.
+* Not really.
+>p:KanakoPuff
+.
+* ...Alright. Enjoy your
+  day, kids.
+>p:AceAnnoyed
+END
+
+--
+
+@AceD1DW
+>redirect:Day1End:AceD2DW
+* "Dark World under the
+  school"...?
+>p:AceNormal
+.
+* Sorry, kid.
+* We don't take bogus
+  reports.
+>p:AceAnnoyed
+.
+* You should head home.
+>p:AceAnnoyed
+END
+
+--
+
+@AceD2DW
+* A "Dark World" in the
+  electronics workshop?
+>p:AceNormal
+.
+* Please, kid. Bring in
+  actual reports, or stop
+  wasting my time.
+>p:AceAnnoyed
+.
+* We have our hands full
+  here.
+>p:AceAnnoyed
+END
+
+--
+
+@AceD1Sus
+>redirect:Day1End:AceD2Sus
+* Suspicious individuals?
+>p:AceNormal
+.
+* ...You don't actually 
+  have anything to report,
+  have you?
+>p:AceAnnoyed
+.
+* Don't waste my time,
+  kid.
+>p:AceAnnoyed
+END
+
+--
+
+@AceD2Sus
+* ...Unless you have actual
+  proof something happened,
+  please don't bother me.
+>p:AceNormal
+.
+* Can't you see we have a
+  real case on our hands at
+  the moment?
+>p:AceAnnoyed
+END
+
+--
+
+@AceD1Cancel
+* ...Alright. Stay safe.
+>p:AceNormal
+END
+
+--
+
+
+@MorayD1
+>redirectmap:Moray:MorayD1-2
+* Hey, Moray.
+>p:KanakoNormal
+.
+* Ah, Kanako! And Cole!
+* How are you two doing?
+>p:MorayNormal
+.
+* N-not much, what about
+  you?
+>p:KanakoNervous
+.
+* Been just working here
+  as usual.
+>p:MorayNormal
+.
+* Better than working at 
+  the mines.
+>p:MorayDumb
+.
+* Can't believe pops is 
+  trying to pass on that
+  place onto me...
+>p:MoraySad
+.
+* Better enjoy it here
+  while I can.
+>p:MorayNormal
+>mini:KanakoSad:...
+>setmap:Moray
+END
+
+---
+
+@MorayD1-2
+* Hey, don't worry about
+  lil ol' me.
+>p:MorayNormal
+.
+* Things will work out
+  well in the end, I can
+  feel it.
+>p:MorayNormal
+END
+
+---
+
+@MoochD1
+>redirect:MoochTalkD1:MoochD1-4
+>redirectmap:Mooch:MoochD1-2
+[wave]* OH!
+* COLE! KANAKO!!
+* HEEEEEELP!
+>p:MoochCry
+.
+* Hey, Mooch.
+* What are you in for 
+  now?
+>p:KanakoPuff
+.
+* ...Tch.
+* It wasn't me, I swear!
+>p:MoochNervous
+.
+* ...This time, at least.
+>p:MoochSmug
+>mini:KanakoOffended2:"This time?"
+>setmap:Mooch
+END
+
+---
+
+@MoochD1-2
+>redirectmap:Ace:MoochD1-3
+* I swear, I'm innocent!
+* You have to believe me!
+>p:MoochNervous
+.
+* Um... We'll see what
+  we can do.
+>p:KanakoPuff
+END
+
+---
+
+@MoochD1-3
+>redirectmap:Mooch2:MoochD1-4
+* ...
+* Mooch.
+>p:KanakoOffended2
+.
+* ...Tch. Sorry.
+>p:MoochNervous
+.
+* You have no idea how 
+  much those plates sell
+  for out there.
+>p:MoochSmug
+.
+* ...How long are you
+  going to serve?
+>p:KanakoOffended2
+.
+* Just until tomorrow,
+  hopefully!
+>p:MoochNormal
+.
+* But don't worry!
+* I'll turn on a new
+  leaf! 
+>p:MoochNormal
+.
+* Won't steal plates
+  anymore!
+>p:MoochSmile
+.
+* (Also, shh!)
+* (There is something I'm
+  looking into...)
+>p:MoochNervous
+.
+* (...Let's talk about it
+  tomorrow, okay?)
+>p:MoochNormal
+.
+* ...Totally not 
+  suspicious.
+>p:KanakoOffended2
+>setmap:Mooch2
+>setflag:MoochTalkD1
+END
+
+---
+
+@MoochD1-4
+* ........
+>p:MoochNervous
+.
+* (...I can feel she is 
+  plotting something...)
+>p:KanakoOffended2
+END
+
+---
+
+@EvidenceLocker
+* The evidence locker.
+.
+* It's filled with plates.
+END
+
+--
+
+@AceEventD2_1
+* ...Man, to think an actual 
+  case would happen in this
+  town...
+>p:MoraySad
+END
+
+-
+
+@AceEventD2_2
+* ...Guess it is time to
+  justify our paychecks.
+>p:AceAnnoyed
+>top:lock
+.
+* ...You don't think Mooch
+  did it, did she?
+>p:MoraySad
+.
+* Doubt it. Whoever did the
+  cafe attack was a 
+  professional.
+>p:AceNormal
+.
+* No marks, no footprints,
+  nothing.
+>p:AceAnnoyed
+.
+* They didn't even steal a
+  single thing.
+>p:KEEP
+.
+* Just crashed the place
+  and left.
+>p:AceShadow
+.
+* That isn't Mooch's style.
+>p:AceHat
+.
+* ...Yeah, I noticed.
+* I'm just worried.
+>p:MoraySad
+.
+* ...About Mooch?
+>p:AceNormal
+.
+* Yes. Ever since that
+  thing 5 years ago, she's
+  been different.
+>p:MorayNormal
+.
+* Stealing stuff, getting
+  into trouble...
+>p:MorayDumb
+.
+* ...I miss the old Mooch, 
+  you know.
+* The old days in general.
+>p:MoraySad
+.
+* Back when we were just a
+  troupe doing it for fun-
+>p:KEEP
+.
+* Instead of having to do
+  an actual job.
+>p:MorayAngry
+.
+* Without all this...
+* Responsibility.
+>p:KEEP
+.
+* ...And with your parents
+  wanting you to inherit
+  the mines...
+>p:AceAnnoyed
+.
+* I really don't want that.
+* Specially not after what
+  happened there.
+>p:MorayAngry
+.
+* ...But it seems I won't
+  have any other options...
+>p:MoraySad
+.
+* It is either that or this 
+  dead end job.
+>p:MorayAngry
+.
+* At least this case should
+  keep us busy.
+>p:MorayNormal
+.
+* ...Let's hope it doesn't
+  actually end up becoming
+  a catastrophe, however.
+>p:AceHat
+END
+
+-
+
+@MorayD2
+* Oh, hello, guys!
+* Sorry, I won't be able to
+  spare much time today.
+>p:MorayNormal
+.
+* We have our hands full
+  with the cafe case...
+>p:MorayNormal
+.
+* To think something would
+  actually happen in this
+  town...
+>p:MoraySad
+END

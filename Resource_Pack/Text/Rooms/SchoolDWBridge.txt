@@ -1,0 +1,319 @@
+@DoorLocked
+* (...)
+.
+* (This door seems locked.)
+.
+* (You can hear...something
+  coming from the other side.)
+.
+* (Almost sounds like whispering.)
+>mini:KanakoNervous:C-Can we just go?
+END
+
+--
+
+@DoorUnlock
+* (The strange key you found
+  earlier seems to fit this
+  door...)
+.
+* (The door is now unlocked.)
+END
+
+--
+
+@ThormasSkip1
+[shake]* WAAAAIIIT!!
+END
+
+-
+
+@ThormasSkip2
+* [wave]Huff... Huff...[/wave]
+* W-Where do you think you 
+  are going...?!
+>p:ThormasShock
+>talk:Thormas
+.
+* I didn't even explain my 
+  whole deal yet!
+>talk:Thormas
+>p:KEEP
+.
+* We're just going to go 
+  ahead and try to enter 
+  the fortress.
+>p:KanakoPuff
+.
+* AH! A solid plan! But do 
+  you even know the way?
+>p:ThormasNormal
+>talk:Thormas
+.
+* Not really...
+* We were just kinda going
+  to wing it?
+>p:KanakoNervous
+.
+* No can do! The forest up 
+  ahead is dangerous!
+>p:ThormasShock
+>talk:Thormas
+.
+* I bought some info that I 
+  was going to share with 
+  you...
+>p:ThormasNormal
+.
+* If only you just had gone 
+  to my base...
+>p:ThormasNormal
+>talk:Thormas
+.
+* But fine. I will share it 
+  with you anyway.
+>p:ThormasHappy
+>talk:Thormas
+.
+* There is a way inside the 
+  fortress on the far edge 
+  of the forest-
+>p:ThormasNormal
+>talk:Thormas
+.
+* (At least according to my
+  contact near it...)
+>p:ThormasThink
+>talk:Thormas
+.
+* We just have to survive 
+  the journey there first!
+>p:ThormasHappy
+>talk:Thormas
+.
+* I'll go ahead and be on 
+  the look out for traps 
+  and ambushes!
+>p:ThormasNormal
+>talk:Thormas
+.
+* Bearing is likely to send
+  his troops to patrol the 
+  perimeter of the fortress-
+>p:ThormasNormal
+>talk:Thormas
+.
+* But we can just sneak by
+  and get in!
+>p:ThormasNormal
+>talk:Thormas
+.
+* [shake]ONWARDS!
+>talk:Thormas
+>p:ThormasHappy
+END
+
+--
+
+@ThormasSkip3
+* Oh right before I forget,
+  one of my associates,
+  Rocky, is up ahead.
+>p:ThormasNormal
+>talk:Thormas
+.
+* He will provide you with
+  valuable hints, so be sure
+  to talk to him!
+>p:ThormasNormal
+>talk:Thormas
+.
+* Anyway...
+* [shake]ONWARDS!
+>talk:Thormas
+>p:ThormasHappy
+END
+
+--
+
+@ThormasSkip4
+* ...
+>p:KanakoNervous
+END
+
+--
+
+@RockyIntro
+* Is this a rock with 
+  googly eyes?
+* What's it doing here?
+>p:KanakoOffended2
+.
+* Hello. Name's Rocky.
+* Rocky Rockington.
+>p:Rocky
+>tc
+.
+* Oh! Um...
+* Didn't know you were...
+* ...Alive.
+>p:KanakoDumb
+.
+* Don't worry, young lady.
+* I get that pretty often.
+>p:Rocky
+>tc
+.
+* Either way, glad to see 
+  you two helping my pal, 
+  Tom.
+>p:Rocky
+>tc
+.
+* He's been pretty down the
+  rocks lately.
+>p:Rocky
+>tc
+.
+* Specially after I shared 
+  some rock-shattering info
+  with him.
+>p:Rocky
+>tc
+.
+* Oh, no problem, really.
+>p:KanakoPuff
+.
+* Yeah. It means a lot to 
+  me. So I owe you guys.
+>p:Rocky
+>tc
+.
+* Anyway, you two want to 
+  enter the fortress, don't 
+  you?
+>p:Rocky
+>tc
+.
+* The path is pretty straight
+  forward, but some tough 
+  foes are on the way.
+>p:Rocky
+>tc
+.
+* If you need, go back to 
+  town and restock at the 
+  shop.
+>tc
+>p:Rocky
+.
+* You can get money by going 
+  all the way back to the 
+  cliffs-
+>p:Rocky
+>tc
+.
+* Heard some pencils are 
+  hosting some games there.
+>p:Rocky
+>tc
+.
+* Okay, got it.
+* Thanks, Rocky.
+>p:KanakoHappy
+.
+* No problem. 
+* See you around.
+>p:Rocky
+>tc
+>setflag:RockyIntroduction
+END
+
+--
+
+@Rocky2
+* Good luck, guys.
+* I'll see you up ahead.
+>p:Rocky
+>tc
+>mini:KanakoOffended2:(How does he even move...)
+END
+
+--
+
+@MP3Darkner
+>redirect:MP3DarknerTalk:MP3Darkner2
+* Hey, what you two doing here?
+* Hiding from Bearing too?
+>talk:caller
+.
+* I can't handle hanging out in 
+  town...
+* Too much gloom and doom.
+>talk:caller
+.
+* I'm more at peace here in the 
+  forest.
+* Just listening to my own tune...
+>talk:caller
+>setflag:MP3DarknerTalk
+END
+
+-----
+
+@MP3Darkner2
+* By the way, be careful.
+>talk:caller
+.
+* Up in the forest, there are
+  some weird, dark creatures.
+>talk:caller
+.
+* Bearing's troops have been
+  trying to [color=yellow]capture[/color], tame
+  them...
+.
+* But they have failed.
+.
+* So, be careful. [color=yellow]Don't waste
+  your time trying to catch[/color]
+  them, just defeat them.
+>talk:caller
+END
+
+--
+
+@SignStatTutorial
+* Hey! Did you know?
+.
+* If you press [MENU] during
+  battle before you select an 
+  action-
+.
+* You can see the stat modifiers
+  for your party?
+.
+* Stuff like extra AT and DF you
+  have and how many turns you have
+  left for that?
+.
+* That could be very useful in
+  your strategies... Oh, and you
+  can see the enemies' stats too!
+.
+* Just press [MENU] one more time.
+* It is that simple.
+END
+
+--
+
+@SignTPTutorial
+* Hey! Did you know?
+.
+* If you fill up your TP bar, 
+  you will receive more money 
+  when you finish a FIGHT.
+.
+* So try your best to save up 
+  that TP by the end!
+END

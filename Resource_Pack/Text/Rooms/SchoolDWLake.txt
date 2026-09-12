@@ -1,0 +1,71 @@
+@WardenLake
+* ...What's that?
+>bleep:Warden
+.
+* You found something
+  interesting?
+>bleep:Warden
+.
+* ...
+>bleep:Warden
+.
+* ...Bring them in.
+>bleep:Warden
+END
+
+-----
+
+@SignActionTutorial
+* Sometimes, your party members
+  can still help you with ACTing.
+.
+* Make sure to check what their
+  current [color=yellow]X-Action[/color] lets
+  them do, on their MAGIC menu.
+END
+
+-----
+
+@Penceller
+* Ah, it's so relaxing here...
+>tc
+.
+* But that weird door on the
+  other side of the lake is
+  really ruining the scenary.
+>tc
+.
+* Who put it there?
+>tc
+.
+* I tried to open it but it
+  led me back to the cliffs...
+* Well, at least it's a shortcut.
+>tc
+END
+
+-----
+
+@CoolPenceller
+* Hey, heard you like to FIGHT.
+>tc
+.
+* Heard there is some weird
+  thing called "Battle Memory".
+>tc
+.
+* Seems that if you close your
+  eyes and think hard enough on
+  some spots-
+>tc
+.
+* You can almost relive old 
+  battles almost as how they
+  were back then!
+>tc
+.
+* Wish that worked for more than
+  battles, though, like for my
+  wedding or something.
+>tc
+END

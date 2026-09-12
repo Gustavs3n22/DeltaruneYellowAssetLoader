@@ -1,0 +1,373 @@
+@KanakoFishD1
+* Cole, you aren't
+  going fishing NOW,
+  are you?
+>p:KanakoDumb
+.
+* It's late! We should
+  get to our homes!
+* You can come tomorrow.
+>p:KanakoTongue
+END
+
+--
+
+@KanakoFishD2
+* You gonna fish?!
+* Cole, we don't have
+  all that time!
+>p:KanakoOffended2
+.
+* ...
+* Well, I guess you do
+  enjoy it.
+>p:KanakoSad
+.
+* Fine, we can fish for
+  a bit. But we won't spend
+  the entire day here!
+>p:KanakoTongue
+.
+* (Might as well draw
+  something while at it.)
+>p:KanakoPuff
+END
+
+--
+
+@FishPrompt
+* Do some fishing?
+>prompt:Yes:No
+END
+
+--
+
+@FishCant
+* This isn't time to fish.
+END
+
+--
+
+@FishStat
+Name: [NAME]
+Amount Caught: [AMT]
+Max Size: [SIZE] pounds
+END
+
+--
+
+@FishGet
+* [NAME] Get!
+* SIZE: [SIZE] pounds
+END
+
+--
+
+@FishNone
+* You haven't fished in a while,
+  so your records have been
+  erased.
+END
+
+--
+
+@FishSign
+[color=black].
+>instend
+>prompt:Read@Instructions:Check@Records:Nothing
+END
+
+--
+
+@FishInstructions
+* To fish, cast your bobber over
+  where the shadows are.
+.
+* Press [INTERACT] to try to
+  reel in the fish, press the
+  buttons shown to do so!
+.
+* If you fail, you can just
+  try again.
+.
+* The bigger the fish, the
+  harder it will be to reel
+  it in.
+.
+* To stop fishing, press [MENU] or
+  [CANCEL].
+END
+
+--
+
+@FishBucket
+* Some buckets with fishing
+  supplies left for anyone
+  to use.
+.
+* You're thankful for whoever
+  keeps this here.
+END
+
+--
+
+@FishFanFirstDiag
+* Hey there, nice weather today,
+  huh?
+.
+* Sure this nice day will attract
+  a lot of fishes.
+* ...I wish I could fish...
+.
+* But alas, as you can see, I can't
+  stay near the water for too long.
+.
+* Hm, how about...
+* Maybe you could fetch me some
+  fish?
+.
+* If you can do that I can reward
+  you with something.
+* Think about it, okay?
+.
+* Today, I'd like you to show me
+  5 different species of fish.
+.
+* Sounds like a lot, but I promise
+  I'll make it worth your time.
+END
+
+--
+
+@FishFanD2
+* So how is it going?
+.
+* If you can get 5 different
+  species of fish, I might give
+  you something, kid.
+END
+
+--
+
+@FishFanD2Got
+* Eh? You got 'em?
+.
+* Wow, amazing. Didn't expect you
+  to get them so fast.
+* Good job. Here is something.
+.
+* (You got 5 dollars.)
+>sound:snd_item_ch1.wav
+END
+
+--
+
+@FishFanD2After
+* I don't have any more
+  requests today, but come back
+  tomorrow.
+.
+* I will give you more stuff if
+  you hear me out then too.
+END
+
+--
+
+@WellCheck
+* Well, well, well.
+.
+* It's a well.
+END
+
+--
+
+@MinecartCheck
+* Weird how this rolled all the
+  way out here.
+END
+
+--
+
+@SkullCheck
+* No problem here.
+END
+
+--
+
+@MainSign
+* Please stop dumping trash in
+  the town's lake.
+.
+* We had to take out someone's
+  truck from it last month.
+END
+
+--
+
+@RichWoman
+* Oh my! Two locals! Out this late!
+* How quaint!
+>tc
+.
+* This little town sure knows
+  how to provide its share of
+  surprises!
+>tc
+.
+* This will be an interesting
+  week, I tell you! Oh hoho!
+>tc
+END
+
+--
+
+@RichGuy
+* You call this a lake?!
+* I've seen bigger puddles than
+  this is a sewer!
+>tc
+.
+* What a waste of time, and thus
+  my money!
+>tc
+END
+
+--
+
+@MochaBritzD2
+* Next... Something that rhymes
+  with...
+* Limes?
+>talk:BritzD2
+.
+* No that's too sour. We need
+  something with more punch.
+>talk:MochaD2
+.
+* Like fruit punch?
+* Sweet like apple pie?
+>talk:BritzD2
+.
+* No, that's too crusty.
+* Let's slice it up and start
+  over.
+>talk:MochaD2
+.
+* (...Let's just leave
+  them be.)
+>p:KanakoNervous
+END
+
+--
+
+@GizmoFish
+* Wait, you're going to 
+  FISH!?
+>p:GizmoNervous
+.
+* That's wack dude, call me
+  when you're done!
+>p:GizmoAnnoyed
+END
+
+--
+
+@FlowerGirlsD2
+>redirect:FlowerGirlsDay2:FlowerGirlsD2_2
+* Hey, you two! How is it hanging?
+>talk:RosaD2
+.
+* ...Nothing much, really.
+>p:KanakoNervous
+.
+* We're not interrupting anything,
+  are we, dears?
+>talk:ViolettaD2
+.
+* C'mon, Vi. It's obvious they are
+  on a date right now.
+>talk:RosaD2
+.
+* D-Date?! We aren't...
+>p:KanakoBlushFlustered
+>prompt:Yes we@are:No we@aren't
+>promptredirect:FlowerGirlsD2P1:FlowerGirlsD2P2
+>setflag:FlowerGirlsDay2
+END
+
+--
+
+@FlowerGirlsD2P1
+* C-Cole!
+>p:KanakoBlushFlustered
+>shakeanim:Kanako:ShyBlush
+.
+* Hahaha! I knew it.
+>talk:RosaD2
+.
+* Oh, um... That was a bold 
+  admission, Cole.
+* Didn't know you had it in you.
+>talk:ViolettaD2
+.
+* ...C'mon girls, stop teasing them.
+>talk:PedlaD2
+.
+* Sorry about that, Kanako.
+* They didn't mean anything by it.
+>talk:PedlaD2
+.
+* I... Y-Yeah...
+* Sorry. We must be going 
+  now!
+>p:KanakoDumb
+.
+* Have fun, you two! Don't get too
+  carried away!
+>talk:RosaD2
+END
+
+-
+
+@FlowerGirlsD2P2
+* Y-Yeah we are just...
+* Hanging out...
+* ...Together!
+>p:KanakoNervous
+.
+* Yeah sure. You two are always
+  just getting into all sorts
+  of trouble "together".
+>talk:RosaD2
+.
+* It's pretty obvious to everyone!
+* Specially this week out of all!
+>talk:RosaD2
+>mini:KanakoNeutral:.......
+.
+* Hey, Rosa, I think that's enough.
+>talk:PedlaD2
+.
+* ...Hmph. I'm just saying it as
+  I see it. You can't tell me you
+  girls don't see it too?
+>talk:RosaD2
+.
+* ...Rosa, enough.
+>talk:ViolettaD2
+.
+* Hmph. Fine!
+* Won't change anything, though!
+>talk:RosaD2
+END
+
+--
+
+@FlowerGirlsD2_2
+* Have fun on your date, you two!
+>talk:RosaD2
+>mini:KanakoDumb:.......
+.
+* Girls, please...
+>talk:PedlaD2
+END

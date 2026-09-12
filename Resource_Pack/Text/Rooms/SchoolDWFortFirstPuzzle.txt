@@ -1,0 +1,237 @@
+@KanakoGateBefore
+* Hm...
+* Looks like we can't get
+  through here...
+>p:KanakoNeutral
+.
+* Let's try to find another 
+  way.
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoGateEvent
+* So if the note was 
+  right...
+>p:KanakoPuff
+.
+* I should be able to
+  just walk through
+  since I'm a monster...
+>p:KEEP
+.
+* B-but what if...
+* It doesn't work?
+>prompt:Try it:It's too@dangerous
+>promptredirect:KanakoGateBeforeP1:KanakoGateBeforeP2
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoGateBeforeP1
+* Yeah you say that because
+  it isn't your life on the
+  line!
+>p:KanakoTongue
+.
+* We have no other choice, 
+  though.
+* We will have to try it.
+>p:KanakoNeutral
+.
+* Pull me if I, well, start
+  getting vaporized or
+  something, alright?
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoGateBeforeP2
+* What's that, Cole?
+* Worried about lil' old me?
+>p:KanakoSmug
+.
+* Well we don't have any 
+  other options...
+* We'll have to try it.
+>p:KanakoPuff
+.
+* Just... pull me back if
+  I start screaming, okay?
+>p:KanakoNervous
+END
+
+-----
+
+@KanakoGateNote
+* "This thing you see nearby is an
+  experimental anti-lightner gate."
+* "This took me TOO long to make!"
+.
+* "But unfortunately, it seems 
+  lightners come in like, 
+  two types?!"
+.
+* "'Humans' and 'monsters'."
+* "Weird names."
+.
+* "Well I managed to attune the 
+  gate to work with 'human'-type 
+  lightners."
+.
+* "They will totally be unable to 
+  bypass the gates!"
+.
+* "But that means 'monster'-type 
+  ones still can..."
+.
+* "This will take me years to make, 
+  so for now this will do."
+.
+* "The technology is ready to be 
+  mass exported to nearby Dark 
+  Worlds-"
+.
+* "Hopefully soon all darkners will 
+  adopt it and protect their 
+  fountains from lightners!"
+END
+
+-----
+
+
+@KanakoGateEventWeird
+* ...If the note is right,
+  I should be able to walk
+  through this.
+>p:KanakoNeutral
+.
+* ...
+>p:KanakoNeutral
+.
+* ...Here goes nothing.
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoGateEvent2
+>p:KanakoPuff
+* ...I don't think my 
+  fur got burned off.
+.
+>p:KanakoNormal
+* I'll check up ahead.
+* Just wait here, alright?
+END
+
+-----
+
+@KanakoGateEvent2Weird
+>p:KanakoNeutral
+* ...Alright.
+* That wasn't too bad.
+.
+>p:KanakoNeutral
+* I'll check up ahead.
+* Wait for me.
+END
+
+-----
+
+
+@SplitRoomNote1
+* Many posters are on the wall, but
+  one catches your attention:
+.
+* "Remember to press the [MENU] key 
+  to communicate with your fellow 
+  co-workers if you split up!
+.
+* ...
+.
+* You have no idea what a "[MENU]" 
+  key is.
+END
+
+-----
+
+@SplitRoomNote2
+* ATTENTION!
+* Don't step on the switch!
+.
+* Lord Bearing hasn't authorized 
+  anyone in the main hall!
+* If you are stepping, STEP AWAY!
+END
+
+-----
+
+@ThormasEvent1
+[shake]* HEEEEEY!
+END
+
+----
+
+@ThormasEvent2
+* Finally! We are inside!
+>p:ThormasNormal
+>talk:Thormas
+.
+* Now all we gotta do is 
+  find Bearing and beat 
+  him up!
+>p:ThormasNormal
+>talk:Thormas
+.
+* ...But I have no idea how 
+  to get past this room.
+>p:ThormasThink
+>talk:Thormas
+.
+* Maybe there are clues 
+  around? Wish Rocky was 
+  already here...
+>p:KEEP
+>talk:Thormas
+.
+* Well, tell me when you 
+  solve the puzzle!
+>p:ThormasNormal
+>talk:Thormas
+END
+
+--
+
+@ThormasTalk1
+* Any luck with the puzzle?
+>p:ThormasNormal
+>tc
+.
+* Maybe it has something to 
+  do with that gate, or 
+  maybe the crates?!
+>p:ThormasThink
+>tc
+.
+* Really, where did Rocky 
+  go...?
+>p:ThormasShock
+>tc
+END
+
+--
+
+@ThormasTalk2
+* Oh! The way is open!
+>p:ThormasHappy
+>tc
+.
+* What are we waiting for?
+* Let's get out there!
+>p:ThormasNormal
+>tc
+END

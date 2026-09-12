@@ -1,0 +1,410 @@
+@KanakoD1Talk
+>redirectmap:KTalk:KanakoD1Talk_2
+* Ugh, why are we here?
+* I hate this place.
+>p:KanakoOffended2
+.
+* C'mon, let's leave.
+>p:KEEP
+>mapflag:KTalk
+END
+
+--
+
+@KanakoD1Talk_2
+* ...
+>p:KanakoOffended2
+END
+
+--
+
+@PedlaD1_1
+>redirect:PedlaHospitalD1:PedlaD1_2
+* Oh hello there, Kanako, Cole.
+>prompt:What you@doing here?:Nothing@much
+>promptredirect:PedlaD1_P1_1:PedlaD1_P2_1
+>tc
+END
+
+--
+
+@PedlaD1_P1_1
+* You forgot? I work here part time.
+>tc
+.
+* I don't know how you
+  can stand it here, Pedla.
+>p:KanakoOffended2
+.
+* This place assaults my
+  senses.
+>p:KanakoOffended2
+.
+* Too bad. Maybe the people here
+  could use some of your expertise,
+  Kanako.
+>tc
+.
+* Yeah, fat chance.
+>p:KanakoTongue
+>flag:PedlaHospitalD1
+END
+
+--
+
+@PedlaD1_P2_1
+* Alright, see you at school
+  tomorrow.
+>tc
+END
+
+--
+
+@PedlaD1_2
+* If you ever change your mind,
+  you can always come help us.
+>mini:KanakoNervous:No, thanks.
+END
+
+--
+
+@DoctorD1
+>redirect:KanakoFollowing:DoctorD1K
+* Sorry, we are closing
+  operations for today.
+>tc
+.
+* Unless you are in serious
+  need of medical attention,
+  come back tomorrow.
+>tc
+END
+
+--
+
+@DoctorD1K
+* Hey! You both need an
+  examination?
+* Or are you visiting?
+>tc
+.
+* Uh, neither?
+>p:KanakoPuff
+.
+* Well then get along, kids!
+* Got work to do here!
+>tc
+END
+
+--
+
+@TrashBin
+* It would be unwise to check
+  a hospital's trash.
+.
+* Bummer.
+END
+
+--
+
+@WaterFountain
+>redirect:KanakoFollowing:WaterFountainK
+* You could drink the water
+  here, but Kanako wouldn't
+  let you hear the end of it.
+END
+
+--
+
+@WaterFountainK
+>redirectmap:WaterF:WaterFountain2
+* Uh, Cole? You aren't going
+  to stick your mouth in
+  that, are you...?
+>p:KanakoOffended2
+>mapflag:WaterF
+END
+
+--
+
+@WaterFountain2
+* ...If you catch any
+  diseases, I'm not going
+  to stick by your side.
+>p:KanakoOffended2
+END
+
+--
+
+@GolemNPC
+* I tried to get treated here, but
+  they told me to go to a masonry
+  instead...
+>tc
+.
+* I think I will be pressing
+  charges.
+>tc
+END
+
+--
+
+@NervousGirlD2
+* Ah! I-I...
+>tc
+.
+* I think I might be sick!
+* I just can't think straight!
+>tc
+.
+* B-But the doctor here doesn't
+  think my case is u-urgent
+  enough!
+>tc
+.
+* What am I to do!?
+>tc
+END
+
+--
+
+@TeaBullD1
+* Phew, glad they managed to
+  fix me up.
+>tc
+.
+* Almost broke my body just by
+  eating some hot soup.
+* Thermal shock is a pain!
+>tc
+END
+
+--
+
+@BritzEventD1
+* Oh, hey guys.
+* What happened?
+>p:KanakoSad
+.
+* Ah, Kanako, Cole.
+* Nothing much, really.
+>talk:MochaD1
+.
+* Britz just had to take like 17
+  shots because he was afraid of
+  his flu shot.
+>talk:MochaD1
+.
+* [wave]H-Had I known I'd just have
+  stayed home...
+.
+* Uh, okay.
+* See you guys in
+  class then?
+>p:KanakoNervous
+>flag:MochaEventD1
+END
+
+--
+
+@BritzD1
+* [wave]I should be good enough to go
+  to class tomorow...[/wave]
+* [wave]Ooough...
+END
+
+--
+
+@MochaD1
+* He'll survive. Don't worry
+  about him.
+>tc
+END
+
+--
+
+@PedlaD2Return
+* Wow, rare to see you here in two
+  days in a row.
+>tc
+.
+* ...Tell me about it.
+>p:KanakoOffended2
+.
+* Have you reconsidered my offer
+  then?
+>tc
+.
+* Hell no. No way.
+  I won't do it.
+>p:KanakoOffended2
+.
+* Seriously, Cole?
+* Why do we keep coming
+  here?
+>p:KanakoOffended
+.
+* Just let him, Kanako.
+* What's wrong with that?
+>tc
+.
+* It's just...
+* Ugh. Forget it.
+>p:KanakoSad2
+.
+* Cole, let's go,
+  please.
+>p:KanakoSad
+.
+[color=black].
+>instend
+>redirect:PedlaD2Thank
+END
+
+--
+
+@PedlaD2Return2
+* I think if we are patient with
+  Melody, she will come to
+  understand us.
+>tc
+.
+* It did work for you, didn't it,
+  Cole?
+>tc
+END
+
+--
+
+@PedlaD2First
+* Oh, you two. Surprised to see
+  you here.
+>tc
+.
+* Yeah... I don't know
+  why Cole wanted to
+  come, really.
+>p:KanakoSad2
+.
+* Ah, right.
+* I remember you don't really
+  like it here...
+>tc
+.
+* A shame, you could do well as
+  a nurse in my opinion, Kanako.
+>tc
+.
+* Fat chance.
+* C'mon Cole, let's
+  bounce.
+>p:KanakoOffended2
+.
+[color=black].
+>instend
+>redirect:PedlaD2Thank
+END
+
+--
+
+@PedlaD2Thank
+* Wait, before you go, I wanted
+  to thank you for earlier.
+>tc
+.
+* Ah, the thing with
+  Melody?
+* It's nothing.
+>p:KanakoNormal
+.
+* Really, I just don't
+  know what her problem
+  is.
+>p:KanakoNeutral
+.
+* I've heard humans have...weird
+  temperaments towards monsters.
+>tc
+.
+* Altough Cole somewhat disproves
+  that.
+>tc
+.
+* It must be frightening for her
+  to be the only human here
+  alongside Cole.
+>tc
+.
+* ...Nah. I think she
+  is just a jerk.
+>p:KanakoOffended2
+.
+* Hope we don't get
+  stuck with her anytime
+  soon.
+>p:KanakoSad2
+>flag:PedlaHospitalD2
+.
+* Well, either way, have a good
+  day you two.
+* Gotta do my volunteer work here.
+>tc
+.
+* We can talk more at school,
+  alright?
+>tc
+END
+
+--
+
+@RoomFlood
+* "Room closed due to
+  flooring flood."
+END
+
+--
+
+@RoomTape
+* You can only imagine what
+  must have transpired in
+  this room.
+END
+
+--
+
+@Board
+* A few photos are posted on the
+  board.
+.
+* Most are of the doctor smiling
+  and giving a thumb up near
+  patients in full body casts.
+END
+
+--
+
+@Extinguisher
+* You know for a fact this has
+  been used more than once.
+END
+
+--
+
+@SickGuyD2
+* (He doesn't seem to be sick, he
+  might just be freeloading here.)
+END
+
+--
+
+@Bookshelf
+* These books are mainly stories
+  for children rather than actual
+  medical stuff.
+END
+
+--
+
+@BritzD1Late
+* (He's sleeping.)
+END

@@ -1,0 +1,1604 @@
+@TrashCheck
+* The trash cans are filled with
+  only discarded electronic 
+  parts.
+.
+* Bummer.
+END
+
+-
+
+@BlacksmithIntro
+* Um, hello?
+>p:KanakoPuff
+.
+* QUIET. YOU BREAK 
+  CONCENTRATION.
+>tc
+.
+* Ah! Sorry!
+>p:KanakoDumb
+.
+* MAY I INQUIRE ABOUT WHAT
+  YOU ARE DOING?
+>p:AxisNormal
+.
+* ME WORKING.
+* ME REPAIR THINGS.
+>tc
+.
+* THEN SOMEDAY...
+* ME REPAIR AS GOOD AS MASTER
+  CHUJIN.
+>tc
+.
+* PLEASE. AS IF YOU WILL 
+  EVER REACH HIS LEVEL.
+>p:AxisBored
+.
+* FOUL-MOUTHED ROBOT...
+* YOU ARE DAMAGED.
+>tc
+.
+* ...BRING MATERIALS.
+* BRING SPECIAL ITEMS.
+>tc
+.
+* ME REPAIR YOU.
+>tc
+.
+* THEN PROVE ME CAN BE AS GOOD
+  AS MASTER CHUJIN.
+>tc
+.
+* WHAT?! LET YOU TOUCH MY
+  GLORIOUS FRAME?!
+* THE NERVE!
+>p:AxisAngry
+.
+* Wait, can you really 
+  repair Axis?
+>p:KanakoPuff
+.
+* MISS KANAKO, YOU ARE NOT
+  SERIOUSLY CONSIDERING THIS
+  BRUTE'S IDEA?!
+>p:AxisDumb
+.
+* ME GUARANTEE.
+* ME UPGRADE FOUL-MOUTHED ROBOT.
+>tc
+.
+* NEW BATTLE SKILLS.
+* HELP MORE.
+>tc
+.
+* I mean, that doesn't sound 
+  like a bad idea.
+* We can try it out.
+>p:KanakoNormal
+.
+* ...FINE. IF THE UPGRADES
+  ARE GOOD, IT WILL HELP ME
+  PROTECT YOU BETTER.
+>p:AxisAngry
+.
+* BRING SPECIAL ITEMS.
+* ME WAIT FOR YOUR RETURN.
+>tc
+END
+
+--
+
+@BlacksmithNoItem
+* YOU DO NOT HAVE ITEM YET.
+* BRING SPECIAL ITEM.
+* ME REPAIR ROBOT.
+>tc
+.
+* LET'S SEARCH FOR THOSE
+  "ITEMS" THEN.
+>p:AxisBored
+END
+
+-
+
+@BlacksmithHasItem
+* YOU! YOU HAVE ITEM.
+>tc
+.
+* HAND IT OVER.
+>prompt:Give:Don't give
+>promptredirect:BlacksmithGiveItem:BlacksmithRefuse
+>tc
+END
+
+-
+
+@BlacksmithGiveItem
+* THANKS, MANY THANKS.
+>tc
+.
+* ME GET TO FIXING.
+>tc
+END
+
+-
+
+@BlacksmithGiveItem2
+* ROBOT HAS BEEN UPGRADED.
+* CHECK YOUR POWER MENU FOR INFO
+  ON WHAT IS NEW.
+>tc
+END
+
+-
+
+@BlacksmithGiveItem3
+* BRING MORE ITEM. ME UPGRADE
+  FURTHER.
+>tc
+END
+
+-
+
+@BlacksmithNoUpgrade
+* NO MORE. CAN'T UPGRADE FURTHER.
+>tc
+.
+* ONLY MASTER CHUJIN CAN NOW HELP
+  YOU.
+>tc
+END
+
+-
+
+@BlacksmithRefuse
+* ...HMPH.
+>tc
+END
+
+-
+
+@GuardenerIntro
+* PLEASE DO NOT STEP ON ME.
+>bleep:Rocky
+END
+
+-
+
+@GuardenerIntro2
+* Oh! Sorry!
+* We didn't know!
+>p:KanakoDumb
+.
+* UNDERSTANDABLE. MY COVER DOES
+  CAUSE CONFUSION TO SOME.
+>bleep:Rocky
+.
+* What are you doing here?
+>p:KanakoPuff
+.
+* I AM THE GUARDIAN OF THIS SPOT.
+>bleep:Rocky
+.
+* Um... Why this spot 
+  specifically? Is there 
+  something special?
+>p:KanakoNervous
+.
+* AFFIRMATIVE. AND IT IS MY
+  DIRECTIVE TO GUARD THESE
+  TUNNELS FROM OUTSIDERS.
+>bleep:Rocky
+.
+* ...AS IF WE WANTED TO 
+  USE THEM.
+>p:AxisAngry
+.
+* Where do these tunnels 
+  go?
+>p:KanakoPuff
+.
+* THEY ARE CONNECTED TO MOST
+  PLACES IN ROBOTOPIA.
+* INCLUDING THE SPIRE.
+>bleep:Rocky
+.
+* Oh! That would be really
+  useful! Is there a reason 
+  we can't use them?
+>p:KanakoNervous
+.
+* SECURITY RESTRICTION.
+* CANNOT ELABORATE.
+>bleep:Rocky
+.
+* What if we are extra 
+  careful?
+>p:KanakoNervous
+.
+* We have Axis with us, he
+  is practically a safety
+  manual!
+>p:KanakoNormal
+.
+* RUDE.
+* ...BUT IT IS TRUE.
+>p:AxisNormal
+.
+* NEGATIVE.
+>bleep:Rocky
+.
+* AT MOST I CAN BRING SOMETHING
+  HERE THAT CAN HELP YOU WITH
+  TRAVELING.
+>bleep:Rocky
+.
+* BUT IT WILL COST YOU.
+>bleep:Rocky
+.
+* 200 DARK DOLLARS.
+>bleep:Rocky
+>showmoney
+.
+* Oof. A bit steep.
+* What do you say, Cole?
+>p:KanakoPuff
+>showmoney
+>prompt:Pay:Don't pay
+END
+
+-
+
+@GuardenerRePrompt
+* I CAN BRING YOU SOMETHING THAT
+  MAY HELP WITH YOUR TRAVEL.
+* FOR 200 DARK DOLLARS.
+>bleep:Rocky
+>showmoney
+>prompt:Pay:Don't pay
+END
+
+-
+
+@GuardenerNoMoney
+* YOU LACK THE NECESSARY FUNDS.
+>bleep:Rocky
+.
+* THIS TRANSACTION IS OVER.
+>bleep:Rocky
+END
+
+-
+
+@GuardenerDontBuy
+* THAT IS YOUR CHOICE, THEN.
+>bleep:Rocky
+.
+* PLEASE CEASE DISTURBING ME.
+>bleep:Rocky
+END
+
+-
+
+@GuardenerBuy1
+* ...VERY WELL.
+>bleep:Rocky
+>showmoney
+.
+* PLEASE WAIT A MOMENT.
+>bleep:Rocky
+END
+
+-
+
+@GuardenerBuy2
+* THERE. THIS DOOR-THING THAT I
+  BROUGHT FROM A PREVIOUS ROOM
+  WILL LET YOU TRAVEL HERE FASTER.
+>bleep:Rocky
+.
+* Ah, yeah, not what I was
+  expecting, but I guess it
+  will help.
+>p:KanakoNervous
+.
+* NOW THAT OUR BUSINESS IS 
+  CONCLUDED, PLEASE DO NOT BOTHER
+  ME EVER AGAIN.
+>bleep:Rocky
+END
+
+-
+
+@GuardenerBuy3
+* ...AND THEY SAY I AM THE
+  RUDE ONE.
+>p:AxisBored
+END
+
+-
+
+@Guardener2
+* PLEASE CEASE BOTHERING ME.
+>bleep:Rocky
+END
+
+------
+
+@CoffeeGuyFirst
+* 
+END
+
+@CoffeeGuyFullInv
+*  
+END
+
+@CoffeeGuyItem
+*  
+END
+
+@CoffeeGuy2
+*  
+END
+
+--
+
+@PitcherCheck
+* Just an average pitching 
+  machine.
+.
+[color=black].
+>redirect:BunBunEvent1:PitcherCheck2
+>instend
+>instant
+END
+
+-
+
+@PitcherCheck2
+* Huh. I wonder why it 
+  didn't convert into a
+  darkner.
+>p:KanakoPuff
+END
+
+--
+
+@BatterFirst
+* Oh! Be careful. I could have
+  hit you with my bat.
+>tc
+.
+* Ah! Sorry. I couldn't 
+  help but watch! You have 
+  a good swing!
+>p:KanakoHappy
+.
+* Thanks. I am training to join
+  the league of the Robo-batters,
+  and maybe even become famous!
+>tc
+.
+* Like the "Pink Menace".
+>tc
+.
+* Who?
+>p:KanakoPuff
+.
+* They say it is a legendary batter
+  that never missed a single hit.
+>tc
+.
+* Also for some reason they say it
+  is covered in pink fur, hence the
+  name.
+>tc
+.
+* Kinda like your fur, actually.
+>tc
+.
+* Oh, really?
+>p:KanakoPuff
+.
+* Yeah, you must be a fan of the
+  Pink Menace too, right?
+>tc
+.
+* I... I've never heard of
+  it before, actually...
+>mini:AxisBored:ME NEITHER.
+>p:KanakoNervous
+.
+* You're from out of town, aren't
+  ya? Never seen robots like your
+  types here before.
+>tc
+.
+* You seem to be good with the 
+  bat.
+* Wanna give it a go?
+>tc
+.
+* Oh, can I?
+>p:KanakoNormal
+>prompt:Sure:Not now
+>promptredirect:BatterStart:BatterReject
+END
+
+-
+
+@BatterStart
+* Alright, just get into position.
+>tc
+END
+
+-
+
+@BatterReject
+* Another time then?
+* I'll get back to my training,
+  if you don't mind.
+>tc
+END
+
+-
+
+@BatterReprompt
+* So? Wanna give it a shot?
+* Prove how you are as good as 
+  the Pink Menace?
+>tc
+>prompt:Sure:Not now
+>promptredirect:BatterStart:BatterReject
+END
+
+-
+
+@BatterExplain1
+* Just hit 10 consecutive balls
+  with [INTERACT] without missing
+  once!
+>tc
+.
+* Press [CANCEL] if you want to 
+  stop.
+* Now, get ready!
+>mini:AxisNormal:SHOW 'EM WHO'S BOSS.
+>tc
+END
+
+-
+
+@BatterExplain2
+* Press [INTERACT] to hit as many
+  balls as you can without missing!
+>tc
+.
+* If you've had enough, press [CANCEL].
+* Here it comes!
+>tc
+END
+
+-
+
+@BatterWon
+* Wow! You actually got it!
+>tc
+.
+* It was easy!
+>p:KanakoTongue
+.
+* It was as if you were the Pink
+  Menace itself!
+>tc
+.
+* Here, take this!
+* It's the least I can offer.
+>tc
+.
+* (You got a Trading Card.)
+>sound:snd_item_ch1.wav
+.
+* A card?
+>p:KanakoPuff
+.
+* These cards are all the rage
+  here in Robotopia lately.
+* People love collecting them!
+>tc
+.
+* Maybe someone will be willing
+  to trade with you, who knows,
+  might nab you something good.
+>tc
+.
+* Thanks!
+>p:KanakoHappy
+.
+* No problem. I will go back to
+  training, but feel free to come
+  back and bat some more!
+>tc
+END
+
+-
+
+@BatterLost
+* You managed to hit @v8
+  this time.
+>tc
+.
+* I'll be here if you want to retry.
+>tc
+END
+
+-
+
+@BatterSecond
+* Sorry, gotta focus on this...
+END
+
+-
+
+@BatterRepeat
+* Hey! Wanna give another go
+  at the bat?
+>prompt:Sure:Not now
+>promptredirect:BatterStart:BatterReject
+END
+
+--
+
+@WalkBot1
+* Sometimes, I swear I hear
+  someone call to me from that
+  place over there.
+>tc
+.
+* A sweet voice, beckoning me...
+>tc
+.
+* But I can't go meet it, the 
+  path is closed...
+>tc
+.
+* If only I had something soft on
+  my feet, I could walk over these
+  spikes... Maybe.
+>tc
+END
+
+--
+
+@WalkBot2
+* Oh, these slippers...
+>tc
+.
+* They look soft like clouds! If I
+  had them, I could probably 
+  cross?
+>tc
+.
+* Can I have them, please?
+>tc
+>prompt:Sure:No way
+>promptredirect:WalkBot2A:WalkBot2B
+END
+
+-
+
+@WalkBot2A
+* (You gave the robot your Cloud
+  Slippers.)
+>sound:snd_item_ch1.wav
+.
+* Thank you! Here I go, mysterious
+  voice! Wait for me!
+>tc
+END
+
+-
+
+@WalkBot2B
+* Aw... There was no need to be
+  rude, dude.
+>tc
+END
+
+-
+
+@BrokenBot
+* (Broken beyond repair.)
+END
+
+-
+
+@CopperCoil
+* LOOK, A STILL PERFECTLY
+  USEABLE COPPER COIL!
+>p:AxisNormal
+.
+* What about it?
+>p:KanakoPuff
+.
+* WHO WOULD JUST TOSS THIS
+  INTO THE TRASH?! 
+>p:AxisAngry
+.
+* WE MUST PICK IT UP AND 
+  TAKE IT TO BE RECYCLED.
+>p:AxisNormal
+.
+* Do we?!
+>p:KanakoDumb
+.
+* YES. IT IS JUST A PART OF
+  BEING A ROBOTOPIA CITIZEN.
+>p:AxisAngry
+.
+* We aren't residents 
+  though??
+>p:KanakoDumb
+.
+* JUST PICK IT UP.
+>p:AxisBored
+.
+* (You picked up the Copper Coil.)
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@BunBun1
+* W-What?!
+>p:KanakoSurprise
+.
+* OH NO. A CRIME HAS 
+  OCCURRED! 
+>p:AxisAngry
+.
+* WE MUST FIND OUT WHO'S 
+  RESPONSIBLE FOR THIS!
+>p:AxisAngry
+END
+
+-
+
+@BunBun2
+* Who are you?! 
+* Reveal yourself!
+>p:KanakoOffended
+.
+* Ah... K-Kanako...
+* You're here...
+.
+* ...That voice...
+* You... You're...
+>p:KanakoSurprise
+END
+
+-
+
+@BunBun3
+* ...BunBun?!
+>p:KanakoSurprise
+>mini:AxisNormal:WHAT A TWIST.
+.
+* ...I didn't want you to
+  have seen me like this.
+>p:BunBunSad
+.
+* ...Are you the criminal
+  with the bat breaking 
+  robots?!
+>p:KanakoSurprise
+.
+* It can't be you...
+* Can it? It must be a
+  mistake...
+>p:KanakoDumb
+.
+* ...
+>p:BunBunSad2
+.
+* Sorry, Kanako.
+>p:BunBunSad
+.
+* I just... I don't have
+  a say in this.
+>p:BunBunSad2
+.
+[shake]* LET ME TALK TO HER-
+* LET ME TALK TO HER-
+>mini:BunBunSad2:Sigh...
+>bleep:Bat
+END
+
+-
+
+@BunBun4
+[shake]* SURPRISE, SURPRISE!!
+>p:Bat
+.
+* Um... Who?
+>p:KanakoDumb
+.
+* Psh. As expected! She
+  doesn't even remember me.
+>p:Bat
+.
+* Not surprising seeing she
+  completely forgot about
+  her training!!
+>p:Bat
+.
+* Wait... Are you...
+* My bat?
+>p:KanakoSurprise
+.
+* BINGO! Do you know how
+  long I have been waiting
+  for you to pick me up?!
+>p:Bat
+.
+* For us to TRAIN together?!
+* For me to fulfill my 
+  PURPOSE?!
+>p:Bat
+.
+* But you neglected me!
+* Neglected US!
+>p:Bat
+.
+* You even attached this
+  dead weight to my body!!
+>p:Bat
+.
+* A-Actually, you are the 
+  one attached to m-
+>p:BunBunSad
+.
+* SHUT UP! You are nothing
+  but an ACCESSORY!
+>p:Bat
+.
+* Why are you destroying 
+  the robots?! What have 
+  they done to you?
+>p:KanakoOffended
+.
+* Why, I'm only fulfilling
+  my new role!
+>p:Bat
+.
+* After all, this world has
+  a war between the folks
+  Upstairs and here, no?
+>p:Bat
+.
+* So I'm just the villain!
+* Playing my part!
+* UNLIKE YOU!!
+>p:Bat
+.
+* ...Sorry, Kanako.
+>p:BunBunSad
+.
+* When a Darkner becomes 
+  too aware... This sort of
+  thing can happen.
+>p:KEEP
+.
+* Darkners need a role, a
+  purpose.
+>p:KEEP
+.
+* Even if we need to fit
+  into a new role in a new
+  Dark World-
+>p:KEEP
+.
+[shake]* SHUT UP! NO ONE ASKED 
+  YOU!!
+>p:Bat
+.
+* Hey, lay off, man!
+* I was just busy this week,
+  okay?!
+>p:KanakoOffended
+.
+* ...Can't believe I'm 
+  arguing with my own bat.
+>p:KanakoOffended2
+.
+* FINE, FINE!!
+>p:Bat
+.
+* But if you try to stop
+  us-
+>p:Bat
+.
+* Then we have no other
+  choice but to FIGHT you!
+>p:Bat
+.
+* CAN WE NOT SOLVE THIS
+  WITH DIALOGUE?
+>p:AxisNormal
+>mini:KanakoDumb:That's rich coming off you...
+.
+* NO! The time for talking
+  is LONG GONE!!
+>p:Bat
+.
+* Now get ready to [shake]FIGHT!!
+>p:Bat
+.
+* S-Sorry, Kanako...
+* His will is too strong...
+>p:BunBunSad
+.
+* Forgive me...
+>p:BunBunSad2
+END
+
+--
+
+@BunBunBattleIntro
+* Stop! I don't want to
+  fight you!
+>p:KanakoOffended
+.
+* Shut up! I will show you
+  exactly how I feel like,
+  you ungrateful brat!
+>p:Bat
+.
+* S-Sorry, Kanako...
+* I can't back down at this
+  point...
+>p:BunBunSad
+.
+* [shake]...Rraagh![/shake]
+* I won't back down, either!
+* I'll save you!
+>p:KanakoHurt
+.
+* (Suddenly, you felt Kanako's
+  SOUL resonate alongside 
+  yours...)
+END
+
+--
+
+@BunBunPostApprehend1
+[shake]* WHAT IS THIS?! RELEASE
+  US!!
+>p:Bat
+.
+* ...No, this is fine.
+>p:BunBunContent
+.
+* Kanako... If it has to be
+  this way, I...
+>p:BunBunSad
+.
+* ...Sorry, BunBun.
+>p:KanakoSad
+.
+* No, no. In the jail,
+  I'll be able to keep 
+  myself under control.
+>p:BunBunContent
+.
+* And not hurt anyone 
+  anymore.
+>p:KEEP
+>anim:BunBun:Apprehend_2
+.
+* PFF. As if bars could 
+  stop me!!
+* We'll get out!!
+>p:Bat
+.
+* ...No, we won't.
+>p:BunBunContent
+.
+* Say again? Who's in
+  charge here again??
+>p:Bat
+.
+* ...I won't let you take
+  over my mind anymore.
+>p:BunBunSad
+.
+* I must do better...
+* For Kanako.
+>p:BunBunContent
+.
+* Fool! You can't resist
+  me, we both want the same
+  thing, don't we?
+>p:Bat
+.
+* To be useful??
+[shake]* To have a purpose??
+>p:KEEP
+.
+* ...Not if it is like this.
+>p:BunBunContent
+.
+* I would rather just be
+  a lifeless object than
+  continue like this.
+>p:BunBunSad
+.
+[shake]* WHAT?![/shake] As if I'd let you!
+>p:Bat
+.
+* I finally have a use!
+[shake]* A purpose![/shake]
+>p:Bat
+.
+[shake]* I am not letting you drag 
+  us both back to nothing-
+>p:KEEP
+.
+* Dude, shut the heck up.
+>p:KanakoOffended2
+.
+* I get it. You're mad at
+  me cuz I abandoned you
+  this week,
+>p:KEEP
+.
+* But I didn't expect my
+  bat to be so whiny.
+>p:KEEP
+.
+* Maybe once we seal this
+  Dark World, I oughta just
+  toss you into the trash!
+>p:KEEP
+.
+[shake]* WHAT?![/shake] You can't do this
+  to me!! We have been a
+  team for years!!
+>p:Bat
+.
+* Don't care. Into the
+  trash you go.
+>p:KanakoOffended2
+.
+[shake]* NO!! NO!!!
+>p:Bat
+.
+* ...Heh.
+>p:BunBunContent
+.
+* I guess that's it for us,
+  then.
+>p:BunBunSad
+.
+* Sorry, Kanako. Be seeing
+  you, okay?
+>p:BunBunHappy
+END
+
+-
+
+@BunBunPostApprehend2
+* ...See ya, BunBun.
+>p:KanakoHappyBlush
+END
+
+--
+
+@BunBunPostSpare1
+[shake]* Oof...[/shake] You're going to
+  dent me!
+>p:Bat
+.
+* ...Sorry, Kanako.
+>p:BunBunSad2
+.
+* ...
+>p:KEEP
+.
+* I...
+>p:KEEP
+.
+* Please, forgive me.
+>p:BunBunSad
+.
+* It isn't your fault,
+  BunBun.
+>p:KanakoSad
+.
+* YEAH, and it isn't mine
+  either!
+>p:Bat
+.
+* We are just fulfilling
+  our roles! We aren't
+  doing anything wrong!!
+>p:KEEP
+.
+* ...No. 
+* This went way too far a
+  long time ago.
+>p:BunBunSad
+.
+* What you sayin'??
+>p:Bat
+.
+* ...We did destroy some 
+  innocent Darkners...
+>p:BunBunSad2
+.
+* For no other reason but 
+  to "fill our purpose"...
+>p:KEEP
+.
+* ...But is our purpose
+  really to just be...
+  bad guys...?
+>p:BunBunSad
+.
+* YES. Now shut up and beat
+  them up!
+>p:Bat
+.
+* ...No.
+>p:BunBunContent
+.
+* I won't do it.
+* I won't listen to you
+  anymore.
+>p:BunBunSad
+.
+* You can't resist me!
+* I'm the one in charge 
+  here!!
+>p:Bat
+.
+* No. Not anymore.
+>p:BunBunContent
+.
+* I... I'm the one in 
+  charge. You're using MY
+  body.
+>p:BunBunSad
+.
+* I won't let you take over
+  me any longer.
+>p:KEEP
+.
+* Idiot! You can't resist!
+* Just do it!
+>p:Bat
+.
+* No I won't.
+>p:BunBunContent
+>mini:Bat:WHY YOU- JUST DO IT! DO IT! AAAARGH!!
+.
+* ...Kanako.
+>anim:BunBun:Defeat_2
+>p:BunBunSad
+.
+* Sorry that you had to
+  see me in this way.
+>p:KEEP
+.
+* ...I... I will turn
+  myself in.
+>p:BunBunSad
+.
+* What?
+>p:KanakoPuff
+.
+[shake]* WHAT?!
+>p:Bat
+.
+* I'll turn myself in.
+* Into the Dark Jail.
+>p:BunBunContent
+.
+* There, I won't be able to
+  cause trouble to anyone
+  anymore.
+>p:BunBunSad
+.
+[shake]* You can't do that!
+* I forbid you!!
+>p:Bat
+END
+
+--
+
+@BunBunPostSpare2
+* I have decided.
+* This is what I want to
+  do.
+>p:BunBunSad
+.
+* How I can atone for what
+  I have done.
+>p:BunBunContent
+.
+* Listen to me you fool!!
+* We have a purpose to fill
+  here!!
+>p:Bat
+.
+[shake]* THIS IS OUR ROLE!!
+* WHAT WE ARE MEANT TO DO!!
+>p:KEEP
+.
+* ...I refuse.
+>p:BunBunContent
+.
+* You no longer hold any
+  power over me.
+>p:KEEP
+.
+* I won't allow it.
+>p:BunBunSad
+>anim:BunBun:SouthIdle
+.
+[shake]* YOU IDIOT BUNNY JUST DO
+  WHAT I TELL YOU!!
+>p:Bat
+.
+[shake]* AAAARGH WHY DID I HAVE TO
+  GET STUCK TO YOU?!
+* DO IT! DO IT I TELL YOU!!
+>p:KEEP
+.
+* ...I shall now take my
+  leave.
+>p:BunBunContent
+.
+* ...Goodbye, Kanako.
+>p:BunBunContent
+.
+* Maybe if you pass by the
+  jail... We could see each
+  other again.
+>p:BunBunSad
+.
+* I'll definitively go see
+  you, BunBun.
+* You can count on it.
+>p:KanakoHappyBlush
+.
+* ...I'd appreciate it.
+>p:BunBunContent
+.
+* Now... I'll be out of
+  your way.
+>p:BunBunSad
+>mini:Bat:YOU'RE NOT WALKING AWAY!! GET BACK HERE!!
+.
+* ...Thank you.
+>p:BunBunHappy
+>mini:Bat:DON'T DO THIS TO ME!! NOOOOOO!!
+END
+
+--
+
+@BunBunPostSpare3
+* Bye, BunBun.
+>p:KanakoSad
+END
+
+--
+
+@BunBunPostAlt0
+[shake]* OW OW OW!!
+* WHAT'S THAT FOR?!
+>p:Bat
+.
+[shake]* What did I even do to 
+  you?!
+>p:Bat
+.
+* ...Shut UP!!
+>p:KanakoAngry3
+END
+
+--
+
+@BunBunPostAlt1
+[shake]* Augh... You...
+>p:Bat
+.
+* Shut up! SHUT UP!
+* I don't want to hear
+  ANYTHING from you!!
+>p:KanakoAngry3
+.
+[shake]* Ugh... You... You don't
+  know what you are doing...
+>p:Bat
+.
+[shake]* Just so you know...
+* This won't end well...
+* For you...
+>p:Bat
+END
+
+--
+
+@BunBunPostAlt2
+* BunBun...
+>p:KanakoNeutral
+.
+* Ah... K-Kanako... I...
+>p:BunBunSad3
+.
+* H-Hey, it's okay.
+* You're free now...
+>p:KanakoNeutral
+.
+* ...I...
+>p:BunBunSad3
+.
+* ...S-Sorry... I...
+>p:BunBunSad3
+.
+* ...What's wrong?
+* You're not hurt, are you?
+>p:KanakoScared
+>prompt:...:You're@scaring her
+>promptredirect:BunBunPostAlt2A:BunBunPostAlt2B
+END
+
+--
+
+@BunBunPostAlt2A
+* K-Kanako...
+* You've changed...
+>p:BunBunSad3
+.
+* ...Changed?
+* What do you mean?!
+>p:KanakoSurprise
+.
+* That guy is no longer
+  going to trouble you.
+>p:KanakoNervous2
+.
+* You're free now.
+* ...Shouldn't you be
+  grateful?
+>p:KEEP
+.
+* ...That's exactly what I
+  am saying...
+>p:BunBunSad3
+.
+* You are...no longer the
+  Kanako I knew...
+>p:KEEP
+.
+* What is that supposed
+  to mean?!
+>p:KanakoSurprise
+.
+* ...I...
+>p:BunBunSad2
+.
+* ...Goodbye, Kanako.
+>p:BunBunSad
+END
+
+-
+
+@BunBunPostAlt3
+>top:lock
+* Hey, BunBun! WAIT!!
+>p:KanakoSurprise
+.
+* ...
+>p:KEEP
+.
+* ...Ugh. We saved her...
+* Why does it feel so...
+>p:KanakoHurt
+.
+* IT IS POSSIBLE SHE IS
+  CONFUSED DUE TO BEING
+  UNDER THE BAT'S CONTROL.
+>p:AxisNormal
+.
+* ...Yeah, maybe...
+>p:KanakoSad2
+.
+* ...But still, her words
+  kinda stung.
+>p:KanakoOffended2
+.
+[shake]* ...ARGH!![/shake]
+* Let's just... Get out
+  of here.
+>p:KanakoHurt
+>mini:AxisSad:......
+END
+
+--
+
+@BunBunPostAlt2B
+* ...I...
+>p:BunBunSad3
+.
+* ...Y-Yes. You've...
+* Changed.
+>p:BunBunSad
+.
+* Something has gone 
+  wrong...
+* You're filled with anger.
+>p:BunBunSad3
+.
+* You are like how the bat
+  was-
+>p:BunBunSad2
+.
+* Don't compare me to HIM!!
+>p:KanakoAngry3
+.
+* I'm nothing like THAT
+  thing!!
+>p:KEEP
+.
+* A-Ah!
+>p:BunBunSad
+.
+* T-There it is.
+* The anger...
+>p:KEEP
+.
+* ...I... Sorry, Kanako...
+>p:BunBunSad2
+.
+* I... I just can't take it
+  anymore...
+>p:BunBunSad3
+.
+* ...Goodbye.
+>p:BunBunSad
+END
+
+--
+
+@CoffeeDoorUnlock
+* (You used the CORKED KEY.)
+.
+* (The door is now unlocked.)
+END
+
+--
+
+@CoffeeHideoutPods
+* It seems these pods are filled
+  up with coffee.
+END
+
+--
+
+@CoffeeEvent1
+[shake]* Oh hoho![/shake]
+* Well done, well done!
+>top
+END
+
+--
+
+@CoffeeEvent2
+* You actually managed to find
+  me. Well done indeed.
+.
+* You're the one in cahoots
+  with Toster and the 
+  waffle lady?!
+>p:KanakoOffended
+.
+* Yes. It was me. It was me all
+  along!
+END
+
+--
+
+@CoffeeEvent3
+* Me, Joe CapCcino, the actual
+  brains behind the operation!
+>tc
+.
+* Getting people addicted on my
+  coffee was a sure way to get
+  my way to the top!
+>tc
+.
+* While that brute of a toaster
+  would distract the populous
+  just long enough-
+>tc
+.
+* Until I managed to take over
+  Robotopia from the shadows-
+>tc
+.
+* And take MY place as the
+  absolute ruler of this Dark
+  World!
+>tc
+.
+* With an army of sleepless robots
+  at my beck and call!
+>tc
+>mini:KanakoOffended2:Do robots even need sleep?
+END
+
+--
+
+@CoffeeEvent4
+* Ah, that guy! He's just 
+  like the one in the 
+  wanted poster!
+>p:KanakoSurprise
+.
+* Now that you know of my
+  plan, I cannot let you
+  escape.
+>p:JoeNormal
+.
+* I'm always experimenting
+  with new flavors... 
+* I wonder...
+>p:KEEP
+.
+* What would Lightner 
+  flavored coffee taste
+  like?
+>p:KEEP
+.
+* I guess we will find 
+  out...
+* Ah haha!
+>p:KEEP
+.
+* Over our dead bodies!
+>mini:AxisNormal:THAT IS WHAT HE WANTS TO DO, YES.
+>p:KanakoOffended
+.
+* Let's get him, guys!
+>p:KanakoOffended
+END
+
+--
+
+@CoffeePostCapture1
+* Ugh... What's this...?
+* Are you capturing me??
+>p:JoeAngry
+.
+* YES AND YOU BETTER BE
+  QUIET ABOUT IT.
+>p:AxisAngry
+.
+* Hmph. And so ends my 
+  empire. My dreams...
+>p:JoeAngry
+.
+* In the end, who is the
+  actual villain here?
+>p:JoeNormal
+.
+* You?? For getting the
+  robots addicted to 
+  coffee??
+>p:KanakoOffended2
+.
+* How do robots even get
+  addicted, anyway?
+>p:KEEP
+.
+* You lack the VISION, girl.
+>p:JoeAngry
+.
+* ...Oh well. Screw this.
+>p:JoeNormal
+END
+
+--
+
+@CoffeePostCapture2
+* Guess that's it for Joe,
+  then?
+>p:KanakoPuff
+.
+* YES. GOOD JOB.
+>p:AxisNormal
+.
+* WE SHOULD CHECK IF THERE
+  ARE MORE CRIMINALS LEFT
+  AND APPREHEND THEM TOO.
+>p:KEEP
+.
+* Guess so. Let's leave,
+  then?
+>p:KanakoPuff
+END
+
+--
+
+@CoffeePostDefeat1
+* [shake]Ough![/shake]
+* You brutes...
+>p:JoeAngry
+.
+* Give it up, Joe!
+* You have nowhere else to
+  run to now!
+>p:KanakoOffended
+.
+* ...Hah! That's where you
+  are wrong, my friend!
+>p:JoeNormal
+.
+* Watch as I do my escape!
+>p:KEEP
+END
+
+--
+
+@CoffeePostDefeat2
+* What the-
+>p:JoeAngry
+.
+* The controls are 
+  damaged!!
+>p:KEEP
+.
+* ...This isn't good-
+>p:KEEP
+END
+
+--
+
+@CoffeePostDefeat3
+[shake]* WaAaAaAaaaAAaa-
+>p:JoeAngry
+END
+
+--
+
+@CoffeePostDefeat4
+* ...I guess he won't
+  bother the people of Robo
+  Town anymore...
+>p:KanakoDumb
+.
+* YOU DID GOOD, MISS KANAKO.
+* EVENTUALLY, THE COFFEE
+  CRAZE WILL DIE DOWN.
+>p:AxisNormal
+.
+* ...I guess?
+* Well, let's get out of
+  here, then.
+>p:KanakoNervous
+END
+
+--
+
+@CoffeeMinionsFlee
+* ...The boss is gone!!
+>talk:CoffeeMinion
+.
+* L-Let's get out of here!!
+>talk:CoffeeMinion2
+END

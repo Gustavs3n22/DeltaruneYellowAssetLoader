@@ -1,0 +1,2174 @@
+@KanakoNoTalk
+* C'mon, let's move on.
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoNoTalkAlt
+* ...Let's just go.
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoSplitNoTalk
+* (Cole is waiting...)
+>p:KanakoNeutral
+.
+* (I have to find my way
+  back.)
+>p:KanakoNeutral
+END
+
+-----
+
+@AxisNoTalk
+* ARE WE GOING TO MOVE ON
+  OR WHAT??
+>p:AxisBored
+END
+
+-----
+
+@MelodyNoTalk
+* We're wasting time.
+* Let's move!
+>p:MelodyNormal
+END
+
+-----
+
+@JuneNoTalk
+* ...Something wrong?
+>p:JuneNormal
+END
+
+----
+
+@GizmoNoTalk
+* Hey dude, better get
+  movin'...
+>p:GizmoAnnoyed
+END
+
+-----
+
+@TalkNoPartner
+* Who are you talking to?
+END
+
+-----
+
+@KanakoTalkAfterRescue
+* ...
+>p:KanakoNeutral
+.
+* Thanks again, Cole.
+>p:KanakoSad2
+.
+* ...Seriously, though.
+* Where are we?!
+>p:KanakoOffended2
+.
+* ...And what's up with our
+  clothes?
+>p:KanakoOffended2
+.
+* Though yours look pretty
+  cool, if anything!
+>p:KanakoHappy
+END
+
+-----
+
+@KanakoTalkPencilRoom
+* Why are there swinging
+  giant pencils?!
+>p:KanakoDumb
+.
+* I don't think I need to
+  tell you this-
+>p:KanakoNormal
+.
+* But getting hit by
+  them is bad!
+>p:KanakoNormal
+.
+* If you get hit, I will
+  get hurt too!
+* No pressure!
+>p:KanakoTongue
+END
+
+
+-----
+
+@KanakoBearTalk
+* You know, that bear guy...
+>p:KanakoNeutral
+.
+* He kinda reminds me of a
+  plush bear Sadie used to
+  have.
+>p:KanakoPuff
+.
+* Didn't know it was based
+  on a real bear!
+>p:KanakoNormal
+END
+
+----
+
+@KanakoTalkForestC1
+* Strange forest...
+>p:KanakoPuff
+.
+* What's up with these...
+* Shadowy things?
+>p:KanakoDumb
+.
+* Seems we might need to
+  get through them.
+* Get ready to fight, Cole.
+>p:KanakoNormal
+END
+
+-----
+
+@KanakoTalkJailSouth
+* ...There is nothing here.
+>p:KanakoNeutral
+.
+* Though... I feel as if
+  this room will hold some
+  special meaning someday.
+>p:KEEP
+.
+* But right now, nothing.
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoTalkWeapon
+* I've been thinking...
+>p:KanakoNormal
+.
+* Where do you think
+  our weapons come
+  from?
+>p:KanakoNeutral
+.
+* I mean, you're always
+  carrying that toy gun
+  on you-
+>p:KEEP
+.
+* But what about mine?
+>p:KanakoPuff
+.
+* Maybe I'm a bit too
+  much into softball,
+  aren't I?
+>p:KanakoTongue
+END
+
+-----
+
+@KanakoAfterWardenTutorial
+* ...So, uh...
+>p:KanakoOffended2
+.
+* What was all that about?!
+>p:KanakoOffended2
+.
+* He kept talking about
+  "HP" and "TP"...
+>p:KanakoPuff
+.
+* Feels kinda like a game,
+  doesn't it?
+>p:KanakoNormal
+.
+* I guess that's a way to
+  look at how things work
+  here.
+>p:KanakoTongue
+END
+
+-----
+
+@KanakoLakeTalk
+* ...So we're back here...
+>p:KanakoNeutral
+.
+* Oh hey, look! You can see
+  the cliff we were on
+  earlier from here.
+>p:KanakoNormal
+.
+* Guess we ended up falling
+  in this lake.
+* No wonder we were all wet.
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoLandscapeTalk
+* You know... Despite
+  everything...
+>p:KanakoPuff
+.
+* This Dark World isn't
+  that bad.
+>p:KanakoNormal
+.
+* Some of the landscapes
+  here are pretty
+  interesting.
+>p:KanakoHappy
+.
+* I wish I had brought my
+  sketchbook to try
+  sketching some...
+>p:KanakoSad2
+END
+
+-----
+
+@KanakoNoTalkWeird
+* ...
+>p:KanakoAngry
+END
+
+-----
+
+@KanakoInsideFortTalk
+* Strange that no one is
+  around...
+* Kinda eerie.
+>p:KanakoNeutral
+.
+* Well let's hope it
+  continues this way.
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoTalkFortBigCorridor
+* Lots of enemies here...
+>p:KanakoPuff
+.
+* Be careful, you don't
+  want to be caught up on
+  their cleaning!
+>p:KanakoNormal
+END
+
+-----
+
+@KanakoTalkBearPrison
+* Argh! What is this
+  NOISE?!
+>p:KanakoHurt
+.
+* Be glad you're human,
+  Cole!
+* This is driving me mad!
+>p:KanakoOffended2
+END
+
+-----
+
+@KanakoTalkBearPrison2
+* Let's get out of
+  here, please!
+>p:KanakoHurt
+END
+
+-----
+
+@KanakoTalkBearPrison3
+* Phew, glad that's
+  over.
+>p:KanakoSad
+.
+* C'mon, we must be
+  close to getting out.
+* Let's move.
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoTalkBearPrisonWeird
+* ...
+* ...Noisy.
+>p:KanakoAngry2
+END
+
+
+-----
+
+@KanakoTalkFoxRoom
+* ...
+>p:KanakoSad
+END
+
+-----
+
+@KanakoTalkFoxQuest
+* So we just agreed to
+  a quest from some
+  cloaked weirdo-
+>p:KanakoOffended
+.
+* And said weirdo seems
+  to know me somehow...
+>p:KanakoOffended
+.
+* This can only end
+  well...
+>p:KanakoSad2
+END
+
+-----
+
+@KanakoTalkPostFox
+* That was...
+>p:KanakoSad
+.
+* ...
+>p:KanakoSad2
+.
+* I don't even have
+  words...
+>p:KanakoSad
+.
+* C'mon, we've wasted
+  enough time already.
+* Let's go home.
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoTalkPostFoxNecklace
+* That was...
+>p:KanakoSad
+.
+* ...
+>p:KanakoSad2
+.
+* I don't even have
+  words...
+>p:KanakoSad
+.
+* But, this necklace...
+>p:KanakoNeutral
+.
+* Is this... mom's...?
+>p:KanakoNeutral
+.
+* It sure does look
+  like it.
+>p:KanakoSad
+.
+* ...What does this
+  mean...?
+>p:KanakoNeutral
+.
+* On the bright side,
+  at least we finally
+  found it.
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoTalkSchoolLocked
+* School must be locked
+  down already.
+>p:KanakoNeutral
+.
+* Remember that time when
+  we got stuck as kids?
+>p:KanakoNormal
+.
+* Mom was so worried,
+  but she wasn't mad at
+  me, but at the teachers.
+>p:KanakoPuff
+.
+* Though I doubt she'd
+  let me go as easily
+  nowadays.
+>p:KanakoPuff
+END
+
+-----
+
+@KanakoTalkSchoolLocked2
+* Yep, locked.
+>p:KanakoTongue
+.
+* We can either try to
+  find another route...
+>p:KanakoNeutral
+.
+* Or wait until morning.
+>p:KanakoPuff
+.
+* Glad it isn't a weekend.
+>p:KanakoTongue
+END
+
+-----
+
+@KanakoTalkSchoolLockedTrapdoor
+* ...
+>p:KanakoOffended2
+.
+* Feels like something
+  changed...
+>p:KanakoNeutral
+.
+* Maybe the "Dark World"
+  trip messed up with
+  our heads...
+>p:KanakoSad2
+END
+
+-----
+
+@KanakoTalkPostTrapdoor
+>redirect:WeirdStart:KanakoTalkPostTrapdoorW
+* I sure don't want to
+  spend my entire night
+  here.
+>p:KanakoPuff
+.
+* Let's ask the Warden
+  how to return home.
+>p:KanakoNeutral
+END
+
+-----
+
+@KanakoTalkPostTrapdoorW
+* ...
+>p:KanakoAngry
+.
+* ...Let's just...
+* Ask the Warden.
+>p:KanakoAngry
+END
+
+-----
+
+@KanakoTalkJailBeforeWarp
+* Sigh. I'm ready for
+  this day to be over.
+>p:KanakoSad2
+.
+* Gonna take a bath
+  once I get back home.
+>p:KanakoNeutral
+.
+* ...If I survive mom's
+  fury, that is.
+>p:KanakoDumb
+END
+
+-----
+
+@KanakoTalkPostWardenDay1
+* You heard the Warden.
+* We can get back home
+  at the south room.
+>p:KanakoNeutral
+.
+* Wish we knew that sooner.
+>p:KanakoSad2
+END
+
+
+-----
+
+@KanakoTalkPrisonNorth
+* Woah, what's that?
+>p:KanakoNormal
+.
+* Looks similar to that
+  thing we saw on the
+  cliff top.
+>p:KanakoPuff
+.
+* Maybe it's the same
+  thing? Though it feels
+  different somehow.
+>p:KanakoNeutral
+.
+* ...Kinda pretty, though.
+>p:KanakoHappy
+END
+
+-----
+
+@KanakoTalkApprehend
+* Hey, Cole...
+>p:KanakoNeutral
+.
+* You think it's a good
+  idea to... apprehend
+  all these darkners?
+>p:KanakoNervous
+.
+* They aren't in the
+  wanted posters...
+>p:KanakoDumb
+.
+* I wonder what the
+  Warden will say...
+>p:KanakoPuff
+END
+
+--
+
+@KanakoTalkPostBearSpare
+* ...
+>p:KanakoNeutral
+.
+* I guess everything ended
+  up well, somehow.
+>p:KanakoNeutral
+.
+* C'mon, let's go home.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoTalkPostBearFight
+* ...
+>p:KanakoNeutral
+.
+* Did we do the right
+  thing?
+>p:KanakoNeutral
+.
+* ...All of this is giving
+  me a headache. Let's just
+  go home.
+>p:KanakoSad2
+END
+
+--
+
+@KanakoTalkPostBearCatch
+* So we caught Bearing...
+>p:KanakoNeutral
+.
+* Are there any other
+  criminals we forgot?
+>p:KanakoPuff
+.
+* Better check the posters
+  again.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoTalkRedLetterDW
+* Hey, did you notice
+  something flying off
+  when we jumped in?
+>p:KanakoPuff
+.
+* Maybe it was just my
+  imagination.
+>p:KanakoNeutral
+END
+
+--
+
+@KanakoTalkDW2FirstCorridor
+* Woah... We're pretty
+  high up...
+>p:KanakoDumb
+.
+* C-careful, Cole!
+* And watch out for those
+  gears!
+>p:KanakoNervous
+END
+
+--
+
+@KanakoTalkDW2Slide
+* ...That's a long drop.
+>p:KanakoScared
+.
+* Y-you sure we can
+  slide down here...?
+>p:KanakoNervous
+.
+* Keep your eyes open...
+* Please...
+>p:KanakoNervous
+END
+
+--
+
+@KanakoTalkDW2Slide2
+* ...We made it somehow...
+>p:KanakoNervous
+.
+* Let's just keep going...
+>p:KEEP
+END
+
+---
+
+@KanakoTalkDW2BeforeAxis
+* Kinda spooky that we
+  haven't seen a single
+  darkner yet.
+>p:KanakoPuff
+.
+* Keep your eyes open,
+  they could jump at
+  any moment!
+>p:KanakoOffended
+END
+
+--
+
+@AxisFirstTalk
+* So, Axis...?
+>p:KanakoPuff
+.
+* YES, MISS KANAKO?
+>p:AxisNormal
+.
+* Um... How...
+* How are you here...?
+>p:KanakoNervous
+.
+* I DO NOT UNDERSTAND
+  WHAT YOU MEAN.
+>p:AxisNormal
+.
+* I mean... You're real...
+* Right...?
+>p:KanakoSad
+.
+* YES. I AM 100% REAL.
+* AS REAL AS YOU.
+>p:AxisNormal
+.
+* ...
+>p:KanakoSad
+.
+* (Cole... I just don't
+  quite get it...)
+>p:KanakoSad2
+.
+* (What does this mean...?)
+>p:KanakoSad2
+END
+
+--
+
+@AxisTalkSlide
+* DID YOU TWO BOTH
+  COME DOWN FROM UP
+  THERE?
+>p:AxisNormal
+.
+* Yeah, it was kinda
+  dangerous...
+>p:KanakoNervous
+.
+* But it was also kinda
+  fun.
+>p:KanakoHappy
+.
+* ...
+>p:AxisDumb
+.
+* I WOULD PROBABLY
+  ROLL OUT AND FALL AT
+  TERMINAL VELOCITY.
+>p:AxisNormal
+.
+* NO THANK YOU. ADDING
+  TO MY "DO NOT EVER
+  EXPERIENCE" LIST.
+>p:AxisNormal
+.
+* ...Uh, ok...?
+>p:KanakoNervous
+END
+
+--
+
+@KanakoTalkCapacitorRoom
+* Aw, look at those cute
+  lil' fellas!
+>p:KanakoHappy
+.
+* THOSE ARE CAPACIMITE.
+* MERE BUGS THAT CAN
+  TRANSPORT ENERGY.
+>p:AxisNormal
+.
+* Transport energy?
+* How so?
+>p:KanakoPuff
+.
+* THEY ARE USED TO REPAIR
+  POWER LINES ALL OVER
+  THE PLACE.
+>p:AxisNormal
+.
+* What, really?
+* Does... Does that hurt
+  them?
+>p:KanakoSad
+.
+* NO, I ASSURE YOU THAT
+  THEY DO ENJOY IT.
+>p:AxisBored
+.
+* [SARCASM MODE
+  DEACTIVATED]
+>p:AxisDumb
+>mini:KanakoOffended2:Right...
+END
+
+--
+
+@DW2PlanTalk
+* So, Axis?
+* What's the plan? How
+  do we reach the tower?
+>p:KanakoPuff
+.
+* We're not going to
+  walk all the way there,
+  are we?!
+>p:KanakoOffended2
+.
+* WE MUST MAKE OUR WAY
+  THROUGH THE FACTORY.
+>p:AxisNormal
+.
+* AFTER THAT, WE CAN
+  TAKE A TRAM DIRECTLY
+  TO THE SPIRE.
+>p:AxisNormal
+.
+* ...That's more straight-
+  forward than I expected.
+>p:KanakoNormal
+.
+* MASTER CHUJIN VALUES
+  EFFICIENT THINGS.
+* EXAMPLE: ME.
+>p:AxisNormal
+.
+* I... I don't really
+  know about that...
+>p:KanakoNervous
+END
+
+--
+
+@AxisPuzzleTalk
+* Hey, Axis? Why are there
+  so many puzzles around?
+>p:KanakoPuff
+.
+* TO KEEP INTRUDERS OUT.
+>p:AxisNormal
+.
+* But... Wouldn't that make
+  it cumbersome for the
+  darkners living here?
+>p:KanakoSad
+.
+* YES.
+>p:AxisNormal
+.
+* Then why keep them?
+>p:KanakoOffended2
+.
+* TO KEEP INTRUDERS OUT.
+>mini:KanakoSad2:Sigh...
+>p:AxisNormal
+END
+
+--
+
+@KanakoTalkCh2SplitGate
+* Ah, it's one of those
+  gates from yesterday.
+>p:KanakoPuff
+.
+* Guess we have to split
+  up. I'll go on ahead.
+>p:KanakoNormal
+.
+* ...WHAT ABOUT ME?
+>p:AxisNormal
+.
+* You can wait here
+  with Cole while I'm
+  out!
+>p:KanakoHappy
+.
+* ...WITH THIS BEING?
+* THIS HUMAN OF ALL
+  ORGANICS?!
+>p:AxisAngry
+.
+* ROBOTIC SIGH. IF I
+  MUST.
+>p:AxisBored
+>mini:KanakoSad2:I'm the one sighing here...
+END
+
+--
+
+@KanakoTalkFactoryLeft
+* W-what is this room...?
+>p:KanakoSurprise
+.
+* THIS IS THE ASSEMBLY
+  LINE.
+* STUFF IS MADE HERE.
+>p:AxisNormal
+.
+* What happened to the
+  waywalks?!
+>p:KanakoDumb
+.
+* THEY WERE IN THE WAY.
+* SO THEY WERE REMOVED.
+>p:AxisNormal
+.
+* ...But then how do
+  you guys get around?
+>p:KanakoOffended2
+.
+* SIMPLE.
+* WE DON'T.
+>mini:KanakoOffended2:...
+>p:AxisNormal
+END
+
+--
+
+@KanakoTalkPostClaw
+* Where do you think
+  Axis was taken to?
+>p:KanakoDumb
+.
+* Well, he said he would
+  catch up, so I guess he
+  knows what's happening.
+>p:KanakoPuff
+END
+
+--
+
+@AxisTalkPostClaw
+* STILL WORRIED ABOUT MISS
+  KANAKO?
+>p:AxisNormal
+.
+* I ASSURE YOU THE FACTORY
+  IS CAREFUL WITH HOW IT
+  HANDLES DEFECTIVE UNITS.
+>p:AxisNormal
+.
+* SHE MUST BE UP AHEAD.
+* LET'S JUST MOVE ON.
+>p:AxisNormal
+END
+
+--
+
+@KanakoTramTalk
+* We should be arriving
+  soon.
+>p:KanakoNormal
+.
+* Let's wait by the door.
+>p:KanakoNormal
+END
+
+--
+
+@AxisTramTalk
+* I AM SURE MISS KANAKO WAS
+  TAKEN TO THE SPIRE.
+>p:AxisNormal
+.
+* WE SHOULD HEAD ON.
+>p:AxisNormal
+END
+
+--
+
+@AxisSoloTalk
+* ...OF ALL BEINGS TO BE
+  STUCK WITH...
+>p:AxisBored
+.
+* I TOLERATE YOUR EXISTENCE
+  ONLY BECAUSE I PROMISED
+  MISS KANAKO I WOULD.
+>p:AxisAngry
+.
+* BUT IF IT WEREN'T FOR
+  THAT...
+>p:KEEP
+.
+* YOU WOULD BE DEAD
+  WHERE YOU STAND.
+>slow:5
+>p:AxisShadow
+.
+* SO MAKE SURE TO THANK
+  MISS KANAKO ONCE WE FIND
+  HER.
+>p:AxisBored
+END
+
+--
+
+@AxisTrashPuzzleTalk
+* MORE PUZZLES.
+>p:AxisBored
+.
+* WELL YOU KNOW WHAT
+  TO DO.
+>p:AxisBored
+.
+* ...HUH? ME?
+* SOLVE THEM?
+>p:AxisNormal
+.
+* HAVEN'T YOU SEEN THE
+  SCREENS? THOSE PUZZLES
+  HAVE THE ORGANIC CHECK.
+>p:AxisAngry
+.
+* I CANNOT SOLVE THEM
+  NO MATTER WHAT.
+* IMPOSSIBLE.
+>p:AxisBored
+.
+* (On the screens are checkboxes
+  with the text "I am not a
+  robot" near them.)
+END
+
+--
+
+@KanakoTalkCityEndDW2
+* The city lights are
+  pretty...
+>p:KanakoNormal
+.
+* I've never left our town
+  before so this is the
+  first time I see these...
+>p:KanakoHappy
+.
+* I guess this wasn't a
+  wasted trip in that
+  sense...
+>p:KanakoBlush
+END
+
+
+--
+
+@KanakoUpstairsFirstTalk
+* ...
+>p:KanakoDumb
+.
+* S-Sorry... I'm just...
+* Kinda scared.
+>p:KanakoNervous
+.
+* I can understand that
+  having so much dropped
+  upon you can do that...
+>p:BunBunContent
+.
+* But it will make sense
+  soon, trust me!
+>p:BunBunNormal
+.
+* Uh, no?
+* I'm scared of falling
+  down!
+>p:KanakoDumb
+>mini:BunBunContent:Ah...
+END
+
+--
+
+@KanakoUpstairsTalk2
+* ...
+>p:KanakoDumb
+.
+* I-If this world really
+  is based on my room...
+>p:KanakoDumb
+.
+* ...
+>p:KanakoDumb
+.
+* L-let's just get through
+  quickly, alright!!??
+>p:KanakoNervous
+END
+
+--
+
+@KanakoToasterTalk
+* I've been thinking about
+  what BunBun said...
+>p:KanakoPuff
+.
+* Guys... Do you think...
+* That Toster guy...
+>p:KanakoOffended2
+.
+* Is he the toaster that
+  mom said Sadie brought
+  earlier?!
+>p:KanakoOffended2
+.
+* PROBABLY.
+>p:AxisNormal
+.
+* HE JUST SHOWED UP AND
+  TOOK OVER AS ROBOTOPIA'S
+  LEADER JUST TODAY.
+>p:AxisNormal
+.
+* SO THE TIMELINE MATCHES.
+>p:AxisNormal
+.
+* ...
+>p:KanakoOffended2
+.
+* I can't believe it...
+>p:KanakoOffended2
+END
+
+
+--
+
+@KanakoFountainTalk
+* ([wave]Pssst.[/wave])
+* (Hey, Cole...)
+>p:KanakoPuff
+.
+* (Not too loud, I don't
+  want Axis to hear this...)
+>p:KanakoTongue
+.
+* (I've been thinking...)
+>p:KanakoPuff
+.
+* (What do you think
+  happens when we seal the
+  fountain?)
+>p:KanakoSad
+.
+* (I mean, what happens
+  to the darkners?)
+>p:KanakoSad
+.
+* (Do they just... cease
+  to be?)
+>p:KanakoSad
+.
+* (...Is sealing the
+  fountains the right
+  thing then?)
+>p:KanakoSad
+.
+* (But if we don't seal
+  them, the world will
+  end...)
+>p:KanakoSad
+.
+* (...)
+>p:KanakoSad2
+.
+* WHAT ARE YOU TWO
+  WHISPERING ABOUT?
+>p:AxisNormal
+.
+* Oh! Um, nothing...?
+* D-don't worry about it,
+  Axis!
+>p:KanakoNervous
+.
+* ...
+>p:AxisNormal
+.
+* VERY WELL, MISS KANAKO.
+>p:AxisNormal
+>mini:KanakoNervous:(We can continue this later, Cole.)
+END
+
+
+--
+
+@KanakoRangerTalk
+* ................
+>p:KanakoDumb
+>prompt:You okay?:You're a fan@of Team RGB?
+>promptredirect:KanakoRangerTalkA:KanakoRangerTalkB
+END
+
+--
+
+@KanakoRangerTalkA
+* Y-yeah...
+* I'm just...
+* Overwhelmed.
+>p:KanakoNervous
+.
+* ...BECAUSE THIS WORLD
+  IS BASED ON YOUR RESTING
+  QUARTERS?
+>p:AxisNormal
+.
+* Yes...
+* It's just...
+>p:KanakoNervous
+.
+* .......
+>p:KanakoDumb
+.
+* It's nothing.
+* Let's go to the Archives
+  and be done with it!
+>p:KanakoNervous
+END
+
+--
+
+@KanakoRangerTalkB
+* WHAT?!
+* ME?!
+* NO WAY!!
+>p:KanakoDumb
+.
+* MISS KANAKO, YOUR BODY
+  TEMPERATURE IS RISING.
+>p:AxisNormal
+.
+* ........
+>p:KanakoDumb
+.
+* Ok, fine.
+* I still like them,
+  alright?!
+>p:KanakoHurt
+.
+* I just didn't want you
+  to think about me as
+  childish...
+>p:KanakoSad
+>prompt:It isn't@childish:I'm a fan@too:It's childish
+>promptredirect:KanakoRangerTalkBA:KanakoRangerTalkBB:KanakoRangerTalkBC
+END
+
+--
+
+@KanakoRangerTalkBA
+* ...
+* Thanks, Cole.
+>p:KanakoNervous
+.
+* But we've wasted too
+  much time with this
+  nonsense.
+>p:KanakoPuff
+.
+* C'mon, let's move.
+>p:KanakoNervous
+END
+
+--
+
+@KanakoRangerTalkBB
+* What?!
+* You are?!
+>p:KanakoDumb
+.
+* ......
+>p:KanakoDumb
+.
+* H-Hehe, guess that's
+  something else we
+  have in common...
+>p:KanakoTongue
+.
+* B-but we can talk about
+  that later.
+* We're wasting time!
+>p:KanakoNervous
+.
+* Let's move out!
+>p:KanakoTongue
+END
+
+--
+
+@KanakoRangerTalkBC
+* I know! You don't need
+  to tell me that!
+>p:KanakoHurt
+.
+* Ugh. I'll get rid of
+  those action figures
+  as soon as we return!
+>p:KanakoOffended
+.
+* C'mon. We're wasting
+  time. Let's get this
+  over with!
+>p:KanakoSad
+END
+
+--
+
+@KanakoChestHintForestC1
+* Hey, I see a chest over
+  there!
+>p:KanakoPuff
+.
+* How do we reach it,
+  though?
+>p:KanakoSad
+.
+* Maybe there is a way if
+  we investigate closely,
+  so let's look around!
+>p:KanakoNormal
+END
+
+--
+
+@KanakoTownDiag
+* So the Dark Worlds have
+  towns too.
+>p:KanakoNeutral
+.
+* The people here sure 
+  are... varied.
+>p:KanakoPuff
+.
+* Err, I don't mean it in 
+  a bad way, though!
+>p:KanakoNervous
+.
+* Much less when you 
+  remember the sort of 
+  weird people back home.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoBeforeMemoryGame
+* Hey, Cole...
+>p:KanakoNeutral
+.
+* Any idea of where we 
+  should go?
+>p:KanakoNeutral
+.
+* I know we have to get in 
+  the fortress to seal the 
+  fountain-
+>p:KanakoPuff
+.
+* But how will you do that?
+>p:KanakoNeutral
+.
+* Feels like we are just
+  wandering aimlessly...
+>p:KanakoSad2
+END
+
+--
+
+@KanakoThormasHouse
+* The heck is this place...
+>p:KanakoOffended2
+>top:lock
+.
+* It is kinda assalting my
+  senses! Let's get out of
+  here as fast as we can!
+>p:KanakoHurt
+END
+
+--
+
+@KanakoScissorTalk
+* Are we gonna just ignore
+  the giant scissors?!
+* ...Well, works for me!
+>p:KanakoDumb
+END
+
+--
+
+@KanakoAfterMinibossC1
+* (Those guys were tough, 
+  I wonder if I can keep 
+  going like this....)
+>p:KanakoSad2
+.
+* (C'mon Kanako, get yourself 
+  together - Cole and you gotta 
+  get outta here!) 
+>p:KanakoHurt
+.
+* (Though... A break would be 
+  nice... Ugh)
+>p:KanakoSad2
+END
+
+--
+
+@KanakoWardenHelpers
+* So, what do you think 
+  these little guys around 
+  the jail are?
+>p:KanakoPuff
+.
+* Do they even do anything?
+* Help the Warden?
+* Keep stuff clean?
+>p:KanakoOffended2
+.
+* Really, what do they do?!
+>p:KanakoDumb
+END
+
+--
+
+@KanakoPencellerDeal
+* I'm not sure if we
+  should just let them
+  use us for practice.
+>p:KanakoOffended2
+.
+* ...But if we are strapped
+  for cash, it could be an
+  option...
+>p:KanakoPuff
+.
+* Well, your call.
+* Just... be careful, okay?
+>p:KanakoNervous
+END
+
+--
+
+@KanakoPencellerMinigameComplete
+* Well, that was something.
+>p:KanakoDumb
+.
+* Least it's a way for us 
+  to get some cash if we 
+  need it, right?
+>p:KanakoNervous
+.
+* Just be careful, those
+  pencils hurt!
+>p:KEEP
+END
+
+--
+
+
+@KanakoPostMemGame
+* That's done.
+* Good.
+* Memory games suck!
+>p:KanakoTongue
+END
+
+--
+
+@KanakoTalkDuringMemGame
+* Well, I guess we are
+  doing this...
+>p:KanakoPuff
+.
+* I trust you can do it,
+  Cole!
+>p:KanakoHappy
+.
+* (I was never good at
+  those sort of games...)
+>p:KanakoSad2
+END
+
+--
+
+@KanakoTalkDuringMemGame2
+* ...This is harder than
+  expected...
+>p:KanakoOffended2
+.
+* Can't we find another way
+  around this?
+>p:KEEP
+.
+* I am starting to lose
+  my patience...
+>p:KEEP
+END
+
+--
+
+@KanakoD1MartHint
+* We're going to Mart's
+  place, remember?
+>p:KanakoNormal
+.
+* Did you forget where
+  you live?
+* It's on the west side!
+>p:KanakoTongue
+END
+
+--
+
+@KanakoMoTalk
+* Dad doesn't like this
+  place.
+>p:KanakoNeutral
+.
+* Something about him and
+  the owner in the past.
+>p:KanakoPuff
+.
+* Never really asked him why, 
+  not like he would know 
+  where I get the ice cream!
+>p:KanakoTongue
+END
+
+--
+
+@KanakoAngryTalk
+* ...Ugh.
+>p:KanakoHurt
+.
+* I hate this place.
+* Why is everything so 
+  weird?
+>p:KanakoOffended2
+.
+* So annoying?
+>p:KanakoOffended2
+.
+* Just...
+* Ugh.
+>p:KanakoHurt
+.
+* Let's try to get home
+  soon before I lose it.
+>p:KanakoAnnoyed
+END
+
+--
+
+@KanakoArchiveMessTalk
+* (...This place is a 
+  mess...)
+>p:KanakoDumb
+.
+* (I REALLY should organize
+  my computer when we get
+  back to the Light World.)
+>p:KanakoDumb
+END
+
+--
+
+@KanakoMinesDay2_1
+* Remember? The place is at
+  the back...
+>p:KanakoNervous
+.
+* I hope it isn't as hard to
+  get to as it used to be...
+>p:KanakoNervous  
+END
+
+-
+
+@KanakoMinesDay2_2
+* Let's grab a drink for 
+  that guy so we can get
+  through.
+>p:KanakoPuff
+END
+
+-
+
+@KanakoMinesDay2_2B
+* ...Why did you do that??
+* Now we have to get another
+  one...
+>p:KanakoDumb
+END
+
+-
+
+@KanakoMinesDay2_3
+* Let's just keep going...
+>p:KanakoNervous
+END
+
+-
+
+@KanakoD2DateHint
+* You forgot where we are 
+  going?
+>p:KanakoPuff
+.
+* ...It's the mines.
+* I don't blame you for
+  forgetting, but please...
+>p:KanakoNervous
+.
+* I... want to see it again.
+>p:KanakoSad2
+END
+
+-
+
+@KanakoSadieHouse1
+>redirect:SadieEventDay2:KanakoSadieHouse2
+* ...L-Let's just keep 
+  going...
+>p:KanakoNervous2
+END
+
+-
+
+@KanakoSadieHouse2
+* (Let's ask Sadie if she
+  saw anything at dad's
+  place.)
+>p:KanakoNormal
+END
+
+-
+
+@KanakoMartletHouseLateDay2
+* Seems Mart hasn't 
+  returned yet.
+>p:KanakoPuff
+.
+* Let's head to my place
+  for now.
+>p:KanakoNervous
+END
+
+-
+
+@LateDay2LWHint
+* We should get back to my
+  place now, mom should be
+  back by now.
+>p:KanakoNervous
+END
+
+-
+
+@AxisSplitNotice
+* SO HOW DID YOU TWO DO 
+  THAT?
+>p:AxisNormal
+.
+* Do what?
+>p:KanakoPuff
+.
+* TELL EACH OTHER THE ANSWER
+  FOR THE PUZZLE WITHOUT 
+  SHARING WORDS.
+>p:AxisNormal
+.
+* IS THAT AN ABILITY ALL
+  LIGHTNERS HAVE?
+>p:KEEP
+.
+* Oh! I... Uh... I...
+* I don't actually know...
+>p:KanakoDumb
+.
+* Cole... How did you do
+  it?
+>p:KEEP
+>prompt:Love:Game@Mechanics:Telepathy:Dunno
+>promptredirect:AxisSplitNoticeP1:AxisSplitNoticeP2:AxisSplitNoticeP3:AxisSplitNoticeP4
+END
+
+-
+
+@AxisSplitNoticeP1
+* ...!
+* C-COLE!
+>p:KanakoBlushFlustered
+.
+* MISS KANAKO, YOU ARE
+  GETTING AGITATED.
+* PLEASE CALM DOWN.
+>p:AxisSad
+.
+* You can't just say stuff
+  like that! Stop it!
+>p:KanakoBlushFlustered
+.
+* (...But... How did we...)
+>p:KanakoNeutral
+END
+
+-
+
+@AxisSplitNoticeP2
+* Game?! What do you mean?
+>p:KanakoDumb
+.
+* AH, WOULD MAKE SENSE IF
+  YOU COULD SEE WHERE MISS
+  KANAKO WAS FROM UP ABOVE.
+>p:AxisNormal
+.
+* Yeah but how?! This isn't
+  a game!!
+>p:KanakoDumb
+.
+* Ugh, this is giving me a
+  headache. Let's just move
+  on, okay?
+>p:KanakoSad2
+END
+
+-
+
+@AxisSplitNoticeP3
+* Wait, really?!
+* You have powers?!
+>p:KanakoDumb
+.
+* THAT DOES NOT MAKE SENSE.
+* EVEN IN DARK WORLDS THAT
+  SHOULD NOT BE POSSIBLE.
+>p:AxisAnnoyed
+.
+* NOT FOR HUMANS.
+>p:KEEP
+.
+* Yeah... That's weird...
+* There must be some other
+  explanation...
+>p:KanakoNervous
+.
+* (But... How did we...)
+>p:KanakoNeutral
+END
+
+-
+
+@AxisSplitNoticeP4
+* Yeah... We...
+>p:KanakoNervous
+.
+* We just knew it, I guess.
+>p:KanakoDumb
+.
+* HMMM...
+>p:AxisBored
+.
+* THAT DOES NOT COMPUTE.
+* IT WILL REQUIRE FURTHER
+  PROBING.
+>p:AxisAngry
+.
+* (...Seriously though, how
+  did we...)
+>p:KanakoOffended2
+END
+
+-
+
+@MirrorPuzzleKanako1
+* Um... This sure looks
+  pretty complicated...
+>p:KanakoDumb
+.
+* You think you can do it,
+  Cole?
+>p:KanakoNervous
+.
+* MIRROR PUZZLES ARE QUITE
+  SIMPLE. ALL YOU HAVE TO
+  DO IS DIRECT THE BEAM.
+>p:AxisNormal
+.
+* I mean, yes?
+* But, how? There are so
+  many of them!
+>p:KanakoOffended2
+.
+* I think we will need to
+  really crack our heads
+  on this one.
+>p:KanakoNervous
+.
+* Just look at what the end
+  goal is and try to trace
+  a way to it, okay?
+>p:KanakoNormal
+.
+* I BELIEVE YOU WILL NEED
+  TO MANIPULATE MIRRORS BACK 
+  AND FORTH MULTIPLE TIMES.
+>p:AxisNormal
+.
+* DO NOT LET THAT 
+  DISCOURAGE YOU, HATTED
+  HUMAN.
+>p:AxisNormal
+>mini:KanakoHappy:You can do it!
+END
+
+-
+
+@MirrorPuzzleKanako2
+* If you're stumped, we can
+  probably find some other
+  way to proceed.
+>p:KanakoNervous
+.
+* No shame in going back!
+>p:KanakoHappy
+>mini:AxisBored:NOPE. DEFINITIVELY VERY SHAMEFUL.
+END
+
+-
+
+@C2ArchivesElevatorTalk
+* Huh...
+>p:KanakoPuff
+.
+* WHAT IS IT, MISS KANAKO?
+>p:AxisNormal
+.
+* There is a button down
+  here flickering...
+>p:KanakoPuff
+.
+* (Kanako tries pressing the 
+  button.)
+>sound:snd_item_ch1.wav
+.
+* (...)
+.
+* (Nothing happens.)
+.
+* Hm. I wonder if it's 
+  broken...
+>p:KanakoPuff
+.
+* THAT IS NOT WHERE WE ARE
+  SUPPOSED TO GO, THOUGH.
+>p:AxisBored
+.
+* I know but... Now I'm 
+  curious. 
+>p:KanakoNervous
+.
+* Let's try talking to that 
+  guy at the lobby, maybe he
+  knows how to fix this.
+>p:KanakoNormal
+END
+
+--
+
+@ChujinSavedC2
+* ...How are you all so...
+  "okay" with what is 
+  happening?
+>p:ChujinDWNervous
+.
+* You both are acting like
+  you have done this thing
+  before.
+>p:ChujinDWNeutral
+.
+* Um...
+>p:KanakoNervous
+.
+* We... [wave]Kindaaaa[/wave] did??
+>p:KanakoNervous
+.
+* ...
+>p:ChujinDWNeutral
+.
+* I assumed this was just a
+  dream from me overworking,
+  myself, but...
+>p:ChujinDWNeutral
+.
+* ...I guess we can talk
+  more about it once we are
+  safe. Let's move.
+>p:ChujinDWNeutral
+END
+
+--
+
+@KanakoGateComment
+* (...Every time I go 
+  through one of these gates
+  I feel something...)
+>p:KanakoSad2
+.
+* (Like something burning 
+  inside my chest...)
+>p:KanakoHurt
+.
+* (...Hope I'm not getting
+  radiation poisoning from
+  this.)
+>p:KanakoNeutral
+END
+
+--
+
+@SpireDarknessTalk
+* What are those big tubes
+  on the walls?
+>p:KanakoPuff
+.
+* THESE TRANSFER RAW 
+  DARKNESS FROM THE 
+  FOUNTAIN-
+>p:AxisNormal
+.
+* WHICH IS THEN USED TO 
+  POWER THE ENTIRE SPIRE.
+>p:KEEP
+.
+* Isn't that... dangerous?
+>p:KanakoDumb
+.
+* YES. BUT VERY POWER
+  EFFICIENT, AND THE ENERGY
+  IS RENEWABLE.
+>p:AxisNormal
+.
+* ...Cole, just be careful
+  not to fall, okay??
+>p:KanakoNervous2
+END
+
+--
+
+@SpireDropRoomTalk1
+[shake]* W-Woah?! What the-!!??[/shake]
+>p:KanakoScared
+.
+* A-Axis!! Where are the
+  [shake]GUARDRAILS?![/shake]
+>p:KanakoDumb
+.
+* THEY WERE IN THE WAY SO
+  THEY WERE REMOVED.
+>p:AxisNormal
+.
+* IN THE WAY OF WHAT?!
+>p:KanakoDumb
+.
+* OF EFFICIENCY. WE CAN
+  JUST JUMP DOWN TO LOWER
+  LEVELS IF NEEDED.
+>p:AxisNormal
+.
+* IT IS FASTER THAT WAY.
+>p:KEEP
+.
+* ......
+>p:KanakoDumb
+.
+* C-Cole, make sure to hold
+  onto me, alright?!
+[shake]* Don't let me fall!![/shake]
+>p:KanakoNervous2
+END
+
+--
+
+@SpireCenterRoomTalk1
+* Wow, we are pretty close
+  to the fountain now.
+>p:KanakoPuff
+.
+* YES, THE SPIRE WAS BUILT
+  AROUND THE FOUNTAIN, 
+>p:AxisNormal
+.
+* THIS IS SO WE CAN EXTRACT
+  AS MUCH DARKNESS FROM IT
+  AS WE CAN-
+>p:KEEP
+.
+* AND USE IT TO FUEL ALL OF
+  ROBOTOPIA.
+>p:KEEP
+.
+* Isn't that like... Bad?
+>p:KanakoNervous
+.
+* IT HAS WORKED SO FAR.
+>p:AxisNormal
+.
+* ...I... I guess...
+>p:KanakoNervous
+.
+* Anyway, we can't seal the
+  fountain from up here.
+>p:KanakoPuff
+.
+* We need to make our way
+  down to the base.
+* Let's move.
+>p:KanakoNormal
+END
+
+--
+
+@SpireCenterRoomTalk2
+* ...Amazing.
+>p:ChujinDWNormal
+.
+* Whatever that is, it sure
+  is something.
+>p:KEEP
+.
+* THAT IS THIS DARK WORLD'S
+  FOUNTAIN. 
+>p:AxisNormal
+.
+* IT IS WHAT GIVES THIS 
+  WORLD ITS FORM.
+>p:KEEP
+.
+* I see... I don't quite get
+  it, but I assume this is
+  important, then.
+>p:ChujinDWNeutral
+.
+* It is also our way home.
+>p:KanakoPuff
+.
+* We just need to get down
+  to the base and seal it.
+>p:KanakoNormal
+.
+* ...But, if this thing
+  gives the world its 
+  form...
+>p:ChujinDWNeutral
+.
+* What will happen to this
+  place if you "seal" it?
+>p:KEEP
+.
+* Um... It will just...
+* Disappear?
+>p:KanakoNervous
+.
+* But we should be able to
+  get back to your workshop
+  if we do it.
+>p:KanakoNormal
+.
+* ...I will just let you do
+  your thing since you seem
+  to know what you're doing.
+>p:ChujinDWNeutral
+.
+* Just be careful, alright?
+>p:KEEP
+>mini:KanakoHappy:No worries, dad!
+END
+
+-
+
+@SpireDropRoomTalk2
+* G-Goodness... We are 
+  pretty high up...
+>p:ChujinDWNervous
+.
+* ...Why are there no 
+  guardrails on these
+  catwalks?!
+>p:KEEP
+.
+* THEY ARE INNEFICIENT SO
+  THEY WERE REMOVED.
+>p:AxisNormal
+.
+* I...
+>p:ChujinDWNervous
+.
+* I think that makes 
+  sense... For robots.
+>p:KEEP
+.
+* But...
+>p:KEEP
+.
+* ...
+>p:KEEP
+.
+* Kanako, just stay near
+  me, alright?
+>p:KEEP
+.
+* W-Will do, dad...
+>p:KanakoNervous2
+END
+
+--
+
+@SpireChujinTheaterTalk
+* My, what an interesting
+  place!
+>p:ChujinDWNormal
+.
+* I wonder what sort of
+  plays they have at this
+  theater.
+>p:KEEP
+.
+* ...Um, it is nothing
+  special, really.
+>p:KanakoNervous
+.
+* IT IS ACTUALLY A PLAY
+  ABOUT YOU, MASTER CHUJIN.
+>mini:KanakoDumb:Axis...!
+>p:AxisNormal
+.
+* M-Me? I mean... 
+>p:ChujinDWNervous
+.
+* I guess it makes sense 
+  since the robots hold me 
+  in high regard-
+>p:ChujinDWNeutral
+.
+* But what would a play
+  about me even be about...?
+>p:KEEP
+.
+* Nothing, dad! It was
+  nothing! Let's just go,
+  okay?
+>p:KanakoDumb
+END
+
+--
+
+@TalkSchoolDay2
+* Let's go do something
+  fun instead of sulking
+  in the classroom!
+>p:KanakoTongue
+END
+
+--
+
+@TalkSchoolDay2_Closet
+>redirectmap:KTalk:TalkSchoolDay2_Closet2
+* ...Weird to think this
+  place yesterday was an
+  entire new world, huh?
+>p:KanakoNervous
+.
+* Glad it is just a normal
+  closet again.
+>p:KanakoNormal
+>setmap:KTalk
+END
+
+--
+
+@TalkSchoolDay2_Closet2
+* Looking at the things
+  in this room...
+>p:KanakoPuff
+.
+* It kinda... resembles the
+  layout of the Dark World 
+  in a way, doesn't it?
+>p:KanakoNormal
+.
+* ...Maybe it's just my
+  mind playing tricks on
+  me...
+>p:KanakoNervous
+END
+
+--
+
+@KanakoSaveTalk
+* ...Hey Cole.
+>p:KanakoNeutral
+.
+* Just... sometimes you
+  kinda just blank out and
+  stare at... nothing.
+>p:KanakoSad
+.
+* ...Is everything okay?
+>p:KEEP
+.
+* I guess this is a bit too
+  much out of nowhere.
+>p:KanakoPuff
+.
+* We need to get home 
+  soon...
+>p:KanakoNervous
+END

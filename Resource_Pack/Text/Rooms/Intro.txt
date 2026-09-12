@@ -1,0 +1,10 @@
+* Someone is watching.
+* Someone stands in your way.
+* There is no one around.\n* ...And yet...
+* ...
+* You tried to CHECK, but the\n  entity did not let you.
+* You tried moving back.\n* But your body refused to move.
+* Move Forward
+* Move Back
+* Check
+Cole...!

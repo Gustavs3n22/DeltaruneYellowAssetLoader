@@ -1,0 +1,692 @@
+@SaveAxis
+>redirect:WeirdStart:SaveWeirdRoute
+* You are now united with Axis,
+  the Ketsukane Store's mascot.
+>heal
+.
+* You are filled with a sense 
+  of companionship.
+>callsave
+END
+
+-----
+
+@SaveRoboVista
+>redirect:WeirdStart:SaveWeirdRoute
+* The view of Robotopia is 
+  something you've never
+  seen before.
+>heal
+.
+* You are filled with a sense 
+  of wonder.
+>callsave
+END
+
+--
+
+
+@DWD2StartEvent7
+* ...Here we are.
+>p:KanakoNeutral
+.
+* This Dark World is
+  a bit scarier than
+  the last one...
+>p:KanakoSad
+.
+* But dad needs us!
+* Let's go!
+>p:KanakoOffended
+END
+
+--
+
+@AxisEvent1
+* INTRUDERS DETECTED.
+* INITIATING SCOUTING
+  PROTOCOLS.
+>bleep:Axis
+END
+
+--
+
+@AxisEvent2
+* AXIS UNIT 014, ON COURSE
+  TO INTERCEPT THE 
+  LIGHTNERS.
+>p:AxisNormal
+.
+* W-wait a minute...
+* Is... Is that...
+>p:KanakoDumb
+.
+* ...A-Axis...?!
+* Wha- How...?!
+>p:KanakoSurprise
+.
+* ASSESSING LIGHTNERS'
+  THREAT LEVEL...
+>p:AxisNormal
+END
+
+--
+
+@AxisEvent3
+* ANALYSIS COMPLETE.
+* THREAT LEVEL DETECTED...
+>p:AxisNormal
+.
+>sound:StopMusic
+>anim:Axis:Idle
+* LEVEL 10.
+* IMMEDIATE TERMINATION
+  REQUIRED.
+>p:AxisShadow
+.
+* W-Wait! Hold on!
+>p:KanakoSurprise
+.
+* ...It's no use...!
+* C-Cole! Watch out!
+>p:KanakoSurprise
+END
+
+--
+
+
+@AxisPostBattleSpare1
+* ...YOU'RE SPARING ME?
+>p:AxisNormal
+.
+* THINK THIS WILL MAKE
+  ME RECONSIDER 
+  TERMINATING YOU?
+>p:AxisBored
+.
+* Um... I hope so...??
+>p:KanakoNervous
+.
+* ...
+>p:AxisDumb
+.
+* FINE.
+>p:AxisNormal
+.
+* I WILL GIVE YOU 
+  ONE (1) CHANCE TO
+  MAKE ME RECONSIDER.
+>p:AxisNormal
+.
+* O-okay... Listen...
+>p:KanakoNervous
+.
+* I-I'm Kanako.
+* Kanako Ketsukane.
+>p:KanakoNormal
+.
+* We just want to find
+  my dad, Chujin.
+>p:KanakoNormal
+.
+* Your... creator...?
+>p:KanakoNervous
+.
+* Could you take us to
+  him...?
+>p:KanakoNervous
+.
+* ...
+>p:AxisDumb
+.
+* WAIT, YOU MEAN-
+>p:AxisNormal
+.
+>anim:Axis:Hurt2
+>sound:snd_electric_talk.wav
+* [shake]BZZZZZZZZT!
+>p:AxisShadow
+.
+* A-Axis!?
+* Are you okay?!
+>p:KanakoSurprise
+END
+
+--
+
+@AxisPostBattleSpare2
+* [REBOOT COMPLETE]
+>p:AxisNormal
+.
+* SO... YOU WERE 
+  SAYING...?
+>p:AxisNormal
+.
+* We... We want to
+  find my dad, Chujin.
+>p:KanakoNervous
+.
+* ...
+>p:AxisNormal
+.
+* AH, YES.
+>p:AxisNormal
+.
+* I RECOGNIZE YOU NOW.
+>p:AxisNormal
+.
+* YOU ARE MASTER 
+  CHUJIN'S SPAWN.
+>mini:KanakoOffended2:"Spawn"?
+>p:AxisNormal
+.
+* Uh, yes!
+* I'm his daughter, 
+  Kanako!
+>p:KanakoDumb
+.
+* ........
+>p:AxisNormal
+.
+>redirect:AxisPostBattleSpare3
+END
+
+--
+
+@AxisPostBattleSpare3
+* FORGIVE ME, MISS
+  KANAKO.
+>p:AxisSad
+.
+* MY OCULAR SENSORS 
+  AREN'T AS PRECISE
+  AS THEY ONCE WERE.
+>p:AxisNormal
+.
+* I-It's ok...
+>p:KanakoNervous
+.
+* You were just following
+  your programming, I 
+  assume...
+>p:KEEP
+.
+* INDEED. WERE I AWARE
+  YOU WERE MASTER'S SPAWN,
+  I WOULD HAVE RELENTED.
+>p:AxisDumb
+.
+* AS A PEACE OFFERING,
+  I WILL FULFILL YOUR
+  REQUEST.
+>p:AxisNormal
+.
+* I SHALL GUIDE YOU
+  TO WHERE MASTER CHUJIN
+  IS BEING HELD.
+>p:AxisNormal
+.
+* "Held"?
+* You don't mean as a 
+  prisoner?!
+>p:KanakoScared
+.
+* INCORRECT. AS A GUEST.
+* HE IS OUR CREATOR.
+>p:AxisNormal
+.
+* THE CREATOR OF [color=yellow]ROBOTOPIA[/color].
+>p:AxisNormal
+.
+* "Robotopia"?
+>p:KanakoOffended2
+.
+* Also by creator...
+* You mean he made this
+  Dark World...?
+>p:KanakoNeutral
+.
+* YES AND NO.
+>p:AxisNormal
+.
+* YOU SHALL SEE.
+* MASTER CHUJIN WILL
+  ANSWER YOUR QUESTIONS.
+>p:AxisNormal
+.
+* ...Well ok.
+* Lead us, then.
+>p:KanakoPuff
+.
+* HOLD ON.
+>p:AxisNormal
+.
+* WHAT DO WE DO ABOUT...
+* THE HUMAN?
+>p:AxisAngry
+.
+* The human?
+* You mean Cole?
+>p:KanakoOffended2
+.
+* He is my friend.
+* He's coming with us.
+>p:KanakoOffended
+.
+* .......
+>p:AxisNormal
+.
+* UNDERSTOOD.
+>p:AxisNormal
+.
+* ADDING "HATTED HUMAN"
+  TO MY HOSTILITY
+  EXCEPTION DATABASE.
+>p:AxisNormal
+.
+* ...
+>p:KanakoOffended2
+.
+* T-that's good...?
+>p:KanakoNervous
+.
+* OTHER UNITS AHEAD 
+  AREN'T CONNECTED TO
+  MY DATABASE.
+>p:AxisNormal
+.
+* THEY WILL ATTACK US.
+* BUT FRET NOT.
+>p:AxisNormal
+.
+* I SHALL PROTECT YOU.
+>p:AxisNormal
+.
+* ...AND THE HUMAN.
+>p:AxisBored
+.
+* Thanks, Axis!
+>p:KanakoHappy
+.
+* C'mon, let's go find 
+  dad!
+>p:KanakoNormal
+.
+>sound:charjoined.ogg
+* (Axis joined the party.)
+END
+
+--
+
+@AxisPostBattleFight1
+* Oh no!
+* Axis!
+>p:KanakoSurprise
+END
+
+--
+
+@AxisPostBattleFight2
+* Axis!
+* AXIS!
+>p:KanakoSurprise
+.
+* ...Did we hit him too
+  hard?
+>p:KanakoSad
+.
+* I know he was trying
+  to kill us, but...
+>p:KanakoSad2
+.
+* I have so many 
+  questions!
+>p:KanakoHurt
+.
+* .............
+>bleep:Axis
+.
+* [REBOOTING...]
+>bleep:Axis
+END
+
+--
+
+@AxisPostBattleFight3
+* ALRIGHT.
+* WHERE WERE WE?
+>p:AxisNormal
+.
+>anim:Axis:Idle
+* RIGHT. I WAS ABOUT 
+  TO TERMINATE YOU.
+>p:AxisAngry
+.
+* W-Wait!
+>p:KanakoSurprise
+.
+* We don't want to fight!
+* We just want to find
+  my dad!
+>p:KanakoHurt
+.
+>anim:Axis:EastIdle
+* ...
+>p:AxisDumb
+.
+* YOUR "DAD"?
+>p:AxisDumb
+.
+* Y-yes!
+>p:KanakoNervous
+.
+* My name is Kanako...
+* Kanako Ketsukane...
+>p:KanakoNormal
+.
+* My father is Chujin...
+* Your creator...?
+>p:KanakoNervous
+.
+* ........
+>p:AxisDumb
+.
+* LOGICAL ERROR FOUND.
+>p:AxisDumb
+.
+* SEARCHING DATABASE...
+>p:AxisDumb
+.
+* ........
+>p:AxisDumb
+>mini:KanakoPuff:...
+.
+* DATABASE ENTRY FOUND.
+>p:AxisNormal
+.
+* "KANAKO KETSUKANE".
+* SPAWN OF MASTER CHUJIN.
+>p:AxisNormal
+>mini:KanakoOffended2:"Spawn"...?
+.
+* I UNDERSTAND NOW.
+* I APOLOGIZE.
+>p:AxisSad
+.
+>redirect:AxisPostBattleSpare3
+END
+
+--
+
+@DW2OverviewEvent
+* ...Woah...
+>p:KanakoPuff
+>top
+.
+* IMPRESSIVE, IS IT NOT?
+>p:AxisNormal
+>top
+.
+* THIS IS MASTER CHUJIN'S
+  REALM.
+>p:AxisNormal
+>top
+.
+* ROBOTOPIA.
+>p:AxisNormal
+>top
+.
+>redirect:KanaViolentCh1:DW2OverviewEventAlt
+* That name is still 
+  stupid!
+>p:KanakoTongue
+>top
+.
+* ...But it is impressive.
+>p:KanakoNormal
+>top
+.
+* So where is dad at?
+>p:KanakoNeutral
+>top
+.
+* I guess the giant tower
+  would be the most obvious
+  spot.
+>p:KanakoOffended
+>top
+.
+* CORRECT. MASTER CHUJIN
+  IS AT THE CENTRAL PILLAR.
+* THE "SPIRE".
+>p:AxisNormal
+>top
+.
+* ...Then let's make our
+  way there.
+>p:KanakoNormal
+>top
+.
+* I can see the fountain
+  there too. So we have
+  to get there anyway.
+>p:KanakoOffended
+>top
+.
+* C'mon, boys.
+* Let's move!
+>p:KanakoTongue
+>top
+END
+
+--
+
+@DW2OverviewEventAlt
+* That's still a really
+  stupid name.
+>p:KanakoOffended2
+>top:lock
+.
+* So, I take dad is stuck
+  in that giant tower, 
+  then?
+>p:KanakoNeutral
+.
+* CORRECT. MASTER CHUJIN
+  IS AT THE CENTRAL PILLAR.
+* THE "SPIRE".
+>p:AxisNormal
+.
+* ...Then let's make our
+  way there.
+>p:KanakoNeutral
+.
+* I can see the fountain
+  there too. So we have
+  to get there anyway.
+>p:KanakoOffended
+.
+* Let's just get this over
+  with already.
+>p:KanakoOffended2
+END
+
+--
+
+@DW2MagicDoor
+* Huh?
+* That door...
+>p:KanakoNeutral
+>top
+.
+* Think it leads to the
+  Dark Jail?
+>p:KanakoNormal
+>top
+.
+* We could check it out.
+>p:KanakoPuff
+>top
+END
+
+--
+
+
+@FirstWaterGunSign
+[color=green]* HOW TO SAFELY HANDLE CAPACIMITES:
+* 1: MAKE SURE TO NEVER TOUCH THEM
+  DIRECTLY.
+>bleep:System
+.
+[color=green]* 2: TRY TO PUSH THEM INTO THE 
+  WIRES BY HITTING THEM WITH 
+  SOMETHING FROM AFAR.
+>bleep:System
+.
+[color=green]* 3: CAPACIMITES ARE WATER
+  RESISTANT. USE THAT TO YOUR
+  ADVANTAGE.
+>bleep:System
+END
+
+--
+
+@StaplerWarning
+[color=green]* WATCH OUT FOR STAPLETES!
+* THEY BITE!
+>bleep:System
+END
+
+--
+
+@DW2SteamWarning
+[color=green]* WARNING: HOT STEAM AHEAD.
+* RUN IF YOU HAVE TO CROSS.
+>bleep:System
+END
+
+--
+
+@RoboTownSign
+[color=green]* ROBO TOWN UP AHEAD.
+>bleep:System
+END
+
+--
+
+@SukobanHelp
+[color=green]* USE THESE KIND OF CONSOLES TO 
+  REMOTELY CONTROL CAPACIMITES.
+>bleep:System
+END
+
+--
+
+@TradingGuy1
+>top:lock
+* Hello good sir and madam and
+  robot. I greet you from way
+  yonder the Spire.
+>tc
+.
+* I have been into the hobbies the
+  common folks of these lands call
+  "card trading".
+>tc
+.
+* I am currently looking for one
+  of a weird creature called a
+  "Frostermit".
+>tc
+.
+* If you do have a card of such
+  creature, would you be willing
+  to partake in the act of trade?
+>tc
+END
+
+--
+
+@TradingGuy2
+>top:lock
+* Oh ho? I see you have the so
+  fabled card. May we proceed with
+  the exchange as discussed?
+>tc
+>prompt:Trade:Don't
+>promptredirect:TradingGuy2A:TradingGuy2B
+END
+
+--
+
+@TradingGuy2A
+>top:lock
+* Jolly ho! Then here is to a
+  good trade, my good chums!
+>tc
+.
+* (You traded your FROSTERMIT card
+  for a SIR SLITHER one.)
+>sound:snd_item_ch1.wav
+END
+
+--
+
+@TradingGuy2B
+>top:lock
+* I see. Mayhaps you would be
+  interested at another time?
+>tc
+END
+
+--
+
+@TradingGuy3
+>top:lock
+* I do not quite "get it" what
+  this entire act of "trading 
+  cards" mean-
+>tc
+.
+* But one must always partake 
+  into different cultures to learn
+  their ways, I say!
+>tc
+END
+
+-
+
+@MonitorCheck
+* The monitors are displaying a
+  lot of random numbers that make
+  no sense to you.
+END
+
+-
+
+@TVCheck
+* Seems to be a TV.
+* It is broken.
+END
+
+-
+
+@RobotBoxCheck
+* A box filled with all sort of 
+  junk.
+* It appears to be a robot...?
+END
+
+-
+
+@BoxMiscCheck
+* Miscellaneous knick-n-knacks. 
+* Nothing useful
+END
+
+-
+
+@RobotHeadCheck
+* What appears to be an old
+  robot head.
+END

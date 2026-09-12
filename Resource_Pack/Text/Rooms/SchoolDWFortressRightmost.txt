@@ -1,0 +1,40 @@
+@BookRead
+* "The caterpillar is one of
+  the most curious creatures."
+.
+* "With a process called
+  'Metamorphpsis', it can change
+  its shape when maturing."
+.
+* "It is said that caterpillars
+  aren't the only creatures able
+  to do said process."
+.
+* ...This is just some kid 
+  book.
+* Boring!
+>p:KanakoOffended2
+END
+
+--
+
+@KanakoInsideFort
+* ...We're in.
+>p:KanakoOffended
+.
+* Now... to seal the
+  fountain and get back
+  home...
+>p:KanakoOffended
+.
+* Lead the way, Cole.
+>p:KanakoOffended
+END
+
+-----
+
+@FortCheckBookshelf
+* Many books.
+* None of these are interesting.
+* Or readable.
+END

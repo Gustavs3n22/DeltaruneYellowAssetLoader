@@ -1,0 +1,60 @@
+@Penceller
+>redirectmap:Pencil:Penceller2
+* Hey, chill, I don't wanna
+  fight.
+>tc
+.
+* Just taking a breather.
+* Bearing has been sending us
+  all over the place...
+>tc
+.
+* Looking for... "It".
+* I have no idea what it is,
+  but he REALLY wants it.
+>tc
+>setmap:Pencil
+END
+
+-
+
+@Penceller2
+* Phew...
+* Just gotta relax for a bit.
+>tc
+END
+
+-
+
+@Eraser
+>redirectmap:Eraser:Eraser2
+* Been hearin' rumors in town
+  that "it" was spotted near
+  the river.
+>tc
+.
+* Then why did Bearing send us
+  to search all the way over
+  here?
+>tc
+>setmap:Eraser
+END
+
+-
+
+@Eraser2
+* Beats me why Bearing is askin'
+  us to search here-
+>tc
+.
+* Maybe there is somethin' tied
+  to "it" 'round here?
+>tc
+.
+* Tho looks like nothin' no
+  matter how much we search.
+>tc
+.
+* At least not in this "room".
+>tc
+END

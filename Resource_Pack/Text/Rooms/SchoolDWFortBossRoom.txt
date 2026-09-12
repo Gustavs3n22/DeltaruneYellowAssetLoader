@@ -1,0 +1,825 @@
+@BearFortFountainSign
+* Elevator to fountain's base
+  ahead.
+* ONLY AUTHORIZED PERSONNEL.
+END
+
+--
+
+@SchoolDWFountainPrompt
+>redirect:KanaViolentStart:SchoolDWFountainPromptWeird
+* Cole. The fountain
+  is just up ahead.
+>p:KanakoNeutral
+.
+* You sure you aren't
+  forgetting anything?
+>p:KEEP
+.
+* I don't know what
+  will happen once we
+  seal the fountain-
+>p:KanakoSad
+.
+* But I feel we won't
+  be able to return.
+>p:KEEP
+.
+* So let's be sure to
+  finish everything we
+  can here.
+>p:KanakoNeutral
+.
+* ...Or we can just go
+  home.
+* Your call.
+>p:KEEP
+END
+
+-----
+
+@SchoolDWFountainPromptWeird
+* ...
+>p:KanakoAngry
+.
+* ...This is it.
+>p:KEEP
+.
+* Let's seal the
+  fountain and leave
+  already.
+>p:KEEP
+END
+
+-----------------------
+
+@BearingEvent1
+* And so, the lightners 
+  came straight to me...
+>bleep:Bearing
+.
+* Took your sweet time, 
+  didn't you?
+>bleep:Bearing
+END
+
+--
+
+@BearingEvent2Spared
+* Had fun "sparing" my
+  troops?
+>p:BearingLaugh
+.
+* I'm sure they will
+  "return" the favor.
+>p:BearingNormal
+.
+* If you don't snuff them
+  out first, that is.
+>p:BearingNormal
+END
+
+--
+
+@BearingEvent2Fought
+* Heard you two were a true
+  menace.
+>p:BearingNormal
+.
+* Causing all sort of 
+  trouble all over the 
+  place.
+>p:BearingNormal
+.
+* Tch.
+* As expected of your kind.
+>p:BearingNormal
+END
+
+--
+
+@BearingEvent3
+* You!
+>p:KanakoOffended
+.
+* I hoped Honvich would
+  capture you so this would
+  not be so painful.
+>p:BearingNormal
+.
+* But now you're here, and
+  I don't intend to let you
+  go off lightly.
+>p:BearingNormal
+.
+* The heck is your problem?
+* Why are you attacking us?
+>p:KanakoOffended2
+.
+* Hmph.
+>p:BearingNormal
+END
+
+--
+
+@BearingEvent4
+* I'm not ready to give away
+  my sapience, my FREEDOM
+  just yet!
+>p:BearingNormal
+.
+* You lightners abandoned 
+  us in this realm for far 
+  too long...
+>p:BearingNormal
+.
+* And now that we just
+  became aware, you want
+  to snatch it away?!
+>p:BearingNormal
+.
+* I say NO!
+* "It" told me that if I
+  were to bring you...
+>p:BearingAngry
+>anim:Bearing:Angry
+.
+* To bring your SOULS...
+* It would grant me a way
+  to leave the darkness!
+>p:BearingNormal
+.
+* To be able to walk in
+  the Light World!
+>p:BearingLaugh
+.
+* Like hell we are letting
+  you!
+>p:KanakoOffended
+.
+* Hah!
+* I wouldn't have it any
+  other way!
+>p:BearingLaugh
+.
+* So bring it, lightners!
+>p:BearingNormal
+.
+* Let's see if your light
+  can shine in the darkest
+  of the Dark!
+>p:BearingNormal
+END
+
+-
+
+@BearingEvent4Foxlace
+* You wouldn't understand.
+* There are bigger things
+  at play here.
+>p:BearingNormal
+.
+* As soon as I beat you up,
+  I will deliver you to 
+  "it".
+>p:BearingNormal
+.
+* And then... AND THEN...
+>p:BearingNormal
+.
+* I will have my "freedom".
+>p:BearingNormal
+.
+* The ability to leave...
+* To be able to walk in the
+  Light World!
+>p:BearingLaugh
+>anim:Bearing:CrossedArmsLaugh
+.
+[shake]* ...Fool...
+>bleep:Necklace
+>slow:4
+.
+* WHO DARES?!
+>anim:Bearing:Angry
+>p:BearingAngry
+END
+
+-
+
+@FoxlaceNecklace
+* (Suddenly, the [color=yellow]Fox Necklace[/color]
+  came out of your pocket...?!)
+END
+
+-
+
+@FoxlaceStaff
+* (Suddenly, the [color=yellow]Fox Staff[/color]
+  came out of your pocket...?!)
+END
+
+-
+
+@BearingEvent4Foxlace2
+* YOU!!
+>p:BearingAngry
+.
+[shake]* You are a fool, bear.
+>bleep:Necklace
+>slow:4
+.
+[shake]* It is... not possible for
+  us to exist in the Light
+  World.
+>bleep:Necklace
+>slow:4
+.
+[shake]* Not as we are.
+>bleep:Necklace
+>slow:4
+.
+* What?! You tricked me!
+>p:BearingAngry
+.
+[shake]* Tricked? No.
+* You... you should know, of
+  all people...
+>bleep:Necklace
+>slow:4
+.
+[shake]* We cannot exist the way we
+  are... out of here...
+>bleep:Necklace
+>slow:4
+.
+[shake]* But... If we join the
+  lightners as our true 
+  selves...
+>bleep:Necklace
+>slow:4
+.
+[shake]* We may walk alongside...
+* ...Them...
+>bleep:Necklace
+>slow:4
+.
+* Treason! You truly think
+  the lightners care about
+  us in that way?!
+>p:BearingNormal
+.
+* I ought to smash you 
+  alongside them!
+>p:BearingAngry
+.
+[shake]* ...Kanako...
+* Worry not...
+>bleep:Necklace
+>slow:4
+.
+[shake]* Together...
+* We can defeat him...
+>bleep:Necklace
+>slow:4
+.
+[shake]* Use my magic...
+>bleep:Necklace
+>slow:4
+.
+* I have no idea what is
+  going on, but I guess
+  we will have to fight.
+>p:KanakoOffended
+.
+* Get ready, Cole!
+>p:KEEP
+END
+
+-----
+
+@PostBossDefeat1
+* ...Blast it!
+* You're strong...!
+>p:BearingHurt
+.
+* I'm not ready...
+* To return to the dark...!
+>p:KEEP
+.
+* What do you mean?
+>p:KanakoOffended
+.
+* ...
+>p:BearingNormal
+>anim:Bearing:KO
+.
+* If you close the 
+  fountain...
+* This world...
+>p:BearingNormal
+.
+* It will cease to be.
+>p:BearingNormal
+>anim:Bearing:KO2
+.
+* Is that what you want,
+  lightners?!
+* To banish us again?!
+>p:BearingNormal
+>shakeanim:Bearing:KO
+.
+* ...!
+>p:KanakoSurprise
+.
+* Look, I have no idea what
+  is happening.
+>p:KanakoOffended2
+.
+* We just wanna go home.
+* Is that too much to ask?
+>p:KanakoOffended
+.
+* ...Hmph.
+* Typical...
+>p:BearingNormal
+END
+
+-
+
+@PostBossDefeat2
+* It doesn't matter how
+  many times you beat me-
+>p:BearingNormal
+.
+* How many times we FIGHT-
+>p:BearingNormal
+.
+* I will never allow you
+  to seal our fountain!
+* NEVER!
+>p:BearingAngry
+>shakeanim:Bearing:Roar
+.
+* I will keep standing...
+[shake]* UNTIL I AM TORN TO 
+  SHREDS!
+>p:BearingAngry
+.
+* Gah! Do we really need
+  to fight him again?!
+>p:KanakoSurprise
+END
+
+-
+
+@PostBossDefeat3
+* ?!?!?!?
+>p:BearingSurprise
+END
+
+-
+
+@PostBossDefeatKSurprise
+* Um........
+>p:KanakoDumb
+END
+
+-
+
+@PostBossDefeat4
+[shake]* HEEEEY!
+END
+
+-
+
+@PostBossDefeat5
+* Guess we arrived just in
+  time, huh?
+>p:ThormasHappy
+>talk:Thormas
+.
+* You guys!
+>p:KanakoNormal
+.
+* Sorry, I had to convince
+  Rocky to let us join the
+  fight!
+>p:ThormasNormal
+>talk:Thormas
+.
+* Actually, you were just 
+  too scare-
+>p:Rocky
+>talk:Rocky
+.
+* ANYWAY!! We did it! We 
+  beat Bearing!
+>p:ThormasHappy
+>talk:Thormas
+.
+* The world is saved!!
+>p:ThormasHappy
+>talk:Thormas
+.
+* ..."Saved".
+>p:KanakoNeutral
+.
+* But is it true that...
+* If we seal the fountain-
+>p:KanakoSad
+.
+* This world will end...?
+>p:KanakoSad
+END
+
+-
+
+@PostBossDefeat6
+* You didn't know that?!
+>p:ThormasShock
+>talk:Thormas
+.
+* Wait, you did?
+>p:KanakoOffended2
+.
+* Yeah! That's a thing!
+* Though not everyone is 
+  aware of it!
+>p:ThormasHappy
+>anim:Thormas:Happy
+.
+* Rocky was the one that 
+  told me!
+>p:ThormasHappy
+.
+* I wouldn't worry about 
+  it, though!
+>p:ThormasNormal
+.
+* As long as we made you 
+  happy, that we served our 
+  purpose-
+>p:ThormasNormal
+>face:Thormas:Right
+>talk:Thormas
+.
+* That's what matters to us.
+>talk:Thormas
+>p:ThormasNormal
+.
+* Just don't forget us, and 
+  all will be peachy.
+>p:ThormasHappy
+>talk:Thormas
+.
+* ...
+>p:KanakoNeutral
+.
+* Well, what you waiting 
+  for? 
+>p:ThormasNormal
+>talk:Thormas
+.
+* The elevator to the 
+  fountain's base is just 
+  over on the left!
+>p:ThormasNormal
+>talk:Thormas
+>face:Thormas:Left
+.
+* Me and Rocky will go back
+  home and celebrate before 
+  you close it, though!
+>p:ThormasNormal
+>talk:Thormas
+.
+* If you wanna join, come 
+  to the base!
+>p:ThormasHappy
+>talk:Thormas
+>face:Thormas:Right
+.
+[shake]* ONWARDS![/shake]
+>face:Thormas:South
+>talk:Thormas
+>p:ThormasHappy
+.
+* ...And thank you!
+>p:ThormasNormal
+>talk:Thormas
+END
+
+-
+
+@PostBossDefeat7
+* ...Well, I guess that's
+  it, then.
+>p:KanakoPuff
+.
+* Let's seal the fountain
+  and go home...?
+>p:KanakoPuff
+END
+
+------------------------------
+
+@PostBossCaught1
+* Hmph! So you are taking 
+  me back to that little 
+  prison?
+>p:BearingNormal
+.
+* Yeah, and you better
+  be quiet about it!
+>p:KanakoOffended2
+.
+* Hah.
+* So be it, so be it.
+>p:BearingLaugh
+.
+* [color=yellow]The Outlaw[/color] will break
+  us out again.
+>p:BearingLaugh
+.
+* You are just wasting your
+  time.
+>p:BearingNormal
+.
+* ...
+>p:KanakoSad
+>prompt:This is@for the best:...
+>promptredirect:PostBossCaught1P1:END
+END
+
+-
+
+@PostBossCaught1P1
+* For you, you two faced 
+  self serving hypocrites...
+>p:BearingNormal
+.
+* You'll learn the truth,
+  soon enough.
+>p:BearingLaugh
+.
+* But by then, it will be
+  too late.
+>p:BearingLaugh
+.
+* ...Screw you.
+>p:BearingNormal
+END
+
+-
+
+@PostBossCaught1P2
+* ...Tch.
+* You think this will 
+  change anything?
+>p:BearingLaugh
+.
+* You won't shoot, anyway.
+>p:BearingNormal
+.
+* To the bitter end, 
+  nothing but a plaything
+  to the lightners...
+>p:BearingNormal
+.
+* Let's see how long you
+  can keep the act going,
+  "cowboy".
+>p:BearingNormal
+.
+* Hahaha.
+>p:BearingLaugh
+END
+
+-
+
+@PostBossCaught2
+* ...That's that, huh?
+* So we seal the fountain 
+  now?
+>p:KanakoNeutral
+.
+* Though what did he mean 
+  at the end?
+>p:KanakoNeutral
+.
+* ...
+>p:KanakoSad2
+END
+
+-
+
+@PostBossCaught3
+* You guys did it!
+* You stopped Bearing!
+>talk:Thormas
+>p:ThormasHappy
+.
+* Yeah... We sure did!
+>p:KanakoNervous
+.
+* Awesome!
+>p:ThormasHappy
+>talk:Thormas
+.
+* ...
+>p:KanakoPuff
+.
+* Well, that's it.
+* You can go home now.
+>p:ThormasNormal
+>talk:Thormas
+.
+* Oh, um, I was kinda, 
+  y'know, expecting
+  something to happen.
+>p:KanakoPuff
+.
+* Like what? 
+>p:ThormasShock
+>talk:Thormas
+.
+* We don't really have 
+  anything to give you, 
+  if that's what you mean.
+>p:ThormasNormal
+>talk:Thormas
+.
+* Fountain room is on the
+  left, by the way.
+>p:Rocky
+>talk:Rocky
+.
+* Well I will be throwing a
+  party back at the base to
+  celebrate!
+>p:ThormasHappy
+>talk:Thormas
+.
+* Come join us before you
+  seal the fountain!
+>p:ThormasNormal
+>talk:Thormas
+.
+[shake]* ONWARDS!
+>p:ThormasHappy
+>talk:Thormas
+>face:Thormas:South
+END
+
+-
+
+@PostBossCaught4
+* ...Well that's a bit
+  anti-climatic.
+>p:KanakoPuff
+.
+* Let's just go home,
+  I guess.
+>p:KEEP
+END
+
+------------------------------
+
+@PostBossAngry1
+* Hng... You are stronger
+  than you look...
+>p:BearingNormal
+.
+* But... There is more at
+  line than just my life
+  here...
+>anim:Bearing:KO
+>p:BearingNormal
+.
+* You will not seal our
+  fountain!
+>p:BearingAngry
+.
+* Dude! Just stop!
+* We just wanna go home!
+>p:KanakoOffended2
+.
+* Shut it, lightner!
+* Take this!
+>p:BearingAngry
+>shakeanim:Bearing:Angry
+END
+
+-
+
+@PostBossAngry2
+* C-Cole...!
+>p:KanakoScared
+.
+* Why... you...!!
+>p:KanakoAngry2
+>face:Kanako:Right
+>shakeanim:Kanako:Angry1
+END
+
+-
+
+@PostBossAngry3
+* ...Cole...!
+>p:KanakoScared
+END
+
+-
+
+@PostBossAngry4
+* Cole! COLE!!
+* Are you okay...?!
+>p:KanakoScared
+.
+* Cole...
+* Please...
+* Talk to me...!
+>p:KanakoCry
+END
+
+-
+
+@PostBossAngry5
+* Oh! Thank goodness!
+* I...
+>p:KanakoCry
+.
+* If you didn't wake up...
+* I... I wouldn't know
+  what to do...
+>p:KanakoCry2
+.
+* ...
+>p:KanakoCry
+END
+
+-
+
+@PostBossAngry6
+* Oh, am I interrupting 
+  something?
+>p:ThormasShock
+>talk:Thormas
+.
+* No, no, it's just...
+>p:KanakoNervous
+.
+* Ah! I see! You just 
+  gave Bearing a good ol' 
+  wallop!
+>p:ThormasHappy
+>talk:Thormas
+.
+* So that means we are 
+  finally FREE!
+>p:ThormasHappy
+>talk:Thormas
+.
+* I... I guess so?
+>p:KanakoNervous
+.
+* Good! Well, our job is 
+  done!
+>p:ThormasNormal
+>talk:Thormas
+>anim:Thormas:Happy
+.
+* I'm heading back to the 
+  base to celebrate!
+* Feel free to join us!
+>p:ThormasNormal
+>talk:Thormas
+.
+[shake]* ONWARDS!
+>p:ThormasHappy
+>talk:Thormas
+END
+
+-
+
+@PostBossAngry7
+* ...I'm glad you are okay.
+>p:KanakoCry
+.
+* ...This day has been...
+* Exhausting...
+>p:KanakoSad2
+.
+* Let's just...
+* Seal the fountain and
+  go home. Please.
+>p:KEEP
+END
+
+-----------------------------
+
+@BearingLaunched
+* [shake]WooOoaaAAaaaAAH!
+>p:BearingSurprise
+END

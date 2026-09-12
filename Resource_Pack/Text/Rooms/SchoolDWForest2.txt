@@ -1,0 +1,631 @@
+@PencellerHint
+>redirectmap:PENCIL:PencellerHint2
+* [shake]Ugh...[/shake]
+* Y-You two...
+>tc
+.
+* Watch... Out...
+* For... THEM.
+>tc
+.
+* They are...
+* Hiding in the trees...
+>tc
+.
+* Don't run...
+* Just...
+>tc
+.
+* Stop.
+>tc
+>mapflag:PENCIL
+END
+
+--
+
+@PencellerHint2
+* [shake]Ough...
+>anim:Penceller:KO
+>tc
+END
+
+--
+
+@ThormasSkip1
+[shake]* HEEEEEEY!!
+>bleep:Thormas
+END
+
+-
+
+@ThormasSkip2
+* [shake]Huff... Huff...[/shake]
+* T-thanks for the help, 
+  guys. Really cool.
+>p:ThormasHurt
+>talk:Thormas
+.
+* You seemed like you
+  had things under 
+  control...
+>p:KanakoNervous
+.
+* Haha. Very funny.
+* C'mon guys, we are 
+  supposed to be a TEAM!
+>p:ThormasHurt
+>talk:Thormas
+.
+* The three- err, FOUR of 
+  us, standing up to that 
+  tyrant!
+>p:ThormasShock
+>talk:Thormas
+.
+* Look, we just don't care
+  about that. We just want
+  to go home.
+>p:KanakoOffended2
+.
+* Ouch. Fine, miss.
+* I will TRY not to get in 
+  your way anymore!
+>p:ThormasHurt
+>talk:Thormas
+.
+* Either way we are almost 
+  at the fortress now.
+* Just a little farther.
+>p:ThormasNormal
+>talk:Thormas
+.
+* Now excuse me while I 
+  charge ahead!
+>p:ThormasNormal
+>talk:Thormas
+END
+
+--
+
+@ThormasSkip3
+[shake]* YAAAAEEERGH!!
+>bleep:Thormas
+.
+* ...
+>p:KanakoNervous
+END
+
+--
+
+@WarpPadSign
+* Stepping on this glowing tile
+  will warp you back to the
+  forest's entrance.
+.
+* It is a one-way trip, so think
+  before stepping on it!
+END
+
+--
+
+@Sign2
+* You know you can run by
+  holding down [CANCEL], right?
+>mini:BLANK:(Unless you switched it in the settings)
+.
+* This info might be useful in the
+  nearby future, who knows.
+END
+
+--
+
+@SavePoint
+* Finally, after rushing through
+  the forest, you find a spot to
+  relax.
+>heal
+.
+* You are filled with a sense
+  of relief.
+>callsave
+END
+
+--
+
+HONVICH EVENTS ---------------------------------------------------------------
+
+@SnipperBridge1
+* We should be getting near
+  the fortress now...
+>p:KanakoNeutral
+.
+* How much longer even?
+* My legs are starting 
+  to hurt...
+>p:KanakoSad2
+.
+* ......?
+>p:KanakoPuff
+>anim:Kanako:SideLookUp
+END
+
+--
+
+@SnipperBridge2
+* C-COLE! RUN!
+>p:KanakoScared
+END
+
+--
+
+@AfterBridge1
+[wave]* Huff... Huff...
+* We... We made it...
+>p:KanakoNervous2
+END
+
+-
+
+@AfterBridge2
+* I wouldn't count on it.
+>bleep:Honvich
+END
+
+-
+
+@AfterBridge3
+* Predictable.
+* I thought lightners were
+  supposed to be smarter.
+>p:HonvichNormal
+.
+* You again!
+>p:KanakoOffended
+.
+* I knew that you two 
+  would try to sneak in
+  the fortress somehow.
+>p:HonvichSquint
+.
+* It was only a matter
+  of time, so I had this
+  little ambush set up.
+>p:HonvichNormal
+.
+* Did my pets cut off your
+  hair? [shake]HAHAHA!
+>mini:KanakoOffended2:...Of course those things would be yours.
+>p:HonvichNormal
+.
+* ...Please, we just want 
+  to go home.
+* Just let us pass, okay?
+>p:KanakoOffended
+.
+* Girl, do you even know
+  what will happen if you
+  seal the fountain?
+>p:HonvichSquint
+.
+* Of course you don't, 
+  or you wouldn't want 
+  to do it.
+>p:HonvichNormal
+.
+* But no matter.
+>p:HonvichNormal
+.
+* This is where we stop
+  you. You shall proceed 
+  no further.
+>p:HonvichNormal
+.
+* And with me, Von Honvich,
+  there is...
+>p:HonvichNormal
+END
+
+-
+
+@AfterBridge4
+[shake]* NO!
+* MERCY!
+>p:HonvichNormal
+END
+
+----------------------------------------------
+
+@HonvichStopFight
+* W-What did you do
+  to my troops?!
+>p:HonvichNormal
+.
+[shake]* STOP!
+* STOP THE FIGHT!
+>p:HonvichSquint
+END
+
+--
+
+@Honvich1Defeat
+* W-what?!
+* How are you this
+  strong...?!
+>p:HonvichHurt
+.
+[shake]* STOP!
+* STOP THE FIGHT!
+>p:HonvichHurt
+END
+
+--
+
+@HonvichDistract1
+* What are you doing?
+* Trying to communicate?
+* Is it your surrender?
+>p:HonvichSquint
+END
+
+--
+
+@HonvichDistract2
+* What fascinating behavior.
+* Are all lightners like
+  that?
+>p:HonvichSquint
+END
+
+--
+
+@HonvichDistract3
+* What is it trying
+  to communicate?
+* Hmmm...
+>p:HonvichSquint
+END
+
+---------------------------------------------
+
+@AfterBattle1Defeat
+* H-How...
+* These lightners...
+>p:HonvichHurt
+.
+* That's what you get
+  for messing with us!
+>p:KanakoOffended
+.
+* Now get out of the 
+  way!
+>p:KanakoOffended
+END
+
+-
+
+@AfterBattle1Spared
+* W-what?!
+* MEN! Why did you
+  stop fighting?!
+>p:HonvichNormal
+.
+* We, uh, don't really
+  feel like fighting
+  them.
+>anim:COOLPenceller:Idle
+>talk:COOLPenceller
+.
+* They're too nice-
+>anim:Ruler:Idle
+>talk:Ruler
+.
+[shake]* NONSENSE![/shake]
+* It is all a TRICK!
+>p:HonvichSquint
+>anim:Ruler:Hurt
+>anim:COOLPenceller:Hurt
+END
+
+-
+
+@AfterBattle1GoonsDefeated
+* M-My troops!
+* You SAVAGES!
+>p:HonvichHurt
+.
+* Serves you right!
+* Now let us pass!
+>p:KanakoOffended
+.
+* .....
+>p:HonvichHurt
+END
+
+-
+
+@AfterBattle1Captured
+* What have you done
+  to my troops!?
+>p:HonvichHurt
+.
+* Where did you send 
+  them?!
+>p:HonvichHurt
+.
+* Somewhere you should
+  have been too!
+>p:KanakoOffended
+END
+
+---
+
+@AfterBattle2
+* Seems there might have 
+  been...
+* A miscalculation.
+>p:HonvichSquint
+.
+* MEN! We retreat! Back
+  to the fortress!
+>p:HonvichNormal
+.
+* This isn't over yet,
+  lightners!
+>p:HonvichSquint
+.
+* Next time, there will
+  absolutely be NO MERCY!
+>p:HonvichHappy
+END
+
+--
+
+@AfterBattle3
+* [wave]Phew...[/wave]
+* Glad that's over...
+>p:KanakoHurt
+.
+* The fortress should
+  be up ahead...
+* Let's...
+>p:KanakoSad2
+.
+* Let's just keep
+  going...
+>p:KanakoNervous
+>prompt:You holdin'@up alright?:Let's go.
+>promptredirect:AfterBattle3A:AfterBattle3B
+END
+
+--
+
+@AfterBattle3A
+* ...
+>p:KanakoSad2
+END
+
+--
+
+@AfterBattle3A2
+* I... will manage.
+>p:KanakoSad2
+.
+* There’s just so much 
+  happening at once-
+>p:KanakoSad2
+.
+* I kind of got a bit 
+  overwhelmed...
+>p:KanakoSad2
+.
+* I just can’t stop 
+  thinking about it...
+>p:KanakoSad
+.
+* About how worried our 
+  families might be.
+* Wondering where we are.
+>p:KanakoSad
+.
+* ...I'm just...
+* Tired...
+>p:KanakoSad2
+>prompt:I'm tired@too.:Gotta do@what we can.
+>promptredirect:AfterBattle3A2A:AfterBattle3A2B
+END
+
+--
+
+@AfterBattle3A2A
+* Haa... glad I am not the 
+  only one.
+>p:KanakoNervous
+END
+
+--
+
+@AfterBattle3A2B
+* Yeah, moping around is 
+  not gonna do much...
+>p:KanakoNervous
+END
+
+--
+
+@AfterBattle3A3
+* ...Heh.
+>p:KanakoHappy2
+END
+
+--
+
+@AfterBattle3A4
+* ...Thanks. I should be 
+  alright now. 
+>p:KanakoNervous
+.
+* Let’s find a way out of 
+  here.
+>p:KanakoHappy
+END
+
+--
+
+@AfterBattle3A5
+* Oh and...
+>p:KanakoNervous
+.
+* Thanks for sticking with 
+  me, Cole. I mean it.
+>p:KanakoHappy2
+END
+
+--
+
+@AfterBattle3B
+* ...Yeah.
+* Lead the way.
+>p:KanakoNervous
+END
+
+
+----------------------------------------
+
+@Foxlace6
+[shake]* HEEEEY!
+END
+
+@Foxlace7
+* Oh good! I managed to 
+  catch up!
+>p:ThormasNormal
+>talk:Thormas
+.
+* We are almost out of 
+  the forest now!
+>p:ThormasNormal
+.
+* Up ahead should be the 
+  place! 
+  We are so close now!
+>p:ThormasHappy
+>talk:Thormas
+.
+* ...Uh, what's wrong?
+>p:ThormasNormal
+>talk:Thormas
+.
+* You look like you haven't 
+  been well rested for a 
+  while!
+>p:ThormasNormal
+>talk:Thormas
+.
+* W-well...
+>p:KanakoNervous
+.
+* You should drink some more
+  water, lass, but that can 
+  WAIT.
+>p:ThormasNormal
+>talk:Thormas
+.
+* We are so close now, I can 
+  almost taste our [shake]freedom!
+>p:ThormasNormal
+>talk:Thormas
+.
+[shake]* ONWARDS!!
+>talk:Thormas
+>p:ThormasHappy
+END
+
+@Foxlace8
+* ......
+>p:KanakoNervous
+END
+
+---
+
+@ThormasSave1
+* G-Guys! They're HERE!!
+>p:ThormasHurt
+>talk:Thormas2
+.
+* Who?
+>p:KanakoPuff
+.
+* THEM!
+>talk:Thormas2
+>p:ThormasHurt
+END
+
+-
+
+@ThormasSave2
+* Phew, thanks guys, I'd
+  surely be toast without
+  your help!
+>p:ThormasHappy
+>top:lock
+>talk:Thormas2
+.
+* ANYWAY we should be 
+  pretty close now!
+* C'mon!
+>p:ThormasNormal
+>talk:Thormas2
+.
+[shake]* ONWARDS!
+>p:ThormasHappy
+>talk:Thormas2
+END
+
+-
+
+@ThormasSave3
+* ......
+>p:KanakoNervous
+END
+
+-
+
+@PencellerBridge
+>redirectmap:PBridge:PencellerBridge2
+* Hey someone broke the bridge,
+  so I set up some vents to
+  push you across!
+>tc
+.
+* Make it like the wind, and 
+  [wave]FLYYYYYY[/wave]!
+>shakeanim:PencellerRider2:Hurt
+>mapflag:PBridge
+.
+* Or something, have fun!
+>anim:PencellerRider2:Idle
+>tc
+END
+
+@PencellerBridge2
+* Whose's the maniac that did 
+  this, anyway?
+>tc
+END
+
+-
+
+@ActXSign
+* If you ever see an act with
+  this icon [img]res://Sprites/Menus/Menu Sprites/ALLIcon.tres[/img]
+.
+* It means that the selected
+  action will use EVERYONE'S
+  turns!
+.
+* So think before selecting
+  it!
+.
+* (And remember to check behind
+  trees!)
+END

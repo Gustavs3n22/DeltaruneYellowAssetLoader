@@ -1,0 +1,610 @@
+@TVGuy1
+* Waiting for a tram to another
+  Dark World...
+>tc
+.
+* Maybe one with flashing lights...
+* A big TV studio...
+* A perfect place for me...
+>tc
+.
+* But I don't think that line
+  runs through here...
+* What to do...
+>tc
+END
+
+-
+
+@TVGuyHint
+* Lately, I've been having a 
+  strange dream...
+>tc
+.
+* It feels like some numbers are
+  being beamed directly into my
+  mind... Going up and down...
+>tc
+.
+* 45... 27... 72... 45... 0...
+>tc
+.
+* I have no idea what it means...
+* But it keeps repeating...
+>tc
+END
+
+-
+
+
+@FactoryMiddleSign
+>bleep:System
+[color=green]* TRAM STATION UP AHEAD.
+.
+>bleep:System
+[color=green]* (DUE TO POTENTIAL LIGHTNER
+  INVASION, THE PATH IS BLOCKED.)
+.
+>bleep:System
+[color=green]* (GO TO THE SIDE ROOMS TO
+  UNLOCK IT IF YOU NEED TO USE
+  THE TRAM.)
+END
+
+--
+
+@FactorySignLeft
+>bleep:System
+[color=green]
+* LEFT TO ASSEMBLY ROOM.
+END
+
+--
+
+@FactorySignRight
+>bleep:System
+[color=green]
+* RIGHT TO SORTING ROOM.
+END
+
+--
+
+@FactoryCrateWarn
+>bleep:System
+[color=green]* WATCH OUT FOR FALLING BLOCKS.
+.
+>redirect:FactoryRunReminder
+END
+
+--
+
+@FactoryRunReminder
+>bleep:System
+[color=green]* ROBOTS! REMEMBER YOU CAN RUN
+  BY HOLDING DOWN [CANCEL]!
+END
+
+--
+
+@FactoryLock
+>bleep:System
+[color=green]* LOCK DISENGAGED.
+END
+
+--
+
+@FactoryLockTalk1
+* Nice, only one more 
+  to go!
+>p:KanakoHappy
+.
+* We should be able to 
+  reach the tram in no 
+  time!
+>p:KanakoTongue
+.
+* THIS WAS TOO EASY.
+>p:AxisNormal
+.
+* AS THE KIDS WOULD SAY,
+  "SOMETHING IS AMISS."
+>p:AxisBored
+.
+* Hey, don't say that,
+  you'll jinx it.
+>p:KanakoPuff
+END
+
+--
+
+@WrenchFactoryNPC
+>redirectmap:Wrench:WrenchFactoryNPC2
+* ...What?
+>tc
+.
+* Uh, are you not going
+  to fight us?
+>p:KanakoPuff
+.
+* Fight? No. I'm on break.
+>tc
+>mapflag:Wrench
+END
+
+--
+
+@WrenchFactoryNPC2
+* If you want to fight so badly,
+  talk to the guy on the other
+  corridor.
+>tc
+.
+* Let me enjoy my break in
+  peace, [wave]please!
+>tc
+END
+
+--
+
+
+@FactoryLockTalk2
+* That should be both locks!
+* Let's catch that tram!
+>p:KanakoTongue
+END
+
+--
+
+@FactoryLockTalk2Alt
+* Ugh, finally. Let's get
+  that tram and head to the
+  Spire now.
+>p:KanakoAnnoyed
+END
+
+--
+
+@FactoryLockTalk2_2
+>bleep:System
+[color=green]
+* WARNING!
+.
+>bleep:System
+[color=green]* CORRUPTED CONSTRUCT DETECTED.
+.
+>bleep:System
+[color=green]* INITIATING TRANSPORT SYSTEM.
+.
+>redirect:FactoryLockTalk2_3
+END
+
+--
+
+@FactoryLockTalk2_3
+* Um... What...?
+>p:KanakoDumb
+END
+
+--
+
+@FactoryLockTalk2_4
+* AXIS!
+>p:KanakoSurprise
+.
+* FRET NOT, MISS KANAKO.
+* I AM FINE.
+>p:AxisNormal
+.
+* JUST KEEP GOING ON 
+  AHEAD, I WILL CATCH
+  UP.
+>p:AxisNormal
+END
+
+--
+
+@FactoryLockTalk2_5
+* ...
+>p:KanakoDumb
+.
+* Well... Alright.
+* Let's go, Cole...?
+>p:KanakoNervous
+END
+
+--
+
+@FactoryLockTalk2_Alt1
+[shake]* WOAH WOAH WOAH-
+* WHAT?!?!
+>p:KanakoSurprise
+.
+* WHAT'S GOING ON!?!!
+* PUT ME DOWN!!
+>p:KEEP
+.
+* C-COLE!! HELP!!!
+>p:KEEP
+END
+
+--
+
+@FactoryLockTalk2_Alt2
+* LOOKS LIKE THE SYSTEM 
+  MISTOOK HER FOR A FAULTY
+  UNIT.
+>p:AxisSad
+.
+* DO NOT WORRY, HUMAN. I AM
+  SURE SHE WILL BE FINE.
+>p:AxisNormal
+.
+* MAYBE THE CRANE TOOK HER
+  TO THE TRAM STATION FOR
+  TRANSPORT.
+>p:KEEP
+.
+* LET'S MEET HER UP THERE.
+>p:KEEP
+END
+
+--
+
+@KanakoTramTalk0
+* Okay, we are finally
+  here.
+>p:KanakoPuff
+.
+* Hope the tram doesn't
+  take too long.
+>p:KanakoNormal
+END
+
+--
+
+@AxisTramTalk0
+* THIS IS THE TRAM STATION.
+>p:AxisNormal
+.
+* I DO SEE MISS KANAKO
+  ANYWHERE, BUT MAYBE THE
+  SYSTEM TOOK HER AHEAD.
+>p:AxisNormal
+.
+* LET'S CATCH THE TRAM AND
+  CHECK.
+>p:AxisNormal
+END
+
+--
+
+@KanakoTramTalk1
+* Oh, still have stuff
+  to do here?
+>p:KanakoPuff
+.
+* I guess we have time.
+* We'll take the next
+  tram.
+>p:KanakoNormal
+END
+
+--
+
+@AxisTramTalk1
+* UH, YOU JUST MISSED THE
+  TRAM. YOU SLOW OR 
+  SOMETHING?
+>p:AxisAngry
+.
+* MAKE SURE TO CATCH THE
+  NEXT ONE.
+>p:AxisBored
+END
+
+--
+
+@KanakoTramTalk2
+* Uh, Cole?
+>p:KanakoOffended2
+.
+* Is something wrong?
+>p:KanakoOffended2
+END
+
+--
+
+@AxisTramTalk2
+* YOU MISSED IT AGAIN!!
+>p:AxisAngry
+.
+* ARE YOU AFRAID OF TRAMS?
+* IS THAT A NORMAL HUMAN
+  CONDITION?
+>p:AxisAngry
+.
+* JUST GET THE NEXT ONE,
+  PLEASE.
+>p:AxisBored
+END
+
+--
+
+@KanakoTramTalk3
+* ........
+>p:KanakoOffended2
+END
+
+--
+
+@AxisTramTalk3
+* YOU MUST BE MESSING WITH
+  ME ON PURPOSE AT THIS 
+  POINT.
+>p:AxisBored
+.
+* JUST. BOARD. THE. TRAM.
+>p:AxisAngry
+END
+
+--
+
+@TramGuy0
+* Hey, you two.
+* Waiting for the tram?
+>talk:Wrench
+.
+* The next one for the Spire
+  should be arriving soon.
+>talk:Wrench
+END
+
+--
+
+@TramGuyB0
+* I'm waiting for another
+  tram. Doesn't seem like it
+  is coming anytime soon...
+>talk:Wrench
+END
+
+--
+
+@TramGuy1
+* Uh, dude?
+* You missed the tram.
+>talk:Wrench
+.
+* Oh wait, there comes another
+  one.
+>talk:Wrench
+END
+
+--
+
+@TramGuyB1
+* Will you board it this time?
+>talk:Wrench
+END
+
+--
+
+@TramGuy2
+* Uh, you okay dude?
+>talk:Wrench
+.
+* Here comes another tram...
+>talk:Wrench
+END
+
+--
+
+@TramGuyB2
+* ...None of those go to
+  where I want to go...
+>talk:Wrench
+END
+
+--
+
+@TramGuy3
+* ...And another...
+>talk:Wrench
+END
+
+--
+
+@TramGuyB3
+* ...
+>talk:Wrench
+END
+
+--
+
+@TramPrompt
+* Board the tram?
+>prompt:Yes:Not yet
+END
+
+-
+
+@TramStopped
+* Seems the trams aren't 
+  running anymore today.
+>tc
+.
+* Some sort of accident
+  happened or something?
+>tc
+.
+* Crud...
+* How will I get home now?
+>tc
+END
+
+-
+
+@TramGuyFixed
+* Seems someone fixed the trams
+  and they are much faster now.
+>tc
+.
+* But when will the tram to the
+  area I want to go arrive?
+>tc
+.
+* All the ones are just to the
+  Spire...
+>tc
+.
+* ...Here comes another one.
+>tc
+END
+
+-
+
+@TramGuyFixed2
+* Here comes another one...
+* For the Spire yet again...
+>tc
+END
+
+-
+
+@TramGuyFixedB
+* Off you go I guess?
+>tc
+END
+
+-
+
+@AxisBlocker
+>redirect:KanakoTakenByCraneD2:AxisBlockerAlt
+* Wait, Axis told us to go
+  on and he would meet up.
+>p:KanakoNormal
+>top:lock
+.
+* If we go back we might
+  miss him.
+>p:KanakoPuff
+END
+
+-
+
+@AxisBlockerAlt
+* WHERE ARE YOU GOING?
+* I AM SURE MISS KANAKO
+  IS JUST UP AHEAD.
+>p:AxisAngry
+.
+* LET'S GO SO WE DON'T
+  MISS HER BY ACCIDENT.
+>p:AxisNormal
+END
+
+-
+
+@TradingKid1
+* Hey man, do you have a Penilla
+  trading card?
+.
+* I'm willing to trade it if you
+  have one.
+.
+* Just don't forget me if you find
+  one, okay? People tend to forget
+  me.
+END
+
+-
+
+@TradingKid2
+* Hey, you have the card!
+* So, wanna trade it for this
+  Frostermit one?
+.
+* I swear it is in mint 
+  condition! Was very careful to
+  not dip oil on it.
+>prompt:Trade:Don't
+>promptredirect:TradingKid2A:TradingKid2B
+END
+
+-
+
+@TradingKid2A
+* Thanks, man! Here it is!
+.
+* (You traded your PENILLA card
+  for a FROSTERMIT one.)
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@TradingKid2B
+* C'mon man, pleeeease?
+END
+
+-
+
+@TradingKid3
+* Hope you don't forget about
+  me now that you got something
+  you wanted.
+.
+* You won't forget me, right?
+END
+
+-
+
+@SprayItem
+* What's that on the floor?
+>p:KanakoPuff
+.
+* SEEMS TO BE SOME SORT OF
+  SPRAY NOZZLE FROM SOME
+  MACHINE.
+>p:AxisNormal
+.
+* So it's junk, then?
+>p:KanakoPuff
+.
+* WHAT? NO!
+* WHO KNOWS WHAT THAT COULD
+  BE REPURPOSED INTO!
+>p:AxisAngry
+.
+* WE SHOULD TAKE IT.
+>p:KEEP
+.
+* ...Alright, I guess it
+  wouldn't hurt to recycle
+  this thing...
+>p:KanakoNervous
+.
+* (You got the Broken Sprayer.)
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@SprayItem2
+* There seems to be some sort
+  of broken sprayer thing on
+  the floor.
+.
+* You wonder if it could be useful
+  for something.
+.
+* You picked up the Broken Sprayer.
+>sound:snd_item_ch1.wav
+END
+
+-
+
+@JunkPileCheck
+* An ordinary assortment of
+  junk.
+END

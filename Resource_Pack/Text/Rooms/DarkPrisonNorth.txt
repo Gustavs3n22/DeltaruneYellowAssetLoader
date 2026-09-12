@@ -1,0 +1,331 @@
+@HonvichD1
+* Why did you even bring me
+  here? To keep me as a
+  trophy?
+>p:HonvichNormal
+.
+* Hmph.
+* Kids these days...
+>p:HonvichSquint
+END
+
+-
+
+@HonvichD1Innocents
+* Hmph. So, is your plan to
+  just gather all darkners
+  here?
+>p:HonvichNormal
+.
+* Not really?
+>p:KanakoPuff
+.
+* Then why did you bring us
+  here?
+>p:HonvichSquint
+.
+* Don't you know what will
+  happen if you just bring
+  people willy-nilly here?
+>p:HonvichSquint
+.
+* I swear, kids these 
+  days...
+>p:HonvichSquint
+END
+
+--
+
+@HonvichD2
+* So what is your plan
+  in the end?
+>p:HonvichNormal
+.
+* Keep playing pretend with
+  that old fool?
+>p:HonvichSquint
+.
+* Hmph. Have fun while you
+  still can.
+>p:HonvichNormal
+END
+
+--
+
+@HonvichD2Innocents
+* The more darkners you
+  bring that are 
+  purposeless,
+>p:HonvichNormal
+.
+* The more of them will 
+  become lost.
+>p:KEEP
+.
+* You think just gathering
+  any willy nilly will make
+  you happy?
+>p:HonvichSquint
+.
+* Why don't you go look in
+  a mirror, then?
+>p:KEEP
+END
+
+--
+
+@DrillerPrison
+* Alert! Wall integrity detected!
+* [shake]Must... Refrain... From...[/shake]
+* [shake]DRILLING!!
+END
+
+--
+
+@RulerPrison
+* Hey, this place is pretty nice!
+* Perfect 90º angles everywhere!
+END
+
+--
+
+@PenniltonPrison
+* You can't keep me forever!
+* I will figure a way to 
+  escape again...
+>tc
+.
+* And then I'll show everyone 
+  I'm [shake]NUMBER ONE!!
+>tc
+END
+
+--
+
+@Signs
+* "Cells for small time criminals."
+END
+
+--
+
+@SyrupSnitch
+* Oh, it is you.
+* What do you want?
+>p:SyrupAnnoyed
+.
+* You mentioned something
+  about some plan when you
+  were being captured?
+>p:KanakoNeutral
+.
+* Yes? What is it to ya?
+* You wanna try to stop us?
+>p:SyrupAnnoyed
+.
+* Hah! Good luck. You'll
+  get nothing from me
+  after what you did!
+>p:SyrupManic
+.
+* I just wanted to make
+  Robotopia finally be ruled
+  by competent people!
+>p:SyrupAnnoyed
+.
+* Like me! And Tosty!
+>p:SyrupNormal
+.
+* ...And I guess the other
+  guy.
+>p:SyrupAnnoyed
+.
+* Anyway don't go sneaking
+  around my shop while I'm
+  here,
+>p:SyrupAngry
+.
+* Just leave everything as
+  is, okay?!
+>p:SyrupAngry
+>setflag:SyrupSnitched
+END
+
+--
+
+@SyrupPostSnitch
+* Leave my shop alone, you
+  hear?!
+>p:SyrupAngry
+END
+
+--
+
+@SyrupCoffeeD2
+* Ugh. Now I gotta share a 
+  cell with THIS guy??
+>p:SyrupAngry
+.
+* Great. Just great.
+* This day keeps getting
+  better and better...
+>p:SyrupAnnoyed
+END
+
+--
+
+@SyrupPostFountain
+* So, Robotopia is gone...
+* Hope you are proud of
+  yourselves.
+>p:SyrupAnnoyed
+.
+* You have NO idea what you
+  are doing.
+>p:KEEP
+END
+
+--
+
+@LegoDeer
+* This place's construction...
+* I suppose it is SOMEWHAT 
+  acceptable.
+.
+* But would be better with some
+  decorated plastic flowers or
+  studs here and there.
+END
+
+--
+
+@NineTails
+* Hey, you got a TV in this place?
+>tc
+.
+* It's so boring without being
+  able to plug into something!
+>tc
+END
+
+--
+
+@BunBun
+* ...I'm sorry for all the
+  trouble I've caused.
+>p:BunBunSad2
+.
+* The Warden has made me a
+  special harness to 
+  suppress the bat.
+>p:BunBunSad
+.
+* [shake]-HMMMPH!!-
+>p:Bat
+.
+* So, at least I won't have
+  to listen to it anymore.
+>p:BunBunContent
+.
+* ...That's good.
+>p:KanakoNervous
+.
+* Sorry for what we had to 
+  do, though.
+>p:KanakoSad
+.
+* ...It wasn't your fault,
+  Kanako.
+>p:BunBunSad
+.
+* You did the right thing.
+>p:BunBunContent
+.
+* Just go out there and do
+  what must be done.
+>p:BunBunContent
+.
+* I believe in you.
+>p:BunBunHappy
+>mini:Bat:* HMMMPH!! HMMMMMMPH!! *
+>setflag:BunBunJailTalk
+END
+
+--
+
+@BunBun2
+* Don't worry about me.
+>p:BunBunSad
+.
+* Go out and do what you
+  must.
+>p:BunBunContent
+>mini:Bat:* HMMMPH!! *
+END
+
+--
+
+@CoffeeGuyD2
+>redirectmap:Coffee:CoffeeGuyD2S2
+* Couldn't you fools have
+  at least sent me to a 
+  better cell?
+>p:JoeAngry
+.
+* This is far below my
+  standards!
+>p:KEEP
+.
+>redirect:SyrupCapture:CoffeeGuyD2S
+* At least I don't have to
+  share it with anyone else!
+>p:KEEP
+END
+
+-
+
+@CoffeeGuyD2S
+* Hmph. It fits you well
+  enough, you con man.
+>p:SyrupAnnoyed
+.
+* Watch your mouth, wench!
+>p:JoeAngry
+.
+* If you and Toster had 
+  pulled your weight, the
+  plan would have worked!
+>p:KEEP
+.
+* And we wouldn't be in 
+  this DUMP!
+>p:KEEP
+.
+* Psh. Please, you were the
+  one playing house in Robo
+  Town-
+>p:SyrupAngry
+.
+* While me and Tosty kept
+  busting our asses over 
+  at the Spire!
+>p:KEEP
+.
+[shake]* Silence! Shut up![/shake]
+* I don't want to hear no
+  more from you!
+>p:JoeAngry
+.
+* If you can't handle the
+  heat, don't get in the
+  kitchen then, fool.
+>p:SyrupSmug
+>setmap:Coffee
+END
+
+-
+
+@CoffeeGuyD2S2
+* ...I have nothing
+  else to say to you.
+>p:JoeAngry
+END

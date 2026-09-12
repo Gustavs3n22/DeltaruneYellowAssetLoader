@@ -1,0 +1,1627 @@
+@SavePrison
+>redirect:WeirdStart:SaveWeird
+* You feel safe despite the 
+  oppressive feel of this 
+  prison.
+>heal
+.
+* You are filled with a sense 
+  of safety.
+>callsave
+END
+
+----
+
+@WardenTutorial1
+* Alright, listen well
+  ye two-
+>p:WardenNormal
+.
+* To apprehend a criminal,
+  ye must first gather TP
+  to be able to ACT.
+>p:WardenNormal
+.
+* Once ye have 40% TP,
+  have Cole use the
+  [color=yellow]APPREHEND ACT[/color].
+>p:WardenNormal
+.
+* Ye can gain TP by grazing
+  bullets or by defending.
+>p:WardenNormal
+.
+* Now, come at me.
+>p:WardenNormal
+END
+
+---
+
+
+@WardenTutorial2
+* I see ye have enough
+  TP now.
+>p:WardenNormal
+.
+* Try to use the APPREHEND
+  ACT on me.
+>p:WardenNormal
+.
+* Though keep in mind:
+  weakening yer enemy
+  makes it easier.
+>p:WardenNormal
+.
+* Just be careful not to
+  deplete yer enemy's HP
+  or they'll flee.
+>p:WardenNormal
+.
+* Cole's NON-LETHAL SHOT
+  ACT can deplete enemy
+  HP without that risk.
+>p:WardenNormal
+.
+* Now, let us proceed.
+>p:WardenNormal
+END
+
+--
+
+@WardenTutorial3
+* Now now, if ye fail an
+  apprehension-
+>p:WardenNormal
+.
+* Then maybe the criminal's
+  HP is still too high.
+>p:WardenNormal
+.
+* Try lowerin' their HP
+  and try again.
+>p:WardenNormal
+END
+
+
+@WardenExpositionListenEarlier
+* Alright, enough mystery.
+>p:KanakoOffended
+.
+* Tell us what exactly is
+  happening here.
+>p:KEEP
+.
+* What exactly does being a
+  "lightner" mean?
+>p:KEEP
+.
+* Why are people hunting
+  us because of that?
+>p:KEEP
+.
+* ...
+>p:WardenNormal
+.
+* Very well. I shall tell
+  you the tale of the Dark
+  Worlds.
+>p:KEEP
+END
+
+-----
+
+
+@WardenExpositionProper1
+* Now, hear me out well...
+>p:WardenNormal
+END
+
+-----
+
+
+@LegendCS1
+* This world is split...
+.
+* Split into two equal halves:
+.
+* LIGHT...
+.
+* And DARK...
+.
+* For millenia, both sides
+  existed in harmony.
+END
+
+-----
+
+@LegendCS2
+* But this is a thin balance.
+.
+* If one side overtakes the
+  other...
+.
+* The world will end.
+END
+
+-----
+
+@LegendCS3
+* While the Light World
+  has always existed...
+.
+* The Dark Worlds need to
+  be given form.
+.
+* By creating FOUNTAINS,
+  darkners come to life from
+  lighters' fiction.
+END
+
+-----
+
+@LegendCS4
+* But too many fountains will
+  throw off the balance of LIGHT
+  and DARK.
+.
+* And [color=yellow]someone[/color] is working
+  on just that.
+END
+
+-----
+
+@LegendCS5
+* The most dangerous outlaw,
+  someone who thinks they can mess
+  with this delicate balance.
+.
+* Said being must be brought
+  to justice.
+.
+* Not just for the sake of
+  LIGHT, but also DARK.
+END
+
+-----
+
+@WardenExpositionProper2
+* This someone, the one
+  messin' with the balance
+  of light an' dark...
+>p:WardenNormal
+.
+* Ah call 'em [color=yellow]The Outlaw[/color].
+>p:KEEP
+.
+* ...
+>p:KanakoOffended
+.
+* So you want us to "catch"
+  this outlaw guy?
+>p:KEEP
+.
+* That's a simple way to
+  put it, but yes.
+>p:WardenNormal
+.
+* If ye can catch up the
+  criminals that escaped
+  this jail-
+>p:KEEP
+.
+* Ye can return home.
+>p:KEEP
+.
+* ...Look, that is a tall
+  order.
+>p:KanakoOffended
+.
+* We can't just go around
+  fighting and arresting
+  people!
+>p:KEEP
+.
+* We don't even know who is
+  or who isn't wanted!
+>p:KEEP
+.
+* Not to worry.
+>p:WardenNormal
+.
+* Ah have a list.
+>p:KEEP
+>mini:KanakoOffended2:...
+.
+* Here, ah wrote it all
+  down in these here
+  wanted posters.
+>p:WardenNormal
+.
+* (You got the Wanted Posters.)
+>sound:snd_item_ch1.wav
+.
+* Ye'll also need this.
+>p:WardenNormal
+.
+* (You got the Magic Lasso.)
+>sound:snd_item_ch1.wav
+.
+* This here lasso'll let
+  you snatch any darkner
+  and bring 'em here.
+>p:WardenNormal
+.
+* But please keep it only
+  to the criminals in the
+  wanted posters.
+>p:WardenNormal
+.
+* ...No need to drag
+  innocents into this.
+>p:WardenCover
+.
+* ...Fine we will help you.
+* As long as it leads us
+  back home.
+>p:KanakoSad2
+.
+* ...Where should we head
+  first?
+>p:KanakoOffended
+.
+* Just head to the east
+  exit and return to the
+  place ye were in before.
+>p:WardenNormal
+.
+* There you will find the
+  criminals and that
+  world's [color=yellow]fountain[/color].
+>p:KEEP
+.
+* If ye seal the fountain,
+  you should return to the
+  Light World.
+>p:KEEP
+.
+* ...Got it.
+>p:KanakoNeutral
+.
+* So Cole, guess that's how
+  we are doing this.
+>p:KEEP
+.
+* I trust your judgement.
+* So let's catch these
+  criminals-
+>p:KanakoOffended
+.
+* Seal the fountain, and
+  return home!
+>p:KanakoOffended
+.
+* Ah, one more thing.
+>p:WardenNormal
+.
+* If ye want, I can teach
+  you how to [color=yellow]apprehend[/color] the
+  criminals.
+>p:KEEP
+.
+* Would ya like to know
+  how?
+>p:KEEP
+>prompt:Yes, please:No, Thanks
+END
+
+-----
+
+@WardenPostTutorial
+* ...That was... something.
+>p:KanakoOffended2
+.
+* ...I trust ye now know
+  all ye need to know.
+>p:WardenNormal
+.
+* Now, go forth, kids!
+* I eargerly await yer
+  return.
+>p:KEEP
+END
+
+-----
+
+@WardenPostTutorialBeatUp
+* ...What are yer 
+  doin'...??
+>p:WardenCover
+.
+* Ye can't just deplete
+  all their HP, they will
+  escape.
+>p:WardenNormal
+.
+* ...Bah, no matter.
+>p:WardenNormal
+.
+* I trust ye know how to
+  handle yerselves.
+>p:WardenNormal
+.
+* Just... Be careful 
+  swingin' that thing
+  around, lass.
+>p:WardenCover
+.
+* Ah'll be waiting.
+>p:WardenCover
+END
+
+-----
+
+@WardenTutorialRefused
+* ...Very well.
+>p:WardenNormal
+.
+* Ah shall be waitin' for the
+  criminals you apprehend to
+  show up here.
+>p:KEEP
+* Don't keep me waitin' for
+  long.
+>p:KEEP
+END
+
+-----
+
+@PrisonCenterLock
+* A gigantic lock seals this room.
+.
+* You won't be getting in here
+  anytime soon.
+END
+
+@WardenExpositionPrompt
+* Are ye ready to listen to
+  my story?
+>p:WardenNormal
+>prompt:Yes:No
+END
+
+-----
+
+@WardenExpositionPromptRefuse
+* Until you hear me out,
+  ye can't leave here.
+>p:WardenNormal
+END
+
+-----
+
+@WardenExpositionNoListenEarlier
+* Ye didn't listen to me
+  earlier-
+>p:WardenNormal
+.
+* But I know a way for
+  yer both to return home.
+>p:WardenNormal
+.
+* All I need is fer ye to
+  catch some [color=yellow]criminals[/color]
+  fer me.
+>p:KEEP
+.
+* ...Criminals?
+>p:KanakoOffended
+.
+* Aye.
+>p:WardenNormal
+.
+* Tis' here is the
+  [color=yellow]Dark Jail[/color].
+>p:KEEP
+.
+* Tis' is where all the
+  most nefarious criminals-
+>p:KEEP
+.
+* In the [color=yellow]Dark Worlds[/color]
+  used to be kept.
+>p:KEEP
+.
+* ...Until [color=yellow]someone[/color] let
+  them out.
+>p:KEEP
+.
+* So, my request is pretty
+  simple.
+>p:KEEP
+.
+* Ah just need you lot to
+  fetch the criminals and
+  bring them back here.
+>p:KEEP
+.
+* Yer [color=yellow]lightners[/color]. You can
+  travel between the Dark
+  Worlds.
+>p:KEEP
+.
+* Yer the only ones that
+  can do it.
+>p:KEEP
+.
+* ...
+>p:KanakoOffended
+.
+* "Lightner"...
+* Everyone has been
+  calling us that today.
+>p:KEEP
+.
+* What exactly does it
+  mean?
+>p:KEEP
+.
+* ...
+>p:WardenNormal
+.
+* Enough mystery, eh?
+* I shall tell you the
+  tale of the Dark Worlds.
+>p:KEEP
+END
+
+----
+
+@PrisonBookshelf
+* Many books about various types of
+  criminal activity.
+.
+* You spy some western books as
+  well.
+* Maybe you'll peruse sometime.
+END
+
+-----
+
+@WardenPostEvent
+* Yer path is clear.
+>p:WardenNormal
+.
+* Head to the eastern room
+  to return to the Dark
+  World ye were in before-
+>p:KEEP
+.
+* And ye should be able to
+  seal their fountain.
+>p:KEEP
+.
+* But don't forget to catch
+  those criminals on the
+  way.
+>p:KEEP
+END
+
+-----
+
+@WardenEndDay1W
+* ...I hope you
+  change yer minds.
+>p:WardenCover
+END
+
+---
+
+@WardenEndDay1
+* Exit is down south.
+>p:WardenNormal
+.
+* Good luck, kids.
+>p:KEEP
+>redirect:WeirdStart:WardenEndDay1W
+END
+
+---
+
+@DarkJailEraser1
+* Hey, this place ain't so bad.
+>tc
+.
+* At least there is free water.
+>tc
+END
+
+-----
+
+@WardenDay1CaptureSome
+* Welcome back.
+>p:WardenNormal
+.
+* I noticed ye didn't
+  catch all criminals.
+>p:WardenNormal
+.
+* ...Sorry.
+>p:KanakoNeutral
+.
+* It's alright.
+>p:WardenNormal
+.
+* Ah'll try to figure
+  out a way to catch
+  'em.
+>p:WardenNormal
+.
+* But right now, ye
+  both should return
+  home.
+>p:WardenNormal
+.
+* About that...
+>p:KanakoPuff
+END
+
+-----
+
+@WardenDay1CaptureNone
+* ...
+>p:WardenCover
+.
+* Ye didn't catch a
+  single criminal.
+>p:WardenCover
+.
+* ...Sorry.
+>p:KanakoNeutral
+.
+* ...It's alright.
+>p:WardenNormal
+.
+* Ah'll try to figure
+  out what to do next
+  about it.
+>p:WardenNormal
+.
+* Meanwhile, ye both
+  should head back home.
+>p:WardenNormal
+.
+* Well...
+* About that...
+>p:KanakoPuff
+END
+
+-----
+
+@WardenCapturedInnocents
+* ...
+>p:WardenCover
+.
+* Why did ye catch
+  innocent darkners?
+>p:WardenNormal
+.
+* Um...
+>p:KanakoPuff
+.
+* ...Ah can't send
+  'em back to their
+  proper worlds.
+>p:WardenCover
+.
+* But the jail "welcomes"
+  all. So they can live
+  here.
+>p:WardenNormal
+.
+* But please stick to
+  only catchin' those
+  that are wanted.
+>p:WardenNormal
+.
+* Ah don't have much
+  space as you've seen.
+>p:WardenNormal
+END
+
+-----
+
+@WardenDay1WeirdAbort
+* ...
+>p:WardenCover
+.
+* Why did you kill
+  that criminal.
+>p:WardenNormal
+.
+* ...
+>p:KanakoAngry
+.
+* 'ey didn't deserve
+  it. Ye just needed
+  to capture 'em.
+>p:WardenNormal
+.
+* ...No matter.
+* What's done's done.
+>p:WardenCover
+.
+* Just try to catch
+  'em next time,
+  please.
+>p:WardenNormal
+.
+* Ye both should head
+  home now.
+>p:WardenNormal
+END
+
+-----
+
+@WardenDay1Weird
+* ...
+>p:WardenCover
+.
+* Ye have gone too
+  far.
+>p:WardenNormal
+.
+* None of those
+  criminals deserved
+  the death penalty.
+>p:WardenNormal
+.
+* And yet, ye crushed
+  'em all.
+>p:WardenNormal
+.
+* ...
+>p:KanakoAngry
+.
+* ...
+>p:WardenNormal
+.
+* Ah'm willing to give
+  you another chance.
+>p:WardenNormal
+.
+* Just apprehend 'em
+  from now on, alright?
+>p:WardenNormal
+.
+* If ye keep going down
+  this path...
+>p:WardenNormal
+.
+* Ah cannot guarantee
+  yer' safety.
+>p:WardenCover
+.
+* ...
+>p:KanakoAngry
+.
+* If we want to leave,
+  head to the southmost
+  room.
+>p:WardenNormal
+.
+* Don't stay out in the
+  Dark Worlds past
+  sunset.
+>p:WardenNormal
+.
+* ...Just get a good
+  night sleep and think
+  on what ye did.
+>p:WardenNormal
+END
+
+-----
+
+@WardenDay1WeirdAfter
+* ...
+>p:WardenCover
+END
+
+-----
+
+@WardenDay1End
+* ...You're back.
+>p:WardenNormal
+.
+* Uh, yeah.
+>p:KanakoPuff
+.
+* Good job catching
+  'em criminals.
+>p:WardenNormal
+.
+* There are still
+  many left-
+>p:WardenNormal
+.
+* But ye both should
+  head back home now.
+>p:WardenNormal
+.
+* About that...
+>p:KanakoPuff
+END
+
+-----
+
+@WardenDay1Talk2
+* We sealed the fountain
+  and returned home-
+>p:KanakoNeutral
+.
+* But the building we
+  were in is locked down.
+* We can't leave.
+>p:KanakoSad2
+.
+* ...
+>p:WardenNormal
+.
+* Can't have that.
+>p:WardenNormal
+.
+* Wandering in Dark
+  Worlds after sundown
+  is dangerous.
+>p:WardenNormal
+.
+* D-dangerous?!
+>p:KanakoSurprise
+.
+* Not to worry.
+>p:WardenNormal
+.
+* There is another exit.
+>mini:KanakoOffended2:...
+>p:WardenNormal
+.
+* Just head south.
+>p:WardenNormal
+.
+* ...
+>p:KanakoOffended2
+.
+* Was that exit there
+  all along...?!
+>p:KEEP
+.
+* Yes.
+>p:WardenNormal
+.
+* But if ah had told
+  you that, you wouldn't
+  help me.
+>p:WardenNormal
+.
+* ...
+>p:KanakoOffended2
+.
+* Fair enough.
+* I'm too tired to
+  argue right now.
+>p:KanakoSad2
+.
+* C'mon Cole.
+* Let's FINALLY go
+  home.
+>p:KanakoNeutral
+END
+
+----
+
+@WardenDay2Start
+* Ah, ye two.
+>p:WardenNormal
+.
+* Yer ready to catch
+  'em criminals today?
+>p:WardenNormal
+.
+* Well, yes, but...
+* We have a problem.
+>p:KanakoNervous
+.
+* ...And what that is?
+>p:WardenNormal
+.
+* We have no idea where
+  the Dark Worlds are.
+>p:KanakoNervous
+.
+* Or if there even are
+  any in town...
+>p:KanakoSad2
+.
+* We were hoping you
+  would help us, somehow.
+>p:KanakoNeutral
+.
+* ...
+>p:WardenNormal
+.
+* Ah see.
+>p:WardenNormal
+.
+* Well, lass, unfortunately,
+  I cannot tell you where
+  the Dark Worlds are.
+>p:WardenNormal
+.
+* ...Then how are we going
+  to find them?
+>p:KanakoOffended2
+.
+* And... we are short on
+  time! We have to wrap
+  it up this week!
+>p:KEEP
+.
+* Are there even other
+  Dark Worlds in town
+  at all?!
+>p:KEEP
+.
+* ...
+>p:WardenNormal
+.
+* Well, I do know that
+  there ARE Dark Worlds
+  in town.
+>p:WardenNormal
+.
+* Two, in fact.
+>p:WardenNormal
+.
+* Two?
+>p:KanakoNeutral
+.
+* Not countin' this one,
+  yes.
+* There're another two.
+>p:WardenNormal
+.
+* Oh, that's great!
+* We just gotta find
+  them then!
+>p:KanakoHappy
+.
+* We can be done before
+  the week ends!
+>p:KEEP
+.
+* In theory, yes.
+>p:WardenNormal
+.
+* But ye still gotta
+  find 'em.
+>p:WardenNormal
+.
+* It's just two, right?
+* Then there should be
+  enough time!
+>p:KanakoNormal
+.
+* Well, I do know the
+  criminals yer will be
+  lookin' for this time.
+>p:WardenNormal
+.
+* Here yer go.
+>p:WardenNormal
+.
+>sound:snd_item_ch1.wav
+* (You got new Wanted Posters.)
+.
+* ...Wait, why are some
+  of them...
+* Non-identified?
+>p:KanakoPuff
+.
+* They are new criminals,
+  not ones that were held
+  here before.
+>p:WardenNormal
+.
+* Yer will have to find
+  'em out.
+>mini:KanakoOffended2:...
+>p:WardenNormal
+.
+* ...Seems like way
+  more work than
+  before...
+>p:KanakoSad
+.
+* But we will try to
+  get them. Thanks!
+>p:KanakoHappy
+.
+* Yer welcome, kids.
+* I await yer return.
+>p:WardenNormal
+.
+* C'mon, Cole! Let's
+  try to find that
+  Dark World!
+>p:KanakoHappy
+END
+
+--
+
+@WardenDay2Start2
+* Ah can't help you
+  locate the Dark World,
+  but Ah know it exists.
+>p:WardenNormal
+.
+* Good luck, kids.
+>p:WardenNormal
+END
+
+--
+
+@WardenRobotopia
+* Oh, ye lot...
+>p:WardenNormal
+.
+* Ah have some bad news.
+>p:WardenNormal
+.
+* A new Dark World has
+  been opened...
+>p:WardenCover
+.
+* What?
+>p:KanakoOffended2
+.
+* How?
+>p:KEEP
+.
+* The "someone" opening
+  them...
+* Has just made a new one.
+>p:WardenNormal
+.
+* As Ah said, this is
+  dangerous.
+>p:WardenNormal
+.
+* Too many Dark Fountains
+  open will throw off the
+  balance.
+>p:WardenNormal
+.
+* And the world will end.
+>p:WardenCover
+.
+* ...Well we just found
+  a new Dark World...
+>p:KanakoNeutral
+.
+* Could it be the one
+  we just found?
+>p:KanakoPuff
+.
+* ...ROBOTOPIA HAS EXISTED
+  FOR EONS, THOUGH.
+* HIGHLY UNLIKELY.
+>p:AxisNormal
+.
+* ...
+>p:KanakoOffended2
+.
+* What does it mean...?!?!
+>p:KanakoHurt
+.
+* Either way, kids, it
+  is yer job to track down
+  'em criminals-
+>p:WardenNormal
+.
+* And seal the new fountain.
+* For the sake of the world.
+>mini:AxisDumb:.......
+>p:WardenNormal
+.
+* ...Yeah, we're on it.
+>p:KanakoNeutral
+.
+* Drat.
+* This is such a bummer...
+>p:KanakoSad
+.
+* C'mon, let's move, Cole.
+>p:KanakoSad2
+END
+
+--
+
+@WardenRobotopia2
+* Seal the new fountain,
+  and capture the criminals.
+>p:WardenNormal
+.
+* ...This someone has to
+  be stopped soon, or
+  else...
+>p:WardenCover
+END
+
+
+----------
+
+@PenGuyPrisonFirst
+>redirect:Day1End:PenGuyPrisonD2
+>setflag:PenGuyPrison
+* Hey, you two!
+>tc
+.
+* I decided to jump in before
+  you closed the fountain.
+>tc
+.
+* I'm stuck here now, but I see
+  this as an opportunity.
+>tc
+.
+* Though right now, I don't have
+  anything to offer you.
+>tc
+.
+* Come back tomorrow, and I'll
+  have some good offers for you!
+>tc
+END
+
+-----
+
+@PenGuyPrisonD1
+* Sorry, don't have anything
+  right now.
+>talk:PenGuy
+.
+* Come back tomorrow, and I'll
+  have some good offers for you!
+>talk:PenGuy
+END
+
+-----
+
+@PenGuyPrisonD2
+* Oh hey, you guys did come back!
+>talk:PenGuy
+.
+* Check it, I decided to set up
+  a shop and storage system up
+  here!
+>talk:PenGuy
+.
+* Anything to help your quest!
+>talk:PenGuy
+.
+* So just come by and let's talk
+  business. Or leave any unwanted
+  items with me.
+>talk:PenGuy
+>setflag:PenGuyTalkDay2
+.
+* Your call, really.
+>talk:PenGuy
+>setflag:PenGuyPrison
+END
+
+----
+
+@PenGuyPrisonDebt
+* Oh, by the way, about that
+  thing I said you owed me back
+  at Bearing's...
+>talk:PenGuy
+.
+* Uh, what is it?
+>p:KanakoNervous
+.
+* Oh, nothing too big, really.
+>talk:PenGuy
+.
+* I heard some really special
+  items are hidden through
+  Dark Worlds...
+>talk:PenGuy
+.
+* Some sort of shards.
+* Ever saw any?
+>talk:PenGuy
+.
+* If you can bring me all these
+  shards... I will call it even
+  between us.
+>talk:PenGuy
+.
+* That's way too vague...
+* What are those shards?
+>p:KanakoPuff
+.
+* Oh, I don't know!
+>talk:PenGuy
+.
+* I just know they are near
+  very powerful darkners.
+>talk:PenGuy
+.
+* Sometimes you gotta walk in
+  the darkness to find them.
+>talk:PenGuy
+.
+* That's all the info I got.
+* So that's that.
+>talk:PenGuy
+.
+* Get the shards and we are
+  even!
+>talk:PenGuy
+.
+* Yeah, like it is that
+  easy!
+>p:KanakoOffended2
+.
+* We will keep an eye on
+  it, I guess.
+* Don't count on it, though.
+>p:KanakoNeutral
+.
+* Many thanks! You know where 
+  to find me.
+>talk:PenGuy
+END
+
+----
+
+@PenGuyPrisonService
+* What's up?
+* What can I help ya with?
+>prompt:Store@Items:Buy@Items:Nothing
+>talk:PenGuy
+END
+
+----
+
+@Stapler
+* [wave][shake]ARF ARF ARF ARF-[/shake][/wave]
+* [wave]- click click -
+END
+
+----
+
+@Gearzerd
+* [wave]-whirr-[/wave] [shake]-CLICK-[/shake]
+* Wonder if they have any oil
+  hidden around somewhere here...
+END
+
+--
+
+@DarkJailPaperwork
+* Stacks of paper fill the desk.
+* All of them are related to
+  criminals and their crimes.
+.
+* Managing a prison seems like hard
+  work.
+END
+
+--
+
+@DarkJailChair
+* A very comfortable chair.
+* It's almost as if it could
+  have a name.
+END
+
+--
+
+@CoolPencellerD1
+* What a drab place.
+* But I gotta keep my cool.
+>tc
+.
+* Look, my cape is still 
+  fluttering.
+>tc
+.
+* In the end, that's all that 
+  matters.
+>tc
+END
+
+--
+
+@CoolPencellerD2
+* Uh, what even is there to do
+  here?
+* Been doin' nothing all day.
+>tc
+.
+* Is this just how life will
+  be now?
+>tc
+.
+* ...
+* Gotta keep my cool...
+>tc
+END
+
+--
+
+@MorkerD1
+[shake]* MORK MORK MORK MORK!
+>talk:MarkerD1
+>prompt:Pet it:Do not
+END
+
+--
+
+@MorkerAndStaplerD2
+* [wave]CLICK CLICK CLICK CLICK[/wave]
+.
+* [shake]MORK MORK MORK MORK[/shake]
+.
+* (It seems they are trying to
+  have a barking off.)
+END
+
+--
+
+@PencellerRider
+* Wow, T-Bone really HATES
+  this place.
+.
+* Why did you bring us here,
+  again? There isn't enough
+  space for us to run!
+END
+
+--
+
+@PrisonList
+* Seems this is a list with
+  all the current inmmates
+  and "visitors".
+END
+
+--
+
+@DarkList
+* There seems to be some data on
+  Dark creatures on this shelf.
+END
+
+--
+
+@PrisonCleaning
+* Even prisons need cleaning supplies.
+END
+
+-----
+
+@PrisonSigns
+* Waiting for capture.
+END
+
+--
+
+@PrisonShelf
+* A lot of files are neatly
+  organize in this shelf.
+* Better not mess with them.
+END
+
+--
+
+@PinkPenceller
+* Hello. I am known as MP-02HB.
+* High precision model.
+>tc
+.
+* I enjoy drawing and other arts
+  as well as working as a sentry
+  for the Upstairs Archives.
+>tc
+.
+* ...At least before I was 
+  relocated here.
+>tc
+END
+
+--
+
+@PencellerEventD2
+* So, who the heck are you?
+* You come from that robo place?
+>talk:Penceller
+.
+* ID Number MP-02HB.
+* A pleasure to meet you.
+>talk:PinkPenceller
+.
+* Hmph. He even talks like a
+  robot....
+>talk:Penceller
+.
+* Look at him, trying to be all
+  COOL, but he will never be as
+  cool as us.
+>talk:COOLPenceller2
+.
+* Traditional beats digital
+  every time!
+>talk:COOLPenceller2
+.
+* ...I am also able to make art
+  using traditional means.
+>talk:PinkPenceller
+.
+* He doesn't even have a backbone,
+  dudes. Leave the poor guy alone.
+>talk:PencellerRider2
+END
+
+--
+
+@Eraser2
+* Hey, what are the pencil guys
+  doing over there?
+>tc
+.
+* ...Feeling kinda jealous they
+  didn't include me.
+>tc
+END
+
+--
+
+@WardenCapturedHonvich
+* ...That old man ye 
+  captured...
+>p:WardenNormal
+.
+* He wasn't on the list.
+>p:WardenNormal
+.
+* Yeah, but wasn't he 
+  helping Bearing? Wouldn't
+  that make him a bad guy?
+>p:KanakoPuff
+.
+* ...Ah suppose. Ah put him
+  behind bars in the north
+  room.
+>p:WardenCover
+.
+* But stick to criminals
+  that are in the posters
+  if possible.
+>p:WardenNormal
+.
+* Bringin' in more Darkners
+  than necessary will only
+  be trouble later on.
+>p:WardenCover
+END
+
+--
+
+@WardenCapturedSyrup
+* ...Ye captured some poor
+  lass.
+>p:WardenCover
+.
+* She was colluding with
+  some people to take over
+  Robotopia!
+>p:KanakoOffended2
+.
+* Ah suppose so, but she
+  wasn't on the list.
+>p:WardenNormal
+.
+* Please only bring those
+  that are in the posters.
+>p:WardenNormal
+.
+* Any more will only be
+  trouble later.
+>p:WardenCover
+END
+
+--
+
+@WardenDay2GotAllCriminals
+* Congratulations once more
+  for catching all the 
+  criminals.
+>p:WardenNormal
+.
+* Soon, the jail will have
+  apprehended all of them
+  and your duty will end.
+>p:WardenCover
+.
+* What happens then?
+>p:KanakoPuff
+.
+* Ye'll see soon enough,
+  lass. 
+>p:WardenNormal
+.
+* But Ah assure ye it will
+  be worth your time.
+>p:WardenNormal
+END
+
+--
+
+@WardenDay2MissedCriminals
+* ...Ye let the criminals
+  escape.
+>p:WardenCover
+.
+* How the heck are we
+  supposed to find them?!
+>p:KanakoOffended2
+.
+* It's not like they are
+  just waiting for us in
+  the open to catch them!
+>p:KanakoOffended2
+.
+* ...That is yer job, isn't
+  it?
+>p:WardenNormal
+.
+* Not really. We don't even
+  know why we are doing
+  this.
+>p:KanakoOffended2
+.
+* All'll be revealed soon.
+* Trust me.
+>p:WardenCover
+END
+
+--
+
+@WardenDay2Talk
+* Either way, let's call it
+  a day.
+>p:WardenNormal
+.
+* Come back tomorrow, and
+  I'll have more criminals
+  for ye to catch.
+>p:WardenNormal
+.
+* Uh, right. We will be
+  leaving now, then.
+>p:KanakoNervous
+.
+* See ya!
+>p:KanakoDumb
+END
+
+--
+
+@WardenDay2Alt
+* ...A tragedy, really.
+>p:WardenCover
+.
+* Tragedy?! That damn 
+  toaster tried to kill us!
+>p:KanakoOffended2
+.
+* He had it coming.
+>p:KanakoAngry2
+.
+* ...That path yer walking
+  is a path of vengeance.
+>p:WardenNormal
+.
+* No darkner deserves their
+  lives ended like that, no
+  matter their reasons.
+>p:WardenCover
+.
+* ...Easy for you to say.
+>p:KanakoAnnoyed
+.
+* Anyway, we wanted to know
+  if you had any info on
+  the Outlaw-
+>p:KanakoOffended
+.
+* Anything to make our jobs
+  easier, you know?
+* Help us out here.
+>p:KEEP
+.
+* Unfortunately, Ah do not
+  know what that fella is
+  doin' nowadays.
+>p:WardenNormal
+.
+* But ye might meet 'em
+  soon enough.
+>p:KEEP
+.
+* Soon enough, indeed.
+>p:WardenCover
+.
+* ...
+>p:KanakoOffended2
+.
+* Tomorrow, we shall see
+  if yer resolve will hold.
+>p:WardenNormal
+.
+* Come back then.
+* Ah shall be waitin'.
+>p:WardenNormal
+.
+* ...
+>p:KanakoOffended2
+.
+* C'mon, Cole.
+* Let's get out of here.
+>p:KanakoNeutral
+END
+
+--
+
+@WardenDay2End
+* Once more, come back 
+  tomorrow.
+>p:WardenNormal
+.
+* Yer job is far from done.
+>p:WardenCover
+END
+
+--
+
+@MP3DarknerIntro
+* Oh hey, we meet again.
+>tc
+.
+* I decided to just jump into the
+  mysterious door after our talk.
+* Bearing's is just not for me.
+>tc
+.
+* This place is a bit of a drab,
+  though. Maybe I can liven it up
+  with some [color=yellow]original tunes[/color]?
+>tc
+.
+* I get new ideas every so often,
+  so come check out if you wanna
+  listen something.
+>tc
+END
+
+--
+
+@MP3DarknerQuery
+* Wanna me to play something
+  for you?
+>tc
+END

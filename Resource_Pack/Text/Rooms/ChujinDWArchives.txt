@@ -1,0 +1,2353 @@
+@LobbySave
+* Before you are countless books.
+* They cover a variety of subjects.
+>heal
+.
+* Kanako seems very apprehensive 
+  to be here, however.
+* You should make this quick.
+>callsave
+END
+
+--
+
+@ClippyNPC1
+>redirectmap:Clippy:ClippyNPC1_2
+* Welcome, visitors.
+* Are you in need of assistance?
+>tc
+.
+* Uh, no?
+>p:KanakoNervous
+.
+* Very well. Please do not hesitate
+  to come to me if you need any
+  help.
+>tc
+>setmap:Clippy
+END
+
+-
+
+@ClippyNPC1_2
+* You have returned.
+* Are you in need of assistance
+  now?
+>tc
+.
+* Not yet...?
+>p:KanakoNervous
+.
+* Very well. I shall continue to
+  wait.
+>tc
+.
+* Just, uh, don't take too long,
+  alright?
+>tc
+END
+
+-
+
+@ClippyNPC2
+* Hello. Are you in need of 
+  assistance?
+>tc
+.
+* Yeah, can you tell use the
+  password for floor 72B?
+>p:KanakoPuff
+.
+* Ah! Um... I...
+>tc
+.
+* Sorry. I cannot help you with
+  that. Unfortunately the admin
+  has forbid me to do so.
+>tc
+.
+* However, there are terminals
+  in the floors 45G and 27F that
+  should give you hints.
+>tc
+.
+[wave]* Sigh...[/wave]
+* Guess we are doing things
+  the hard way...
+END
+
+-
+
+@ClippyMirrorHint
+* Hello. Are you in need of 
+  assistance?
+>tc
+.
+* Uh, yes, actually. There
+  is a pretty hard puzzle
+  up there...
+>p:KanakoNervous
+.
+* Something with mirrors.
+* Any hints?
+>p:KanakoPuff
+.
+* Ah, floor 45G, right?
+* I cannot provide you with the 
+  actual answer, but...
+>tc
+.
+* At the end, you will need to
+  redirect the beam all the way
+  from the right side to the left-
+>tc
+.
+* Then back to the right and above.
+>tc
+.
+* That's still a bit 
+  vague...
+>p:KanakoNervous
+.
+* Sorry. System Group Policies
+  prevent me from being more
+  specific.
+>tc
+.
+* But I hope you are able to
+  finish your puzzle.
+>tc
+.
+* It's better than nothing,
+  I guess. 
+>p:KanakoNervous
+.
+* Didja write that down, 
+  Cole?
+>p:KanakoPuff
+END
+
+-
+
+@ClippyNPC3
+* Welcome, visitors.
+* Are you in need of assistance?
+>tc
+.
+* Uh, no. We already got
+  what we came for.
+>p:KanakoPuff
+.
+* Ah. W-Well, alright.
+* Just... I'll be here if you need
+  anything else, okay?
+>tc
+END
+
+--
+
+@PCElevatorTalk
+* Hey, the elevator has a
+  broken button. Where does
+  it lead to?
+>p:KanakoPuff
+.
+* Oh, that?
+* It leads to a secret area where
+  VERY important objects are.
+>tc
+.
+* Oh, I... I see...
+>p:KanakoNervous
+.
+* HOW DO WE ACCESS IT?
+>p:AxisNormal
+>mini:KanakoDumb:A-Axis!
+.
+* Unfortunately, I do not have the
+  means to repair the elevator.
+>tc
+.
+* But I heard there is a Darkner
+  somewhere in Robo Town that might
+  know how to mess with it.
+>tc
+.
+* From what I heard, it is someone
+  who is very good with numbers.
+>tc
+.
+* Okay, thanks, bye now!
+>p:KanakoDumb
+>p:KanakoNervous:Let's just ignore all that...
+END
+
+-
+
+@PCElevatorTalk2
+* Some Darkner in Robo Town might
+  know a way to fix the elevator.
+* Someone good with numbers.
+>tc
+.
+* Hope that helps.
+>tc
+.
+* K Thanks Bye!!
+>p:KanakoDumb
+>mini:KanakoHurt:Guys, just let it go!
+END
+
+--
+
+@UnlockedBookshelves
+* You glance at the titles of
+  the books.
+.
+* Some are gibberish like
+  "ghdsahua.txt" or "asdsfgh.png"
+.
+>redirect:550:UnlockedBookshelvesAlt
+* You wonder what is in them,
+  but you would rather not risk it.
+>mini:KanakoDumb:...Please don't look at those...
+END
+
+--
+
+@UnlockedBookshelvesAlt
+* You can stop looking
+  at these now.
+>p:KanakoOffended2
+END
+
+--
+
+@UnlockedBookshelfK
+>redirect:550:UnlockedBookshelfKAlt
+* (...Glad Cole isn't here
+  to see these files...)
+>p:KanakoDumb
+END
+
+--
+
+@UnlockedBookshelfKAlt
+* (...Really hope Cole 
+  doesn't see these...)
+>p:KanakoOffended2
+END
+
+--
+
+@WallPhotos
+* Some familiar photos hang on
+  the wall. They are of Kanako
+  and her family.
+END
+
+--
+
+@FoxStatue
+* An ornamental gold fox statue.
+* Nothing out of the ordinary.
+END
+
+--
+
+@ArchivePC1
+* HEY, IT'S A ROBOT.
+>p:AxisNormal
+.
+* ...I think I know what
+  it is...
+>p:KanakoNervous
+.
+* So, we talk to him to 
+  get the thing then?
+>p:KanakoPuff
+.
+* Hey, hey!
+* Are you on?
+>p:KanakoOffended
+.
+* .............
+.
+* Um, hello?
+>p:KanakoPuff
+.
+* .............
+.
+* -Exitting sleep mode-
+END
+
+--
+
+@ArchivePC1Alt
+* HEY, IT'S A ROBOT.
+>p:AxisNormal
+.
+* ......
+>p:KanakoNeutral
+.
+* I guess this must be my
+  computer or something...
+>p:KEEP
+.
+* Hey, are you on?
+* Hello?
+>p:KanakoOffended2
+.
+* .............
+.
+* -Exitting sleep mode-
+END
+
+--
+
+@ArchivePC2Alt
+* Hello. Welcome to the
+  Archives.
+>tc
+.
+* How may I help you?
+>tc
+.
+* Could you just tell us
+  where to get this 
+  "thing"?
+>p:KanakoNeutral
+.
+* "Thing?"
+* Can you be more specific?
+>tc
+.
+* Some colored guys asked
+  us to find a thing here
+  to breach the Spire.
+>p:KanakoNeutral
+.
+* Ah. Yes. These ruffians have 
+  been trying to get in here to 
+  grab that.
+>tc
+.
+* As long as you have the 
+  password, you may access the 
+  Archives and look for it.
+>tc
+.
+* Do you possess it?
+>tc
+.
+* ...I think so.
+>p:KanakoPuff
+.
+* Wonderful. If you could please
+  relay it to me so I can 
+  authorize your entrance...
+>tc
+.
+* Can... Can I write it 
+  down instead?
+>p:KanakoNervous
+.
+* Sure. Just come here to the
+  desk.
+>tc
+END
+
+--
+
+@ArchivePC2AltB
+* (HEY, HUMAN.)
+>p:AxisNormal
+.
+* (WHAT IS THE DEAL WITH
+  MISS KANAKO?)
+>p:KEEP
+.
+* (SHE HAS BEEN ACTING...
+  DIFFERENTLY FROM WHAT I
+  HAVE COME TO EXPECT.)
+>p:KEEP
+.
+* (DO YOU NOT THINK THE
+  SAME?)
+>p:KEEP
+>prompt:Dunno:What do@you mean?
+>promptredirect:ArchivePC2AltBA:ArchivePC2AltBB
+END
+
+--
+
+@ArchivePC2AltBA
+* (SO NOT EVEN YOU KNOW.)
+* (WONDERFUL.)
+>p:AxisBored
+.
+* (MAYBE THE FACTORY CRANE
+  HAS SQUISHED HER HEAD TOO
+  HARD.)
+>p:AxisNormal
+.
+* (LET'S KEEP AN EYE ON 
+  HER.)
+>p:AxisNormal
+END
+
+--
+
+@ArchivePC2AltBB
+* (AFTER THAT TALK WITH THE
+  BUNNY AT THE BALLOON, SOME 
+  MEMORY FILES UNLOCKED.)
+>p:AxisNormal
+.
+* (MISS KANAKO HAS BEEN 
+  ACTING...)
+* (DISTANT.)
+>p:AxisNormal
+.
+* (IT FEELS LIKE A PIECE OF
+  HER IS MISSING.)
+>p:AxisNormal
+.
+* (IT IS HARD TO EXPLAIN, 
+  BUT THAT IS JUST WHAT I
+  "FEEL".)
+>p:AxisNormal
+.
+* (KEEP AN EYE OUT ON HER
+  FOR ME, AS YOU ORGANICS
+  WOULD SAY.)
+>p:AxisNormal
+END
+
+--
+
+@ArchivePC2
+* Hello. Welcome to the
+  Archives.
+>tc
+.
+* How may I help you?
+>tc
+.
+* We're...
+* We're looking for a 
+  thing...
+>p:KanakoNervous
+.
+* "A thing"? 
+* Can you be more specific?
+>tc
+.
+* Uh, a thing??
+* Thing? I don't know-
+>p:KanakoOffended
+.
+* I still do not understand what
+  you mean.
+>tc
+.
+* WE ARE LOOKING FOR 
+  "THE THING".
+>p:AxisNormal
+>mini:KanakoOffended2:Isn't that what I said?
+.
+* Ah. [wave]THE[/wave] Thing. I see.
+* So you're with those three
+  colorful ruffians.
+>tc
+.
+* As long as you have the 
+  password, you may access the 
+  Archives and look for it.
+>tc
+.
+* Do you possess it?
+>tc
+.
+* ............
+>p:KanakoPuff
+.
+* ...
+>tc
+.
+* Without the password,
+  I cannot help you.
+>tc
+.
+* ...Fine. I think I know
+  what the password is.
+>p:KanakoHurt
+.
+* Great. Mind telling me
+  your name first?
+>tc
+.
+* ...Kanako. 
+* Kanako Ketsukane.
+>p:KanakoNeutral
+.
+* ...
+* Ah!
+>tc
+.
+* Miss Kanako, you are late.
+* You missed your usual login
+  time by a few hours.
+>tc
+.
+* ...Uh, yeah, I know...
+>p:KanakoNervous
+.
+* That's great. As a long time
+  user of the Archive, you do
+  know your password.
+>tc
+.
+* Just relay it to me so I can
+  grant you access.
+>tc
+.
+* ...C-can I write it on
+  a piece of paper instead?
+>p:KanakoNervous
+.
+* ...Of course. 
+>tc
+.
+* T-thanks...
+>p:KanakoNervous
+.
+* (I WONDER WHAT THE BIG
+  DEAL IS.)
+>p:AxisNormal
+END
+
+--
+
+@ArchivePC3Alt
+* ...Thank you, Miss Kanako.
+>tc
+.
+* Your usual login time is a few
+  hours later than usual.
+>tc
+.
+* ...Tell me about it.
+>p:KanakoOffended2
+.
+* You will find "The Thing" on 
+  floor 72B.
+>tc
+.
+* Have a good day.
+>tc
+.
+* Good, good. Let's just
+  get this over with.
+>p:KanakoAnnoyed
+END
+
+--
+
+@ArchivePC3
+* ........
+>p:KanakoNervous
+.
+* T-there...
+>p:KanakoNervous
+.
+* ........
+>tc
+.
+* All clear. Welcome, 
+  Miss Kanako.
+>tc
+.
+* You will find what you
+  are looking for on floor
+  72B.
+>tc
+.
+* Great! C'mon guys,
+  let's grab it and get
+  out quickly!
+>p:KanakoNervous
+END
+
+--
+
+@ArchivePC4
+>redirect:C2GotBomb:ArchivePC5
+* The item you are looking
+  for is on floor 72B.
+>tc
+.
+* Take the elevator at the
+  back to get there.
+>tc
+>prompt:Thanks:Are you@a robot?
+>promptredirect:END:ArchivePC4B
+END
+
+--
+
+@ArchivePC4B
+* Yes, but I assure you that I've 
+  been a resident of the Upstairs 
+  for as long as I remember.
+>tc
+.
+* I hold no allegiance to
+  the robots from Robotopia.
+>tc
+.
+* That applies to you too, 
+  Axis 014.
+>tc
+>mini:AxisDumb:......
+.
+* You might have been created
+  down there, but you belong
+  here.
+>tc
+.
+* ...I have kept you long enough.
+* Please enjoy your visit to the
+  Archives.
+>tc
+END
+
+--
+
+@ArchivePC5
+* You found it?
+* Great.
+>tc
+.
+* Just be careful how you use
+  that thing. Avoid using it if 
+  you can, really.
+>tc
+END
+
+--
+
+@ArchiveLockedShelf
+* The giant lock somehow prevents
+  you from seeing what the 
+  contents of the bookshelf are.
+END
+
+--------------------------------
+
+@ElevatorPrompt
+* Which floor would you like to 
+  go to?
+>prompt:Lobby:Floor 27F:Floor 45G:Floor 72B
+END
+
+--
+
+@ElevatorPrompt2
+* ...You should check out where 
+  you currently are.
+END
+
+--
+
+@ResetSign
+[color=green]* Pressing the [color=yellow]YELLOW SWITCH[/color] will 
+  reset any nearby puzzle systems.
+>bleep:System
+.
+[color=green]* Do not be afraid to use if you
+  find yourself stuck.
+>bleep:System
+END
+
+--
+
+@Floor27Sign
+[color=green]* FLOOR 27F
+* LIBRARY OF ARCHIVES
+>bleep:System
+END
+
+--
+
+@Floor45Sign
+[color=green]* FLOOR 45G
+* HALL OF REFLECTIONS
+>bleep:System
+END
+
+--
+
+@Floor72Sign
+[color=green]* FLOOR 72B
+* STORAGE OF HAZARDOUS MATERIALS
+>bleep:System
+END
+
+--
+
+@Puzzle1Sign
+[color=green]* Standing on this will reveal the
+  solution to your co-operator.
+>bleep:System
+.
+[color=green]* Please work together to proceed
+  forward!
+>bleep:System
+END
+
+--
+
+@KetsukaneBanner
+* A familiar crest hangs upon
+  the wall.
+END
+
+--
+
+@CratePuzzlePinkShelfHint
+[color=green]* The [color=magenta]pink shelves[/color] should be
+  able to be pushed away if
+  they are in the way.
+>bleep:System
+.
+[color=green]* Just be sure to keep them within
+  the allowed areas, and return
+  your books to the right places!
+>bleep:System
+END
+
+--
+
+@CratePuzzleMirrorHint
+[color=green]* This hint came from 
+  a different floor so it is
+  [color=yellow]mirrored around horizontally[/color].
+>bleep:System
+.
+[color=green]* Sorry for the incovenience.
+>bleep:System
+END
+
+--
+
+@PasswordHint1
+[color=green]* "FOR ONE HALF OF THE PASSWORD:"
+>bleep:System
+.
+[color=green]* "The number of mirrors on the
+  other floor."
+>bleep:System
+.
+[color=green]* "Plus the right facing arrows 
+  in a row."
+>bleep:System
+END
+
+--
+
+@PasswordHint2
+[color=green]* "FOR ONE HALF OF THE PASSWORD:"
+>bleep:System
+.
+[color=green]* "The number of puzzles on the
+  other floor"
+>bleep:System
+.
+[color=green]* "Single digit is accompanied by
+  a round one."
+>bleep:System
+END
+
+--
+
+@KanakoPassHintA
+* Hm... I wonder what that
+  is for...
+>p:KanakoPuff
+END
+
+--
+
+@KanakoPassHintB
+* ...Maybe that's a hint
+  for that door on the 
+  other floor.
+>p:KanakoPuff
+END
+
+--
+
+@KanakoPassHintC
+* Another one of these...
+>p:KanakoNeutral
+.
+* Guess they are for another
+  floor? Be sure to write it
+  down!
+>p:KanakoNormal
+END
+
+--
+
+@KanakoPassHint2
+* I think you should write
+  that down somewhere, 
+  Cole.
+>p:KanakoNeutral
+.
+* Would be a pain to make 
+  it all the way back here
+  again...
+>p:KanakoNervous
+END
+
+-
+
+@MirrorTutorial
+[color=green]* LIGHT will reflect off those
+  somewhat lightly pushable 
+  mirrors.
+>bleep:System
+.
+[color=green]* Passing them through the CONTROL
+  NODES will open up new paths.
+>bleep:System
+.
+[color=green]* SHOOTING the mirrors' lenses 
+  will let you rotate them to 
+  redirect the light if needed.
+>bleep:System
+END
+
+--
+
+@WarpPadSign
+[color=green]* Stepping on the glowing tile
+  will return you to the entrance
+  of this floor.
+>bleep:System
+.
+[color=green]* It is a one way trip, however!
+>bleep:System
+END
+
+--
+
+@PassWallSign
+[color=green]* The light beam should be able 
+  to cross through these walls.
+* Water should make it through, too.
+>bleep:System
+.
+[color=green]* Just don't put your face 
+  directly against them when the 
+  light shines through!
+>bleep:System
+END
+
+--
+
+@PartyButtonSign
+[color=green]* "This new technology will sure
+  put intruders away, the 3 Person
+  Switch Lock!"
+>bleep:System
+.
+[color=green]* "Three people will need to 
+  coordinate and press all 
+  buttons down at the same time."
+>bleep:System
+.
+[color=green]* "No way any nosy lightners can
+  get through this one!"
+>bleep:System
+.
+* ...Well, good thing we are
+  a group of three, then!
+>p:KanakoNervous
+END
+
+--
+
+@PasswordGate1
+* What a big door... Guess
+  this is where the "thing"
+  is.
+>p:KanakoPuff
+.
+* IT IS ACTUALLY PRONOUNCED
+  "THE THING".
+>p:AxisNormal
+.
+* Whatever. So, how do we
+  open this?
+>p:KanakoOffended2
+.
+* THERE IS A KEYPAD NEAR
+  THE DOOR IN CASE YOU HAVE
+  NOT NOTICED.
+>p:AxisBored
+.
+* Oh. Guess we need a 
+  password then...
+>p:KanakoPuff
+.
+* (...I really hope it 
+  isn't any of THOSE 
+  passwords I set...)
+>p:KanakoNervous2
+END
+
+--
+
+@PasswordGatePrompt
+[color=green]* INSERT PASSWORD:
+>bleep:System
+>number:4
+END
+
+-
+
+@PasswordWrong
+[color=red]* INCORRECT PASSWORD.
+>bleep:System
+END
+
+-
+
+@BruteForceMiss
+* Uh, I don't think that's
+  working...
+>p:KanakoNervous
+.
+* Maybe we should look on 
+  the other floors to see 
+  if we can find any hints?
+>p:KEEP
+.
+* WHY WOULD THAT BE THE 
+  CASE?
+>p:AxisDumb
+.
+* ...Isn't that how things
+  like that go in games?
+* This is kinda like a game!
+>p:KanakoDumb
+.
+* Anyway, let's go look 
+  around for anything to
+  learn it.
+>p:KanakoNormal
+.
+* Better than just hitting 
+  our heads aimlessly.
+>p:KanakoNervous
+>mini:AxisDumb:ARE THE PASSWORDS JUST LAYING AROUND...?
+END
+
+-
+
+@BruteForceInsist
+* ...Cole we are just 
+  wasting time!
+>p:KanakoDumb
+.
+* Let's go look for those
+  clues!
+>p:KEEP
+>mini:AxisBored:HOW DO YOU EVEN KNOW THESE CLUES EXIST??
+END
+
+-
+
+@BruteForceSuccess
+* ...Did you just get it
+  right out of sheer luck?
+>p:KanakoOffended2
+.
+* Well... At least we got
+  it? 
+* Still...
+>p:KanakoDumb
+.
+* Let's go grab that thing
+  now and get out of here.
+>p:KanakoNervous
+>mini:AxisBored:IT IS CALLED "THE THING".
+END
+
+-
+
+@FirstTryPassword
+* (You input in the password 
+  knowingly.)
+.
+* ...Did you just try your
+  birthday on a whim?
+>p:KanakoOffended2
+.
+* ...Am I that obvious?!
+>p:KanakoDumb
+.
+* WAIT, THIS IS THE HUMAN'S
+  BIRTH DATE? WHY IS THIS
+  THE PASSWORD?
+>p:AxisNormal
+.
+* ANYWAY! We got it right!
+* Let's grab the thing and
+  leave!
+>p:KanakoDumb
+END
+
+--
+
+@PasswordCorrectNormal
+* So that was the 
+  password...
+>p:KanakoNervous2
+.
+* MISS KANAKO? WHY ARE YOU
+  SO APPREHENSIVE ABOUT
+  THAT PASSWORD?
+>p:AxisNormal
+.
+* I-It's... Um...
+>p:KanakoDumb
+>prompt:It is my@birth date:Calm down,@Kanako
+>promptredirect:PasswordCorrectNormalP1:PasswordCorrectNormalP2
+END
+
+-
+
+@PasswordCorrectNormalP1
+* Y-Yeah, that's why...
+>p:KanakoDumb
+.
+* HOW COULD YOU?! SUCH A LOW
+  SECURITY NUMBER! WHAT IF
+  SOMEONE GUESSED THAT?!
+>p:AxisAngry
+.
+* ...I don't think that is
+  the issue here, Axis.
+>p:KanakoDumb
+.
+* WHAT IS, THEN?
+>p:AxisNormal
+.
+* Uh, nothing!
+* Let's just grab the thing
+  and leave!
+>mini:AxisNormal:WAIT, I DO NOT "GET IT".
+>p:KanakoDumb
+END
+
+-
+
+@ElevatorGame
+* ...W-What was that?!
+>p:KanakoDumb
+.
+* Where are we...?
+>p:KEEP
+END
+
+-
+
+@PasswordCorrectNormalP2
+* It's... It's nothing!
+* Let's just keep going,
+  grab the thing, and leave!
+>p:KanakoDumb
+.
+* ...IF YOU SAY SO, MISS 
+  KANAKO.
+>p:AxisNormal
+END
+
+--
+
+@DessEasterEgg
+* Did you just try putting
+  in the December holiday?
+>p:KanakoPuff
+.
+* Lately been seeing a lot
+  of rage online about it
+  for some reason.
+>p:KanakoNormal
+.
+* WHAT IS SO IMPORTANT 
+  ABOUT THIS ONE HOLIDAY?
+>p:AxisNormal
+.
+* It's just a jolly time
+  where people exchange
+  gifts, Axis.
+>p:KanakoHappy
+.
+* How come you did not know
+  that?
+>p:KanakoNormal
+.
+* MASTER CHUJIN NEVER 
+  PROGRAMMED SUCH USELESS
+  DATA IN ME.
+>p:AxisBored
+.
+* I HAVE NO NEED FOR "GIFTS"
+  OR TO BE "JOLLY".
+>p:KEEP
+.
+* I... I can see that...
+>p:KanakoNervous
+END
+
+--
+
+@HalloweenEasterEgg
+* Ah, halloween. Ugh. Don't
+  have many good memories
+  of that.
+>p:KanakoNeutral
+.
+* If only mom wasn't so 
+  pushy... Maybe I'd like
+  it a bit more.
+>p:KanakoOffended2
+.
+* WHAT DID SHE DO?
+>p:AxisNormal
+.
+* She is just too 
+  controlling, trying to
+  tell me what to wear-
+>p:KanakoSad2
+.
+* What to go dressed as...
+* I just wanted to go as a
+  dinosaur!
+>p:KanakoOffended2
+.
+* But she said no!
+>p:KanakoSad2
+.
+* Said that a "proper lady" 
+  can't be wearing these 
+  "brutish" costumes...
+>p:KanakoOffended2
+.
+* So I had to go as a 
+  FLOWER! A cherry one with
+  pink petals!
+>p:KanakoDumb
+.
+* BUT AREN'T YOU PINK RIGHT
+  NOW?
+>p:AxisNormal
+.
+* Well, yes, I like pink,
+  but that doesn't mean I
+  want to BE pink forever!
+>p:KanakoDumb
+>prompt:I get it:I like@you pink
+>promptredirect:HalloweenEasterEggP1:HalloweenEasterEggP2
+END
+
+--
+
+@HalloweenEasterEggP1
+* I mean your colors are...
+* Well, they are colors,
+  alright!
+>p:KanakoDumb
+.
+* But I think it suits you,
+  so don't take it so badly!
+>p:KanakoNervous
+.
+* NAH. IT IS AN EYESORE TO
+  LOOK AT.
+>p:AxisBored
+>mini:KanakoDumb:Axis! Please!
+END
+
+--
+
+@HalloweenEasterEggP2
+* Y-You do?!
+>p:KanakoBlushFlustered
+.
+* I... I supposed being 
+  pink isn't THAT bad...
+>p:KanakoNervous
+.
+* ...Wouldn't mind staying
+  like this a bit longer,
+  then.
+>p:KanakoHappyBlush
+END
+
+--
+
+@HalloweenEasterEgg2
+* WHAT DID THE HUMAN END UP
+  GOING AS?
+.
+* Oh, he was an astronaut.
+* That helmet looked so
+  goofy!
+END
+
+--
+
+@UTEasterEgg
+* Wasn't that the date that
+  Tony Vulpine's first game
+  came out?
+.
+* Man, it's been so long
+  since then. Time sure 
+  flies, huh.
+.
+* Wonder if his next game
+  will be another hit.
+.
+* Gizmo will probably be
+  stoked about it.
+END
+
+--
+
+@UTYEasterEgg
+* 
+END
+
+--
+
+@KanakoBDayEasterEgg
+* 
+END
+
+--
+
+@OCEvent1
+* ........
+>p:KanakoScared2
+.
+* WOAH O.O
+>p:AnmeTem
+.
+* FINALLY someone freed 
+  anme!!! ^w^
+>p:AnmeHappy
+.
+* bout time!!! >W<
+>p:AnmeUwU
+.
+* was getting stuffy here 
+  >.>
+>p:AnmeNervous
+.
+* WHAT. WHO THE [HECK] ARE
+  YOU?!
+>p:AxisAngry
+.
+[shake]* T-That's...
+>p:KanakoDumb
+.
+[shake]* That's my Capmon OC...
+>p:KEEP
+.
+* Anme...!!
+>p:KEEP
+>mini:AxisNormal:THE [HECK] IS AN "OH CEE"??
+.
+* WOAH O.O
+>p:AnmeTem
+.
+* u... u're... o.o
+>p:KEEP
+END
+
+--
+
+@OCEvent2
+* KANNY! KANNY!!! >W<
+* IT IS U!!!
+>p:AnmeHappy
+.
+* ...I...
+>p:KanakoDumb
+.
+* anme was just locked in
+  here for AGES O.o
+>p:AnmeNervous
+.
+* anme didnt see anything...
+* it was SO DARK u_u
+>p:AnmeSad
+.
+* SO, YOU KNOW THIS... 
+  THING?
+>p:AxisNormal
+.
+* WHY DOES IT SPEAK LIKE 
+  THAT?
+* DOES IT HAVE BRAIN DAMAGE?
+>p:AxisBored
+.
+* ...I was only 7 when I
+  made her, gimme a break!
+>p:KanakoDumb
+.
+* I guess I just shoved her
+  sketch deep down my 
+  drawer...
+>p:KanakoNervous
+.
+* SO, ARE YOU "THE THING" 
+  WE HAVE TO RETRIEVE?
+>p:AxisAngry
+.
+* GREAT. WASN'T PROGRAMMED
+  FOR BABYSITTING DUTY
+  TODAY.
+>p:AxisBored
+.
+* omg golly gee!! am i???
+  oWo
+>p:AnmeTem
+.
+* anme wants to blieve so!
+  but probs not, no one
+  cares bout lil ol me u.u
+>p:AnmeNervous
+.
+* whatevs this thingy u
+  looking for is prob in
+  that back room there!
+>p:AnmeNormal
+.
+* Um... Thanks, Anme...
+>p:KanakoNervous
+.
+* Oh, and, uh, sorry.
+* For just locking you at
+  the back of my drawer...
+>p:KEEP
+.
+* oh, kanny! anme forgives 
+  u uwu
+>p:AnmeUwU
+.
+* but now!!! anme is gunna
+  enjoy some FREEDOM!! oWo
+>p:AnmeNormal
+.
+* pls excuse anme! imma
+  get out of here!! >W<
+>p:AnmeHappy
+END
+
+--
+
+@OCEvent3
+* ........
+>p:KanakoDumb
+>prompt:Cringe.:A blast@from the@past.
+>promptredirect:OCEvent3P1:OCEvent3P2
+END
+
+-
+
+@OCEvent3P1
+* ...Cole, you had way 
+  worse stuff when we were 
+  kids.
+>p:KanakoOffended2
+.
+* LIKE WHAT?
+>p:AxisNormal
+.
+* Oh, you wouldn't believe
+  it!
+>p:KanakoSmug
+.
+* There is a reason why 
+  Cole is still into 
+  cowboys even nowadays.
+>p:KanakoHappy
+.
+* ...What? It's true!
+* You still act like a dork
+  even today!
+>p:KanakoTongue
+.
+* Although...
+>p:KanakoHappy
+.
+* That dorky side of yours 
+  makes you endearing, to 
+  say the least.
+>p:KanakoHappyBlush
+END
+
+-
+
+@OCEvent3P2
+* I... I didn't expect to
+  ever see her again...
+* Much less... Alive.
+>p:KanakoDumb
+.
+* But... I got over that 
+  phase ages ago. Nothing
+  but official Capmon now.
+>p:KanakoNervous
+.
+* Wonder where she is going
+  to even go in this place.
+>p:KanakoPuff
+END
+
+-
+
+@OCEvent4
+* WILL LETTING THAT THING 
+  JUST WANDER AWAY NOT COME 
+  BACK TO HAUNT US LATER?
+>p:AxisBored
+.
+* I dunno, man.
+* I'm just done with this
+  at this point...
+>p:KanakoDumb
+.
+* Let's grab that darn thing
+  already and get the heck
+  out of here.
+>p:KanakoNervous
+END
+
+--
+
+@BombEvent1
+* (You got the [color=yellow]BOMB[/color].)
+.
+* .......What.
+>p:KanakoDumb
+.
+* Is that a freaking bomb?!
+>p:KanakoNervous2
+.
+* Why is there a bomb in my
+  stuff?!?!
+>p:KanakoScared
+>prompt:From New@Years?:It is@ticking!
+>promptredirect:BombEvent1P1:BombEvent1P2
+END
+
+--
+
+@BombEvent1P1
+* O-Oh! Right!
+>p:KanakoDumb
+.
+* I think I kept some 
+  firecrackers from last
+  year in my drawer!
+>p:KEEP
+.
+* Phew... I was kinda 
+  worried...
+>p:KanakoNervous
+END
+
+-
+
+@BombEvent1P2
+* WAITISITREALLY-
+>p:KanakoScared2
+.
+* ...
+>p:KanakoScared
+.
+* No it isn't. Cole!
+* That wasn't funny!
+>p:KanakoAnnoyed
+.
+* You're going to give me a
+  heart attack!!
+>p:KanakoHurt
+END
+
+-
+
+@BombEvent2
+* ANYWAY, I THINK THIS IS
+  "THE THING" WE WERE 
+  SUPPOSED TO RETRIEVE.
+>p:AxisNormal
+.
+* ...Guess we will just
+  blow up a hole on the
+  Spire, then?
+>p:KanakoPuff
+.
+* SOUNDS LIKE THE MOST 
+  LOGICAL CONCLUSION.
+>p:AxisNormal
+.
+* I wonder if this really
+  is the only way...
+>p:KanakoPuff
+.
+* Either way, we got it.
+* Let's get out of here!
+>p:KanakoNervous
+END
+
+--------------------
+
+@TobyStatue
+* A strange statue of what appears
+  to be a dog.
+.
+* You check the name on the plate... 
+* But it is covered in some unknown 
+  residue.
+.
+* You decide to leave it as it is.
+END
+
+--
+
+@GanchoFireplace
+* Above the fireplace, rests an
+  old framed drawing.
+.
+* You recall seeing it many, many
+  years ago.
+.
+* Seems part of a date is written
+  on the corner. You can only make
+  out the day and month.
+.
+* "03 / 17".
+END
+
+--
+
+@GanchoBook
+* A somewhat hefty book lays on
+  the table.
+.
+* Seems to be a heartfelt story
+  about a little skeleton who 
+  could.
+END
+
+--
+
+@GanchoFoxStatue
+* This one statue seems to be
+  heavily oxidized.
+END
+
+--
+
+@GanchoTrash
+* You look inside the trash can.
+* There is nothing but broken
+  hopes and dreams.
+.
+* Bummer.
+END
+
+--
+
+@GanchoChair
+* A neat chair. 
+.
+* It looks like Gancho used it 
+  as much as he cleaned it.
+END
+
+--
+
+@GanchoPins1
+>redirectmap:Pins:GanchoPins2
+* A pair of pincushions.
+.
+* On closer look, there seems to 
+  be handles near their bases.
+>setmap:Pins
+END
+
+--
+
+@GanchoPins2
+* A pair of rapiers. They would 
+  look at home in a pincushion.
+END
+
+--
+
+@SecretFloorSign
+[color=green]* FLOOR _?X$
+* $t__age of B__k__ D__eams
+>bleep:System
+END
+
+--
+
+@GanchoEvent1HM
+* ...
+>bleep:Pin
+.
+* Pathetic...
+>bleep:Pin
+.
+* To think the one whose RESOLVE 
+  once burn brighter than the most 
+  incandescent star...
+>bleep:Pin
+.
+* Truly... How...
+* WOEFULLY. Pitiful.
+>bleep:Pin
+END
+
+-
+
+@GanchoEvent2HM
+* ...Still.
+>tc
+>bleep:Pin
+>top:lock
+.
+* Perhaps perhaps there is a way 
+  to kindle the flame once more.
+>tc
+>bleep:Pin
+.
+* After all....
+* Facing your sins takes an 
+  immeasurable amount of courage.
+>tc
+>bleep:Pin
+END
+
+-
+
+@GanchoEvent3HM
+* Fine then. 
+>tc
+>bleep:Pin
+>top:lock
+.
+* I shall help.
+>tc
+>bleep:Pin
+.
+* I will remind you who you once 
+  were. 
+>tc
+>bleep:Pin
+.
+* Remind you... Of your promise.
+>tc
+>bleep:Pin
+.
+* ...Cole...
+>tc
+>bleep:Pin
+.
+* Face me... And do not hold 
+  back!
+>tc
+>bleep:Pin
+.
+* Let what was taken from you
+  shine bright once more!
+>tc
+>bleep:Pin
+END
+
+--
+
+@GanchoEvent1
+* ...
+>bleep:Pin
+.
+* Finally...
+* I have been waiting...
+>bleep:Pin
+END
+
+-
+
+@GanchoEvent2
+>top:lock
+* You have made me wait for far
+  too long...
+>bleep:Pin
+>tc
+.
+* I've just been left here,
+  gathering dust.
+>bleep:Pin
+>tc
+.
+* While you don't even remember
+  why I am here in the first 
+  place.
+>bleep:Pin
+>tc
+.
+* ...WHAT?
+* WHO THE [HECK] ARE YOU?
+>p:AxisAngry
+.
+* To think you’d have the gall 
+  to show your face before me 
+  once more...
+>tc
+>bleep:Pin
+.
+* Time has changed you, old friend.
+>tc
+>bleep:Pin
+.
+* I have been fulfilling my end of 
+  our deal.
+>tc
+>bleep:Pin
+.
+* But what about you?
+>tc
+>bleep:Pin
+.
+* Do you even remember what the
+  promise was about?
+>tc
+>bleep:Pin
+.
+* HUMAN? WHAT IS THIS GUY
+  ON ABOUT?
+* YOU KNOW HIM?
+>p:AxisSad
+>face:Axis:Left
+>prompt:...:He is...
+>promptredirect:GanchoEvent2A:GanchoEvent2B
+END
+
+-
+
+@GanchoEvent2A
+* I see... No further words are 
+  needed, then.
+>tc
+>bleep:Pin
+>face:Axis:North
+>top:lock
+.
+* [shake]You wretched, despicable 
+  traitor!
+>slow:4
+>tc
+>bleep:Pin
+END
+
+-
+
+@GanchoEvent2B
+* Ah... So you do remember.
+* Albeit, barely.
+>tc
+>bleep:Pin
+>face:Axis:North
+>top:lock
+.
+* Let me help you remember, then.
+>tc
+>bleep:Pin
+END
+
+-
+
+@GanchoEvent3
+* You are nothing but a shade of 
+  who you once were.
+>tc
+>bleep:Pin
+>top:lock
+.
+* Truly... How. WOEFULLY. 
+  Pitiful.
+>tc
+>bleep:Pin
+.
+* ...
+>tc
+>bleep:Pin
+.
+* That glint in your eye...
+>tc
+>bleep:Pin
+.
+* Is it anger, or perhaps...?
+>tc
+>bleep:Pin
+.
+* ...I see. 
+* Perhaps there is a way to 
+  rekindle your flame after all.
+>tc
+>bleep:Pin
+.
+* ...Fine then.
+>tc
+>bleep:Pin
+.
+* If you are ready to face your 
+  sins, I shall remind you who 
+  you once were.
+>tc
+>bleep:Pin
+.
+* By my name, [shake]Baron Gancho di 
+  Pinstrike[/shake], I shall make you 
+  regret ever forgetting!
+>tc
+>bleep:Pin
+.
+[shake]* En Garde!
+>tc
+>bleep:Pin
+END
+
+-
+
+@GanchoPostFight1
+* ...!
+>tc
+>bleep:Pin
+>top:lock
+.
+* I see. Something has changed 
+  inside of you.
+>tc
+>bleep:Pin
+.
+* It is faint now, but I could 
+  feel it growing stronger as we 
+  clashed.
+>tc
+>bleep:Pin
+.
+* Perhaps you are not fully as 
+  incandescent as you were back 
+  then-
+>tc
+>bleep:Pin
+.
+* But if you are willing to change, 
+  I shall bear witness to it once 
+  more.
+>tc
+>bleep:Pin
+.
+* You are looking for it, aren't 
+  you?
+>tc
+>bleep:Pin
+.
+* The one that goes by 
+  "[color=yellow]The Outlaw[/color]"...
+>tc
+>bleep:Pin
+.
+* Its form, a mockery of yours.
+* Carrying a perverted sense of
+  "Justice".
+>tc
+>bleep:Pin
+.
+* Oh! How I wished to strike it 
+  down... But that weasel managed 
+  to worm its way out every time.
+>tc
+>bleep:Pin
+.
+* Its asinine games had taken a 
+  toll on my mind, but I shall 
+  not stand by no more!
+>tc
+>bleep:Pin
+.
+* Let’s stop this madness.
+* Together.
+>tc
+>bleep:Pin
+END
+
+-
+
+@GanchoPostSpare1
+* ...Tch.
+>tc
+>bleep:Pin
+>top:lock
+.
+* Still as soft as ever.
+>tc
+>bleep:Pin
+.
+* And yet... Your resolve shines
+  through.
+>tc
+>bleep:Pin
+.
+* ...Very well.
+>tc
+>bleep:Pin
+.
+* You have proven to me...
+* That you still carry the will
+  to keep your promise.
+>tc
+>bleep:Pin
+.
+* Now... Let us see if this will
+  will carry you against your 
+  foe...
+>tc
+>bleep:Pin
+.
+* The one who calls itself 
+  "[color=yellow]The Outlaw[/color]".
+>tc
+>bleep:Pin
+.
+* Truly a despicable being.
+* Wielding a twisted sense of
+  "justice".
+>tc
+>bleep:Pin
+.
+* You must not understimate it.
+>tc
+>bleep:Pin
+.
+* But with me by your side...
+* There might be little to fear.
+>tc
+>bleep:Pin
+.
+* Let us stop this madness...
+* Together.
+>tc
+>bleep:Pin
+END
+
+--
+
+@GanchoPostAngry
+* ...
+>top:lock
+>tc
+>bleep:Pin
+.
+* You still carry the will inside
+  you...
+>tc
+>bleep:Pin
+.
+* ...And yet.
+>tc
+>bleep:Pin
+.
+* Your counterpart has become
+  fueled by the flames of anger.
+>tc
+>bleep:Pin
+.
+* You are failing to keep your
+  promise.
+>tc
+>bleep:Pin
+.
+* Or is it a way to make your
+  bond stronger?
+>tc
+>bleep:Pin
+.
+* ...Whatever it is...
+>tc
+>bleep:Pin
+.
+* As long as you keep your 
+  promise...
+>tc
+>bleep:Pin
+.
+* I will see it through the end.
+>tc
+>bleep:Pin
+.
+* I only hope that you keep your
+  part of the bargain, Cole.
+>tc
+>bleep:Pin
+END
+
+-
+
+@GanchoItemSpare
+* (You got the Pin Scarf.) 
+>top
+END
+
+-
+
+@GanchoItemFight
+* (You got the Pin Shot.)
+>top
+END
+
+-
+
+@GanchoFullInv
+* (...But your inventory was
+  full.)
+>top:lock
+.
+* [shake]COLE YOU...!
+>bleep:Pin
+.
+* ...Words fail me.
+>bleep:Pin
+.
+* Your avarice...
+>bleep:Pin
+.
+* Is truly sickening.
+>bleep:Pin
+.
+*
+>bleep:Pin
+.
+* But a loss is a loss.
+>bleep:Pin
+.
+* Fine. I waited all this time. 
+* What is a few more hours, days,
+  or even an eternity?
+>bleep:Pin
+.
+* Just come back and grab me once
+  you have some room.
+>bleep:Pin
+.
+* ...You greedy jerk.
+>bleep:Pin
+END
+
+-
+
+@GanchoPostB1
+* THE [HECK] WAS THAT ABOUT?
+.
+* WHATEVER THAT THING WAS,
+  IT SEEMED HELLBENT ON
+  MAKING YOU REMEMBER...
+.
+* SOMETHING.
+END
+
+-
+
+@GanchoPostB2
+* ...
+.
+* NO USE GAWKING AROUND HERE
+  ANYMORE, I GUESS.
+.
+* LET'S GET BACK TO MISS
+  KANAKO.
+END
+
+-
+
+@KanakoPostGancho
+>redirect:-29:KanakoPostGanchoAlt
+* ...
+>p:KanakoDumb
+.
+* So... What were you guys
+  doing...?
+>p:KanakoDumb
+.
+* I was just there, alone...
+* In that tiny room...
+>p:KanakoSad
+.
+* OH, WE JUST FOUGHT SOME
+  WEIRDO AND GOT SOME SW33T
+  L00T. 
+>p:AxisNormal
+.
+* SHAME YOU MISSED IT.
+>p:KEEP
+.
+* .........Oh.
+>p:KanakoDumb
+.
+* Well... Okay!
+>p:KanakoNervous
+.
+* Just... Don't forget me
+  next time, okay??
+>p:KanakoDumb
+END
+
+-
+
+@KanakoPostGanchoAlt
+* ...Where did you guys
+  go?
+>p:KanakoOffended2
+.
+* You left me alone in that
+  room for what felt like
+  forever...
+>p:KEEP
+.
+* WE WERE FIGHTING SOME
+  WEIRDO FOR SOME SW33T
+  L00T.
+>p:AxisNormal
+.
+* SORRY TO EXCLUDE YOU
+  FROM IT, MISS KANAKO.
+>p:AxisSad
+.
+* ...
+>p:KanakoOffended2
+.
+* It's... alright.
+* Just PLEASE-
+>p:KanakoNervous
+.
+* Don't forget me next
+  time, okay??
+>p:KanakoOffended2
+END
+
+-
+
+@GanchoWallVent
+* (If only I was a bit
+  shorter, I could probably
+  fit in this vent...)
+>p:KanakoPuff
+.
+* (...Would probably need a
+  suit, too...)
+>p:KanakoNervous
+END
+
+-
+
+@GanchoWallCrack
+* (Doubt I am strong enough
+  to break this crack...)
+>p:KanakoPuff
+.
+* (Is there anything even
+  behind it?)
+>p:KanakoNeutral
+.
+* (...)
+>p:KanakoPuff
+.
+* (...I think I'm going
+  crazy trapped in this
+  room...)
+>p:KanakoNervous2
+END
+
+-
+
+@ClippyHint1
+* Oh, sorry. Excuse me.
+>tc
+END
+
+-
+
+@ClippyHint2
+* Seems that guy dropped a note.
+* Read it?
+>prompt:Yes:No
+>promptredirect:ClippyHintRead:END
+END
+
+-
+
+@ClippyHintRead
+* "All the numbers of the password
+  add up to 20."
+.
+* "Lower half left, and higher 
+  half right."
+END
+
+--
+
+@PasswordGateAlt1
+* ...We don't have time for
+  this.
+>p:KanakoOffended2
+.
+* Clear the way, Cole.
+* I know how to get in.
+>p:KEEP
+END
+
+--
+
+@PasswordGateAlt2
+* >A<
+>p:AnmeScared
+.
+* WHAT WAS THAT?!
+>p:KEEP
+.
+* THAT SCARED ANME!!
+>p:KEEP
+.
+* Woah, what the-
+>p:KanakoSurprise
+.
+* Wait... A-Are you...
+>p:KanakoDumb
+.
+* anme was just here
+  minding her business-
+  u.u
+>p:AnmeSad
+>signalearly
+.
+* and then meanies show up
+  to beat anme!! >.<
+>p:AnmeScared
+.
+* anme does not like this
+* anme will take this
+  opportunity to flee o.O
+>p:AnmeSad
+.
+* get out of anme's way!!
+* >o<
+>p:KEEP
+END
+
+--
+
+@PasswordGateAlt3
+* THE [heck] WAS THAT?!
+>p:AxisAngry
+.
+* ...That was an old OC of
+  mine, Anme...
+>p:KanakoDumb
+>mini:AxisNormal:WHAT IS AN "OOH CEE"?
+.
+* I guess I stuffed her
+  drawing in my desk a long
+  time ago.
+>p:KEEP
+.
+* ...Well, whatever.
+* She probably isn't bad
+  or anything.
+>p:KanakoNeutral
+.
+* Let's just get the thing
+  and get out of here.
+>p:KEEP
+END
+
+--
+
+@SecretJunkCheck
+* Piles and piles of broken
+  dreams.
+END
+
+--
+
+@GanchoBucket
+* Cleaning supplies. They seem to
+  be worn, but well cared for.
+END
+
+--
+
+@GanchoBookshelf
+* A collection of books and short 
+  stories. Seems these kept Gancho 
+  entertained.
+END
+
+--
+
+@GanchoBookshelf2
+* Books and more books. 
+* Nothing stands out in particular.
+END
+
+--
+
+@LazerBarrierHint
+[color=green]* "By linking these barrier 
+  generators to the [color=magenta]pink gates[/color]-"
+>bleep:System
+.
+[color=green]* "We should be able to stop 
+  lightner progress somewhat!"
+>bleep:System
+.
+[color=green]* "...Or at least while the gates
+  are active."
+>bleep:System
+END
+
+--
+
+@ZoomOutHint
+[color=green]* These [color=yellow]zoom out panels[/color] will let
+  you take a view of (almost)
+  the entire room when used!
+>bleep:System
+.
+[color=green]* You can even use [LEFT] and 
+  [RIGHT] to pan it in some 
+  areas and get a good view around.
+>bleep:System
+END

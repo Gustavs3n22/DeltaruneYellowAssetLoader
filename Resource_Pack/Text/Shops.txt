@@ -1,0 +1,11 @@
+@BuyConfirm
+ Buy for
+ D$ @?
+  Yes
+  No   
+
+@SellConfirm
+ Sell for
+ D$ @?
+  Yes
+  No    

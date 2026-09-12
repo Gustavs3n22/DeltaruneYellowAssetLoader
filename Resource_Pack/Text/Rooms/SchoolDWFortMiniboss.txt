@@ -1,0 +1,472 @@
+@Event1
+* And here they are.
+* Right on cue.
+>bleep:Bearing
+END
+
+-
+
+@Event2FightMore
+* Have had your fun tearing
+  through my troops?
+>p:BearingNormal
+END
+
+-
+
+@Event2SpareMore
+* Have had your fun
+  "sparing" my troops?
+>p:BearingNormal
+END
+
+-
+
+@Event3Angry
+* You!
+>p:KanakoOffended
+.
+* What's with the look,
+  girl? Upset that you
+  can't go back home?
+>p:BearingLaugh
+.
+* Unfortunately for you,
+  I cannot allow you to
+  leave.
+>p:BearingNormal
+.
+* You are exactly who
+  "it" has been waiting
+  for.
+>p:BearingNormal
+.
+* The hell is "it"?
+* You mentioned that 
+  earlier at the cliffs.
+>p:KanakoOffended
+.
+* Oh, you will know soon
+  enough.
+>p:BearingNormal
+.
+* As soon as we capture you,
+  that is.
+>p:BearingNormal
+.
+* Like we will let you!
+>p:KanakoOffended
+.
+* Heh. Be that way.
+>p:BearingLaugh
+END
+
+-
+
+@Event3Normal
+* It's them!
+>p:KanakoSurprise
+.
+* You may have eluded us
+  at the cliffs earlier-
+>p:BearingNormal
+.
+* But this time you are in
+  our turf.
+>p:BearingNormal
+.
+* You will make a fine gift
+  for "it".
+>p:BearingNormal
+.
+* "It"? 
+>p:KanakoOffended
+.
+* You mentioned that
+  in the cliffs...
+>p:KanakoOffended
+.
+* Oh, don't worry about 
+  that. You'll meet with 
+  "it" soon.
+>p:BearingNormal
+.
+* As soon as we capture you.
+>p:BearingNormal
+END
+
+-
+
+@Event4
+* Honvich?
+>p:BearingNormal
+.
+* Yes, sir!
+* Leave them to me!
+>p:HonvichNormal
+.
+* Don't crush them too
+  hard. We need them alive
+  for "it".
+>p:BearingNormal
+.
+* This time, you won't
+  escape, brats!
+>p:HonvichNormal
+[shake]* This time, VON HONVICH
+  WILL NOT HOLD BACK!
+>p:HonvichHappy
+>anim:BearingGeneral:Laugh
+.
+* Cole, get ready!
+>p:KanakoOffended
+END
+
+--
+
+@Penceller
+>redirectmap:Pencil:Penceller2
+* Hey, what's up?
+>tc
+.
+* Since you've been nice to us,
+  I've set up this box for you.
+>tc
+.
+* You can store all sorts of
+  items inside of it!
+>tc
+.
+* So go ahead and use it however
+  you want, as a token of thanks.
+>mapflag:Pencil
+>tc
+END
+
+-
+
+@Penceller2
+* The box is magic, your items
+  will be accessible from any
+  other box like this!
+>tc
+.
+* So go ahead and use it without
+  fear.
+>tc
+END
+
+--
+
+@PostEventBeat1
+* ...Hmph! You brutes!
+* Is this how you treat
+  your elders?
+>p:HonvichSquint
+.
+* Dude, just let us go
+  home! Get out of the
+  way!
+>p:KanakoOffended2
+.
+* ...Hah.
+>p:HonvichSquint
+.
+* You'll never make it
+  past Bearing.
+>p:HonvichNormal
+.
+* You'll never seal our
+  fountain.
+>p:HonvichNormal
+.
+* And besides... IT 
+  wouldn't let you.
+>p:HonvichSquint
+.
+* "It", "it"! You and that
+  bear keep saying that!
+* The heck is it??
+>p:KanakoOffended2
+.
+* Oh, girl. You don't know
+  what mess you are getting
+  into.
+>p:HonvichSquint
+.
+* IT specifically wants YOU.
+* IT tasked me and Bearing
+  to bring you to IT.
+>p:HonvichNormal
+.
+* Doesn't matter where you
+  go, you'll never be free
+  from it.
+>p:HonvichNormal
+.
+* After all... Wasn't IT
+  why you even came to this
+  Dark World at all?
+>p:HonvichSquint
+.
+* ...
+>p:KanakoNeutral
+END
+
+-
+
+@PostEventBeat2
+* Well, it is time to
+  take my leave.
+>p:HonvichNormal
+.
+* Wait! We aren't done!
+>p:KanakoDumb
+.
+* You already asked too
+  much. If you want to
+  know more, ask Bearing!
+>p:HonvichNormal
+.
+* My role has come to an 
+  end.
+>p:HonvichSquint
+.
+* We will never see each
+  other again.
+* And that's for the best.
+>p:HonvichNormal
+.
+* Adieu.
+>p:HonvichNormal
+END
+
+-
+
+@PostEventBeat3
+* ...That was kinda out of
+  nowhere...
+>p:KanakoNeutral
+.
+* Well, no matter. We can't
+  waste any more time!
+>p:KanakoOffended
+.
+* Let's get to Bearing and
+  go home.
+>p:KanakoOffended
+END
+
+--
+
+@PostEventViolent1
+* Ough... You hit hard
+  for someone your size...
+>p:HonvichHurt
+.
+* Get out of the way!
+>p:KanakoAngry3
+.
+* Hmph. Even if you beat me,
+  you will never make it 
+  past Bearing.
+>p:HonvichNormal
+.
+* And besides, IT wouldn't
+  let you leave even if you
+  wanted to.
+>p:HonvichSquint
+.
+* You're here forever, girl.
+>p:HonvichNormal
+.
+* ...We don't have time for
+  this!
+* Get. Out. Of. The. Way.
+>p:KanakoAngry
+.
+* ......
+>p:HonvichNormal
+>prompt:Let Kanako@Handle This:Stop Her
+END
+
+-
+
+@PostEventViolentStop
+* Cole...?
+>p:KanakoSurprise
+.
+* ...
+>p:KanakoNeutral
+.
+* Right... I...
+>p:KanakoSad2
+.
+* Sorry.
+>p:KanakoNeutral
+.
+* I'm just tired of all 
+  this nonsense.
+>p:KanakoSad
+.
+* ...Hah.
+>p:HonvichHappy
+.
+* If this ails you, then
+  you will not survive long
+  in the Dark Worlds.
+>p:HonvichNormal
+>face:party:Right
+.
+* ...What do you mean?
+>p:KanakoOffended
+.
+* There is not just one 
+  Dark World in your 
+  town...
+>p:HonvichSquint
+.
+* This isn't the last you
+  will interact with the
+  darkness.
+>p:HonvichSquint
+.
+* So you better keep your
+  wits straight, girl.
+>p:HonvichNormal
+.
+* Your anger... That anger
+  inside of you, it could
+  lead you into a dark path.
+>p:HonvichNormal
+.
+* After everything you're
+  still lecturing us?
+>p:KanakoOffended2
+.
+* Hah! Guess it is only 
+  in my nature.
+>p:HonvichHappy
+END
+
+-
+
+@PostEventViolent2
+* Get out of the way!!
+>p:KanakoAngry3
+.
+* ...I see. So that is 
+  what IT sees in you.
+>p:HonvichSquint
+.
+* That fire... That anger...
+* That determination...
+>p:HonvichNormal
+.
+* Heh. Don't mind me then.
+>p:HonvichHappy
+END
+
+-
+
+@PostEventViolent3
+* I know when I should 
+  retreat.
+* And this is the time.
+>p:HonvichNormal
+.
+* Even if you close this
+  fountain... That is a 
+  better end-
+>p:HonvichNormal
+.
+* Than having to deal with
+  such anger.
+>p:HonvichNormal
+.
+* Bearing, forgive me.
+* But I value my life more
+  than this.
+>p:HonvichSquint
+.
+* Adieu.
+>p:HonvichNormal
+END
+
+-
+
+@PostEventViolent4
+* ......
+>p:KanakoSad2
+.
+* Sorry, Cole. I almost
+  lost my temper...
+* ...Again.
+>p:KanakoNeutral
+.
+* This place is getting
+  to me...
+>p:KanakoOffended2
+.
+* Let's just go seal the
+  fountain.
+>p:KanakoSad2
+END
+
+--
+
+@PostEventApprehend1
+* ...You think this dingy
+  rope can stop me?
+>p:HonvichNormal
+.
+* You think that you can
+  get out of this place
+  so easily?
+>p:HonvichSquint
+.
+* Dude! We just wanna go
+  home! Why do you keep
+  making this hard?!
+>p:KanakoOffended2
+.
+* ...You don't get it,
+  girl.
+>p:HonvichSquint
+.
+* IT ordered us to bring 
+  any lightners we found.
+* SPECIALLY you.
+>p:HonvichNormal
+.
+* What the hell is "it"?
+* Are you finally going to
+  tell us?
+>p:KanakoOffended
+.
+* ...Heh.
+>p:HonvichHappy
+.
+* You better ask Bearing 
+  himself about IT then.
+>p:HonvichNormal
+.
+* If you survive, that is.
+>p:HonvichSquint
+.
+* ...Ha ha ha...
+>p:HonvichHappy
+END
+
+-
+
+@PostEventApprehend2
+* Totally not omnious at
+  all...
+>p:KanakoOffended2
+.
+* Anyway Bearing should be
+  up ahead...
+* Just a bit more, Cole.
+>p:KanakoOffended
+END

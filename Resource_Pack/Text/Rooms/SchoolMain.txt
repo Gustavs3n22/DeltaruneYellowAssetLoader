@@ -1,0 +1,1906 @@
+@ClassroomSupplies
+* Basic school cleaning supplies,
+* ...And your faithful steed.
+>prompt:Ride:Don't
+>promptredirect:BroomRide:BroomDontRide
+END
+
+-
+
+@BroomRide
+* It ain't halloween yet.
+* (And besides, only witches ride
+  brooms, silly.)
+END
+
+-
+
+@BroomDontRide
+* Yeah, you'd look stupid.
+END
+
+-----
+
+@ClassroomPC
+* The teacher's PC.
+.
+* He doesn't really know how to use
+  it, so the students teach the
+  teacher more than he teaches.
+END
+
+-----
+
+@ClassroomClock
+* You look at the clock.
+.
+>redirect:MelodyEventDay2:ClassroomClockDay2B
+>redirect:Day1End:ClassroomClockDay2
+>redirect:NightTime:ClassroomClockLate
+>redirect:ClockDay1
+END
+
+--
+
+@ClockDay1
+* Seems it's almost time for her
+  to arrive back home.
+END
+
+-----
+
+@ClassroomClockLate
+* It is very late now.
+* You should head home.
+END
+
+----
+
+@ClassroomClockDay2
+* Seems it's still recess time.
+END
+
+---
+
+@ClassroomClockDay2B
+* Seems it isn't time to be in
+  class.
+END
+
+-----
+
+@ClassroomTrash
+* Doesn't seem anyone left anything
+  good today.
+.
+* Bummer.
+END
+
+--
+
+@ClassroomTrash2
+* Even here there isn't anything
+  good.
+.
+* Bummer.
+END
+
+-----
+
+@ClassroomDesk
+* You look through the papers
+  across the desk.
+.
+* You find one of the students'
+  tests.
+.
+* "Kanako Ketsukane"
+* "B"
+.
+* Better than yours.
+.
+[color=black].
+>instant
+>instend
+>redirect:KanakoFollowing:ClassDeskKanako
+END
+
+---
+
+@ClassroomDesk2
+* You shouldn't mess with the
+  other class' stuff, just yours
+  is enough.
+END
+
+--
+
+@TrashCanCorridor
+* Doesn't seem likely to have
+  anything good inside, so you
+  don't even look.
+.
+* Bummer.
+END
+
+---
+
+@ClassDeskKanako
+* Ah, that's mine.
+>p:KanakoPuff
+.
+* Dad didn't like when
+  I came back home with
+  anything below an A.
+>p:KanakoNeutral
+.
+* But I don't want to
+  study this!
+* Who cares about math?!
+>p:KanakoOffended2
+END
+
+-----
+
+@LockerCheck
+* Rows and rows of lockers.
+.
+* You usually don't keep your
+  stuff in them.
+END
+
+-----
+
+@PosterSchool1
+* What are you doing loitering
+  here?!
+* Get back to class!
+.
+* Signed: The Study-All-Day Team
+END
+
+--
+
+@PosterSchool2
+* If you have time to read this
+  poster, then you have time to
+  go back to class!
+.
+* Signed: The Study-All-Day Team
+END
+
+--
+
+@NotesPrincipal
+* It's a list of complaints
+  addressed to the Principal.
+* A lot of them are months old.
+END
+
+
+
+----- INTRO EVENT
+
+
+@KanakoIntro1
+* COLE!!
+>p:KanakoNormal
+END
+
+-----
+
+@KanakoIntro2
+* Geez, took you long
+  enough.
+>p:KanakoNormal
+.
+* I was starting to think
+  that you had fallen into
+  a coma!!!
+>p:KanakoHappy
+.
+* Class wasn’t even that
+  boring today.
+>p:KanakoPuff
+.
+* Did you stay up all night
+  watching those movies
+  again?
+>p:KanakoHappy
+>prompt:Yes:No::Who are you?
+>promptredirect:KanakoIntroP1:KanakoIntroP2::KanakoIntroP3
+END
+
+-----
+
+@KanakoIntroP1
+* No wonder you keep
+  sleeping in class.
+* Geez...!
+>p:KanakoTongue
+.
+* I'll tell Uncle Star
+  to stop lending you
+  those movies!
+>p:KEEP
+END
+
+-----
+
+@KanakoIntroP2
+* [wave]Yeeeaah[/wave], sure.
+>p:KanakoSmug2
+.
+* Bet Mart made you do
+  chores before bed again,
+  didn't she?
+>p:KanakoSmug2
+END
+
+-----
+
+@KanakoIntroP3
+* What? C'mon! Cole!
+* Are you that tired?!
+>p:KanakoDumb
+.
+* It's me, Kanako!
+* Your friend?!
+>p:KanakoDumb
+END
+
+-----
+
+@KanakoIntro3
+* Whoa, hey, are you okay
+  Cole?
+* You’re pale...
+>p:KanakoSad
+.
+* Did you have that weird
+  dream again?
+>p:KEEP
+.
+* Geez! Maybe lay off the 
+  chocolate milk before 
+  bed?
+>p:KanakoTongue
+END
+
+-----
+
+@KanakoIntro4
+* Well, just grab your
+  things and let’s get out
+  of here.
+>p:KanakoNormal
+.
+* After all, this might
+  be our last week 
+  together...
+>p:KanakoSad
+.
+* ...
+>p:KanakoSad2
+.
+* Well...
+* No use wasting time 
+  here then!
+>p:KanakoNervous
+.
+* I’ll be waiting outside,
+  alright?
+* Don't keep me waiting!
+>p:KanakoHappy
+END
+
+
+
+
+----- INTRO CORRIDOR
+
+@KanakoIntroCorridor1
+* Hmm...
+* Now where could it be...
+>p:KanakoSad
+END
+
+--
+
+@KanakoIntroCorridor2
+* Ah, there you are.
+* Ready to go?
+>p:KanakoHappy
+>prompt:Looking for@something?:Where are@we going?:Let's go
+>promptredirect:KIntroCorridor2_P1:KIntroCorridor2_P2:KIntroCorridor2_P3
+END
+
+--
+
+@KIntroCorridor2_P1
+* Ah, yeah.
+* It's that necklace
+  I lost a while ago...
+>p:KanakoNervous
+.
+* I swear it just 
+  vanished one day.
+* Can't find it at all!
+>p:KanakoOffended2
+.
+* Mom will kill me if
+  she knows it's gone...
+>p:KanakoDumb
+.
+* She said that necklace
+  has been on our family
+  for generations!
+>p:KEEP
+.
+* But... No use worrying
+  about it now. We can 
+  find it another time.
+>p:KanakoNervous
+END
+
+-
+
+@KIntroCorridor2_P2
+* Oh, I have planned
+  some cool things we can
+  do this week since...
+>p:KanakoHappy
+.
+* Well... y'know...
+>p:KanakoNervous
+.
+* ...Just trust me,
+  I will make this one 
+  week we won't forget!
+>p:KanakoTongue
+END
+
+-
+
+@KIntroCorridor2_P3
+* Yeah, we are short on
+  time. 
+>p:KanakoNormal
+.
+* Let's get out of here
+  and do something!
+>p:KanakoTongue
+END
+
+-
+
+@KIntroCorridor2_E
+* [font_size=8]...I just wish I had more time...
+>p:KanakoSad2
+>anim:KanakoEvent1:SadSide
+.
+* Huh? What?
+* No, I didn't say
+  anything!
+>p:KanakoDumb
+>anim:KanakoEvent1:force
+.
+* C'mon, we're wasting
+  time here. Let's move!
+>p:KanakoTongue
+END
+
+
+-----
+
+@KanakoIntroCorridorN2
+* Ah! Sadie!
+>p:KanakoNormal
+.
+* Kanako! Weird to see
+  you at school this 
+  late. What gives?
+>p:JuneHappy
+.
+* Um, sorry. I was
+  waiting for Cole to,
+  y'know, wake up.
+>p:KanakoNervous
+.
+* Ah. Yes. Of course.
+* Lately he's been 
+  sleeping a lot.
+>p:JuneNeutral
+.
+* ...It's the late night
+  cowboy movies again,
+  isn't it?
+>p:JuneNormal
+>prompt:Yee-haw!:No way
+>promptredirect:END:KanakoIntroCorridorN2P2
+END
+
+--
+
+@KanakoIntroCorridorN2P1
+* Hehe...
+* You're so corny...
+>p:JuneHappy
+.
+* C'mon Cole, stop
+  fooling around!
+>p:KanakoTongue
+END
+
+-
+
+@KanakoIntroCorridorN2P2
+* Yeah right. He always
+  says that but I know he 
+  watches them all night.
+>p:KanakoSmug
+.
+* Guess he really enjoys
+  those, huh?
+>p:JuneNeutral
+END
+
+--
+
+@KanakoIntroCorridorN3
+* Oh, I noticed you were
+  looking for something
+  earlier...
+>p:JuneNormal
+.
+* Ah yes, my mom's
+  necklace...
+>p:KanakoNeutral
+.
+* I lost it a few days
+  ago and just can't
+  find it anywhere!
+>p:KEEP
+.
+* Oh! Did you try
+  looking in the lost
+  and found closet yet?
+>p:JuneNeutral
+.
+* Lots of forgotten items.
+* Maybe a janitor took it
+  there?
+>p:JuneNormal
+.
+* Hm... Good idea,
+  didn't think of that.
+* Thanks, Sadie!
+>p:KanakoHappy
+.
+* Heh, no problem!
+>p:JuneHappy
+.
+* If you want, I can
+  even help you look
+  for-
+>p:JuneNormal
+.
+[shake]* HEY!
+* SADIE!
+>bleep:Gizmo
+END
+
+-
+
+@KanakoIntroCorridorN4
+* Heya, Gizmo!
+* Something up?
+>mini:JuneNormal:...
+>p:KanakoHappy
+>top
+.
+* Hey, Kanako, Cole!
+* You two sneaking 
+  after hours again?
+>p:GizmoHappy
+>top
+.
+* N-no, just waiting
+  for Cole to wake up.
+* Again.
+>p:KanakoNervous
+>top
+.
+* Ah, I see.
+* Watching the movies
+  again, eh?
+>p:GizmoSmug
+>top
+.
+* Well I won't keep you
+  two. I'm here for Sadie!
+>p:GizmoNormal
+>top
+.
+* Yo, Sadie!
+* What you still doin'
+  here?
+>p:GizmoSmug
+>top
+.
+* Didn't you promise
+  to help me get the
+  high score today?
+>p:GizmoNormal
+>top
+.
+* Huh? What? Where?
+* What score?
+>p:JuneSad
+>top
+.
+* At the cafe's arcade! 
+  Didn't you tell me 
+  yesterday you'd help me?
+>p:GizmoExcited
+>top
+.
+* Gamer promise.
+>p:GizmoWink
+>top
+.
+* Ah, right. I forgot.
+* It's just...
+* I-
+>p:JuneNervous
+>top
+.
+* Hey, you aren't gonna
+  ghost me now, are you?
+* That would be cringe.
+>p:GizmoSmug
+>top
+.
+* ...Alright.
+* I did promise, after
+  all...
+>p:JuneSad
+>top
+.
+* Kanako, Cole, sorry.
+* I will help you look
+  for it later.
+>p:JuneNeutral
+>turn:JuneEvent1:right
+>turn:KanakoEvent1:left
+>turn:Player:left
+>top
+.
+* No problem, I bet me
+  and Cole can find it
+  on our own!
+>p:KanakoHappy
+>top
+.
+* ...
+* Well, okay.
+>p:JuneNeutral
+>top
+.
+* See you later, then?
+>mini:GizmoHappy:Later!
+>p:JuneNormal
+>top
+.
+* See ya!
+>p:KanakoHappy
+>top
+END
+
+--
+
+@KanakoIntroCorridor10
+* What luck! Hopefully we
+  can find it before mom
+  notices it's gone!
+>p:KanakoPuff
+.
+* I think the lost and found
+  closet is just at the end of
+  the corridor.
+>p:KanakoNormal
+.
+* Let's check it out and be
+  on our way.
+>p:KEEP
+END
+
+-----
+
+@KanakoIntroCorridor11
+* Well, here we are.
+>p:KanakoNeutral
+.
+* I'll just go in and grab
+  it, and then we can leave,
+  Cole.
+>p:KanakoNormal
+.
+* It shouldn't take long.
+>p:KEEP
+END
+
+-----
+
+@KanakoIntroCorridor12
+* ...
+>p:KanakoSurprise
+.
+* Was this closet always
+  this...
+* ...Dark?
+>p:KanakoDumb
+END
+
+-----
+
+@KanakoIntroCorridor13
+* ...
+>p:KanakoSad2
+.
+* I-It's not that scary...
+* Just a quick peek...
+>p:KanakoNervous
+END
+
+-----
+
+@KanakoIntroCorridor14
+* ...
+>p:KanakoNervous
+.
+* Err, Cole?
+>p:KEEP
+.
+* H-how about we both enter
+  together...?
+>p:KEEP
+END
+
+-----
+
+@KanakoIntroCorridor15
+* ...Cole?
+>p:KanakoDumb
+.
+* Is something wr-
+>p:KEEP
+END
+
+-----
+
+@KanakoIntroCorridor16
+* W-W-WHAT!?
+>p:KanakoSurprise
+.
+* C-COLE! HELP-
+>p:KEEP
+END
+
+-----
+
+@KanakoIntroCorridor17
+* [shake]COOOOOOOOOOLEEEEEE!!
+>bleep:Kanako
+END
+
+-----
+
+
+
+
+
+
+
+DAY 2 EVENTS
+
+
+
+@SchoolEventDay2-1
+* ...Sit down, everyone.
+* Class is about to start.
+>p:DalvNormal
+END
+
+--
+
+@SchoolEventDay2-2
+* Let's start with the roll
+  call, shall we?
+>p:DalvNormal
+>top
+.
+* Err... Sadie Junebug?
+>p:DalvNormal
+>top
+.
+* Here.
+>p:JuneNormal
+>top
+.
+* Okay... Violetta?
+>p:DalvNormal
+>top
+.
+* I'm here!
+>anim:ViolettaD2:HandRaise
+>top
+.
+* Good. Felix Bytes?
+>anim:ViolettaD2:Back
+>p:DalvNormal
+>top
+.
+* Here, teach!
+>anim:GizmoD2:HandRaise
+>p:GizmoHappy
+>top
+.
+* Also, call me Gizmo!
+>mini:DalvConfused:...Um, no?
+>p:GizmoWink
+>top
+.
+* Next... Mocha?
+>anim:GizmoD2:Back
+>p:DalvNormal
+>top
+.
+* Yup. Here.
+>anim:MochaD2:HandRaise
+>top
+.
+* Now... Cole?
+>p:DalvNormal
+>anim:MochaD2:Back
+>prompt:Here:(Don't@respond)
+>promptredirect:SchoolDay2P1A:SchoolDay2P1B
+>top
+END
+
+---
+
+@SchoolDay2P1A
+* Oh, good.
+* Hope you don't sleep
+  through class today.
+>p:DalvHappy
+>top
+.
+>redirect:SchoolEventDay2-3
+END
+
+---
+
+@SchoolDay2P1B
+>redirect:WeirdStart:SchoolDay2P1BW
+* Um...
+>p:DalvConfused
+>top
+.
+* He's here, teach!
+>p:KanakoTongue
+>top
+.
+* Ah, yes.
+* Please respond when
+  called, Cole.
+>p:DalvNormal
+>top
+.
+* Continuing...
+>p:DalvPonder
+>top
+.
+>redirect:SchoolEventDay2-3
+END
+
+---
+
+@SchoolDay2P1BW
+* ...
+>top
+>p:KanakoNeutral
+.
+* Um... Cole?
+>top
+>p:DalvConfused
+.
+* I see you there...
+* Please respond when
+  called, alright?
+>top
+>p:DalvNormal
+.
+* ...Next...
+>p:DalvPonder
+>top
+.
+>redirect:SchoolEventDay2-3
+END
+
+---
+
+@SchoolEventDay2-3
+* Kanako Ketsukane?
+>top
+>p:DalvNormal
+.
+* Here, sir.
+>top
+>p:KanakoNormal
+.
+* Okay... Melody...?
+>top
+>p:DalvNormal
+END
+
+--
+
+@SchoolEventDay2-4
+* ...Melody?
+>top
+>p:DalvConfused
+.
+* ...Guess she didn't
+   come in again today...
+>top
+>p:DalvPonder
+END
+
+--
+
+@SchoolEventDay2-5
+* Britz?
+>p:DalvNormal
+>top
+.
+* Aye.
+>anim:BritzD2:HandRaise
+>top
+.
+>anim:BritzD2:Back
+* And lastly, Conner...?
+>p:DalvPonder
+>top
+.
+* ALREADY HERE!!
+>top
+.
+* Ok, seems... almost
+  everyone is here.
+>p:DalvNormal
+>top
+.
+* Let's start class then,
+  shall we?
+>p:DalvNormal
+>top
+.
+* Today's subject is
+  literature.
+>p:DalvNormal
+>top
+.
+* We will be reading "Lord
+  of the Hammer" by Gerson
+  Boom.
+>p:DalvNormal
+>top
+.
+* Who wants to start the
+  reading?
+>p:DalvHappy
+>top
+END
+
+--
+
+@SchoolEventDay2-6
+* ...No one?
+>p:DalvConfused
+>top
+.
+* ...
+>p:DalvPonder
+>top
+END
+
+--
+
+@SchoolEventDay2-7
+* It's okay.
+>p:DalvPonder
+>top
+.
+* I'll start with the intro,
+  and then everyone can read
+  a paragraph.
+>p:DalvHappy
+>top
+END
+
+--
+
+@SchoolEventDay2-8
+* Kanako passed down a note.
+* Read it?
+>prompt:Yes:No
+END
+
+--
+
+@SchoolEventDay2-Note
+* "Let's head back into the Dark
+  Jail after class."
+>bleep:Kanako
+.
+* "The Warden might know where
+  the other Dark Worlds are."
+>bleep:Kanako
+>prompt:Give@thumbs up:Ignore
+END
+
+--
+
+@SchoolEventDay2-9
+* Okay, everyone.
+* Pick up your books and
+  open on page 70.
+>p:DalvHappy
+.
+* Let us begin.
+>p:DalvHappy
+END
+
+--
+
+@SchoolEventDay2-10
+* (Nothing really interesting
+  happened during class.)
+.
+* (You feel your eyes slowly close
+  and your counsciousness fade
+  into slumber.)
+.
+* (.........)
+.
+* (Eventually, the bell rung...)
+END
+
+--
+
+@SchoolEventDay2-11
+* Ah, we will stop here for
+  now.
+>p:DalvNormal
+.
+* We will resume once recess
+  ends.
+>p:DalvHappy
+END
+
+--
+
+@SchoolEventDay2-12
+* Hey, Kanako.
+>p:JuneNeutral
+.
+* Hey, Sadie. What's up?
+>p:KanakoHappy
+.
+* Oh, just wondering...
+>p:JuneNormal
+.
+* You like softball a lot,
+  don't you, Kanako?
+>p:JuneNeutral
+.
+* ...Even though you missed
+  yesterday's training...
+>p:JuneNervous2
+.
+* Ah, right! Sorry!
+>p:KanakoPuff
+.
+* Could you tell the rest
+  of the team I'll skip
+  on training this week?
+>p:KanakoNervous
+.
+* ...
+>p:JuneNormal
+.
+* Well, ok.
+* But you DO like it, don't
+  you?
+>p:JuneNeutral
+.
+* Yeah, I do. What is this
+  about, anyway?
+>p:KanakoPuff
+.
+* Oh, I'm preparing a
+  thing for both you and
+  Cole before he...
+>p:JuneNormal
+.
+* Y'know.
+>p:JuneNeutral
+.
+* Ah. I see.
+* That's sweet of you,
+  Sadie.
+>p:KanakoNervous
+.
+* No problem, that's what
+  friends are for!
+>p:JuneHappy
+.
+* Now let me see if I have
+  enough cardboard...
+>p:JuneNormal
+END
+
+--
+
+@SchoolEventDay2-13
+* Man, class is so boring.
+>p:KanakoTongue
+.
+* Time passes by far too
+  slowly when you're
+  excited!
+>p:KanakoHappy
+.
+* C'mon, let's walk around
+  before class resumes.
+>p:KanakoNormal
+END
+
+--
+
+@DalvRecessDay2
+* Ah, Kanako, Cole.
+>p:DalvNormal
+.
+* Anything I can help
+  you with?
+>p:DalvNormal
+>prompt:Class:Yourself:Nothing:Melody
+>promptredirect:DalvClassTalk:DalvSelfTalk:DalvD2Cancel:DalvMelodyTalk
+END
+
+--
+
+@DalvD2Cancel
+* We'll resume class soon,
+  so finish whatever
+  business you have soon.
+>p:DalvNormal
+END
+
+--
+
+@DalvClassTalk
+* Um, Mr. Dalv?
+* Could we skip class today?
+>p:KanakoPuff
+.
+* ...You know that I am
+  not allowed to do that.
+>p:DalvConfused
+.
+* Well, we, err, have
+  stuff to do...
+>p:KanakoNervous
+.
+* Whatever it is, it
+  can wait.
+>p:DalvNormal
+.
+* Unless you have your
+  parent's permission I
+  cannot let you go.
+>p:DalvPonder
+.
+* (...Was worth a shot.)
+>p:KanakoNeutral
+END
+
+--
+
+@DalvSelfTalk
+* Myself?
+>p:DalvConfused
+.
+* Well you already know
+  I am your teacher....
+>p:DalvPonder
+.
+* ...You know, I used to
+  be more "meek" at your
+  age...
+>p:DalvNormal
+.
+* But I managed to pull
+  myself up and stand up
+  for myself.
+>p:DalvHappy
+.
+* I know this probably
+  isn't an issue for you
+  two-
+>p:DalvNormal
+.
+* But remember to always
+  make your boundaries
+  clear to others.
+>p:DalvPonder
+.
+* Don't let others step
+  over you.
+>p:DalvNormal
+.
+* ...
+>p:DalvPonder
+.
+* Sorry, went a bit too
+  personal there.
+>p:DalvNormal
+.
+* You should enjoy your
+  recess before class
+  resumes.
+>p:DalvHappy
+.
+* Agreed. C'mon, Cole.
+>p:KanakoNervous
+END
+
+--
+
+@DalvMelodyTalk
+* Ah, Melody.
+* She probably skipped
+  class again today.
+>p:DalvPonder
+.
+* I wish I could do
+  something to help her
+  improve...
+>p:DalvNormal
+.
+* But I already gave her
+  too many chances.
+* She is on thin ice...
+>p:DalvNormal
+.
+* Might have no other choice
+  but to escalate this to
+  the principal.
+>p:DalvPonder
+.
+* Cole... You're a human,
+  like her.
+>p:DalvNormal
+.
+* Can't you talk some sense
+  into her?
+>p:DalvNormal
+>mini:KanakoNeutral:...
+END
+
+---
+
+@MelodyDay2-1
+* Vivi! How are classes going so
+  far?
+>talk:RosaD2
+.
+* ...The same as usual.
+>talk:ViolettaMeloEvent
+.
+* So, boring, then!
+* Dalv is so [wave]boooring!
+>talk:PedlaD2
+END
+
+--
+
+@MelodyDay2-2
+* ...I wouldn't say that.
+* I would call his classes...
+* "Educational?"
+>talk:ViolettaMeloEvent
+.
+* You're too nice! Just say his
+  classes are boring!
+>talk:PedlaD2
+.
+* You know, you could request a
+  change to our class. Then at
+  least we would be all together.
+>talk:RosaD2
+.
+* ...I like my classmates.
+* They all are very nice to me.
+>talk:ViolettaMeloEvent
+END
+
+--
+
+@MelodyDay2-3
+* Oh, sorry.
+* I'll move out of the-
+>talk:ViolettaMeloEvent
+END
+
+--
+
+@MelodyDay2-4
+* Don't touch me, flower
+  freak!
+>p:MelodyNormal
+END
+
+--
+
+@MelodyDay2-5
+* Hey! Cut it out,
+  Melody!
+>p:KanakoOffended
+.
+* ...You.
+>p:MelodyAngry
+.
+* If you're looking for
+  a fight, fox, you just
+  had to say so!
+>p:MelodyAngry
+.
+* I'm pretty pissed off
+  today... so...
+>p:MelodyAngry
+.
+* Time to let out some
+  steam!
+>redirect:KanaViolentCh1:MelodyDay2Angry1
+>p:MelodyHappy
+>prompt:Intervene:Do not
+END
+
+--
+
+@MelodyDay2Angry1
+* Pissed off?! As if you
+  even know what that is!
+>p:KanakoAngry2
+.
+* I'll show you what pissed
+  off really means!
+>p:KanakoAngry3
+.
+* Oh? The fox finally bares
+  her fangs! I was waiting
+  for this!
+>p:MelodyHappy
+.
+* An actual reason to beat
+  you to a pulp! Come here
+  then, if you dare!!
+>p:MelodyAngry
+END
+
+--
+
+@MelodyDay2-5A
+* ...Cole...
+* Don't get involved!
+>p:MelodyAngry
+.
+* I'll wipe the floor with
+  you too!
+>p:MelodyAngry
+.
+* ...Guess she finally wants
+  to be expelled.
+>p:KanakoOffended
+.
+* Let's teach her a lesson,
+  Cole!
+>p:KanakoOffended
+END
+
+--
+
+@MelodyDay2-5B
+* ...I'm not afraid of you.
+>p:KanakoOffended
+.
+* Oh yeah?! Let's see youu
+  think so after I wipe
+  the floor with you!
+>p:MelodyAngry
+END
+
+--
+
+@MelodyDay2-6
+[shake]* STOP! STOP IT!
+>bleep:Gizmo
+END
+
+--
+
+@MelodyDay2-7
+* Gizmo!
+>p:KanakoSurprise
+.
+* What're you doing, 
+  furball?! This has 
+  nothing do do with you!!
+>p:MelodyAngry2
+.
+* Of course it has to do
+  with me!
+>p:GizmoSad2
+.
+* If you get expelled, who
+  will I compete against in
+  my high scores?!
+>p:GizmoSad2
+.
+* Is that SERIOUSLY why you
+  are stopping me?!
+>p:MelodyHurt
+.
+* Get off!
+* I said: [shake]GET! OFF!
+>p:MelodyAngry2
+END
+
+-
+
+@MelodyDay2-8
+* ...Tch. Out of time.
+>p:MelodyNormal
+>mini:KanakoNeutral:...
+.
+* Out of my way, freaks.
+>p:MelodyAngry
+>mini:GizmoSad2:Ow ow ow...
+END
+
+--
+
+@MelodyDay2-9
+* ...You okay, Violetta?
+* Gizmo?
+>p:KanakoNeutral
+.
+* Y-yeah. I'm fine.
+>talk:ViolettaMeloEvent
+.
+* Ouch... Only thing really
+  hurt is my ego...
+>p:GizmoSad2
+>anim:GizmoMeloEvent:FallLW2
+.
+* Sheesh. What's wrong with her?
+* Woke on the wrong side of bed?
+>talk:RosaD2
+.
+* ...I was so scared... But I'm
+  glad nothing serious happened.
+>talk:PedlaD2
+.
+* ...Why does she have to be
+  that way...
+>p:KanakoSad2
+.
+* Ugh. C'mon Cole, let's get
+  back into class.
+>p:KanakoNeutral
+END
+
+--
+
+@MelodyDay2Angry2
+* The heck is her problem?!
+>p:KanakoOffended2
+.
+* I swear she is getting
+  worse each day.
+>p:KEEP
+.
+* (Can't wait until she is
+  expelled and gets out of
+  here.)
+>p:KanakoAnnoyed
+END
+
+--
+
+@BugKoalaDuoD2
+* Hey Cole, hey Kanako.
+>talk:MochaD2-2
+.
+* Hey, guys. What's up?
+>p:KanakoNormal
+.
+* Nothin' much. Just thinkin'
+  our next comedy skit.
+>talk:BritzD2-2
+.
+* Hey, hey! Do you wanna hear it!?
+>talk:MochaD2-2
+.
+* (...Oh no. Here it
+  comes...)
+>p:KanakoOffended2
+END
+
+
+@BugKoalaDuoD2-2
+* [wave]We're the laughy boys! Always
+  together looking for joys!
+>talk:MochaD2-2
+.
+* [wave]We're like teas in a lily pad!
+>talk:BritzD2-2
+.
+* [shake]Don't you mean peas in a pod!?
+>talk:MochaD2-2
+END
+
+
+@BugKoalaDuoD2-3
+* Uh... Wait, was that the
+  joke...?
+>p:KanakoOffended2
+END
+
+--
+
+@BugKoalaDuoD2-After
+* It's still a work in progress!
+  We'll make it better, just you
+  hear!
+>talk:MochaD2-2
+.
+* Don't go stealing our work yet,
+  y'hear!
+>talk:BritzD2-2
+>mini:KanakoOffended2:(I wouldn't not in a million years...)
+END
+
+---
+
+@ConnerDay2
+* CONNER KNOWS.
+>tc
+.
+* What?
+>p:KanakoNervous
+.
+* CONNER KNOWS WHAT CLASSMATES
+  KANAKO AND COLE DO.
+>tc
+.
+* Uh, what do you
+  mean...?
+>p:KanakoNervous
+.
+* CONNER KNOWS THAT K & C GO
+  TO CAFE BACKROOM AND VANDALIZE
+  MACHINES!
+>tc
+.
+* ...
+>p:KanakoOffended2
+.
+* Y-yeah, sure...
+>p:KanakoNervous
+END
+
+--
+
+@ConnerDay2-Early
+* CONNER DOESN'T LEAVE CLASS.
+>tc
+.
+* CONNER MUST STUDY HARD TO
+  GO TO COLLEGE.
+>tc
+.
+* Uh, good luck with that.
+>p:KanakoPuff
+END
+
+------
+
+@GizmoSchoolDay2
+>redirectmap:Gizmo:GizmoSchoolDay2B
+* Hey, Cole!
+* Didja hear the latest?
+>p:GizmoAwe
+.
+* The hit game by Tony 
+  Vulpine, "UNRELATED", 
+  THAT famous game...
+>p:KEEP
+.
+* It is finally going
+  to be releasing soon!
+>p:GizmoHappy
+.
+* Wasn't that game
+  announced like 10 years
+  ago?
+>p:KanakoPuff
+.
+* Yes! But it's FINALLY 
+  coming out!
+>p:GizmoSmug
+.
+* Can't wait to see if the 
+  wait was worth the wait!
+>p:GizmoHappy
+>mini:KanakoNervous:Are people still waiting after so long?
+>setmap:Gizmo
+END
+
+--
+
+@GizmoSchoolDay2B
+* Imagine having to wait so
+  long only for the game to
+  be mid.
+>p:GizmoNormal
+.
+* That would suck. But I 
+  have faith in Tony 
+  Vulpine!
+>p:GizmoHappy
+.
+* What if the game doesn't
+  end up as you imagined
+  it to be?
+>p:KanakoPuff
+.
+* No way! I totally believe
+  in Tony! He will pull
+  through!
+>p:GizmoNervous
+END
+
+--
+
+@SchoolAfterRecessD2-1
+* Let's resume our reading,
+  shall we?
+>top
+>p:DalvNormal
+.
+* Oh, Melody!
+* You're finally here.
+>p:DalvHappy
+>top
+.
+* ...
+>mini:KanakoNeutral:...
+>p:MelodyNormal
+>top
+.
+* ...Very well.
+* Let us continue.
+>p:DalvConfused
+>top
+.
+* (...)
+>top
+>p:KanakoNeutral
+.
+* (Wait, where is Sadie?)
+>top
+>p:KanakoPuff
+END
+
+--
+
+@SchoolAfterRecessD2-2
+* (Class went on as usual.)
+.
+* (Eventually, the bell rung.)
+END
+
+--
+
+@SchoolAfterRecessD2-3
+* Ah, that's all for today.
+>p:DalvHappy
+.
+* Remember to pick up all
+  your belongings before
+  you leave-
+>p:DalvHappy
+.
+* And don't forget your
+  homework.
+>p:DalvHappy
+END
+
+--
+
+@Boards
+* "Looking for some PASSION
+  (and extra credits)?!"
+.
+* "Be sure to attend the DANCE
+  classes with your beloved one,
+  El Bailador!"
+.
+* "Just take a number from the
+  sheet below and schedule
+  your class!"
+.
+* (The entire phone sheet is
+  completely untouched.)
+END
+
+--
+
+@Crates
+* Doesn't seem there is anything
+  useful in these.
+END
+
+--
+
+@PrincipalDoor
+* The Principal's office.
+.
+* You don't want to be lectured
+  again, so better stay clear of
+  it.
+END
+
+--
+
+@BathroomDoor
+* You don't need to go right now.
+END
+
+--
+
+@WaterFountains
+* Those are very unsanitary but
+  at least it's free water.
+END
+
+--
+
+@Honvich
+* An old blue book.
+.
+* You feel like you've seen it
+  before.
+END
+
+--
+
+@LibraryWallCheck
+* You tried to check the board
+  to see what people are posting,
+  but your eyes are drawn upwards.
+.
+* At the top of the board, seems
+  someone wrongly mispelled 
+  "library" as "librarby".
+.
+* You literally can't focus on
+  anything else.
+END
+
+--
+
+@LibraryBookshelf1
+* Many books are here.
+* Some titles catch your eye.
+.
+* "Lord of The Hammer (Abridged)"
+* "How to Take Care of Slugs"
+* "The Tale of Red The Hunter"
+.
+* None of them really interest 
+  you, however.
+END
+
+--
+
+@LibraryBookshelf2
+* Many books are here.
+* Some titles catch your eye.
+.
+* "Book 5 about SOULs"
+* "Monster Magic for Dummies"
+* "The Dreemurr Conspiracy"
+.
+* None of them really interest 
+  you, however.
+END
+
+--
+
+@LibraryBookshelf3
+* Many books are here.
+* Some titles catch your eye.
+.
+* "Tony Vulpine's Biography"
+* "The Guinea's Book of Records"
+* "Froggits and you: 101"
+.
+* None of them really interest 
+  you, however.
+END
+
+--
+
+@LibraryBookshelf4
+* Many books are here.
+* Some titles catch your eye.
+.
+* "Crystal Identification Guide"
+* "Quarter Parallel Universes"
+* "Befrieding Your Killers"
+.
+* None of them really interest 
+  you, however.
+END
+
+--
+
+@LibraryBookshelf5
+* Many books are here.
+* Some titles catch your eye.
+.
+* "Vampires vs Humans"
+* "The Fox Guide"
+* "Human and Monster Peace"
+.
+* None of them really interest 
+  you, however.
+END
+
+--
+
+@LibraryTable
+* Seems someone just left all
+  their notes on the desk as if
+  they owned the place.
+END
+
+--
+
+@DalvLibraryD2-1
+* Ah, Cole, Kanako.
+* What do I owe the 
+  pleasure?
+>p:DalvHappy
+>prompt:Studying:What are@you doing?:Dark World:Nothing
+>promptredirect:DalvLibraryD2-1P1:DalvLibraryD2-1P2:DalvLibraryD2-1P3:DalvLibraryD2-1P4
+END
+
+--
+
+@DalvLibraryD2-1P1
+* ...Ah, forgive me. I just
+  find it... unbelievable
+  that you said that.
+>p:DalvConfused
+.
+* But everyone must start
+  somewhere. I will disturb
+  you no longer,
+>p:DalvPonder
+.
+* It just makes me happy you
+  are finally taking your
+  studies serious.
+>p:DalvHappy
+.
+* (...This isn't because of
+  the case, is it...?)
+>p:DalvPonder
+END
+
+--
+
+@DalvLibraryD2-1P2
+* Ah, I'm just writing a
+  letter.
+>p:DalvHappy
+.
+* That's quite... old 
+  fashioned.
+* To who?
+>p:KanakoNervous
+.
+* A while ago, I got in
+  contact with someone in
+  another town,
+>p:DalvPonder
+.
+* Ever since then, we have
+  been exchanging letters
+  back and forth.
+>p:DalvHappy
+.
+* Ah, so a penpal?
+>p:KanakoPuff
+.
+* Indeed. It is much easier 
+  for me to put my feeelings 
+  into writing.
+>p:DalvHappy
+.
+* ...Wonder if I'll ever 
+  get to meet them in 
+  person someday.
+>p:DalvPonder
+.
+* Oh, look at me rambling.
+* I'll let you two be now.
+>p:DalvHappy
+END
+
+--
+
+@DalvLibraryD2-1P3
+* Dark World? What is that?
+>p:DalvConfused
+.
+* Uh, it's just... It's a
+  new book series we have
+  been reading!
+>p:KanakoNervous
+.
+* ...Hm. I don't think I
+  quite heard of it.
+>p:DalvPonder
+.
+* But if you'd like, I could
+  look into ordering it for
+  you if we don't have it.
+>p:DalvNormal
+.
+* Oh, um, no need!
+* We'll... just find it on
+  our own!
+>p:KanakoNervous
+.
+* ...Alright. I'll be here
+  if you ever change your
+  mind.
+>p:DalvPonder
+END
+
+--
+
+@DalvLibraryD2-1P4
+* ...Hm. Okay. Hope you have 
+  a good day. And don't 
+  forget your homework.
+>p:DalvPonder
+END

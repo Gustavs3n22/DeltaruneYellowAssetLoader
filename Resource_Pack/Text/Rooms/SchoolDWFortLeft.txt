@@ -1,0 +1,309 @@
+@BearFortBBall1
+>setflag:BBallTalk1
+* Hey, you, girl.
+>talk:BBallDarkner
+.
+* H-huh?
+* Me...?
+>p:KanakoDumb
+.
+* Who else? What you doing
+  here?
+* We are on high alert.
+>talk:BBallDarkner
+.
+* Lightners were spotted around!
+* Lord Bearing is going CRAZY
+  hunting them!
+>talk:BBallDarkner
+.
+>redirect:WeirdStart:BBallTalkWeird1
+* Ah, um, is that so...
+>p:KanakoDumb
+.
+* Yeah, so watch out and
+  return to your post!
+>talk:BBallDarkner
+>prompt:I'll be@on my way:I need@to pass
+>promptredirect:BBallP1:BBallP2
+END
+
+-----
+
+@BBallTalk1.5
+* Huh? You still here?
+>talk:BBallDarkner
+>prompt:I'll be@on my way:I need@to pass
+>promptredirect:BBallP1:BBallP2
+END
+
+-----
+
+@BBallRepeat
+* Wanna give it another go?
+>talk:BBallDarkner
+>prompt:Yes:No
+>promptredirect:BBallRetry:BBallP1
+END
+
+-----
+
+@BBallP1
+* Hmph. Kids.
+>talk:BBallDarkner
+END
+
+-----
+
+@BBallP2
+* Huh? Why?
+>talk:BBallDarkner
+.
+* Err, we have to check
+  the fountain...?
+>p:KanakoNervous
+.
+* HUH?!?!?!?
+* No one can get to the fountain!
+* What are you THINKING?!
+>talk:BBallDarkner
+.
+* Uh, no!
+* I meant the water
+  fountain!!
+>p:KanakoDumb
+.
+* Oh. Sorry.
+* I've been a bit on edge.
+>talk:BBallDarkner
+.
+* If that's the case, I'll open
+  the path for you.
+>talk:BBallDarkner
+.
+* All you have to do is hit 10
+  targets before the time ends.
+>talk:BBallDarkner
+.
+* But if you're hit, you lose
+  a point.
+>talk:BBallDarkner
+.
+* Huh?
+>p:KanakoDumb
+.
+* You new here or something?
+* We changed the protocols!
+* Lightners are DANGEROUS!
+>talk:BBallDarkner
+.
+* Tell your friend down there
+  to help! I'll toss the targets,
+  and then yer just shoot them!
+>talk:BBallDarkner
+.
+* Stay out of the way, lady!
+>talk:BBallDarkner
+.
+* W-wait!
+* What's going on?!
+>p:KanakoDumb
+.
+* Heads up!
+>talk:BBallDarkner
+END
+
+-----
+
+@BBallInstructions
+(Use [INTERACT] to shoot)
+(Use [DIRECTIONS] to move)
+END
+
+-----
+
+@BBallRetry
+* Do better this time!
+>talk:BBallDarkner
+END
+
+-----
+
+@BBallLost
+* Terrible!
+>talk:BBallDarkner
+>top
+.
+* No passage for you!
+>talk:BBallDarkner
+>top
+END
+
+-----
+
+@BBallLost2
+* ...Hmph!
+>talk:BBallDarkner
+>top
+END
+
+-----
+
+@BBallPity
+* Sigh... Alright.
+* One more try.
+>p:KanakoOffended
+.
+* Well, listen, kiddo. I see
+  you both are really bad at
+  this.
+>talk:BBallDarkner
+.
+* You don't seem like bad people,
+  so I will let you two pass.
+>talk:BBallDarkner
+.
+* Uh, you sure it's fine?
+>p:KanakoPuff
+.
+* Yeah, yeah. Just go ahead.
+* I'll open the bridge up.
+* Be on your way.
+>talk:BBallDarkner
+.
+* (...At least I won't
+  get more basketballs
+  on my face...)
+>p:KanakoNervous
+END
+
+-----
+
+@BBallPityAngry1
+* Hey, what was that?
+* Are you even trying?
+* Well, do it aga-
+>talk:BBallDarkner
+END
+
+-
+
+@BBallPityAngry2
+* Enough.
+>p:KanakoAngry
+.
+* I'm tired of this 
+  nonsense.
+* Just let us pass.
+>p:KanakoAngry
+.
+* Listen, girlie, I have a job
+  to do, that is to protect
+  the bridge. If you can't be-
+>talk:BBallDarkner
+END
+
+-
+
+@BBallPityAngry3
+* SHUT UP! I'M TIRED
+  OF ALL THIS TRASH!
+>p:KanakoAngry3
+.
+* I JUST WANT TO GO
+  HOME!!
+>p:KanakoAngry3
+.
+* ...
+>talk:BBallDarkner
+>anim:Kanako:Angry2
+.
+* Fine, FINE. Geez, girl.
+* You gotta calm down a bit.
+>talk:BBallDarkner
+>anim:BBallDarkner:Idle
+.
+* I'll open the bridge, 
+  alright?
+* Jeez.
+>talk:BBallDarkner
+END
+
+-----
+
+@BBallWon
+* HM!
+>talk:BBallDarkner
+>top
+.
+* Not bad!
+>talk:BBallDarkner
+>top
+.
+* Alright, I'll open the
+  bridge for you.
+>talk:BBallDarkner
+>top
+END
+
+-----
+
+@PencellerBBallRoom
+* Yeah, I was the one shooting
+  you with the pencil.
+>talk:caller
+.
+* Sorry. Just doin' my job.
+>talk:caller
+END
+
+-----
+
+@BBallAfter
+* Path's open. You're free to go.
+>talk:BBallDarkner
+.
+* Just watch out for those
+  lightners!
+>talk:BBallDarkner
+END
+
+-----
+
+@KanakoBBallRoom
+* A chasm... Guess
+  we have to split up
+  again to find a way.
+>p:KanakoNeutral
+.
+* Hope you don't miss
+  me while I'm gone!
+>p:KanakoTongue
+END
+
+-----
+
+@KanakoBBallLost
+* Ow... I think my
+  face got smushed...
+>p:KanakoDumb
+.
+* Cole! You gotta do
+  your part!
+* Do better!
+>p:KanakoTongue
+END
+
+-----
+
+@KanakoBBallWon
+* That was fun!
+>p:KanakoHappy
+.
+* ...
+>p:KanakoNormal
+.
+* Okay, it wasn't
+  that fun.
+>p:KanakoPuff
+END

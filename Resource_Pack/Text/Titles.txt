@@ -1,0 +1,12 @@
+Human:Body contains a human SOUL.
+Monster:Body contains a monster SOUL.
+Robot:Artificial being. Doesn't have a SOUL.
+Leader:Commands the party with various ACTs.
+Moss Finder:Basic moss-finding abilities.
+Judge:Judges criminals.
+Executioner:Executes criminals.
+Magic Warrior:Hits hard but supports with magic.
+Demoted Bot:Was huge, now small again.
+Fluffy Being:Looks very cuddly.
+Protector:Tasked to keep Kanako safe.
+Trash Inspector:Always checks trash cans.

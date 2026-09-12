@@ -1,0 +1,142 @@
+@PuzzleInstructionCh1
+* "The path shall not open unless
+  the crates are in position.
+>redirect:FirstPuzzleSign:PuzzleInstructionCh1_2
+.
+* "How to set the crates,
+  you may ask?"
+.
+* "Press the [INTERACT] button on 
+  them, obviously."
+.
+* "Now you may ask, what is the
+  [INTERACT] button?"
+.
+* "It's the same button you used
+  to read this sign, dummy."
+>setflag:FirstPuzzleSign
+END
+
+-----
+
+@PuzzleInstructionCh1_2
+* "What's that? There aren't 
+  enough crates?"
+.
+* "If that's the case, then how 
+  about you become the crate, 
+  then?"
+END
+
+---
+
+@SignAfterPuzzle
+* "In the darkness they lurk."
+* "The ones always watching."
+.
+* "Watch your step."
+END
+
+--------
+
+@SignAfterPuzzle2
+* "What will you choose?"
+* "FIGHT? Or SPARE?"
+.
+* "Whatever it is, keep in mind: 
+  your destination is 
+  ultimately the same."
+.
+* "You can no longer turn back."
+END
+
+-------
+
+@RunReminder
+* "In this land, walking slowly
+  might get you killed."
+.
+* "Remember to hold [CANCEL] to
+  run."
+.
+* "(Unless you changed it in
+  the settings.)"
+END
+
+-------
+
+@SignItemTutorial
+* "In the chest there is a 
+  refreshing item."
+* "Recover your strength."
+.
+* "Press [MENU] to open the
+  menu and use your item."
+END
+
+------
+
+@SignBeforeKanako2
+* "Sometimes, one must look 
+  between the lines to find 
+  the path ahead."
+END
+
+-----
+
+@Thing1
+[shake]* ......
+>slow:4
+>bleep:DarkBeing
+.
+[shake]* ...Mine.
+>slow:4
+>bleep:DarkBeing
+.
+[shake]* ...Want...?
+>slow:4
+>bleep:DarkBeing
+.
+[shake]* ...Light...
+>slow:4
+>bleep:DarkBeing
+.
+[shake]* ...Give... 
+* Your... Light...
+>slow:4
+>bleep:DarkBeing
+.
+* (You feel like this might be
+  [color=red]a really bad idea.[/color])
+.
+* (Give your light?)
+>prompt:Give:Do not
+END
+
+--
+
+@ScarfGet
+* (You got the [color=yellow]Dark Shot[/color].)
+>sound:snd_item_ch1.wav
+END
+
+--
+
+@SaveHard
+>heal
+* You can still see the light,
+  but you no longer feel its
+  warmth.
+.
+* [color=red]Save Points can no longer
+  heal you.
+>callSave
+END
+
+--
+
+@HardModeHint
+* "...In the first room..."
+.
+* "Go back even further."
+END

@@ -1,0 +1,164 @@
+@Intro
+* Hey, hey! Good to see
+  you two again!
+* What can I getcha?
+
+@Intro2
+* Anything else,
+  my chums?
+
+@TalkMenu
+* What's up?
+
+@TalkMenu2
+* What else
+  interests
+  you?
+
+@BuyCancel
+* Changed
+  your mind?
+
+@BuyConfirmed
+* Thanks a
+  bunch!
+
+@BuyFull
+* You can't
+  carry  it,
+  bud.
+
+@BuyMoney
+* You can't
+  afford
+  it, bud.
+
+@BuyMenu
+* Gander
+  at my
+  wares!
+
+@BuyMenu2
+* Anything
+  else?
+
+@SellMenu
+* What are
+  you sell-
+  ing?
+
+@SellDontHave
+* You don't
+  have any-
+  thing!
+
+@SellChoose
+* What is
+  it?
+
+@SellConfirmed
+* Thanks a
+  bunch!
+
+@Exit
+* Come back soon, you lot!
+* Thanks for the patronage!
+
+@Topic1
+Dark Prison
+
+@Topic2
+Yourself
+
+@Topic3
+Where wares come from?
+
+@Topic4
+The Warden
+
+-
+
+@TalkTopic1
+* Ah yes, never heard of this 
+  place before really.
+BREAK
+* But apperently Pennilton was 
+  here once?
+* Known him for quite a bit but
+  he never mentioned here 
+  before.
+BREAK
+* I mean, I wouldn't either.
+* Not much glamours in being 
+  publicly known as an outlaw.
+BREAK
+* But don't you find it weird 
+  that this place is a bit 
+  small for being an entire 
+  Dark World of its own?
+BREAK
+* Might investigate it later, 
+  when the Warden isn't onto me.
+
+-
+
+@TalkTopic2
+* Me? You already know.
+* Used to run a nice game at 
+  Bearing's, now I'm stuck here.
+BREAK
+* The door doesn't take me 
+  back to Bearing's Domain no 
+  matter how hard I try.
+* Spooky!
+BREAK
+* It's like the entire place 
+  ceased to be or something.
+
+-
+
+@TalkTopic3
+* That, my friends, is a trade 
+  secret!
+* Can't just go on revealing my
+  suppliers now, can I?
+BREAK
+* But don't you worry your 
+  little heads!
+* I have plenty of stuff that 
+  could interest you!
+BREAK
+* And who knows, maybe I even 
+  have stuff you lost once.
+BREAK
+* Just don't ask me how I got 
+  my hands on it.
+
+-
+
+@TalkTopic4
+* The guy with the hat down 
+  there?
+* Total weirdo.
+BREAK
+* Isn't like any other Darkner 
+  I've seen.
+* And I've seen some freaks!
+BREAK
+* Always "Justice this, justice 
+  that".
+* Won't shut up about it.
+BREAK
+* He didn't have any problems 
+  with me moving in, was just 
+  annoyed but it's not like I 
+  can return now.
+BREAK
+* Though I've seen him sneaking 
+  into that big locked room 
+  down the middle a few times.
+* Dunno what's behind it, 
+  though.
+BREAK
+* ...Kinda don't want to find 
+  out.

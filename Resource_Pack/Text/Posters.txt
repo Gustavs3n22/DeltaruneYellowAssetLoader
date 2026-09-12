@@ -1,0 +1,41 @@
+@Bearing
+text:[center]WANTED: LORD BEARING THE TYRANT[/center]\n\nRuler of Bearing's Domain. Is known to punish those that disagree with him. Hates lightners with a passion.\n\nCrimes: Tyrany, torture, gouging prices and terrorizing wildlife.
+missflag:112
+captureFlag:48
+deadFlag:62
+
+@Pennilton
+text:[center]WANTED: PENNILTON THE PINCHER[/center]\n\nThis darkner has been involved into multiple thefts in 3 different Dark Worlds. If you see him, do not accept his offers no matter what.\n\nCrimes: Stealing, arson and styling his mustache without a permit.
+missFlag:112
+captureFlag:44
+deadFlag:60
+
+@BellBoss
+text:[center]WANTED: RINGO THE TORTURER[/center]\n\nThe tone deaf maestro of Bearing's army. While he is short on words, he makes up with the noise his head can produce.\n\nCrimes: Being a nuisance, noise outside allowed hours and noise near sensitive areas.
+missFlag:112
+captureFlag:46
+deadFlag:59
+
+@Toaster
+text:[center]WANTED: TOSTER THE POSER[/center]\n\nA fugitive from another Dark World, managed to climb to the top by rigging and cheating elections.\n\nCrimes: Rigging elections, fraud, jaywalking.
+needFlag:155
+missFlag:379
+captureFlag:486
+
+@RedLetter
+text:[center]WANTED: ?????[/center]\n\nDetails unknown. 
+needFlag:99999
+missFlag:99999
+deadFlag:99999
+
+@BunBun
+text:[center]WANTED: ?????[/center]\n\nDetails unknown. Witness reports state this darkner has been using a metal bat to beat up innocent people. Wears a cloak.\n\nCrimes: Assault with Weapon, harassment, deceiving locals.
+needFlag:155
+missFlag:379
+captureFlag:500
+
+@CoffeeGuy
+text:[center]WANTED: ?????[/center]\n\nDetails unknown. Subject is suspected of having a huge network of illicit substances that is altering the minds of innocent darkners.\n\nCrimes: Possible substance abuse, deceiving locals, mafia tactics.
+needFlag:155
+missFlag:379
+captureFlag:503
