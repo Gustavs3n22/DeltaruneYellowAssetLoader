@@ -7,7 +7,7 @@ This is a simple mod for DrY that allows you to easily edit sprites, text and au
 
 ## Installation and first steps
 
-You can find edit-ready archives in [the release page]([https://github.com/KoBeWi/Godot-Universal-Mod-Manager](https://github.com/Gustavs3n22/DeltaruneYellowAssetLoader/releases)).
+You can find edit-ready archives on [the release page](https://github.com/Gustavs3n22/DeltaruneYellowAssetLoader/releases).
 
 Extract the archive and move contents of DeltaruneYellowAssetLoader folder into Deltarune Yellow's root folder (if you've done it correctly, override.cfg file would be in the same folder as Deltarune Yellow.exe).
 
