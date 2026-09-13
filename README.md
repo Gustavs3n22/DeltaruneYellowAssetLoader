@@ -19,6 +19,8 @@ Inside your game folder you can now find Resource_Pack folder. Open it and go di
 
 If you want to replace audio, go to your Resource_Pack folder, And then to Audio folder. There you will find subfolders with every sound used in game. Same logic as sprites applies: replace the sound file with a file of exact same extention (.ogg, .mp3 or .wav depending on a file you're swapping) and exact same file name.
 
+>NOTE: After you're done, delete every unchanged audio file to debloat your resource pack and make it easier to distribute
+
 ## Changing text
 
 ### Quick start

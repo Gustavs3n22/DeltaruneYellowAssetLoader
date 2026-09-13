@@ -89,15 +89,14 @@ func _initialize(scene_tree: SceneTree) -> void:
 
 	scan_directory(text_source, all_txts)
 	var language = read_mod_cfg("res://Resource_Pack/mod.cfg")
-	var current_language = "na"
-	if language != "na":
-		current_language = "Text_" + language
-
-	var text_target = "user://Text/" + current_language
+	var text_target = "user://Text/Text_" + language
 	print()
 	print("Reading language from mod.cfg: ", language)
+	print()
 
-	if language == "remove":
+	if language == "na":
+		pass
+	elif language == "remove":
 		remove_all_folders("user://Text/")
 		print("WARNING: language setting set to 'remove', ALL language packs in deltarune yellow's appdata folder were removed!")
 	else:
@@ -132,31 +131,36 @@ func _initialize(scene_tree: SceneTree) -> void:
 	# AUDIO
 	var all_sounds : Array = []
 	var global_sounds_path = ProjectSettings.globalize_path("res://Resource_Pack/Audio")
-	scan_directory(global_sounds_path, all_sounds)
-	print()
+	if DirAccess.dir_exists_absolute(global_sounds_path):
+		scan_directory(global_sounds_path, all_sounds)
 
-	for file in all_sounds:
-		var found_slash_one: int = file.find("/")
-		var dst_file_one: String = file.substr(found_slash_one + 1)
-		var found_slash_two: int = dst_file_one.find("/")
-		var dst_file: String = dst_file_one.substr(found_slash_two + 1)
-
-		var ext: String = file.get_extension()
-		if ext == "ogg":
-			print("Found ogg file: ", file)
-			var modded_audio = AudioStreamOggVorbis.load_from_file(file)
-			replace_resource_at("res://Audio/" + dst_file, modded_audio)
-			print("Successfully replaced sound: ", "res://Audio/" + dst_file)
-		elif ext == "mp3":
-			print("Found mp3 file: ", file)
-			var modded_audio = AudioStreamMP3.load_from_file(file)
-			replace_resource_at("res://Audio/" + dst_file, modded_audio)
-			print("Successfully replaced sound: ", "res://Audio/" + dst_file)
-		elif ext == "wav":
-			print("Found wav file: ", file)
-			var modded_audio = AudioStreamWAV.new()
-			modded_audio.data = FileAccess.get_file_as_bytes(file)
-			replace_resource_at("res://Audio/" + dst_file, modded_audio)
-			print("Successfully replaced sound: ", "res://Audio/" + dst_file)
+		if all_sounds.is_empty():
+			print()
+			print("No audio files found. Skipping")
 		else:
-			print("WARNING: file ", file, "is not ogg, mp3 or wav. Unsupported format is skipped")
+			for file in all_sounds:
+				var dst_file: String = file.trim_prefix("Resource_Pack/Audio/")
+				var ext: String = file.get_extension().to_lower()
+
+				if ext == "ogg":
+					print("Found ogg file: ", file)
+					var modded_audio = AudioStreamOggVorbis.load_from_file(file)
+					replace_resource_at("res://Audio/" + dst_file, modded_audio)
+					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
+				elif ext == "mp3":
+					print("Found mp3 file: ", file)
+					var modded_audio = AudioStreamMP3.load_from_file(file)
+					replace_resource_at("res://Audio/" + dst_file, modded_audio)
+					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
+				elif ext == "wav":
+					print("Found wav file: ", file)
+					var modded_audio = AudioStreamWAV.new()
+					modded_audio.data = FileAccess.get_file_as_bytes(file)
+					replace_resource_at("res://Audio/" + dst_file, modded_audio)
+					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
+				else:
+					print("WARNING: file ", file, "is not ogg, mp3 or wav. Unsupported format is skipped")
+
+	else:
+		print()
+		print("Audio directory not found, skipping scan.")
