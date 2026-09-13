@@ -17,6 +17,8 @@ Before you start editing assets you should visit mod.cfg file inside Resource_Pa
 
 Inside your game folder you can now find Resource_Pack folder. Open it and go directly into Sprites folder. There you will find every .png file that is currently used by DrY. You can put your spritesheet in place of any of the files, but make sure your new spritesheet file has the EXACT same name as one you're replacing!!
 
+>NOTE: You can delete unchanged png files from your resource pack to make it mixable with other resource packs that actually use them (just drag and drop different project's sprite files to apply them to an existing resource pack)
+
 ## Changing audio
 
 If you want to replace audio, go to your Resource_Pack folder, And then to Audio folder. There you will find subfolders with every sound used in game. Same logic as sprites applies: replace the sound file with a file of exact same extention (.ogg, .mp3 or .wav depending on a file you're swapping) and exact same file name.
