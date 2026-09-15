@@ -7,6 +7,8 @@ This is a simple mod for DrY that allows you to easily edit sprites, text and au
 
 ## Installation and first steps
 
+You can find edit-ready archives on [the release page](https://github.com/Gustavs3n22/DeltaruneYellowAssetLoader/releases).
+
 Extract the archive and move contents of DeltaruneYellowAssetLoader folder into Deltarune Yellow's root folder (if you've done it correctly, override.cfg file would be in the same folder as Deltarune Yellow.exe).
 
 Before you start editing assets you should visit mod.cfg file inside Resource_Pack folder. There you will find 4 variables: name of the project, description, language and version. All of them are currently cosmetic except language. If you are NOT going to edit text files, please leave language as "na", that way the mod won't create unnecessary language folder in appdata (more on that in "Changing text" paragraph)
@@ -14,6 +16,8 @@ Before you start editing assets you should visit mod.cfg file inside Resource_Pa
 ## Changing sprites
 
 Inside your game folder you can now find Resource_Pack folder. Open it and go directly into Sprites folder. There you will find every .png file that is currently used by DrY. You can put your spritesheet in place of any of the files, but make sure your new spritesheet file has the EXACT same name as one you're replacing!!
+
+>NOTE: You can delete unchanged png files from your resource pack to make it mixable with other resource packs that actually use them (just drag and drop different project's sprite files to apply them to an existing resource pack)
 
 ## Changing audio
 
