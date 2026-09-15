@@ -156,12 +156,15 @@ func _initialize(scene_tree: SceneTree) -> void:
 
 				if ext == "ogg":
 					print("Found ogg file: ", file)
-					var modded_audio = AudioStreamOggVorbis.load_from_file(file)
+					var modded_audio: AudioStreamOggVorbis = AudioStreamOggVorbis.load_from_file(file)
+					modded_audio.loop = true
+					modded_audio.loop_offset = 0.0
 					replace_resource_at("res://Audio/" + dst_file, modded_audio)
 					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
 				elif ext == "mp3":
 					print("Found mp3 file: ", file)
-					var modded_audio = AudioStreamMP3.load_from_file(file)
+					var modded_audio: AudioStreamMP3 = AudioStreamMP3.load_from_file(file)
+					modded_audio.loop = true
 					replace_resource_at("res://Audio/" + dst_file, modded_audio)
 					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
 				elif ext == "wav":
