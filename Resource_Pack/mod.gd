@@ -56,6 +56,23 @@ func remove_all_folders(path: String) -> bool:
 	DirAccess.remove_absolute(path)
 	return true
 
+func read_u16(arr: PackedByteArray, pos: int) -> int:
+	return int(arr[pos]) | (int(arr[pos + 1]) << 8)
+
+func read_u32(arr: PackedByteArray, pos: int) -> int:
+	return int(arr[pos]) | (int(arr[pos + 1]) << 8) | (int(arr[pos + 2]) << 16) | (int(arr[pos + 3]) << 24)
+
+func read_s32(arr: PackedByteArray, pos: int) -> int:
+	var v: int = read_u32(arr, pos)
+	if v & 0x80000000 != 0:
+		v -= 0x100000000
+	return v
+
+func read_f32(arr: PackedByteArray, pos: int) -> float:
+	var peer := StreamPeerBuffer.new()
+	peer.data_array = arr.slice(pos, pos + 4)
+	return peer.get_float()
+
 
 func _initialize(scene_tree: SceneTree) -> void:
 	print("Resource Pack Initializing...")
@@ -169,27 +186,6 @@ func _initialize(scene_tree: SceneTree) -> void:
 					if bytes.size() < 44:
 						print("Invalid wav (too small): ", file)
 						continue
-
-					func read_u16(arr: PackedByteArray, pos: int) -> int:
-						return arr[pos] | (arr[pos + 1] << 8)
-
-					func read_u32(arr: PackedByteArray, pos: int) -> int:
-						return arr[pos] | (arr[pos + 1] << 8) | (arr[pos + 2] << 16) | (arr[pos + 3] << 24)
-
-					func read_s32(arr: PackedByteArray, pos: int) -> int:
-						var v := read_u32(arr, pos)
-						if v & 0x80000000:
-							v -= 0x100000000
-						return v
-
-					func read_f32(arr: PackedByteArray, pos: int) -> float:
-						var bb := ByteArray()
-						bb.resize(4)
-						bb[0] = bytes[pos]
-						bb[1] = bytes[pos + 1]
-						bb[2] = bytes[pos + 2]
-						bb[3] = bytes[pos + 3]
-						return bb.decode_float(0)
 
 					# RIFF/WAVE
 					if bytes.slice(0, 4).get_string_from_ascii() != "RIFF" or bytes.slice(8, 12).get_string_from_ascii() != "WAVE":
