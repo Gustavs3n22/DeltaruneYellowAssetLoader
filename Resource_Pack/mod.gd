@@ -154,13 +154,57 @@ func _initialize(scene_tree: SceneTree) -> void:
 					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
 				elif ext == "wav":
 					print("Found wav file: ", file)
-					var modded_audio = AudioStreamWAV.new()
-					modded_audio.data = FileAccess.get_file_as_bytes(file)
-					replace_resource_at("res://Audio/" + dst_file, modded_audio)
+
+					var wav_file := FileAccess.open(file, FileAccess.READ)
+					if wav_file == null:
+						print("Failed to open wav: ", file)
+						continue
+
+					var bytes := wav_file.get_buffer(wav_file.get_length())
+					wav_file.close()
+
+					if bytes.size() < 44:
+						print("Invalid wav (too small): ", file)
+						continue
+
+					var riff := bytes.slice(0, 4).get_string_from_ascii()
+					var wave := bytes.slice(8, 12).get_string_from_ascii()
+					if riff != "RIFF" or wave != "WAVE":
+						print("Not a valid wav file: ", file)
+						continue
+
+					var num_channels := bytes.decode_u16(22)
+					var sample_rate := bytes.decode_u32(24)
+					var bits_per_sample := bytes.decode_u16(34)
+
+					var data_pos := -1
+					for i in range(12, bytes.size() - 8):
+						if bytes.decode_u8(i) == 100 and bytes.decode_u8(i + 1) == 97 and bytes.decode_u8(i + 2) == 116 and bytes.decode_u8(i + 3) == 97:
+							data_pos = i
+							break
+
+					if data_pos == -1:
+						print("No data chunk found in wav: ", file)
+						continue
+
+					var data_size := bytes.decode_u32(data_pos + 4)
+					var pcm_start := data_pos + 8
+					if pcm_start + data_size > bytes.size():
+						print("Invalid wav data size: ", file)
+						continue
+
+					var pcm := bytes.slice(pcm_start, pcm_start + data_size)
+
+					var sound := AudioStreamWAV.new()
+					sound.data = pcm
+					sound.format = AudioStreamWAV.FORMAT_16_BITS if bits_per_sample == 16 else AudioStreamWAV.FORMAT_8_BITS
+					sound.mix_rate = sample_rate
+					sound.stereo = num_channels == 2
+
+					replace_resource_at("res://Audio/" + dst_file, sound)
 					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
 				else:
 					print("WARNING: file ", file, "is not ogg, mp3 or wav. Unsupported format is skipped")
-
 	else:
 		print()
 		print("Audio directory not found, skipping scan.")
