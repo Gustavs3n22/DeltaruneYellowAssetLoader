@@ -62,16 +62,11 @@ func read_u16(arr: PackedByteArray, pos: int) -> int:
 func read_u32(arr: PackedByteArray, pos: int) -> int:
 	return int(arr[pos]) | (int(arr[pos + 1]) << 8) | (int(arr[pos + 2]) << 16) | (int(arr[pos + 3]) << 24)
 
-func read_s32(arr: PackedByteArray, pos: int) -> int:
-	var v: int = read_u32(arr, pos)
-	if v & 0x80000000 != 0:
-		v -= 0x100000000
-	return v
-
 func read_f32(arr: PackedByteArray, pos: int) -> float:
 	var peer := StreamPeerBuffer.new()
 	peer.data_array = arr.slice(pos, pos + 4)
 	return peer.get_float()
+
 
 
 func _initialize(scene_tree: SceneTree) -> void:
@@ -169,9 +164,6 @@ func _initialize(scene_tree: SceneTree) -> void:
 					var modded_audio = AudioStreamMP3.load_from_file(file)
 					replace_resource_at("res://Audio/" + dst_file, modded_audio)
 					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
-
-
-					
 				elif ext == "wav":
 					print("Found wav file: ", file)
 
@@ -187,7 +179,6 @@ func _initialize(scene_tree: SceneTree) -> void:
 						print("Invalid wav (too small): ", file)
 						continue
 
-					# RIFF/WAVE
 					if bytes.slice(0, 4).get_string_from_ascii() != "RIFF" or bytes.slice(8, 12).get_string_from_ascii() != "WAVE":
 						print("Not a valid wav: ", file)
 						continue
@@ -205,7 +196,7 @@ func _initialize(scene_tree: SceneTree) -> void:
 					var i := 12
 					while i + 8 <= bytes.size():
 						var chunk_id := bytes.slice(i, i + 4).get_string_from_ascii()
-						var chunk_size := read_u32(bytes, i + 4)
+						var chunk_size: int = read_u32(bytes, i + 4)
 						var chunk_data := i + 8
 
 						if chunk_data + chunk_size > bytes.size():
@@ -236,38 +227,20 @@ func _initialize(scene_tree: SceneTree) -> void:
 					var pcm := PackedByteArray()
 
 					if audio_format == 1:
-						if bits_per_sample == 8:
+						# PCM
+						if bits_per_sample == 16:
 							pcm = bytes.slice(data_pos, data_pos + data_size)
-
-						elif bits_per_sample == 16:
-							pcm = bytes.slice(data_pos, data_pos + data_size)
-
-						elif bits_per_sample == 24:
-							var sample_count := data_size / 3
+						elif bits_per_sample == 8:
+							# Convert unsigned 8-bit PCM to signed 16-bit PCM
+							var sample_count := data_size
 							pcm.resize(sample_count * 2)
 							var out_i := 0
 							for s in range(sample_count):
-								var in_i := data_pos + s * 3
-								var sample := bytes[in_i] | (bytes[in_i + 1] << 8) | (bytes[in_i + 2] << 16)
-								if sample & 0x800000:
-									sample |= 0xFF000000
-								sample = clampi(sample >> 8, -32768, 32767)
-								pcm[out_i] = sample & 0xFF
-								pcm[out_i + 1] = (sample >> 8) & 0xFF
+								var u8 := int(bytes[data_pos + s])
+								var sample_i := (u8 - 128) << 8
+								pcm[out_i] = sample_i & 0xFF
+								pcm[out_i + 1] = (sample_i >> 8) & 0xFF
 								out_i += 2
-
-						elif bits_per_sample == 32:
-							var sample_count := data_size / 4
-							pcm.resize(sample_count * 2)
-							var out_i := 0
-							for s in range(sample_count):
-								var in_i := data_pos + s * 4
-								var sample := read_s32(bytes, in_i)
-								sample = clampi(sample >> 16, -32768, 32767)
-								pcm[out_i] = sample & 0xFF
-								pcm[out_i + 1] = (sample >> 8) & 0xFF
-								out_i += 2
-
 						else:
 							print("Unsupported PCM bit depth: ", bits_per_sample, " in ", file)
 							continue
@@ -280,20 +253,14 @@ func _initialize(scene_tree: SceneTree) -> void:
 						var sample_count := data_size / 4
 						pcm.resize(sample_count * 2)
 						var out_i := 0
+
 						for s in range(sample_count):
 							var in_i := data_pos + s * 4
-							var bb := ByteArray()
-							bb.resize(4)
-							bb[0] = bytes[in_i]
-							bb[1] = bytes[in_i + 1]
-							bb[2] = bytes[in_i + 2]
-							bb[3] = bytes[in_i + 3]
-							var sample_f := bb.decode_float(0)
+							var sample_f := read_f32(bytes, in_i)
 							var sample_i := int(clampf(sample_f, -1.0, 1.0) * 32767.0)
 							pcm[out_i] = sample_i & 0xFF
 							pcm[out_i + 1] = (sample_i >> 8) & 0xFF
 							out_i += 2
-
 					else:
 						print("Unsupported WAV format: ", audio_format, " in ", file)
 						continue
@@ -301,7 +268,7 @@ func _initialize(scene_tree: SceneTree) -> void:
 					var sound := AudioStreamWAV.new()
 					sound.data = pcm
 					sound.mix_rate = sample_rate
-					sound.stereo = num_channels == 2
+					sound.stereo = (num_channels == 2)
 					sound.loop_mode = AudioStreamWAV.LOOP_DISABLED
 					sound.format = AudioStreamWAV.FORMAT_16_BITS
 
