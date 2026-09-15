@@ -152,59 +152,169 @@ func _initialize(scene_tree: SceneTree) -> void:
 					var modded_audio = AudioStreamMP3.load_from_file(file)
 					replace_resource_at("res://Audio/" + dst_file, modded_audio)
 					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
+
+
+					
 				elif ext == "wav":
 					print("Found wav file: ", file)
 
-					var wav_file := FileAccess.open(file, FileAccess.READ)
-					if wav_file == null:
+					var f := FileAccess.open(file, FileAccess.READ)
+					if f == null:
 						print("Failed to open wav: ", file)
 						continue
 
-					var bytes := wav_file.get_buffer(wav_file.get_length())
-					wav_file.close()
+					var bytes := f.get_buffer(f.get_length())
+					f.close()
 
 					if bytes.size() < 44:
 						print("Invalid wav (too small): ", file)
 						continue
 
-					var riff := bytes.slice(0, 4).get_string_from_ascii()
-					var wave := bytes.slice(8, 12).get_string_from_ascii()
-					if riff != "RIFF" or wave != "WAVE":
-						print("Not a valid wav file: ", file)
+					func read_u16(arr: PackedByteArray, pos: int) -> int:
+						return arr[pos] | (arr[pos + 1] << 8)
+
+					func read_u32(arr: PackedByteArray, pos: int) -> int:
+						return arr[pos] | (arr[pos + 1] << 8) | (arr[pos + 2] << 16) | (arr[pos + 3] << 24)
+
+					func read_s32(arr: PackedByteArray, pos: int) -> int:
+						var v := read_u32(arr, pos)
+						if v & 0x80000000:
+							v -= 0x100000000
+						return v
+
+					func read_f32(arr: PackedByteArray, pos: int) -> float:
+						var bb := ByteArray()
+						bb.resize(4)
+						bb[0] = bytes[pos]
+						bb[1] = bytes[pos + 1]
+						bb[2] = bytes[pos + 2]
+						bb[3] = bytes[pos + 3]
+						return bb.decode_float(0)
+
+					# RIFF/WAVE
+					if bytes.slice(0, 4).get_string_from_ascii() != "RIFF" or bytes.slice(8, 12).get_string_from_ascii() != "WAVE":
+						print("Not a valid wav: ", file)
 						continue
 
-					var num_channels := bytes.decode_u16(22)
-					var sample_rate := bytes.decode_u32(24)
-					var bits_per_sample := bytes.decode_u16(34)
+					var fmt_found := false
+					var data_found := false
 
-					var data_pos := -1
-					for i in range(12, bytes.size() - 8):
-						if bytes.decode_u8(i) == 100 and bytes.decode_u8(i + 1) == 97 and bytes.decode_u8(i + 2) == 116 and bytes.decode_u8(i + 3) == 97:
-							data_pos = i
+					var audio_format := 0
+					var num_channels := 0
+					var sample_rate := 0
+					var bits_per_sample := 0
+					var data_pos := 0
+					var data_size := 0
+
+					var i := 12
+					while i + 8 <= bytes.size():
+						var chunk_id := bytes.slice(i, i + 4).get_string_from_ascii()
+						var chunk_size := read_u32(bytes, i + 4)
+						var chunk_data := i + 8
+
+						if chunk_data + chunk_size > bytes.size():
+							print("Corrupt wav chunk: ", file)
 							break
 
-					if data_pos == -1:
-						print("No data chunk found in wav: ", file)
+						if chunk_id == "fmt ":
+							fmt_found = true
+							audio_format = read_u16(bytes, chunk_data)
+							num_channels = read_u16(bytes, chunk_data + 2)
+							sample_rate = read_u32(bytes, chunk_data + 4)
+							bits_per_sample = read_u16(bytes, chunk_data + 14)
+
+						elif chunk_id == "data":
+							data_found = true
+							data_pos = chunk_data
+							data_size = chunk_size
+							break
+
+						i += 8 + chunk_size
+						if chunk_size % 2 == 1:
+							i += 1
+
+					if not fmt_found or not data_found:
+						print("Missing fmt or data chunk: ", file)
 						continue
 
-					var data_size := bytes.decode_u32(data_pos + 4)
-					var pcm_start := data_pos + 8
-					if pcm_start + data_size > bytes.size():
-						print("Invalid wav data size: ", file)
-						continue
+					var pcm := PackedByteArray()
 
-					var pcm := bytes.slice(pcm_start, pcm_start + data_size)
+					if audio_format == 1:
+						if bits_per_sample == 8:
+							pcm = bytes.slice(data_pos, data_pos + data_size)
+
+						elif bits_per_sample == 16:
+							pcm = bytes.slice(data_pos, data_pos + data_size)
+
+						elif bits_per_sample == 24:
+							var sample_count := data_size / 3
+							pcm.resize(sample_count * 2)
+							var out_i := 0
+							for s in range(sample_count):
+								var in_i := data_pos + s * 3
+								var sample := bytes[in_i] | (bytes[in_i + 1] << 8) | (bytes[in_i + 2] << 16)
+								if sample & 0x800000:
+									sample |= 0xFF000000
+								sample = clampi(sample >> 8, -32768, 32767)
+								pcm[out_i] = sample & 0xFF
+								pcm[out_i + 1] = (sample >> 8) & 0xFF
+								out_i += 2
+
+						elif bits_per_sample == 32:
+							var sample_count := data_size / 4
+							pcm.resize(sample_count * 2)
+							var out_i := 0
+							for s in range(sample_count):
+								var in_i := data_pos + s * 4
+								var sample := read_s32(bytes, in_i)
+								sample = clampi(sample >> 16, -32768, 32767)
+								pcm[out_i] = sample & 0xFF
+								pcm[out_i + 1] = (sample >> 8) & 0xFF
+								out_i += 2
+
+						else:
+							print("Unsupported PCM bit depth: ", bits_per_sample, " in ", file)
+							continue
+
+					elif audio_format == 3:
+						if bits_per_sample != 32:
+							print("Unsupported float WAV bit depth: ", bits_per_sample, " in ", file)
+							continue
+
+						var sample_count := data_size / 4
+						pcm.resize(sample_count * 2)
+						var out_i := 0
+						for s in range(sample_count):
+							var in_i := data_pos + s * 4
+							var bb := ByteArray()
+							bb.resize(4)
+							bb[0] = bytes[in_i]
+							bb[1] = bytes[in_i + 1]
+							bb[2] = bytes[in_i + 2]
+							bb[3] = bytes[in_i + 3]
+							var sample_f := bb.decode_float(0)
+							var sample_i := int(clampf(sample_f, -1.0, 1.0) * 32767.0)
+							pcm[out_i] = sample_i & 0xFF
+							pcm[out_i + 1] = (sample_i >> 8) & 0xFF
+							out_i += 2
+
+					else:
+						print("Unsupported WAV format: ", audio_format, " in ", file)
+						continue
 
 					var sound := AudioStreamWAV.new()
 					sound.data = pcm
-					sound.format = AudioStreamWAV.FORMAT_16_BITS if bits_per_sample == 16 else AudioStreamWAV.FORMAT_8_BITS
 					sound.mix_rate = sample_rate
 					sound.stereo = num_channels == 2
+					sound.loop_mode = AudioStreamWAV.LOOP_DISABLED
+					sound.format = AudioStreamWAV.FORMAT_16_BITS
 
 					replace_resource_at("res://Audio/" + dst_file, sound)
-					print("Successfully replaced sound: ", "res://Audio/" + dst_file)
+					print("Successfully replaced wav: ", file)
+
 				else:
 					print("WARNING: file ", file, "is not ogg, mp3 or wav. Unsupported format is skipped")
+
 	else:
 		print()
 		print("Audio directory not found, skipping scan.")
